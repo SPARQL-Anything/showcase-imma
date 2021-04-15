@@ -1,4 +1,4 @@
-# IMMA data extraction
+# Building a knowledge graph of artists and artoworks of the IMMA museum website
 
 In what follows, `fx` refers to the following command
 ```
