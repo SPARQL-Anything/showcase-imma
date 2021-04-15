@@ -1,0 +1,132 @@
+prefix fx: <http://sparql.xyz/facade-x/ns/>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix xhtml: <http://www.w3.org/1999/xhtml#>
+prefix dom: <https://html.spec.whatwg.org/#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX spice: <https://w3id.org/spice/imma/>
+PREFIX arco: <https://w3id.org/arco/ontology/arco/> 
+PREFIX arco-cd: <https://w3id.org/arco/ontology/context-description/> 
+PREFIX arco-core: <https://w3id.org/arco/ontology/core/> 
+PREFIX dc: <http://purl.org/dc/elements/1.1/> 
+PREFIX schema: <http://schema.org/> 
+
+
+CONSTRUCT {
+	?artefactEntity a schema:CreativeWork ;
+		dc:source ?artworkSourceUrl ;
+		arco-cd:hasInventory ?artworkCatalogueID ;
+		dc:description ?artworkDescription ;
+		schema:creditText ?artworkCreditLine ;
+		schema:size ?artworkDimensions ;
+		schema:maintainer  <https://w3id.org/spice/institute/imma> ;
+		schema:material ?artworkMedium ;
+		schema:version ?artworkEdition ;
+		schema:image ?artefactDocumentation 
+		.
+	?artefactDocumentation a schema:ImageObject ;
+	    schema:caption ?caption ;
+	    schema:copyrightNotice ?copyright ;
+	    schema:url ?imageUrl ;
+		schema:maintainer  <https://w3id.org/spice/institute/imma> 
+		.
+} WHERE {
+	#VALUES ( ?_artworkUrl ?_artworkNickname ) { ( "https://imma.ie/collection/beauty-parlor/" "beauty-parlor") } .
+	# 
+	#BIND( REPLACE(REPLACE( ?_artworkUrl, "https://imma.ie/collection/", "" ), "/", "") AS ?artworkNickname  ) .
+	# 
+	BIND ( IRI( CONCAT("x-sparql-anything:media-type=text/html,location=", ?_artworkUrl) ) as ?artworkFx ) .
+	BIND ( ?_artworkUrl as ?artworkSourceUrl ) .
+	BIND ( IRI( CONCAT("https://w3id.org/spice/imma/artefact/", ?_artworkNickname) ) as ?artefactEntity ) .
+	BIND ( IRI( CONCAT("https://w3id.org/spice/imma/documentation/", ?_artworkNickname ) ) AS ?artefactDocumentation ) .
+	# 
+	#	BIND ( IRI( CONCAT("https://w3id.org/spice/imma/documentation/", ?artworkNickname) ) as ?artefactDocumentation ) .
+	# 
+	SERVICE ?artworkFx {
+	    {
+	    [] xhtml:itemtype "http://schema.org/ImageObject" ;
+	        ?li0987 [ rdf:type xhtml:a ; xhtml:href ?imageUrl ]
+	        .
+	    } UNION {
+		[] xhtml:id "artwork-content" ;
+			rdf:_1 [
+				rdf:type xhtml:p ;
+				rdf:_1 ?artworkDescription
+			]
+		.
+		} UNION {
+		[] rdf:type xhtml:tr ;
+			rdf:_1 [
+				rdf:type xhtml:td ;
+				rdf:_1 "Medium" ;
+			] ;
+			rdf:_2 [
+				rdf:type xhtml:td ;
+				rdf:_1 ?artworkMedium ;
+			] 
+		.
+		} UNION {
+		[] rdf:type xhtml:tr ;
+			rdf:_1 [
+				rdf:type xhtml:td ;
+				rdf:_1 "Dimensions" ;
+			] ;
+			rdf:_2 [
+				rdf:type xhtml:td ;
+				rdf:_1 ?artworkDimensions ;
+			] 
+		.
+		} UNION {
+		[] rdf:type xhtml:tr ;
+			rdf:_1 [
+				rdf:type xhtml:td ;
+				rdf:_1 "Credit Line" ;
+			] ;
+			rdf:_2 [
+				rdf:type xhtml:td ;
+				rdf:_1 ?artworkCreditLine ;
+			] 
+		.
+		} UNION {
+		[] rdf:type xhtml:tr ;
+			rdf:_1 [
+				rdf:type xhtml:td ;
+				rdf:_1 "Edition" ;
+			] ;
+			rdf:_2 [
+				rdf:type xhtml:td ;
+				rdf:_1 ?artworkEdition ;
+			] 
+		.
+		} UNION {
+		[] rdf:type xhtml:tr ;
+			rdf:_1 [
+				rdf:type xhtml:td ;
+				rdf:_1 "Item Number" ;
+			] ;
+			rdf:_2 [
+				rdf:type xhtml:td ;
+				rdf:_1 ?artworkCatalogueID ;
+			] 
+		.
+		} UNION {
+		[] xhtml:class "tags" ;
+			rdf:_1 [
+				rdf:type xhtml:li ;
+				rdf:_1 [
+					?iii ?tag ] ;
+			] 		
+		.
+	    } UNION {
+            [ xhtml:class "annotation expander" ;
+                rdf:_1/xhtml:class "title"  ;
+                rdf:_2/rdf:_1/rdf:_1 ?captionAuthor ;
+                rdf:_2/rdf:_3/rdf:_1 ?captionArt ;
+                rdf:_2/rdf:_4 ?captionRest ;
+                rdf:_2/rdf:_5 [a xhtml:p ; dom:innerText ?copyrightPart ]]
+	    }
+	} .
+	BIND ( CONCAT (?captionAuthor, ", ", ?captionArt, ?captionRest) AS ?caption ) .
+	BIND ( REPLACE (?copyrightPart, ":?\\s*\\[email protected\\]\\s*", "") AS ?copyright ) .
+}
