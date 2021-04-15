@@ -1,0 +1,100 @@
+prefix fx: <http://sparql.xyz/facade-x/ns/>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix xhtml: <http://www.w3.org/1999/xhtml#>
+prefix dom: <https://html.spec.whatwg.org/#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX spice: <https://w3id.org/spice/imma/>
+PREFIX arco: <https://w3id.org/arco/ontology/arco/> 
+PREFIX arco-cd: <https://w3id.org/arco/ontology/context-description/> 
+PREFIX arco-core: <https://w3id.org/arco/ontology/core/> 
+PREFIX dc: <http://purl.org/dc/elements/1.1/> 
+PREFIX schema: <http://schema.org/> 
+
+CONSTRUCT {
+	?artistEntity a foaf:Person ;
+	    rdfs:label ?name ;
+		dc:source ?_artistUrl ;
+		schema:url ?_artistUrl ;
+		schema:birthDate ?dob ;
+		dc:description ?artistDescription
+
+		.
+	?artefactEntity a arco:CulturalProperty, schema:CreativeWork ;
+		dc:creator ?artistEntity ;
+		dc:source ?artistUrl ;
+		schema:url ?artefactUrl ;
+		arco:hasRelatedAgency <https://w3id.org/spice/institute/imma> ; # keeper
+		arco-cd:hasDocumentation ?artefactDocumentation ;
+		arco-cd:hasTitle ?artefactTitle ;
+		schema:author ?artistEntity ;
+		schema:dateCreated ?artefactYear ;
+		arco-cd:hasAuthorshipAttribution ?artefactAttribution
+		.
+    ?artefactAttribution a arco:AuthorshipAttribution ;
+        arco-cd:hasAttributedAuthor ?artistEntity
+        .
+	?artefactDocumentation
+		arco-cd:hasDocumentationType <https://w3id.org/spice/doc_type/catalogue_photograph> ;
+		arco-cd:url ?artefactImageUrl
+}
+# 
+#select ?artistName ?dob ?description ?objectId ?artefactEntity ?artefactUrl ?artefactImageUrl ?artefactTitle ?artworkYear
+#SELECT ?artefactEntity ?artefactUrl ?artefactNickanme ?artefactTitle ?artefactYear ?artefactImageUrl
+WHERE {
+#	VALUES ( ?_artistNickname ?_artistUrl ) {
+#	   # ("banai-nuit" "https://imma.ie/artists/nuit-banai/" )
+#	   # ("armand-gesner" "https://imma.ie/artists/gesner-armand/" )
+#	   # ("armand-gesner" "https://imma.ie/artists/gesner-armand/" )
+#	   # ("abramovic-marina" "https://imma.ie/artists/marina-abramovic/")
+#	} # To be implemented by BASIL variables
+	BIND ( IRI( CONCAT("https://w3id.org/spice/imma/agent/", ?_artistNickname) ) as ?artistEntity ) .
+	BIND ( IRI( CONCAT("x-sparql-anything:media-type=text/html,location=", ?_artistUrl) ) as ?artistFx ) .
+	SERVICE ?artistFx {
+        {
+			[] xhtml:class "low_lrg" ;
+				?li45 [
+					rdf:type xhtml:strong ;
+					rdf:_1 ?name ]
+			.
+		} UNION  {
+            [] xhtml:class "low_lrg" ;
+                ?li2 [
+                    rdf:type xhtml:span ;
+                    rdf:_1 ?dob ]
+            .
+        } UNION {
+			[]
+					xhtml:class "header_para" ;
+					rdf:_1 ?artistDescription
+			.
+		} UNION {
+			?n rdf:type xhtml:div ; #;
+				xhtml:class "col_3 flush grid-item collection-grid-item  " ;
+				xhtml:data-obj ?objectId ;
+				rdf:_1 [
+					rdf:type xhtml:a ;
+					xhtml:href ?artefactUrl ]
+					;
+				rdf:_2 [
+				    rdf:_1/rdf:_1/rdf:_1 ?artefactTitle ;
+				    rdf:_3/rdf:_1 ?artefactYear
+				]
+				.
+			OPTIONAL {
+			    # We may not have an image
+			   ?n rdf:_1/rdf:_1/rdf:_1 [
+						rdf:type xhtml:img ;
+						xhtml:src ?artefactImageUrl ] .
+			    # We have a documentation only if we have an image
+	            BIND ( IRI( CONCAT("https://w3id.org/spice/imma/documentation/", ?artefactNickname ) ) as ?artefactDocumentation ) .
+			}
+    	} UNION {
+		    [] rdf:_1 [ rdf:type xhtml:h2 ] ; rdf:_2 [ rdf:type xhtml:p ; rdf:_1 ?artistDescription ] .
+		}
+        BIND ( REPLACE(REPLACE( ?artefactUrl , 'https://imma.ie/collection/', '' ),"/","") AS ?artefactNickname ) .
+        BIND ( IRI( CONCAT( "https://w3id.org/spice/imma/artefact/", ?artefactNickname ) ) as ?artefactEntity ) .
+        BIND ( IRI( CONCAT( "https://w3id.org/spice/imma/attribution/", ?artefactNickname ) ) as ?artefactAttribution ) .
+	}
+}
