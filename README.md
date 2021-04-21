@@ -23,3 +23,4 @@ Extract data from the artworks' Web pages and build one JSON-LD file each (creat
 ```
 fx -q imma-artwork.sparql -i imma-artworks.xml -p "artworks/?artworkNickname.jsonld" -f json
 ```
+Load into your favourite triple store.
