@@ -1,0 +1,214 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/mara-tim",
+    "@type" : "foaf:Person",
+    "dc:description" : "Dublin-born printmaker Tim Mara attended Wolverhampton Art College and the Royal College of Art, London, where he subsequently became Professor of Printmaking and Head of the School of Fine Art. Widely regarded as an outstanding technician, Mara exhibited in over 80 group shows in the UK, and in more than 50 international exhibitions, including a solo show at IMMA in 2000. Mara’s work is in public and private collections worldwide.",
+    "dc:source" : "https://imma.ie/artists/tim-mara/",
+    "schema:birthDate" : "1948–1997",
+    "schema:url" : "https://imma.ie/artists/tim-mara/",
+    "rdfs:label" : "Tim Mara"
+  }, {
+    "@id" : "spice:artefact/danish-blue",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/mara-tim",
+    "author" : "spice:agent/mara-tim",
+    "schema:dateCreated" : "1978",
+    "schema:url" : "https://imma.ie/collection/danish-blue/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/danish-blue",
+    "arco-cd:hasTitle" : "Danish Blue"
+  }, {
+    "@id" : "spice:artefact/picture-window",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/mara-tim",
+    "author" : "spice:agent/mara-tim",
+    "schema:dateCreated" : "1980",
+    "schema:url" : "https://imma.ie/collection/picture-window/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/picture-window",
+    "arco-cd:hasTitle" : "Picture Window"
+  }, {
+    "@id" : "spice:artefact/portrait-of-girl-with-astrakhan-coat",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/mara-tim",
+    "author" : "spice:agent/mara-tim",
+    "schema:dateCreated" : "1985",
+    "schema:url" : "https://imma.ie/collection/portrait-of-girl-with-astrakhan-coat/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/portrait-of-girl-with-astrakhan-coat",
+    "arco-cd:hasTitle" : "Portrait of Girl with Astrakhan Coat"
+  }, {
+    "@id" : "spice:artefact/portrait-of-woman-with-striped-dress",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/mara-tim",
+    "author" : "spice:agent/mara-tim",
+    "schema:dateCreated" : "1982",
+    "schema:url" : "https://imma.ie/collection/portrait-of-woman-with-striped-dress/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/portrait-of-woman-with-striped-dress",
+    "arco-cd:hasTitle" : "Portrait of Woman with Striped Dress"
+  }, {
+    "@id" : "spice:artefact/power-cuts-imminent",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/mara-tim",
+    "author" : "spice:agent/mara-tim",
+    "schema:dateCreated" : "1975",
+    "schema:url" : "https://imma.ie/collection/power-cuts-imminent/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/power-cuts-imminent",
+    "arco-cd:hasTitle" : "Power Cuts Imminent"
+  }, {
+    "@id" : "spice:artefact/reeded-glass-and-shadow",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/mara-tim",
+    "author" : "spice:agent/mara-tim",
+    "schema:dateCreated" : "1997",
+    "schema:url" : "https://imma.ie/collection/reeded-glass-and-shadow/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/reeded-glass-and-shadow",
+    "arco-cd:hasTitle" : "Reeded Glass and Shadow"
+  }, {
+    "@id" : "spice:artefact/steps",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/mara-tim",
+    "author" : "spice:agent/mara-tim",
+    "schema:dateCreated" : "1997",
+    "schema:url" : "https://imma.ie/collection/steps/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/steps",
+    "arco-cd:hasTitle" : "Steps"
+  }, {
+    "@id" : "spice:artefact/stool-with-press",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/mara-tim",
+    "author" : "spice:agent/mara-tim",
+    "schema:dateCreated" : "1986",
+    "schema:url" : "https://imma.ie/collection/stool-with-press/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/stool-with-press",
+    "arco-cd:hasTitle" : "Stool with Press"
+  }, {
+    "@id" : "spice:artefact/the-launderette",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/mara-tim",
+    "author" : "spice:agent/mara-tim",
+    "schema:dateCreated" : "1976",
+    "schema:url" : "https://imma.ie/collection/the-launderette/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-launderette",
+    "arco-cd:hasTitle" : "The Launderette"
+  }, {
+    "@id" : "spice:artefact/wire-glass-and-carrier-bag",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/mara-tim",
+    "author" : "spice:agent/mara-tim",
+    "schema:dateCreated" : "1996",
+    "schema:url" : "https://imma.ie/collection/wire-glass-and-carrier-bag/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/wire-glass-and-carrier-bag",
+    "arco-cd:hasTitle" : "Wire Glass and Carrier Bag"
+  }, {
+    "@id" : "spice:attribution/danish-blue",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/mara-tim"
+  }, {
+    "@id" : "spice:attribution/picture-window",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/mara-tim"
+  }, {
+    "@id" : "spice:attribution/portrait-of-girl-with-astrakhan-coat",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/mara-tim"
+  }, {
+    "@id" : "spice:attribution/portrait-of-woman-with-striped-dress",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/mara-tim"
+  }, {
+    "@id" : "spice:attribution/power-cuts-imminent",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/mara-tim"
+  }, {
+    "@id" : "spice:attribution/reeded-glass-and-shadow",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/mara-tim"
+  }, {
+    "@id" : "spice:attribution/steps",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/mara-tim"
+  }, {
+    "@id" : "spice:attribution/stool-with-press",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/mara-tim"
+  }, {
+    "@id" : "spice:attribution/the-launderette",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/mara-tim"
+  }, {
+    "@id" : "spice:attribution/wire-glass-and-carrier-bag",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/mara-tim"
+  } ],
+  "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

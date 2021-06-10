@@ -1,0 +1,200 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/miller-nick",
+    "@type" : "foaf:Person",
+    "dc:description" : "Self-taught painter Nick Miller moved from London to Ireland in 1984. Miller’s work is figurative, and concerned with memory and subjective experience. His paintings and drawings of friends and family members, often from an unusually close range, parallel landscapes painted from a mobile studio devised to minimise the separation between artist and subject. Miller has exhibited in Ireland and internationally since the 1980s. His work is represented in many public and private collections. Miller was elected a member of Aosdána in 2001.",
+    "dc:source" : "https://imma.ie/artists/nick-miller/",
+    "schema:birthDate" : "b.1962",
+    "schema:url" : "https://imma.ie/artists/nick-miller/",
+    "rdfs:label" : "Nick Miller"
+  }, {
+    "@id" : "spice:artefact/corban",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/miller-nick",
+    "author" : "spice:agent/miller-nick",
+    "schema:dateCreated" : "1996",
+    "schema:url" : "https://imma.ie/collection/corban/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/corban",
+    "arco-cd:hasTitle" : "Corban"
+  }, {
+    "@id" : "spice:artefact/cream-border-trees",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/miller-nick",
+    "author" : "spice:agent/miller-nick",
+    "schema:dateCreated" : "2005",
+    "schema:url" : "https://imma.ie/collection/cream-border-trees/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/cream-border-trees",
+    "arco-cd:hasTitle" : "Cream Border Trees"
+  }, {
+    "@id" : "spice:artefact/nature-with-history",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/miller-nick",
+    "author" : "spice:agent/miller-nick",
+    "schema:dateCreated" : "1997",
+    "schema:url" : "https://imma.ie/collection/nature-with-history/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/nature-with-history",
+    "arco-cd:hasTitle" : "Nature with History"
+  }, {
+    "@id" : "spice:artefact/noreen-with-polaroid",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/miller-nick",
+    "author" : "spice:agent/miller-nick",
+    "schema:dateCreated" : "1994",
+    "schema:url" : "https://imma.ie/collection/noreen-with-polaroid/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/noreen-with-polaroid",
+    "arco-cd:hasTitle" : "Noreen with Polaroid"
+  }, {
+    "@id" : "spice:artefact/patrick-hall",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/miller-nick",
+    "author" : "spice:agent/miller-nick",
+    "schema:dateCreated" : "1994",
+    "schema:url" : "https://imma.ie/collection/patrick-hall/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/patrick-hall",
+    "arco-cd:hasTitle" : "Patrick Hall"
+  }, {
+    "@id" : "spice:artefact/pole",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/miller-nick",
+    "author" : "spice:agent/miller-nick",
+    "schema:dateCreated" : "2005",
+    "schema:url" : "https://imma.ie/collection/pole/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/pole",
+    "arco-cd:hasTitle" : "Pole"
+  }, {
+    "@id" : "spice:artefact/reflection-with-painting",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/miller-nick",
+    "author" : "spice:agent/miller-nick",
+    "schema:dateCreated" : "1994",
+    "schema:url" : "https://imma.ie/collection/reflection-with-painting/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/reflection-with-painting",
+    "arco-cd:hasTitle" : "Reflection with Painting"
+  }, {
+    "@id" : "spice:artefact/south-africa-memory-series-no-1",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/miller-nick",
+    "author" : "spice:agent/miller-nick",
+    "schema:dateCreated" : "1991",
+    "schema:url" : "https://imma.ie/collection/south-africa-memory-series-no-1/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/south-africa-memory-series-no-1",
+    "arco-cd:hasTitle" : "South Africa Memory Series, no. 1"
+  }, {
+    "@id" : "spice:artefact/whitethorn-truck-view",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/miller-nick",
+    "author" : "spice:agent/miller-nick",
+    "schema:dateCreated" : "2001",
+    "schema:url" : "https://imma.ie/collection/whitethorn-truck-view/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/whitethorn-truck-view",
+    "arco-cd:hasTitle" : "Whitethorn, truck view"
+  }, {
+    "@id" : "spice:attribution/corban",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/miller-nick"
+  }, {
+    "@id" : "spice:attribution/cream-border-trees",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/miller-nick"
+  }, {
+    "@id" : "spice:attribution/nature-with-history",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/miller-nick"
+  }, {
+    "@id" : "spice:attribution/noreen-with-polaroid",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/miller-nick"
+  }, {
+    "@id" : "spice:attribution/patrick-hall",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/miller-nick"
+  }, {
+    "@id" : "spice:attribution/pole",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/miller-nick"
+  }, {
+    "@id" : "spice:attribution/reflection-with-painting",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/miller-nick"
+  }, {
+    "@id" : "spice:attribution/south-africa-memory-series-no-1",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/miller-nick"
+  }, {
+    "@id" : "spice:attribution/whitethorn-truck-view",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/miller-nick"
+  } ],
+  "@context" : {
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

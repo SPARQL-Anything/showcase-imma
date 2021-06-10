@@ -1,0 +1,80 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/before-the-appearance-of-the-first-steam-engine",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "Lu Chunsheng was born in Changchun, China, in 1968. In the mid 1990s, he studied at the China National Academy of Fine Arts and he is one of a generation of film and video artists (including Zhang Peili, Yang Fudong and Yang Zhenzhong) to emerge from China in recent years. Lu Chunsheng’s work is strongly influenced by the city in which he lives – Shanghai. Despite it being one of the most populous and fastest growing cities in the world, his films are always strangely depopulated – a paradox of perception indicative of a personal vision of life which exists outside reality. Filmed in black and white, his films cite political events filtered through the genre of film noir and detective movies, but the resulting narratives are always non-sequential and absurd – imbuing them with both an amusing Surrealism and a disturbing sense of fragmentation and alienation.",
+    "dc:source" : "https://imma.ie/collection/before-the-appearance-of-the-first-steam-engine/",
+    "schema:creditText" : "IMMA Collection: Purchase, 2004",
+    "image" : "spice:documentation/before-the-appearance-of-the-first-steam-engine",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Video",
+    "schema:version" : "Edition 4/5",
+    "arco-cd:hasInventory" : "IMMA.1762"
+  }, {
+    "@id" : "spice:documentation/before-the-appearance-of-the-first-steam-engine",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Lu Chunsheng, Before the Appearance of the First Steam Engine, 2003, Video, Duration: 35min.27 sec., Collection Irish Museum of Modern Art, Purchase, 2004 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/1709.jpg"
+  } ],
+  "@context" : {
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "version" : {
+      "@id" : "http://schema.org/version",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

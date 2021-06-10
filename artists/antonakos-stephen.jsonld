@@ -1,0 +1,130 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/antonakos-stephen",
+    "@type" : "foaf:Person",
+    "dc:description" : "Born in Greece, Stephen Antonakos moved with his family to New York in 1930. He served in the Army before starting a career as a commercial illustrator. Antonakos’ work developed from early architectural drawings and painting, to collages and assemblages incorporating found materials. He abandoned easel painting in 1959 and began to work with lighted glass. He is primarily known for his indoor and outdoor neon installations.",
+    "dc:source" : "https://imma.ie/artists/stephen-antonakos/",
+    "schema:birthDate" : "1926–2013",
+    "schema:url" : "https://imma.ie/artists/stephen-antonakos/",
+    "rdfs:label" : "Stephen Antonakos"
+  }, {
+    "@id" : "spice:artefact/manhattan-skyline",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/antonakos-stephen",
+    "author" : "spice:agent/antonakos-stephen",
+    "schema:dateCreated" : "1976",
+    "schema:url" : "https://imma.ie/collection/manhattan-skyline/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/manhattan-skyline",
+    "arco-cd:hasTitle" : "Manhattan Skyline"
+  }, {
+    "@id" : "spice:artefact/sears-tower",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/antonakos-stephen",
+    "author" : "spice:agent/antonakos-stephen",
+    "schema:dateCreated" : "1976",
+    "schema:url" : "https://imma.ie/collection/sears-tower/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/sears-tower",
+    "arco-cd:hasTitle" : "Sears Tower"
+  }, {
+    "@id" : "spice:artefact/spring-series-90",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/antonakos-stephen",
+    "author" : "spice:agent/antonakos-stephen",
+    "schema:dateCreated" : "2006",
+    "schema:url" : "https://imma.ie/collection/spring-series-90/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/spring-series-90",
+    "arco-cd:hasTitle" : "Spring Series (#90)"
+  }, {
+    "@id" : "spice:artefact/world-trade-center",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/antonakos-stephen",
+    "author" : "spice:agent/antonakos-stephen",
+    "schema:dateCreated" : "1976",
+    "schema:url" : "https://imma.ie/collection/world-trade-center/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/world-trade-center",
+    "arco-cd:hasTitle" : "World Trade Center"
+  }, {
+    "@id" : "spice:attribution/manhattan-skyline",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/antonakos-stephen"
+  }, {
+    "@id" : "spice:attribution/sears-tower",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/antonakos-stephen"
+  }, {
+    "@id" : "spice:attribution/spring-series-90",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/antonakos-stephen"
+  }, {
+    "@id" : "spice:attribution/world-trade-center",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/antonakos-stephen"
+  } ],
+  "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/delaney-edward",
+    "@type" : "foaf:Person",
+    "dc:description" : "Irish sculptor Edward Delaney attended classes at the National College of Art and Design and went on to study at the Academie der Bildenden Kunst, Munich and the Academie Bella Arte Rosa, Rome. Influenced by Celtic art and European modernism, Delaney exhibited his figurative sculpture from the late 1950s. He represented Ireland at the Paris Biennale in 1959 and 1961, and his work was also shown in Tokyo, Buenos Aires and New York. Delaney’s public sculptures can be seen in Connemara, Dublin, Galway and Louth.",
+    "dc:source" : "https://imma.ie/artists/edward-delaney/",
+    "schema:birthDate" : "1930–2009",
+    "schema:url" : "https://imma.ie/artists/edward-delaney/",
+    "rdfs:label" : "Edward Delaney"
+  }, {
+    "@id" : "spice:artefact/birth-of-cuchulainn",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/delaney-edward",
+    "author" : "spice:agent/delaney-edward",
+    "schema:dateCreated" : "1967",
+    "schema:url" : "https://imma.ie/collection/birth-of-cuchulainn/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/birth-of-cuchulainn",
+    "arco-cd:hasTitle" : "Birth of Cuchulainn"
+  }, {
+    "@id" : "spice:artefact/eve-with-apple",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/delaney-edward",
+    "author" : "spice:agent/delaney-edward",
+    "schema:dateCreated" : "1958",
+    "schema:url" : "https://imma.ie/collection/eve-with-apple/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/eve-with-apple",
+    "arco-cd:hasTitle" : "Eve With Apple"
+  }, {
+    "@id" : "spice:artefact/the-family-2",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/delaney-edward",
+    "author" : "spice:agent/delaney-edward",
+    "schema:dateCreated" : "1958",
+    "schema:url" : "https://imma.ie/collection/the-family-2/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-family-2",
+    "arco-cd:hasTitle" : "The Family"
+  }, {
+    "@id" : "spice:attribution/birth-of-cuchulainn",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/delaney-edward"
+  }, {
+    "@id" : "spice:attribution/eve-with-apple",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/delaney-edward"
+  }, {
+    "@id" : "spice:attribution/the-family-2",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/delaney-edward"
+  } ],
+  "@context" : {
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

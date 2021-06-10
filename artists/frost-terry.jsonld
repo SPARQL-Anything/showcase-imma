@@ -1,0 +1,102 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/frost-terry",
+    "@type" : "foaf:Person",
+    "dc:description" : "British abstract artist Terry Frost began to paint while a prisoner during the Second World War. Frost moved to St. Ives to study under Leonard Fuller in 1946 and attended the Camberwell School of Art the following year. Frost’s joyful abstract compositions combine colour, light and shapes inspired by the Cornish coast. Frost exhibited extensively nationally and internationally. He was elected to the Royal Academy in 1992 and knighted in 1998. A major retrospective of his work was held at the Royal Academy in 2000.",
+    "dc:source" : "https://imma.ie/artists/terry-frost/",
+    "schema:birthDate" : "1915–2003",
+    "schema:url" : "https://imma.ie/artists/terry-frost/",
+    "rdfs:label" : "Terry Frost"
+  }, {
+    "@id" : "spice:artefact/suspended-forms-triptych",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/frost-terry",
+    "author" : "spice:agent/frost-terry",
+    "schema:dateCreated" : "1982",
+    "schema:url" : "https://imma.ie/collection/suspended-forms-triptych/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/suspended-forms-triptych",
+    "arco-cd:hasTitle" : "Suspended Forms (triptych)"
+  }, {
+    "@id" : "spice:artefact/untitled-41",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/frost-terry",
+    "author" : "spice:agent/frost-terry",
+    "schema:dateCreated" : "1994",
+    "schema:url" : "https://imma.ie/collection/untitled-41/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-41",
+    "arco-cd:hasTitle" : "Untitled"
+  }, {
+    "@id" : "spice:attribution/suspended-forms-triptych",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/frost-terry"
+  }, {
+    "@id" : "spice:attribution/untitled-41",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/frost-terry"
+  } ],
+  "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

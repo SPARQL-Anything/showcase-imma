@@ -1,0 +1,75 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/glendowan-3",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "Glendowan is a 1959 work by Colin Middleton. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "dc:source" : "https://imma.ie/collection/glendowan-3/",
+    "schema:creditText" : "IMMA Collection: Heritage Gift from the McClelland Collection by Noel and Anne Marie Smyth, 2004",
+    "image" : "spice:documentation/glendowan-3",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Conte and wash on paper",
+    "schema:size" : "18 x 24 cm",
+    "arco-cd:hasInventory" : "IMMA.1738.4"
+  }, {
+    "@id" : "spice:documentation/glendowan-3",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Colin Middleton, Glendowan, 1959, Conte and wash on paper, 18 x 24 cm, Collection Irish Museum of Modern Art, Heritage Gift from the McClelland Collection by Noel and Anne Marie Smyth, 2004 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma"
+  } ],
+  "@context" : {
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/donegal-bay-diptych",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "The sea is a central element in Mary Lohan’s paintings for its constantly changing character which reflects both sky and the surrounding land. Her work represents the restlessness of the seasons, the changing play of light and shade, that constant flux that we experience in front of nature. Yet the work does not evoke a sentimental or mythical reading of nature. of her work she has stated: ‘I start from the realization that it’s impossible to paint a landscape. You just can’t do it, because you experience a place on so many levels and in such a complex way. So you have to paint what you see, which isn’t the same thing. And you hope that something of the feeling of the place will come across’.*",
+    "dc:source" : "https://imma.ie/collection/donegal-bay-diptych/",
+    "schema:creditText" : "IMMA Collection: Purchase, 1998",
+    "image" : "spice:documentation/donegal-bay-diptych",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Oil on panel",
+    "schema:size" : "61 x 61 cm each",
+    "arco-cd:hasInventory" : "IMMA.808"
+  }, {
+    "@id" : "spice:documentation/donegal-bay-diptych",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Mary Lohan, Donegal Bay (diptych), 1997, Oil on panel, 61 x 61 cm each, Collection Irish Museum of Modern Art, Purchase, 1998 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/111.jpg"
+  } ],
+  "@context" : {
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

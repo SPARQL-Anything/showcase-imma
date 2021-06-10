@@ -1,0 +1,39 @@
+{
+  "@id" : "spice:agent/the-mothership-project",
+  "@type" : "foaf:Person",
+  "dc:description" : [ "IMMA welcomes back The Mothership Project as part of a series of short studio research supports provided to the network over the last couple of years. The Mothership Project aims to support parenting artists in the development of their practice and to encourage arts organisations to make the art world a more inclusive place for artists with children. Since 2013 The Mothership Project has hosted workshops and discussions on issues facing parenting artists in Ireland. Having spent time in IMMA in May and June 2017, running events and hosting meetings, the Motherships next step was to apply for Arts Council funding for the The Satellite Project.", "The Mothership Project aims to support parenting artists in the development of their practice and to encourage arts organisations to make the art world a more inclusive place for artists with children." ],
+  "dc:source" : "https://imma.ie/artists/the-mothership-project/",
+  "schema:url" : "https://imma.ie/artists/the-mothership-project/",
+  "rdfs:label" : "The Mothership Project",
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

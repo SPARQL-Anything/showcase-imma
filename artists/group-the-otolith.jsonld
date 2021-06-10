@@ -1,0 +1,44 @@
+{
+  "@id" : "spice:agent/group-the-otolith",
+  "@type" : "foaf:Person",
+  "dc:description" : [ "The Otolith Group was established in London in 2002. Anjalika Sagar (London, 1968) and Kodwo Eshun (London, 1966) have been leading experimentalists in the fields of documentary and filmic essays, known both for their own work and for their support and exploration of other filmic practices by programming and organizing discursive events, much of which is done under the name The Otolith Collective. Through these projects, The Otolith Group challenges a white modernist mode of artistic production and expands the global view of art.", "The Otolith Group was established in London in 2002. Kodwo Eshun (London, 1966) and Anjalika Sagar (London, 1968) have been leading experimentalists in the fields of documentary and filmic essays, known both for their own work and for their support and exploration of other filmic practices by programming and organizing discursive events, much of which is done under the name the Otolith Collective. " ],
+  "dc:source" : "https://imma.ie/artists/the-otolith-group/",
+  "schema:birthDate" : "b.2002",
+  "schema:url" : "https://imma.ie/artists/the-otolith-group/",
+  "rdfs:label" : "The Otolith Group",
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

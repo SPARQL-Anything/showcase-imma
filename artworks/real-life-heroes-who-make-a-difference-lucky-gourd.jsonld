@@ -1,0 +1,70 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/real-life-heroes-who-make-a-difference-lucky-gourd",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "Real-Life Heroes Who Make A Difference: Lucky Gourd is a 2004 work by Karen Tam. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "dc:source" : "https://imma.ie/collection/real-life-heroes-who-make-a-difference-lucky-gourd/",
+    "schema:creditText" : "IMMA Collection: Donation. Karen Tam in collaboration with Irish Chinese youths who visited workshops held in the artist’s studio, 2004",
+    "image" : "spice:documentation/real-life-heroes-who-make-a-difference-lucky-gourd",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Paper and nylon cord",
+    "arco-cd:hasInventory" : "IMMA.1777"
+  }, {
+    "@id" : "spice:documentation/real-life-heroes-who-make-a-difference-lucky-gourd",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Karen Tam, Real-Life Heroes Who Make A Difference: Lucky Gourd, 2004, Paper and nylon cord, Collection Irish Museum of Modern Art, Donation. Karen Tam in collaboration with Irish Chinese youths who visited workshops held in the artist’s studio, 2004 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma"
+  } ],
+  "@context" : {
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

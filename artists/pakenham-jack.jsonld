@@ -1,0 +1,88 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/pakenham-jack",
+    "@type" : "foaf:Person",
+    "dc:description" : "Irish artist Jack Pakenham studied French, Spanish and Philosophy at Queen’s University Belfast and taught at Ashfield’s Boy’s Secondary School, Belfast from 1961. In 1990 he retired from teaching and turned to painting full time. Pakenham was elected an Academician of the Royal Ulster Academy of Arts in 1987. He has exhibited extensively since the early 1960s and his work can be found in numerous collections including the Arts Council of Northern Ireland; the Office of Public Works and The Model, Sligo.",
+    "dc:source" : "https://imma.ie/artists/jack-pakenham/",
+    "schema:birthDate" : "b.1938",
+    "schema:url" : "https://imma.ie/artists/jack-pakenham/",
+    "rdfs:label" : "Jack Pakenham"
+  }, {
+    "@id" : "spice:artefact/national-identity-crisis-1",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/pakenham-jack",
+    "author" : "spice:agent/pakenham-jack",
+    "schema:dateCreated" : "1995",
+    "schema:url" : "https://imma.ie/collection/national-identity-crisis-1/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/national-identity-crisis-1",
+    "arco-cd:hasTitle" : "National Identity Crisis 1"
+  }, {
+    "@id" : "spice:attribution/national-identity-crisis-1",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/pakenham-jack"
+  } ],
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

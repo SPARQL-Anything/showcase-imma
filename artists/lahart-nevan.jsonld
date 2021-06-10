@@ -1,0 +1,145 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/lahart-nevan",
+    "@type" : "foaf:Person",
+    "description" : "_:b0",
+    "dc:description" : "Irish artist Nevan Lahart attended Limerick School of Art and Design and the National College of Art and Design. Working in a range of media, Lahart considers topics including the role of TV and the media, social and political perceptions, and the Museum as purveyor of artistic merit and classification. Lahart has exhibited nationally and internationally since 2000, including solo exhibitions at Temple Bar Gallery and Studios, Dublin; Steve Turner Contemporary, Los Angeles; Solus Nua, Washington DC and Catalyst Arts, Belfast. He participated in IMMA’s Artists’ Residency Programme in 2005.",
+    "dc:source" : "https://imma.ie/artists/nevan-lahart/",
+    "schema:birthDate" : "b.1973",
+    "schema:url" : "https://imma.ie/artists/nevan-lahart/",
+    "rdfs:label" : "Nevan Lahart"
+  }, {
+    "@id" : "spice:artefact/ch-17-pay-per-view-the-scrapings-of-the-palate",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/lahart-nevan",
+    "author" : "spice:agent/lahart-nevan",
+    "schema:dateCreated" : "2002",
+    "schema:url" : "https://imma.ie/collection/ch-17-pay-per-view-the-scrapings-of-the-palate/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/ch-17-pay-per-view-the-scrapings-of-the-palate",
+    "arco-cd:hasTitle" : "Ch.17: Pay Per View (the scraping’s of the palate)"
+  }, {
+    "@id" : "spice:artefact/ch-26-sub-commandant-marcos-the-friendly-terrorist-after-r-hamilton",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/lahart-nevan",
+    "author" : "spice:agent/lahart-nevan",
+    "schema:dateCreated" : "2002",
+    "schema:url" : "https://imma.ie/collection/ch-26-sub-commandant-marcos-the-friendly-terrorist-after-r-hamilton/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/ch-26-sub-commandant-marcos-the-friendly-terrorist-after-r-hamilton",
+    "arco-cd:hasTitle" : "Ch.26: Sub-Commandant Marcos, The Friendly Terrorist (after R. Hamilton)"
+  }, {
+    "@id" : "spice:artefact/ch-76-3-cheers-for-the-psalms-of-mordechai-vanunu-before-richard-hamilton",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/lahart-nevan",
+    "author" : "spice:agent/lahart-nevan",
+    "schema:dateCreated" : "2007",
+    "schema:url" : "https://imma.ie/collection/ch-76-3-cheers-for-the-psalms-of-mordechai-vanunu-before-richard-hamilton/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/ch-76-3-cheers-for-the-psalms-of-mordechai-vanunu-before-richard-hamilton",
+    "arco-cd:hasTitle" : "Ch.76: 3 Cheers for the Psalms of Mordechai Vanunu (before Richard Hamilton)"
+  }, {
+    "@id" : "spice:artefact/goyas-gaia-16",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/lahart-nevan",
+    "author" : "spice:agent/lahart-nevan",
+    "schema:dateCreated" : "2010",
+    "schema:url" : "https://imma.ie/collection/goyas-gaia-16/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/goyas-gaia-16",
+    "arco-cd:hasTitle" : "Goya’s Gaia #16"
+  }, {
+    "@id" : "spice:artefact/goyas-gaia-4",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/lahart-nevan",
+    "author" : "spice:agent/lahart-nevan",
+    "schema:dateCreated" : "2010",
+    "schema:url" : "https://imma.ie/collection/goyas-gaia-4/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/goyas-gaia-4",
+    "arco-cd:hasTitle" : "Goya’s Gaia #4"
+  }, {
+    "@id" : "spice:attribution/ch-17-pay-per-view-the-scrapings-of-the-palate",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/lahart-nevan"
+  }, {
+    "@id" : "spice:attribution/ch-26-sub-commandant-marcos-the-friendly-terrorist-after-r-hamilton",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/lahart-nevan"
+  }, {
+    "@id" : "spice:attribution/ch-76-3-cheers-for-the-psalms-of-mordechai-vanunu-before-richard-hamilton",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/lahart-nevan"
+  }, {
+    "@id" : "spice:attribution/goyas-gaia-16",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/lahart-nevan"
+  }, {
+    "@id" : "spice:attribution/goyas-gaia-4",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/lahart-nevan"
+  } ],
+  "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "@id"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

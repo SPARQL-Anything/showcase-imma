@@ -1,0 +1,39 @@
+{
+  "@id" : "spice:agent/harrington-elayne-adamczyk",
+  "@type" : "foaf:Person",
+  "dc:description" : [ "Elayne Adamczyk Harrington, also known as Temper-Mental MissElayneous, is an accomplished performer in the Irish Hip-hop and poetry world whose work explores restriction and oppression with the ideas of judgement and punishment often manifesting in the context of class. Her practice addresses the repressive nature of society and the constraint of its social systems, referring to conditions and injustices such as addiction and alcoholism, access to education and homelessness in a direct way.", "Elayne Adamczyk Harrington, also known as Temper-Mental MissElayneous, is an accomplished performer in the Irish Hiphop and poetry world whose work explores restriction and oppression with the ideas of judgement and punishment often manifesting in the context of class. " ],
+  "dc:source" : "https://imma.ie/artists/elayne-adamczyk-harrington/",
+  "schema:url" : "https://imma.ie/artists/elayne-adamczyk-harrington/",
+  "rdfs:label" : "Elayne Adamczyk Harrington",
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

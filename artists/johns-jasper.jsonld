@@ -1,0 +1,102 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/johns-jasper",
+    "@type" : "foaf:Person",
+    "dc:description" : "American painter and printmaker Jasper Johns studied art in South Carolina before moving to New York in the early 1950s. In New York Johns became friends with avant-garde artists Robert Rauschenberg, John Cage and Merce Cunningham. Johns exhibited in America and Europe from the late 1950s, and received critical attention for his images of flags, targets, letters and numerals. He represented the United States at the Venice Biennale in 1958 and 1988. A solo exhibition of his later work was held at IMMA in 2005.",
+    "dc:source" : "https://imma.ie/artists/jasper-johns/",
+    "schema:birthDate" : "b.1930",
+    "schema:url" : "https://imma.ie/artists/jasper-johns/",
+    "rdfs:label" : "Jasper Johns"
+  }, {
+    "@id" : "spice:artefact/hatteras",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/johns-jasper",
+    "author" : "spice:agent/johns-jasper",
+    "schema:dateCreated" : "1963",
+    "schema:url" : "https://imma.ie/collection/hatteras/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/hatteras",
+    "arco-cd:hasTitle" : "Hatteras"
+  }, {
+    "@id" : "spice:artefact/paint-your-own-target-1970",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/johns-jasper",
+    "author" : "spice:agent/johns-jasper",
+    "schema:dateCreated" : "1971",
+    "schema:url" : "https://imma.ie/collection/paint-your-own-target-1970/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/paint-your-own-target-1970",
+    "arco-cd:hasTitle" : "Paint your own “Target 1970”"
+  }, {
+    "@id" : "spice:attribution/hatteras",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/johns-jasper"
+  }, {
+    "@id" : "spice:attribution/paint-your-own-target-1970",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/johns-jasper"
+  } ],
+  "@context" : {
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

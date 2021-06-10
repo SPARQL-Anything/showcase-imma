@@ -1,0 +1,88 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/chunsheng-lu",
+    "@type" : "foaf:Person",
+    "dc:description" : "Chinese artist Lu Chunsheng graduated from China National Academy of Fine Arts in the mid 1990s. He lives in Shanghai, and his photographs and video work are strongly influenced by his surroundings, but unlike others of his generation such as Zhang Peili, Yang Fudong and Yang Zhenzhong, he does not focus on urban alienation. Instead he documents human behaviour in bizarre situations. Lu Chunsheng has exhibited widely in China, Europe and the United States.",
+    "dc:source" : "https://imma.ie/artists/lu-chunsheng/",
+    "schema:birthDate" : "b.1968",
+    "schema:url" : "https://imma.ie/artists/lu-chunsheng/",
+    "rdfs:label" : "Lu Chunsheng"
+  }, {
+    "@id" : "spice:artefact/before-the-appearance-of-the-first-steam-engine",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/chunsheng-lu",
+    "author" : "spice:agent/chunsheng-lu",
+    "schema:dateCreated" : "2003",
+    "schema:url" : "https://imma.ie/collection/before-the-appearance-of-the-first-steam-engine/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/before-the-appearance-of-the-first-steam-engine",
+    "arco-cd:hasTitle" : "Before the Appearance of the First Steam Engine"
+  }, {
+    "@id" : "spice:attribution/before-the-appearance-of-the-first-steam-engine",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/chunsheng-lu"
+  } ],
+  "@context" : {
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

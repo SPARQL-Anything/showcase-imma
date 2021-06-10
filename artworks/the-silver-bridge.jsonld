@@ -1,0 +1,75 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/the-silver-bridge",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "‘The Silver Bridge’ was filmed in Dublin Zoo and the Phoenix Park. It plays on stereotypical notions of witches and bats, and the locations they are thought to inhabit. Irvine’s love of disjointed narratives and multiple perspectives ensures that an element of mystery and surprise is maintained throughout the work, while insecurities are heightened by the rearrangement of familiar architecture involved in the installation of the piece. Speaking about her practice Irvine says; “I’ve been thinking about the limits of a certain visibility that attaches itself to living privately in public… about those points where what at first seems most available to understanding, slowly turns opaque, revealing itself as misleading or meaningless. If this then opens out a sense of untold distances between things, and people, it also brings with it a desire for the reverse, gesturing towards impossibly compensatory intimacies between ourselves and the world…towards a belief in the transparency and agreement of things – of gestures, smiles, meanings, chance remarks and strangers”*.",
+    "dc:source" : "https://imma.ie/collection/the-silver-bridge/",
+    "schema:creditText" : "IMMA Collection: Purchase, 2003",
+    "image" : "spice:documentation/the-silver-bridge",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Eight-channel video",
+    "arco-cd:hasInventory" : "IMMA.1626"
+  }, {
+    "@id" : "spice:documentation/the-silver-bridge",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Jaki Irvine, The Silver Bridge, 2003, Eight-channel video, Dimensions variable, Collection Irish Museum of Modern Art, Purchase, 2003 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/1617.jpg"
+  } ],
+  "@context" : {
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

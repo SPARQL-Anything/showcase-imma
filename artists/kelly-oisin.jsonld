@@ -1,0 +1,116 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/kelly-oisin",
+    "@type" : "foaf:Person",
+    "dc:description" : "Irish sculptor Oisín Kelly attended Trinity College Dublin and the National College of Art and Design, Dublin. He went on to study under Henry Moore from 1948 to 1949. Though also working in wood, stone, pottery, enamel, silver, iron and textiles, Kelly is now best known for his public sculptures in bronze, notably ‘The Children of Lir’ and ‘James Larkin’ in Dublin’s city centre. Kelly’s work is represented in many public collections. In 1978, a major exhibition of his sculpture toured the Ulster Museum, the Douglas Hyde Gallery, Dublin and the Crawford Municipal Art Gallery in Cork.",
+    "dc:source" : "https://imma.ie/artists/oisin-kelly/",
+    "schema:birthDate" : "1915–1981",
+    "schema:url" : "https://imma.ie/artists/oisin-kelly/",
+    "rdfs:label" : "Oisín Kelly"
+  }, {
+    "@id" : "spice:artefact/birds-in-flight-gpa-award-1988",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/kelly-oisin",
+    "author" : "spice:agent/kelly-oisin",
+    "schema:dateCreated" : "1988",
+    "schema:url" : "https://imma.ie/collection/birds-in-flight-gpa-award-1988/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/birds-in-flight-gpa-award-1988",
+    "arco-cd:hasTitle" : "Birds in Flight (GPA Award 1988)"
+  }, {
+    "@id" : "spice:artefact/bust-of-dorothy-walker",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/kelly-oisin",
+    "author" : "spice:agent/kelly-oisin",
+    "schema:dateCreated" : "1954",
+    "schema:url" : "https://imma.ie/collection/bust-of-dorothy-walker/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/bust-of-dorothy-walker",
+    "arco-cd:hasTitle" : "Bust of Dorothy Walker"
+  }, {
+    "@id" : "spice:artefact/the-marchers",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/kelly-oisin",
+    "author" : "spice:agent/kelly-oisin",
+    "schema:dateCreated" : "1969",
+    "schema:url" : "https://imma.ie/collection/the-marchers/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-marchers",
+    "arco-cd:hasTitle" : "The Marchers"
+  }, {
+    "@id" : "spice:attribution/birds-in-flight-gpa-award-1988",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/kelly-oisin"
+  }, {
+    "@id" : "spice:attribution/bust-of-dorothy-walker",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/kelly-oisin"
+  }, {
+    "@id" : "spice:attribution/the-marchers",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/kelly-oisin"
+  } ],
+  "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/cullen-michael",
+    "@type" : "foaf:Person",
+    "dc:description" : "Wicklow born artist Michael Cullen studied at the Central School of Art and Design, London and the National College of Art and Design, Dublin. Cullen is prominently associated with the Neo-Expressionist trend in Irish art of the 1980s and early 1990s. He has spent various periods living and working abroad in Spain, Morocco, the United States, Mexico and Berlin. Cullen’s paintings are included in many public and private collections. He is an elected member of Aosdána.",
+    "dc:source" : "https://imma.ie/artists/michael-cullen/",
+    "schema:birthDate" : "b.1946",
+    "schema:url" : "https://imma.ie/artists/michael-cullen/",
+    "rdfs:label" : "Michael Cullen"
+  }, {
+    "@id" : "spice:artefact/a-solitary-painter",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/cullen-michael",
+    "author" : "spice:agent/cullen-michael",
+    "schema:dateCreated" : "1997",
+    "schema:url" : "https://imma.ie/collection/a-solitary-painter/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/a-solitary-painter",
+    "arco-cd:hasTitle" : "A Solitary Painter"
+  }, {
+    "@id" : "spice:artefact/painter-about-to-paint-a-painting",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/cullen-michael",
+    "author" : "spice:agent/cullen-michael",
+    "schema:dateCreated" : "1991",
+    "schema:url" : "https://imma.ie/collection/painter-about-to-paint-a-painting/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/painter-about-to-paint-a-painting",
+    "arco-cd:hasTitle" : "Painter About to Paint a Painting"
+  }, {
+    "@id" : "spice:artefact/performer-takes-a-turnthe-mathematician",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/cullen-michael",
+    "author" : "spice:agent/cullen-michael",
+    "schema:dateCreated" : "1983",
+    "schema:url" : "https://imma.ie/collection/performer-takes-a-turnthe-mathematician/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/performer-takes-a-turnthe-mathematician",
+    "arco-cd:hasTitle" : "Performer Takes a Turn (The Mathematician)"
+  }, {
+    "@id" : "spice:artefact/the-big-performance",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/cullen-michael",
+    "author" : "spice:agent/cullen-michael",
+    "schema:dateCreated" : "1985",
+    "schema:url" : "https://imma.ie/collection/the-big-performance/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-big-performance",
+    "arco-cd:hasTitle" : "The Big Performance"
+  }, {
+    "@id" : "spice:artefact/untitled-red",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/cullen-michael",
+    "author" : "spice:agent/cullen-michael",
+    "schema:dateCreated" : "1990",
+    "schema:url" : "https://imma.ie/collection/untitled-red/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-red",
+    "arco-cd:hasTitle" : "Untitled Red"
+  }, {
+    "@id" : "spice:attribution/a-solitary-painter",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/cullen-michael"
+  }, {
+    "@id" : "spice:attribution/painter-about-to-paint-a-painting",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/cullen-michael"
+  }, {
+    "@id" : "spice:attribution/performer-takes-a-turnthe-mathematician",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/cullen-michael"
+  }, {
+    "@id" : "spice:attribution/the-big-performance",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/cullen-michael"
+  }, {
+    "@id" : "spice:attribution/untitled-red",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/cullen-michael"
+  } ],
+  "@context" : {
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

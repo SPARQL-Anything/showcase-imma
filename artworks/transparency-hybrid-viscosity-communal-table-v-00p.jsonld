@@ -1,0 +1,80 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/transparency-hybrid-viscosity-communal-table-v-00p",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "transparency, hybrid viscosity (communal table v.00P) is a 2017 work by Yuri Pattison. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "dc:source" : "https://imma.ie/collection/transparency-hybrid-viscosity-communal-table-v-00p/",
+    "schema:creditText" : "IMMA Collection: Purchase, Hennessy Art Fund for IMMA Collection, 2017",
+    "image" : "spice:documentation/transparency-hybrid-viscosity-communal-table-v-00p",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Dexion slotted angle, Eames DSR replica chairs, acrylic, protective film, Raspberry Pi model 3, cabling, cable ties, USB power supply, Optoma GT1080 projector fan, video content, Harris citrus infused polythene dust sheet, TP-Link Archer Wi-Fi router, LED panel, solid state relay",
+    "schema:version" : "Edition 2AP",
+    "arco-cd:hasInventory" : "IMMA.4026"
+  }, {
+    "@id" : "spice:documentation/transparency-hybrid-viscosity-communal-table-v-00p",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Yuri Pattison, transparency, hybrid viscosity (communal table v.00P), 2017, Dexion slotted angle, Eames DSR replica chairs, acrylic, protective film, Raspberry Pi model 3, cabling, cable ties, USB power supply, Optoma GT1080 projector fan, video content, Harris citrus infused polythene dust sheet, TP-Link Archer Wi-Fi router, LED panel, solid state relay, Collection Irish Museum of Modern Art, Purchase, Hennessy Art Fund for IMMA Collection, 2017 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2020/01/8914.jpg"
+  } ],
+  "@context" : {
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "version" : {
+      "@id" : "http://schema.org/version",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

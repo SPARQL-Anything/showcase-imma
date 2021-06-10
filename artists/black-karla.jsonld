@@ -1,0 +1,44 @@
+{
+  "@id" : "spice:agent/black-karla",
+  "@type" : "foaf:Person",
+  "dc:description" : [ "Karla Black (b. 1972 Alexandria, Scotland) lives and works in Glasgow. She attended The Glasgow School of Art (1995–2000 and 2002–04), completing BA (Hons), MPhil (Art in Organisational Contexts), and MFA degrees. In 2011, Black represented Scotland at the 54th Venice Biennale (Karla Black. Scotland and Venice) and was nominated for the Turner Prize.", "Karla Black lives and works in Glasgow. She attended The Glasgow School of Art (1995–2000 and 2002–04), completing BA (Hons), MPhil (Art in Organisational Contexts), and MFA degrees. In 2011, Black represented Scotland at the 54th Venice Biennale and was nominated for the Turner Prize." ],
+  "dc:source" : "https://imma.ie/artists/karla-black/",
+  "schema:birthDate" : "b.1972",
+  "schema:url" : "https://imma.ie/artists/karla-black/",
+  "rdfs:label" : "Karla Black",
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

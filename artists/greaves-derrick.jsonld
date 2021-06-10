@@ -1,0 +1,102 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/greaves-derrick",
+    "@type" : "foaf:Person",
+    "dc:description" : "Derrick Greaves studied at the Royal College of Art, London and went on to study in Italy. In 1956 he represented Britain at the Venice Biennale. Greaves was Head of Printmaking at Norwich School of Art from 1983 to 1991. He has exhibited extensively worldwide and received numerous awards. Greaves’ work can be found in the collections of Tate, London; Philadelphia Museum of Art; New York Public Library; British Museum and the Arts Council of England, among others.",
+    "dc:source" : "https://imma.ie/artists/derrick-greaves/",
+    "schema:birthDate" : "b.1927",
+    "schema:url" : "https://imma.ie/artists/derrick-greaves/",
+    "rdfs:label" : "Derrick Greaves"
+  }, {
+    "@id" : "spice:artefact/studies-of-a-peach",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/greaves-derrick",
+    "author" : "spice:agent/greaves-derrick",
+    "schema:dateCreated" : "1969",
+    "schema:url" : "https://imma.ie/collection/studies-of-a-peach/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/studies-of-a-peach",
+    "arco-cd:hasTitle" : "Studies of a Peach"
+  }, {
+    "@id" : "spice:artefact/two-falling-black-petals-and-vase",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/greaves-derrick",
+    "author" : "spice:agent/greaves-derrick",
+    "schema:dateCreated" : "1970",
+    "schema:url" : "https://imma.ie/collection/two-falling-black-petals-and-vase/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/two-falling-black-petals-and-vase",
+    "arco-cd:hasTitle" : "Two Falling Black Petals and Vase"
+  }, {
+    "@id" : "spice:attribution/studies-of-a-peach",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/greaves-derrick"
+  }, {
+    "@id" : "spice:attribution/two-falling-black-petals-and-vase",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/greaves-derrick"
+  } ],
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

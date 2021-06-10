@@ -1,0 +1,80 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/power-cuts-imminent",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "Irish-born artist Tim Mara received his training in Epson and Ewell School of Art, Wolverhampton Art College and the Royal College of Art, London, where he later became Professor of Printmaking and Head of the School of Fine Art. Seen by fellow printmakers as an outstanding technician, Mara himself saw technique only as a tool for expression, saying “in the hierarchy of fine art, printmaking is usually associated with craft skills – with technique. My work was always about the ideas, more than the medium”.*",
+    "dc:source" : "https://imma.ie/collection/power-cuts-imminent/",
+    "schema:creditText" : "IMMA Collection: Donated by the artist's family, 1999",
+    "image" : "spice:documentation/power-cuts-imminent",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Screenprint",
+    "schema:size" : "Framed: 99.5 x 124 x 3.2 cm 77 x 97 cm",
+    "arco-cd:hasInventory" : "IMMA.1282"
+  }, {
+    "@id" : "spice:documentation/power-cuts-imminent",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Tim Mara, Power Cuts Imminent, 1975, Screenprint, Framed: 99.5 x 124 x 3.2 cm 77 x 97 cm, Collection Irish Museum of Modern Art, Donated by the artist's family, 1999 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/1326.jpg"
+  } ],
+  "@context" : {
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

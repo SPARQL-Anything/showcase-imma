@@ -1,0 +1,130 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/rauschenberg-robert",
+    "@type" : "foaf:Person",
+    "dc:description" : "American artist Robert Rauschenberg (1925-2008) was born in Port Arthur, Texas. He studied art at the Kansas City Art Institute and the Academie Julian, Paris. Since 1951 Rauschenberg’s work has been exhibited extensively in major museum exhibitions worldwide. He was the recipient of numerous awards including the Grand Prize at the 1964 Venice Biennale, a National Medal of Arts in 1993 and a Lifetime Achievement Award in Contemporary Sculpture from the International Sculpture Centre, Washinton D.C. in 1996. He also received a Grammy Award for Best Album Design for the pop group Talking Heads in 1984. Rauschenberg was elected a Member of the American Academy of Arts and Science, Boston, in 1978, made an Officer of the Ordre des Arts et Lettres in 1981 and elected an Honorary Royal Academician of the RA in 2000.",
+    "dc:source" : "https://imma.ie/artists/robert-rauschenberg/",
+    "schema:birthDate" : "1925–2008",
+    "schema:url" : "https://imma.ie/artists/robert-rauschenberg/",
+    "rdfs:label" : "Robert Rauschenberg"
+  }, {
+    "@id" : "spice:artefact/deposit",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/rauschenberg-robert",
+    "author" : "spice:agent/rauschenberg-robert",
+    "schema:dateCreated" : "1975",
+    "schema:url" : "https://imma.ie/collection/deposit/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/deposit",
+    "arco-cd:hasTitle" : "Deposit"
+  }, {
+    "@id" : "spice:artefact/front-roll",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/rauschenberg-robert",
+    "author" : "spice:agent/rauschenberg-robert",
+    "schema:dateCreated" : "1964",
+    "schema:url" : "https://imma.ie/collection/front-roll/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/front-roll",
+    "arco-cd:hasTitle" : "Front Roll"
+  }, {
+    "@id" : "spice:artefact/merry-xmas-rauschenberg",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/rauschenberg-robert",
+    "author" : "spice:agent/rauschenberg-robert",
+    "schema:dateCreated" : "1977",
+    "schema:url" : "https://imma.ie/collection/merry-xmas-rauschenberg/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/merry-xmas-rauschenberg",
+    "arco-cd:hasTitle" : "Merry Xmas Rauschenberg"
+  }, {
+    "@id" : "spice:artefact/tanya-grosman",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/rauschenberg-robert",
+    "author" : "spice:agent/rauschenberg-robert",
+    "schema:dateCreated" : "1974",
+    "schema:url" : "https://imma.ie/collection/tanya-grosman/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/tanya-grosman",
+    "arco-cd:hasTitle" : "Tanya Grosman"
+  }, {
+    "@id" : "spice:attribution/deposit",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/rauschenberg-robert"
+  }, {
+    "@id" : "spice:attribution/front-roll",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/rauschenberg-robert"
+  }, {
+    "@id" : "spice:attribution/merry-xmas-rauschenberg",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/rauschenberg-robert"
+  }, {
+    "@id" : "spice:attribution/tanya-grosman",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/rauschenberg-robert"
+  } ],
+  "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

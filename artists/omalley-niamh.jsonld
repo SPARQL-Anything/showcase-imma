@@ -1,0 +1,88 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/omalley-niamh",
+    "@type" : "foaf:Person",
+    "dc:description" : [ "Niamh O’Malley is interested in the fabricated nature of the viewing experience.&nbsp; Her artistic practice, which often takes the form of video projections onto painted canvases, is concerned with the distance from source to spectacle, the deliberate manufacture of illusion, and ultimately, loss. Her works hope to generate the potential for an incursion of unreality into a real world alongside a sense of distance and disappointment in the nature of the image as chimera.", "Irish artist Niamh O’Malley combines video installation with sculptural objects and drawings many of which draw on landscape as a subject. O’Malley participated in IMMA’s Artist Residency Programme in 2008. " ],
+    "dc:source" : "https://imma.ie/artists/niamh-omalley/",
+    "schema:birthDate" : "b.1975",
+    "schema:url" : "https://imma.ie/artists/niamh-omalley/",
+    "rdfs:label" : "Niamh O’Malley"
+  }, {
+    "@id" : "spice:artefact/the-memorial-gardens",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-niamh",
+    "author" : "spice:agent/omalley-niamh",
+    "schema:dateCreated" : "2008",
+    "schema:url" : "https://imma.ie/collection/the-memorial-gardens/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-memorial-gardens",
+    "arco-cd:hasTitle" : "The Memorial Gardens"
+  }, {
+    "@id" : "spice:attribution/the-memorial-gardens",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-niamh"
+  } ],
+  "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

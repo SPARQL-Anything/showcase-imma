@@ -1,0 +1,80 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/the-sky-looks-down-on-almost-as-many-things-as-the-ceiling",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "Frequently absorbed by language and literature, Aleana Egan’s practice also acts as a response to the material world of architecture and to the sphere of human interaction. Imagining shapes as traces and memories Egan develops her sculptures as an emotional record of a built world, with her work often described as a process of collection and inclusion. Operating as a pause, a noting and a generative mining of the experience of different mediums, the components of her works are chosen for both their aesthetic and structural qualities.",
+    "dc:source" : "https://imma.ie/collection/the-sky-looks-down-on-almost-as-many-things-as-the-ceiling/",
+    "schema:creditText" : "IMMA Collection: Donation, 2013",
+    "image" : "spice:documentation/the-sky-looks-down-on-almost-as-many-things-as-the-ceiling",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Card, tape, filler, varnish, steel",
+    "schema:size" : "204 x 152 x 25 cm",
+    "arco-cd:hasInventory" : "IMMA.3817"
+  }, {
+    "@id" : "spice:documentation/the-sky-looks-down-on-almost-as-many-things-as-the-ceiling",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Aleana Egan, The sky looks down on almost as many things as the ceiling, 2013, Card, tape, filler, varnish, steel, 204 x 152 x 25 cm, Collection Irish Museum of Modern Art, Donation, 2013 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/7217.jpg"
+  } ],
+  "@context" : {
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

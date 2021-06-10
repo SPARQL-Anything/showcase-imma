@@ -1,0 +1,130 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/jellett-mainie",
+    "@type" : "foaf:Person",
+    "dc:description" : "Irish artist Mainie Jellett studied under Walter Sickert at the Westminster School of Art, London. In 1921, she and Evie Hone moved to Paris to train with cubist painters André Lhote and Albert Gleizes. Jellett first exhibited her non-figurative work in Ireland in 1922. She received much criticism but continued to act as an advocate for abstraction and in 1943 was central to the establishment of the Irish Exhibition of Living Art. Together with Hone, she is considered the doyenne of Irish Modernism. Her work featured in IMMA’s 2013 ‘Analysing Cubism’ exhibition.",
+    "dc:source" : "https://imma.ie/artists/mainie-jellett/",
+    "schema:birthDate" : "1897–1944",
+    "schema:url" : "https://imma.ie/artists/mainie-jellett/",
+    "rdfs:label" : "Mainie Jellett"
+  }, {
+    "@id" : "spice:artefact/abstract-composition",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/jellett-mainie",
+    "author" : "spice:agent/jellett-mainie",
+    "schema:dateCreated" : "1922",
+    "schema:url" : "https://imma.ie/collection/abstract-composition/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/abstract-composition",
+    "arco-cd:hasTitle" : "Abstract Composition"
+  }, {
+    "@id" : "spice:artefact/abstract-no-4",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/jellett-mainie",
+    "author" : "spice:agent/jellett-mainie",
+    "schema:dateCreated" : "1912",
+    "schema:url" : "https://imma.ie/collection/abstract-no-4/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/abstract-no-4",
+    "arco-cd:hasTitle" : "Abstract No.4"
+  }, {
+    "@id" : "spice:artefact/abstract-no-5",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/jellett-mainie",
+    "author" : "spice:agent/jellett-mainie",
+    "schema:dateCreated" : "1912",
+    "schema:url" : "https://imma.ie/collection/abstract-no-5/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/abstract-no-5",
+    "arco-cd:hasTitle" : "Abstract No.5"
+  }, {
+    "@id" : "spice:artefact/four-element-composition",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/jellett-mainie",
+    "author" : "spice:agent/jellett-mainie",
+    "schema:dateCreated" : "1925",
+    "schema:url" : "https://imma.ie/collection/four-element-composition/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/four-element-composition",
+    "arco-cd:hasTitle" : "Four Element Composition"
+  }, {
+    "@id" : "spice:attribution/abstract-composition",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/jellett-mainie"
+  }, {
+    "@id" : "spice:attribution/abstract-no-4",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/jellett-mainie"
+  }, {
+    "@id" : "spice:attribution/abstract-no-5",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/jellett-mainie"
+  }, {
+    "@id" : "spice:attribution/four-element-composition",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/jellett-mainie"
+  } ],
+  "@context" : {
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

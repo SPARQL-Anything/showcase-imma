@@ -1,0 +1,40 @@
+{
+  "@id" : "spice:agent/oreilly-vanessa",
+  "@type" : "foaf:Person",
+  "description" : "_:b0",
+  "dc:description" : "Much of Vanessa O’Reilly’s work relies on a complex set of locating circumstances organised around systems inherent in a scenario.In Western cultures scenario thinking dominates politics, economics, film, television, literature and art. Through her work O’Reilly chooses dynamism and economy of scenario with its constantly changing sequence of possibilities in a specific and rational way.",
+  "dc:source" : "https://imma.ie/artists/vanessa-oreilly/",
+  "schema:url" : "https://imma.ie/artists/vanessa-oreilly/",
+  "rdfs:label" : "Vanessa O’Reilly",
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

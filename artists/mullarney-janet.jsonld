@@ -1,0 +1,158 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/mullarney-janet",
+    "@type" : "foaf:Person",
+    "dc:description" : [ "Janet Mullarney has exhibited extensively in both Ireland and abroad and has held solo exhibitions at venues including Dublin City Gallery The Hugh Lane; the Royal Hibernian Academy; Crawford Municipal Gallery; Limerick City Gallery; Museo de Arte Contemporaneo, Oaxaca, Mexico; and Casa Masaccio Arte Contemporaneo, San Giovanni Valdarno.", "Irish artist Janet Mullarney (born 1952) studied at the Accademia di Belle Arti and Scuola Professionale di Intaglio in Florence. Incorporating an extensive range of materials including bronze, wood, plaster, foam, cloth, glass and wax, her dynamic sculptural works reference religious iconography, art history and human relationships. Mullarney’s work is represented in many public collections including that of the Arts Council, the OPW, and Dublin City Gallery The Hugh Lane. She divides her time between studios in Ireland and Italy." ],
+    "dc:source" : "https://imma.ie/artists/janet-mullarney/",
+    "schema:birthDate" : "b.1952",
+    "schema:url" : "https://imma.ie/artists/janet-mullarney/",
+    "rdfs:label" : "Janet Mullarney"
+  }, {
+    "@id" : "spice:artefact/all-ears",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/mullarney-janet",
+    "author" : "spice:agent/mullarney-janet",
+    "schema:dateCreated" : "1995",
+    "schema:url" : "https://imma.ie/collection/all-ears/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/all-ears",
+    "arco-cd:hasTitle" : "All ears"
+  }, {
+    "@id" : "spice:artefact/alpha-and-omega",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/mullarney-janet",
+    "author" : "spice:agent/mullarney-janet",
+    "schema:dateCreated" : "2003",
+    "schema:url" : "https://imma.ie/collection/alpha-and-omega/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/alpha-and-omega",
+    "arco-cd:hasTitle" : "Alpha and Omega"
+  }, {
+    "@id" : "spice:artefact/domestic-gods-i",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/mullarney-janet",
+    "author" : "spice:agent/mullarney-janet",
+    "schema:dateCreated" : "1997",
+    "schema:url" : "https://imma.ie/collection/domestic-gods-i/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/domestic-gods-i",
+    "arco-cd:hasTitle" : "Domestic Gods I"
+  }, {
+    "@id" : "spice:artefact/domestic-gods-ii",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/mullarney-janet",
+    "author" : "spice:agent/mullarney-janet",
+    "schema:dateCreated" : "1998",
+    "schema:url" : "https://imma.ie/collection/domestic-gods-ii/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/domestic-gods-ii",
+    "arco-cd:hasTitle" : "Domestic Gods II"
+  }, {
+    "@id" : "spice:artefact/gift",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/mullarney-janet",
+    "author" : "spice:agent/mullarney-janet",
+    "schema:dateCreated" : "2001",
+    "schema:url" : "https://imma.ie/collection/gift/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/gift",
+    "arco-cd:hasTitle" : "Gift"
+  }, {
+    "@id" : "spice:artefact/the-straight-and-narrow",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/mullarney-janet",
+    "author" : "spice:agent/mullarney-janet",
+    "schema:dateCreated" : "1991",
+    "schema:url" : "https://imma.ie/collection/the-straight-and-narrow/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-straight-and-narrow",
+    "arco-cd:hasTitle" : "The Straight and Narrow"
+  }, {
+    "@id" : "spice:attribution/all-ears",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/mullarney-janet"
+  }, {
+    "@id" : "spice:attribution/alpha-and-omega",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/mullarney-janet"
+  }, {
+    "@id" : "spice:attribution/domestic-gods-i",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/mullarney-janet"
+  }, {
+    "@id" : "spice:attribution/domestic-gods-ii",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/mullarney-janet"
+  }, {
+    "@id" : "spice:attribution/gift",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/mullarney-janet"
+  }, {
+    "@id" : "spice:attribution/the-straight-and-narrow",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/mullarney-janet"
+  } ],
+  "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

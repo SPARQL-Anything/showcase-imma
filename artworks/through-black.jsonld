@@ -1,0 +1,80 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/through-black",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "Coleman has worked in a variety of styles, exploring the range of expression offered by colour and ground. He frequently cuts, stitches and joins his canvases, or combines canvas, plastic and leather to allow for different textures and effects, and paints and repaints surfaces, drawing a base colour through a series of layers to a differently coloured surface, making extensive use of the palette knife as well as the brush. Coleman likes to think of his paintings as embodying different energies – the energy of the process and the individual layers of pigment which are then stabilised or contained by the final layer of paint. He uses black very effectively over other pigments and on paper or canvas grounds that are almost sculptural in his manipulation of them, but has also experimented with other colours. ‘Through Black’, 1979, one of two paintings shown at the IELA in 1979 when Coleman won the Premier Award, is one of a number of paintings of the same title, painted over a period of years.",
+    "dc:source" : "https://imma.ie/collection/through-black/",
+    "schema:creditText" : "IMMA Collection: Purchase, 1997",
+    "image" : "spice:documentation/through-black",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Mixed media",
+    "schema:size" : "Framed: 171.6 x 190 cm 150 x 173 cm",
+    "arco-cd:hasInventory" : "IMMA.800"
+  }, {
+    "@id" : "spice:documentation/through-black",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Michael Coleman, Through Black, 1979, Mixed media, Framed: 171.6 x 190 cm 150 x 173 cm, Collection Irish Museum of Modern Art, Purchase, 1997 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2019/10/1131.jpg"
+  } ],
+  "@context" : {
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

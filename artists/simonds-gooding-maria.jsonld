@@ -1,0 +1,340 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/simonds-gooding-maria",
+    "@type" : "foaf:Person",
+    "dc:description" : "Born in India to an English father and an Irish mother, Maria Simonds-Gooding (born 1939) came to Ireland with her family at the age of seven. She attended the National College of Art and Design, Dublin, and Bath Academy Corsham. Initially inspired by the physicality of the landscape of the Dingle Peninsula, Simonds-Gooding’s paintings, prints and plasterworks examine the struggle between the individual and the environment. Simonds-Gooding has exhibited in Ireland and abroad since the 1970s. Her work is held in significant public collections including the National Gallery of Modern Art, New Delhi, and the Metropolitan Museum of Art, New York.",
+    "dc:source" : "https://imma.ie/artists/maria-simonds-gooding/",
+    "schema:birthDate" : "b.1939",
+    "schema:url" : "https://imma.ie/artists/maria-simonds-gooding/",
+    "rdfs:label" : "Maria Simonds-Gooding"
+  }, {
+    "@id" : "spice:artefact/a-place-of-habitation",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/simonds-gooding-maria",
+    "author" : "spice:agent/simonds-gooding-maria",
+    "schema:dateCreated" : "1999",
+    "schema:url" : "https://imma.ie/collection/a-place-of-habitation/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/a-place-of-habitation",
+    "arco-cd:hasTitle" : "A Place of Habitation"
+  }, {
+    "@id" : "spice:artefact/a-place-of-habitation-iii",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/simonds-gooding-maria",
+    "author" : "spice:agent/simonds-gooding-maria",
+    "schema:dateCreated" : "1985",
+    "schema:url" : "https://imma.ie/collection/a-place-of-habitation-iii/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/a-place-of-habitation-iii",
+    "arco-cd:hasTitle" : "A Place of Habitation III"
+  }, {
+    "@id" : "spice:artefact/chaco-settlement",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/simonds-gooding-maria",
+    "author" : "spice:agent/simonds-gooding-maria",
+    "schema:dateCreated" : "1985",
+    "schema:url" : "https://imma.ie/collection/chaco-settlement/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/chaco-settlement",
+    "arco-cd:hasTitle" : "Chaco Settlement"
+  }, {
+    "@id" : "spice:artefact/cliff-dwelling",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/simonds-gooding-maria",
+    "author" : "spice:agent/simonds-gooding-maria",
+    "schema:dateCreated" : "1999",
+    "schema:url" : "https://imma.ie/collection/cliff-dwelling/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/cliff-dwelling",
+    "arco-cd:hasTitle" : "Cliff Dwelling"
+  }, {
+    "@id" : "spice:artefact/earth-shelters-i",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/simonds-gooding-maria",
+    "author" : "spice:agent/simonds-gooding-maria",
+    "schema:dateCreated" : "2007",
+    "schema:url" : "https://imma.ie/collection/earth-shelters-i/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/earth-shelters-i",
+    "arco-cd:hasTitle" : "Earth Shelters I"
+  }, {
+    "@id" : "spice:artefact/earth-shelters-ii",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/simonds-gooding-maria",
+    "author" : "spice:agent/simonds-gooding-maria",
+    "schema:dateCreated" : "2007",
+    "schema:url" : "https://imma.ie/collection/earth-shelters-ii/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/earth-shelters-ii",
+    "arco-cd:hasTitle" : "Earth Shelters II"
+  }, {
+    "@id" : "spice:artefact/earth-shelters-ii-2",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/simonds-gooding-maria",
+    "author" : "spice:agent/simonds-gooding-maria",
+    "schema:dateCreated" : "2007",
+    "schema:url" : "https://imma.ie/collection/earth-shelters-ii-2/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/earth-shelters-ii-2",
+    "arco-cd:hasTitle" : "Earth Shelters II"
+  }, {
+    "@id" : "spice:artefact/earth-shelters-iii",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/simonds-gooding-maria",
+    "author" : "spice:agent/simonds-gooding-maria",
+    "schema:dateCreated" : "2007",
+    "schema:url" : "https://imma.ie/collection/earth-shelters-iii/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/earth-shelters-iii",
+    "arco-cd:hasTitle" : "Earth Shelters III"
+  }, {
+    "@id" : "spice:artefact/habitation-1",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/simonds-gooding-maria",
+    "author" : "spice:agent/simonds-gooding-maria",
+    "schema:dateCreated" : "1970",
+    "schema:url" : "https://imma.ie/collection/habitation-1/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/habitation-1",
+    "arco-cd:hasTitle" : "Habitation 1"
+  }, {
+    "@id" : "spice:artefact/habitation-extended-enclosure",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/simonds-gooding-maria",
+    "author" : "spice:agent/simonds-gooding-maria",
+    "schema:dateCreated" : "1995",
+    "schema:url" : "https://imma.ie/collection/habitation-extended-enclosure/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/habitation-extended-enclosure",
+    "arco-cd:hasTitle" : "Habitation &amp; Extended Enclosure"
+  }, {
+    "@id" : "spice:artefact/harvest-below",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/simonds-gooding-maria",
+    "author" : "spice:agent/simonds-gooding-maria",
+    "schema:dateCreated" : "1999",
+    "schema:url" : "https://imma.ie/collection/harvest-below/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/harvest-below",
+    "arco-cd:hasTitle" : "Harvest Below"
+  }, {
+    "@id" : "spice:artefact/inner-boundary",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/simonds-gooding-maria",
+    "author" : "spice:agent/simonds-gooding-maria",
+    "schema:dateCreated" : "1980",
+    "schema:url" : "https://imma.ie/collection/inner-boundary/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/inner-boundary",
+    "arco-cd:hasTitle" : "Inner Boundary"
+  }, {
+    "@id" : "spice:artefact/open-space-and-field",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/simonds-gooding-maria",
+    "author" : "spice:agent/simonds-gooding-maria",
+    "schema:dateCreated" : "1978",
+    "schema:url" : "https://imma.ie/collection/open-space-and-field/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/open-space-and-field",
+    "arco-cd:hasTitle" : "Open Space and Field"
+  }, {
+    "@id" : "spice:artefact/the-field-on-the-mountain",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/simonds-gooding-maria",
+    "author" : "spice:agent/simonds-gooding-maria",
+    "schema:dateCreated" : "1999",
+    "schema:url" : "https://imma.ie/collection/the-field-on-the-mountain/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-field-on-the-mountain",
+    "arco-cd:hasTitle" : "The Field on the Mountain"
+  }, {
+    "@id" : "spice:artefact/up-the-mountain",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/simonds-gooding-maria",
+    "author" : "spice:agent/simonds-gooding-maria",
+    "schema:dateCreated" : "1995",
+    "schema:url" : "https://imma.ie/collection/up-the-mountain/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/up-the-mountain",
+    "arco-cd:hasTitle" : "Up the Mountain"
+  }, {
+    "@id" : "spice:artefact/vegetation-and-dwelling-place",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/simonds-gooding-maria",
+    "author" : "spice:agent/simonds-gooding-maria",
+    "schema:dateCreated" : "2003",
+    "schema:url" : "https://imma.ie/collection/vegetation-and-dwelling-place/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/vegetation-and-dwelling-place",
+    "arco-cd:hasTitle" : "Vegetation and Dwelling Place"
+  }, {
+    "@id" : "spice:artefact/water-source-i",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/simonds-gooding-maria",
+    "author" : "spice:agent/simonds-gooding-maria",
+    "schema:dateCreated" : "2010",
+    "schema:url" : "https://imma.ie/collection/water-source-i/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/water-source-i",
+    "arco-cd:hasTitle" : "Water Source I"
+  }, {
+    "@id" : "spice:artefact/water-source-ii",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/simonds-gooding-maria",
+    "author" : "spice:agent/simonds-gooding-maria",
+    "schema:dateCreated" : "2010",
+    "schema:url" : "https://imma.ie/collection/water-source-ii/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/water-source-ii",
+    "arco-cd:hasTitle" : "Water Source II"
+  }, {
+    "@id" : "spice:artefact/water-source-iii",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/simonds-gooding-maria",
+    "author" : "spice:agent/simonds-gooding-maria",
+    "schema:dateCreated" : "2010",
+    "schema:url" : "https://imma.ie/collection/water-source-iii/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/water-source-iii",
+    "arco-cd:hasTitle" : "Water Source III"
+  }, {
+    "@id" : "spice:attribution/a-place-of-habitation",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/simonds-gooding-maria"
+  }, {
+    "@id" : "spice:attribution/a-place-of-habitation-iii",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/simonds-gooding-maria"
+  }, {
+    "@id" : "spice:attribution/chaco-settlement",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/simonds-gooding-maria"
+  }, {
+    "@id" : "spice:attribution/cliff-dwelling",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/simonds-gooding-maria"
+  }, {
+    "@id" : "spice:attribution/earth-shelters-i",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/simonds-gooding-maria"
+  }, {
+    "@id" : "spice:attribution/earth-shelters-ii",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/simonds-gooding-maria"
+  }, {
+    "@id" : "spice:attribution/earth-shelters-ii-2",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/simonds-gooding-maria"
+  }, {
+    "@id" : "spice:attribution/earth-shelters-iii",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/simonds-gooding-maria"
+  }, {
+    "@id" : "spice:attribution/habitation-1",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/simonds-gooding-maria"
+  }, {
+    "@id" : "spice:attribution/habitation-extended-enclosure",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/simonds-gooding-maria"
+  }, {
+    "@id" : "spice:attribution/harvest-below",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/simonds-gooding-maria"
+  }, {
+    "@id" : "spice:attribution/inner-boundary",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/simonds-gooding-maria"
+  }, {
+    "@id" : "spice:attribution/open-space-and-field",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/simonds-gooding-maria"
+  }, {
+    "@id" : "spice:attribution/the-field-on-the-mountain",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/simonds-gooding-maria"
+  }, {
+    "@id" : "spice:attribution/up-the-mountain",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/simonds-gooding-maria"
+  }, {
+    "@id" : "spice:attribution/vegetation-and-dwelling-place",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/simonds-gooding-maria"
+  }, {
+    "@id" : "spice:attribution/water-source-i",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/simonds-gooding-maria"
+  }, {
+    "@id" : "spice:attribution/water-source-ii",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/simonds-gooding-maria"
+  }, {
+    "@id" : "spice:attribution/water-source-iii",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/simonds-gooding-maria"
+  } ],
+  "@context" : {
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

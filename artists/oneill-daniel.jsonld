@@ -1,0 +1,116 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/oneill-daniel",
+    "@type" : "foaf:Person",
+    "dc:description" : "Belfast painter Dan O'Neill (1920-1974) was largely self-taught although he briefly attended life drawing classes at the Belfast College of Art. From the 1940s he exhibited at the Victor Waddington Gallery, Dublin. During the early 1950s, O'Neill relocated from Belfast to a small artist’s colony in Conlig, County Down, where he worked closely with fellow painters George Campbell and Gerard Dillon. O’Neill moved to London in 1958. In 1970 George McClelland invited O’Neill to exhibit a one man show at his Belfast gallery, and provided him with accommodation and a studio to work in. O’Neill’s work is represented in many national collections including the Ulster Museum and Dublin City Gallery The Hugh Lane.",
+    "dc:source" : "https://imma.ie/artists/daniel-oneill/",
+    "schema:birthDate" : "1920–1974",
+    "schema:url" : "https://imma.ie/artists/daniel-oneill/",
+    "rdfs:label" : "Daniel O’Neill"
+  }, {
+    "@id" : "spice:artefact/belfast-after-the-riot",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/oneill-daniel",
+    "author" : "spice:agent/oneill-daniel",
+    "schema:dateCreated" : "1971",
+    "schema:url" : "https://imma.ie/collection/belfast-after-the-riot/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/belfast-after-the-riot",
+    "arco-cd:hasTitle" : "Belfast After the Riot"
+  }, {
+    "@id" : "spice:artefact/december-in-donegal",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/oneill-daniel",
+    "author" : "spice:agent/oneill-daniel",
+    "schema:dateCreated" : "1969",
+    "schema:url" : "https://imma.ie/collection/december-in-donegal/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/december-in-donegal",
+    "arco-cd:hasTitle" : "December in Donegal"
+  }, {
+    "@id" : "spice:artefact/donegal-couple",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/oneill-daniel",
+    "author" : "spice:agent/oneill-daniel",
+    "schema:dateCreated" : "1955",
+    "schema:url" : "https://imma.ie/collection/donegal-couple/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/donegal-couple",
+    "arco-cd:hasTitle" : "Donegal Couple"
+  }, {
+    "@id" : "spice:attribution/belfast-after-the-riot",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/oneill-daniel"
+  }, {
+    "@id" : "spice:attribution/december-in-donegal",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/oneill-daniel"
+  }, {
+    "@id" : "spice:attribution/donegal-couple",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/oneill-daniel"
+  } ],
+  "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

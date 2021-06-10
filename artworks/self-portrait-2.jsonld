@@ -1,0 +1,70 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/self-portrait-2",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "Self Portrait is a composite of two drawings on a single sheet which O’Doherty made in 1958 after his first year in the United States. It echoes another portrait, a small oil,Transitional Head, 1957, now in the National Portrait Gallery, Washington, and an earlier three-quarter-length painting, Portrait of the Artist as a Naked Young Man, painted in 1953 when the artist was still a student doctor in Dublin. In the early 1960s O’Doherty began to make his first Conceptual artworks. Perhaps this early drawing, presenting different views and fragments, foretells the figure of the artist and his tendency to slip behind a multiplicity of forms, of personae, where future portraits are brought to life in an embodiment of intertextuality. Throughout his subsequent career a number of self-portraits of the artist have emerged, implicit in a range of Conceptual artworks, the most tangible of which is the life-long project, The Transformation, Discontinuity, and Degeneration of the Image, begun in 1969.",
+    "dc:source" : "https://imma.ie/collection/self-portrait-2/",
+    "schema:creditText" : "IMMA Collection: Donation, Novak/O'Doherty Collection, 2015",
+    "image" : "spice:documentation/self-portrait-2",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Pencil on paper",
+    "schema:size" : "35.5 x 27.5 cm Framed: 61 x 50.5 cm",
+    "arco-cd:hasInventory" : "IMMA.3917"
+  }, {
+    "@id" : "spice:documentation/self-portrait-2",
+    "@type" : "schema:ImageObject",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/5102.jpg"
+  } ],
+  "@context" : {
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

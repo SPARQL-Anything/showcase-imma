@@ -1,0 +1,85 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/connemara-portraits-from-the-series-theres-plenty-cloud-on-the-mountains-abroad",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "Connemara portraits from the series ‘There’s Plenty Cloud on the Mountains Abroad’ is a 1992 work by Perry Ogden. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "dc:source" : "https://imma.ie/collection/connemara-portraits-from-the-series-theres-plenty-cloud-on-the-mountains-abroad/",
+    "schema:creditText" : "IMMA Collection: Purchase, assisted by funding from Maire and Maurice Foley, 2010",
+    "image" : "spice:documentation/connemara-portraits-from-the-series-theres-plenty-cloud-on-the-mountains-abroad",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Silver gelatin prints",
+    "schema:size" : "27.3 x 20.3 cm (each)",
+    "schema:version" : "Edition 1/5",
+    "arco-cd:hasInventory" : "IMMA.3309"
+  }, {
+    "@id" : "spice:documentation/connemara-portraits-from-the-series-theres-plenty-cloud-on-the-mountains-abroad",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Perry Ogden, Connemara portraits from the series ‘There’s Plenty Cloud on the Mountains Abroad’, 1992, Silver gelatin prints, 27.3 x 20.3 cm (each), Collection Irish Museum of Modern Art, Purchase, assisted by funding from Maire and Maurice Foley, 2010 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/5574.jpg"
+  } ],
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "version" : {
+      "@id" : "http://schema.org/version",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

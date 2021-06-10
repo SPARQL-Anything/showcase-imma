@@ -1,0 +1,116 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/schutte-thomas",
+    "@type" : "foaf:Person",
+    "dc:description" : "German sculptor and draughtsman Thomas Schütte (born 1955) studied at the Kunstakademie, Düsseldorf. His early interest in architectural modelling led on to a consideration of the body, the human condition, and the place of the artist in society. Schütte has exhibited extensively since the 1980s. He received the Golden Lion at the Venice Biennale in 2005 and the Düsseldorf prize in 2010. His work has been the subject of solo exhibitions at the Serpentine Gallery, London; K21 Städehaus, Düsseldorf, and Peter Freeman, Inc., New York.",
+    "dc:source" : "https://imma.ie/artists/thomas-schutte/",
+    "schema:birthDate" : "b.1954",
+    "schema:url" : "https://imma.ie/artists/thomas-schutte/",
+    "rdfs:label" : "Thomas Schütte"
+  }, {
+    "@id" : "spice:artefact/volume-i-new-years-book",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/schutte-thomas",
+    "author" : "spice:agent/schutte-thomas",
+    "schema:dateCreated" : "2004",
+    "schema:url" : "https://imma.ie/collection/volume-i-new-years-book/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/volume-i-new-years-book",
+    "arco-cd:hasTitle" : "Volume I – New Year’s Book"
+  }, {
+    "@id" : "spice:artefact/volume-ii-the-big-nix",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/schutte-thomas",
+    "author" : "spice:agent/schutte-thomas",
+    "schema:dateCreated" : "2005",
+    "schema:url" : "https://imma.ie/collection/volume-ii-the-big-nix/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/volume-ii-the-big-nix",
+    "arco-cd:hasTitle" : "Volume II – The Big Nix"
+  }, {
+    "@id" : "spice:artefact/volume-iii-buschbuch",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/schutte-thomas",
+    "author" : "spice:agent/schutte-thomas",
+    "schema:dateCreated" : "2006",
+    "schema:url" : "https://imma.ie/collection/volume-iii-buschbuch/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/volume-iii-buschbuch",
+    "arco-cd:hasTitle" : "Volume III – Buschbuch"
+  }, {
+    "@id" : "spice:attribution/volume-i-new-years-book",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/schutte-thomas"
+  }, {
+    "@id" : "spice:attribution/volume-ii-the-big-nix",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/schutte-thomas"
+  }, {
+    "@id" : "spice:attribution/volume-iii-buschbuch",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/schutte-thomas"
+  } ],
+  "@context" : {
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/blackshaw-basil",
+    "@type" : "foaf:Person",
+    "dc:description" : "Basil Blackshaw is the foremost Northern Irish painter of his generation. He studied at the Belfast College of Art and he is best known for his post expressionist landscape paintings, portraits, equine and animal paintings. The Arts Council of Northern Ireland organised a retrospective of his work in 1995 and the Ulster Museum held a major exhibition of his work in 2002. The F.E. McWilliam Gallery and Studio and the Royal Hibernian Academy both held exhibitions to mark the artist’s 80th birthday.",
+    "dc:source" : "https://imma.ie/artists/basil-blackshaw/",
+    "schema:birthDate" : "1932–2016",
+    "schema:url" : "https://imma.ie/artists/basil-blackshaw/",
+    "rdfs:label" : "Basil Blackshaw"
+  }, {
+    "@id" : "spice:artefact/anna-on-a-sofa",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/blackshaw-basil",
+    "author" : "spice:agent/blackshaw-basil",
+    "schema:dateCreated" : "1960",
+    "schema:url" : "https://imma.ie/collection/anna-on-a-sofa/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/anna-on-a-sofa",
+    "arco-cd:hasTitle" : "Anna on a Sofa"
+  }, {
+    "@id" : "spice:artefact/female-nude",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/blackshaw-basil",
+    "author" : "spice:agent/blackshaw-basil",
+    "schema:dateCreated" : "1982",
+    "schema:url" : "https://imma.ie/collection/female-nude/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/female-nude",
+    "arco-cd:hasTitle" : "Female Nude"
+  }, {
+    "@id" : "spice:artefact/the-fall",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/blackshaw-basil",
+    "author" : "spice:agent/blackshaw-basil",
+    "schema:dateCreated" : "1975",
+    "schema:url" : "https://imma.ie/collection/the-fall/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-fall",
+    "arco-cd:hasTitle" : "The Fall"
+  }, {
+    "@id" : "spice:artefact/trees-at-cogry",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/blackshaw-basil",
+    "author" : "spice:agent/blackshaw-basil",
+    "schema:dateCreated" : "1987",
+    "schema:url" : "https://imma.ie/collection/trees-at-cogry/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/trees-at-cogry",
+    "arco-cd:hasTitle" : "Trees at Cogry"
+  }, {
+    "@id" : "spice:artefact/two-windows",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/blackshaw-basil",
+    "author" : "spice:agent/blackshaw-basil",
+    "schema:dateCreated" : "2002",
+    "schema:url" : "https://imma.ie/collection/two-windows/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/two-windows",
+    "arco-cd:hasTitle" : "Two Windows"
+  }, {
+    "@id" : "spice:artefact/window-ii",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/blackshaw-basil",
+    "author" : "spice:agent/blackshaw-basil",
+    "schema:dateCreated" : "2001",
+    "schema:url" : "https://imma.ie/collection/window-ii/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/window-ii",
+    "arco-cd:hasTitle" : "Window II"
+  }, {
+    "@id" : "spice:artefact/window-iii",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/blackshaw-basil",
+    "author" : "spice:agent/blackshaw-basil",
+    "schema:dateCreated" : "2001",
+    "schema:url" : "https://imma.ie/collection/window-iii/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/window-iii",
+    "arco-cd:hasTitle" : "Window III"
+  }, {
+    "@id" : "spice:artefact/window-iv",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/blackshaw-basil",
+    "author" : "spice:agent/blackshaw-basil",
+    "schema:dateCreated" : "2001",
+    "schema:url" : "https://imma.ie/collection/window-iv/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/window-iv",
+    "arco-cd:hasTitle" : "Window IV"
+  }, {
+    "@id" : "spice:attribution/anna-on-a-sofa",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/blackshaw-basil"
+  }, {
+    "@id" : "spice:attribution/female-nude",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/blackshaw-basil"
+  }, {
+    "@id" : "spice:attribution/the-fall",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/blackshaw-basil"
+  }, {
+    "@id" : "spice:attribution/trees-at-cogry",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/blackshaw-basil"
+  }, {
+    "@id" : "spice:attribution/two-windows",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/blackshaw-basil"
+  }, {
+    "@id" : "spice:attribution/window-ii",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/blackshaw-basil"
+  }, {
+    "@id" : "spice:attribution/window-iii",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/blackshaw-basil"
+  }, {
+    "@id" : "spice:attribution/window-iv",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/blackshaw-basil"
+  } ],
+  "@context" : {
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

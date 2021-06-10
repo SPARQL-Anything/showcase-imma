@@ -1,0 +1,298 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/allington-edward",
+    "@type" : "foaf:Person",
+    "dc:description" : "Edward Allington is an English artist and sculptor. His work addresses questions about the setting for modern sculpture and the contemporary practice of placing artworks in purpose built gallery spaces. Allington has exhibited widely in Europe, America and Japan and teaches at the Slade School of Fine Art, University College London.",
+    "dc:source" : "https://imma.ie/artists/edward-allington/",
+    "schema:birthDate" : "1951–2017",
+    "schema:url" : "https://imma.ie/artists/edward-allington/",
+    "rdfs:label" : "Edward Allington"
+  }, {
+    "@id" : "spice:artefact/after-piranesi-i",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/allington-edward",
+    "author" : "spice:agent/allington-edward",
+    "schema:dateCreated" : "1987",
+    "schema:url" : "https://imma.ie/collection/after-piranesi-i/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/after-piranesi-i",
+    "arco-cd:hasTitle" : "After Piranesi I"
+  }, {
+    "@id" : "spice:artefact/after-piranesi-ii",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/allington-edward",
+    "author" : "spice:agent/allington-edward",
+    "schema:dateCreated" : "1987",
+    "schema:url" : "https://imma.ie/collection/after-piranesi-ii/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/after-piranesi-ii",
+    "arco-cd:hasTitle" : "After Piranesi II"
+  }, {
+    "@id" : "spice:artefact/after-piranesi-iii",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/allington-edward",
+    "author" : "spice:agent/allington-edward",
+    "schema:dateCreated" : "1987",
+    "schema:url" : "https://imma.ie/collection/after-piranesi-iii/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/after-piranesi-iii",
+    "arco-cd:hasTitle" : "After Piranesi III"
+  }, {
+    "@id" : "spice:artefact/after-piranesi-iv",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/allington-edward",
+    "author" : "spice:agent/allington-edward",
+    "schema:dateCreated" : "1987",
+    "schema:url" : "https://imma.ie/collection/after-piranesi-iv/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/after-piranesi-iv",
+    "arco-cd:hasTitle" : "After Piranesi IV"
+  }, {
+    "@id" : "spice:artefact/after-piranesi-v",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/allington-edward",
+    "author" : "spice:agent/allington-edward",
+    "schema:dateCreated" : "1987",
+    "schema:url" : "https://imma.ie/collection/after-piranesi-v/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/after-piranesi-v",
+    "arco-cd:hasTitle" : "After Piranesi V"
+  }, {
+    "@id" : "spice:artefact/after-piranesi-vi",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/allington-edward",
+    "author" : "spice:agent/allington-edward",
+    "schema:dateCreated" : "1987",
+    "schema:url" : "https://imma.ie/collection/after-piranesi-vi/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/after-piranesi-vi",
+    "arco-cd:hasTitle" : "After Piranesi VI"
+  }, {
+    "@id" : "spice:artefact/caritas-romana",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/allington-edward",
+    "author" : "spice:agent/allington-edward",
+    "schema:dateCreated" : "1986",
+    "schema:url" : "https://imma.ie/collection/caritas-romana/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/caritas-romana",
+    "arco-cd:hasTitle" : "Caritas Romana"
+  }, {
+    "@id" : "spice:artefact/maternity-sweep-i",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/allington-edward",
+    "author" : "spice:agent/allington-edward",
+    "schema:dateCreated" : "1996",
+    "schema:url" : "https://imma.ie/collection/maternity-sweep-i/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/maternity-sweep-i",
+    "arco-cd:hasTitle" : "Maternity Sweep I"
+  }, {
+    "@id" : "spice:artefact/maternity-sweep-ii",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/allington-edward",
+    "author" : "spice:agent/allington-edward",
+    "schema:dateCreated" : "1996",
+    "schema:url" : "https://imma.ie/collection/maternity-sweep-ii/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/maternity-sweep-ii",
+    "arco-cd:hasTitle" : "Maternity Sweep II"
+  }, {
+    "@id" : "spice:artefact/maternity-sweep-iii",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/allington-edward",
+    "author" : "spice:agent/allington-edward",
+    "schema:dateCreated" : "1996",
+    "schema:url" : "https://imma.ie/collection/maternity-sweep-iii/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/maternity-sweep-iii",
+    "arco-cd:hasTitle" : "Maternity Sweep III"
+  }, {
+    "@id" : "spice:artefact/queen-of-proofs",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/allington-edward",
+    "author" : "spice:agent/allington-edward",
+    "schema:dateCreated" : "1990",
+    "schema:url" : "https://imma.ie/collection/queen-of-proofs/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/queen-of-proofs",
+    "arco-cd:hasTitle" : "Queen of Proofs"
+  }, {
+    "@id" : "spice:artefact/queen-of-torments",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/allington-edward",
+    "author" : "spice:agent/allington-edward",
+    "schema:dateCreated" : "1990",
+    "schema:url" : "https://imma.ie/collection/queen-of-torments/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/queen-of-torments",
+    "arco-cd:hasTitle" : "Queen of Torments"
+  }, {
+    "@id" : "spice:artefact/salammbo",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/allington-edward",
+    "author" : "spice:agent/allington-edward",
+    "schema:dateCreated" : "1985",
+    "schema:url" : "https://imma.ie/collection/salammbo/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/salammbo",
+    "arco-cd:hasTitle" : "Salammbo"
+  }, {
+    "@id" : "spice:artefact/the-source",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/allington-edward",
+    "author" : "spice:agent/allington-edward",
+    "schema:dateCreated" : "1986",
+    "schema:url" : "https://imma.ie/collection/the-source/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-source",
+    "arco-cd:hasTitle" : "The Source"
+  }, {
+    "@id" : "spice:artefact/three-steps-towards-the-sea",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/allington-edward",
+    "author" : "spice:agent/allington-edward",
+    "schema:dateCreated" : "1985",
+    "schema:url" : "https://imma.ie/collection/three-steps-towards-the-sea/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/three-steps-towards-the-sea",
+    "arco-cd:hasTitle" : "Three Steps Towards the Sea"
+  }, {
+    "@id" : "spice:artefact/with-hidden-vessel",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/allington-edward",
+    "author" : "spice:agent/allington-edward",
+    "schema:dateCreated" : "1986",
+    "schema:url" : "https://imma.ie/collection/with-hidden-vessel/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/with-hidden-vessel",
+    "arco-cd:hasTitle" : "With Hidden Vessel"
+  }, {
+    "@id" : "spice:attribution/after-piranesi-i",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/allington-edward"
+  }, {
+    "@id" : "spice:attribution/after-piranesi-ii",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/allington-edward"
+  }, {
+    "@id" : "spice:attribution/after-piranesi-iii",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/allington-edward"
+  }, {
+    "@id" : "spice:attribution/after-piranesi-iv",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/allington-edward"
+  }, {
+    "@id" : "spice:attribution/after-piranesi-v",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/allington-edward"
+  }, {
+    "@id" : "spice:attribution/after-piranesi-vi",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/allington-edward"
+  }, {
+    "@id" : "spice:attribution/caritas-romana",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/allington-edward"
+  }, {
+    "@id" : "spice:attribution/maternity-sweep-i",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/allington-edward"
+  }, {
+    "@id" : "spice:attribution/maternity-sweep-ii",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/allington-edward"
+  }, {
+    "@id" : "spice:attribution/maternity-sweep-iii",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/allington-edward"
+  }, {
+    "@id" : "spice:attribution/queen-of-proofs",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/allington-edward"
+  }, {
+    "@id" : "spice:attribution/queen-of-torments",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/allington-edward"
+  }, {
+    "@id" : "spice:attribution/salammbo",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/allington-edward"
+  }, {
+    "@id" : "spice:attribution/the-source",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/allington-edward"
+  }, {
+    "@id" : "spice:attribution/three-steps-towards-the-sea",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/allington-edward"
+  }, {
+    "@id" : "spice:attribution/with-hidden-vessel",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/allington-edward"
+  } ],
+  "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

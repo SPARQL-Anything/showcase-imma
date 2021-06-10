@@ -1,0 +1,80 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/refusal",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "O’Leary’s work draws on her personal experiences past and present. The intricate wooden objects she creates may be considered as fragments of an unfinished memoir. Growing up on a farm in rural Wexford in the 1960s through the 1980s, she cites the industriousness and invention born of need, that she experienced from a young age, as traits that carry through to her artistic practice now; “I revel in the history of painting, its rules, its beauty, its techniques, but fold them back into the agricultural language I grew up with. I’m interested in the personal, my own story, and the history of storytelling.”",
+    "dc:source" : "https://imma.ie/collection/refusal/",
+    "schema:creditText" : "IMMA Collection: Donated by the artist, 2018",
+    "image" : "spice:documentation/refusal",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Bole clay, oil paint, polymer and pigment on constructed wood",
+    "schema:size" : "30.5 x 35.5 x 6.35 cm",
+    "arco-cd:hasInventory" : "IMMA.4042"
+  }, {
+    "@id" : "spice:documentation/refusal",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Helen O'Leary, Refusal, 2014, Bole clay, oil paint, polymer and pigment on constructed wood, 30.5 x 35.5 x 6.35 cm, Collection Irish Museum of Modern Art, Donated by the artist, 2018 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2020/04/9061.jpg"
+  } ],
+  "@context" : {
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

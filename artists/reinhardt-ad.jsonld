@@ -1,0 +1,102 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/reinhardt-ad",
+    "@type" : "foaf:Person",
+    "dc:description" : "American abstract painter Ad Reinhardt (1913-1967) studied at Columbia University, the American Artists' School and the National Academy of Design, New York. He became a member of the American Abstract Artists in 1937. Initially influenced by cubism, from the 1940s Reinhardt developed a gestural, linear style aligned with the Abstract Expressionist painters. His return to geometric shapes in the next decade positioned him as a precursor of minimalism and conceptual art. His work is represented in major public collections worldwide.",
+    "dc:source" : "https://imma.ie/artists/ad-reinhardt/",
+    "schema:birthDate" : "1913–1967",
+    "schema:url" : "https://imma.ie/artists/ad-reinhardt/",
+    "rdfs:label" : "Ad Reinhardt"
+  }, {
+    "@id" : "spice:artefact/art-comics-and-satires-reinhardts-needle",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/reinhardt-ad",
+    "author" : "spice:agent/reinhardt-ad",
+    "schema:dateCreated" : "1976",
+    "schema:url" : "https://imma.ie/collection/art-comics-and-satires-reinhardts-needle/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/art-comics-and-satires-reinhardts-needle",
+    "arco-cd:hasTitle" : "Art Comics and Satires. Reinhardt’s Needle"
+  }, {
+    "@id" : "spice:artefact/untitled-116",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/reinhardt-ad",
+    "author" : "spice:agent/reinhardt-ad",
+    "schema:dateCreated" : "1966",
+    "schema:url" : "https://imma.ie/collection/untitled-116/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-116",
+    "arco-cd:hasTitle" : "Untitled"
+  }, {
+    "@id" : "spice:attribution/art-comics-and-satires-reinhardts-needle",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/reinhardt-ad"
+  }, {
+    "@id" : "spice:attribution/untitled-116",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/reinhardt-ad"
+  } ],
+  "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

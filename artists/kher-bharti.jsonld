@@ -1,0 +1,44 @@
+{
+  "@id" : "spice:agent/kher-bharti",
+  "@type" : "foaf:Person",
+  "dc:description" : [ "Bharti Kher was born in 1969 in London, England and lives in New Delhi, India. She studied painting, graduating in 1991 from Newcastle Polytechnic. In 1992 she travelled to India, deciding to live there in 1993. Kher’s recent solo exhibitions include: &nbsp;‘A Wonderful Anarchy’ Hauser &amp; Wirth Somerset, ‘Chimeras’, Centre Pasqu’Art, Biel (2018), ‘Djinns, things, places’, Galerie Perrotin, Tokyo (2018), ‘Points de départ, points qui lient’, DHC/ART&nbsp;Foundation for Contemporary Art, Montreal (2018), ‘Dark Matter’, Museum Frieder Burda, Berlin, 2017), ‘This Breathing House’, Freud Museum, London (2016), ‘The Laws of Reversed Effort’, Galerie Perrotin, Paris (2016),’Three decimal points. of a minute of a second. of a degree’, Hauser &amp; Wirth, Zürich (2014) and ‘Misdemeanours’, Rockbund Art Museum, Shanghai(2014).", "Bharti Kher was born in 1969 in London, England and lives in New Delhi, India. She studied painting, graduating in 1991 from Newcastle Polytechnic. In 1992 she travelled to India, deciding to live there in 1993. Recent group exhibitions include: ‘In the Company of Artists’ Isabella Stewart Gardner Museum (2019), ‘Desire: A Revision from the 20th Century to the Digital Age’, IMMA, Dublin (2019)." ],
+  "dc:source" : "https://imma.ie/artists/bharti-kher/",
+  "schema:birthDate" : "b.1969",
+  "schema:url" : "https://imma.ie/artists/bharti-kher/",
+  "rdfs:label" : "Bharti Kher",
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

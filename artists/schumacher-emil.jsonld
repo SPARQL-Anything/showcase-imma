@@ -1,0 +1,116 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/schumacher-emil",
+    "@type" : "foaf:Person",
+    "dc:description" : "German painter Emil Schumacher (1912 – 1999) was born in Hagen and studied Graphic Design at the School of Applied Arts in Dortmund between 1932 and 1935. He was the recipient of numerous international awards including the Guggenheim Award in 1958 and in the same year was appointed Professor at the University of Fine Arts of Hamburg, Germany. Schumacher is considered one of the most important representatives of abstract painting in the second half of the 20th Century and in 2009 the Emil Schumacher Museum was opened in Hagen, Germany. Dedicated to his life and work, the museum collection includes more than 500 works from all stages of Schumacher’s career.",
+    "dc:source" : "https://imma.ie/artists/emil-schumacher/",
+    "schema:birthDate" : "1912–1999",
+    "schema:url" : "https://imma.ie/artists/emil-schumacher/",
+    "rdfs:label" : "Emil Schumacher"
+  }, {
+    "@id" : "spice:artefact/no-11",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/schumacher-emil",
+    "author" : "spice:agent/schumacher-emil",
+    "schema:dateCreated" : "1964",
+    "schema:url" : "https://imma.ie/collection/no-11/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/no-11",
+    "arco-cd:hasTitle" : "No. 11"
+  }, {
+    "@id" : "spice:artefact/no-8",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/schumacher-emil",
+    "author" : "spice:agent/schumacher-emil",
+    "schema:dateCreated" : "1964",
+    "schema:url" : "https://imma.ie/collection/no-8/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/no-8",
+    "arco-cd:hasTitle" : "No. 8"
+  }, {
+    "@id" : "spice:artefact/no-9",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/schumacher-emil",
+    "author" : "spice:agent/schumacher-emil",
+    "schema:dateCreated" : "1964",
+    "schema:url" : "https://imma.ie/collection/no-9/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/no-9",
+    "arco-cd:hasTitle" : "No. 9"
+  }, {
+    "@id" : "spice:attribution/no-11",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/schumacher-emil"
+  }, {
+    "@id" : "spice:attribution/no-8",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/schumacher-emil"
+  }, {
+    "@id" : "spice:attribution/no-9",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/schumacher-emil"
+  } ],
+  "@context" : {
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

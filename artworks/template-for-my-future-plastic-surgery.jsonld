@@ -1,0 +1,75 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/template-for-my-future-plastic-surgery",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "‘Template for my Future Plastic Surgery’ was commissioned by the Paragon Press, London for the London Print Portfolio. The print was generated from a photograph of the artist with photographs of casts of parts of other people’s bodies collaged on top. This humorous and dark work is not merely an articulation of the artist’s desire to alter his appearance. Quinn has selected the nose of an impresario, the ear of a violinist and the tongue of a noted chef. The hand of his girlfriend at the time rests over his heart and his brain is replaced with a piece of coral which alludes to man’s relationship to nature.",
+    "dc:source" : "https://imma.ie/collection/template-for-my-future-plastic-surgery/",
+    "schema:creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1995",
+    "image" : "spice:documentation/template-for-my-future-plastic-surgery",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Four-colour screenprint with varnish",
+    "schema:size" : "86 x 68 cm",
+    "arco-cd:hasInventory" : "L.720.7 LW"
+  }, {
+    "@id" : "spice:documentation/template-for-my-future-plastic-surgery",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Marc Quinn, Template for my Future Plastic Surgery, 1992, Four-colour screenprint with varnish, 86 x 68 cm, Collection Irish Museum of Modern Art, Loan, Weltkunst Foundation, 1995 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma"
+  } ],
+  "@context" : {
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

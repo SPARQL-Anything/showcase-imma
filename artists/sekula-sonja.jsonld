@@ -1,0 +1,102 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/sekula-sonja",
+    "@type" : "foaf:Person",
+    "dc:description" : "Swiss artist Sonja Sekula (1918 – 1963) was born in Lucerne and moved with her family to the United States in 1936. She attended Sarah Lawrence College where she studied philosophy, literature and painting. Sekula entered the Art Students League in 1941. During the 1940s she met André Breton, Robert Matta, Marcel Duchamp, Max Ernst and others among the Surrealist group. Sekula contributed to the Surrealist Magazine VVV in 1943. In 1946 she had her first solo show at Peggy Guggenheim’s gallery. In 1949 she showed at the Betty Parsons Gallery with Jackson Pollock and Barnett Newman. Sekula returned to Switzerland in 1951 and remained there until her death in 1963.",
+    "dc:source" : "https://imma.ie/artists/sonja-sekula/",
+    "schema:birthDate" : "1918–1963",
+    "schema:url" : "https://imma.ie/artists/sonja-sekula/",
+    "rdfs:label" : "Sonja Sekula"
+  }, {
+    "@id" : "spice:artefact/a-small-small-talk-book",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/sekula-sonja",
+    "author" : "spice:agent/sekula-sonja",
+    "schema:dateCreated" : "1953",
+    "schema:url" : "https://imma.ie/collection/a-small-small-talk-book/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/a-small-small-talk-book",
+    "arco-cd:hasTitle" : "A Small Small Talk Book"
+  }, {
+    "@id" : "spice:artefact/drawing-19",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/sekula-sonja",
+    "author" : "spice:agent/sekula-sonja",
+    "schema:dateCreated" : "1950",
+    "schema:url" : "https://imma.ie/collection/drawing-19/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/drawing-19",
+    "arco-cd:hasTitle" : "Drawing 19"
+  }, {
+    "@id" : "spice:attribution/a-small-small-talk-book",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/sekula-sonja"
+  }, {
+    "@id" : "spice:attribution/drawing-19",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/sekula-sonja"
+  } ],
+  "@context" : {
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

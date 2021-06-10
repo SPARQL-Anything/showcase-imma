@@ -1,0 +1,144 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/warren-michael",
+    "@type" : "foaf:Person",
+    "dc:description" : "Irish artist Michael Warren studied at Trinity College, Dublin, and the Accademia di Belle Arti di Brera, Milan. His monumental sculptures often seem to defy gravity and their strength lies in Warren’s ability to combine autonomous elements that retain their own tension and rhythm. Warren’s outdoor works are on public display worldwide. He was made a member of the Royal Hibernian Academy in 2008, and an honorary member of the Royal Institute of the Architects of Ireland in 2102.",
+    "dc:source" : "https://imma.ie/artists/michael-warren/",
+    "schema:birthDate" : "b.1950",
+    "schema:url" : "https://imma.ie/artists/michael-warren/",
+    "rdfs:label" : "Michael Warren"
+  }, {
+    "@id" : "spice:artefact/beneath-the-bow",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/warren-michael",
+    "author" : "spice:agent/warren-michael",
+    "schema:dateCreated" : "1991",
+    "schema:url" : "https://imma.ie/collection/beneath-the-bow/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/beneath-the-bow",
+    "arco-cd:hasTitle" : "Beneath the ‘bow"
+  }, {
+    "@id" : "spice:artefact/de-creation-iii",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/warren-michael",
+    "author" : "spice:agent/warren-michael",
+    "schema:dateCreated" : "1977",
+    "schema:url" : "https://imma.ie/collection/de-creation-iii/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/de-creation-iii",
+    "arco-cd:hasTitle" : "De-creation III"
+  }, {
+    "@id" : "spice:artefact/logos-ii",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/warren-michael",
+    "author" : "spice:agent/warren-michael",
+    "schema:dateCreated" : "1978",
+    "schema:url" : "https://imma.ie/collection/logos-ii/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/logos-ii",
+    "arco-cd:hasTitle" : "Logos II"
+  }, {
+    "@id" : "spice:artefact/pasqua",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/warren-michael",
+    "author" : "spice:agent/warren-michael",
+    "schema:dateCreated" : "1984",
+    "schema:url" : "https://imma.ie/collection/pasqua/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/pasqua",
+    "arco-cd:hasTitle" : "Pasqua"
+  }, {
+    "@id" : "spice:artefact/stele-xi",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/warren-michael",
+    "author" : "spice:agent/warren-michael",
+    "schema:dateCreated" : "1997",
+    "schema:url" : "https://imma.ie/collection/stele-xi/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/stele-xi",
+    "arco-cd:hasTitle" : "Stele XI"
+  }, {
+    "@id" : "spice:attribution/beneath-the-bow",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/warren-michael"
+  }, {
+    "@id" : "spice:attribution/de-creation-iii",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/warren-michael"
+  }, {
+    "@id" : "spice:attribution/logos-ii",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/warren-michael"
+  }, {
+    "@id" : "spice:attribution/pasqua",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/warren-michael"
+  }, {
+    "@id" : "spice:attribution/stele-xi",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/warren-michael"
+  } ],
+  "@context" : {
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

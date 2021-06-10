@@ -1,0 +1,85 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/the-troubles-an-artists-document-of-ulster-18",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "During his prolific career Les Levine has produced major series of works about the manifold effects and functions of the media and information systems. ‘The Troubles: An Artist’s Document of Ulster’ is a suite of 80 cibachrome photographs, executed in 1972, and for which the artist coined the terms “media sculpture” and “media art”. Levine said of the series “The piece is extremely colourful. It deals with every aspect of the situation. It goes into Catholic homes, Protestant homes, churches, funerals, explosions…My approach was to take it from the human point of view, not the political. So in all cases, I tried to show the people involved and to evoke some state of mind that they were representing in the photo. I avoided taking sides or showing bias. I think the photos speak for themselves and tell their own extraordinary story.” ‘The Troubles: An Artist’s Document of Ulster’ was donated to IMMA by the artist, together with another series of the same name, in 2011.",
+    "dc:source" : "https://imma.ie/collection/the-troubles-an-artists-document-of-ulster-18/",
+    "schema:creditText" : "IMMA Collection: Donated by the artist in memory of his parents Muriel McMahon and Charles Levine, 2010",
+    "image" : "spice:documentation/the-troubles-an-artists-document-of-ulster-18",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Archival cibachrome",
+    "schema:size" : "27.9 x 35.6 cm",
+    "schema:version" : "Edition 1/1",
+    "arco-cd:hasInventory" : "IMMA.3305.18"
+  }, {
+    "@id" : "spice:documentation/the-troubles-an-artists-document-of-ulster-18",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Les Levine, The Troubles: an Artist’s Document of Ulster, 1972, Archival cibachrome, 27.9 x 35.6 cm, Collection Irish Museum of Modern Art, Donated by the artist in memory of his parents Muriel McMahon and Charles Levine, 2010 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/5662.jpg"
+  } ],
+  "@context" : {
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "version" : {
+      "@id" : "http://schema.org/version",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

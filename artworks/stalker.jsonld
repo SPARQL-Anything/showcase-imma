@@ -1,0 +1,80 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/stalker",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "Eva Rothschild’s sculptures have been compared to artefacts from a lost civilisation. ‘Stalker’ is a case in point, its distinct modernist lines subverted by its suggested drama of esoteric rituals. As the title suggests, ‘Stalker’ alludes to ideas of a dark presence prowling in the shadows. It also brings to mind Andrei Tarkovsky’s sci-fi film epic of the same name. Tarkovsky’s film ‘Stalker’ is a journey into a remote forbidden territory devastated by an unnamed event that has reputed otherworldly powers to grant one’s deepest desires.",
+    "dc:source" : "https://imma.ie/collection/stalker/",
+    "schema:creditText" : "IMMA Collection: Purchase, 2005",
+    "image" : "spice:documentation/stalker",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Wood, Plexiglas",
+    "schema:size" : "300 x 300 x 300 cm",
+    "arco-cd:hasInventory" : "IMMA.1913"
+  }, {
+    "@id" : "spice:documentation/stalker",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Eva Rothschild, Stalker, 2004, Wood, Plexiglas, 300 x 300 x 300 cm, Collection Irish Museum of Modern Art, Purchase, 2005 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/71.jpg"
+  } ],
+  "@context" : {
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "@id" : "spice:agent/bowling-frank",
+  "@type" : "foaf:Person",
+  "dc:description" : [ "Frank Bowling (b. British Guiana, 1934), lives and works in London and New York. Upon graduating from the Royal College of Art, London, 1962 he was awarded the silver medal for painting. Bowling has exhibited widely and consistently over the last 60 years. Selected solo shows include Whitney Museum of American Art, New York (1971); Serpentine Gallery, London (1986); a UK touring retrospective (2003); Royal Academy of Arts, London (2011); Spritmuseum, Stockholm (2014-15); Dallas Museum of Art (2015). Selected awards included multiple Guggenheim Fellowships and Pollock-Krasner awards. Bowling is a Royal Academician and an Officer of the British Empire. He is represented by Hales Gallery, London and New York.", "Frank Bowling (b. British Guiana, 1934), lives and works in London and New York. Upon graduating from the Royal College of Art, London, 1962 he was awarded the silver medal for painting." ],
+  "dc:source" : "https://imma.ie/artists/frank-bowling/",
+  "schema:birthDate" : "b.1934",
+  "schema:url" : "https://imma.ie/artists/frank-bowling/",
+  "rdfs:label" : "Frank Bowling",
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

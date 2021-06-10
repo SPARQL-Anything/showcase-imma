@@ -1,0 +1,144 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/horn-rebecca",
+    "@type" : "foaf:Person",
+    "dc:description" : "German artist Rebecca Horn explores ideas of sexuality, human vulnerability and emotional fragility in her sculpture, film and performance work. In her early work Horn focused on the body and senses, frequently incorporating performance and elaborate costumes. Later she produced highly narrative, full-length films that incorporated the sculptures and movements from her earlier work, thus transforming their significance. Horn has exhibited worldwide. Her work was the subject of a mid-career retrospective at the Guggenheim Museum in 1993. A comprehensive retrospective of Horn's work took place in 2005 at the Hayward Gallery, London.",
+    "dc:source" : "https://imma.ie/artists/rebecca-horn/",
+    "schema:birthDate" : "b.1944",
+    "schema:url" : "https://imma.ie/artists/rebecca-horn/",
+    "rdfs:label" : "Rebecca Horn"
+  }, {
+    "@id" : "spice:artefact/cockfeather-mask-performance-ii",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/horn-rebecca",
+    "author" : "spice:agent/horn-rebecca",
+    "schema:dateCreated" : "1970",
+    "schema:url" : "https://imma.ie/collection/cockfeather-mask-performance-ii/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/cockfeather-mask-performance-ii",
+    "arco-cd:hasTitle" : "Cockfeather Mask, Performance II"
+  }, {
+    "@id" : "spice:artefact/dublin-last-waltz-at-the-shelbourne-hotel",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/horn-rebecca",
+    "author" : "spice:agent/horn-rebecca",
+    "schema:dateCreated" : "1992",
+    "schema:url" : "https://imma.ie/collection/dublin-last-waltz-at-the-shelbourne-hotel/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/dublin-last-waltz-at-the-shelbourne-hotel",
+    "arco-cd:hasTitle" : "Dublin Last Waltz at the Shelbourne Hotel"
+  }, {
+    "@id" : "spice:artefact/dublin-last-waltz-at-the-shelbourne-hotel-2",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/horn-rebecca",
+    "author" : "spice:agent/horn-rebecca",
+    "schema:dateCreated" : "1992",
+    "schema:url" : "https://imma.ie/collection/dublin-last-waltz-at-the-shelbourne-hotel-2/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/dublin-last-waltz-at-the-shelbourne-hotel-2",
+    "arco-cd:hasTitle" : "Dublin Last Waltz at The Shelbourne Hotel"
+  }, {
+    "@id" : "spice:artefact/films",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/horn-rebecca",
+    "author" : "spice:agent/horn-rebecca",
+    "schema:dateCreated" : "1970",
+    "schema:url" : "https://imma.ie/collection/films/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/films",
+    "arco-cd:hasTitle" : "Films"
+  }, {
+    "@id" : "spice:artefact/take-me-to-the-other-side-of-the-ocean",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/horn-rebecca",
+    "author" : "spice:agent/horn-rebecca",
+    "schema:dateCreated" : "1991",
+    "schema:url" : "https://imma.ie/collection/take-me-to-the-other-side-of-the-ocean/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/take-me-to-the-other-side-of-the-ocean",
+    "arco-cd:hasTitle" : "Take me to the other side of the ocean"
+  }, {
+    "@id" : "spice:attribution/cockfeather-mask-performance-ii",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/horn-rebecca"
+  }, {
+    "@id" : "spice:attribution/dublin-last-waltz-at-the-shelbourne-hotel",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/horn-rebecca"
+  }, {
+    "@id" : "spice:attribution/dublin-last-waltz-at-the-shelbourne-hotel-2",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/horn-rebecca"
+  }, {
+    "@id" : "spice:attribution/films",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/horn-rebecca"
+  }, {
+    "@id" : "spice:attribution/take-me-to-the-other-side-of-the-ocean",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/horn-rebecca"
+  } ],
+  "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

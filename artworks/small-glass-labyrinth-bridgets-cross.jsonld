@@ -1,0 +1,70 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/small-glass-labyrinth-bridgets-cross",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "The Labyrinth is an archetype in O’Doherty’s work, from his earliest mazes of 1967 to the current large-scale permanent Labyrinth under way on the Falls Road, Belfast. Labyrinths are also to be found in the games of chess which fascinated the artist since childhood. The moves of the chess pieces trace an invisible diagram that has a labyrinth-like quality. The artist’s familiarity with Joyce’s labyrinthine novels, Ulysses and Finnegans Wake, was another source. His early mazes were the first minimal labyrinths in Conceptual art. Derived in part from the swastika-like form of St Brigid’s cross, Small Glass Labyrinth (Brigid’s Cross), 1967, is painted on mirrored glass, where the mirror has been removed, leaving the track of the labyrinth. Reflective slivers which remain at the edges of the track glisten as the viewer moves around the piece. In 1967-68 O’Doherty created numerous versions of labyrinths such as Blue Labyrinth, 1968. The much larger, related Vertical Labyrinth, 1967, also in a St Brigid’s cross form, floats on a transparent sheet of glass, over a mirror, in which the track of the labyrinth echoes endlessly downwards. O’Doherty created a conceptual labyrinth, Labyrinth as a Straight Line, 1967, which indicates the right and left turns along the line with the letters R and L, which necessitate 90º turns, a mental exercise in which knowledge pre-empts experience. Performed blindfolded, on a raised line, a plank, the piece is memorydependent.",
+    "dc:source" : "https://imma.ie/collection/small-glass-labyrinth-bridgets-cross/",
+    "schema:creditText" : "IMMA Collection: Donation, Novak/O'Doherty Collection, 2015",
+    "image" : "spice:documentation/small-glass-labyrinth-bridgets-cross",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Glass",
+    "schema:size" : "30.48 x 30.48 cm",
+    "arco-cd:hasInventory" : "IMMA.3916"
+  }, {
+    "@id" : "spice:documentation/small-glass-labyrinth-bridgets-cross",
+    "@type" : "schema:ImageObject",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2019/10/5203.jpg"
+  } ],
+  "@context" : {
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

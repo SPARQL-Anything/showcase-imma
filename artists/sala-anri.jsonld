@@ -1,0 +1,88 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/sala-anri",
+    "@type" : "foaf:Person",
+    "dc:description" : "Born in Tirana, Albanian, in 1974, Anri Sala is one of the most outstanding young artists working today. His works are meditations on slowness in which camera movement is practically non-existent. In contrast with the speed of images in the media, Sala often freezes scenes into still-shots in order to highlight apparently trivial details. Anri Sala was educated at the National Academy of Arts, Tirana; at the Ecole Nationale Supérieure des Arts Décoratifs, Paris; and at Le Fresnoy, Studio National des Arts Contemporains, Tourcoing. Sala has exhibited extensively, including the Tate Gallery, London, 2004; ARC, Musée d'Art moderne de la Ville de Paris, Paris, 2004; Kunsthalle Wien, Vienna, 2003; the Dallas Museum of Art, Dallas, 2002; and the Ikon Gallery, Birmingham, 2002. He is the recipient of numerous prizes, including the Young Artist Prize at the 49th Venice Biennale, 2001; the Prix Gilles Dusein, Paris, 2000; the Best Documentary Film Award from the Tirana International Film Festival (TIFF), 2000, and the International Film Festival +in Santiago de Compostela, 1999.",
+    "dc:source" : "https://imma.ie/artists/anri-sala/",
+    "schema:birthDate" : "b.1974",
+    "schema:url" : "https://imma.ie/artists/anri-sala/",
+    "rdfs:label" : "Anri Sala"
+  }, {
+    "@id" : "spice:artefact/untitled-halves",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/sala-anri",
+    "author" : "spice:agent/sala-anri",
+    "schema:dateCreated" : "2012",
+    "schema:url" : "https://imma.ie/collection/untitled-halves/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-halves",
+    "arco-cd:hasTitle" : "Untitled halves"
+  }, {
+    "@id" : "spice:attribution/untitled-halves",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/sala-anri"
+  } ],
+  "@context" : {
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

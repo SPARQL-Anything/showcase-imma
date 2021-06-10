@@ -1,0 +1,39 @@
+{
+  "@id" : "spice:agent/hamilton-mark",
+  "@type" : "foaf:Person",
+  "dc:description" : [ "Mark Hamilton’s practice is characterised by the use of a range of media, switching from the traditional studio-based activities of picture and object production to text-based installation and the digital processes of video and sound work. This is primarily based on the avoidance of an explicit trademark-style and a conscious rejection of serial-based production. Instead, a more improvisational approach is favoured in a working practice responsive to context and synthesised from elements of bricolage and conceptual art. Hamilton constructs images, objects and installations which generate transient structures of association around a collision or connection of materials, media and pre-existing semiotic designations. A defining tendency in his work is the re-use and reconfiguration of an existing economy of forms, signs and quotidian material, which reflects an on-going examination of the function of objects or images as containers of meaning, as carriers of ideology. Mark Hamilton lives and works in Leipzig, Germany. Previous solo exhibitions include Ghosts of Mars, FOUR, Dublin, 2009, Reverb, Museum of Contemporary Art, Leipzig, 2008, Metal Box, b2, Leipzig, 2007 and Echoplex at Artists Space, New York, 2006. He has received awards from Stiftung Kunstfonds Bonn e.V, 2010, The Cultural Foundation of Saxony, 2009, and The State Bank of Saxony, 2008.", "Mark Hamilton’s practice is characterised by the use of a range of media, switching from the traditional studio-based activities of picture and object production to text-based installation and the digital processes of video and sound work. " ],
+  "dc:source" : "https://imma.ie/artists/mark-hamilton/",
+  "schema:url" : "https://imma.ie/artists/mark-hamilton/",
+  "rdfs:label" : "Mark Hamilton",
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

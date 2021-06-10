@@ -1,0 +1,85 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/protecting-invading",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "Willie Doherty’s work addresses problems of representation, territoriality and surveillance and the language of identity in Northern Ireland. His practice is lens-based – the addition of language either in the form of superimposed text, titles to the works or sound accompaniments to his filmworks is crucial to an understanding of his intentions. Sometimes the words appear to contradict each other, or the image they accompany, challenging the viewer to make up his or her own mind about the true meanings of the work. The ambiguities resulting from differing perspectives on the same material are at the foreground of works such as ‘Protecting/Invading’, an early piece in which the same landscape clearly has different resonances depending on which side of the political divide one identifies with.",
+    "dc:source" : "https://imma.ie/collection/protecting-invading/",
+    "schema:creditText" : "IMMA Collection: Purchase, 2003",
+    "image" : "spice:documentation/protecting-invading",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Black and white photograph with text",
+    "schema:size" : "122 x 183 cm (each)",
+    "schema:version" : "Edition 3/3",
+    "arco-cd:hasInventory" : "IMMA.1621"
+  }, {
+    "@id" : "spice:documentation/protecting-invading",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Willie Doherty, Protecting/Invading, 1987, Black and white photograph with text, 122 x 183 cm (each), Collection Irish Museum of Modern Art, Purchase, 2003 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2021/03/1462.jpg"
+  } ],
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "version" : {
+      "@id" : "http://schema.org/version",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

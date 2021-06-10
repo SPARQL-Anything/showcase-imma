@@ -1,0 +1,802 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/powers-mary-farl",
+    "@type" : "foaf:Person",
+    "dc:description" : [ "Mary Farl Powers (1948-1992) was born in America and moved to Ireland in 1951. Powers studied at the Dun Laoghaire School of Art and the National College of Art and Design before joining the Graphic Studio, Dublin, in 1973. Her rapid mastery of various printmaking techniques allowed her to develop an extensive body of print work which also incorporated cast paper and paper sculpture. Powers was instrumental in establishing the Graphic Studio Gallery in 1983. She was a member of Aosdána and served as a director of the Graphic Studio for many years.", "Mary Farl Powers (1948-1992) was born in Minnesota in the United States and much of her early years were spent moving between there and Ireland before she finally made Dublin her home in the 1970s. Powers studied at the Dun Laoghaire School of Art and the National College of Art and Design before joining the Graphic Studio, Dublin, in 1973. Her rapid mastery of various printmaking techniques allowed her to develop an extensive body of print work which also incorporated cast paper and paper sculpture. Powers was instrumental in establishing the Graphic Studio Gallery in 1983. She was a founding member of Aosdána and served as a director of the Graphic Studio for many years." ],
+    "dc:source" : "https://imma.ie/artists/mary-farl-powers/",
+    "schema:birthDate" : "1948–1992",
+    "schema:url" : "https://imma.ie/artists/mary-farl-powers/",
+    "rdfs:label" : "Mary Farl Powers"
+  }, {
+    "@id" : "spice:artefact/3-2",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/powers-mary-farl",
+    "author" : "spice:agent/powers-mary-farl",
+    "schema:dateCreated" : "1975",
+    "schema:url" : "https://imma.ie/collection/3-2/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/3-2",
+    "arco-cd:hasTitle" : "“3”"
+  }, {
+    "@id" : "spice:artefact/babies-in-the-bed",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/powers-mary-farl",
+    "author" : "spice:agent/powers-mary-farl",
+    "schema:dateCreated" : "1974",
+    "schema:url" : "https://imma.ie/collection/babies-in-the-bed/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/babies-in-the-bed",
+    "arco-cd:hasTitle" : "Babies in the Bed"
+  }, {
+    "@id" : "spice:artefact/blue-spotted-torso",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/powers-mary-farl",
+    "author" : "spice:agent/powers-mary-farl",
+    "schema:dateCreated" : "1977",
+    "schema:url" : "https://imma.ie/collection/blue-spotted-torso/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/blue-spotted-torso",
+    "arco-cd:hasTitle" : "Blue Spotted Torso"
+  }, {
+    "@id" : "spice:artefact/boy-and-rabbit",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/powers-mary-farl",
+    "author" : "spice:agent/powers-mary-farl",
+    "schema:dateCreated" : "1972",
+    "schema:url" : "https://imma.ie/collection/boy-and-rabbit/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/boy-and-rabbit",
+    "arco-cd:hasTitle" : "Boy and Rabbit"
+  }, {
+    "@id" : "spice:artefact/cast-paper-15",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/powers-mary-farl",
+    "author" : "spice:agent/powers-mary-farl",
+    "schema:dateCreated" : "1988",
+    "schema:url" : "https://imma.ie/collection/cast-paper-15/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/cast-paper-15",
+    "arco-cd:hasTitle" : "Cast Paper 15"
+  }, {
+    "@id" : "spice:artefact/cast-paper-3-triptych",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/powers-mary-farl",
+    "author" : "spice:agent/powers-mary-farl",
+    "schema:dateCreated" : "1986",
+    "schema:url" : "https://imma.ie/collection/cast-paper-3-triptych/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/cast-paper-3-triptych",
+    "arco-cd:hasTitle" : "Cast Paper 3. (triptych)"
+  }, {
+    "@id" : "spice:artefact/chequered-landscape",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/powers-mary-farl",
+    "author" : "spice:agent/powers-mary-farl",
+    "schema:dateCreated" : "1977",
+    "schema:url" : "https://imma.ie/collection/chequered-landscape/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/chequered-landscape",
+    "arco-cd:hasTitle" : "Chequered Landscape"
+  }, {
+    "@id" : "spice:artefact/cloud-torso-i",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/powers-mary-farl",
+    "author" : "spice:agent/powers-mary-farl",
+    "schema:dateCreated" : "1979",
+    "schema:url" : "https://imma.ie/collection/cloud-torso-i/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/cloud-torso-i",
+    "arco-cd:hasTitle" : "Cloud Torso I"
+  }, {
+    "@id" : "spice:artefact/cloud-torso-ii",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/powers-mary-farl",
+    "author" : "spice:agent/powers-mary-farl",
+    "schema:dateCreated" : "1979",
+    "schema:url" : "https://imma.ie/collection/cloud-torso-ii/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/cloud-torso-ii",
+    "arco-cd:hasTitle" : "Cloud Torso II"
+  }, {
+    "@id" : "spice:artefact/comma",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/powers-mary-farl",
+    "author" : "spice:agent/powers-mary-farl",
+    "schema:dateCreated" : "1983",
+    "schema:url" : "https://imma.ie/collection/comma/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/comma",
+    "arco-cd:hasTitle" : "Comma"
+  }, {
+    "@id" : "spice:artefact/emblements",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/powers-mary-farl",
+    "author" : "spice:agent/powers-mary-farl",
+    "schema:dateCreated" : "1981",
+    "schema:url" : "https://imma.ie/collection/emblements/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/emblements",
+    "arco-cd:hasTitle" : "Emblements"
+  }, {
+    "@id" : "spice:artefact/europp",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/powers-mary-farl",
+    "author" : "spice:agent/powers-mary-farl",
+    "schema:dateCreated" : "1972",
+    "schema:url" : "https://imma.ie/collection/europp/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/europp",
+    "arco-cd:hasTitle" : "Europp"
+  }, {
+    "@id" : "spice:artefact/figure-of-eight",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/powers-mary-farl",
+    "author" : "spice:agent/powers-mary-farl",
+    "schema:dateCreated" : "1984",
+    "schema:url" : "https://imma.ie/collection/figure-of-eight/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/figure-of-eight",
+    "arco-cd:hasTitle" : "Figure of Eight"
+  }, {
+    "@id" : "spice:artefact/folded-form",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/powers-mary-farl",
+    "author" : "spice:agent/powers-mary-farl",
+    "schema:dateCreated" : "1989",
+    "schema:url" : "https://imma.ie/collection/folded-form/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/folded-form",
+    "arco-cd:hasTitle" : "Folded Form"
+  }, {
+    "@id" : "spice:artefact/form-i",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/powers-mary-farl",
+    "author" : "spice:agent/powers-mary-farl",
+    "schema:dateCreated" : "1975",
+    "schema:url" : "https://imma.ie/collection/form-i/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/form-i",
+    "arco-cd:hasTitle" : "Form I"
+  }, {
+    "@id" : "spice:artefact/gold-ribbon",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/powers-mary-farl",
+    "author" : "spice:agent/powers-mary-farl",
+    "schema:dateCreated" : "1977",
+    "schema:url" : "https://imma.ie/collection/gold-ribbon/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/gold-ribbon",
+    "arco-cd:hasTitle" : "Gold Ribbon"
+  }, {
+    "@id" : "spice:artefact/hinge",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/powers-mary-farl",
+    "author" : "spice:agent/powers-mary-farl",
+    "schema:dateCreated" : "1981",
+    "schema:url" : "https://imma.ie/collection/hinge/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/hinge",
+    "arco-cd:hasTitle" : "Hinge"
+  }, {
+    "@id" : "spice:artefact/i",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/powers-mary-farl",
+    "author" : "spice:agent/powers-mary-farl",
+    "schema:dateCreated" : "1989",
+    "schema:url" : "https://imma.ie/collection/i/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/i",
+    "arco-cd:hasTitle" : "I"
+  }, {
+    "@id" : "spice:artefact/ii",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/powers-mary-farl",
+    "author" : "spice:agent/powers-mary-farl",
+    "schema:dateCreated" : "1991",
+    "schema:url" : "https://imma.ie/collection/ii/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/ii",
+    "arco-cd:hasTitle" : "II"
+  }, {
+    "@id" : "spice:artefact/ii-2",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/powers-mary-farl",
+    "author" : "spice:agent/powers-mary-farl",
+    "schema:dateCreated" : "1989",
+    "schema:url" : "https://imma.ie/collection/ii-2/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/ii-2",
+    "arco-cd:hasTitle" : "II"
+  }, {
+    "@id" : "spice:artefact/ii-3",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/powers-mary-farl",
+    "author" : "spice:agent/powers-mary-farl",
+    "schema:dateCreated" : "1986",
+    "schema:url" : "https://imma.ie/collection/ii-3/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/ii-3",
+    "arco-cd:hasTitle" : "II"
+  }, {
+    "@id" : "spice:artefact/imago-2",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/powers-mary-farl",
+    "author" : "spice:agent/powers-mary-farl",
+    "schema:dateCreated" : "1974",
+    "schema:url" : "https://imma.ie/collection/imago-2/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/imago-2",
+    "arco-cd:hasTitle" : "Imago"
+  }, {
+    "@id" : "spice:artefact/its-not-so-much-fun",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/powers-mary-farl",
+    "author" : "spice:agent/powers-mary-farl",
+    "schema:dateCreated" : "1973",
+    "schema:url" : "https://imma.ie/collection/its-not-so-much-fun/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/its-not-so-much-fun",
+    "arco-cd:hasTitle" : "It’s Not So Much Fun"
+  }, {
+    "@id" : "spice:artefact/mask-head-1",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/powers-mary-farl",
+    "author" : "spice:agent/powers-mary-farl",
+    "schema:dateCreated" : "1973",
+    "schema:url" : "https://imma.ie/collection/mask-head-1/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/mask-head-1",
+    "arco-cd:hasTitle" : "Mask Head 1"
+  }, {
+    "@id" : "spice:artefact/monochrome-ribbon",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/powers-mary-farl",
+    "author" : "spice:agent/powers-mary-farl",
+    "schema:dateCreated" : "1977",
+    "schema:url" : "https://imma.ie/collection/monochrome-ribbon/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/monochrome-ribbon",
+    "arco-cd:hasTitle" : "Monochrome Ribbon"
+  }, {
+    "@id" : "spice:artefact/pig",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/powers-mary-farl",
+    "author" : "spice:agent/powers-mary-farl",
+    "schema:dateCreated" : "1971",
+    "schema:url" : "https://imma.ie/collection/pig/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/pig",
+    "arco-cd:hasTitle" : "Pig"
+  }, {
+    "@id" : "spice:artefact/red-in-the-green",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/powers-mary-farl",
+    "author" : "spice:agent/powers-mary-farl",
+    "schema:dateCreated" : "1975",
+    "schema:url" : "https://imma.ie/collection/red-in-the-green/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/red-in-the-green",
+    "arco-cd:hasTitle" : "Red in the Green"
+  }, {
+    "@id" : "spice:artefact/red-on-green",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/powers-mary-farl",
+    "author" : "spice:agent/powers-mary-farl",
+    "schema:dateCreated" : "1975",
+    "schema:url" : "https://imma.ie/collection/red-on-green/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/red-on-green",
+    "arco-cd:hasTitle" : "Red on Green"
+  }, {
+    "@id" : "spice:artefact/red-rain-seascape",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/powers-mary-farl",
+    "author" : "spice:agent/powers-mary-farl",
+    "schema:dateCreated" : "1977",
+    "schema:url" : "https://imma.ie/collection/red-rain-seascape/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/red-rain-seascape",
+    "arco-cd:hasTitle" : "Red Rain Seascape"
+  }, {
+    "@id" : "spice:artefact/red-ribbon-torso",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/powers-mary-farl",
+    "author" : "spice:agent/powers-mary-farl",
+    "schema:dateCreated" : "1977",
+    "schema:url" : "https://imma.ie/collection/red-ribbon-torso/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/red-ribbon-torso",
+    "arco-cd:hasTitle" : "Red Ribbon Torso"
+  }, {
+    "@id" : "spice:artefact/red-torso",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/powers-mary-farl",
+    "author" : "spice:agent/powers-mary-farl",
+    "schema:dateCreated" : "1977",
+    "schema:url" : "https://imma.ie/collection/red-torso/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/red-torso",
+    "arco-cd:hasTitle" : "Red Torso"
+  }, {
+    "@id" : "spice:artefact/scarp",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/powers-mary-farl",
+    "author" : "spice:agent/powers-mary-farl",
+    "schema:dateCreated" : "1981",
+    "schema:url" : "https://imma.ie/collection/scarp/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/scarp",
+    "arco-cd:hasTitle" : "Scarp"
+  }, {
+    "@id" : "spice:artefact/seascape",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/powers-mary-farl",
+    "author" : "spice:agent/powers-mary-farl",
+    "schema:dateCreated" : "1977",
+    "schema:url" : "https://imma.ie/collection/seascape/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/seascape",
+    "arco-cd:hasTitle" : "Seascape"
+  }, {
+    "@id" : "spice:artefact/soya-i",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/powers-mary-farl",
+    "author" : "spice:agent/powers-mary-farl",
+    "schema:dateCreated" : "1981",
+    "schema:url" : "https://imma.ie/collection/soya-i/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/soya-i",
+    "arco-cd:hasTitle" : "Soya I"
+  }, {
+    "@id" : "spice:artefact/soya-ii",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/powers-mary-farl",
+    "author" : "spice:agent/powers-mary-farl",
+    "schema:dateCreated" : "1981",
+    "schema:url" : "https://imma.ie/collection/soya-ii/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/soya-ii",
+    "arco-cd:hasTitle" : "Soya II"
+  }, {
+    "@id" : "spice:artefact/soya-ii-2",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/powers-mary-farl",
+    "author" : "spice:agent/powers-mary-farl",
+    "schema:dateCreated" : "1981",
+    "schema:url" : "https://imma.ie/collection/soya-ii-2/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/soya-ii-2",
+    "arco-cd:hasTitle" : "Soya II"
+  }, {
+    "@id" : "spice:artefact/soya-iii",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/powers-mary-farl",
+    "author" : "spice:agent/powers-mary-farl",
+    "schema:dateCreated" : "1981",
+    "schema:url" : "https://imma.ie/collection/soya-iii/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/soya-iii",
+    "arco-cd:hasTitle" : "Soya III"
+  }, {
+    "@id" : "spice:artefact/spotted-torso",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/powers-mary-farl",
+    "author" : "spice:agent/powers-mary-farl",
+    "schema:dateCreated" : "1976",
+    "schema:url" : "https://imma.ie/collection/spotted-torso/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/spotted-torso",
+    "arco-cd:hasTitle" : "Spotted Torso"
+  }, {
+    "@id" : "spice:artefact/sprout",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/powers-mary-farl",
+    "author" : "spice:agent/powers-mary-farl",
+    "schema:dateCreated" : "1981",
+    "schema:url" : "https://imma.ie/collection/sprout/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/sprout",
+    "arco-cd:hasTitle" : "Sprout"
+  }, {
+    "@id" : "spice:artefact/the-desert",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/powers-mary-farl",
+    "author" : "spice:agent/powers-mary-farl",
+    "schema:dateCreated" : "1977",
+    "schema:url" : "https://imma.ie/collection/the-desert/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-desert",
+    "arco-cd:hasTitle" : "The Desert"
+  }, {
+    "@id" : "spice:artefact/the-plan",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/powers-mary-farl",
+    "author" : "spice:agent/powers-mary-farl",
+    "schema:dateCreated" : "1975",
+    "schema:url" : "https://imma.ie/collection/the-plan/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-plan",
+    "arco-cd:hasTitle" : "The Plan"
+  }, {
+    "@id" : "spice:artefact/the-weather-i",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/powers-mary-farl",
+    "author" : "spice:agent/powers-mary-farl",
+    "schema:dateCreated" : "1972",
+    "schema:url" : "https://imma.ie/collection/the-weather-i/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-weather-i",
+    "arco-cd:hasTitle" : "The Weather I"
+  }, {
+    "@id" : "spice:artefact/three-kings-resting-christmas-card",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/powers-mary-farl",
+    "author" : "spice:agent/powers-mary-farl",
+    "schema:dateCreated" : "1977",
+    "schema:url" : "https://imma.ie/collection/three-kings-resting-christmas-card/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/three-kings-resting-christmas-card",
+    "arco-cd:hasTitle" : "Three Kings Resting – Christmas Card"
+  }, {
+    "@id" : "spice:artefact/torso",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/powers-mary-farl",
+    "author" : "spice:agent/powers-mary-farl",
+    "schema:dateCreated" : "1973",
+    "schema:url" : "https://imma.ie/collection/torso/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/torso",
+    "arco-cd:hasTitle" : "Torso"
+  }, {
+    "@id" : "spice:artefact/untitled-100",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/powers-mary-farl",
+    "author" : "spice:agent/powers-mary-farl",
+    "schema:dateCreated" : "1975",
+    "schema:url" : "https://imma.ie/collection/untitled-100/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-100",
+    "arco-cd:hasTitle" : "Untitled"
+  }, {
+    "@id" : "spice:artefact/untitled-64",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/powers-mary-farl",
+    "author" : "spice:agent/powers-mary-farl",
+    "schema:dateCreated" : "1990",
+    "schema:url" : "https://imma.ie/collection/untitled-64/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-64",
+    "arco-cd:hasTitle" : "Untitled"
+  }, {
+    "@id" : "spice:artefact/untitled-70",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/powers-mary-farl",
+    "author" : "spice:agent/powers-mary-farl",
+    "schema:dateCreated" : "1988",
+    "schema:url" : "https://imma.ie/collection/untitled-70/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-70",
+    "arco-cd:hasTitle" : "Untitled"
+  }, {
+    "@id" : "spice:artefact/untitled-71",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/powers-mary-farl",
+    "author" : "spice:agent/powers-mary-farl",
+    "schema:dateCreated" : "1988",
+    "schema:url" : "https://imma.ie/collection/untitled-71/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-71",
+    "arco-cd:hasTitle" : "Untitled"
+  }, {
+    "@id" : "spice:artefact/untitled-christmas-card",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/powers-mary-farl",
+    "author" : "spice:agent/powers-mary-farl",
+    "schema:dateCreated" : "1982",
+    "schema:url" : "https://imma.ie/collection/untitled-christmas-card/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-christmas-card",
+    "arco-cd:hasTitle" : "Untitled – Christmas Card"
+  }, {
+    "@id" : "spice:artefact/untitled-christmas-card-2",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/powers-mary-farl",
+    "author" : "spice:agent/powers-mary-farl",
+    "schema:dateCreated" : "1975",
+    "schema:url" : "https://imma.ie/collection/untitled-christmas-card-2/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-christmas-card-2",
+    "arco-cd:hasTitle" : "Untitled – Christmas Card"
+  }, {
+    "@id" : "spice:artefact/untitled-christmas-card-3",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/powers-mary-farl",
+    "author" : "spice:agent/powers-mary-farl",
+    "schema:dateCreated" : "1971",
+    "schema:url" : "https://imma.ie/collection/untitled-christmas-card-3/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-christmas-card-3",
+    "arco-cd:hasTitle" : "Untitled – Christmas Card"
+  }, {
+    "@id" : "spice:artefact/waterfall",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/powers-mary-farl",
+    "author" : "spice:agent/powers-mary-farl",
+    "schema:dateCreated" : "1977",
+    "schema:url" : "https://imma.ie/collection/waterfall/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/waterfall",
+    "arco-cd:hasTitle" : "Waterfall"
+  }, {
+    "@id" : "spice:attribution/3-2",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/powers-mary-farl"
+  }, {
+    "@id" : "spice:attribution/babies-in-the-bed",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/powers-mary-farl"
+  }, {
+    "@id" : "spice:attribution/blue-spotted-torso",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/powers-mary-farl"
+  }, {
+    "@id" : "spice:attribution/boy-and-rabbit",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/powers-mary-farl"
+  }, {
+    "@id" : "spice:attribution/cast-paper-15",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/powers-mary-farl"
+  }, {
+    "@id" : "spice:attribution/cast-paper-3-triptych",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/powers-mary-farl"
+  }, {
+    "@id" : "spice:attribution/chequered-landscape",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/powers-mary-farl"
+  }, {
+    "@id" : "spice:attribution/cloud-torso-i",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/powers-mary-farl"
+  }, {
+    "@id" : "spice:attribution/cloud-torso-ii",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/powers-mary-farl"
+  }, {
+    "@id" : "spice:attribution/comma",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/powers-mary-farl"
+  }, {
+    "@id" : "spice:attribution/emblements",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/powers-mary-farl"
+  }, {
+    "@id" : "spice:attribution/europp",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/powers-mary-farl"
+  }, {
+    "@id" : "spice:attribution/figure-of-eight",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/powers-mary-farl"
+  }, {
+    "@id" : "spice:attribution/folded-form",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/powers-mary-farl"
+  }, {
+    "@id" : "spice:attribution/form-i",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/powers-mary-farl"
+  }, {
+    "@id" : "spice:attribution/gold-ribbon",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/powers-mary-farl"
+  }, {
+    "@id" : "spice:attribution/hinge",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/powers-mary-farl"
+  }, {
+    "@id" : "spice:attribution/i",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/powers-mary-farl"
+  }, {
+    "@id" : "spice:attribution/ii",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/powers-mary-farl"
+  }, {
+    "@id" : "spice:attribution/ii-2",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/powers-mary-farl"
+  }, {
+    "@id" : "spice:attribution/ii-3",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/powers-mary-farl"
+  }, {
+    "@id" : "spice:attribution/imago-2",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/powers-mary-farl"
+  }, {
+    "@id" : "spice:attribution/its-not-so-much-fun",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/powers-mary-farl"
+  }, {
+    "@id" : "spice:attribution/mask-head-1",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/powers-mary-farl"
+  }, {
+    "@id" : "spice:attribution/monochrome-ribbon",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/powers-mary-farl"
+  }, {
+    "@id" : "spice:attribution/pig",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/powers-mary-farl"
+  }, {
+    "@id" : "spice:attribution/red-in-the-green",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/powers-mary-farl"
+  }, {
+    "@id" : "spice:attribution/red-on-green",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/powers-mary-farl"
+  }, {
+    "@id" : "spice:attribution/red-rain-seascape",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/powers-mary-farl"
+  }, {
+    "@id" : "spice:attribution/red-ribbon-torso",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/powers-mary-farl"
+  }, {
+    "@id" : "spice:attribution/red-torso",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/powers-mary-farl"
+  }, {
+    "@id" : "spice:attribution/scarp",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/powers-mary-farl"
+  }, {
+    "@id" : "spice:attribution/seascape",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/powers-mary-farl"
+  }, {
+    "@id" : "spice:attribution/soya-i",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/powers-mary-farl"
+  }, {
+    "@id" : "spice:attribution/soya-ii",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/powers-mary-farl"
+  }, {
+    "@id" : "spice:attribution/soya-ii-2",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/powers-mary-farl"
+  }, {
+    "@id" : "spice:attribution/soya-iii",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/powers-mary-farl"
+  }, {
+    "@id" : "spice:attribution/spotted-torso",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/powers-mary-farl"
+  }, {
+    "@id" : "spice:attribution/sprout",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/powers-mary-farl"
+  }, {
+    "@id" : "spice:attribution/the-desert",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/powers-mary-farl"
+  }, {
+    "@id" : "spice:attribution/the-plan",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/powers-mary-farl"
+  }, {
+    "@id" : "spice:attribution/the-weather-i",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/powers-mary-farl"
+  }, {
+    "@id" : "spice:attribution/three-kings-resting-christmas-card",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/powers-mary-farl"
+  }, {
+    "@id" : "spice:attribution/torso",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/powers-mary-farl"
+  }, {
+    "@id" : "spice:attribution/untitled-100",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/powers-mary-farl"
+  }, {
+    "@id" : "spice:attribution/untitled-64",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/powers-mary-farl"
+  }, {
+    "@id" : "spice:attribution/untitled-70",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/powers-mary-farl"
+  }, {
+    "@id" : "spice:attribution/untitled-71",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/powers-mary-farl"
+  }, {
+    "@id" : "spice:attribution/untitled-christmas-card",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/powers-mary-farl"
+  }, {
+    "@id" : "spice:attribution/untitled-christmas-card-2",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/powers-mary-farl"
+  }, {
+    "@id" : "spice:attribution/untitled-christmas-card-3",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/powers-mary-farl"
+  }, {
+    "@id" : "spice:attribution/waterfall",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/powers-mary-farl"
+  } ],
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

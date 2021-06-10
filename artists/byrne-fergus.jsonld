@@ -1,0 +1,44 @@
+{
+  "@id" : "spice:agent/byrne-fergus",
+  "@type" : "foaf:Person",
+  "dc:description" : [ "Fergus Byrne (b.1974, Dublin, Ireland) is a multidisciplinary artist working in performance, sculpture, drawing and event curation. Underlying much of the performance work is the practice of life modelling of which he has extensive experience. In performance he tests the materiality of his body, sometimes combining such action with spoken word. Through rigorous physical discipline he creates mesmerising performances. Byrne is an alumni of IMMA’s artist residency programme.", "Fergus Byrne (b.1974, Dublin, Ireland) is a multidisciplinary artist working in performance, sculpture, drawing and event curation. Underlying much of the performance work is the practice of life modelling of which he has extensive experience. In performance he tests the materiality of his body, sometimes combining such action with spoken word." ],
+  "dc:source" : "https://imma.ie/artists/fergus-byrne/",
+  "schema:birthDate" : "b.1974",
+  "schema:url" : "https://imma.ie/artists/fergus-byrne/",
+  "rdfs:label" : "Fergus Byrne",
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

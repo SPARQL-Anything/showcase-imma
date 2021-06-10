@@ -1,0 +1,117 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/jordan-eithne",
+    "@type" : "foaf:Person",
+    "description" : "_:b0",
+    "dc:description" : "Irish artist Eithne Jordan attended Dun Laoghaire Institute of Art, Design and Technology, Dublin. Since her emotionally charged expressionistic paintings of the early 1980s, Jordan’s work has turned towards a formal exploration of the seen world. She looks at the urban environment and is drawn to anonymous spaces, factory roofs, subway tunnels and blank walls. Jordan was elected as a member of Aosdána in 1990. She has exhibited widely in Europe. She took part in the Artists’ Residency Programme at IMMA in 2009.",
+    "dc:source" : "https://imma.ie/artists/eithne-jordan/",
+    "schema:birthDate" : "b.1954",
+    "schema:url" : "https://imma.ie/artists/eithne-jordan/",
+    "rdfs:label" : "Eithne Jordan"
+  }, {
+    "@id" : "spice:artefact/couple-entwined",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/jordan-eithne",
+    "author" : "spice:agent/jordan-eithne",
+    "schema:dateCreated" : "1992",
+    "schema:url" : "https://imma.ie/collection/couple-entwined/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/couple-entwined",
+    "arco-cd:hasTitle" : "Couple Entwined"
+  }, {
+    "@id" : "spice:artefact/figure-and-poppyfield",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/jordan-eithne",
+    "author" : "spice:agent/jordan-eithne",
+    "schema:dateCreated" : "1992",
+    "schema:url" : "https://imma.ie/collection/figure-and-poppyfield/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/figure-and-poppyfield",
+    "arco-cd:hasTitle" : "Figure and Poppyfield"
+  }, {
+    "@id" : "spice:artefact/split-face-i",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/jordan-eithne",
+    "author" : "spice:agent/jordan-eithne",
+    "schema:dateCreated" : "1998",
+    "schema:url" : "https://imma.ie/collection/split-face-i/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/split-face-i",
+    "arco-cd:hasTitle" : "Split Face I"
+  }, {
+    "@id" : "spice:attribution/couple-entwined",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/jordan-eithne"
+  }, {
+    "@id" : "spice:attribution/figure-and-poppyfield",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/jordan-eithne"
+  }, {
+    "@id" : "spice:attribution/split-face-i",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/jordan-eithne"
+  } ],
+  "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "@id"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

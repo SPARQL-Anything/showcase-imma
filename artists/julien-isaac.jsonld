@@ -1,0 +1,102 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/julien-isaac",
+    "@type" : "foaf:Person",
+    "dc:description" : "British artist and filmmaker Isaac Julien studied painting and fine art film at St Martin’s School of Art, London. Drawing on film, dance, photography, music, theatre, painting and sculpture in his art practice, Julien breaks down the barriers that exist between the different disciplines to construct powerful visual narratives. Julien was nominated for the Turner Prize in 2001. He has exhibited worldwide, including solo exhibitions at the Centre Georges Pompidou, Paris, the Museum of Contemporary Art, Miami, the Museum Brandhorst, Munich, and at IMMA in 2005.",
+    "dc:source" : "https://imma.ie/artists/isaac-julien/",
+    "schema:birthDate" : "b.1960",
+    "schema:url" : "https://imma.ie/artists/isaac-julien/",
+    "rdfs:label" : "Isaac Julien"
+  }, {
+    "@id" : "spice:artefact/hate-love",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/julien-isaac",
+    "author" : "spice:agent/julien-isaac",
+    "schema:dateCreated" : "2006",
+    "schema:url" : "https://imma.ie/collection/hate-love/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/hate-love",
+    "arco-cd:hasTitle" : "Hate/Love"
+  }, {
+    "@id" : "spice:artefact/paradise-omeros",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/julien-isaac",
+    "author" : "spice:agent/julien-isaac",
+    "schema:dateCreated" : "2002",
+    "schema:url" : "https://imma.ie/collection/paradise-omeros/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/paradise-omeros",
+    "arco-cd:hasTitle" : "Paradise Omeros"
+  }, {
+    "@id" : "spice:attribution/hate-love",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/julien-isaac"
+  }, {
+    "@id" : "spice:attribution/paradise-omeros",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/julien-isaac"
+  } ],
+  "@context" : {
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

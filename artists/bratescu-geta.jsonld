@@ -1,0 +1,44 @@
+{
+  "@id" : "spice:agent/bratescu-geta",
+  "@type" : "foaf:Person",
+  "dc:description" : [ "Geta Brătescu&nbsp;(1926-2018, b. Ploiești, Romania) has been a central figure of Romanian contemporary art since the 1960s.&nbsp;An artist with a rich and long career, Brătescu developed a complex body of work that comprises drawing, collage, engraving, tapestry, object, photography, experimental film, video, and performance. She studied at the Faculty of Letters and Philosophy and at the Fine Arts Academy in Bucharest and worked as an artistic director for the magazine Secolul 20 [20th Century], renamed Secolul 21 at the turn of the millennium. In 2016, Hamburger Kunsthalle mounted an extensive retrospective exhibition on Brătescu’s work. In 2017 she represented Romania at the Venice Biennale and was awarded by the President of Romania the Order of the Star of Romania.", "Geta Brătescu&nbsp;(1926-2018, b. Ploiești, Romania) has been a central figure of Romanian contemporary art since the 1960s.&nbsp;An artist with a rich and long career, Brătescu developed a complex body of work that comprises drawing, collage, engraving, tapestry, object, photography, experimental film, video, and performance." ],
+  "dc:source" : "https://imma.ie/artists/geta-bratescu/",
+  "schema:birthDate" : "1926–2018",
+  "schema:url" : "https://imma.ie/artists/geta-bratescu/",
+  "rdfs:label" : "Geta Brătescu",
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

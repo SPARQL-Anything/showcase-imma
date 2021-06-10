@@ -1,0 +1,984 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/omalley-tony",
+    "@type" : "foaf:Person",
+    "dc:description" : "Born in Callan, Co Kilkenny, Tony O’Malley (1913-2003) was until the late 1950s a part-time artist working, from 1934 to 1958, with the Munster and Leinster Bank. In 1960 O’Malley moved to St Ives in Cornwall, which he had already visited on a number of occasions and where he was to live for the next 30 years. He returned to Kilkenny in 1990. His paintings are concerned with the landscape, and the spirit of personal and folk history which it embodies. The first exhibition of O’Malley’s work at IMMA was held in 1992, a further exhibition was held in 2001, and a major retrospective in 2005. O’Malley was made a Saoi of Aosdána in 1993.",
+    "dc:source" : "https://imma.ie/artists/tony-omalley/",
+    "schema:birthDate" : "1913–2003",
+    "schema:url" : "https://imma.ie/artists/tony-omalley/",
+    "rdfs:label" : "Tony O’Malley"
+  }, {
+    "@id" : "spice:artefact/after-harvest-callan",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1979",
+    "schema:url" : "https://imma.ie/collection/after-harvest-callan/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/after-harvest-callan",
+    "arco-cd:hasTitle" : "After Harvest, Callan"
+  }, {
+    "@id" : "spice:artefact/ait-dubh-agus-ceann",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1981",
+    "schema:url" : "https://imma.ie/collection/ait-dubh-agus-ceann/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/ait-dubh-agus-ceann",
+    "arco-cd:hasTitle" : "Ait Dubh Agus Ceann"
+  }, {
+    "@id" : "spice:artefact/an-samhradh",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1979",
+    "schema:url" : "https://imma.ie/collection/an-samhradh/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/an-samhradh",
+    "arco-cd:hasTitle" : "An Samhradh"
+  }, {
+    "@id" : "spice:artefact/atlantic-1968",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1968",
+    "schema:url" : "https://imma.ie/collection/atlantic-1968/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/atlantic-1968",
+    "arco-cd:hasTitle" : "Atlantic, 1968"
+  }, {
+    "@id" : "spice:artefact/autumn-poplars-physicianstown-callan",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1980",
+    "schema:url" : "https://imma.ie/collection/autumn-poplars-physicianstown-callan/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/autumn-poplars-physicianstown-callan",
+    "arco-cd:hasTitle" : "Autumn Poplars, Physicianstown, Callan"
+  }, {
+    "@id" : "spice:artefact/bird-table-st-martins",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1974",
+    "schema:url" : "https://imma.ie/collection/bird-table-st-martins/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/bird-table-st-martins",
+    "arco-cd:hasTitle" : "Bird Table St Martins"
+  }, {
+    "@id" : "spice:artefact/birdsong-2",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1966",
+    "schema:url" : "https://imma.ie/collection/birdsong-2/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/birdsong-2",
+    "arco-cd:hasTitle" : "Birdsong 2"
+  }, {
+    "@id" : "spice:artefact/blackbird-bird-table",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1974",
+    "schema:url" : "https://imma.ie/collection/blackbird-bird-table/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/blackbird-bird-table",
+    "arco-cd:hasTitle" : "Blackbird (Bird Table)"
+  }, {
+    "@id" : "spice:artefact/callan-landscape-3-aspects",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1979",
+    "schema:url" : "https://imma.ie/collection/callan-landscape-3-aspects/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/callan-landscape-3-aspects",
+    "arco-cd:hasTitle" : "Callan Landscape, 3 Aspects"
+  }, {
+    "@id" : "spice:artefact/country-still-life-with-crow-magpie-feathers",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1980",
+    "schema:url" : "https://imma.ie/collection/country-still-life-with-crow-magpie-feathers/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/country-still-life-with-crow-magpie-feathers",
+    "arco-cd:hasTitle" : "Country Still Life with Crow &amp; Magpie Feathers"
+  }, {
+    "@id" : "spice:artefact/crows-new-mown-field-slieveardagh-ballykeefe-hill-physicianstown-callan",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1980",
+    "schema:url" : "https://imma.ie/collection/crows-new-mown-field-slieveardagh-ballykeefe-hill-physicianstown-callan/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/crows-new-mown-field-slieveardagh-ballykeefe-hill-physicianstown-callan",
+    "arco-cd:hasTitle" : "Crows &amp; New Mown Field, Slieveardagh &amp; Ballykeefe Hill, Physicianstown, Callan"
+  }, {
+    "@id" : "spice:artefact/fogmair",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1977",
+    "schema:url" : "https://imma.ie/collection/fogmair/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/fogmair",
+    "arco-cd:hasTitle" : "Fógmair"
+  }, {
+    "@id" : "spice:artefact/good-friday-1998-aoine-an-cheasta-1998",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1998",
+    "schema:url" : "https://imma.ie/collection/good-friday-1998-aoine-an-cheasta-1998/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/good-friday-1998-aoine-an-cheasta-1998",
+    "arco-cd:hasTitle" : "Good Friday 1998 / Aoine an Chéasta 1998"
+  }, {
+    "@id" : "spice:artefact/he-searches-winter-the-windhover",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1965",
+    "schema:url" : "https://imma.ie/collection/he-searches-winter-the-windhover/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/he-searches-winter-the-windhover",
+    "arco-cd:hasTitle" : "He Searches Winter – The Windhover"
+  }, {
+    "@id" : "spice:artefact/inscape-the-hawkwood",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1964",
+    "schema:url" : "https://imma.ie/collection/inscape-the-hawkwood/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/inscape-the-hawkwood",
+    "arco-cd:hasTitle" : "Inscape, The Hawkwood"
+  }, {
+    "@id" : "spice:artefact/isla-de-graciosa-light-caleta-del-sebo",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1988",
+    "schema:url" : "https://imma.ie/collection/isla-de-graciosa-light-caleta-del-sebo/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/isla-de-graciosa-light-caleta-del-sebo",
+    "arco-cd:hasTitle" : "Isla de Graciosa-Light-Caleta del Sebo"
+  }, {
+    "@id" : "spice:artefact/january-field-71-mixed-media-eanar-71",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1971",
+    "schema:url" : "https://imma.ie/collection/january-field-71-mixed-media-eanar-71/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/january-field-71-mixed-media-eanar-71",
+    "arco-cd:hasTitle" : "January Field 71 Mixed Media / Eanar 71"
+  }, {
+    "@id" : "spice:artefact/kings-of-friday",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1976",
+    "schema:url" : "https://imma.ie/collection/kings-of-friday/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/kings-of-friday",
+    "arco-cd:hasTitle" : "Kings of Friday"
+  }, {
+    "@id" : "spice:artefact/morning",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1963",
+    "schema:url" : "https://imma.ie/collection/morning/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/morning",
+    "arco-cd:hasTitle" : "Morning"
+  }, {
+    "@id" : "spice:artefact/morning-theme-untitled",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1975",
+    "schema:url" : "https://imma.ie/collection/morning-theme-untitled/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/morning-theme-untitled",
+    "arco-cd:hasTitle" : "Morning Theme / Untitled"
+  }, {
+    "@id" : "spice:artefact/movement-spring",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1968",
+    "schema:url" : "https://imma.ie/collection/movement-spring/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/movement-spring",
+    "arco-cd:hasTitle" : "Movement Spring"
+  }, {
+    "@id" : "spice:artefact/nocturne",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1964",
+    "schema:url" : "https://imma.ie/collection/nocturne/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/nocturne",
+    "arco-cd:hasTitle" : "Nocturne"
+  }, {
+    "@id" : "spice:artefact/ocean",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1978",
+    "schema:url" : "https://imma.ie/collection/ocean/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/ocean",
+    "arco-cd:hasTitle" : "Ocean"
+  }, {
+    "@id" : "spice:artefact/october",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1972",
+    "schema:url" : "https://imma.ie/collection/october/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/october",
+    "arco-cd:hasTitle" : "October"
+  }, {
+    "@id" : "spice:artefact/october-1971",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1971",
+    "schema:url" : "https://imma.ie/collection/october-1971/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/october-1971",
+    "arco-cd:hasTitle" : "October, 1971"
+  }, {
+    "@id" : "spice:artefact/orpheus",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1977",
+    "schema:url" : "https://imma.ie/collection/orpheus/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/orpheus",
+    "arco-cd:hasTitle" : "Orpheus"
+  }, {
+    "@id" : "spice:artefact/orpheus-2",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1963",
+    "schema:url" : "https://imma.ie/collection/orpheus-2/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/orpheus-2",
+    "arco-cd:hasTitle" : "Orpheus"
+  }, {
+    "@id" : "spice:artefact/outdoor-studio-no-2-nasssau-1975",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1975",
+    "schema:url" : "https://imma.ie/collection/outdoor-studio-no-2-nasssau-1975/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/outdoor-studio-no-2-nasssau-1975",
+    "arco-cd:hasTitle" : "Outdoor studio No 2 Nasssau, 1975"
+  }, {
+    "@id" : "spice:artefact/patio-reflections-with-susie-and-interior-paradise-2-bahamas-1980",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1980",
+    "schema:url" : "https://imma.ie/collection/patio-reflections-with-susie-and-interior-paradise-2-bahamas-1980/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/patio-reflections-with-susie-and-interior-paradise-2-bahamas-1980",
+    "arco-cd:hasTitle" : "Patio Reflections with Susie and interior, Paradise 2 Bahamas, 1980"
+  }, {
+    "@id" : "spice:artefact/physicianstown-town-callan-1979",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1979",
+    "schema:url" : "https://imma.ie/collection/physicianstown-town-callan-1979/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/physicianstown-town-callan-1979",
+    "arco-cd:hasTitle" : "Physicianstown Town, Callan, 1979"
+  }, {
+    "@id" : "spice:artefact/pigeons-notes",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1979",
+    "schema:url" : "https://imma.ie/collection/pigeons-notes/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/pigeons-notes",
+    "arco-cd:hasTitle" : "Pigeons Notes"
+  }, {
+    "@id" : "spice:artefact/pond-in-winter-physcianstown",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1992",
+    "schema:url" : "https://imma.ie/collection/pond-in-winter-physcianstown/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/pond-in-winter-physcianstown",
+    "arco-cd:hasTitle" : "Pond in Winter, Physcianstown"
+  }, {
+    "@id" : "spice:artefact/red-celta",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1980",
+    "schema:url" : "https://imma.ie/collection/red-celta/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/red-celta",
+    "arco-cd:hasTitle" : "Red Celta"
+  }, {
+    "@id" : "spice:artefact/river-line-sky-kings-river-callan-crows-driving-off-heron-on-big-poplar-1978",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1978",
+    "schema:url" : "https://imma.ie/collection/river-line-sky-kings-river-callan-crows-driving-off-heron-on-big-poplar-1978/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/river-line-sky-kings-river-callan-crows-driving-off-heron-on-big-poplar-1978",
+    "arco-cd:hasTitle" : "River Line Sky, King’s River, Callan crows driving off heron on big poplar, 1978"
+  }, {
+    "@id" : "spice:artefact/sculptors-garden",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1981",
+    "schema:url" : "https://imma.ie/collection/sculptors-garden/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/sculptors-garden",
+    "arco-cd:hasTitle" : "Sculptor’s Garden"
+  }, {
+    "@id" : "spice:artefact/seal-cottage",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1977",
+    "schema:url" : "https://imma.ie/collection/seal-cottage/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/seal-cottage",
+    "arco-cd:hasTitle" : "Seal Cottage"
+  }, {
+    "@id" : "spice:artefact/search",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1977",
+    "schema:url" : "https://imma.ie/collection/search/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/search",
+    "arco-cd:hasTitle" : "Search"
+  }, {
+    "@id" : "spice:artefact/st-just-winter",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1962",
+    "schema:url" : "https://imma.ie/collection/st-just-winter/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/st-just-winter",
+    "arco-cd:hasTitle" : "St Just Winter"
+  }, {
+    "@id" : "spice:artefact/st-martins-gouache",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1978",
+    "schema:url" : "https://imma.ie/collection/st-martins-gouache/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/st-martins-gouache",
+    "arco-cd:hasTitle" : "St Martin’s Gouache"
+  }, {
+    "@id" : "spice:artefact/still-life-with-bookcase-the-abbey-penzance",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1967",
+    "schema:url" : "https://imma.ie/collection/still-life-with-bookcase-the-abbey-penzance/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/still-life-with-bookcase-the-abbey-penzance",
+    "arco-cd:hasTitle" : "Still Life with Bookcase, The Abbey, Penzance"
+  }, {
+    "@id" : "spice:artefact/studio-winter",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1981",
+    "schema:url" : "https://imma.ie/collection/studio-winter/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/studio-winter",
+    "arco-cd:hasTitle" : "Studio Winter"
+  }, {
+    "@id" : "spice:artefact/summer-owl",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1965",
+    "schema:url" : "https://imma.ie/collection/summer-owl/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/summer-owl",
+    "arco-cd:hasTitle" : "Summer Owl"
+  }, {
+    "@id" : "spice:artefact/the-big-poplar-by-the-kings-river-callan-with-crows-driving-off-a-heron-1978",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1978",
+    "schema:url" : "https://imma.ie/collection/the-big-poplar-by-the-kings-river-callan-with-crows-driving-off-a-heron-1978/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-big-poplar-by-the-kings-river-callan-with-crows-driving-off-a-heron-1978",
+    "arco-cd:hasTitle" : "The Big Poplar by the King’s River, Callan with Crows Driving Off a Heron, 1978"
+  }, {
+    "@id" : "spice:artefact/the-bird-table",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1974",
+    "schema:url" : "https://imma.ie/collection/the-bird-table/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-bird-table",
+    "arco-cd:hasTitle" : "The Bird Table"
+  }, {
+    "@id" : "spice:artefact/the-blackbird",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1974",
+    "schema:url" : "https://imma.ie/collection/the-blackbird/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-blackbird",
+    "arco-cd:hasTitle" : "The Blackbird"
+  }, {
+    "@id" : "spice:artefact/the-great-inagua",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1986",
+    "schema:url" : "https://imma.ie/collection/the-great-inagua/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-great-inagua",
+    "arco-cd:hasTitle" : "The Great Inagua"
+  }, {
+    "@id" : "spice:artefact/the-green-book-blue-book",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1974",
+    "schema:url" : "https://imma.ie/collection/the-green-book-blue-book/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-green-book-blue-book",
+    "arco-cd:hasTitle" : "The Green Book, Blue Book"
+  }, {
+    "@id" : "spice:artefact/the-kite-and-shadow",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1977",
+    "schema:url" : "https://imma.ie/collection/the-kite-and-shadow/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-kite-and-shadow",
+    "arco-cd:hasTitle" : "The Kite and Shadow"
+  }, {
+    "@id" : "spice:artefact/the-worktable-callan-1980-still-life-80",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1980",
+    "schema:url" : "https://imma.ie/collection/the-worktable-callan-1980-still-life-80/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-worktable-callan-1980-still-life-80",
+    "arco-cd:hasTitle" : "The Worktable, Callan, 1980 (Still Life 80)"
+  }, {
+    "@id" : "spice:artefact/untitled-102",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1975",
+    "schema:url" : "https://imma.ie/collection/untitled-102/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-102",
+    "arco-cd:hasTitle" : "Untitled"
+  }, {
+    "@id" : "spice:artefact/untitled-1977",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1977",
+    "schema:url" : "https://imma.ie/collection/untitled-1977/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-1977",
+    "arco-cd:hasTitle" : "Untitled, 1977"
+  }, {
+    "@id" : "spice:artefact/untitled-89",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1978",
+    "schema:url" : "https://imma.ie/collection/untitled-89/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-89",
+    "arco-cd:hasTitle" : "Untitled"
+  }, {
+    "@id" : "spice:artefact/untitled-94",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1977",
+    "schema:url" : "https://imma.ie/collection/untitled-94/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-94",
+    "arco-cd:hasTitle" : "Untitled"
+  }, {
+    "@id" : "spice:artefact/untitled-95",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1976",
+    "schema:url" : "https://imma.ie/collection/untitled-95/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-95",
+    "arco-cd:hasTitle" : "Untitled"
+  }, {
+    "@id" : "spice:artefact/untitled-birds",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1980",
+    "schema:url" : "https://imma.ie/collection/untitled-birds/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-birds",
+    "arco-cd:hasTitle" : "Untitled (Birds)"
+  }, {
+    "@id" : "spice:artefact/untitled-birds-2",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1975",
+    "schema:url" : "https://imma.ie/collection/untitled-birds-2/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-birds-2",
+    "arco-cd:hasTitle" : "Untitled (Birds)"
+  }, {
+    "@id" : "spice:artefact/untitled-large-gouache",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1979",
+    "schema:url" : "https://imma.ie/collection/untitled-large-gouache/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-large-gouache",
+    "arco-cd:hasTitle" : "Untitled large gouache"
+  }, {
+    "@id" : "spice:artefact/untitled-large-gouache-2",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1979",
+    "schema:url" : "https://imma.ie/collection/untitled-large-gouache-2/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-large-gouache-2",
+    "arco-cd:hasTitle" : "Untitled large gouache"
+  }, {
+    "@id" : "spice:artefact/vinegar-hill-from-bree-hill",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1957",
+    "schema:url" : "https://imma.ie/collection/vinegar-hill-from-bree-hill/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/vinegar-hill-from-bree-hill",
+    "arco-cd:hasTitle" : "Vinegar Hill, From Bree Hill"
+  }, {
+    "@id" : "spice:artefact/winter",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1968",
+    "schema:url" : "https://imma.ie/collection/winter/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/winter",
+    "arco-cd:hasTitle" : "Winter"
+  }, {
+    "@id" : "spice:artefact/winter-frost-sunrise-1967",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1967",
+    "schema:url" : "https://imma.ie/collection/winter-frost-sunrise-1967/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/winter-frost-sunrise-1967",
+    "arco-cd:hasTitle" : "Winter Frost Sunrise, 1967"
+  }, {
+    "@id" : "spice:artefact/winter-grass",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1977",
+    "schema:url" : "https://imma.ie/collection/winter-grass/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/winter-grass",
+    "arco-cd:hasTitle" : "Winter Grass"
+  }, {
+    "@id" : "spice:artefact/winter-lines",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1977",
+    "schema:url" : "https://imma.ie/collection/winter-lines/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/winter-lines",
+    "arco-cd:hasTitle" : "Winter Lines"
+  }, {
+    "@id" : "spice:artefact/winter-lines-and-greys",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1981",
+    "schema:url" : "https://imma.ie/collection/winter-lines-and-greys/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/winter-lines-and-greys",
+    "arco-cd:hasTitle" : "Winter Lines and Greys"
+  }, {
+    "@id" : "spice:artefact/winter-orpheus-1964",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/omalley-tony",
+    "author" : "spice:agent/omalley-tony",
+    "schema:dateCreated" : "1964",
+    "schema:url" : "https://imma.ie/collection/winter-orpheus-1964/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/winter-orpheus-1964",
+    "arco-cd:hasTitle" : "Winter Orpheus, 1964"
+  }, {
+    "@id" : "spice:attribution/after-harvest-callan",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/ait-dubh-agus-ceann",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/an-samhradh",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/atlantic-1968",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/autumn-poplars-physicianstown-callan",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/bird-table-st-martins",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/birdsong-2",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/blackbird-bird-table",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/callan-landscape-3-aspects",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/country-still-life-with-crow-magpie-feathers",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/crows-new-mown-field-slieveardagh-ballykeefe-hill-physicianstown-callan",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/fogmair",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/good-friday-1998-aoine-an-cheasta-1998",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/he-searches-winter-the-windhover",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/inscape-the-hawkwood",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/isla-de-graciosa-light-caleta-del-sebo",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/january-field-71-mixed-media-eanar-71",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/kings-of-friday",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/morning",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/morning-theme-untitled",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/movement-spring",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/nocturne",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/ocean",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/october",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/october-1971",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/orpheus",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/orpheus-2",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/outdoor-studio-no-2-nasssau-1975",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/patio-reflections-with-susie-and-interior-paradise-2-bahamas-1980",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/physicianstown-town-callan-1979",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/pigeons-notes",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/pond-in-winter-physcianstown",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/red-celta",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/river-line-sky-kings-river-callan-crows-driving-off-heron-on-big-poplar-1978",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/sculptors-garden",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/seal-cottage",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/search",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/st-just-winter",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/st-martins-gouache",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/still-life-with-bookcase-the-abbey-penzance",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/studio-winter",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/summer-owl",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/the-big-poplar-by-the-kings-river-callan-with-crows-driving-off-a-heron-1978",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/the-bird-table",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/the-blackbird",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/the-great-inagua",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/the-green-book-blue-book",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/the-kite-and-shadow",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/the-worktable-callan-1980-still-life-80",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/untitled-102",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/untitled-1977",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/untitled-89",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/untitled-94",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/untitled-95",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/untitled-birds",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/untitled-birds-2",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/untitled-large-gouache",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/untitled-large-gouache-2",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/vinegar-hill-from-bree-hill",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/winter",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/winter-frost-sunrise-1967",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/winter-grass",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/winter-lines",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/winter-lines-and-greys",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  }, {
+    "@id" : "spice:attribution/winter-orpheus-1964",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/omalley-tony"
+  } ],
+  "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

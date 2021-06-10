@@ -1,0 +1,75 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/espresso-mundo",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "‘Espresso Mundo’ is from a body of work by Ronnie Hughes from the mid-1990s. While in the past social and cultural issues acted as central concerns, his more recent work endeavours to retain the visual essence of earlier paintings while avoiding the literal or referential, a process of ’emptying out’. The open-endedness present in images such as ‘Espresso Mundo’ are represented by a list of poetic associations provided by the artist: “surfboards, Prozac, remote control buttons, amoebas, tic-tacs, vitamin pills, e-numbers and the stuff that appears when you stick fingers in your eyes”*. ",
+    "dc:source" : "https://imma.ie/collection/espresso-mundo/",
+    "schema:creditText" : "IMMA Collection: Purchase, 1997",
+    "image" : "spice:documentation/espresso-mundo",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Co-polymer on Canvas",
+    "schema:size" : "198 x 335 cm",
+    "arco-cd:hasInventory" : "IMMA.498"
+  }, {
+    "@id" : "spice:documentation/espresso-mundo",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Ronnie Hughes, Espresso Mundo, 1996, Co-polymer on Canvas, 198 x 335 cm, Collection Irish Museum of Modern Art, Purchase, 1997 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma"
+  } ],
+  "@context" : {
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

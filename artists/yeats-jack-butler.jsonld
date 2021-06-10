@@ -1,0 +1,144 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/yeats-jack-butler",
+    "@type" : "foaf:Person",
+    "dc:description" : [ "Irish painter Jack Butler Yeats was born in London and grew up in Sligo with his maternal grandparents before returning to London in 1887 to live with his parents. He briefly attended the Government School of Design and the Westminster School of Art and went on to work as an illustrator for sporting periodicals and newspapers. A visit to the west of Ireland in 1898 inspired his first solo exhibition ", "Irish painter Jack B. Yeats was born in London and grew up in Sligo with his maternal grandparents before returning to London in 1887 to live with his parents. He briefly attended the Government School of Design and the Westminster School of Art and went onto work as an illustrator for sporting periodicals and newspapers. A visit to the West of Ireland in 1898 inspired his first solo exhibition 'Sketches of Life in the West of Ireland'. It would remain his theme for much of his artistic career. " ],
+    "dc:source" : "https://imma.ie/artists/jack-butler-yeats/",
+    "schema:birthDate" : "1871–1957",
+    "schema:url" : "https://imma.ie/artists/jack-butler-yeats/",
+    "rdfs:label" : "Jack Butler Yeats"
+  }, {
+    "@id" : "spice:artefact/confidence",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/yeats-jack-butler",
+    "author" : "spice:agent/yeats-jack-butler",
+    "schema:dateCreated" : "1949",
+    "schema:url" : "https://imma.ie/collection/confidence/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/confidence",
+    "arco-cd:hasTitle" : "Confidence"
+  }, {
+    "@id" : "spice:artefact/eileen-aroon",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/yeats-jack-butler",
+    "author" : "spice:agent/yeats-jack-butler",
+    "schema:dateCreated" : "1953",
+    "schema:url" : "https://imma.ie/collection/eileen-aroon/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/eileen-aroon",
+    "arco-cd:hasTitle" : "Eileen Aroon"
+  }, {
+    "@id" : "spice:artefact/in-memory-of-the-crew-of-the-port-yarrock-of-glasgow",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/yeats-jack-butler",
+    "author" : "spice:agent/yeats-jack-butler",
+    "schema:dateCreated" : "1925",
+    "schema:url" : "https://imma.ie/collection/in-memory-of-the-crew-of-the-port-yarrock-of-glasgow/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/in-memory-of-the-crew-of-the-port-yarrock-of-glasgow",
+    "arco-cd:hasTitle" : "In Memory of the Crew of the Port Yarrock of Glasgow"
+  }, {
+    "@id" : "spice:artefact/st-stephens-green-closing-time",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/yeats-jack-butler",
+    "author" : "spice:agent/yeats-jack-butler",
+    "schema:dateCreated" : "1950",
+    "schema:url" : "https://imma.ie/collection/st-stephens-green-closing-time/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/st-stephens-green-closing-time",
+    "arco-cd:hasTitle" : "St Stephen’s Green, Closing Time"
+  }, {
+    "@id" : "spice:artefact/the-traditional-singer",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/yeats-jack-butler",
+    "author" : "spice:agent/yeats-jack-butler",
+    "schema:dateCreated" : "1945",
+    "schema:url" : "https://imma.ie/collection/the-traditional-singer/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-traditional-singer",
+    "arco-cd:hasTitle" : "The Traditional Singer"
+  }, {
+    "@id" : "spice:attribution/confidence",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/yeats-jack-butler"
+  }, {
+    "@id" : "spice:attribution/eileen-aroon",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/yeats-jack-butler"
+  }, {
+    "@id" : "spice:attribution/in-memory-of-the-crew-of-the-port-yarrock-of-glasgow",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/yeats-jack-butler"
+  }, {
+    "@id" : "spice:attribution/st-stephens-green-closing-time",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/yeats-jack-butler"
+  }, {
+    "@id" : "spice:attribution/the-traditional-singer",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/yeats-jack-butler"
+  } ],
+  "@context" : {
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

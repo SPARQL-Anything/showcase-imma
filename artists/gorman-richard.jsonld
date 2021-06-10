@@ -1,0 +1,172 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/gorman-richard",
+    "@type" : "foaf:Person",
+    "dc:description" : "Irish painter Richard Gorman studied at Trinity College Dublin and Dun Laoghaire College of Art and Design. He has lived and worked in Milan since the 1980s. Gorman’s paintings tend to be large in scale and generally abstract. Frequent trips to Japan have also influenced his painting practice and choice of materials. Gorman has exhibited widely, nationally and internationally, and is represented in many collections, both public and private in Europe, the UK, Ireland and Japan He is a member of Aosdána and the Royal Hibernian Academy.",
+    "dc:source" : "https://imma.ie/artists/richard-gorman/",
+    "schema:birthDate" : "b.1946",
+    "schema:url" : "https://imma.ie/artists/richard-gorman/",
+    "rdfs:label" : "Richard Gorman"
+  }, {
+    "@id" : "spice:artefact/blue-elide",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/gorman-richard",
+    "author" : "spice:agent/gorman-richard",
+    "schema:dateCreated" : "2004",
+    "schema:url" : "https://imma.ie/collection/blue-elide/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/blue-elide",
+    "arco-cd:hasTitle" : "Blue Elide"
+  }, {
+    "@id" : "spice:artefact/hottyhammyum",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/gorman-richard",
+    "author" : "spice:agent/gorman-richard",
+    "schema:dateCreated" : "1989",
+    "schema:url" : "https://imma.ie/collection/hottyhammyum/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/hottyhammyum",
+    "arco-cd:hasTitle" : "Hottyhammyum"
+  }, {
+    "@id" : "spice:artefact/jonjemsums",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/gorman-richard",
+    "author" : "spice:agent/gorman-richard",
+    "schema:dateCreated" : "1990",
+    "schema:url" : "https://imma.ie/collection/jonjemsums/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/jonjemsums",
+    "arco-cd:hasTitle" : "Jonjemsums"
+  }, {
+    "@id" : "spice:artefact/ness",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/gorman-richard",
+    "author" : "spice:agent/gorman-richard",
+    "schema:dateCreated" : "1992",
+    "schema:url" : "https://imma.ie/collection/ness/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/ness",
+    "arco-cd:hasTitle" : "Ness"
+  }, {
+    "@id" : "spice:artefact/nihilant",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/gorman-richard",
+    "author" : "spice:agent/gorman-richard",
+    "schema:dateCreated" : "1991",
+    "schema:url" : "https://imma.ie/collection/nihilant/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/nihilant",
+    "arco-cd:hasTitle" : "Nihilant"
+  }, {
+    "@id" : "spice:artefact/one",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/gorman-richard",
+    "author" : "spice:agent/gorman-richard",
+    "schema:dateCreated" : "1998",
+    "schema:url" : "https://imma.ie/collection/one/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/one",
+    "arco-cd:hasTitle" : "One"
+  }, {
+    "@id" : "spice:artefact/untitled-77",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/gorman-richard",
+    "author" : "spice:agent/gorman-richard",
+    "schema:dateCreated" : "1985",
+    "schema:url" : "https://imma.ie/collection/untitled-77/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-77",
+    "arco-cd:hasTitle" : "Untitled"
+  }, {
+    "@id" : "spice:attribution/blue-elide",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/gorman-richard"
+  }, {
+    "@id" : "spice:attribution/hottyhammyum",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/gorman-richard"
+  }, {
+    "@id" : "spice:attribution/jonjemsums",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/gorman-richard"
+  }, {
+    "@id" : "spice:attribution/ness",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/gorman-richard"
+  }, {
+    "@id" : "spice:attribution/nihilant",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/gorman-richard"
+  }, {
+    "@id" : "spice:attribution/one",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/gorman-richard"
+  }, {
+    "@id" : "spice:attribution/untitled-77",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/gorman-richard"
+  } ],
+  "@context" : {
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

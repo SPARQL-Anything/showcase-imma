@@ -1,0 +1,102 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/groener-anita",
+    "@type" : "foaf:Person",
+    "dc:description" : "Dutch artist Anita Groener attended the Moller Institute, Tilburg, and the Academy of Visual Arts, Arnhem, before moving to Ireland in the 1980s. Working primarily in painting and drawing, Groener is concerned with ideas of journey and the road as a symbol of contemporary culture. Groener has exhibited extensively in Ireland and Europe, including at IMMA, the Royal Hibernian Academy, Stedelijk Museum Schiedam and the Drawing Centre Deipenheim. She was Head of Fine Art in Dublin Institute of Technology from 2004 to 2006, and was elected as a member of Aosdána in 2005.",
+    "dc:source" : "https://imma.ie/artists/anita-groener/",
+    "schema:birthDate" : "b.1958",
+    "schema:url" : "https://imma.ie/artists/anita-groener/",
+    "rdfs:label" : "Anita Groener"
+  }, {
+    "@id" : "spice:artefact/frequency",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/groener-anita",
+    "author" : "spice:agent/groener-anita",
+    "schema:dateCreated" : "2004",
+    "schema:url" : "https://imma.ie/collection/frequency/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/frequency",
+    "arco-cd:hasTitle" : "Frequency"
+  }, {
+    "@id" : "spice:artefact/study-from-of-heaven-and-hell",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/groener-anita",
+    "author" : "spice:agent/groener-anita",
+    "schema:dateCreated" : "1987",
+    "schema:url" : "https://imma.ie/collection/study-from-of-heaven-and-hell/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/study-from-of-heaven-and-hell",
+    "arco-cd:hasTitle" : "Study from Of Heaven and Hell"
+  }, {
+    "@id" : "spice:attribution/frequency",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/groener-anita"
+  }, {
+    "@id" : "spice:attribution/study-from-of-heaven-and-hell",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/groener-anita"
+  } ],
+  "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

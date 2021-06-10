@@ -1,0 +1,85 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/homage-to-the-square",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "Albers’s teaching methods were both innovative and shocking because he eliminated copying both from nature and from other artists. He dedicated the years from 1950 to the end of his life to his series of paintings ‘Homage to the Square’. The square was the ideal shape for his ‘Homage’ works: mathematically related in size, perfect for superimposition, a shape that never occurs in nature, assuring a man-made quality. Albers intended that the colours would react with each other when processed by the human eye, causing optical illusions due to the eye’s ability to continually change the colours in ways that echo, support, or oppose one another.",
+    "dc:source" : "https://imma.ie/collection/homage-to-the-square/",
+    "schema:creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
+    "image" : "spice:documentation/homage-to-the-square",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Screenprint",
+    "schema:size" : "34.8 x 40 cm",
+    "schema:version" : "Edition 36/125",
+    "arco-cd:hasInventory" : "IMMA.104 GL"
+  }, {
+    "@id" : "spice:documentation/homage-to-the-square",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Josef Albers, Homage to the Square, 1966, Screenprint, 34.8 x 40 cm, Collection Irish Museum of Modern Art, Gordon Lambert Trust, 1992 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2019/08/683.jpg"
+  } ],
+  "@context" : {
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "version" : {
+      "@id" : "http://schema.org/version",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

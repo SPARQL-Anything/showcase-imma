@@ -1,0 +1,80 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/where-do-broken-hearts-go",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "Layering plays an important part in Daphne Wright’s work and here we see not only the physical layering of the foil strips on the giant cacti but also the layering of the different elements which come together to make the entire installation. The cacti are formed through the highly organised, even obsessive repetition of a single motif: folded strips of household tinfoil. Wright forms the foil by hand and then, working inwards, reinforces the shape by applying resin and glue. The macabre lyrics of Country and Western songs are spoken in a deadpan manner. The intaglio prints, made from found photographs taken by an anonymous photographer, bring a chilling note to this metallic landscape. These elements come together to create an environment without one single narrative or solution but the overall sense is one of a lonely, barren and comfortless world where the viewer is left to complete the story and find their own place.",
+    "dc:source" : "https://imma.ie/collection/where-do-broken-hearts-go/",
+    "schema:creditText" : "IMMA Collection: Purchase, 2000",
+    "image" : "spice:documentation/where-do-broken-hearts-go",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Continuous tone photopolymer intaglio plates, tinfoil, glue, resin, woman's voice reading Country &amp; Western songs",
+    "schema:size" : "Dimensions variable",
+    "arco-cd:hasInventory" : "IMMA.1292"
+  }, {
+    "@id" : "spice:documentation/where-do-broken-hearts-go",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Daphne Wright, Where Do Broken Hearts Go, 2000, Continuous tone photopolymer intaglio plates, tinfoil, glue, resin, woman's voice reading Country &amp; Western songs, Dimensions variable, Collection Irish Museum of Modern Art, Purchase, 2000 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2019/10/627.jpg"
+  } ],
+  "@context" : {
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

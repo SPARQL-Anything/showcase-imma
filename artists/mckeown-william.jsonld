@@ -1,0 +1,158 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/mckeown-william",
+    "@type" : "foaf:Person",
+    "dc:description" : "Irish painter William McKeown studied at Central St Martins School of Art and Design, London, Glasgow School of Art, and the University of Ulster, Belfast. McKeown’s luminous, near abstract paintings explore states of mind, such as happiness and freedom, and qualities of nature, like light, air and sky. McKeown has exhibited extensively nationally and internationally, including solo exhibitions at the Douglas Hyde Gallery, Dublin; Ormeau Baths Gallery, Belfast, and Dublin City Gallery The Hugh Lane. A major solo exhibition of his paintings and drawing was held at IMMA in 2008.",
+    "dc:source" : "https://imma.ie/artists/william-mckeown/",
+    "schema:birthDate" : "1962–2011",
+    "schema:url" : "https://imma.ie/artists/william-mckeown/",
+    "rdfs:label" : "William McKeown"
+  }, {
+    "@id" : "spice:artefact/hope-drawing-the-morning-16",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/mckeown-william",
+    "author" : "spice:agent/mckeown-william",
+    "schema:dateCreated" : "2004",
+    "schema:url" : "https://imma.ie/collection/hope-drawing-the-morning-16/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/hope-drawing-the-morning-16",
+    "arco-cd:hasTitle" : "Hope Drawing – The Morning # 16"
+  }, {
+    "@id" : "spice:artefact/hope-painting-going-through-the-looking-glass-2005",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/mckeown-william",
+    "author" : "spice:agent/mckeown-william",
+    "schema:dateCreated" : "2005",
+    "schema:url" : "https://imma.ie/collection/hope-painting-going-through-the-looking-glass-2005/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/hope-painting-going-through-the-looking-glass-2005",
+    "arco-cd:hasTitle" : "Hope Painting (Going Through the Looking Glass), 2005"
+  }, {
+    "@id" : "spice:artefact/open-drawing-primrose-2",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/mckeown-william",
+    "author" : "spice:agent/mckeown-william",
+    "schema:dateCreated" : "2003",
+    "schema:url" : "https://imma.ie/collection/open-drawing-primrose-2/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/open-drawing-primrose-2",
+    "arco-cd:hasTitle" : "Open Drawing – Primrose # 2"
+  }, {
+    "@id" : "spice:artefact/snowdrop",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/mckeown-william",
+    "author" : "spice:agent/mckeown-william",
+    "schema:dateCreated" : "2008",
+    "schema:url" : "https://imma.ie/collection/snowdrop/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/snowdrop",
+    "arco-cd:hasTitle" : "Snowdrop"
+  }, {
+    "@id" : "spice:artefact/tomorrow",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/mckeown-william",
+    "author" : "spice:agent/mckeown-william",
+    "schema:dateCreated" : "2010",
+    "schema:url" : "https://imma.ie/collection/tomorrow/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/tomorrow",
+    "arco-cd:hasTitle" : "Tomorrow"
+  }, {
+    "@id" : "spice:artefact/untitled-37",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/mckeown-william",
+    "author" : "spice:agent/mckeown-william",
+    "schema:dateCreated" : "1996",
+    "schema:url" : "https://imma.ie/collection/untitled-37/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-37",
+    "arco-cd:hasTitle" : "Untitled"
+  }, {
+    "@id" : "spice:attribution/hope-drawing-the-morning-16",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/mckeown-william"
+  }, {
+    "@id" : "spice:attribution/hope-painting-going-through-the-looking-glass-2005",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/mckeown-william"
+  }, {
+    "@id" : "spice:attribution/open-drawing-primrose-2",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/mckeown-william"
+  }, {
+    "@id" : "spice:attribution/snowdrop",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/mckeown-william"
+  }, {
+    "@id" : "spice:attribution/tomorrow",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/mckeown-william"
+  }, {
+    "@id" : "spice:attribution/untitled-37",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/mckeown-william"
+  } ],
+  "@context" : {
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

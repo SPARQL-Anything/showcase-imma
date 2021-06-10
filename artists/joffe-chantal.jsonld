@@ -1,0 +1,44 @@
+{
+  "@id" : "spice:agent/joffe-chantal",
+  "@type" : "foaf:Person",
+  "dc:description" : [ "Chantal Joffe brings a combination of insight and integrity, as well as psychological and emotional force, to the genre of figurative art.&nbsp;Hers is a deceptively casual brushstroke. Whether in images a few inches square or ten feet high, fluidity combined with a pragmatic approach to representation seduces and disarms. Almost always depicting women or girls, sometimes in groups but recently in iconic portraits, Joffe’s paintings only waveringly adhere to their source – be it a photograph, magazine page or even a reflection in the mirror – instead reminding us that distortions of scale and form can often make a subject seem more real.", "Chantal Joffe lives and works in London. She holds an MA from the Royal College of Art and was awarded the Royal Academy Wollaston Prize in 2006. Joffe had exhibited widely both nationally and internationally. Joffe brings a combination of insight and integrity, as well as psychological and emotional force, to the genre of figurative art. " ],
+  "dc:source" : "https://imma.ie/artists/chantal-joffe/",
+  "schema:birthDate" : "b.1969",
+  "schema:url" : "https://imma.ie/artists/chantal-joffe/",
+  "rdfs:label" : "Chantal&nbsp;Joffe",
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

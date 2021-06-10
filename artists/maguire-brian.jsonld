@@ -1,0 +1,424 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/maguire-brian",
+    "@type" : "foaf:Person",
+    "dc:description" : "Brian Maguire expressionist paintings address issues of social injustice and malfunction. He has worked with marginalised groups in institutions in Ireland, Poland and the US. Maguire represented Ireland at the São Paolo Biennale in 1998. He was appointed Professor of the Fine Art Faculty of the National College of Art and Design in 2000 and is an elected member of Aosdána.",
+    "dc:source" : "https://imma.ie/artists/brian-maguire/",
+    "schema:birthDate" : "b.1951",
+    "schema:url" : "https://imma.ie/artists/brian-maguire/",
+    "rdfs:label" : "Brian Maguire"
+  }, {
+    "@id" : "spice:artefact/cages-of-self",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/maguire-brian",
+    "author" : "spice:agent/maguire-brian",
+    "schema:dateCreated" : "1985",
+    "schema:url" : "https://imma.ie/collection/cages-of-self/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/cages-of-self",
+    "arco-cd:hasTitle" : "Cages of Self"
+  }, {
+    "@id" : "spice:artefact/casa-da-cultura",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/maguire-brian",
+    "author" : "spice:agent/maguire-brian",
+    "schema:dateCreated" : "1998",
+    "schema:url" : "https://imma.ie/collection/casa-da-cultura/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/casa-da-cultura",
+    "arco-cd:hasTitle" : "Casa da Cultura"
+  }, {
+    "@id" : "spice:artefact/diario-popular-twelve-days-in-march",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/maguire-brian",
+    "author" : "spice:agent/maguire-brian",
+    "schema:dateCreated" : "1998",
+    "schema:url" : "https://imma.ie/collection/diario-popular-twelve-days-in-march/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/diario-popular-twelve-days-in-march",
+    "arco-cd:hasTitle" : "Diario Popular (Twelve Days in March)"
+  }, {
+    "@id" : "spice:artefact/diario-popular-twelve-days-in-march-10",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/maguire-brian",
+    "author" : "spice:agent/maguire-brian",
+    "schema:dateCreated" : "1998",
+    "schema:url" : "https://imma.ie/collection/diario-popular-twelve-days-in-march-10/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/diario-popular-twelve-days-in-march-10",
+    "arco-cd:hasTitle" : "Diario Popular (Twelve Days in March)"
+  }, {
+    "@id" : "spice:artefact/diario-popular-twelve-days-in-march-11",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/maguire-brian",
+    "author" : "spice:agent/maguire-brian",
+    "schema:dateCreated" : "1998",
+    "schema:url" : "https://imma.ie/collection/diario-popular-twelve-days-in-march-11/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/diario-popular-twelve-days-in-march-11",
+    "arco-cd:hasTitle" : "Diario Popular (Twelve Days in March)"
+  }, {
+    "@id" : "spice:artefact/diario-popular-twelve-days-in-march-12",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/maguire-brian",
+    "author" : "spice:agent/maguire-brian",
+    "schema:dateCreated" : "1998",
+    "schema:url" : "https://imma.ie/collection/diario-popular-twelve-days-in-march-12/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/diario-popular-twelve-days-in-march-12",
+    "arco-cd:hasTitle" : "Diario Popular (Twelve Days in March)"
+  }, {
+    "@id" : "spice:artefact/diario-popular-twelve-days-in-march-13",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/maguire-brian",
+    "author" : "spice:agent/maguire-brian",
+    "schema:dateCreated" : "1998",
+    "schema:url" : "https://imma.ie/collection/diario-popular-twelve-days-in-march-13/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/diario-popular-twelve-days-in-march-13",
+    "arco-cd:hasTitle" : "Diario Popular (Twelve Days in March)"
+  }, {
+    "@id" : "spice:artefact/diario-popular-twelve-days-in-march-2",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/maguire-brian",
+    "author" : "spice:agent/maguire-brian",
+    "schema:dateCreated" : "1998",
+    "schema:url" : "https://imma.ie/collection/diario-popular-twelve-days-in-march-2/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/diario-popular-twelve-days-in-march-2",
+    "arco-cd:hasTitle" : "Diario Popular (Twelve Days in March)"
+  }, {
+    "@id" : "spice:artefact/diario-popular-twelve-days-in-march-3",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/maguire-brian",
+    "author" : "spice:agent/maguire-brian",
+    "schema:dateCreated" : "1998",
+    "schema:url" : "https://imma.ie/collection/diario-popular-twelve-days-in-march-3/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/diario-popular-twelve-days-in-march-3",
+    "arco-cd:hasTitle" : "Diario Popular (Twelve Days in March)"
+  }, {
+    "@id" : "spice:artefact/diario-popular-twelve-days-in-march-4",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/maguire-brian",
+    "author" : "spice:agent/maguire-brian",
+    "schema:dateCreated" : "1998",
+    "schema:url" : "https://imma.ie/collection/diario-popular-twelve-days-in-march-4/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/diario-popular-twelve-days-in-march-4",
+    "arco-cd:hasTitle" : "Diario Popular (Twelve Days in March)"
+  }, {
+    "@id" : "spice:artefact/diario-popular-twelve-days-in-march-5",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/maguire-brian",
+    "author" : "spice:agent/maguire-brian",
+    "schema:dateCreated" : "1998",
+    "schema:url" : "https://imma.ie/collection/diario-popular-twelve-days-in-march-5/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/diario-popular-twelve-days-in-march-5",
+    "arco-cd:hasTitle" : "Diario Popular (Twelve Days in March)"
+  }, {
+    "@id" : "spice:artefact/diario-popular-twelve-days-in-march-6",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/maguire-brian",
+    "author" : "spice:agent/maguire-brian",
+    "schema:dateCreated" : "1998",
+    "schema:url" : "https://imma.ie/collection/diario-popular-twelve-days-in-march-6/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/diario-popular-twelve-days-in-march-6",
+    "arco-cd:hasTitle" : "Diario Popular (Twelve Days in March)"
+  }, {
+    "@id" : "spice:artefact/diario-popular-twelve-days-in-march-7",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/maguire-brian",
+    "author" : "spice:agent/maguire-brian",
+    "schema:dateCreated" : "1998",
+    "schema:url" : "https://imma.ie/collection/diario-popular-twelve-days-in-march-7/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/diario-popular-twelve-days-in-march-7",
+    "arco-cd:hasTitle" : "Diario Popular (Twelve Days in March)"
+  }, {
+    "@id" : "spice:artefact/diario-popular-twelve-days-in-march-8",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/maguire-brian",
+    "author" : "spice:agent/maguire-brian",
+    "schema:dateCreated" : "1998",
+    "schema:url" : "https://imma.ie/collection/diario-popular-twelve-days-in-march-8/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/diario-popular-twelve-days-in-march-8",
+    "arco-cd:hasTitle" : "Diario Popular (Twelve Days in March)"
+  }, {
+    "@id" : "spice:artefact/diario-popular-twelve-days-in-march-9",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/maguire-brian",
+    "author" : "spice:agent/maguire-brian",
+    "schema:dateCreated" : "1998",
+    "schema:url" : "https://imma.ie/collection/diario-popular-twelve-days-in-march-9/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/diario-popular-twelve-days-in-march-9",
+    "arco-cd:hasTitle" : "Diario Popular (Twelve Days in March)"
+  }, {
+    "@id" : "spice:artefact/divis-flats",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/maguire-brian",
+    "author" : "spice:agent/maguire-brian",
+    "schema:dateCreated" : "1986",
+    "schema:url" : "https://imma.ie/collection/divis-flats/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/divis-flats",
+    "arco-cd:hasTitle" : "Divis Flats"
+  }, {
+    "@id" : "spice:artefact/elizabeth",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/maguire-brian",
+    "author" : "spice:agent/maguire-brian",
+    "schema:dateCreated" : "2003",
+    "schema:url" : "https://imma.ie/collection/elizabeth/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/elizabeth",
+    "arco-cd:hasTitle" : "Elizabeth"
+  }, {
+    "@id" : "spice:artefact/favela-vila-prudente",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/maguire-brian",
+    "author" : "spice:agent/maguire-brian",
+    "schema:dateCreated" : "1998",
+    "schema:url" : "https://imma.ie/collection/favela-vila-prudente/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/favela-vila-prudente",
+    "arco-cd:hasTitle" : "Favela Vila Prudente"
+  }, {
+    "@id" : "spice:artefact/homage-to-1984",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/maguire-brian",
+    "author" : "spice:agent/maguire-brian",
+    "schema:dateCreated" : "1985",
+    "schema:url" : "https://imma.ie/collection/homage-to-1984/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/homage-to-1984",
+    "arco-cd:hasTitle" : "Homage to 1984"
+  }, {
+    "@id" : "spice:artefact/liffey-suicides",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/maguire-brian",
+    "author" : "spice:agent/maguire-brian",
+    "schema:dateCreated" : "1986",
+    "schema:url" : "https://imma.ie/collection/liffey-suicides/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/liffey-suicides",
+    "arco-cd:hasTitle" : "Liffey Suicides"
+  }, {
+    "@id" : "spice:artefact/lovers",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/maguire-brian",
+    "author" : "spice:agent/maguire-brian",
+    "schema:dateCreated" : "1987",
+    "schema:url" : "https://imma.ie/collection/lovers/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/lovers",
+    "arco-cd:hasTitle" : "Lovers"
+  }, {
+    "@id" : "spice:artefact/memorial",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/maguire-brian",
+    "author" : "spice:agent/maguire-brian",
+    "schema:dateCreated" : "1998",
+    "schema:url" : "https://imma.ie/collection/memorial/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/memorial",
+    "arco-cd:hasTitle" : "Memorial"
+  }, {
+    "@id" : "spice:artefact/new-york-city-mother-heater",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/maguire-brian",
+    "author" : "spice:agent/maguire-brian",
+    "schema:dateCreated" : "1993",
+    "schema:url" : "https://imma.ie/collection/new-york-city-mother-heater/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/new-york-city-mother-heater",
+    "arco-cd:hasTitle" : "New York City (Mother Heater)"
+  }, {
+    "@id" : "spice:artefact/self-pity-and-headache",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/maguire-brian",
+    "author" : "spice:agent/maguire-brian",
+    "schema:dateCreated" : "1981",
+    "schema:url" : "https://imma.ie/collection/self-pity-and-headache/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/self-pity-and-headache",
+    "arco-cd:hasTitle" : "Self Pity and Headache"
+  }, {
+    "@id" : "spice:artefact/t-v-and-child",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/maguire-brian",
+    "author" : "spice:agent/maguire-brian",
+    "schema:dateCreated" : "1985",
+    "schema:url" : "https://imma.ie/collection/t-v-and-child/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/t-v-and-child",
+    "arco-cd:hasTitle" : "T.V. and Child"
+  }, {
+    "@id" : "spice:attribution/cages-of-self",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/maguire-brian"
+  }, {
+    "@id" : "spice:attribution/casa-da-cultura",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/maguire-brian"
+  }, {
+    "@id" : "spice:attribution/diario-popular-twelve-days-in-march",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/maguire-brian"
+  }, {
+    "@id" : "spice:attribution/diario-popular-twelve-days-in-march-10",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/maguire-brian"
+  }, {
+    "@id" : "spice:attribution/diario-popular-twelve-days-in-march-11",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/maguire-brian"
+  }, {
+    "@id" : "spice:attribution/diario-popular-twelve-days-in-march-12",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/maguire-brian"
+  }, {
+    "@id" : "spice:attribution/diario-popular-twelve-days-in-march-13",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/maguire-brian"
+  }, {
+    "@id" : "spice:attribution/diario-popular-twelve-days-in-march-2",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/maguire-brian"
+  }, {
+    "@id" : "spice:attribution/diario-popular-twelve-days-in-march-3",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/maguire-brian"
+  }, {
+    "@id" : "spice:attribution/diario-popular-twelve-days-in-march-4",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/maguire-brian"
+  }, {
+    "@id" : "spice:attribution/diario-popular-twelve-days-in-march-5",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/maguire-brian"
+  }, {
+    "@id" : "spice:attribution/diario-popular-twelve-days-in-march-6",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/maguire-brian"
+  }, {
+    "@id" : "spice:attribution/diario-popular-twelve-days-in-march-7",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/maguire-brian"
+  }, {
+    "@id" : "spice:attribution/diario-popular-twelve-days-in-march-8",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/maguire-brian"
+  }, {
+    "@id" : "spice:attribution/diario-popular-twelve-days-in-march-9",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/maguire-brian"
+  }, {
+    "@id" : "spice:attribution/divis-flats",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/maguire-brian"
+  }, {
+    "@id" : "spice:attribution/elizabeth",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/maguire-brian"
+  }, {
+    "@id" : "spice:attribution/favela-vila-prudente",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/maguire-brian"
+  }, {
+    "@id" : "spice:attribution/homage-to-1984",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/maguire-brian"
+  }, {
+    "@id" : "spice:attribution/liffey-suicides",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/maguire-brian"
+  }, {
+    "@id" : "spice:attribution/lovers",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/maguire-brian"
+  }, {
+    "@id" : "spice:attribution/memorial",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/maguire-brian"
+  }, {
+    "@id" : "spice:attribution/new-york-city-mother-heater",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/maguire-brian"
+  }, {
+    "@id" : "spice:attribution/self-pity-and-headache",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/maguire-brian"
+  }, {
+    "@id" : "spice:attribution/t-v-and-child",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/maguire-brian"
+  } ],
+  "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

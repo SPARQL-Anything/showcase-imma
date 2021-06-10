@@ -1,0 +1,44 @@
+{
+  "@id" : "spice:agent/peake-eddie",
+  "@type" : "foaf:Person",
+  "dc:description" : [ "Eddie Peake was born in London in 1981 where he continues to live and work. He has exhibited internationally including solo exhibitions at White Cube, London (2018); Barbican Art Gallery, London (2015); and Focal Point Gallery, Southend, UK (2013). Selected group exhibitions include Heide Museum of Modern Art, Melbourne (2018); Museum of Contemporary Art Chicago (2017); Zabludowicz Collection, London (2017); Eastside Projects, Birmingham, UK (2016); Fondazione Memmo, Rome (2015); Ujazdowski Castle Center for Contemporary Art, Warsaw (2013); and Museo d’Arte Contemporanea di Roma (2012). His performance projects include the Fiorucci Art Trust Volcano Extravaganza, Naples and Stromboli (2017); Palais de Tokyo, Paris (2015); Institute of Contemporary Arts, London (2014); Performa13, New York (2013); David Roberts Art Foundation, London (2012); The Tanks at Tate Modern, London in conjunction with the Chisenhale Gallery, London (2012); Royal Academy of Arts, London (2012); and Cell Project Space, London (2012).", "Eddie Peake was born in London in 1981 where he continues to live and work. He has exhibited internationally including solo exhibitions at White Cube, London (2018); Barbican Art Gallery, London (2015); and Focal Point Gallery, Southend, UK (2013)." ],
+  "dc:source" : "https://imma.ie/artists/eddie-peake/",
+  "schema:birthDate" : "b.1981",
+  "schema:url" : "https://imma.ie/artists/eddie-peake/",
+  "rdfs:label" : "Eddie Peake",
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "@id" : "spice:agent/graham-rodney",
+  "@type" : "foaf:Person",
+  "dc:description" : [ "Rodney Graham is one of the most consistently inventive artists to have emerged in the last 40 years, tirelessly questioning what it means to be an artist today. Through genre-defying experimentalism, Graham’s practice has shifted from conceptual photography and installation to encompass film, performance, music and painting. His works, informed by psychology, literature and storytelling, present cyclical narratives layered with puns and references. Historical figures such as Lewis Carroll, Sigmund Freud, Raymond Roussel and Kurt Cobain are explored with Graham’s typical sense of humour.", "Rodney Graham is one of the most consistently inventive artists to have emerged in the last 40 years, tirelessly questioning what it means to be an artist today. Through genre-defying experimentalism, Graham’s practice has shifted from conceptual photography and installation to encompass film, performance, music and painting." ],
+  "dc:source" : "https://imma.ie/artists/rodney-graham/",
+  "schema:birthDate" : "b.1949",
+  "schema:url" : "https://imma.ie/artists/rodney-graham/",
+  "rdfs:label" : "Rodney Graham",
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

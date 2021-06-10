@@ -1,0 +1,39 @@
+{
+  "@id" : "spice:agent/carroll-neil",
+  "@type" : "foaf:Person",
+  "dc:description" : [ "Neil Carroll’s practice sets out to explore the ability of pictorial space to meaningfully express and embody a perceived shift in how we conceptually construct the anthropological condition of the human figure and the contemporary space it occupies. It manifests these changes by re-negotiating with the painting format in a broader sense, breaking with the traditional bounds of representative, objective, architectural and urban space and forming a relationship with a more abstract, dynamic and transformable space.", "Neil Carroll’s practice sets out to explore the ability of pictorial space to meaningfully express and embody a perceived shift in how we conceptually construct the anthropological condition of the human figure and the contemporary space it occupies." ],
+  "dc:source" : "https://imma.ie/artists/neil-carroll/",
+  "schema:url" : "https://imma.ie/artists/neil-carroll/",
+  "rdfs:label" : "Neil Carroll",
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

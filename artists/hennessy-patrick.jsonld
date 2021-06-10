@@ -1,0 +1,102 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/hennessy-patrick",
+    "@type" : "foaf:Person",
+    "dc:description" : [ "Patrick Hennessy was born in County Cork in 1915 and moved with his family to Scotland in 1921. He was trained as painter in the academic tradition at Dundee College of Art, where he was greatly influenced by his tutor, the leading Scottish landscape artist James McIntosh Patrick. Hennessy excelled at Dundee and on graduating won a scholarship to travel to Europe. Between 1938-39 he went to Florence, Rome and Venice studying the work of the old masters. He then settled in Paris, the centre of Surrealism and avant-garde culture, where he worked for a time under Fernand Léger.", "Patrick Hennessy RHA (1915-80), was one of Ireland’s most successful post–war realist painters. A prolific artist, he created traditional portraits, landscapes, equine studies and still-lifes, but he also created works unlike anything being made in Ireland at the time. Fusing realism with a Surrealist subjectivity learned in Paris he painted human figures isolated in the landscape, male nudes and portraits of African men that puzzled Irish critics who branded him ‘something of an outsider'" ],
+    "dc:source" : "https://imma.ie/artists/patrick-hennessy/",
+    "schema:birthDate" : "1915–1980",
+    "schema:url" : "https://imma.ie/artists/patrick-hennessy/",
+    "rdfs:label" : "Patrick Hennessy"
+  }, {
+    "@id" : "spice:artefact/boy-and-seagull",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/hennessy-patrick",
+    "author" : "spice:agent/hennessy-patrick",
+    "schema:dateCreated" : "1949",
+    "schema:url" : "https://imma.ie/collection/boy-and-seagull/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/boy-and-seagull",
+    "arco-cd:hasTitle" : "Boy and Seagull"
+  }, {
+    "@id" : "spice:artefact/yellow-ribbon",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/hennessy-patrick",
+    "author" : "spice:agent/hennessy-patrick",
+    "schema:dateCreated" : "1951",
+    "schema:url" : "https://imma.ie/collection/yellow-ribbon/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/yellow-ribbon",
+    "arco-cd:hasTitle" : "Yellow Ribbon"
+  }, {
+    "@id" : "spice:attribution/boy-and-seagull",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/hennessy-patrick"
+  }, {
+    "@id" : "spice:attribution/yellow-ribbon",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/hennessy-patrick"
+  } ],
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

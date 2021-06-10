@@ -1,0 +1,80 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/mausoleum-under-construction-after-a-photograph-by-camilo-jose-vergara",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "Mausoleum Under Construction (after a photograph by Camilo José Vergara) is a 1992 work by Rachel Whiteread. It is not currently on display in IMMA. ",
+    "dc:source" : "https://imma.ie/collection/mausoleum-under-construction-after-a-photograph-by-camilo-jose-vergara/",
+    "schema:creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1995",
+    "image" : "spice:documentation/mausoleum-under-construction-after-a-photograph-by-camilo-jose-vergara",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Four-colour screenprint with mezzotint screens on hand-made paper",
+    "schema:size" : "71 x 81 cm",
+    "schema:version" : "Edition 4/65",
+    "arco-cd:hasInventory" : "L.720.10 LW"
+  }, {
+    "@id" : "spice:documentation/mausoleum-under-construction-after-a-photograph-by-camilo-jose-vergara",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Rachel Whiteread, Mausoleum Under Construction (after a photograph by Camilo José Vergara), 1992, Four-colour screenprint with mezzotint screens on hand-made paper, 71 x 81 cm, Collection Irish Museum of Modern Art, Loan, Weltkunst Foundation, 1995 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma"
+  } ],
+  "@context" : {
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "version" : {
+      "@id" : "http://schema.org/version",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

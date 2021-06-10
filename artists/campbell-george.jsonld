@@ -1,0 +1,144 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/campbell-george",
+    "@type" : "foaf:Person",
+    "dc:description" : "Irish artist George Campbell began painting during the blitz of Belfast while working in an aircraft factory. He painted in Connemara, London and most frequently, Spain, where he lived for twenty five years. A founder member of the Irish Exhibition of Living Art, Campbell was a member of the RHA, and won, among other awards, the Douglas Hyde Gold Medal in 1966 and the Oireachtas Prize for Landscape in 1969. In 1977 he was honoured as a Knight Commander of Spain. Campbell’s landscapes, still-lifes and figure paintings are represented in Irish public and private collections.",
+    "dc:source" : "https://imma.ie/artists/george-campbell/",
+    "schema:birthDate" : "1917–1979",
+    "schema:url" : "https://imma.ie/artists/george-campbell/",
+    "rdfs:label" : "George Campbell"
+  }, {
+    "@id" : "spice:artefact/andante",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/campbell-george",
+    "author" : "spice:agent/campbell-george",
+    "schema:dateCreated" : "1969",
+    "schema:url" : "https://imma.ie/collection/andante/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/andante",
+    "arco-cd:hasTitle" : "Andante"
+  }, {
+    "@id" : "spice:artefact/belfast-room",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/campbell-george",
+    "author" : "spice:agent/campbell-george",
+    "schema:dateCreated" : "1946",
+    "schema:url" : "https://imma.ie/collection/belfast-room/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/belfast-room",
+    "arco-cd:hasTitle" : "Belfast Room"
+  }, {
+    "@id" : "spice:artefact/blitzed-london",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/campbell-george",
+    "author" : "spice:agent/campbell-george",
+    "schema:dateCreated" : "1940",
+    "schema:url" : "https://imma.ie/collection/blitzed-london/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/blitzed-london",
+    "arco-cd:hasTitle" : "Blitzed London"
+  }, {
+    "@id" : "spice:artefact/fishing-harbour-night-mending-nets",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/campbell-george",
+    "author" : "spice:agent/campbell-george",
+    "schema:dateCreated" : "1957",
+    "schema:url" : "https://imma.ie/collection/fishing-harbour-night-mending-nets/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/fishing-harbour-night-mending-nets",
+    "arco-cd:hasTitle" : "Fishing Harbour Night, (mending nets)"
+  }, {
+    "@id" : "spice:artefact/still-life-with-oil-lamp",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/campbell-george",
+    "author" : "spice:agent/campbell-george",
+    "schema:dateCreated" : "1969",
+    "schema:url" : "https://imma.ie/collection/still-life-with-oil-lamp/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/still-life-with-oil-lamp",
+    "arco-cd:hasTitle" : "Still Life with Oil Lamp"
+  }, {
+    "@id" : "spice:attribution/andante",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/campbell-george"
+  }, {
+    "@id" : "spice:attribution/belfast-room",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/campbell-george"
+  }, {
+    "@id" : "spice:attribution/blitzed-london",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/campbell-george"
+  }, {
+    "@id" : "spice:attribution/fishing-harbour-night-mending-nets",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/campbell-george"
+  }, {
+    "@id" : "spice:attribution/still-life-with-oil-lamp",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/campbell-george"
+  } ],
+  "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

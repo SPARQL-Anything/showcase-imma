@@ -1,0 +1,80 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/line-writing",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "Vong Phaophanit’s ‘Line Writing’ was commissioned for a series of programmes entitled ‘From Beyond the Pale’ which ran at IMMA in 1994. When it is installed, an intense rectangle of red light emanates from ‘Line Writing’ through an open doorway into the courtyard of the museum. Inside the room beyond the doorway, which cannot be crossed, a section of floorboards have been removed and six strips of red neon with words in Laotian script pass through the exposed joists. The words are not translated and the red neon transforms the white cube space. The use of neon and Laotian, their placement, literally embedded in the foundations of an environment which is iconic in western culture, point to a powerful and pervasive interaction.",
+    "dc:source" : "https://imma.ie/collection/line-writing/",
+    "schema:creditText" : "IMMA Collection: Purchase, 1995",
+    "image" : "spice:documentation/line-writing",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "6 rows of red neon with Laotian script",
+    "schema:size" : "700 x 150 cm",
+    "arco-cd:hasInventory" : "IMMA.624"
+  }, {
+    "@id" : "spice:documentation/line-writing",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Vong Phaophanit, Line Writing, 1994, 6 rows of red neon with Laotian script, 700 x 150 cm, Collection Irish Museum of Modern Art, Purchase, 1995 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/673.jpg"
+  } ],
+  "@context" : {
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

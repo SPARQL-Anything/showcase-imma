@@ -1,0 +1,75 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/dust-defying-gravity",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "Irish artist Grace Weir often uses natural phenomena such as clouds, water and wind in her works, and engages with ordinary events to illustrate complex scientific theories. In ‘Dust Defying Gravity’, using a single unedited tracking shot, the artist takes the viewer on a slow contemplative journey of enquiry through the tranquil interior spaces of Dunsink observatory. The solitude of the space is intensified by the acoustics, and as the camera passes down the corridor a clock ticks loudly in the stillness. The medium of film allows the artist to record movement in relation to space and time. The lens roves as an eye might, pausing for a moment on a telescope, then a table which is scattered with the trappings of the process of scientific inquiry. For a moment the camera focuses on a sublime, yet almost invisible event, as humble dust motes are caught floating in the sun’s rays. As with many of Weir’s works there is an element of portraiture or human presence in this piece. The objects left so casually in the private spaces of the astronomers’ world are suggestive of the figure. The searching gaze of the camera is perhaps also creating a self-portrait of the artist – although not a physiological portrait: we are seeing through her inquisitive eyes. ",
+    "dc:source" : "https://imma.ie/collection/dust-defying-gravity/",
+    "schema:creditText" : "IMMA Collection: Purchase, 2004",
+    "image" : "spice:documentation/dust-defying-gravity",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "16 mm Film transferred to DVD",
+    "arco-cd:hasInventory" : "IMMA.1772"
+  }, {
+    "@id" : "spice:documentation/dust-defying-gravity",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Grace Weir, Dust Defying Gravity, 2003, 16 mm Film transferred to DVD, Dimensions variable, Collection Irish Museum of Modern Art, Purchase, 2004 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2020/07/1660.jpg"
+  } ],
+  "@context" : {
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

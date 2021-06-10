@@ -1,0 +1,158 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/hamilton-ann",
+    "@type" : "foaf:Person",
+    "dc:description" : "American artist Ann Hamilton studied textile design at the University of Kansas and sculpture at the Yale School of Art. Hamilton's primarily site-based installation works often combine sound, text, video, photography, books and large quantities of collected materials. Her practice is time-based and process orientated, and engages with the way bodies of knowledge are generated, contained, perceived and absorbed. Hamilton has exhibited worldwide, including a large solo exhibition at IMMA in 2002. She represented America at the Venice Biennale in 1999.",
+    "dc:source" : "https://imma.ie/artists/ann-hamilton/",
+    "schema:birthDate" : "b.1956",
+    "schema:url" : "https://imma.ie/artists/ann-hamilton/",
+    "rdfs:label" : "Ann Hamilton"
+  }, {
+    "@id" : "spice:artefact/filament-ii",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/hamilton-ann",
+    "author" : "spice:agent/hamilton-ann",
+    "schema:dateCreated" : "1996",
+    "schema:url" : "https://imma.ie/collection/filament-ii/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/filament-ii",
+    "arco-cd:hasTitle" : "Filament II"
+  }, {
+    "@id" : "spice:artefact/portal",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/hamilton-ann",
+    "author" : "spice:agent/hamilton-ann",
+    "schema:dateCreated" : "1999",
+    "schema:url" : "https://imma.ie/collection/portal/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/portal",
+    "arco-cd:hasTitle" : "Portal"
+  }, {
+    "@id" : "spice:artefact/portal-18",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/hamilton-ann",
+    "author" : "spice:agent/hamilton-ann",
+    "schema:dateCreated" : "1999",
+    "schema:url" : "https://imma.ie/collection/portal-18/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/portal-18",
+    "arco-cd:hasTitle" : "Portal 18"
+  }, {
+    "@id" : "spice:artefact/portal-2",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/hamilton-ann",
+    "author" : "spice:agent/hamilton-ann",
+    "schema:dateCreated" : "1999",
+    "schema:url" : "https://imma.ie/collection/portal-2/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/portal-2",
+    "arco-cd:hasTitle" : "Portal"
+  }, {
+    "@id" : "spice:artefact/portal-5",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/hamilton-ann",
+    "author" : "spice:agent/hamilton-ann",
+    "schema:dateCreated" : "1999",
+    "schema:url" : "https://imma.ie/collection/portal-5/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/portal-5",
+    "arco-cd:hasTitle" : "Portal 5"
+  }, {
+    "@id" : "spice:artefact/the-picture-is-still",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/hamilton-ann",
+    "author" : "spice:agent/hamilton-ann",
+    "schema:dateCreated" : "2001",
+    "schema:url" : "https://imma.ie/collection/the-picture-is-still/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-picture-is-still",
+    "arco-cd:hasTitle" : "The Picture is Still"
+  }, {
+    "@id" : "spice:attribution/filament-ii",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/hamilton-ann"
+  }, {
+    "@id" : "spice:attribution/portal",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/hamilton-ann"
+  }, {
+    "@id" : "spice:attribution/portal-18",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/hamilton-ann"
+  }, {
+    "@id" : "spice:attribution/portal-2",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/hamilton-ann"
+  }, {
+    "@id" : "spice:attribution/portal-5",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/hamilton-ann"
+  }, {
+    "@id" : "spice:attribution/the-picture-is-still",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/hamilton-ann"
+  } ],
+  "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

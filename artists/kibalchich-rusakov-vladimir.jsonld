@@ -1,0 +1,88 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/kibalchich-rusakov-vladimir",
+    "@type" : "foaf:Person",
+    "dc:description" : "Painter and muralist Vladimir Kibalchich Rusakov was born in Saint Petersburg, Russia but spent most of his life in Mexico where he was naturalised in 1949. There he was known simply as ‘Vlady’. In 1968 he received a Guggenheim Fellowship and spent a year in New York. In 2004 Vlady was made an Honorary Member of the Russian Academy of Arts and in 2005 he received the Palacio de Bellas Artes Commemorative Medal from the National Institute of Fine Arts in Mexico. He created a series of dramatic abstract murals inspired by both renaissance frescoes and revolutions around the world, and was part of Mexico’s rupture movement. Before his death, Vlady donated more than 4,600 works to the Fine Arts Institute in Mexico.",
+    "dc:source" : "https://imma.ie/artists/vladimir-kibalchich-rusakov/",
+    "schema:birthDate" : "1920–2005",
+    "schema:url" : "https://imma.ie/artists/vladimir-kibalchich-rusakov/",
+    "rdfs:label" : "Vladimir Kibalchich Rusakov"
+  }, {
+    "@id" : "spice:artefact/estampa-idealista",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/kibalchich-rusakov-vladimir",
+    "author" : "spice:agent/kibalchich-rusakov-vladimir",
+    "schema:dateCreated" : "1975",
+    "schema:url" : "https://imma.ie/collection/estampa-idealista/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/estampa-idealista",
+    "arco-cd:hasTitle" : "Estampa Idealista"
+  }, {
+    "@id" : "spice:attribution/estampa-idealista",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/kibalchich-rusakov-vladimir"
+  } ],
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

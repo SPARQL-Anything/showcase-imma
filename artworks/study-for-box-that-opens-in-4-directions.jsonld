@@ -1,0 +1,80 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/study-for-box-that-opens-in-4-directions",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "As in the rest of his oeuvre, Craig-Martin’s work plays with geometric shapes and everyday objects with meticulous simplicity. In ‘Study for Box that Opens in 4 Directions’, the artist has used a thin crepe tape, in place of drawing media, to evoke an almost sculptural sensibility. The pure lines appear to almost construct themselves forward from the pale isometric graph, rising slightly; adding another dimension to what at first appears to be a seemingly ordinary composition.",
+    "dc:source" : "https://imma.ie/collection/study-for-box-that-opens-in-4-directions/",
+    "schema:creditText" : "IMMA Collection: Purchase, 2011",
+    "image" : "spice:documentation/study-for-box-that-opens-in-4-directions",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Hand-applied black crepe tape on isometric graph paper",
+    "schema:size" : "Sheet: 28.5x45 cm Framed: 40 x 60 x 4 cm",
+    "arco-cd:hasInventory" : "IMMA.3339"
+  }, {
+    "@id" : "spice:documentation/study-for-box-that-opens-in-4-directions",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Michael Craig-Martin, Study for Box that Opens in 4 Directions, 1967, Hand-applied black crepe tape on isometric graph paper, Sheet: 28.5x45 cm Framed: 40 x 60 x 4 cm, Collection Irish Museum of Modern Art, Purchase, 2011 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/6050.jpg"
+  } ],
+  "@context" : {
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

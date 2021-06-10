@@ -1,0 +1,70 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/dark-mirror",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "‘Dark Mirror’ was made in collaboration with German graphic designer André Pahl and Mexican composer José María Serralde. Amorales invited Pahl and Serralde to respond to images in his Liquid Archive, an extensive digital database of drawings, photographs and collected images which the artist has been accumulating since 1999. Pahl selected specific drawings from the archive, which he sequenced into this silent animation. Serralde, a silent movie pianist, also worked on a selection of images and, without seeing Pahl’s animation, composed music to accompany this work. The animation and music were united by Amorales to form Dark Mirror. The animation and music combine as a double projection on a two-sided screen – one side is a video of Serralde performing his composition on a grand piano, and the other side is Pahl’s soundless animation. Black and white graphics of animals, humans and machinery dissolve from one entity into another, merging and separating, creating a sense of ambiguity, and thereby deliberately thwarting any chance of identifying with one central character or engaging with a linear narrative.",
+    "dc:source" : "https://imma.ie/collection/dark-mirror/",
+    "schema:creditText" : "IMMA Collection: Purchase, 2005",
+    "image" : "spice:documentation/dark-mirror",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Two-channel colour video Installation with sound",
+    "schema:version" : "Edition 2/5",
+    "arco-cd:hasInventory" : "IMMA.1897"
+  }, {
+    "@id" : "spice:documentation/dark-mirror",
+    "@type" : "schema:ImageObject",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2020/03/787.jpg"
+  } ],
+  "@context" : {
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "version" : {
+      "@id" : "http://schema.org/version",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

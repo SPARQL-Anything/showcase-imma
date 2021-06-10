@@ -1,0 +1,144 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/wiltshire-hermione",
+    "@type" : "foaf:Person",
+    "dc:description" : "English artist Hermione Wiltshire (born 1963) attended Central Saint Martins College of Arts and Design, London. Combining photography and sculpture in her visual art practice, Wiltshire references the history of art and contemporary culture to consider questions of the representation of women and self-image from a feminist perspective. Wiltshire has exhibited extensively. She has served as senior lecturer in the Photography Department at the Royal College of Art, London. Her work is represented in many public and private collections.",
+    "dc:source" : "https://imma.ie/artists/hermione-wiltshire/",
+    "schema:birthDate" : "b.1963",
+    "schema:url" : "https://imma.ie/artists/hermione-wiltshire/",
+    "rdfs:label" : "Hermione Wiltshire"
+  }, {
+    "@id" : "spice:artefact/casanova",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/wiltshire-hermione",
+    "author" : "spice:agent/wiltshire-hermione",
+    "schema:dateCreated" : "1994",
+    "schema:url" : "https://imma.ie/collection/casanova/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/casanova",
+    "arco-cd:hasTitle" : "Casanova"
+  }, {
+    "@id" : "spice:artefact/my-touch-2nd-version-1993",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/wiltshire-hermione",
+    "author" : "spice:agent/wiltshire-hermione",
+    "schema:dateCreated" : "1993",
+    "schema:url" : "https://imma.ie/collection/my-touch-2nd-version-1993/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/my-touch-2nd-version-1993",
+    "arco-cd:hasTitle" : "My Touch (2nd version), 1993"
+  }, {
+    "@id" : "spice:artefact/no-12-from-i-modi",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/wiltshire-hermione",
+    "author" : "spice:agent/wiltshire-hermione",
+    "schema:dateCreated" : "1997",
+    "schema:url" : "https://imma.ie/collection/no-12-from-i-modi/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/no-12-from-i-modi",
+    "arco-cd:hasTitle" : "No. 12 from ‘I Modi’"
+  }, {
+    "@id" : "spice:artefact/no-4-from-i-modi",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/wiltshire-hermione",
+    "author" : "spice:agent/wiltshire-hermione",
+    "schema:dateCreated" : "1997",
+    "schema:url" : "https://imma.ie/collection/no-4-from-i-modi/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/no-4-from-i-modi",
+    "arco-cd:hasTitle" : "No. 4 from ‘I Modi’"
+  }, {
+    "@id" : "spice:artefact/no-8-from-i-modi",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/wiltshire-hermione",
+    "author" : "spice:agent/wiltshire-hermione",
+    "schema:dateCreated" : "1997",
+    "schema:url" : "https://imma.ie/collection/no-8-from-i-modi/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/no-8-from-i-modi",
+    "arco-cd:hasTitle" : "No. 8 from ‘I Modi’"
+  }, {
+    "@id" : "spice:attribution/casanova",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/wiltshire-hermione"
+  }, {
+    "@id" : "spice:attribution/my-touch-2nd-version-1993",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/wiltshire-hermione"
+  }, {
+    "@id" : "spice:attribution/no-12-from-i-modi",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/wiltshire-hermione"
+  }, {
+    "@id" : "spice:attribution/no-4-from-i-modi",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/wiltshire-hermione"
+  }, {
+    "@id" : "spice:attribution/no-8-from-i-modi",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/wiltshire-hermione"
+  } ],
+  "@context" : {
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

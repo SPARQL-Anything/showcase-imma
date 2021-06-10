@@ -1,0 +1,83 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/key-anthony",
+    "@type" : "foaf:Person",
+    "dc:description" : [ "Anthony Key is a British-Chinese artist whose practice explores cultural identity. His work aims to be both ironic and accessible, and locates itself in the “everyday”. His art is minimalist in form and is sculptural and object-based. The objects are often seen as “ready-mades” and take the form of&nbsp; “shopping”. Anthony uses the process of repetition (echoing Buddhist philosophy) to form installations. The work appropriates and scavenges from art and cultural histories as it struggles to find/build a new identity to define the ever-changing position of British-Chineseness. Anthony aims to continue his research but from the slightly different perspective of the Irish-Chinese.", "British-Chinese artist Anthony Key obtained a PhD from Winchester School of Art in 2005. Key explores cultural identity through his artistic practice. His work is object-based and minimalist in structure. Echoing Buddhist philosophy, Key uses the process of repetition to construct installations. The work appropriates and scavenges from art and cultural histories as it struggles to build a new identity to define the transient position of British-Chineseness. " ],
+    "dc:source" : "https://imma.ie/artists/anthony-key/",
+    "schema:url" : "https://imma.ie/artists/anthony-key/",
+    "rdfs:label" : "Anthony Key"
+  }, {
+    "@id" : "spice:artefact/bok-gwai-white-ghost",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/key-anthony",
+    "author" : "spice:agent/key-anthony",
+    "schema:dateCreated" : "2005",
+    "schema:url" : "https://imma.ie/collection/bok-gwai-white-ghost/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/bok-gwai-white-ghost",
+    "arco-cd:hasTitle" : "Bok Gwai / White Ghost"
+  }, {
+    "@id" : "spice:attribution/bok-gwai-white-ghost",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/key-anthony"
+  } ],
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

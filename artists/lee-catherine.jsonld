@@ -1,0 +1,229 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/lee-catherine",
+    "@type" : "foaf:Person",
+    "description" : "_:b0",
+    "dc:description" : "American artist Catherine Lee first exhibited in New York at PS1 in 1980. A hybrid of painting, sculpture and installation, Lee’s work juxtaposes the simplicity of repeated forms with a wide variety of materials. Fabricated in clay, concrete, fibreglass and metal, her work is frequently presented in groups. Lee has exhibited internationally from the 1980s. Her work is included in the collections of SFMOMA; MoMA, New York; Tate, London, and the Carnegie Institute, Pittsburgh.",
+    "dc:source" : "https://imma.ie/artists/catherine-lee/",
+    "schema:birthDate" : "b.1950",
+    "schema:url" : "https://imma.ie/artists/catherine-lee/",
+    "rdfs:label" : "Catherine Lee"
+  }, {
+    "@id" : "spice:artefact/antrim",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/lee-catherine",
+    "author" : "spice:agent/lee-catherine",
+    "schema:dateCreated" : "1993",
+    "schema:url" : "https://imma.ie/collection/antrim/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/antrim",
+    "arco-cd:hasTitle" : "Antrim"
+  }, {
+    "@id" : "spice:artefact/armagh",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/lee-catherine",
+    "author" : "spice:agent/lee-catherine",
+    "schema:dateCreated" : "1993",
+    "schema:url" : "https://imma.ie/collection/armagh/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/armagh",
+    "arco-cd:hasTitle" : "Armagh"
+  }, {
+    "@id" : "spice:artefact/derry",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/lee-catherine",
+    "author" : "spice:agent/lee-catherine",
+    "schema:dateCreated" : "1993",
+    "schema:url" : "https://imma.ie/collection/derry/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/derry",
+    "arco-cd:hasTitle" : "Derry"
+  }, {
+    "@id" : "spice:artefact/donegal",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/lee-catherine",
+    "author" : "spice:agent/lee-catherine",
+    "schema:dateCreated" : "1993",
+    "schema:url" : "https://imma.ie/collection/donegal/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/donegal",
+    "arco-cd:hasTitle" : "Donegal"
+  }, {
+    "@id" : "spice:artefact/down",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/lee-catherine",
+    "author" : "spice:agent/lee-catherine",
+    "schema:dateCreated" : "1993",
+    "schema:url" : "https://imma.ie/collection/down/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/down",
+    "arco-cd:hasTitle" : "Down"
+  }, {
+    "@id" : "spice:artefact/drawing",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/lee-catherine",
+    "author" : "spice:agent/lee-catherine",
+    "schema:dateCreated" : "1980",
+    "schema:url" : "https://imma.ie/collection/drawing/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/drawing",
+    "arco-cd:hasTitle" : "Drawing"
+  }, {
+    "@id" : "spice:artefact/fermanagh",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/lee-catherine",
+    "author" : "spice:agent/lee-catherine",
+    "schema:dateCreated" : "1993",
+    "schema:url" : "https://imma.ie/collection/fermanagh/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/fermanagh",
+    "arco-cd:hasTitle" : "Fermanagh"
+  }, {
+    "@id" : "spice:artefact/other-voices",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/lee-catherine",
+    "author" : "spice:agent/lee-catherine",
+    "schema:dateCreated" : "1993",
+    "schema:url" : "https://imma.ie/collection/other-voices/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/other-voices",
+    "arco-cd:hasTitle" : "Other Voices"
+  }, {
+    "@id" : "spice:artefact/sentinel-viii",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/lee-catherine",
+    "author" : "spice:agent/lee-catherine",
+    "schema:dateCreated" : "1999",
+    "schema:url" : "https://imma.ie/collection/sentinel-viii/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/sentinel-viii",
+    "arco-cd:hasTitle" : "SENTINEL VIII"
+  }, {
+    "@id" : "spice:artefact/tyrone",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/lee-catherine",
+    "author" : "spice:agent/lee-catherine",
+    "schema:dateCreated" : "1993",
+    "schema:url" : "https://imma.ie/collection/tyrone/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/tyrone",
+    "arco-cd:hasTitle" : "Tyrone"
+  }, {
+    "@id" : "spice:artefact/ulster",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/lee-catherine",
+    "author" : "spice:agent/lee-catherine",
+    "schema:dateCreated" : "1993",
+    "schema:url" : "https://imma.ie/collection/ulster/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/ulster",
+    "arco-cd:hasTitle" : "Ulster"
+  }, {
+    "@id" : "spice:attribution/antrim",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/lee-catherine"
+  }, {
+    "@id" : "spice:attribution/armagh",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/lee-catherine"
+  }, {
+    "@id" : "spice:attribution/derry",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/lee-catherine"
+  }, {
+    "@id" : "spice:attribution/donegal",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/lee-catherine"
+  }, {
+    "@id" : "spice:attribution/down",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/lee-catherine"
+  }, {
+    "@id" : "spice:attribution/drawing",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/lee-catherine"
+  }, {
+    "@id" : "spice:attribution/fermanagh",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/lee-catherine"
+  }, {
+    "@id" : "spice:attribution/other-voices",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/lee-catherine"
+  }, {
+    "@id" : "spice:attribution/sentinel-viii",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/lee-catherine"
+  }, {
+    "@id" : "spice:attribution/tyrone",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/lee-catherine"
+  }, {
+    "@id" : "spice:attribution/ulster",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/lee-catherine"
+  } ],
+  "@context" : {
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "@id"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

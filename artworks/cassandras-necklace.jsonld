@@ -1,0 +1,75 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/cassandras-necklace",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "Cassandra’s Necklace (2012) by Alice Maher was commissioned by IMMA for the artist’s mid-career retrospective at the museum in 2012. The short film is inspired by an unfinished play script by Anne Enright, written in the late 1980s. Maher’s appreciation of Enright’s work underlines a shared interest – “I like her because she’s a very visceral writer who mixes the contemporary with the weirdly ancient.”.* When approached to collaborate with Maher for the exhibition at IMMA in 2012, Enright presented this script about the mythical prophetess Cassandra. ",
+    "dc:source" : "https://imma.ie/collection/cassandras-necklace/",
+    "schema:creditText" : "IMMA Collection: Commission, 2013",
+    "image" : "spice:documentation/cassandras-necklace",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Two-channel high-definition video, colour",
+    "arco-cd:hasInventory" : "IMMA.3878"
+  }, {
+    "@id" : "spice:documentation/cassandras-necklace",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Alice Maher, Cassandra’s Necklace, 2012, Two-channel high-definition video, colour, Duration: 10 min, Collection Irish Museum of Modern Art, Commission, 2013 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2020/07/7108.jpg"
+  } ],
+  "@context" : {
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

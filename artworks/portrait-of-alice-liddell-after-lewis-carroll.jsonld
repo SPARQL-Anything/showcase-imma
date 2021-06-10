@@ -1,0 +1,85 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/portrait-of-alice-liddell-after-lewis-carroll",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "Vik Muniz, one of the most innovative of a generation of highly original Brazilian artists, is concerned with revitalising the process of looking in an age drowning in a sea of imagery of all kinds from advertising to the domestic TV screen. His approach is rational and humorous: taking familiar images from high and popular culture and recreating them from a wide variety of materials, from dust and chocolate to toy soldiers and sugar-coated sweets. The chosen material prompts an interrogation of the image and the process of representation. The works are then photographed. ‘Portrait of Alice Liddell after Lewis Carroll’, is a recreation of Lewis Carroll’s original photograph of Alice Liddell – the child who was the inspiration for the main character in his book ‘Alice’s Adventures in Wonderland’. Muniz’s photograph subtly questions the relationship between the writer and the child and invites us to look at the treatment of children by adults in contemporary as well as Victorian culture.",
+    "dc:source" : "https://imma.ie/collection/portrait-of-alice-liddell-after-lewis-carroll/",
+    "schema:creditText" : "IMMA Collection: Purchase, 2004",
+    "image" : "spice:documentation/portrait-of-alice-liddell-after-lewis-carroll",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Chromogenic print from a digital file, mounted on aluminium, wooden frame",
+    "schema:size" : "253.5 x 184.5 cm",
+    "schema:version" : "edition",
+    "arco-cd:hasInventory" : "IMMA.1771"
+  }, {
+    "@id" : "spice:documentation/portrait-of-alice-liddell-after-lewis-carroll",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Vik Muniz, Portrait of Alice Liddell, after Lewis Carroll, 2004, Chromogenic print from a digital file, mounted on aluminium, wooden frame, 253.5 x 184.5 cm, Collection Irish Museum of Modern Art, Purchase, 2004 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2020/02/1661.jpg"
+  } ],
+  "@context" : {
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "version" : {
+      "@id" : "http://schema.org/version",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

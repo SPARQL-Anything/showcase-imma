@@ -1,0 +1,85 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/role-exchange",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "The photographic diptych ‘Role Exchange’ documents a performance of the same name in which Marina Abramović exchanged places with a woman from the Red Light district in Amsterdam. The woman attended the opening of an art exhibition while Abramović took the woman’s place at the window of her house of business. Each woman took full responsibility for the experiences that the role exchange brought with it.",
+    "dc:source" : "https://imma.ie/collection/role-exchange/",
+    "schema:creditText" : "IMMA Collection: Purchase, 1995",
+    "image" : "spice:documentation/role-exchange",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Framed black and white photographs (diptych) with framed letter press text panel",
+    "schema:size" : "Image framed 75.6 x 100.3 cm (each) Text framed 26 x 18.4 cm",
+    "schema:version" : "Edition 1/16, 3 AP's",
+    "arco-cd:hasInventory" : "IMMA.484"
+  }, {
+    "@id" : "spice:documentation/role-exchange",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Marina Abramović, Role Exchange, 1975, Framed black and white photographs (diptych) with framed letter press text panel, Image framed 75.6 x 100.3 cm (each) Text framed 26 x 18.4 cm, Collection Irish Museum of Modern Art, Purchase, 1995 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/852.jpg"
+  } ],
+  "@context" : {
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "version" : {
+      "@id" : "http://schema.org/version",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

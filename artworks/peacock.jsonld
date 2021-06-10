@@ -1,0 +1,80 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/peacock",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "Combining sculpture and print, ‘Peacock’ is a papier mâché sculpture of a crouched female, hugging her knees in a self-protective pose. The woman’s head is slightly cocked as she ponders the prints of female genitalia, which are fanned out on the wall like a peacock’s tail. The prints are physically linked to her body by 28 umbilical-like threads of paper, making direct reference to the female reproductive cycle. In Smith’s print work, the visceral is often counterbalanced by an impulse toward the refined and the decorative, seen here in the use of fine handmade paper and in the delicate lines of the drawn jewelry which adorns the figure.",
+    "dc:source" : "https://imma.ie/collection/peacock/",
+    "schema:creditText" : "IMMA Collection: Purchase, 1997",
+    "image" : "spice:documentation/peacock",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Papier Mâché and Nepal paper with ink",
+    "schema:size" : "67.3 x 44.5 x 54.6 cm",
+    "arco-cd:hasInventory" : "IMMA.784"
+  }, {
+    "@id" : "spice:documentation/peacock",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Kiki Smith, Peacock, 1994, Papier Mâché and Nepal paper with ink, 67.3 x 44.5 x 54.6 cm, Collection Irish Museum of Modern Art, Purchase, 1997 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2021/01/810.jpg"
+  } ],
+  "@context" : {
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

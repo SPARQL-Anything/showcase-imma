@@ -1,0 +1,144 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/fromel-gerda",
+    "@type" : "foaf:Person",
+    "dc:description" : [ "Born in Czechoslovakia of German parents, Gerda Frömel grew up in Germany where she studied sculpture in Stuttgart, Darmstadt and Munich. Frömel moved to Ireland in 1956. Working in bronze, marble, alabaster and stainless steel, her early symbolist sculpture developed towards pure abstraction, capturing light and movement through the materials and simplicity of form. Frömel exhibited widely in Ireland from the 1950s. A major retrospective of her work was presented at Dublin City Gallery The Hugh Lane in 1976.", "In 1948 Gerda Frömel enrolled in the Academy of Fine Arts, Stuttgart and later went on to study in the Academy of Fine Arts Darmstadt and of Munich, where she studied metalwork and sculpture. While at art school, Frömel met the sculptor Werner Schürmann who she married in 1955. Following the birth of their first child, the couple moved to Ireland 1956. IMMA has included Frömel’s work in landmark exhibitions such as The Moderns (2010-2011) and a major retrospective of her work in 2015." ],
+    "dc:source" : "https://imma.ie/artists/gerda-fromel/",
+    "schema:birthDate" : "1931–1975",
+    "schema:url" : "https://imma.ie/artists/gerda-fromel/",
+    "rdfs:label" : "Gerda Frömel"
+  }, {
+    "@id" : "spice:artefact/mobile",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/fromel-gerda",
+    "author" : "spice:agent/fromel-gerda",
+    "schema:dateCreated" : "1973",
+    "schema:url" : "https://imma.ie/collection/mobile/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/mobile",
+    "arco-cd:hasTitle" : "Mobile"
+  }, {
+    "@id" : "spice:artefact/moon-and-hill",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/fromel-gerda",
+    "author" : "spice:agent/fromel-gerda",
+    "schema:dateCreated" : "1971",
+    "schema:url" : "https://imma.ie/collection/moon-and-hill/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/moon-and-hill",
+    "arco-cd:hasTitle" : "Moon and Hill"
+  }, {
+    "@id" : "spice:artefact/munla-soghluaiste",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/fromel-gerda",
+    "author" : "spice:agent/fromel-gerda",
+    "schema:dateCreated" : "1972",
+    "schema:url" : "https://imma.ie/collection/munla-soghluaiste/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/munla-soghluaiste",
+    "arco-cd:hasTitle" : "Munla Soghluaiste"
+  }, {
+    "@id" : "spice:artefact/spear",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/fromel-gerda",
+    "author" : "spice:agent/fromel-gerda",
+    "schema:dateCreated" : "1973",
+    "schema:url" : "https://imma.ie/collection/spear/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/spear",
+    "arco-cd:hasTitle" : "Spear"
+  }, {
+    "@id" : "spice:artefact/the-spear",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/fromel-gerda",
+    "author" : "spice:agent/fromel-gerda",
+    "schema:dateCreated" : "1974",
+    "schema:url" : "https://imma.ie/collection/the-spear/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-spear",
+    "arco-cd:hasTitle" : "The Spear"
+  }, {
+    "@id" : "spice:attribution/mobile",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/fromel-gerda"
+  }, {
+    "@id" : "spice:attribution/moon-and-hill",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/fromel-gerda"
+  }, {
+    "@id" : "spice:attribution/munla-soghluaiste",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/fromel-gerda"
+  }, {
+    "@id" : "spice:attribution/spear",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/fromel-gerda"
+  }, {
+    "@id" : "spice:attribution/the-spear",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/fromel-gerda"
+  } ],
+  "@context" : {
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

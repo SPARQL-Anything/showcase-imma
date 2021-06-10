@@ -1,0 +1,39 @@
+{
+  "@id" : "spice:agent/kaga-atsushi",
+  "@type" : "foaf:Person",
+  "dc:description" : [ "&nbsp;", " Behind the playful and surreal facade of Atsushi Kaga’s misleadingly simple and faux-crude works lurks much darker territory wherein the artist confronts (through the eyes of a self-proclaimed ‘Otaku’) serious issues of cultural politics, paranoia, the complex search for personal identity and the daily philosophical crises of the harsh realities of the world." ],
+  "dc:source" : "https://imma.ie/artists/atsushi-kaga/",
+  "schema:url" : "https://imma.ie/artists/atsushi-kaga/",
+  "rdfs:label" : "Atsushi Kaga",
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

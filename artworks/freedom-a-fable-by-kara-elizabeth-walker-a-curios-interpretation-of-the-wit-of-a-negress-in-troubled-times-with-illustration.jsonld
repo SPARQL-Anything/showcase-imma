@@ -1,0 +1,85 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/freedom-a-fable-by-kara-elizabeth-walker-a-curios-interpretation-of-the-wit-of-a-negress-in-troubled-times-with-illustration",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "Freedom, A Fable by Kara Elizabeth Walker – A Curios Interpretation of the Wit of a Negress in Troubled Times With Illustration is a 1997 work by Kara Walker. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "dc:source" : "https://imma.ie/collection/freedom-a-fable-by-kara-elizabeth-walker-a-curios-interpretation-of-the-wit-of-a-negress-in-troubled-times-with-illustration/",
+    "schema:creditText" : "IMMA Collection: Comissioned by The Peter Norton Family The Novak/O'Doherty Collection at IMMA, 2008",
+    "image" : "spice:documentation/freedom-a-fable-by-kara-elizabeth-walker-a-curios-interpretation-of-the-wit-of-a-negress-in-troubled-times-with-illustration",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Hardbound artists book, pop up design by David Eisen",
+    "schema:size" : "23.8 x 21 cm",
+    "schema:version" : "Edition of 4,000",
+    "arco-cd:hasInventory" : "IMMA.2216"
+  }, {
+    "@id" : "spice:documentation/freedom-a-fable-by-kara-elizabeth-walker-a-curios-interpretation-of-the-wit-of-a-negress-in-troubled-times-with-illustration",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Kara Walker, Freedom, A Fable by Kara Elizabeth Walker – A Curios Interpretation of the Wit of a Negress in Troubled Times With Illustration, 1997, Hardbound artists book, pop up design by David Eisen, 23.8 x 21 cm, Collection Irish Museum of Modern Art, Comissioned by The Peter Norton Family The Novak/O'Doherty Collection at IMMA, 2008 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2021/03/2261.jpg"
+  } ],
+  "@context" : {
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "version" : {
+      "@id" : "http://schema.org/version",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

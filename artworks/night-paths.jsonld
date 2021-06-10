@@ -1,0 +1,80 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/night-paths",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "Madden’s work abstract at first glance, but generally with a figurative element, regularly carries references to her Irish background as well as to a personal history of family loss. The residues of the Celts in the Bronze Age and the nineteenth century Great Famine, have covertly informed her work and she also turned to Greek mythology as a vehicle to work her way through family tragedy. This can be inferred from her use of colour and composition in works such as ‘Night Paths’. The triptych format of this work, a common device for her, echoes its usage in Western religious painting, where it is often associated with the story of the Crucifixion. The paths referred to here, linking her house to her garden studio, are both inviting and intimidating by virtue of their association with cosmic forces.",
+    "dc:source" : "https://imma.ie/collection/night-paths/",
+    "schema:creditText" : "IMMA Collection: Donation, Vincent &amp; Noeleen Ferguson, 1996",
+    "image" : "spice:documentation/night-paths",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Oil on canvas",
+    "schema:size" : "195.7 x 292.1 cm",
+    "arco-cd:hasInventory" : "IMMA.770"
+  }, {
+    "@id" : "spice:documentation/night-paths",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Anne Madden, Night Paths, 1988, Oil on canvas, 195.7 x 292.1 cm, Collection Irish Museum of Modern Art, Donation, Vincent &amp; Noeleen Ferguson, 1996 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/1071.jpg"
+  } ],
+  "@context" : {
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

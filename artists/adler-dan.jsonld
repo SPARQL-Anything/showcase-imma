@@ -1,0 +1,39 @@
+{
+  "@id" : "spice:agent/adler-dan",
+  "@type" : "foaf:Person",
+  "dc:description" : [ "Dan Adler is Associate Professor in the Department of Visual Arts &amp; Art History at York University in Toronto and is the IMMA/(ACW)NCAD fellow for 2019. Adler’s areas of research incorporate the history of art writing, modern and contemporary sculpture, German modernism, and the development and reception of the conceptual art movement.", "Dan Adler is Associate Professor in the Department of Visual Arts &amp; Art History at York University in Toronto and is the IMMA/(ACW)NCAD fellow for 2019. Adler’s areas of research incorporate the history of art writing, modern and contemporary sculpture, German modernism, and the development and reception of the conceptual art movement. " ],
+  "dc:source" : "https://imma.ie/artists/dan-adler/",
+  "schema:url" : "https://imma.ie/artists/dan-adler/",
+  "rdfs:label" : "Dan Adler",
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/errigal-co-donegal",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "Primarily a landscape painter, Henry’s early work often included figures working in the landscape. In later work, such as Errigal, Co. Donegal the figure and other representational objects, such as cottages and animals, are absent from the composition, suggesting a shift towards abstraction. This painting, like many of Henry’s landscapes, features a low horizon line with a mountain range in the middle ground, framed by expansive areas of sky with large cloud formations. In the early stages of his career charcoal was Henry’s preferred medium and he continued to use charcoal throughout his career in his preparatory sketches, many of which were done outdoors.",
+    "dc:source" : "https://imma.ie/collection/errigal-co-donegal/",
+    "schema:creditText" : "IMMA Collection: Heritage Gift by the Bank of Ireland from the Bank of Ireland collection, 2008",
+    "image" : "spice:documentation/errigal-co-donegal",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Oil on canvas",
+    "schema:size" : "36 x 38 cm Framed: 53.5 x 57.5 cm",
+    "arco-cd:hasInventory" : "IMMA.2602"
+  }, {
+    "@id" : "spice:documentation/errigal-co-donegal",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Paul Henry, Errigal, Co. Donegal, 1920, Oil on canvas, 36 x 38 cm Framed: 53.5 x 57.5 cm, Collection Irish Museum of Modern Art, Heritage Gift by the Bank of Ireland from the Bank of Ireland collection, 2008 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2020/02/3477.jpg"
+  } ],
+  "@context" : {
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

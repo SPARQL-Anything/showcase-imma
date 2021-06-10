@@ -1,0 +1,75 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/ironing-pieces",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "Maureen Connor is known internationally for her work from the 80s and 90s which combines elements of installation, video, design, and collaborative performance. Much of her work focused on gender, as well as its modes of representation, and she often represented the female body through the medium of fabric. Connor’s sculpture ‘Ironing Pieces’ is made from delicate, undyed organdy that has been starched and folded. The work draws inspiration from domestic skills such as napkin-folding and dressmaking.",
+    "dc:source" : "https://imma.ie/collection/ironing-pieces/",
+    "schema:creditText" : "IMMA Collection: Donation, Joseph Masheck, 1991",
+    "image" : "spice:documentation/ironing-pieces",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Organdy",
+    "schema:size" : "20 x 20 cm",
+    "arco-cd:hasInventory" : "IMMA.86"
+  }, {
+    "@id" : "spice:documentation/ironing-pieces",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Maureen Connor, Ironing Pieces, 1980, Organdy, 20 x 20 cm, Collection Irish Museum of Modern Art, Donation, Joseph Masheck, 1991 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma"
+  } ],
+  "@context" : {
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

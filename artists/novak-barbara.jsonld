@@ -1,0 +1,88 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/novak-barbara",
+    "@type" : "foaf:Person",
+    "dc:description" : "Barbara Novak is one of America’s premier art historians. She graduated from Barnard College, and pursued her graduate work at Harvard. She joined the faculty of Barnard College in 1958. In 1969 Novak’s ground-breaking ‘American Painting of the Nineteenth Century: Realism, Idealism and the American Experience’, was published. This was followed in 1980 by ‘Nature and Culture: American Landscape and Painting 1825-1875’, which was chosen as one of the Ten Best Books of the Year by the New York Times. After a long and highly distinguished career, Novak retired in 1998 as Helen Goodhart Altschul Professor of Art History Emerita at Barnard College, where a chaired professorship was named in her honour. She has served on the boards of the American Art Journal, the College Art Journal, the National Academy of Design and the New York Historical Society. The Smithsonian’s National Portrait Gallery, for which she served as a Commissioner for twenty-five years, recently established the Barbara Novak Acquisition Fund. In addition to her critical and theoretical practice, Novak is an accomplished watercolour painter. Her work has been shown at New York’s Drawing Center, at P.S.1, and is in private and public collections.",
+    "dc:source" : "https://imma.ie/artists/barbara-novak/",
+    "schema:birthDate" : "b.1928",
+    "schema:url" : "https://imma.ie/artists/barbara-novak/",
+    "rdfs:label" : "Barbara Novak"
+  }, {
+    "@id" : "spice:artefact/red-yellow-and-blue",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/novak-barbara",
+    "author" : "spice:agent/novak-barbara",
+    "schema:dateCreated" : "2004",
+    "schema:url" : "https://imma.ie/collection/red-yellow-and-blue/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/red-yellow-and-blue",
+    "arco-cd:hasTitle" : "Red, Yellow and Blue"
+  }, {
+    "@id" : "spice:attribution/red-yellow-and-blue",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/novak-barbara"
+  } ],
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/one-way-of-containing-air",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "Co-founder of the National Sculpture Factory, Cork, Maud Cotter’s early reputation was established as a stained-glass artist. Cotter sought to redress the decorative and religious stereotypes that tended to preclude this medium’s acceptance as a fine art discipline. A visit to Iceland in 1991 precipitated a renewed interest in sculptural practice which she has pursued exclusively since then, working with such diverse media as steel, glass, perspex, cardboard, wax and latex.",
+    "dc:source" : "https://imma.ie/collection/one-way-of-containing-air/",
+    "schema:creditText" : "IMMA Collection: Purchase, 1998",
+    "image" : "spice:documentation/one-way-of-containing-air",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Corrugated cardboard",
+    "schema:size" : "202 x 76 x 31 cm",
+    "arco-cd:hasInventory" : "IMMA.761"
+  }, {
+    "@id" : "spice:documentation/one-way-of-containing-air",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Maud Cotter, One Way of Containing Air, 1998, Corrugated cardboard, 202 x 76 x 31 cm, Collection Irish Museum of Modern Art, Purchase, 1998 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/485.jpg"
+  } ],
+  "@context" : {
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

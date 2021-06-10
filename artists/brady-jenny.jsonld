@@ -1,0 +1,44 @@
+{
+  "@id" : "spice:agent/brady-jenny",
+  "@type" : "foaf:Person",
+  "dc:description" : [ "Using experimental narratives, Jenny Brady’s film works explore ideas around translation, communication and the limitations of language, whilst slowing down our experience of looking at and listening to the moving image. Her works attempt to find potential mutualities between disparate subjects, both human and non-human, through abstract video portraits in which animals often appear as troubling figures of mistranslation. Her works are attentive to the sensory and perceptual conditions of sound, and feature a unique audio-visual grammar, which draws on experimental music and utilizes unexpected rhythms, interruption and commentary to complicate potential readings of the subjects she explores.", "Using experimental narratives, Jenny Brady’s film works explore ideas around translation, communication and the limitations of language, whilst slowing down our experience of looking at and listening to the moving image. Her works attempt to find potential mutualities between disparate subjects, both human and non-human, through abstract video portraits in which animals often appear as troubling figures of mistranslation." ],
+  "dc:source" : "https://imma.ie/artists/jenny-brady/",
+  "schema:birthDate" : "b.1983",
+  "schema:url" : "https://imma.ie/artists/jenny-brady/",
+  "rdfs:label" : "Jenny Brady",
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

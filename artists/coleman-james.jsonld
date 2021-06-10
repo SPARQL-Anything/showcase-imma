@@ -1,0 +1,186 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/coleman-james",
+    "@type" : "foaf:Person",
+    "dc:description" : [ "James Coleman is widely regarded as having a uniquely influential role in a range of media that dominate large areas of current art practice. For more than 30 years he has used the photograph, the projected film still, the transparency, the slide show with sound track and the film as powerful means of conveying his reflections on the meaning of the image, whether moving or static. The importance of the medium itself, and its role in shaping our understanding of what we see, is a key concern in Coleman’s work, with the technical equipment for his slide works regularly installed inside the exhibition space.", "James Coleman is widely regarded as having a uniquely influential role in a range of media that dominate large areas of current art practice. For more than 30 years he has used the photograph, the projected film still, the transparency, the slide show with sound track and the film as powerful means of conveying his reflections on the meaning of the image, whether moving or static." ],
+    "dc:source" : "https://imma.ie/artists/james-coleman/",
+    "schema:birthDate" : "b.1941",
+    "schema:url" : "https://imma.ie/artists/james-coleman/",
+    "rdfs:label" : "James Coleman"
+  }, {
+    "@id" : "spice:artefact/a-model-for-a-project-time-point",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/coleman-james",
+    "author" : "spice:agent/coleman-james",
+    "schema:dateCreated" : "1959",
+    "schema:url" : "https://imma.ie/collection/a-model-for-a-project-time-point/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/a-model-for-a-project-time-point",
+    "arco-cd:hasTitle" : "A Model for a Project, Time Point"
+  }, {
+    "@id" : "spice:artefact/background",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/coleman-james",
+    "author" : "spice:agent/coleman-james",
+    "schema:dateCreated" : "1991",
+    "schema:url" : "https://imma.ie/collection/background/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/background",
+    "arco-cd:hasTitle" : "Background"
+  }, {
+    "@id" : "spice:artefact/documentation-for-an-artwork-light-piece-proposal-for-an-installation-hendricks-gallery",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/coleman-james",
+    "author" : "spice:agent/coleman-james",
+    "schema:dateCreated" : "1973",
+    "schema:url" : "https://imma.ie/collection/documentation-for-an-artwork-light-piece-proposal-for-an-installation-hendricks-gallery/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/documentation-for-an-artwork-light-piece-proposal-for-an-installation-hendricks-gallery",
+    "arco-cd:hasTitle" : "Documentation for an artwork, Light Piece – Proposal for an installation, Hendricks Gallery"
+  }, {
+    "@id" : "spice:artefact/energisable-cubes",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/coleman-james",
+    "author" : "spice:agent/coleman-james",
+    "schema:dateCreated" : "1971",
+    "schema:url" : "https://imma.ie/collection/energisable-cubes/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/energisable-cubes",
+    "arco-cd:hasTitle" : "Energisable Cubes"
+  }, {
+    "@id" : "spice:artefact/i-n-i-t-i-a-l-s",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/coleman-james",
+    "author" : "spice:agent/coleman-james",
+    "schema:dateCreated" : "1993",
+    "schema:url" : "https://imma.ie/collection/i-n-i-t-i-a-l-s/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/i-n-i-t-i-a-l-s",
+    "arco-cd:hasTitle" : "I N I T I A L S"
+  }, {
+    "@id" : "spice:artefact/lapsus-exposure",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/coleman-james",
+    "author" : "spice:agent/coleman-james",
+    "schema:dateCreated" : "1992",
+    "schema:url" : "https://imma.ie/collection/lapsus-exposure/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/lapsus-exposure",
+    "arco-cd:hasTitle" : "Lapsus Exposure"
+  }, {
+    "@id" : "spice:artefact/pheasant",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/coleman-james",
+    "author" : "spice:agent/coleman-james",
+    "schema:dateCreated" : "1960",
+    "schema:url" : "https://imma.ie/collection/pheasant/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/pheasant",
+    "arco-cd:hasTitle" : "Pheasant"
+  }, {
+    "@id" : "spice:artefact/strongbow",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/coleman-james",
+    "author" : "spice:agent/coleman-james",
+    "schema:dateCreated" : "1978",
+    "schema:url" : "https://imma.ie/collection/strongbow/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/strongbow",
+    "arco-cd:hasTitle" : "Strongbow"
+  }, {
+    "@id" : "spice:attribution/a-model-for-a-project-time-point",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/coleman-james"
+  }, {
+    "@id" : "spice:attribution/background",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/coleman-james"
+  }, {
+    "@id" : "spice:attribution/documentation-for-an-artwork-light-piece-proposal-for-an-installation-hendricks-gallery",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/coleman-james"
+  }, {
+    "@id" : "spice:attribution/energisable-cubes",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/coleman-james"
+  }, {
+    "@id" : "spice:attribution/i-n-i-t-i-a-l-s",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/coleman-james"
+  }, {
+    "@id" : "spice:attribution/lapsus-exposure",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/coleman-james"
+  }, {
+    "@id" : "spice:attribution/pheasant",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/coleman-james"
+  }, {
+    "@id" : "spice:attribution/strongbow",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/coleman-james"
+  } ],
+  "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/egan-felim",
+    "@type" : "foaf:Person",
+    "dc:description" : "Irish painter Felim Egan studied in Belfast, Portsmouth and the Slade School of Art, London. Hiss paintings draw on an abstract language, captured in symbols relating to music, literature and landscape, most often that of Sandymount Strand where he has lived and painted since the 1980s. Egan has exhibited across Europe since 1979. He represented Ireland at the Biennale de Paris in 1981 and the São Paulo Biennale in 1985. Egan had a major solo exhibition at IMMA in 1996.",
+    "dc:source" : "https://imma.ie/artists/felim-egan/",
+    "schema:birthDate" : "b.1952",
+    "schema:url" : "https://imma.ie/artists/felim-egan/",
+    "rdfs:label" : "Felim Egan"
+  }, {
+    "@id" : "spice:artefact/black-apollo",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/egan-felim",
+    "author" : "spice:agent/egan-felim",
+    "schema:dateCreated" : "1983",
+    "schema:url" : "https://imma.ie/collection/black-apollo/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/black-apollo",
+    "arco-cd:hasTitle" : "Black Apollo"
+  }, {
+    "@id" : "spice:artefact/composition-with-red-panels-parts-1-2-3",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/egan-felim",
+    "author" : "spice:agent/egan-felim",
+    "schema:dateCreated" : "1979",
+    "schema:url" : "https://imma.ie/collection/composition-with-red-panels-parts-1-2-3/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/composition-with-red-panels-parts-1-2-3",
+    "arco-cd:hasTitle" : "Composition with Red Panels (parts 1, 2 &amp; 3)"
+  }, {
+    "@id" : "spice:artefact/exchange",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/egan-felim",
+    "author" : "spice:agent/egan-felim",
+    "schema:dateCreated" : "1990",
+    "schema:url" : "https://imma.ie/collection/exchange/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/exchange",
+    "arco-cd:hasTitle" : "Exchange"
+  }, {
+    "@id" : "spice:artefact/installation-with-neon-no-3-commissioned-by-g-lambert",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/egan-felim",
+    "author" : "spice:agent/egan-felim",
+    "schema:dateCreated" : "1984",
+    "schema:url" : "https://imma.ie/collection/installation-with-neon-no-3-commissioned-by-g-lambert/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/installation-with-neon-no-3-commissioned-by-g-lambert",
+    "arco-cd:hasTitle" : "Installation with Neon no. 3 (commissioned by G. Lambert)"
+  }, {
+    "@id" : "spice:artefact/intertidal-note",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/egan-felim",
+    "author" : "spice:agent/egan-felim",
+    "schema:dateCreated" : "1995",
+    "schema:url" : "https://imma.ie/collection/intertidal-note/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/intertidal-note",
+    "arco-cd:hasTitle" : "Intertidal Note"
+  }, {
+    "@id" : "spice:artefact/land-score-1-northern",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/egan-felim",
+    "author" : "spice:agent/egan-felim",
+    "schema:dateCreated" : "1990",
+    "schema:url" : "https://imma.ie/collection/land-score-1-northern/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/land-score-1-northern",
+    "arco-cd:hasTitle" : "Land Score 1 (Northern)"
+  }, {
+    "@id" : "spice:artefact/landline",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/egan-felim",
+    "author" : "spice:agent/egan-felim",
+    "schema:dateCreated" : "1991",
+    "schema:url" : "https://imma.ie/collection/landline/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/landline",
+    "arco-cd:hasTitle" : "Landline"
+  }, {
+    "@id" : "spice:artefact/outlook",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/egan-felim",
+    "author" : "spice:agent/egan-felim",
+    "schema:dateCreated" : "1995",
+    "schema:url" : "https://imma.ie/collection/outlook/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/outlook",
+    "arco-cd:hasTitle" : "Outlook"
+  }, {
+    "@id" : "spice:artefact/squarings",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/egan-felim",
+    "author" : "spice:agent/egan-felim",
+    "schema:dateCreated" : "1991",
+    "schema:url" : "https://imma.ie/collection/squarings/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/squarings",
+    "arco-cd:hasTitle" : "Squarings"
+  }, {
+    "@id" : "spice:artefact/untitled-86",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/egan-felim",
+    "author" : "spice:agent/egan-felim",
+    "schema:dateCreated" : "1979",
+    "schema:url" : "https://imma.ie/collection/untitled-86/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-86",
+    "arco-cd:hasTitle" : "Untitled"
+  }, {
+    "@id" : "spice:artefact/venus-iii",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/egan-felim",
+    "author" : "spice:agent/egan-felim",
+    "schema:dateCreated" : "1984",
+    "schema:url" : "https://imma.ie/collection/venus-iii/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/venus-iii",
+    "arco-cd:hasTitle" : "Venus III"
+  }, {
+    "@id" : "spice:attribution/black-apollo",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/egan-felim"
+  }, {
+    "@id" : "spice:attribution/composition-with-red-panels-parts-1-2-3",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/egan-felim"
+  }, {
+    "@id" : "spice:attribution/exchange",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/egan-felim"
+  }, {
+    "@id" : "spice:attribution/installation-with-neon-no-3-commissioned-by-g-lambert",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/egan-felim"
+  }, {
+    "@id" : "spice:attribution/intertidal-note",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/egan-felim"
+  }, {
+    "@id" : "spice:attribution/land-score-1-northern",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/egan-felim"
+  }, {
+    "@id" : "spice:attribution/landline",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/egan-felim"
+  }, {
+    "@id" : "spice:attribution/outlook",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/egan-felim"
+  }, {
+    "@id" : "spice:attribution/squarings",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/egan-felim"
+  }, {
+    "@id" : "spice:attribution/untitled-86",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/egan-felim"
+  }, {
+    "@id" : "spice:attribution/venus-iii",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/egan-felim"
+  } ],
+  "@context" : {
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

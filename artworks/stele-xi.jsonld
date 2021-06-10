@@ -1,0 +1,75 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/stele-xi",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "Using gravitational force as a starting point, this sculpture reads downwards and is undercut at floor-level to achieve minimum contact with the ground at its base. While referencing a memorial, ‘Stele XI’ is a hand-carved meditative work created in response to material, which speaks of the importance of craftsmanship. Warren says, ‘I particularly enjoy the timber-vaulted roofs sometimes discovered in old barns or churches; I enjoy dry-stone walls, hand carved headstones, a chair that ‘stands’ well – objects made from traditional skills, finely honed over generations’.",
+    "dc:source" : "https://imma.ie/collection/stele-xi/",
+    "schema:creditText" : "IMMA Collection: Purchase, 2011",
+    "image" : "spice:documentation/stele-xi",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Spanish chestnut wood",
+    "arco-cd:hasInventory" : "IMMA.3418"
+  }, {
+    "@id" : "spice:documentation/stele-xi",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Michael Warren, Stele XI, 1997, Spanish chestnut wood, Collection Irish Museum of Modern Art, Purchase, 2011 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/6167.jpg"
+  } ],
+  "@context" : {
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

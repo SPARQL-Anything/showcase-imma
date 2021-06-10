@@ -1,0 +1,214 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/houshiary-shirazeh",
+    "@type" : "foaf:Person",
+    "dc:description" : "Iranian artist Shirazeh Houshiary studied at the Chelsea School of Art. During the 1980s she became established as part of a younger generation of sculptors working in Britain. The idea of an inner reality, expressed in an abstract language, which lies beneath the outward appearance of things, is central to her artistic practice. Houshairy was shortlisted for the Turner Prize in 1994. She has exhibited extensively in Europe and America.",
+    "dc:source" : "https://imma.ie/artists/shirazeh-houshiary/",
+    "schema:birthDate" : "b.1955",
+    "schema:url" : "https://imma.ie/artists/shirazeh-houshiary/",
+    "rdfs:label" : "Shirazeh Houshiary"
+  }, {
+    "@id" : "spice:artefact/resonance",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/houshiary-shirazeh",
+    "author" : "spice:agent/houshiary-shirazeh",
+    "schema:dateCreated" : "1994",
+    "schema:url" : "https://imma.ie/collection/resonance/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/resonance",
+    "arco-cd:hasTitle" : "Resonance"
+  }, {
+    "@id" : "spice:artefact/round-dance-5-prints-portfolio",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/houshiary-shirazeh",
+    "author" : "spice:agent/houshiary-shirazeh",
+    "schema:dateCreated" : "1992",
+    "schema:url" : "https://imma.ie/collection/round-dance-5-prints-portfolio/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/round-dance-5-prints-portfolio",
+    "arco-cd:hasTitle" : "Round dance (5 prints) portfolio"
+  }, {
+    "@id" : "spice:artefact/study-for-between-earth-and-sky-i",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/houshiary-shirazeh",
+    "author" : "spice:agent/houshiary-shirazeh",
+    "schema:dateCreated" : "1987",
+    "schema:url" : "https://imma.ie/collection/study-for-between-earth-and-sky-i/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/study-for-between-earth-and-sky-i",
+    "arco-cd:hasTitle" : "Study for: Between Earth and Sky I"
+  }, {
+    "@id" : "spice:artefact/study-for-between-earth-and-sky-ii-ref-87-d012",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/houshiary-shirazeh",
+    "author" : "spice:agent/houshiary-shirazeh",
+    "schema:dateCreated" : "1987",
+    "schema:url" : "https://imma.ie/collection/study-for-between-earth-and-sky-ii-ref-87-d012/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/study-for-between-earth-and-sky-ii-ref-87-d012",
+    "arco-cd:hasTitle" : "Study for: Between Earth and Sky II (ref. 87 D012)"
+  }, {
+    "@id" : "spice:artefact/study-for-from-great-above-to-great-below-ref-87d014",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/houshiary-shirazeh",
+    "author" : "spice:agent/houshiary-shirazeh",
+    "schema:dateCreated" : "1987",
+    "schema:url" : "https://imma.ie/collection/study-for-from-great-above-to-great-below-ref-87d014/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/study-for-from-great-above-to-great-below-ref-87d014",
+    "arco-cd:hasTitle" : "Study for From Great Above to Great Below (ref. 87D014)"
+  }, {
+    "@id" : "spice:artefact/undoing-of-the-knot",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/houshiary-shirazeh",
+    "author" : "spice:agent/houshiary-shirazeh",
+    "schema:dateCreated" : "1994",
+    "schema:url" : "https://imma.ie/collection/undoing-of-the-knot/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/undoing-of-the-knot",
+    "arco-cd:hasTitle" : "Undoing of the Knot"
+  }, {
+    "@id" : "spice:artefact/untitled-72",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/houshiary-shirazeh",
+    "author" : "spice:agent/houshiary-shirazeh",
+    "schema:dateCreated" : "1987",
+    "schema:url" : "https://imma.ie/collection/untitled-72/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-72",
+    "arco-cd:hasTitle" : "Untitled"
+  }, {
+    "@id" : "spice:artefact/untitled-large-watercolour",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/houshiary-shirazeh",
+    "author" : "spice:agent/houshiary-shirazeh",
+    "schema:dateCreated" : "1990",
+    "schema:url" : "https://imma.ie/collection/untitled-large-watercolour/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-large-watercolour",
+    "arco-cd:hasTitle" : "Untitled, Large Watercolour"
+  }, {
+    "@id" : "spice:artefact/untitled-ref-8903",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/houshiary-shirazeh",
+    "author" : "spice:agent/houshiary-shirazeh",
+    "schema:dateCreated" : "1988",
+    "schema:url" : "https://imma.ie/collection/untitled-ref-8903/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-ref-8903",
+    "arco-cd:hasTitle" : "Untitled (ref. 8903)"
+  }, {
+    "@id" : "spice:artefact/untitled-ref-8904",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/houshiary-shirazeh",
+    "author" : "spice:agent/houshiary-shirazeh",
+    "schema:dateCreated" : "1988",
+    "schema:url" : "https://imma.ie/collection/untitled-ref-8904/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-ref-8904",
+    "arco-cd:hasTitle" : "Untitled (ref. 8904)"
+  }, {
+    "@id" : "spice:attribution/resonance",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/houshiary-shirazeh"
+  }, {
+    "@id" : "spice:attribution/round-dance-5-prints-portfolio",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/houshiary-shirazeh"
+  }, {
+    "@id" : "spice:attribution/study-for-between-earth-and-sky-i",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/houshiary-shirazeh"
+  }, {
+    "@id" : "spice:attribution/study-for-between-earth-and-sky-ii-ref-87-d012",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/houshiary-shirazeh"
+  }, {
+    "@id" : "spice:attribution/study-for-from-great-above-to-great-below-ref-87d014",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/houshiary-shirazeh"
+  }, {
+    "@id" : "spice:attribution/undoing-of-the-knot",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/houshiary-shirazeh"
+  }, {
+    "@id" : "spice:attribution/untitled-72",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/houshiary-shirazeh"
+  }, {
+    "@id" : "spice:attribution/untitled-large-watercolour",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/houshiary-shirazeh"
+  }, {
+    "@id" : "spice:attribution/untitled-ref-8903",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/houshiary-shirazeh"
+  }, {
+    "@id" : "spice:attribution/untitled-ref-8904",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/houshiary-shirazeh"
+  } ],
+  "@context" : {
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

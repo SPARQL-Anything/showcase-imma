@@ -1,0 +1,130 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/rolfe-nigel",
+    "@type" : "foaf:Person",
+    "dc:description" : "Born in the Isle of Wight, Nigel Rolfe lives and works in Ireland. In the late 1970s, he attained a prominent position as a performance artist. Rolfe’s work also encompasses installation, drawing, photography, video and audio media, and examines the influence of history on the individual and society. Rolfe has exhibited extensively, including a retrospective exhibition of his 'Archive' at IMMA in 1994 and retrospective 'Nigel Rolfe Vidéos 1983-1996' at the Musée d'Art Moderne de la Ville de Paris in 1996. His video works have been exhibited in the Kwangju,1997 and Sao Paulo 1998 Biennales. He has taught at the Royal College of Art, London; Chelsea School of Art and Design, London, and the University of Pennsylvania, Philadelphia. He is an elected member of Aosdána.",
+    "dc:source" : "https://imma.ie/artists/nigel-rolfe/",
+    "schema:birthDate" : "b.1950",
+    "schema:url" : "https://imma.ie/artists/nigel-rolfe/",
+    "rdfs:label" : "Nigel Rolfe"
+  }, {
+    "@id" : "spice:artefact/blood-of-the-beast",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/rolfe-nigel",
+    "author" : "spice:agent/rolfe-nigel",
+    "schema:dateCreated" : "1990",
+    "schema:url" : "https://imma.ie/collection/blood-of-the-beast/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/blood-of-the-beast",
+    "arco-cd:hasTitle" : "Blood of the Beast"
+  }, {
+    "@id" : "spice:artefact/dance-slap-for-africa",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/rolfe-nigel",
+    "author" : "spice:agent/rolfe-nigel",
+    "schema:dateCreated" : "1983",
+    "schema:url" : "https://imma.ie/collection/dance-slap-for-africa/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/dance-slap-for-africa",
+    "arco-cd:hasTitle" : "Dance Slap for Africa"
+  }, {
+    "@id" : "spice:artefact/red-sculpture",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/rolfe-nigel",
+    "author" : "spice:agent/rolfe-nigel",
+    "schema:dateCreated" : "1989",
+    "schema:url" : "https://imma.ie/collection/red-sculpture/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/red-sculpture",
+    "arco-cd:hasTitle" : "Red Sculpture"
+  }, {
+    "@id" : "spice:artefact/wings-of-fear",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/rolfe-nigel",
+    "author" : "spice:agent/rolfe-nigel",
+    "schema:dateCreated" : "1986",
+    "schema:url" : "https://imma.ie/collection/wings-of-fear/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/wings-of-fear",
+    "arco-cd:hasTitle" : "Wings of Fear"
+  }, {
+    "@id" : "spice:attribution/blood-of-the-beast",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/rolfe-nigel"
+  }, {
+    "@id" : "spice:attribution/dance-slap-for-africa",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/rolfe-nigel"
+  }, {
+    "@id" : "spice:attribution/red-sculpture",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/rolfe-nigel"
+  }, {
+    "@id" : "spice:attribution/wings-of-fear",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/rolfe-nigel"
+  } ],
+  "@context" : {
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

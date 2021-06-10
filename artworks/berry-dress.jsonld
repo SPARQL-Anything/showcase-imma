@@ -1,0 +1,80 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/berry-dress",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "During the 1990s Maher worked with natural materials such as bees, nettles, berries and hair to create sometimes surreal works that appear like enchanted objects from a medieval folk tale. Maher’s use of natural materials is typified in ‘Berry Dress’. ‘Berry Dress’ presents the delicate shape of the child’s dress, decorated with berries. On closer inspection, the dress loses its innocence, taking on a more sinister appeal. The pins, which hold the berries in place, are arranged internally: should the dress be worn, these pins would pierce the skin.",
+    "dc:source" : "https://imma.ie/collection/berry-dress/",
+    "schema:creditText" : "IMMA Collection: Purchase, assisted by funding from Maire and Maurice Foley, 1995",
+    "image" : "spice:documentation/berry-dress",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Rosehips, cotton, paint, sewing pins",
+    "schema:size" : "25 x 32 x 24 cm",
+    "arco-cd:hasInventory" : "IMMA.468"
+  }, {
+    "@id" : "spice:documentation/berry-dress",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Alice Maher, Berry Dress, 1994, Rosehips, cotton, paint, sewing pins, 25 x 32 x 24 cm, Collection Irish Museum of Modern Art, Purchase, assisted by funding from Maire and Maurice Foley, 1995 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/3.jpg"
+  } ],
+  "@context" : {
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

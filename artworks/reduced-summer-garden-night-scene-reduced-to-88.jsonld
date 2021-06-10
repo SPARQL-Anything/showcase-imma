@@ -1,0 +1,80 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/reduced-summer-garden-night-scene-reduced-to-88",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "Objects by Mark Manders often appear to be made from some other material than what seems to have been used. What look like found objects, may in fact have been handmade. Manders often uses reduction of scale in his works; shrinking them to 88% of the actual or real world proportions.",
+    "dc:source" : "https://imma.ie/collection/reduced-summer-garden-night-scene-reduced-to-88/",
+    "schema:creditText" : "IMMA Collection: Purchase, 2005",
+    "image" : "spice:documentation/reduced-summer-garden-night-scene-reduced-to-88",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Sand, porcelain, wood, iron, cat-skin, rope, glass",
+    "schema:size" : "202 x 470 x 200 cm",
+    "arco-cd:hasInventory" : "IMMA.1907"
+  }, {
+    "@id" : "spice:documentation/reduced-summer-garden-night-scene-reduced-to-88",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Mark Manders, Reduced Summer Garden Night Scene (Reduced to 88%), 2002, Sand, porcelain, wood, iron, cat-skin, rope, glass, 202 x 470 x 200 cm, Collection Irish Museum of Modern Art, Purchase, 2005 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/898.jpg"
+  } ],
+  "@context" : {
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

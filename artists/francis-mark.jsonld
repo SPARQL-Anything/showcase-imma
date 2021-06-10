@@ -1,0 +1,158 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/francis-mark",
+    "@type" : "foaf:Person",
+    "dc:description" : "Born in Northern Ireland, Mark Francis studied painting at St. Martin's School of Art and the Chelsea School of Art. His art practice is poised between abstraction and representation. Francis’s wet-on-wet paintings and prints derive from his interest in biological and cellular forms and refer to man's internal environment or biology. His work has been shown nationally and internationally, including a solo exhibition at Dublin City Gallery The Hugh Lane in 2008. His work is represented in significant public and private collections.",
+    "dc:source" : "https://imma.ie/artists/mark-francis/",
+    "schema:birthDate" : "b.1962",
+    "schema:url" : "https://imma.ie/artists/mark-francis/",
+    "rdfs:label" : "Mark Francis"
+  }, {
+    "@id" : "spice:artefact/implode",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/francis-mark",
+    "author" : "spice:agent/francis-mark",
+    "schema:dateCreated" : "1996",
+    "schema:url" : "https://imma.ie/collection/implode/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/implode",
+    "arco-cd:hasTitle" : "Implode"
+  }, {
+    "@id" : "spice:artefact/nucleus-restriction",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/francis-mark",
+    "author" : "spice:agent/francis-mark",
+    "schema:dateCreated" : "1995",
+    "schema:url" : "https://imma.ie/collection/nucleus-restriction/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/nucleus-restriction",
+    "arco-cd:hasTitle" : "Nucleus (Restriction)"
+  }, {
+    "@id" : "spice:artefact/undulation-indian-yellow",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/francis-mark",
+    "author" : "spice:agent/francis-mark",
+    "schema:dateCreated" : "1996",
+    "schema:url" : "https://imma.ie/collection/undulation-indian-yellow/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/undulation-indian-yellow",
+    "arco-cd:hasTitle" : "Undulation (Indian Yellow)"
+  }, {
+    "@id" : "spice:artefact/untitled-18",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/francis-mark",
+    "author" : "spice:agent/francis-mark",
+    "schema:dateCreated" : "2003",
+    "schema:url" : "https://imma.ie/collection/untitled-18/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-18",
+    "arco-cd:hasTitle" : "Untitled"
+  }, {
+    "@id" : "spice:artefact/untitled-27",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/francis-mark",
+    "author" : "spice:agent/francis-mark",
+    "schema:dateCreated" : "1998",
+    "schema:url" : "https://imma.ie/collection/untitled-27/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-27",
+    "arco-cd:hasTitle" : "Untitled"
+  }, {
+    "@id" : "spice:artefact/untitled-57",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/francis-mark",
+    "author" : "spice:agent/francis-mark",
+    "schema:dateCreated" : "1994",
+    "schema:url" : "https://imma.ie/collection/untitled-57/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-57",
+    "arco-cd:hasTitle" : "Untitled"
+  }, {
+    "@id" : "spice:attribution/implode",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/francis-mark"
+  }, {
+    "@id" : "spice:attribution/nucleus-restriction",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/francis-mark"
+  }, {
+    "@id" : "spice:attribution/undulation-indian-yellow",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/francis-mark"
+  }, {
+    "@id" : "spice:attribution/untitled-18",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/francis-mark"
+  }, {
+    "@id" : "spice:attribution/untitled-27",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/francis-mark"
+  }, {
+    "@id" : "spice:attribution/untitled-57",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/francis-mark"
+  } ],
+  "@context" : {
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

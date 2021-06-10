@@ -1,0 +1,39 @@
+{
+  "@id" : "spice:agent/pechatnikov-maria-natalia",
+  "@type" : "foaf:Person",
+  "dc:description" : [ "Identical twins Maria and Natalia work collaboratively on each project. Using materials such as plastic bags, scotch tape, thread and anything else that may come to hand they create unique sprawling formations full of texture and colour. Having worked on several residency programmes for artists, they believe that these experiences play an important role in the development of their work. Previous works include Plastic Portrait in which plastic bags are cut into small pieces, are then layered one on top of the other and secured with scotch tape. These materials begin to work like brush strokes in a traditional oil painting. Maria and Natalia are interested in the relationships between art and materials, in giving these materials new meaning through highly crafted art pieces.", "Identical twins Maria and Natalia work collaboratively on each project. Using materials such as plastic bags, scotch tape, thread and anything else that may come to hand they create unique sprawling formations full of texture and colour. " ],
+  "dc:source" : "https://imma.ie/artists/maria-and-natalia-pechatnikov/",
+  "schema:url" : "https://imma.ie/artists/maria-and-natalia-pechatnikov/",
+  "rdfs:label" : "Maria &amp; Natalia Pechatnikov",
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

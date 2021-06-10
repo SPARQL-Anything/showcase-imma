@@ -1,0 +1,130 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/irvin-albert",
+    "@type" : "foaf:Person",
+    "dc:description" : "British painter Albert Irvin studied art at Goldsmith’s College, London. He later returned to Goldsmiths in 1962 where he taught art for over twenty years. Irvin is best known for his exuberant paintings, watercolours, screenprints and gouaches. His art tends to focus on capturing and exploring the experience of being in the world. Irvin was elected a member of the Royal Academy in 1998 and appointed Officer of the Order of the British Empire (OBE) in 2013.",
+    "dc:source" : "https://imma.ie/artists/albert-irvin/",
+    "schema:birthDate" : "b.1922",
+    "schema:url" : "https://imma.ie/artists/albert-irvin/",
+    "rdfs:label" : "Albert Irvin"
+  }, {
+    "@id" : "spice:artefact/abstract",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/irvin-albert",
+    "author" : "spice:agent/irvin-albert",
+    "schema:dateCreated" : "1988",
+    "schema:url" : "https://imma.ie/collection/abstract/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/abstract",
+    "arco-cd:hasTitle" : "Abstract"
+  }, {
+    "@id" : "spice:artefact/soho",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/irvin-albert",
+    "author" : "spice:agent/irvin-albert",
+    "schema:dateCreated" : "1994",
+    "schema:url" : "https://imma.ie/collection/soho/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/soho",
+    "arco-cd:hasTitle" : "Soho"
+  }, {
+    "@id" : "spice:artefact/trinity-i",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/irvin-albert",
+    "author" : "spice:agent/irvin-albert",
+    "schema:dateCreated" : "1995",
+    "schema:url" : "https://imma.ie/collection/trinity-i/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/trinity-i",
+    "arco-cd:hasTitle" : "Trinity I"
+  }, {
+    "@id" : "spice:artefact/trinity-ii",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/irvin-albert",
+    "author" : "spice:agent/irvin-albert",
+    "schema:dateCreated" : "1995",
+    "schema:url" : "https://imma.ie/collection/trinity-ii/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/trinity-ii",
+    "arco-cd:hasTitle" : "Trinity II"
+  }, {
+    "@id" : "spice:attribution/abstract",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/irvin-albert"
+  }, {
+    "@id" : "spice:attribution/soho",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/irvin-albert"
+  }, {
+    "@id" : "spice:attribution/trinity-i",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/irvin-albert"
+  }, {
+    "@id" : "spice:attribution/trinity-ii",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/irvin-albert"
+  } ],
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

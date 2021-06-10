@@ -1,0 +1,144 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/crozier-william",
+    "@type" : "foaf:Person",
+    "dc:description" : [ "William Crozier was born in Glasgow where he would later attend the Glasgow School of Art. His paternal family were Irish, from Co. Antrim and as a child he often visited his grandparents at their home in Ballinderry. As a teenager he hitchhiked all around the country and developed a love of Ireland that would remain with him throughout his life. Immediately on leaving art college he travelled to post-war Paris where he absorbed the Existential writings of Sartre and de Beauvoir that became central to his practice as an artist. London was Crozier’s main base where he moved in the same circles in Soho as Lucian Freud and Francis Bacon.", "This Scottish-born, Irish artist (b. Glasgow 1930, d. Cork 2011) is best-known in Ireland for the lyrical landscapes he made close to his home in West Cork from the mid-1980s. Indeed he has created some of the most iconic works of the Irish landscape made in the latter half of the twentieth century. An elected member of Aosdána as well as honorary member of the Royal Hibernian Academy, William Crozier represented both Ireland and the UK internationally in numerous museum collections." ],
+    "dc:source" : "https://imma.ie/artists/william-crozier/",
+    "schema:birthDate" : "1930–2011",
+    "schema:url" : "https://imma.ie/artists/william-crozier/",
+    "rdfs:label" : "William Crozier"
+  }, {
+    "@id" : "spice:artefact/larios",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/crozier-william",
+    "author" : "spice:agent/crozier-william",
+    "schema:dateCreated" : "2010",
+    "schema:url" : "https://imma.ie/collection/larios/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/larios",
+    "arco-cd:hasTitle" : "Larios"
+  }, {
+    "@id" : "spice:artefact/mediterranean-night",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/crozier-william",
+    "author" : "spice:agent/crozier-william",
+    "schema:dateCreated" : "1990",
+    "schema:url" : "https://imma.ie/collection/mediterranean-night/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/mediterranean-night",
+    "arco-cd:hasTitle" : "Mediterranean Night"
+  }, {
+    "@id" : "spice:artefact/north-star-venus",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/crozier-william",
+    "author" : "spice:agent/crozier-william",
+    "schema:dateCreated" : "1997",
+    "schema:url" : "https://imma.ie/collection/north-star-venus/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/north-star-venus",
+    "arco-cd:hasTitle" : "North Star Venus"
+  }, {
+    "@id" : "spice:artefact/spring-cutting",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/crozier-william",
+    "author" : "spice:agent/crozier-william",
+    "schema:dateCreated" : "2009",
+    "schema:url" : "https://imma.ie/collection/spring-cutting/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/spring-cutting",
+    "arco-cd:hasTitle" : "Spring Cutting"
+  }, {
+    "@id" : "spice:artefact/sunset-journey",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/crozier-william",
+    "author" : "spice:agent/crozier-william",
+    "schema:dateCreated" : "1994",
+    "schema:url" : "https://imma.ie/collection/sunset-journey/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/sunset-journey",
+    "arco-cd:hasTitle" : "Sunset Journey"
+  }, {
+    "@id" : "spice:attribution/larios",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/crozier-william"
+  }, {
+    "@id" : "spice:attribution/mediterranean-night",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/crozier-william"
+  }, {
+    "@id" : "spice:attribution/north-star-venus",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/crozier-william"
+  }, {
+    "@id" : "spice:attribution/spring-cutting",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/crozier-william"
+  }, {
+    "@id" : "spice:attribution/sunset-journey",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/crozier-william"
+  } ],
+  "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "@id" : "spice:agent/stasis",
+  "@type" : "foaf:Person",
+  "dc:description" : [ "STASIS is comprised of artists Aniela Piasecka, Paloma Proudfoot, Olivia Norris and Isabel Palmstierna. Over the past five years they have created together a collaboration to explore and present their understandings and experiences of femininity. Their work lies somewhere between the disciplines of dance, performance art, theatre and live art. We are drawn to transforming ‘non-performative’ spaces into temporary stages and to playing with both the low-fi and the maximal to create results that self-consciously titillate, surprise and continuously morph and change. STASIS frequently extend their projects in collaboration with other artists’ practices or in response to exhibitions and events.", "STASIS is comprised of artists Aniela Piasecka, Paloma Proudfoot, Olivia Norris and Isabel Palmstierna. Over the past five years they have created together a collaboration to explore and present their understandings and experiences of femininity. Their work lies somewhere between the disciplines of dance, performance art, theatre and live art. " ],
+  "dc:source" : "https://imma.ie/artists/stasis/",
+  "schema:url" : "https://imma.ie/artists/stasis/",
+  "rdfs:label" : "STASIS",
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

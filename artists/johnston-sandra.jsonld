@@ -1,0 +1,44 @@
+{
+  "@id" : "spice:agent/johnston-sandra",
+  "@type" : "foaf:Person",
+  "dc:description" : [ "Sandra Johnston’s artworks often involve exploring the aftermath of trauma through acts of commemoration that exist as forms of live testimony and empathetic receptiveness. Her performances are experiential in nature, based on improvisational processes that explore physical states of responsiveness, formed in relation to the actualities of specific situations and the moment of making. Actions are assembled using mainly found objects, each offering the Johnston different kinds of tactile stimulation, informing through memory and haptic perception – as opposed to conceptual devising. The performances are intended as propositions, whereby the audience observes the emergence of latent relationships between materials and gestures, offered as ‘provisional behaviors’ and existing unapologetically as irrational, incomplete and mutable encounters.", "Sandra Johnston’s artworks often involve exploring the aftermath of trauma through acts of commemoration that exist as forms of live testimony and empathetic receptiveness. Her performances are experiential in nature, based on improvisational processes that explore physical states of responsiveness, formed in relation to the actualities of specific situations and the moment of making. " ],
+  "dc:source" : "https://imma.ie/artists/sandra-johnston/",
+  "schema:birthDate" : "b.1968",
+  "schema:url" : "https://imma.ie/artists/sandra-johnston/",
+  "rdfs:label" : "Sandra Johnston",
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

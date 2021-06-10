@@ -1,0 +1,144 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/long-richard",
+    "@type" : "foaf:Person",
+    "dc:description" : "British land artist Richard Long studied at St Martin’s School of Art and Design, London, under Anthony Caro and Phillip King. Long has created land art pieces in locations worldwide. He was nominated for the Turner Prize four times and received the award in 1989. He had a major solo exhibition at Tate Britain in 2009.",
+    "dc:source" : "https://imma.ie/artists/richard-long/",
+    "schema:birthDate" : "b.1945",
+    "schema:url" : "https://imma.ie/artists/richard-long/",
+    "rdfs:label" : "Richard Long"
+  }, {
+    "@id" : "spice:artefact/kilkenny-limestone-circle",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/long-richard",
+    "author" : "spice:agent/long-richard",
+    "schema:dateCreated" : "1991",
+    "schema:url" : "https://imma.ie/collection/kilkenny-limestone-circle/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/kilkenny-limestone-circle",
+    "arco-cd:hasTitle" : "Kilkenny Limestone Circle"
+  }, {
+    "@id" : "spice:artefact/rock-drawings",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/long-richard",
+    "author" : "spice:agent/long-richard",
+    "schema:dateCreated" : "1994",
+    "schema:url" : "https://imma.ie/collection/rock-drawings/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/rock-drawings",
+    "arco-cd:hasTitle" : "Rock Drawings"
+  }, {
+    "@id" : "spice:artefact/rock-drawings-12-rock-drawings-and-one-photo-piece-and-certificate-in-portfolio-case-bound-in-black-buckram",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/long-richard",
+    "author" : "spice:agent/long-richard",
+    "schema:dateCreated" : "1994",
+    "schema:url" : "https://imma.ie/collection/rock-drawings-12-rock-drawings-and-one-photo-piece-and-certificate-in-portfolio-case-bound-in-black-buckram/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/rock-drawings-12-rock-drawings-and-one-photo-piece-and-certificate-in-portfolio-case-bound-in-black-buckram",
+    "arco-cd:hasTitle" : "Rock Drawings (12 rock drawings and one photo-piece and certificate in portfolio case bound in black buckram)"
+  }, {
+    "@id" : "spice:artefact/rock-drawings-2",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/long-richard",
+    "author" : "spice:agent/long-richard",
+    "schema:dateCreated" : "1994",
+    "schema:url" : "https://imma.ie/collection/rock-drawings-2/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/rock-drawings-2",
+    "arco-cd:hasTitle" : "Rock Drawings"
+  }, {
+    "@id" : "spice:artefact/rock-drawings-3",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/long-richard",
+    "author" : "spice:agent/long-richard",
+    "schema:dateCreated" : "1994",
+    "schema:url" : "https://imma.ie/collection/rock-drawings-3/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/rock-drawings-3",
+    "arco-cd:hasTitle" : "Rock Drawings"
+  }, {
+    "@id" : "spice:attribution/kilkenny-limestone-circle",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/long-richard"
+  }, {
+    "@id" : "spice:attribution/rock-drawings",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/long-richard"
+  }, {
+    "@id" : "spice:attribution/rock-drawings-12-rock-drawings-and-one-photo-piece-and-certificate-in-portfolio-case-bound-in-black-buckram",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/long-richard"
+  }, {
+    "@id" : "spice:attribution/rock-drawings-2",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/long-richard"
+  }, {
+    "@id" : "spice:attribution/rock-drawings-3",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/long-richard"
+  } ],
+  "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

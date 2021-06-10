@@ -1,0 +1,102 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/wylie-donovan",
+    "@type" : "foaf:Person",
+    "dc:description" : "Northern Irish photographer Donovan Wylie (born 1971) began taking photographs in his teens. From an early trip around Ireland which resulted in his first book ‘32 Counties’ Wylie’s photographic output has explored themes of history, identity and the architecture of conflict in locations including Northern Ireland, Spain, Russia, China, Russia, Slovakia, Israel, and Yugoslavia. Wylie became a member of Magnum Photos agency in 1998. His work has been exhibited at venues including IMMA; the Victoria and Albert Museum, London, and the Centre Georges Pompidou, Paris.",
+    "dc:source" : "https://imma.ie/artists/donovan-wylie/",
+    "schema:birthDate" : "b.1971",
+    "schema:url" : "https://imma.ie/artists/donovan-wylie/",
+    "rdfs:label" : "Donovan Wylie"
+  }, {
+    "@id" : "spice:artefact/dont-be-cruel-athlone-county-westmeath",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/wylie-donovan",
+    "author" : "spice:agent/wylie-donovan",
+    "schema:dateCreated" : "1988",
+    "schema:url" : "https://imma.ie/collection/dont-be-cruel-athlone-county-westmeath/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/dont-be-cruel-athlone-county-westmeath",
+    "arco-cd:hasTitle" : "‘Don’t Be Cruel’, Athlone, County Westmeath"
+  }, {
+    "@id" : "spice:artefact/young-unemployed-man-in-kitchen-athlone-county-westmeath",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/wylie-donovan",
+    "author" : "spice:agent/wylie-donovan",
+    "schema:dateCreated" : "1988",
+    "schema:url" : "https://imma.ie/collection/young-unemployed-man-in-kitchen-athlone-county-westmeath/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/young-unemployed-man-in-kitchen-athlone-county-westmeath",
+    "arco-cd:hasTitle" : "Young Unemployed Man in Kitchen, Athlone, County Westmeath"
+  }, {
+    "@id" : "spice:attribution/dont-be-cruel-athlone-county-westmeath",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/wylie-donovan"
+  }, {
+    "@id" : "spice:attribution/young-unemployed-man-in-kitchen-athlone-county-westmeath",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/wylie-donovan"
+  } ],
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/hottyhammyum",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "Richard Gorman’s paintings tend to be large in scale and generally abstract. While the broad strokes of the brush and generous no-holds-barred attitude to the application of paint look deceptively frenzied in ‘Hottyhammyum’, in reality Gorman tends to work on paintings in rotation, leaving them aside for periods of reflection and then coming back to them. This painting is one of a number of Gorman’s works with a title taken from ‘Finnegan’s Wake’ by James Joyce. Gorman has stated that the titles have no meaning and chosen only because he liked them. Despite this the denseness of the novel is suitably evoked by the superficial randomness of the painting. More recent work by Gorman in the IMMA Collection eschews the gestural expressiveness of this painting in favour of quieter, more minimal strokes.",
+    "dc:source" : "https://imma.ie/collection/hottyhammyum/",
+    "schema:creditText" : "IMMA Collection: Purchase, assisted by funding from Maire and Maurice Foley, 1993",
+    "image" : "spice:documentation/hottyhammyum",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Oil on wood",
+    "schema:size" : "300 x 370 cm",
+    "arco-cd:hasInventory" : "IMMA.442"
+  }, {
+    "@id" : "spice:documentation/hottyhammyum",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Richard Gorman, Hottyhammyum, 1989, Oil on wood, 300 x 370 cm, Collection Irish Museum of Modern Art, Purchase, assisted by funding from Maire and Maurice Foley, 1993 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/255.jpg"
+  } ],
+  "@context" : {
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "@id" : "spice:agent/brett-marie",
+  "@type" : "foaf:Person",
+  "dc:description" : [ "Marie Brett produces artwork in response to culturally shunned human behaviours with particular interests in lived experience of loss and trauma. She makes filmic, audio-sculptural, and event based works, for gallery and flux-off-site locations. Her practice develops through socially engaged methods, particularly exploring an ethic and aesthetic relation to the politics of cultural production.", "Marie Brett produces artwork in response to culturally shunned human behaviours with particular interests in lived experience of loss and trauma. She makes filmic, audio-sculptural, and event based works, for gallery and flux-off-site locations." ],
+  "dc:source" : "https://imma.ie/artists/marie-brett/",
+  "schema:url" : "https://imma.ie/artists/marie-brett/",
+  "rdfs:label" : "Marie Brett",
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

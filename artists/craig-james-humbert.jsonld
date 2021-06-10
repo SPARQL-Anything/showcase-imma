@@ -1,0 +1,44 @@
+{
+  "@id" : "spice:agent/craig-james-humbert",
+  "@type" : "foaf:Person",
+  "dc:description" : "Northern Irish artist James Humbert Craig briefly attended Belfast College of Art and was largely self-taught as a painter. His impressionistic scenes of Donegal, Connemara and Antrim brought him early recognition. Craig exhibited regularly at the RHA and the RUA and was elected a member of both organisations in 1928. His work is represented in public collections including the National Gallery of Ireland; Dublin City Gallery The Hugh Lane and Crawford Art Gallery, Cork.",
+  "dc:source" : "https://imma.ie/artists/james-humbert-craig/",
+  "schema:birthDate" : "1878–1944",
+  "schema:url" : "https://imma.ie/artists/james-humbert-craig/",
+  "rdfs:label" : "James Humbert Craig",
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

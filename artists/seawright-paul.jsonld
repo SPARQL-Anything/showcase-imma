@@ -1,0 +1,130 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/seawright-paul",
+    "@type" : "foaf:Person",
+    "dc:description" : "Northern Irish artist Paul Seawright (born 1965) studied at the University of Ulster and Surrey College of Art and Design. In his photographic work Seawright portrays societies experiencing political conflict. From Afghanistan to his native Belfast, the thoughtful and disquieting images which he produces probe beyond stereotypical depictions of war. Seawright was awarded the IMMA/Glen Dimplex Artists Award in 1997. His work has been exhibited widely throughout Europe and the US, including a solo exhibition of large scale photographs of Afghanistan, commissioned by the Imperial War Museum, at IMMA in 2003.",
+    "dc:source" : "https://imma.ie/artists/paul-seawright/",
+    "schema:birthDate" : "b.1965",
+    "schema:url" : "https://imma.ie/artists/paul-seawright/",
+    "rdfs:label" : "Paul Seawright"
+  }, {
+    "@id" : "spice:artefact/cage-i",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/seawright-paul",
+    "author" : "spice:agent/seawright-paul",
+    "schema:dateCreated" : "1997",
+    "schema:url" : "https://imma.ie/collection/cage-i/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/cage-i",
+    "arco-cd:hasTitle" : "Cage I"
+  }, {
+    "@id" : "spice:artefact/cage-ii",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/seawright-paul",
+    "author" : "spice:agent/seawright-paul",
+    "schema:dateCreated" : "1997",
+    "schema:url" : "https://imma.ie/collection/cage-ii/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/cage-ii",
+    "arco-cd:hasTitle" : "Cage II"
+  }, {
+    "@id" : "spice:artefact/gate",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/seawright-paul",
+    "author" : "spice:agent/seawright-paul",
+    "schema:dateCreated" : "1997",
+    "schema:url" : "https://imma.ie/collection/gate/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/gate",
+    "arco-cd:hasTitle" : "Gate"
+  }, {
+    "@id" : "spice:artefact/untitled-blue-tiles",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/seawright-paul",
+    "author" : "spice:agent/seawright-paul",
+    "schema:dateCreated" : "1999",
+    "schema:url" : "https://imma.ie/collection/untitled-blue-tiles/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-blue-tiles",
+    "arco-cd:hasTitle" : "Untitled (Blue Tiles)"
+  }, {
+    "@id" : "spice:attribution/cage-i",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/seawright-paul"
+  }, {
+    "@id" : "spice:attribution/cage-ii",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/seawright-paul"
+  }, {
+    "@id" : "spice:attribution/gate",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/seawright-paul"
+  }, {
+    "@id" : "spice:attribution/untitled-blue-tiles",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/seawright-paul"
+  } ],
+  "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

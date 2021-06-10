@@ -1,0 +1,70 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/waves-pourrais-je-emporter-dans-lautre-monde-ce-que-jai-oublie-de-rever",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "A number of Marie-Jo Lafontaine’s monumental film installations deal with passion and violence. In ‘Waves…’, shot on the west coast of Ireland, Lafontaine shows the theatre of fury, power and passion in the natural world. The viewer is drawn into the work through Lafontaine’s use of sound, alternating between dramatic pieces of music that the artist distorts post-production, and mysterious otherworldly voices. The crescendos of the powerful and dramatic piece echo the tumultuous movements of the breaking waves, leaving the viewer with a sense of the incommensurable mystery and power of the ocean.",
+    "dc:source" : "https://imma.ie/collection/waves-pourrais-je-emporter-dans-lautre-monde-ce-que-jai-oublie-de-rever/",
+    "schema:creditText" : "IMMA Collection: Purchase, 1999",
+    "image" : "spice:documentation/waves-pourrais-je-emporter-dans-lautre-monde-ce-que-jai-oublie-de-rever",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Video",
+    "arco-cd:hasInventory" : "IMMA.848"
+  }, {
+    "@id" : "spice:documentation/waves-pourrais-je-emporter-dans-lautre-monde-ce-que-jai-oublie-de-rever",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Marie-Jo Lafontaine, Waves, “pourrais-je emporter dans l’autre monde ce que j’ai oublié de rêver?”, 1998, Video, Dimensions variable, Collection Irish Museum of Modern Art, Purchase, 1999 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma"
+  } ],
+  "@context" : {
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

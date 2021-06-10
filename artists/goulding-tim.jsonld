@@ -1,0 +1,144 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/goulding-tim",
+    "@type" : "foaf:Person",
+    "dc:description" : "Irish artist Tim Goulding studied Textile Design at Konstfackskolan, Stockholm, before becoming a painter. Located in West Cork since 1969, Goulding’s semi abstract compositions are triggered by an emotional response to the land and environment. Goulding represented Ireland at the Paris Biennale in 1971 and at Cagnes-sûr-Mer in 1977. He has exhibited nationally and internationally. His paintings are held in public collections, including the Arts Council of Ireland; Dublin City Gallery The Hugh Lane; Trinity College Dublin and the National Self-Portrait Collection, Limerick.",
+    "dc:source" : "https://imma.ie/artists/tim-goulding/",
+    "schema:birthDate" : "b.1945",
+    "schema:url" : "https://imma.ie/artists/tim-goulding/",
+    "rdfs:label" : "Tim Goulding"
+  }, {
+    "@id" : "spice:artefact/city-walls-ii",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/goulding-tim",
+    "author" : "spice:agent/goulding-tim",
+    "schema:dateCreated" : "2006",
+    "schema:url" : "https://imma.ie/collection/city-walls-ii/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/city-walls-ii",
+    "arco-cd:hasTitle" : "City Walls II"
+  }, {
+    "@id" : "spice:artefact/floating-world",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/goulding-tim",
+    "author" : "spice:agent/goulding-tim",
+    "schema:dateCreated" : "2008",
+    "schema:url" : "https://imma.ie/collection/floating-world/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/floating-world",
+    "arco-cd:hasTitle" : "Floating World"
+  }, {
+    "@id" : "spice:artefact/satsang",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/goulding-tim",
+    "author" : "spice:agent/goulding-tim",
+    "schema:dateCreated" : "1974",
+    "schema:url" : "https://imma.ie/collection/satsang/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/satsang",
+    "arco-cd:hasTitle" : "Satsang"
+  }, {
+    "@id" : "spice:artefact/untitled-119",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/goulding-tim",
+    "author" : "spice:agent/goulding-tim",
+    "schema:dateCreated" : "1964",
+    "schema:url" : "https://imma.ie/collection/untitled-119/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-119",
+    "arco-cd:hasTitle" : "Untitled"
+  }, {
+    "@id" : "spice:artefact/white-roses",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/goulding-tim",
+    "author" : "spice:agent/goulding-tim",
+    "schema:dateCreated" : "1977",
+    "schema:url" : "https://imma.ie/collection/white-roses/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/white-roses",
+    "arco-cd:hasTitle" : "White Roses"
+  }, {
+    "@id" : "spice:attribution/city-walls-ii",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/goulding-tim"
+  }, {
+    "@id" : "spice:attribution/floating-world",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/goulding-tim"
+  }, {
+    "@id" : "spice:attribution/satsang",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/goulding-tim"
+  }, {
+    "@id" : "spice:attribution/untitled-119",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/goulding-tim"
+  }, {
+    "@id" : "spice:attribution/white-roses",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/goulding-tim"
+  } ],
+  "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

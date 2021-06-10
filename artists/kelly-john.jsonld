@@ -1,0 +1,116 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/kelly-john",
+    "@type" : "foaf:Person",
+    "dc:description" : "Irish painter and printmaker John Kelly studied at the National College of Art and Design, Dublin. Kelly represented Ireland at Cagnes-sur-Mer in 1977, where he won first prize. He went on to win the Oireachtas Waterford Glass Award in 1975, the Irish Exhibition of Living Art Carroll's Award in 1980, and the Oireachtas Douglas Hyde Gold Medal in 1992. Kelly served as director of the Graphic Studio in Dublin for over 10 years. He was also a founding member of the Black Church Print Studio. He lectured in Printmaking at the National College of Art and Design and was a Member of the Royal Hibernian Academy. Kelly was elected as a member of Aosdána in 1996.",
+    "dc:source" : "https://imma.ie/artists/john-kelly/",
+    "schema:birthDate" : "1932–2006",
+    "schema:url" : "https://imma.ie/artists/john-kelly/",
+    "rdfs:label" : "John Kelly"
+  }, {
+    "@id" : "spice:artefact/deposition",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/kelly-john",
+    "author" : "spice:agent/kelly-john",
+    "schema:dateCreated" : "1954",
+    "schema:url" : "https://imma.ie/collection/deposition/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/deposition",
+    "arco-cd:hasTitle" : "Deposition"
+  }, {
+    "@id" : "spice:artefact/letter-from-napoleon",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/kelly-john",
+    "author" : "spice:agent/kelly-john",
+    "schema:dateCreated" : "1978",
+    "schema:url" : "https://imma.ie/collection/letter-from-napoleon/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/letter-from-napoleon",
+    "arco-cd:hasTitle" : "Letter from Napoleon"
+  }, {
+    "@id" : "spice:artefact/nude-before-mirror",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/kelly-john",
+    "author" : "spice:agent/kelly-john",
+    "schema:dateCreated" : "1973",
+    "schema:url" : "https://imma.ie/collection/nude-before-mirror/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/nude-before-mirror",
+    "arco-cd:hasTitle" : "Nude Before Mirror"
+  }, {
+    "@id" : "spice:attribution/deposition",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/kelly-john"
+  }, {
+    "@id" : "spice:attribution/letter-from-napoleon",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/kelly-john"
+  }, {
+    "@id" : "spice:attribution/nude-before-mirror",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/kelly-john"
+  } ],
+  "@context" : {
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

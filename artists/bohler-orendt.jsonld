@@ -1,0 +1,39 @@
+{
+  "@id" : "spice:agent/bohler-orendt",
+  "@type" : "foaf:Person",
+  "dc:description" : [ "When Matthias Böhler and Christian Orendt began their collaboration in 2007, they realized that they share a fascination for all kinds of attempts to bend reality into a shape that corresponds with the idea of perfection prevailing at a certain time or among a certain social group. For instance, in times like the 17th century, with its preference for distinct orders and geometry, cutting trees into cubic shapes seemed like just the right thing to do, whereas in the 19th century, an upcoming passion for “chaos” and “earthiness” resulted in the planting of extensive pseudo-natural landscape garden areas. In this tradition, nowadays, concepts like “growth”, “efficiency”, “flexibility”, “innovation” and “creativity” provide, among others, the mainstream conceptual arsenal for mankind’s most recent endeavors to redesign the world. In their artistic research, the duo aims to detect this kind of concept-ridden thinking in historical and contemporary paradigmatic cases of “reality improvement”. In their works, which are mostly installative and sculptural, lately also increasingly performance- and interaction-based, they use the pieces of ideology they uncovered in their research as “crystallization seeds” for three-dimensional metaphors which, as a result, prevalently circle around themes like delusion, eagerness and failure.", "When Matthias Böhler and Christian Orendt began their collaboration in 2007, they realized that they share a fascination for all kinds of attempts to bend reality into a shape that corresponds with the idea of perfection prevailing at a certain time or among a certain social group. " ],
+  "dc:source" : "https://imma.ie/artists/bohler-orendt/",
+  "schema:url" : "https://imma.ie/artists/bohler-orendt/",
+  "rdfs:label" : "Böhler &amp; Orendt",
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

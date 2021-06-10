@@ -1,0 +1,242 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/vasarely-victor",
+    "@type" : "foaf:Person",
+    "dc:description" : "Hungarian artist Victor Vasarely studied medicine at the University of Budapest and art at the Podolini-Volkmann Academy and the Bauhaus Muhely, Budapest. He moved to Paris in 1930. Committed to the purity of visual sensation and the accessibility of the art object, Vasarely employed syncopated rhythms and geometric pattern to create his optical paintings. A founding figure within the Op art movement, he was also innovative in advocating the use of computer technology in art making. Vasarely’s work has been exhibited worldwide. The Vasarely Museum Budapest was established by the artist in 1987.",
+    "dc:source" : "https://imma.ie/artists/victor-vasarely/",
+    "schema:birthDate" : "1906–1997",
+    "schema:url" : "https://imma.ie/artists/victor-vasarely/",
+    "rdfs:label" : "Victor Vasarely"
+  }, {
+    "@id" : "spice:artefact/composition",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/vasarely-victor",
+    "author" : "spice:agent/vasarely-victor",
+    "schema:dateCreated" : "1969",
+    "schema:url" : "https://imma.ie/collection/composition/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/composition",
+    "arco-cd:hasTitle" : "Composition"
+  }, {
+    "@id" : "spice:artefact/lant",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/vasarely-victor",
+    "author" : "spice:agent/vasarely-victor",
+    "schema:dateCreated" : "1968",
+    "schema:url" : "https://imma.ie/collection/lant/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/lant",
+    "arco-cd:hasTitle" : "Lant"
+  }, {
+    "@id" : "spice:artefact/permutation-series-1-8",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/vasarely-victor",
+    "author" : "spice:agent/vasarely-victor",
+    "schema:dateCreated" : "1968",
+    "schema:url" : "https://imma.ie/collection/permutation-series-1-8/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/permutation-series-1-8",
+    "arco-cd:hasTitle" : "Permutation Series (1/8)"
+  }, {
+    "@id" : "spice:artefact/permutation-series-2-8",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/vasarely-victor",
+    "author" : "spice:agent/vasarely-victor",
+    "schema:dateCreated" : "1968",
+    "schema:url" : "https://imma.ie/collection/permutation-series-2-8/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/permutation-series-2-8",
+    "arco-cd:hasTitle" : "Permutation Series (2/8)"
+  }, {
+    "@id" : "spice:artefact/permutation-series-3-8",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/vasarely-victor",
+    "author" : "spice:agent/vasarely-victor",
+    "schema:dateCreated" : "1968",
+    "schema:url" : "https://imma.ie/collection/permutation-series-3-8/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/permutation-series-3-8",
+    "arco-cd:hasTitle" : "Permutation Series (3/8)"
+  }, {
+    "@id" : "spice:artefact/permutation-series-4-8",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/vasarely-victor",
+    "author" : "spice:agent/vasarely-victor",
+    "schema:dateCreated" : "1968",
+    "schema:url" : "https://imma.ie/collection/permutation-series-4-8/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/permutation-series-4-8",
+    "arco-cd:hasTitle" : "Permutation Series (4/8)"
+  }, {
+    "@id" : "spice:artefact/permutation-series-5-8",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/vasarely-victor",
+    "author" : "spice:agent/vasarely-victor",
+    "schema:dateCreated" : "1968",
+    "schema:url" : "https://imma.ie/collection/permutation-series-5-8/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/permutation-series-5-8",
+    "arco-cd:hasTitle" : "Permutation Series (5/8)"
+  }, {
+    "@id" : "spice:artefact/permutation-series-6-8",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/vasarely-victor",
+    "author" : "spice:agent/vasarely-victor",
+    "schema:dateCreated" : "1968",
+    "schema:url" : "https://imma.ie/collection/permutation-series-6-8/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/permutation-series-6-8",
+    "arco-cd:hasTitle" : "Permutation Series (6/8)"
+  }, {
+    "@id" : "spice:artefact/permutation-series-7-8",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/vasarely-victor",
+    "author" : "spice:agent/vasarely-victor",
+    "schema:dateCreated" : "1968",
+    "schema:url" : "https://imma.ie/collection/permutation-series-7-8/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/permutation-series-7-8",
+    "arco-cd:hasTitle" : "Permutation Series (7/8)"
+  }, {
+    "@id" : "spice:artefact/permutation-series-8-8",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/vasarely-victor",
+    "author" : "spice:agent/vasarely-victor",
+    "schema:dateCreated" : "1968",
+    "schema:url" : "https://imma.ie/collection/permutation-series-8-8/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/permutation-series-8-8",
+    "arco-cd:hasTitle" : "Permutation Series (8/8)"
+  }, {
+    "@id" : "spice:artefact/untitled-106",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/vasarely-victor",
+    "author" : "spice:agent/vasarely-victor",
+    "schema:dateCreated" : "1974",
+    "schema:url" : "https://imma.ie/collection/untitled-106/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-106",
+    "arco-cd:hasTitle" : "Untitled"
+  }, {
+    "@id" : "spice:artefact/untitled-117",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/vasarely-victor",
+    "author" : "spice:agent/vasarely-victor",
+    "schema:dateCreated" : "1966",
+    "schema:url" : "https://imma.ie/collection/untitled-117/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-117",
+    "arco-cd:hasTitle" : "Untitled"
+  }, {
+    "@id" : "spice:attribution/composition",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/vasarely-victor"
+  }, {
+    "@id" : "spice:attribution/lant",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/vasarely-victor"
+  }, {
+    "@id" : "spice:attribution/permutation-series-1-8",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/vasarely-victor"
+  }, {
+    "@id" : "spice:attribution/permutation-series-2-8",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/vasarely-victor"
+  }, {
+    "@id" : "spice:attribution/permutation-series-3-8",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/vasarely-victor"
+  }, {
+    "@id" : "spice:attribution/permutation-series-4-8",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/vasarely-victor"
+  }, {
+    "@id" : "spice:attribution/permutation-series-5-8",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/vasarely-victor"
+  }, {
+    "@id" : "spice:attribution/permutation-series-6-8",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/vasarely-victor"
+  }, {
+    "@id" : "spice:attribution/permutation-series-7-8",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/vasarely-victor"
+  }, {
+    "@id" : "spice:attribution/permutation-series-8-8",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/vasarely-victor"
+  }, {
+    "@id" : "spice:attribution/untitled-106",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/vasarely-victor"
+  }, {
+    "@id" : "spice:attribution/untitled-117",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/vasarely-victor"
+  } ],
+  "@context" : {
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/parreno-philippe",
+    "@type" : "foaf:Person",
+    "dc:description" : [ "Algerian/French artist Philippe Parreno (born 1964) works in installation, performance, photography, drawing, sculpture and film. Central to Parreno’s practice is his quest for an ultimate form of communication capable of transcending language. Previous meditations on the nature of reality include ‘Zidane: A 21st Century Portrait’ (2006) a full-length feature film the artist co-directed with Douglas Gordon. Parreno co-curated the exhibition ‘all hawaii eNtrées / luNar reGGae’ at IMMA in 2006, followed by a solo exhibition in 2009.", "Algerian/French artist Philippe Parreno (born 1964) works in installation, performance, photography, drawing, sculpture and film. Central to Parreno’s practice is his quest for an ultimate form of communication capable of transcending language." ],
+    "dc:source" : "https://imma.ie/artists/philippe-parreno/",
+    "schema:birthDate" : "b.1964",
+    "schema:url" : "https://imma.ie/artists/philippe-parreno/",
+    "rdfs:label" : "Philippe Parreno"
+  }, {
+    "@id" : "spice:artefact/all-hawaii-entrees-lunar-reggae",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/parreno-philippe",
+    "author" : "spice:agent/parreno-philippe",
+    "schema:dateCreated" : "2006",
+    "schema:url" : "https://imma.ie/collection/all-hawaii-entrees-lunar-reggae/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/all-hawaii-entrees-lunar-reggae",
+    "arco-cd:hasTitle" : "All Hawaii Entrees / Lunar Reggae"
+  }, {
+    "@id" : "spice:artefact/nail-sewer-legs",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/parreno-philippe",
+    "author" : "spice:agent/parreno-philippe",
+    "schema:dateCreated" : "2006",
+    "schema:url" : "https://imma.ie/collection/nail-sewer-legs/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/nail-sewer-legs",
+    "arco-cd:hasTitle" : "Nail Sewer Legs"
+  }, {
+    "@id" : "spice:attribution/all-hawaii-entrees-lunar-reggae",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/parreno-philippe"
+  }, {
+    "@id" : "spice:attribution/nail-sewer-legs",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/parreno-philippe"
+  } ],
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

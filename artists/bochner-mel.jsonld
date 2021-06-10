@@ -1,0 +1,88 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/bochner-mel",
+    "@type" : "foaf:Person",
+    "dc:description" : "Pittsburgh born Mel Bochner is a conceptual artist. In the 1960s he disassociated himself from the art ‘object’, moving towards the idea of art as procedure, and in 1966 curated an exhibition entitled ‘Working Drawings and Other Visible Things on Paper Not Necessarily Meant To Be Viewed as Art’ regarded as a seminal show in the conceptual art movement. He is best known for installations and paintings that deal with the concept of measurement and has also made several films. Yale University held a retrospective of his work in 1995, as did The National Gallery of Art, Washington, in 2011.",
+    "dc:source" : "https://imma.ie/artists/mel-bochner/",
+    "schema:birthDate" : "b.1940",
+    "schema:url" : "https://imma.ie/artists/mel-bochner/",
+    "rdfs:label" : "Mel Bochner"
+  }, {
+    "@id" : "spice:artefact/seven-transparent-tiers-n-2-center-set-a-mb67",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/bochner-mel",
+    "author" : "spice:agent/bochner-mel",
+    "schema:dateCreated" : "1967",
+    "schema:url" : "https://imma.ie/collection/seven-transparent-tiers-n-2-center-set-a-mb67/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/seven-transparent-tiers-n-2-center-set-a-mb67",
+    "arco-cd:hasTitle" : "Seven Transparent Tiers ([N + 2] Center Set A) MB67"
+  }, {
+    "@id" : "spice:attribution/seven-transparent-tiers-n-2-center-set-a-mb67",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/bochner-mel"
+  } ],
+  "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/hope-painting-going-through-the-looking-glass-2005",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "In the paintings of William McKeown we find ourselves in an expanded luminous space. Though his refined delicate canvases washed with subtle layers of colour might be understood within the traditions of minimalist and sublime abstraction, this sense does not reflect the mood of the paintings or the concerns of the artist. The spaces McKeown paints are emotionally charged, connected to a specific moment of his own experience. Notations of time and place are hinted at by the subtitles of his “Hope” series of paintings: ‘The light over Jura’; ‘The Sky inside’; ‘In the Park’, ‘Alone but not Lonely’; ‘Waiting for You’. Nevertheless such personal references are secondary to the evocation of feelings, ideas and emotions they strive to communicate, gesturing towards the open space of eternity or nothing that waits behind the temporal and the tangible. In a painting such as ‘Hope Painting (Through the Looking Glass)’, 2005, we are reminded of the parallel world Alice steps into. It is a space in which memory could work into the future as well as the past.",
+    "dc:source" : "https://imma.ie/collection/hope-painting-going-through-the-looking-glass-2005/",
+    "schema:creditText" : "IMMA Collection: Purchase, 2006",
+    "image" : "spice:documentation/hope-painting-going-through-the-looking-glass-2005",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Oil on canvas",
+    "schema:size" : "186 x 168 cm",
+    "arco-cd:hasInventory" : "IMMA.1955"
+  }, {
+    "@id" : "spice:documentation/hope-painting-going-through-the-looking-glass-2005",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "William McKeown, Hope Painting (Going Through the Looking Glass), 2005, 2005, Oil on canvas, 186 x 168 cm, Collection Irish Museum of Modern Art, Purchase, 2006 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/321.jpg"
+  } ],
+  "@context" : {
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

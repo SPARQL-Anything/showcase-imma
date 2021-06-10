@@ -1,0 +1,158 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/manders-mark",
+    "@type" : "foaf:Person",
+    "dc:description" : "Dutch artist Mark Manders works in installation, sculpture, drawing, film and publishing. He began his career as an artist in 1986 and has exhibited extensively since then, including a solo exhibition in IMMA in 2005. He has also participated in many group exhibitions, including the 1992, 2001 and 2013 Venice Biennale. Manders co-founded Roma Publications, an independent art publisher in 1998. His work is included in public collections across Europe and the US.",
+    "dc:source" : "https://imma.ie/artists/mark-manders/",
+    "schema:birthDate" : "b.1968",
+    "schema:url" : "https://imma.ie/artists/mark-manders/",
+    "rdfs:label" : "Mark Manders"
+  }, {
+    "@id" : "spice:artefact/drawing-with-vanishing-point",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/manders-mark",
+    "author" : "spice:agent/manders-mark",
+    "schema:dateCreated" : "2005",
+    "schema:url" : "https://imma.ie/collection/drawing-with-vanishing-point/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/drawing-with-vanishing-point",
+    "arco-cd:hasTitle" : "Drawing with Vanishing Point"
+  }, {
+    "@id" : "spice:artefact/drawing-with-vanishing-point-2",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/manders-mark",
+    "author" : "spice:agent/manders-mark",
+    "schema:dateCreated" : "2005",
+    "schema:url" : "https://imma.ie/collection/drawing-with-vanishing-point-2/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/drawing-with-vanishing-point-2",
+    "arco-cd:hasTitle" : "Drawing with Vanishing Point"
+  }, {
+    "@id" : "spice:artefact/drawing-with-vanishing-point-3",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/manders-mark",
+    "author" : "spice:agent/manders-mark",
+    "schema:dateCreated" : "2005",
+    "schema:url" : "https://imma.ie/collection/drawing-with-vanishing-point-3/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/drawing-with-vanishing-point-3",
+    "arco-cd:hasTitle" : "Drawing with Vanishing Point"
+  }, {
+    "@id" : "spice:artefact/drawing-with-vanishing-point-4",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/manders-mark",
+    "author" : "spice:agent/manders-mark",
+    "schema:dateCreated" : "2005",
+    "schema:url" : "https://imma.ie/collection/drawing-with-vanishing-point-4/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/drawing-with-vanishing-point-4",
+    "arco-cd:hasTitle" : "Drawing with Vanishing Point"
+  }, {
+    "@id" : "spice:artefact/figure-with-iron-ruler",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/manders-mark",
+    "author" : "spice:agent/manders-mark",
+    "schema:dateCreated" : "2004",
+    "schema:url" : "https://imma.ie/collection/figure-with-iron-ruler/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/figure-with-iron-ruler",
+    "arco-cd:hasTitle" : "Figure With Iron Ruler"
+  }, {
+    "@id" : "spice:artefact/reduced-summer-garden-night-scene-reduced-to-88",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/manders-mark",
+    "author" : "spice:agent/manders-mark",
+    "schema:dateCreated" : "2002",
+    "schema:url" : "https://imma.ie/collection/reduced-summer-garden-night-scene-reduced-to-88/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/reduced-summer-garden-night-scene-reduced-to-88",
+    "arco-cd:hasTitle" : "Reduced Summer Garden Night Scene (Reduced to 88%)"
+  }, {
+    "@id" : "spice:attribution/drawing-with-vanishing-point",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/manders-mark"
+  }, {
+    "@id" : "spice:attribution/drawing-with-vanishing-point-2",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/manders-mark"
+  }, {
+    "@id" : "spice:attribution/drawing-with-vanishing-point-3",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/manders-mark"
+  }, {
+    "@id" : "spice:attribution/drawing-with-vanishing-point-4",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/manders-mark"
+  }, {
+    "@id" : "spice:attribution/figure-with-iron-ruler",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/manders-mark"
+  }, {
+    "@id" : "spice:attribution/reduced-summer-garden-night-scene-reduced-to-88",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/manders-mark"
+  } ],
+  "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

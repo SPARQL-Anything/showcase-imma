@@ -1,0 +1,144 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/mcmahon-bea",
+    "@type" : "foaf:Person",
+    "dc:description" : "Irish artist Bea McMahon studied mathematics at Trinity College Dublin, mathematical physics at University College Dublin and visual arts practice in Dun Laoghaire College of Art, Design and Technology. Incorporating drawing, painting and installation, McMahon’s visual art practice considers ideas ranging from mathematical theory and physical phenomena to Greek myth, and boundaries such as skin and water. McMahon has exhibited extensively since 2000. She received the Curated Visual Artist Award in 2007. Her work is included in the collections of the Arts Council of Ireland and the Office of Public Works.",
+    "dc:source" : "https://imma.ie/artists/bea-mcmahon/",
+    "schema:birthDate" : "b.1972",
+    "schema:url" : "https://imma.ie/artists/bea-mcmahon/",
+    "rdfs:label" : "Bea McMahon"
+  }, {
+    "@id" : "spice:artefact/a-21st-century-arrangement-of-mount-purgatory",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/mcmahon-bea",
+    "author" : "spice:agent/mcmahon-bea",
+    "schema:dateCreated" : "2008",
+    "schema:url" : "https://imma.ie/collection/a-21st-century-arrangement-of-mount-purgatory/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/a-21st-century-arrangement-of-mount-purgatory",
+    "arco-cd:hasTitle" : "A 21st Century Arrangement of Mount Purgatory"
+  }, {
+    "@id" : "spice:artefact/a-safe-place-to-keep-my-money",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/mcmahon-bea",
+    "author" : "spice:agent/mcmahon-bea",
+    "schema:dateCreated" : "2008",
+    "schema:url" : "https://imma.ie/collection/a-safe-place-to-keep-my-money/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/a-safe-place-to-keep-my-money",
+    "arco-cd:hasTitle" : "A Safe Place to Keep my Money"
+  }, {
+    "@id" : "spice:artefact/exit",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/mcmahon-bea",
+    "author" : "spice:agent/mcmahon-bea",
+    "schema:dateCreated" : "2008",
+    "schema:url" : "https://imma.ie/collection/exit/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/exit",
+    "arco-cd:hasTitle" : "Exit"
+  }, {
+    "@id" : "spice:artefact/light-cones-past-light",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/mcmahon-bea",
+    "author" : "spice:agent/mcmahon-bea",
+    "schema:dateCreated" : "2008",
+    "schema:url" : "https://imma.ie/collection/light-cones-past-light/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/light-cones-past-light",
+    "arco-cd:hasTitle" : "Light Cones (past light)"
+  }, {
+    "@id" : "spice:artefact/the-descent",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/mcmahon-bea",
+    "author" : "spice:agent/mcmahon-bea",
+    "schema:dateCreated" : "2008",
+    "schema:url" : "https://imma.ie/collection/the-descent/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-descent",
+    "arco-cd:hasTitle" : "The Descent"
+  }, {
+    "@id" : "spice:attribution/a-21st-century-arrangement-of-mount-purgatory",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/mcmahon-bea"
+  }, {
+    "@id" : "spice:attribution/a-safe-place-to-keep-my-money",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/mcmahon-bea"
+  }, {
+    "@id" : "spice:attribution/exit",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/mcmahon-bea"
+  }, {
+    "@id" : "spice:attribution/light-cones-past-light",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/mcmahon-bea"
+  }, {
+    "@id" : "spice:attribution/the-descent",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/mcmahon-bea"
+  } ],
+  "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

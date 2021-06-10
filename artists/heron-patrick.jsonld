@@ -1,0 +1,88 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/heron-patrick",
+    "@type" : "foaf:Person",
+    "dc:description" : "English painter, writer and designer Patrick Heron studied briefly at the Slade School of Art. From 1947-1950 he was an art critic for the ‘New Statesman’, and went on to write several books on art, including ‘The Shape of Colour’ (1973). He settled permanently in Cornwall in 1956 and is considered a stalwart of the St Ives School. He won the Grand Prize at the 1959 John Moore’s Exhibition and was awarded Silver Medal at the São Paulo Biennial in 1965. A major retrospective of his work was held at Tate Britain in 1998. His work in held in public collections worldwide including the British Museum, London; Tate, London; Victoria and Albert Museum, London; Metropolitan Museum of Art, New York and the Carnegie Institute, Pittsburgh.",
+    "dc:source" : "https://imma.ie/artists/patrick-heron/",
+    "schema:birthDate" : "1920–1999",
+    "schema:url" : "https://imma.ie/artists/patrick-heron/",
+    "rdfs:label" : "Patrick Heron"
+  }, {
+    "@id" : "spice:artefact/emerald-with-reds-and-cerulean",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/heron-patrick",
+    "author" : "spice:agent/heron-patrick",
+    "schema:dateCreated" : "1979",
+    "schema:url" : "https://imma.ie/collection/emerald-with-reds-and-cerulean/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/emerald-with-reds-and-cerulean",
+    "arco-cd:hasTitle" : "Emerald with Reds and Cerulean"
+  }, {
+    "@id" : "spice:attribution/emerald-with-reds-and-cerulean",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/heron-patrick"
+  } ],
+  "@context" : {
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

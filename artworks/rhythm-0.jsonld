@@ -1,0 +1,85 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/rhythm-0",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "‘Rhythm 0’ was Marina Abramović’s first long durational work. During the 6 hour performance she remained passive in front of a table containing 72 substances and objects ranging from water, honey and sugar, to scissors, knives and a gun with one bullet. Audience members were free to interact with Abramović in whatever way they chose. She was fed, kissed, drawn on, stripped, cut and even made to aim the loaded gun at her own neck.",
+    "dc:source" : "https://imma.ie/collection/rhythm-0/",
+    "schema:creditText" : "IMMA Collection: Purchase, 1995",
+    "image" : "spice:documentation/rhythm-0",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Framed black and white photograph with framed letter press text panel",
+    "schema:size" : "Image framed 98 x 100.3 cm Text framed 26 x 18.4 cm",
+    "schema:version" : "Edition 1/16, 3 AP's",
+    "arco-cd:hasInventory" : "IMMA.477"
+  }, {
+    "@id" : "spice:documentation/rhythm-0",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Marina Abramović, Rhythm 0, 1974, Framed black and white photograph with framed letter press text panel, Image framed 98 x 100.3 cm Text framed 26 x 18.4 cm, Collection Irish Museum of Modern Art, Purchase, 1995 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/845.jpg"
+  } ],
+  "@context" : {
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "version" : {
+      "@id" : "http://schema.org/version",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

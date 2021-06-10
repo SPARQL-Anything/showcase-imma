@@ -1,0 +1,75 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/137-5-it-started-on-the-c-train",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "‘In many plants, the angle between leaves is around 137.5 degrees, corresponding not only to the “golden ratio” but also to the ratio between two successive terms of the Fibonacci series. At the root of my practice is a study of the basic structures and poetic possibilities that exist within daily life. I use the urban landscape and everyday objects found within it to interrogate conventional notions of nature and the inextricable relationship between humanity and the natural world in the Anthropocene era. Many fields of study – including biological science, geology, climate science, physics and urban planning – inform my work. An interest in mathematical emergence and mapping is expressed in the web of 137.5° (2002), which plots my travels over that summer. It is composed of numerous crocheted pieces – each segment was made on one trip – the size of each “doodle” directly corresponding to the duration of that particular journey. Metaphorically woven into the complex system of unfolding organic lines is a tangible record of my carbon footprint. Exploring the elegance and logic of traditional Irish lace crochet, I used the single stitch, as a non-expert, to “draw” lines that represent my movements in time and space. Each time the piece is installed the drawing is different, but the trace of the journeys remains the same’.",
+    "dc:source" : "https://imma.ie/collection/137-5-it-started-on-the-c-train/",
+    "schema:creditText" : "IMMA Collection: Purchase, 2010",
+    "image" : "spice:documentation/137-5-it-started-on-the-c-train",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Wall installation: wool, tacks, approx 150 single pieces, partly crocheted together",
+    "arco-cd:hasInventory" : "IMMA.3315"
+  }, {
+    "@id" : "spice:documentation/137-5-it-started-on-the-c-train",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Katie Holten, 137.5 °/it started on the C-train, 2002, Wall installation: wool, tacks, approx 150 single pieces, partly crocheted together, Collection Irish Museum of Modern Art, Purchase, 2010 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2020/02/5556.jpg"
+  } ],
+  "@context" : {
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/general-fevrier",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "I tend to work in places of war and conflict, and that has tended to mean that the unburied ghost of colonial past is still wreaking tragedy in its gyre of resolution or dissolution, like a series of cyclones devastating a helpless undeveloped nation. Since I am a white male, my white-male gaze has made my positions quite defenseless, and I have sometimes been criticized for taking politically incorrect views (and I don’t tend to take positions in my practice, though I have them personally, of course, but do try to assume a neutral, non-didactic aesthetic strategy, which is itself a position, though it may not immediately appear to be). Being Irish, though, has allowed me to remain unapologetic, steering clear of the horrors of political correctness that white males often have thrust upon them in the course of their privileged, embarrassed discourse. It has also allowed me to travel freely in rogue nations who feel kinship with us Irish rogues. So, being Irish has allowed me to be more fully me, even though I don’t at all subscribe to any national identity.",
+    "dc:source" : "https://imma.ie/collection/general-fevrier/",
+    "schema:creditText" : "IMMA Collection: Purchase, assisted by funding from David Kronn, 2012",
+    "image" : "spice:documentation/general-fevrier",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Digital c-print",
+    "schema:size" : "71.12 x 88.9 cm Framed: 73.66 x 91.44 x 4.76 cm",
+    "schema:version" : "Edition 4/5 with 1 A/P",
+    "arco-cd:hasInventory" : "IMMA.3789"
+  }, {
+    "@id" : "spice:documentation/general-fevrier",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Richard Mosse, General Février, 2010, Digital c-print, 71.12 x 88.9 cm Framed: 73.66 x 91.44 x 4.76 cm, Collection Irish Museum of Modern Art, Purchase, assisted by funding from David Kronn, 2012 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team: i. i",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/7043.jpg"
+  } ],
+  "@context" : {
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "version" : {
+      "@id" : "http://schema.org/version",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "@id" : "spice:agent/jacir-emily",
+  "@type" : "foaf:Person",
+  "dc:description" : [ "Acclaimed artist Emily Jacir is the recipient of several awards, including a Golden Lion at the 52nd Venice Biennale (2007); a Prince Claus Award (2007); the Hugo Boss Prize (2008); the Herb Alpert Award (2011); and the Rome Prize (2015).", "Emily Jacir is an artist and filmmaker who is primarily concerned with transformation, questions of translation, resistance and silenced historical narratives." ],
+  "dc:source" : "https://imma.ie/artists/emily-jacir/",
+  "schema:birthDate" : "b.1970",
+  "schema:url" : "https://imma.ie/artists/emily-jacir/",
+  "rdfs:label" : "Emily Jacir",
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/portrait-of-paddy-collins",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "McGuire’s best-known sitters include Anthony Cronin, Seamus Heaney, Paul Durcan, and Pearse Hutchinson. Many of his portraits have a surreal quality derived from McGuire’s love of unusual studio props such as stuffed birds and highly stylized leaf decoration. This feeling is strengthened by the often remote and static pose of the sitter. The portrait of the artist Patrick Collins, painted just three years before McGuire’s death, is unusual in its avoidance of these devices. The preparatory drawing for this portrait is part of the IMMA Collection and also shows the meticulous approach McGuire employed from the earliest stage of the portrait.",
+    "dc:source" : "https://imma.ie/collection/portrait-of-paddy-collins/",
+    "schema:creditText" : "IMMA Collection: Donation, Vincent &amp; Noeleen Ferguson, 1996",
+    "image" : "spice:documentation/portrait-of-paddy-collins",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Oil on panel",
+    "schema:size" : "Framed: 91.5 x 84.5 x 6 cm 68 x 60 cm",
+    "arco-cd:hasInventory" : "IMMA.768"
+  }, {
+    "@id" : "spice:documentation/portrait-of-paddy-collins",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Edward McGuire, Portrait of Paddy Collins, 1983, Oil on panel, Framed: 91.5 x 84.5 x 6 cm 68 x 60 cm, Collection Irish Museum of Modern Art, Donation, Vincent &amp; Noeleen Ferguson, 1996 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2019/05/1486.jpg"
+  } ],
+  "@context" : {
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

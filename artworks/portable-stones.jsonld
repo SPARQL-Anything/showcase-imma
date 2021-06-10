@@ -1,0 +1,75 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/portable-stones",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "Orla Barry’s film work is rooted in language and symbols and is driven by the tension between visual and literary representation. The artist composes poetic prose – textual fragments – that bring together philosophical meditations and biographical fact as well as fictional and associative elements. In her publications, films and performances, Barry dwells on themes such as linguistic intoxication, proximity and distance, silence and communication, melancholy and absurdity, and friendship and family relationships. ‘Portable Stones’ (2005) can be seen as a fragmented associative narrative dealing with two characters who live in a kind of ‘linguistic isolation’ and who explore different forms of indirect communication. Barry works with the multiple meanings of words and gestures in combination with visual rhythms and subtle audio layering. This interplay makes the 63-minute film into an atmospheric, moving visual poem.",
+    "dc:source" : "https://imma.ie/collection/portable-stones/",
+    "schema:creditText" : "IMMA Collection: Purchase, 2006",
+    "image" : "spice:documentation/portable-stones",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Colour video with sound",
+    "schema:version" : "Edition of 3",
+    "arco-cd:hasInventory" : "IMMA.1978"
+  }, {
+    "@id" : "spice:documentation/portable-stones",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Orla Barry, Portable Stones, 2005, Colour video with sound, Duration: 63 mins, Collection Irish Museum of Modern Art, Purchase, 2006 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma"
+  } ],
+  "@context" : {
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "version" : {
+      "@id" : "http://schema.org/version",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/back-of-snowman",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "Throughout his practice Hume has explored iconic images and shapes such as his series of paintings based on hospital doors, pop stars and supermodels. In ‘Back of Snowman’ Hume engages with perhaps one of the most familiar, accessible and recognizable sculptures, stirring the imagination and conjuring memories associated with youth, childhood and playfulness. Hume’s chosen medium for this traditionally temporary shape is bronze, its connotations of permanence and stability contrasting with the ephemeral nature of snow. Made first in clay and then cast in bronze, the surface of the metal has been polished rather than painted, as was the case with other snowmen in this series. An engagement with icons which have art-historical associations is also evident in Hume’s practice. ‘Back of Snowman’ recalls how Michaelangelo was commissioned to make only one sculpture during the reign of Piero de’ Medici, who on a childish whim after a heavy snowfall in January 1494, ordered a showman from the sculptor.",
+    "dc:source" : "https://imma.ie/collection/back-of-snowman/",
+    "schema:creditText" : "IMMA Collection: Purchase, 2005",
+    "image" : "spice:documentation/back-of-snowman",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Bronze and crayon",
+    "schema:size" : "153 x 107 x 53 cm",
+    "arco-cd:hasInventory" : "IMMA.1829"
+  }, {
+    "@id" : "spice:documentation/back-of-snowman",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Gary Hume, Back of Snowman, 2003, Bronze and crayon, 153 x 107 x 53 cm, Collection Irish Museum of Modern Art, Purchase, 2005 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2021/01/1466.jpg"
+  } ],
+  "@context" : {
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

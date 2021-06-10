@@ -1,0 +1,44 @@
+{
+  "@id" : "spice:agent/hogarth-william",
+  "@type" : "foaf:Person",
+  "dc:description" : "English artist William Hogarth, the son of a shopkeeper mother, and schoolmaster and publisher father, was born in London. After a brief apprenticeship as a silversmith, Hogarth studied for a time at Sir James Thornhill’s then recently opened art school. His first employment was in designing plates for booksellers until he began producing work on his own account. His first big financial success was with A Harlot’s Progress, a series of paintings from which he produced engravings in 1732. This was the first of the wholly innovatory genre that Hogarth called his ‘modern moral subjects’ and which first gave him his position as a great and original artist. In 1735 he helped found St. Martin’s Lane Academy - considered an important forerunner to the Royal Academy - which opened in 1768. In 1753, Hogarth published Analysis of Beauty, an investigation into the aesthetic principles of art.",
+  "dc:source" : "https://imma.ie/artists/william-hogarth/",
+  "schema:birthDate" : "1697–1764",
+  "schema:url" : "https://imma.ie/artists/william-hogarth/",
+  "rdfs:label" : "William Hogarth",
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

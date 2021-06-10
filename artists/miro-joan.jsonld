@@ -1,0 +1,102 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/miro-joan",
+    "@type" : "foaf:Person",
+    "dc:description" : "Spanish artist Joan Miró (1893-1983) is widely recognised for his major contribution to twentieth century art. His enormously varied body of work, including painting, sculpture, etching and collage, drew on the realms of memory and imaginative fantasy. His distinctive use of bright colours resulted in works that combined childlike naivety and artistic sophistication. Miró exhibited extensively throughout his career. His work is now represented in major public and private collections worldwide. The Joan Miró Foundation opened in his native city of Barcelona in 1976. Three years later he was named Doctor Honoris Causa by the University of Barcelona.",
+    "dc:source" : "https://imma.ie/artists/joan-miro/",
+    "schema:birthDate" : "1893–1983",
+    "schema:url" : "https://imma.ie/artists/joan-miro/",
+    "rdfs:label" : "Joan Miró"
+  }, {
+    "@id" : "spice:artefact/homage-a-braque",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/miro-joan",
+    "author" : "spice:agent/miro-joan",
+    "schema:dateCreated" : "1962",
+    "schema:url" : "https://imma.ie/collection/homage-a-braque/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/homage-a-braque",
+    "arco-cd:hasTitle" : "Homage á Braque"
+  }, {
+    "@id" : "spice:artefact/hors-du-cercle",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/miro-joan",
+    "author" : "spice:agent/miro-joan",
+    "schema:dateCreated" : "1920",
+    "schema:url" : "https://imma.ie/collection/hors-du-cercle/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/hors-du-cercle",
+    "arco-cd:hasTitle" : "Hors du Cercle"
+  }, {
+    "@id" : "spice:attribution/homage-a-braque",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/miro-joan"
+  }, {
+    "@id" : "spice:attribution/hors-du-cercle",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/miro-joan"
+  } ],
+  "@context" : {
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

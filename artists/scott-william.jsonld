@@ -1,0 +1,284 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/scott-william",
+    "@type" : "foaf:Person",
+    "dc:description" : "Born in Scotland, William Scott (1913-1989) spent his youth in his father’s home town of Enniskillen in Northern Ireland. Scott attended the Belfast College of Art and the Royal Academy of Arts, London. He taught at the Bath Academy of Art between 1941 and 1956. From 1954, Scott exhibited in New York, forging significant links with the American Abstract Expressionists. Strongly individualist in his ability to combine figuration and abstraction, Scott exhibited widely throughout his career and represented Britain internationally on many occasions. A major exhibition of his work was held at IMMA in 1998.",
+    "dc:source" : "https://imma.ie/artists/william-scott/",
+    "schema:birthDate" : "1913–1989",
+    "schema:url" : "https://imma.ie/artists/william-scott/",
+    "rdfs:label" : "William Scott"
+  }, {
+    "@id" : "spice:artefact/berlin-blues-i",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/scott-william",
+    "author" : "spice:agent/scott-william",
+    "schema:dateCreated" : "1965",
+    "schema:url" : "https://imma.ie/collection/berlin-blues-i/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/berlin-blues-i",
+    "arco-cd:hasTitle" : "Berlin Blues I"
+  }, {
+    "@id" : "spice:artefact/black-and-white",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/scott-william",
+    "author" : "spice:agent/scott-william",
+    "schema:dateCreated" : "1961",
+    "schema:url" : "https://imma.ie/collection/black-and-white/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/black-and-white",
+    "arco-cd:hasTitle" : "Black and White"
+  }, {
+    "@id" : "spice:artefact/blue-still-life",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/scott-william",
+    "author" : "spice:agent/scott-william",
+    "schema:dateCreated" : "1969",
+    "schema:url" : "https://imma.ie/collection/blue-still-life/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/blue-still-life",
+    "arco-cd:hasTitle" : "Blue Still Life"
+  }, {
+    "@id" : "spice:artefact/blues-ii",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/scott-william",
+    "author" : "spice:agent/scott-william",
+    "schema:dateCreated" : "1969",
+    "schema:url" : "https://imma.ie/collection/blues-ii/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/blues-ii",
+    "arco-cd:hasTitle" : "Blues II"
+  }, {
+    "@id" : "spice:artefact/dark-blue-white-still-life",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/scott-william",
+    "author" : "spice:agent/scott-william",
+    "schema:dateCreated" : "1963",
+    "schema:url" : "https://imma.ie/collection/dark-blue-white-still-life/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/dark-blue-white-still-life",
+    "arco-cd:hasTitle" : "Dark Blue &amp; White Still Life"
+  }, {
+    "@id" : "spice:artefact/mary-scott-head-of-girl",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/scott-william",
+    "author" : "spice:agent/scott-william",
+    "schema:dateCreated" : "1943",
+    "schema:url" : "https://imma.ie/collection/mary-scott-head-of-girl/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/mary-scott-head-of-girl",
+    "arco-cd:hasTitle" : "Mary Scott (Head of Girl)"
+  }, {
+    "@id" : "spice:artefact/odeon-v",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/scott-william",
+    "author" : "spice:agent/scott-william",
+    "schema:dateCreated" : "1966",
+    "schema:url" : "https://imma.ie/collection/odeon-v/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/odeon-v",
+    "arco-cd:hasTitle" : "Odeon V"
+  }, {
+    "@id" : "spice:artefact/odeon-vi",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/scott-william",
+    "author" : "spice:agent/scott-william",
+    "schema:dateCreated" : "1966",
+    "schema:url" : "https://imma.ie/collection/odeon-vi/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/odeon-vi",
+    "arco-cd:hasTitle" : "Odeon VI"
+  }, {
+    "@id" : "spice:artefact/pan-and-bowl-blues-on-green",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/scott-william",
+    "author" : "spice:agent/scott-william",
+    "schema:dateCreated" : "1970",
+    "schema:url" : "https://imma.ie/collection/pan-and-bowl-blues-on-green/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/pan-and-bowl-blues-on-green",
+    "arco-cd:hasTitle" : "Pan and Bowl, Blues on Green"
+  }, {
+    "@id" : "spice:artefact/parallel-forms-orange",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/scott-william",
+    "author" : "spice:agent/scott-william",
+    "schema:dateCreated" : "1971",
+    "schema:url" : "https://imma.ie/collection/parallel-forms-orange/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/parallel-forms-orange",
+    "arco-cd:hasTitle" : "Parallel Forms Orange"
+  }, {
+    "@id" : "spice:artefact/pink-abstract",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/scott-william",
+    "author" : "spice:agent/scott-william",
+    "schema:dateCreated" : "1930",
+    "schema:url" : "https://imma.ie/collection/pink-abstract/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/pink-abstract",
+    "arco-cd:hasTitle" : "Pink Abstract"
+  }, {
+    "@id" : "spice:artefact/poem-for-a-jug-no-11",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/scott-william",
+    "author" : "spice:agent/scott-william",
+    "schema:dateCreated" : "1980",
+    "schema:url" : "https://imma.ie/collection/poem-for-a-jug-no-11/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/poem-for-a-jug-no-11",
+    "arco-cd:hasTitle" : "Poem for a Jug, No. 11"
+  }, {
+    "@id" : "spice:artefact/red-brown-and-black",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/scott-william",
+    "author" : "spice:agent/scott-william",
+    "schema:dateCreated" : "1967",
+    "schema:url" : "https://imma.ie/collection/red-brown-and-black/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/red-brown-and-black",
+    "arco-cd:hasTitle" : "Red Brown and Black"
+  }, {
+    "@id" : "spice:artefact/standing-nude",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/scott-william",
+    "author" : "spice:agent/scott-william",
+    "schema:dateCreated" : "1954",
+    "schema:url" : "https://imma.ie/collection/standing-nude/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/standing-nude",
+    "arco-cd:hasTitle" : "Standing Nude"
+  }, {
+    "@id" : "spice:artefact/still-life-brown-with-black-note",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/scott-william",
+    "author" : "spice:agent/scott-william",
+    "schema:dateCreated" : "1969",
+    "schema:url" : "https://imma.ie/collection/still-life-brown-with-black-note/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/still-life-brown-with-black-note",
+    "arco-cd:hasTitle" : "Still Life Brown with Black Note"
+  }, {
+    "@id" : "spice:attribution/berlin-blues-i",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/scott-william"
+  }, {
+    "@id" : "spice:attribution/black-and-white",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/scott-william"
+  }, {
+    "@id" : "spice:attribution/blue-still-life",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/scott-william"
+  }, {
+    "@id" : "spice:attribution/blues-ii",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/scott-william"
+  }, {
+    "@id" : "spice:attribution/dark-blue-white-still-life",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/scott-william"
+  }, {
+    "@id" : "spice:attribution/mary-scott-head-of-girl",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/scott-william"
+  }, {
+    "@id" : "spice:attribution/odeon-v",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/scott-william"
+  }, {
+    "@id" : "spice:attribution/odeon-vi",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/scott-william"
+  }, {
+    "@id" : "spice:attribution/pan-and-bowl-blues-on-green",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/scott-william"
+  }, {
+    "@id" : "spice:attribution/parallel-forms-orange",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/scott-william"
+  }, {
+    "@id" : "spice:attribution/pink-abstract",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/scott-william"
+  }, {
+    "@id" : "spice:attribution/poem-for-a-jug-no-11",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/scott-william"
+  }, {
+    "@id" : "spice:attribution/red-brown-and-black",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/scott-william"
+  }, {
+    "@id" : "spice:attribution/standing-nude",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/scott-william"
+  }, {
+    "@id" : "spice:attribution/still-life-brown-with-black-note",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/scott-william"
+  } ],
+  "@context" : {
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

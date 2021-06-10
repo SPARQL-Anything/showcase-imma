@@ -1,0 +1,39 @@
+{
+  "@id" : "spice:agent/pichl-andrea",
+  "@type" : "foaf:Person",
+  "dc:description" : "For a number of years Andrea Pichl has been observing the spread and creation of the major canons of architectural form of housing units in the East and West: such as Berlin, Tashkent, Paris, Tallinn or Zlin. These are places where people aimed to perfect the utopia of modernity, to alter the life of a majority of urban dwellers through their living conditions. Referring to such dogmas the architects of the new buildings were socially oriented to the future and the methods of design and construction sought to equalise and eliminate class distinctions. Through her art practice Pichl uses methods of analysis of the downfall of such noble programmes. Pichl is interested in places where she can visually catch the moment of distortion, places where the quantity of production leads to a drop in artistic forms where large-scale production leads to monotony. A new city is a promise which endeavors to visualise a more modern and improved society, Pichl focuses on these associated aspirations but she also looks at the realities of the built visions. “No matter if it’s the promise of a better life in social housing, socialist ideals or the wish for economic maximisation that give the impetus to plan a ‘new city’: stones, sand and lime are used everywhere, and only when taking a closer look can the differences in the architectural structures be discerned, in addition to their common features. Andrea Pichl works them out with artistic means and brings them together to form a typology of modernist architecture.” – Christine Heidemann, curator. ",
+  "dc:source" : "https://imma.ie/artists/andrea-pichl/",
+  "schema:url" : "https://imma.ie/artists/andrea-pichl/",
+  "rdfs:label" : "Andrea Pichl",
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

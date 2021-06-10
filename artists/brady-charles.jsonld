@@ -1,0 +1,130 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/brady-charles",
+    "@type" : "foaf:Person",
+    "dc:description" : "Painter Charles Brady was born in New York and studied at the Art Students League there. He first visited Ireland in 1956 and settled here permanently in 1959. Brady was best known as a painter of everyday objects in an understated manner, usually on a modest scale. He exhibited extensively in Ireland and the United States and was the subject of a major retrospective at the RHA in 2001.",
+    "dc:source" : "https://imma.ie/artists/charles-brady/",
+    "schema:birthDate" : "1926–1997",
+    "schema:url" : "https://imma.ie/artists/charles-brady/",
+    "rdfs:label" : "Charles Brady"
+  }, {
+    "@id" : "spice:artefact/haycock-by-a-bank",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/brady-charles",
+    "author" : "spice:agent/brady-charles",
+    "schema:dateCreated" : "1975",
+    "schema:url" : "https://imma.ie/collection/haycock-by-a-bank/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/haycock-by-a-bank",
+    "arco-cd:hasTitle" : "Haycock by a Bank"
+  }, {
+    "@id" : "spice:artefact/italian-bottle",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/brady-charles",
+    "author" : "spice:agent/brady-charles",
+    "schema:dateCreated" : "1972",
+    "schema:url" : "https://imma.ie/collection/italian-bottle/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/italian-bottle",
+    "arco-cd:hasTitle" : "Italian Bottle"
+  }, {
+    "@id" : "spice:artefact/take-away-irish-stew",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/brady-charles",
+    "author" : "spice:agent/brady-charles",
+    "schema:dateCreated" : "1988",
+    "schema:url" : "https://imma.ie/collection/take-away-irish-stew/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/take-away-irish-stew",
+    "arco-cd:hasTitle" : "Take Away Irish Stew"
+  }, {
+    "@id" : "spice:artefact/white-shoe-box",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/brady-charles",
+    "author" : "spice:agent/brady-charles",
+    "schema:dateCreated" : "1987",
+    "schema:url" : "https://imma.ie/collection/white-shoe-box/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/white-shoe-box",
+    "arco-cd:hasTitle" : "White Shoe Box"
+  }, {
+    "@id" : "spice:attribution/haycock-by-a-bank",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/brady-charles"
+  }, {
+    "@id" : "spice:attribution/italian-bottle",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/brady-charles"
+  }, {
+    "@id" : "spice:attribution/take-away-irish-stew",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/brady-charles"
+  }, {
+    "@id" : "spice:attribution/white-shoe-box",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/brady-charles"
+  } ],
+  "@context" : {
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

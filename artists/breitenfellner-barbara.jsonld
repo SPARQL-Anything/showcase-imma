@@ -1,0 +1,39 @@
+{
+  "@id" : "spice:agent/breitenfellner-barbara",
+  "@type" : "foaf:Person",
+  "dc:description" : [ "For seventeen years Barbara Breitenfellner has been jotting down art-related dreams. Her installations are constructions of these nightly recordings. Often the descriptions of the dreams function as both work instructions and work titles. In the continuation of other artists and writers dealing with dream recollections, Breitenfellner uses her protocols to create condensed and distorted, often absurd or ironic representations of making and exhibiting art and being an artist. Her collages come about through play with printing over, cutting out, and turning around with the pitfalls of the unconscious.", "Born in Kufstein, Austria Barbara Breitenfellner received a Master of Fine Art at Glasgow School of Art. She lives and works in Berlin. For seventeen years Breitenfellner has been jotting down art-related dreams. Her installations are constructions of these nightly recordings" ],
+  "dc:source" : "https://imma.ie/artists/barbara-breitenfellner/",
+  "schema:url" : "https://imma.ie/artists/barbara-breitenfellner/",
+  "rdfs:label" : "Barbara Breitenfellner",
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

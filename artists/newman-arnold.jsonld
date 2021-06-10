@@ -1,0 +1,88 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/newman-arnold",
+    "@type" : "foaf:Person",
+    "dc:description" : "American photographer Arnold Newman (1918 – 2006) studied painting at the University of Miami but left to pursue his interest in photography. Newman moved to Philadelphia in 1938 and began to photograph artists he admired, including Marc Chagall, Marcel Duchamp and Piet Mondrian. In 1945 the Philadelphia Museum of Art organised an exhibition of this work entitled ‘Artists Look Like This’. Newman opened the Arnold Newman Studios in New York in 1946. His portraits have received numerous awards, and have been exhibited in venues worldwide including the Metropolitan Museum of Art, New York; the National Portrait Gallery; and the Victoria and Albert Museum, London.",
+    "dc:source" : "https://imma.ie/artists/arnold-newman/",
+    "schema:birthDate" : "1918–2006",
+    "schema:url" : "https://imma.ie/artists/arnold-newman/",
+    "rdfs:label" : "Arnold Newman"
+  }, {
+    "@id" : "spice:artefact/black-white-photograph-of-brian-and-barbara-and-their-dog-flann-obrien",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/newman-arnold",
+    "author" : "spice:agent/newman-arnold",
+    "schema:dateCreated" : "1984",
+    "schema:url" : "https://imma.ie/collection/black-white-photograph-of-brian-and-barbara-and-their-dog-flann-obrien/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/black-white-photograph-of-brian-and-barbara-and-their-dog-flann-obrien",
+    "arco-cd:hasTitle" : "Black &amp; white photograph of Brian and Barbara and their dog Flann O’Brien"
+  }, {
+    "@id" : "spice:attribution/black-white-photograph-of-brian-and-barbara-and-their-dog-flann-obrien",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/newman-arnold"
+  } ],
+  "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

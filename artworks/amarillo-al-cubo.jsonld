@@ -1,0 +1,80 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/amarillo-al-cubo",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "Betsabeé Romero draws on elements of popular culture and the traditions of Mexican art in her homeland. Her work is concerned with themes of memory, identity and human migration. For Romero, culture is always in transit and she explores the identity and traditions that Mexican immigrants carry with them in journeys to the United States, often using cars and car parts as symbolic of this movement. While these journeys inform her work directly, she is interested in broader ideas around migration related to the human condition. She has written that “All of us are migrants between life and death. It is a migration that is inevitable and real”.",
+    "dc:source" : "https://imma.ie/collection/amarillo-al-cubo/",
+    "schema:creditText" : "IMMA Collection: Diplomatic gift of the Federal Government of Mexico, 2011",
+    "image" : "spice:documentation/amarillo-al-cubo",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Screenprint on perforated paper",
+    "schema:size" : "Sheet: 101.2 x 99.5 cm",
+    "arco-cd:hasInventory" : "IMMA.3776"
+  }, {
+    "@id" : "spice:documentation/amarillo-al-cubo",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Betsabeé Romero, Amarillo al Cubo, 2010, Screenprint on perforated paper, Sheet: 101.2 x 99.5 cm, Collection Irish Museum of Modern Art, Diplomatic gift of the Federal Government of Mexico, 2011 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2019/10/6917.jpg"
+  } ],
+  "@context" : {
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

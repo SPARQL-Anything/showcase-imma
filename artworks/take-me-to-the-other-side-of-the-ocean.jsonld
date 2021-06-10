@@ -1,0 +1,80 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/take-me-to-the-other-side-of-the-ocean",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "German artist Rebecca Horn suffered serious lung damage as an art student as a result of working with toxic materials. During her year-long treatment in a sanatorium she used her artistic imagination to help her to escape the tedium and discomfort of her isolation ward, and to find solace in fantasy. The silent films of Buster Keaton, based on plots in which mundane events could suddenly become dangerous, seemed to her to offer a parallel with her own situation; finding herself in mortal danger while pursuing her normal business. Keaton became an important metaphor, in her work, for the hidden dangers in daily life. ",
+    "dc:source" : "https://imma.ie/collection/take-me-to-the-other-side-of-the-ocean/",
+    "schema:creditText" : "IMMA Collection: Purchase, 2002",
+    "image" : "spice:documentation/take-me-to-the-other-side-of-the-ocean",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Shoes, glass funnell, blue pigment, metal construction and motor",
+    "schema:size" : "Dimensions variable",
+    "arco-cd:hasInventory" : "IMMA.1495"
+  }, {
+    "@id" : "spice:documentation/take-me-to-the-other-side-of-the-ocean",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Rebecca Horn, Take me to the other side of the ocean, 1991, Shoes, glass funnell, blue pigment, metal construction and motor, Dimensions variable, Collection Irish Museum of Modern Art, Purchase, 2002 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2019/05/1511.jpg"
+  } ],
+  "@context" : {
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "@id" : "spice:agent/al-sabah-bassam",
+  "@type" : "foaf:Person",
+  "description" : "_:b0",
+  "dc:description" : "Bassam Al-Sabah's work aims to convey visions of war, resistance and perseverance. He utilizes multi-media installation comprising of video, painting, sculpture and printed matter. His work is concerned with how the past is continually revised to meet the present, when the juvenile fantasy breaks down into the reality of adulthood.",
+  "dc:source" : "https://imma.ie/artists/bassam-al-sabah/",
+  "schema:url" : "https://imma.ie/artists/bassam-al-sabah/",
+  "rdfs:label" : "Bassam Al-Sabah",
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

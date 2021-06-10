@@ -1,0 +1,116 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/epstein-jacob",
+    "@type" : "foaf:Person",
+    "dc:description" : "Jacob Epstein was born in America to Polish parents. In his early twenties, Epstein moved from New York to Paris and then London. He became a British citizen in 1911. Taking the human figure as the primary focus of his work, Epstein was among a group of pioneering sculptors who promoted carving directly from stone with regard to its natural form and grain. Epstein exhibited widely from the 1910s. A major retrospective exhibition of his work was held at the Tate Gallery in 1953. His sculptural work is represented in major collections worldwide.",
+    "dc:source" : "https://imma.ie/artists/jacob-epstein/",
+    "schema:birthDate" : "1880–1959",
+    "schema:url" : "https://imma.ie/artists/jacob-epstein/",
+    "rdfs:label" : "Jacob Epstein"
+  }, {
+    "@id" : "spice:artefact/christ-rising-from-the-tomb-last-work-byartist-part-of-uncompleted-commission",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/epstein-jacob",
+    "author" : "spice:agent/epstein-jacob",
+    "schema:dateCreated" : "1940",
+    "schema:url" : "https://imma.ie/collection/christ-rising-from-the-tomb-last-work-byartist-part-of-uncompleted-commission/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/christ-rising-from-the-tomb-last-work-byartist-part-of-uncompleted-commission",
+    "arco-cd:hasTitle" : "Christ Rising from the Tomb (last work by artist, part of uncompleted commission)"
+  }, {
+    "@id" : "spice:artefact/portrait-of-lucian-freud",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/epstein-jacob",
+    "author" : "spice:agent/epstein-jacob",
+    "schema:dateCreated" : "1947",
+    "schema:url" : "https://imma.ie/collection/portrait-of-lucian-freud/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/portrait-of-lucian-freud",
+    "arco-cd:hasTitle" : "Portrait of Lucian Freud"
+  }, {
+    "@id" : "spice:artefact/third-portrait-of-jackie-ragamuffin",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/epstein-jacob",
+    "author" : "spice:agent/epstein-jacob",
+    "schema:dateCreated" : "1939",
+    "schema:url" : "https://imma.ie/collection/third-portrait-of-jackie-ragamuffin/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/third-portrait-of-jackie-ragamuffin",
+    "arco-cd:hasTitle" : "Third Portrait of Jackie (Ragamuffin)"
+  }, {
+    "@id" : "spice:attribution/christ-rising-from-the-tomb-last-work-byartist-part-of-uncompleted-commission",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/epstein-jacob"
+  }, {
+    "@id" : "spice:attribution/portrait-of-lucian-freud",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/epstein-jacob"
+  }, {
+    "@id" : "spice:attribution/third-portrait-of-jackie-ragamuffin",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/epstein-jacob"
+  } ],
+  "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/van-der-grijn-erik-adriaan",
+    "@type" : "foaf:Person",
+    "dc:description" : "Dutch artist Erik Adriaan van der Grijn (born 1941) attended the Royal College of Art in The Hague. He lived in Ireland for two decades until 1995, when he relocated to New York, and then on to Buenos Aires. Van der Grijn uses various painting techniques to create large scale works on canvas and less conventional surfaces. Employing colours associated with danger and conflict, his paintings act as a form of protest against social and historical injustice. Van der Grijn exhibited extensively in Ireland in the 1970s and 1980s. His work is represented in numerous public and private collections.",
+    "dc:source" : "https://imma.ie/artists/erik-adriaan-van-der-grijn/",
+    "schema:birthDate" : "b.1941",
+    "schema:url" : "https://imma.ie/artists/erik-adriaan-van-der-grijn/",
+    "rdfs:label" : "Erik Adriaan van der Grijn"
+  }, {
+    "@id" : "spice:artefact/drumsna",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/van-der-grijn-erik-adriaan",
+    "author" : "spice:agent/van-der-grijn-erik-adriaan",
+    "schema:dateCreated" : "1972",
+    "schema:url" : "https://imma.ie/collection/drumsna/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/drumsna",
+    "arco-cd:hasTitle" : "Drumsna"
+  }, {
+    "@id" : "spice:artefact/untitled-111",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/van-der-grijn-erik-adriaan",
+    "author" : "spice:agent/van-der-grijn-erik-adriaan",
+    "schema:dateCreated" : "1970",
+    "schema:url" : "https://imma.ie/collection/untitled-111/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-111",
+    "arco-cd:hasTitle" : "Untitled"
+  }, {
+    "@id" : "spice:artefact/yellow-preserve",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/van-der-grijn-erik-adriaan",
+    "author" : "spice:agent/van-der-grijn-erik-adriaan",
+    "schema:dateCreated" : "1974",
+    "schema:url" : "https://imma.ie/collection/yellow-preserve/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/yellow-preserve",
+    "arco-cd:hasTitle" : "Yellow Preserve"
+  }, {
+    "@id" : "spice:attribution/drumsna",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/van-der-grijn-erik-adriaan"
+  }, {
+    "@id" : "spice:attribution/untitled-111",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/van-der-grijn-erik-adriaan"
+  }, {
+    "@id" : "spice:attribution/yellow-preserve",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/van-der-grijn-erik-adriaan"
+  } ],
+  "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

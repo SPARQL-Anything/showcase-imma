@@ -1,0 +1,44 @@
+{
+  "@id" : "spice:agent/lohse-richard-paul",
+  "@type" : "foaf:Person",
+  "dc:description" : "Swiss artist Richard Paul Lohse trained in advertising. In 1937 he cofounded Allianz, an association of Swiss artists. Lohse developed a geometric non-figurative approach to painting based on mathematical formulae. From the 1940s he worked with horizontal and vertical bands of colour, influenced by the formal and chromatic experiments of Piet Mondrian, Theo Van Doesburg and Josef Albers. Lohse won numerous prizes. He represented Switzerland at the São Paulo Biennial in 1965 and at the Venice Biennale in 1972.",
+  "dc:source" : "https://imma.ie/artists/richard-paul-lohse/",
+  "schema:birthDate" : "1902–1988",
+  "schema:url" : "https://imma.ie/artists/richard-paul-lohse/",
+  "rdfs:label" : "Richard Paul Lohse",
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

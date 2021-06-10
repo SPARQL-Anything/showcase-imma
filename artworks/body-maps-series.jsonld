@@ -1,0 +1,80 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/body-maps-series",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "‘Body Maps’ is an early series of work, in which the artist combines representation of the landscape with the female body to explore issues of ownership, exploitation and colonisation. Map-making has been an important motif in Kathy Prendergast’s work from the outset of her career. By applying map-making techniques to the figure the artist brings together two themes that have been linked for centuries – the landscape and the female body. However, mapping projects are also associated with colonisation. The landscape recorded in this way ceases to be landscape and becomes a territory to be colonised. This work reflects Prendergast’s ongoing commitment to exploring other conventions for representing three-dimensional qualities. In this instance there is an almost surreal imagination at work in the presentation of the female body through the pages of an atlas.",
+    "dc:source" : "https://imma.ie/collection/body-maps-series/",
+    "schema:creditText" : "IMMA Collection: Donation, Vincent &amp; Noeleen Ferguson, 1996",
+    "image" : "spice:documentation/body-maps-series",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Mixed media on paper",
+    "schema:size" : "Dimensions variable",
+    "arco-cd:hasInventory" : "IMMA.775"
+  }, {
+    "@id" : "spice:documentation/body-maps-series",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Kathy Prendergast, Body Maps Series, 1983, Mixed media on paper, Dimensions variable, Collection Irish Museum of Modern Art, Donation, Vincent &amp; Noeleen Ferguson, 1996 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2021/03/1073.jpg"
+  } ],
+  "@context" : {
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

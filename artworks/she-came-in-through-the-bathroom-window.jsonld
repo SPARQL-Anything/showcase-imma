@@ -1,0 +1,80 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/she-came-in-through-the-bathroom-window",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "First realised at Matt’s Gallery, London in 1989, ‘She came in Through the Bathroom Window’ is a site-specific intervention involving removal of a section of the gallery’s window. The displaced window was joined to a metal armature clothed in folded, rubberized fabric that protruded into the interior of the gallery, taking up most of its space, and outward from the exterior. Purchased by the Weltkunst Foundation Collection, the work could be realized at another site with the artist’s input. It is documented in an extensive archive; including a number of works on paper and maquettes.",
+    "dc:source" : "https://imma.ie/collection/she-came-in-through-the-bathroom-window/",
+    "schema:creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1995",
+    "image" : "spice:documentation/she-came-in-through-the-bathroom-window",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Mixed Media",
+    "schema:size" : "Dimensions variable",
+    "arco-cd:hasInventory" : "L.589 LW"
+  }, {
+    "@id" : "spice:documentation/she-came-in-through-the-bathroom-window",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Richard Wilson, She Came in Through The Bathroom Window, 1989, Mixed Media, Dimensions variable, Collection Irish Museum of Modern Art, Loan, Weltkunst Foundation, 1995 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/955.jpg"
+  } ],
+  "@context" : {
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

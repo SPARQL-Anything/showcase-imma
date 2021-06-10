@@ -1,0 +1,39 @@
+{
+  "@id" : "spice:agent/gilman-frantiska-tim",
+  "@type" : "foaf:Person",
+  "dc:description" : [ "Forgetting is a kind of small death, a feeling of loss, something we fight against, yet it is essential for our survival. If we remembered everything, we would go mad. Why do we struggle so hard to remember, and curse our memory when it fails us? It is hard to determine what you will remember and what you will forget – things stick in your mind, or disappear, despite all your efforts. Much of Frantiska and Tim Gilman’s artwork is inspired by this phenomenon of loss and retention, how we live with it and what it means to the life of the mind. They are particularly interested in the Museum’s Collection as a source material during their residency. Their work has been exhibited at the Brooklyn Museum, New York; the Kunsthalle Basel, Switserland; Zacheta Gallery of Contemporary Art, Warsaw, and at the Prague Biennial.", "Much of Frantiska and Tim Gilman’s artwork is inspired by the phenomenon of loss and retention, how we live with it and what it means to the life of the mind." ],
+  "dc:source" : "https://imma.ie/artists/frantiska-gilman-tim-gilman/",
+  "schema:url" : "https://imma.ie/artists/frantiska-gilman-tim-gilman/",
+  "rdfs:label" : "Frantiska and Tim Gilman",
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

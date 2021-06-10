@@ -1,0 +1,83 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/mcintyre-mary",
+    "@type" : "foaf:Person",
+    "dc:description" : [ "Mary McIntyre was was selected for the Hennessy Art Fund for IMMA Collection 2018.", "Mary McIntyre was born in Northern Ireland, where she lives and works. She graduated from the University of Ulster, Belfast (MFA), where she is now a Reader in Fine Art. Her work was exhibited in The Nature of Things: Artists from Northern Ireland, Northern Ireland’s first presentation at the Venice Biennale in 2005. Exhibitions include Visual, Carlow; The MAC, Belfast; Belfast Exposed Gallery; Royal Hibernian Academy, Dublin; Helsinki Photography Biennial; The Courtauld Institute, London." ],
+    "dc:source" : "https://imma.ie/artists/mary-mcintyre/",
+    "schema:url" : "https://imma.ie/artists/mary-mcintyre/",
+    "rdfs:label" : "Mary McIntyre"
+  }, {
+    "@id" : "spice:artefact/the-path-of-distribution-point-of-light",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/mcintyre-mary",
+    "author" : "spice:agent/mcintyre-mary",
+    "schema:dateCreated" : "2015",
+    "schema:url" : "https://imma.ie/collection/the-path-of-distribution-point-of-light/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-path-of-distribution-point-of-light",
+    "arco-cd:hasTitle" : "The Path of Distribution Point of Light"
+  }, {
+    "@id" : "spice:attribution/the-path-of-distribution-point-of-light",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/mcintyre-mary"
+  } ],
+  "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/souter-camille",
+    "@type" : "foaf:Person",
+    "dc:description" : "Camille Souter was raised in Ireland and originally trained as a nurse at Guy’s Hospital London, before taking up painting in the mid 1950s. Though her usually small scale paintings appear abstract they are firmly based within reality and the everyday. Souter has exhibited extensively since the 1960s. Major retrospectives of her work were held at The Douglas Hyde Gallery, Dublin, in 1980 and at the Ulster Museum, Belfast, in 2000. In 2000 Souter received the IMMA Glen Dimplex award for contribution to visual arts in Ireland. She is an honorary member of the RHA and was elected Saoi of Aosdána in 2009.",
+    "dc:source" : "https://imma.ie/artists/camille-souter/",
+    "schema:birthDate" : "b.1929",
+    "schema:url" : "https://imma.ie/artists/camille-souter/",
+    "rdfs:label" : "Camille Souter"
+  }, {
+    "@id" : "spice:artefact/a-toucheen-of-snow",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/souter-camille",
+    "author" : "spice:agent/souter-camille",
+    "schema:dateCreated" : "1964",
+    "schema:url" : "https://imma.ie/collection/a-toucheen-of-snow/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/a-toucheen-of-snow",
+    "arco-cd:hasTitle" : "A Toucheen of Snow"
+  }, {
+    "@id" : "spice:artefact/aunt-biddys-flower-pots",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/souter-camille",
+    "author" : "spice:agent/souter-camille",
+    "schema:dateCreated" : "1968",
+    "schema:url" : "https://imma.ie/collection/aunt-biddys-flower-pots/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/aunt-biddys-flower-pots",
+    "arco-cd:hasTitle" : "Aunt Biddy’s Flower Pots"
+  }, {
+    "@id" : "spice:artefact/chioggia",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/souter-camille",
+    "author" : "spice:agent/souter-camille",
+    "schema:dateCreated" : "1958",
+    "schema:url" : "https://imma.ie/collection/chioggia/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/chioggia",
+    "arco-cd:hasTitle" : "Chioggia"
+  }, {
+    "@id" : "spice:artefact/make-believe-all-this-winter",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/souter-camille",
+    "author" : "spice:agent/souter-camille",
+    "schema:dateCreated" : "1964",
+    "schema:url" : "https://imma.ie/collection/make-believe-all-this-winter/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/make-believe-all-this-winter",
+    "arco-cd:hasTitle" : "Make Believe all This Winter"
+  }, {
+    "@id" : "spice:artefact/off-to-the-west",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/souter-camille",
+    "author" : "spice:agent/souter-camille",
+    "schema:dateCreated" : "1964",
+    "schema:url" : "https://imma.ie/collection/off-to-the-west/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/off-to-the-west",
+    "arco-cd:hasTitle" : "Off to the West"
+  }, {
+    "@id" : "spice:artefact/old-wheel-gate-entrance-to-estate",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/souter-camille",
+    "author" : "spice:agent/souter-camille",
+    "schema:dateCreated" : "1967",
+    "schema:url" : "https://imma.ie/collection/old-wheel-gate-entrance-to-estate/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/old-wheel-gate-entrance-to-estate",
+    "arco-cd:hasTitle" : "Old Wheel Gate Entrance to Estate"
+  }, {
+    "@id" : "spice:artefact/orange-cross",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/souter-camille",
+    "author" : "spice:agent/souter-camille",
+    "schema:dateCreated" : "1956",
+    "schema:url" : "https://imma.ie/collection/orange-cross/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/orange-cross",
+    "arco-cd:hasTitle" : "Orange Cross"
+  }, {
+    "@id" : "spice:artefact/over-the-bog",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/souter-camille",
+    "author" : "spice:agent/souter-camille",
+    "schema:dateCreated" : "1962",
+    "schema:url" : "https://imma.ie/collection/over-the-bog/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/over-the-bog",
+    "arco-cd:hasTitle" : "Over the Bog"
+  }, {
+    "@id" : "spice:artefact/shannon-series-painting",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/souter-camille",
+    "author" : "spice:agent/souter-camille",
+    "schema:dateCreated" : "1980",
+    "schema:url" : "https://imma.ie/collection/shannon-series-painting/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/shannon-series-painting",
+    "arco-cd:hasTitle" : "Shannon Series Painting"
+  }, {
+    "@id" : "spice:artefact/untitled-133",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/souter-camille",
+    "author" : "spice:agent/souter-camille",
+    "schema:dateCreated" : "1956",
+    "schema:url" : "https://imma.ie/collection/untitled-133/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-133",
+    "arco-cd:hasTitle" : "Untitled"
+  }, {
+    "@id" : "spice:artefact/untitled-134",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/souter-camille",
+    "author" : "spice:agent/souter-camille",
+    "schema:dateCreated" : "1956",
+    "schema:url" : "https://imma.ie/collection/untitled-134/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-134",
+    "arco-cd:hasTitle" : "Untitled"
+  }, {
+    "@id" : "spice:artefact/we-dont-want-to-see-blood",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/souter-camille",
+    "author" : "spice:agent/souter-camille",
+    "schema:dateCreated" : "2009",
+    "schema:url" : "https://imma.ie/collection/we-dont-want-to-see-blood/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/we-dont-want-to-see-blood",
+    "arco-cd:hasTitle" : "We Don’t Want to See Blood"
+  }, {
+    "@id" : "spice:attribution/a-toucheen-of-snow",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/souter-camille"
+  }, {
+    "@id" : "spice:attribution/aunt-biddys-flower-pots",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/souter-camille"
+  }, {
+    "@id" : "spice:attribution/chioggia",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/souter-camille"
+  }, {
+    "@id" : "spice:attribution/make-believe-all-this-winter",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/souter-camille"
+  }, {
+    "@id" : "spice:attribution/off-to-the-west",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/souter-camille"
+  }, {
+    "@id" : "spice:attribution/old-wheel-gate-entrance-to-estate",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/souter-camille"
+  }, {
+    "@id" : "spice:attribution/orange-cross",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/souter-camille"
+  }, {
+    "@id" : "spice:attribution/over-the-bog",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/souter-camille"
+  }, {
+    "@id" : "spice:attribution/shannon-series-painting",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/souter-camille"
+  }, {
+    "@id" : "spice:attribution/untitled-133",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/souter-camille"
+  }, {
+    "@id" : "spice:attribution/untitled-134",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/souter-camille"
+  }, {
+    "@id" : "spice:attribution/we-dont-want-to-see-blood",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/souter-camille"
+  } ],
+  "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

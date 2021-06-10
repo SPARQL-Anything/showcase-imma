@@ -1,0 +1,75 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/margaret-again",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "Working with film and slide projection, Irvine creates disjointed narratives which frustrate by offering fragmented clues and alternative viewpoints that can be read in a variety of ways, challenging the idea of a single coherent meaning. ‘Margaret Again’ is a film installation based on the book ‘In Watermelon Sugar’ by Richard Brautigan (1978). Irvine creates a scenario where Margaret, a spurned lover in the book, encounters her double and engages in a silent dialogue drawn from the 1939 film ‘An Awful Truth’ by Leo McCarey. The action is accompanied by a Stravinsky waltz.",
+    "dc:source" : "https://imma.ie/collection/margaret-again/",
+    "schema:creditText" : "IMMA Collection: Purchase, 1996",
+    "image" : "spice:documentation/margaret-again",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Video",
+    "arco-cd:hasInventory" : "IMMA.643"
+  }, {
+    "@id" : "spice:documentation/margaret-again",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Jaki Irvine, Margaret Again, 1995, Video, Dimensions variableDuration:, Collection Irish Museum of Modern Art, Purchase, 1996 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/986.jpg"
+  } ],
+  "@context" : {
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

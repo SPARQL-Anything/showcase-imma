@@ -1,0 +1,89 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/quinlan-linda",
+    "@type" : "foaf:Person",
+    "description" : "_:b0",
+    "dc:description" : "Irish artist Linda Quinlan (born 1977) creates fragile installations which reflect our mortality and the world we live in. Quinlan works onsite, and often reconfigures materials from previous installations to carefully compose environments that respond directly to the specifics of the exhibition space. Quinlan took part in the Artists’ Residency Programme at IMMA in 2009, and at the Centre Cultural Irlandais, Paris, in 2012. Her work has been exhibited at Careof Gallery, Milan; Domaine Pommery, Reims; the Douglas Hyde Gallery, Dublin and the Lewis Glucksman Gallery, Cork.",
+    "dc:source" : "https://imma.ie/artists/linda-quinlan/",
+    "schema:birthDate" : "b.1977",
+    "schema:url" : "https://imma.ie/artists/linda-quinlan/",
+    "rdfs:label" : "Linda Quinlan"
+  }, {
+    "@id" : "spice:artefact/it-adds-to-the-confusion-3",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/quinlan-linda",
+    "author" : "spice:agent/quinlan-linda",
+    "schema:dateCreated" : "2006",
+    "schema:url" : "https://imma.ie/collection/it-adds-to-the-confusion-3/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/it-adds-to-the-confusion-3",
+    "arco-cd:hasTitle" : "It Adds to The Confusion 3"
+  }, {
+    "@id" : "spice:attribution/it-adds-to-the-confusion-3",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/quinlan-linda"
+  } ],
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "@id"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

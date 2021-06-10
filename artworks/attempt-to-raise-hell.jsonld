@@ -1,0 +1,80 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/attempt-to-raise-hell",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "Dennis Oppenheim, one of the leading figures in the development of Conceptualism in the United States, had a solo exhibition, ‘Land and Body’ at IMMA in 2001. Oppenheim’s work brings together an extraordinary amalgam of mechanical devices, familiar objects, photographs, maps and performance to draw attention to political and social issues, and to the means of representation itself. The title of his 1990 retrospective at PS1 in New York, ‘And The Mind Grew Fingers’, is highly descriptive of the kind of work with which he is associated.",
+    "dc:source" : "https://imma.ie/collection/attempt-to-raise-hell/",
+    "schema:creditText" : "IMMA Collection: Purchase, 2001",
+    "image" : "spice:documentation/attempt-to-raise-hell",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Cast iron bell suspended from the ceiling, seated figure with coloured cast aluminium head and hands, cloth and felt suit, wooden base with timing mechanism",
+    "schema:size" : "182.8 x 182.8 x 121.9 cm",
+    "arco-cd:hasInventory" : "IMMA.1349"
+  }, {
+    "@id" : "spice:documentation/attempt-to-raise-hell",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Dennis Oppenheim, Attempt to Raise Hell, 1974, Cast iron bell suspended from the ceiling, seated figure with coloured cast aluminium head and hands, cloth and felt suit, wooden base with timing mechanism, 182.8 x 182.8 x 121.9 cm, Collection Irish Museum of Modern Art, Purchase, 2001 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/1501.jpg"
+  } ],
+  "@context" : {
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

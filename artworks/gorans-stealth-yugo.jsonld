@@ -1,0 +1,75 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/gorans-stealth-yugo",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "‘Goran’s Stealth Yugo’ began in 2006 during a residency in Belgrade, Serbia, where Phelan collaborated with Goran Krstiæ, a car designer from the Zastava/Yugo car factory in the city of Kragujevac. The work resembles a stage in the design process, where 3d modelling is used to approximate a structural framework for a new car design. This phase has been rendered in chrome-plated steel, supported by extended twin exhaust pipes, attached to an underwater stabilising base. The effect is both dynamic, as the car turns and points into the sky; as well as disguised, with the framework covered in Phelan’s signature fake pine twigs, drawn from the ‘blend-in’ techniques used in the telecommunications industry to hide mobile phone masts (generally as fake trees).",
+    "dc:source" : "https://imma.ie/collection/gorans-stealth-yugo/",
+    "schema:creditText" : "IMMA Collection: Donation. Made in colaboration with Goran Krstic, car designer from Zastava/Yugo Car Factory in Kragujevac, Serbia. 2009, 2009",
+    "image" : "spice:documentation/gorans-stealth-yugo",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Chrome plated steel, rubber, plastic",
+    "arco-cd:hasInventory" : "IMMA.3292"
+  }, {
+    "@id" : "spice:documentation/gorans-stealth-yugo",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Alan Phelan, Goran’s Stealth Yugo, 2009, Chrome plated steel, rubber, plastic, Collection Irish Museum of Modern Art, Donation. Made in colaboration with Goran Krstic, car designer from Zastava/Yugo Car Factory in Kragujevac, Serbia. 2009, 2009 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/4578.jpg"
+  } ],
+  "@context" : {
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

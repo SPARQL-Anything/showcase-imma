@@ -1,0 +1,44 @@
+{
+  "@id" : "spice:agent/moutray-kyle-georgina",
+  "@type" : "foaf:Person",
+  "dc:description" : "Irish artist Georgina Moutray Kyle (1865-1950) studied art at Academie Colarossi, Paris. A versatile painter with a distinctive style based on heavy outline and a strong emphasis on shape, Moutray Kyle’s subject matter consisted of portraits, still life, landscapes, harbour views and market scenes. Ardglass in Co. Down, Concarneau in Brittany, and Volendam in Holland were among her favourite painting locations. Moutray Kyle showed with the Belfast Art Society from 1894 to 1928. A significant posthumous exhibition of her work was held at The Naughton Gallery, Queen's University Belfast, in 2004.",
+  "dc:source" : "https://imma.ie/artists/georgina-moutray-kyle/",
+  "schema:birthDate" : "1865–1950",
+  "schema:url" : "https://imma.ie/artists/georgina-moutray-kyle/",
+  "rdfs:label" : "Georgina Moutray Kyle",
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

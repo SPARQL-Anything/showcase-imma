@@ -1,0 +1,80 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/7-7-91-in-memory-of-robin-walker",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "‘7.7.91 For Robin Walker’ is a drawing in pastel in keeping with the robust quality of Sean Scully’s larger canvases. In this work the artist has built up a velvety texture, where layers of chalky pigment are roughly applied with softened edges revealing the paper underneath. The tones of orange ochre, deep petrol blue, pinkish whites and charcoal create a soothing sense of order. Scully’s vertical stripes inset with boxes of horizontal stripes nestle comfortably without appearing static.",
+    "dc:source" : "https://imma.ie/collection/7-7-91-in-memory-of-robin-walker/",
+    "schema:creditText" : "IMMA Collection: Donated by the artist, 1991",
+    "image" : "spice:documentation/7-7-91-in-memory-of-robin-walker",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Pastel on paper",
+    "schema:size" : "101 x 152 cm",
+    "arco-cd:hasInventory" : "IMMA.35"
+  }, {
+    "@id" : "spice:documentation/7-7-91-in-memory-of-robin-walker",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Sean Scully, 7/7/91 in Memory of Robin Walker, 1991, Pastel on paper, 101 x 152 cm, Collection Irish Museum of Modern Art, Donated by the artist, 1991 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/657.jpg"
+  } ],
+  "@context" : {
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

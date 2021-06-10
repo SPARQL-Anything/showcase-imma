@@ -1,0 +1,80 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/the-axe-and-the-waving-girl",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "‘The Axe (and the Waving Girl)’ takes on the subject of the fairy tale, a subject Maher returns to again and again. The young female figure is waving to an axe, which is leaning precariously against a tree. Distance and closeness, and the contrast in scale, unsettle and disrupt the natural balance, as much as the apparent menace.",
+    "dc:source" : "https://imma.ie/collection/the-axe-and-the-waving-girl/",
+    "schema:creditText" : "IMMA Collection: Purchase, 2004",
+    "image" : "spice:documentation/the-axe-and-the-waving-girl",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Painted bronze",
+    "schema:size" : "Dimensions variable 295 x 74 x 13 cm Axe 42 x 18 x 11 cm Girl",
+    "arco-cd:hasInventory" : "IMMA.1653"
+  }, {
+    "@id" : "spice:documentation/the-axe-and-the-waving-girl",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Alice Maher, The Axe (and The Waving Girl), 2003, Painted bronze, Dimensions variable 295 x 74 x 13 cm Axe 42 x 18 x 11 cm Girl, Collection Irish Museum of Modern Art, Purchase, 2004 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2020/02/1633.jpg"
+  } ],
+  "@context" : {
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

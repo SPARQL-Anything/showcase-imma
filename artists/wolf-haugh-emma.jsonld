@@ -1,0 +1,39 @@
+{
+  "@id" : "spice:agent/wolf-haugh-emma",
+  "@type" : "foaf:Person",
+  "dc:description" : [ "Emma Wolf Haugh is a visual artist and educator based in Dublin and Berlin. Working across disciplines she weaves together installation, performance, publishing and collaborative workshop techniques. Haugh is interested in re-orienting attention in relation to cultural narratives and develops her work from a working class-queer-feminist questioning of what is missing? A continued engagement with club culture and dyke aesthetics informs the collective making of temporary, autonomous spaces. A background in working with Augusto Boals’ Theatre of the Oppressed has inflected her work with the particular quality of overlapping critique and proposition making towards shared spaces of potential and alterity.", "Emma Wolf Haugh is a visual artist and educator based in Dublin and Berlin. Working across disciplines she weaves together installation, performance, publishing and collaborative workshop techniques. Haugh is interested in re-orienting attention in relation to cultural narratives and develops her work from a working class-queer-feminist questioning of what is missing? " ],
+  "dc:source" : "https://imma.ie/artists/emma-wolf-haugh/",
+  "schema:url" : "https://imma.ie/artists/emma-wolf-haugh/",
+  "rdfs:label" : "Emma Wolf Haugh",
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

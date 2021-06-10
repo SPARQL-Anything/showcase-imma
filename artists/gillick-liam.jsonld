@@ -1,0 +1,172 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/gillick-liam",
+    "@type" : "foaf:Person",
+    "dc:description" : "British conceptual artist Liam Gillick attended Hertfordshire College of Art and Goldsmiths College, London. His practice to date has encompassed a wide range of media and activities, including sculpture, writing, architectural and graphic design, film, and music, as well as various critical and curatorial projects. Gillick's work as a whole is marked by a fondness for diversions and distractions, tangents and evasions. He was nominated for the Turner Prize in 2002. Gillick lives in New York and his work is included in many public collections.",
+    "dc:source" : "https://imma.ie/artists/liam-gillick/",
+    "schema:birthDate" : "b.1964",
+    "schema:url" : "https://imma.ie/artists/liam-gillick/",
+    "rdfs:label" : "Liam Gillick"
+  }, {
+    "@id" : "spice:artefact/a-game-of-war-structure",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/gillick-liam",
+    "author" : "spice:agent/gillick-liam",
+    "schema:dateCreated" : "2011",
+    "schema:url" : "https://imma.ie/collection/a-game-of-war-structure/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/a-game-of-war-structure",
+    "arco-cd:hasTitle" : "A Game of War Structure"
+  }, {
+    "@id" : "spice:artefact/factory-in-the-snow-platform",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/gillick-liam",
+    "author" : "spice:agent/gillick-liam",
+    "schema:dateCreated" : "2006",
+    "schema:url" : "https://imma.ie/collection/factory-in-the-snow-platform/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/factory-in-the-snow-platform",
+    "arco-cd:hasTitle" : "Factory in the Snow Platform"
+  }, {
+    "@id" : "spice:artefact/literally-based-on-h-z",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/gillick-liam",
+    "author" : "spice:agent/gillick-liam",
+    "schema:dateCreated" : "2006",
+    "schema:url" : "https://imma.ie/collection/literally-based-on-h-z/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/literally-based-on-h-z",
+    "arco-cd:hasTitle" : "Literally Based on H.Z."
+  }, {
+    "@id" : "spice:artefact/nail-sewer-legs",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/gillick-liam",
+    "author" : "spice:agent/gillick-liam",
+    "schema:dateCreated" : "2006",
+    "schema:url" : "https://imma.ie/collection/nail-sewer-legs/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/nail-sewer-legs",
+    "arco-cd:hasTitle" : "Nail Sewer Legs"
+  }, {
+    "@id" : "spice:artefact/red-snow",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/gillick-liam",
+    "author" : "spice:agent/gillick-liam",
+    "schema:dateCreated" : "2010",
+    "schema:url" : "https://imma.ie/collection/red-snow/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/red-snow",
+    "arco-cd:hasTitle" : "Red snow"
+  }, {
+    "@id" : "spice:artefact/signage-for-a-35-floor-social-centre",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/gillick-liam",
+    "author" : "spice:agent/gillick-liam",
+    "schema:dateCreated" : "2006",
+    "schema:url" : "https://imma.ie/collection/signage-for-a-35-floor-social-centre/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/signage-for-a-35-floor-social-centre",
+    "arco-cd:hasTitle" : "Signage for a 35 Floor Social Centre"
+  }, {
+    "@id" : "spice:artefact/untitled-42",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/gillick-liam",
+    "author" : "spice:agent/gillick-liam",
+    "schema:dateCreated" : "1994",
+    "schema:url" : "https://imma.ie/collection/untitled-42/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-42",
+    "arco-cd:hasTitle" : "Untitled"
+  }, {
+    "@id" : "spice:attribution/a-game-of-war-structure",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/gillick-liam"
+  }, {
+    "@id" : "spice:attribution/factory-in-the-snow-platform",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/gillick-liam"
+  }, {
+    "@id" : "spice:attribution/literally-based-on-h-z",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/gillick-liam"
+  }, {
+    "@id" : "spice:attribution/nail-sewer-legs",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/gillick-liam"
+  }, {
+    "@id" : "spice:attribution/red-snow",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/gillick-liam"
+  }, {
+    "@id" : "spice:attribution/signage-for-a-35-floor-social-centre",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/gillick-liam"
+  }, {
+    "@id" : "spice:attribution/untitled-42",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/gillick-liam"
+  } ],
+  "@context" : {
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

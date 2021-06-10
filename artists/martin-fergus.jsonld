@@ -1,0 +1,144 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/martin-fergus",
+    "@type" : "foaf:Person",
+    "dc:description" : "Irish artist Fergus Martin attended the Dun Laoghaire School of Art from 1972 to 1976. He then lived in Italy between 1979 and 1988. Encompassing paint, sculpture and photography, Martin’s visual art practice considers ideas of space, form, material and the surrounding environment. He has exhibited nationally and internationally and his work is represented in significant public and private collections, including Dublin City Gallery The Hugh Lane; the Arts Council of Ireland and the Office of Public Works. Martin is an elected member of Aosdána.",
+    "dc:source" : "https://imma.ie/artists/fergus-martin/",
+    "schema:birthDate" : "b.1955",
+    "schema:url" : "https://imma.ie/artists/fergus-martin/",
+    "rdfs:label" : "Fergus Martin"
+  }, {
+    "@id" : "spice:artefact/house-in-clare",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/martin-fergus",
+    "author" : "spice:agent/martin-fergus",
+    "schema:dateCreated" : "2010",
+    "schema:url" : "https://imma.ie/collection/house-in-clare/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/house-in-clare",
+    "arco-cd:hasTitle" : "House in Clare"
+  }, {
+    "@id" : "spice:artefact/office-ii",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/martin-fergus",
+    "author" : "spice:agent/martin-fergus",
+    "schema:dateCreated" : "1992",
+    "schema:url" : "https://imma.ie/collection/office-ii/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/office-ii",
+    "arco-cd:hasTitle" : "Office II"
+  }, {
+    "@id" : "spice:artefact/table",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/martin-fergus",
+    "author" : "spice:agent/martin-fergus",
+    "schema:dateCreated" : "2009",
+    "schema:url" : "https://imma.ie/collection/table/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/table",
+    "arco-cd:hasTitle" : "Table"
+  }, {
+    "@id" : "spice:artefact/untitled-24",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/martin-fergus",
+    "author" : "spice:agent/martin-fergus",
+    "schema:dateCreated" : "1999",
+    "schema:url" : "https://imma.ie/collection/untitled-24/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-24",
+    "arco-cd:hasTitle" : "Untitled"
+  }, {
+    "@id" : "spice:artefact/untitled-i",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/martin-fergus",
+    "author" : "spice:agent/martin-fergus",
+    "schema:dateCreated" : "1996",
+    "schema:url" : "https://imma.ie/collection/untitled-i/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-i",
+    "arco-cd:hasTitle" : "Untitled I"
+  }, {
+    "@id" : "spice:attribution/house-in-clare",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/martin-fergus"
+  }, {
+    "@id" : "spice:attribution/office-ii",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/martin-fergus"
+  }, {
+    "@id" : "spice:attribution/table",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/martin-fergus"
+  }, {
+    "@id" : "spice:attribution/untitled-24",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/martin-fergus"
+  }, {
+    "@id" : "spice:attribution/untitled-i",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/martin-fergus"
+  } ],
+  "@context" : {
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

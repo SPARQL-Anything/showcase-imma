@@ -1,0 +1,39 @@
+{
+  "@id" : "spice:agent/kavanagh-laurence",
+  "@type" : "foaf:Person",
+  "dc:description" : [ "Laurence Kavanagh’s work develops themes relating sculpture to film, playing on a constant shift between the human desire for both past and future, whilst fixing these moments to a specific location. The use of film in Kavanagh’s work serves to create a framework from which to make three-dimensional spaces out of flattened, constructed images where events all occur on top of one another. The sculptures made during this process balance between real and imagined space by the physical transformation of everyday objects coupled with the transference of memory through imagery. These moments, scenes and objects are not literally recreated, but continually overlay with one another, forming and re-forming new narratives as the viewer moves in and around the artwork.", "Laurence Kavanagh’s work develops themes relating sculpture to film, playing on a constant shift between the human desire for both past and future, whilst fixing these moments to a specific location. " ],
+  "dc:source" : "https://imma.ie/artists/laurence-kavanagh/",
+  "schema:url" : "https://imma.ie/artists/laurence-kavanagh/",
+  "rdfs:label" : "Laurence Kavanagh",
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

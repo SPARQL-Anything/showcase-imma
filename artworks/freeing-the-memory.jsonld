@@ -1,0 +1,85 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/freeing-the-memory",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "‘Freeing the Memory’ is the second of three significant performances enacted in 1976 in which Marina Abramović attempted to achieve a mental cleaning through the exhaustion of the three main faculties of expression, voice, language and body. In this piece, Abramović said every individual word she could recall until she could no longer continue without repetition. The mental strain of this act, which lasted ninety minutes, allowed the artist to exhaust her consciousness into a state of complete blankness.",
+    "dc:source" : "https://imma.ie/collection/freeing-the-memory/",
+    "schema:creditText" : "IMMA Collection: Purchase, 1995",
+    "image" : "spice:documentation/freeing-the-memory",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Framed black and white photograph with framed letter press text panel",
+    "schema:size" : "Image framed 124.5 x 61 cm Text framed 26 x 18.4 cm",
+    "schema:version" : "Edition 1/16, 3 AP's",
+    "arco-cd:hasInventory" : "IMMA.482"
+  }, {
+    "@id" : "spice:documentation/freeing-the-memory",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Marina Abramović, Freeing the Memory, 1975, Framed black and white photograph with framed letter press text panel, Image framed 124.5 x 61 cm Text framed 26 x 18.4 cm, Collection Irish Museum of Modern Art, Purchase, 1995 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/850.jpg"
+  } ],
+  "@context" : {
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "version" : {
+      "@id" : "http://schema.org/version",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/it-adds-to-the-confusion-3",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "“The detailed installations I create describe a certain fragility that reflects our mortality and the world we live in. I am interested in the physical and psychological tensions set up between contrasting components, arrangement of objects in relation to the space. These carefully composed environments comprise of multiple elements, which often respond directly to the specifics of a space. The work endeavours to reconcile a sophisticated level of formality, while maintaining a spontaneity and inventiveness, through a sensitivity to materials and place. One is compelled to draw closer and investigate intimately the many objects, textures, and curios that send the viewer on a journey through the individual collections that make up these complex and imaginative installations.",
+    "dc:source" : "https://imma.ie/collection/it-adds-to-the-confusion-3/",
+    "schema:creditText" : "IMMA Collection: Purchase, 2006",
+    "image" : "spice:documentation/it-adds-to-the-confusion-3",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "1950's Haslev table, resin, ceramic, mirror, gold leaf and watercolour paint box",
+    "schema:size" : "80 x 34 x 48 cm",
+    "arco-cd:hasInventory" : "IMMA.1982"
+  }, {
+    "@id" : "spice:documentation/it-adds-to-the-confusion-3",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Linda Quinlan, It Adds to The Confusion 3, 2006, 1950's Haslev table, resin, ceramic, mirror, gold leaf and watercolour paint box, 80 x 34 x 48 cm, Collection Irish Museum of Modern Art, Purchase, 2006 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/234.jpg"
+  } ],
+  "@context" : {
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/budnik-daniel",
+    "@type" : "foaf:Person",
+    "dc:description" : "American artist Dan Budnik studied at the Art Students League of New York in the 1950s. He then worked for Magnum between 1957 and 1964. Budnik has photographed for many leading journals including ‘LIFE’, ‘Newsweek’, ‘Sports Illustrated’ and ‘Vogue’. He is known for his intimate portrayals of prominent groups including the Abstract Expressionists of the New York School and key figures in the civil rights movement. He has received many awards and is included in significant photographic collections.",
+    "dc:source" : "https://imma.ie/artists/daniel-budnik/",
+    "schema:birthDate" : "b.1933",
+    "schema:url" : "https://imma.ie/artists/daniel-budnik/",
+    "rdfs:label" : "Daniel Budnik"
+  }, {
+    "@id" : "spice:artefact/barbara-novak-and-brian-odoherty-at-112-greene-street",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/budnik-daniel",
+    "author" : "spice:agent/budnik-daniel",
+    "schema:dateCreated" : "1973",
+    "schema:url" : "https://imma.ie/collection/barbara-novak-and-brian-odoherty-at-112-greene-street/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/barbara-novak-and-brian-odoherty-at-112-greene-street",
+    "arco-cd:hasTitle" : "Barbara Novak and Brian O’Doherty at 112 Greene Street"
+  }, {
+    "@id" : "spice:artefact/no-more-storms-in-75",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/budnik-daniel",
+    "author" : "spice:agent/budnik-daniel",
+    "schema:dateCreated" : "1974",
+    "schema:url" : "https://imma.ie/collection/no-more-storms-in-75/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/no-more-storms-in-75",
+    "arco-cd:hasTitle" : "No More Storms in 75′"
+  }, {
+    "@id" : "spice:attribution/barbara-novak-and-brian-odoherty-at-112-greene-street",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/budnik-daniel"
+  }, {
+    "@id" : "spice:attribution/no-more-storms-in-75",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/budnik-daniel"
+  } ],
+  "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

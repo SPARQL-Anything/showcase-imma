@@ -1,0 +1,80 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/exposed-painting-charcoal-grey-yellow-oxide-asphalt",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "This painting is from a series called ‘Exposed Paintings’ and was purchased following an exhibition of Callum Innes’s work at IMMA in 1999. While Innes’s work is formal, the process of making involves working methods that are subject to what he has described as “organised chance”*. Innes obviously delights in paint and in his opinion the most important thing he learnt in art school was how to mix paints in the traditional way: almost a lost art as nowadays paint is readily available and many artists use it straight from the tube. ",
+    "dc:source" : "https://imma.ie/collection/exposed-painting-charcoal-grey-yellow-oxide-asphalt/",
+    "schema:creditText" : "IMMA Collection: Purchase, 1999",
+    "image" : "spice:documentation/exposed-painting-charcoal-grey-yellow-oxide-asphalt",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Oil on canvas",
+    "schema:size" : "217.5 x 207.5 cm",
+    "arco-cd:hasInventory" : "IMMA.860"
+  }, {
+    "@id" : "spice:documentation/exposed-painting-charcoal-grey-yellow-oxide-asphalt",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Callum Innes, Exposed Painting, Charcoal Grey / Yellow Oxide / Asphalt, 1999, Oil on canvas, 217.5 x 207.5 cm, Collection Irish Museum of Modern Art, Purchase, 1999 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2019/10/1133.jpg"
+  } ],
+  "@context" : {
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

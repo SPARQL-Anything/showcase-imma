@@ -1,0 +1,942 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/middleton-colin",
+    "@type" : "foaf:Person",
+    "dc:description" : "Northern Irish painter Colin Middleton studied at Belfast College of Art and from 1947 worked as an art teacher. Middleton’s prolific output in a variety of modernist styles is characterised by a strongly surrealist vision and lifelong interest in documenting the lives of ordinary people. A major retrospective of Middleton’s work took place at the Ulster Museum and Dublin City Gallery The Hugh Lane in 1976. An extensive exhibition ‘Colin Middleton: Paintings and Drawings’ was held at IMMA in 2001.",
+    "dc:source" : "https://imma.ie/artists/colin-middleton/",
+    "schema:birthDate" : "1910–1983",
+    "schema:url" : "https://imma.ie/artists/colin-middleton/",
+    "rdfs:label" : "Colin Middleton"
+  }, {
+    "@id" : "spice:artefact/ardglass",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1957",
+    "schema:url" : "https://imma.ie/collection/ardglass/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/ardglass",
+    "arco-cd:hasTitle" : "Ardglass"
+  }, {
+    "@id" : "spice:artefact/atalanta",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1967",
+    "schema:url" : "https://imma.ie/collection/atalanta/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/atalanta",
+    "arco-cd:hasTitle" : "Atalanta"
+  }, {
+    "@id" : "spice:artefact/bon-voyage",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1971",
+    "schema:url" : "https://imma.ie/collection/bon-voyage/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/bon-voyage",
+    "arco-cd:hasTitle" : "Bon Voyage"
+  }, {
+    "@id" : "spice:artefact/by-the-sea-wall",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1959",
+    "schema:url" : "https://imma.ie/collection/by-the-sea-wall/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/by-the-sea-wall",
+    "arco-cd:hasTitle" : "By the Sea Wall"
+  }, {
+    "@id" : "spice:artefact/christmas-morning-ballyhalbert-no-7",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1944",
+    "schema:url" : "https://imma.ie/collection/christmas-morning-ballyhalbert-no-7/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/christmas-morning-ballyhalbert-no-7",
+    "arco-cd:hasTitle" : "Christmas Morning: Ballyhalbert no. 7"
+  }, {
+    "@id" : "spice:artefact/dancing-figures",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1959",
+    "schema:url" : "https://imma.ie/collection/dancing-figures/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/dancing-figures",
+    "arco-cd:hasTitle" : "Dancing Figures"
+  }, {
+    "@id" : "spice:artefact/encounter-with-half-a-horse",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1955",
+    "schema:url" : "https://imma.ie/collection/encounter-with-half-a-horse/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/encounter-with-half-a-horse",
+    "arco-cd:hasTitle" : "Encounter with Half a Horse"
+  }, {
+    "@id" : "spice:artefact/fair-head",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1963",
+    "schema:url" : "https://imma.ie/collection/fair-head/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/fair-head",
+    "arco-cd:hasTitle" : "Fair Head"
+  }, {
+    "@id" : "spice:artefact/farini-church-hill",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1959",
+    "schema:url" : "https://imma.ie/collection/farini-church-hill/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/farini-church-hill",
+    "arco-cd:hasTitle" : "Farini Church Hill"
+  }, {
+    "@id" : "spice:artefact/fermanagh-bog",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1965",
+    "schema:url" : "https://imma.ie/collection/fermanagh-bog/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/fermanagh-bog",
+    "arco-cd:hasTitle" : "Fermanagh Bog"
+  }, {
+    "@id" : "spice:artefact/figure-with-owls",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1970",
+    "schema:url" : "https://imma.ie/collection/figure-with-owls/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/figure-with-owls",
+    "arco-cd:hasTitle" : "Figure with Owls"
+  }, {
+    "@id" : "spice:artefact/fish-and-chips",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1939",
+    "schema:url" : "https://imma.ie/collection/fish-and-chips/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/fish-and-chips",
+    "arco-cd:hasTitle" : "Fish and Chips"
+  }, {
+    "@id" : "spice:artefact/girl-at-piano",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1959",
+    "schema:url" : "https://imma.ie/collection/girl-at-piano/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/girl-at-piano",
+    "arco-cd:hasTitle" : "Girl at Piano"
+  }, {
+    "@id" : "spice:artefact/girl-in-a-blue-striped-dress",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1941",
+    "schema:url" : "https://imma.ie/collection/girl-in-a-blue-striped-dress/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/girl-in-a-blue-striped-dress",
+    "arco-cd:hasTitle" : "Girl in a Blue Striped Dress"
+  }, {
+    "@id" : "spice:artefact/glendowan",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1959",
+    "schema:url" : "https://imma.ie/collection/glendowan/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/glendowan",
+    "arco-cd:hasTitle" : "Glendowan"
+  }, {
+    "@id" : "spice:artefact/glendowan-2",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1959",
+    "schema:url" : "https://imma.ie/collection/glendowan-2/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/glendowan-2",
+    "arco-cd:hasTitle" : "Glendowan"
+  }, {
+    "@id" : "spice:artefact/glendowan-3",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1959",
+    "schema:url" : "https://imma.ie/collection/glendowan-3/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/glendowan-3",
+    "arco-cd:hasTitle" : "Glendowan"
+  }, {
+    "@id" : "spice:artefact/glendowan-4",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1959",
+    "schema:url" : "https://imma.ie/collection/glendowan-4/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/glendowan-4",
+    "arco-cd:hasTitle" : "Glendowan"
+  }, {
+    "@id" : "spice:artefact/in-relax-mood",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1961",
+    "schema:url" : "https://imma.ie/collection/in-relax-mood/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/in-relax-mood",
+    "arco-cd:hasTitle" : "In Relax Mood"
+  }, {
+    "@id" : "spice:artefact/in-retrospect",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1976",
+    "schema:url" : "https://imma.ie/collection/in-retrospect/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/in-retrospect",
+    "arco-cd:hasTitle" : "In Retrospect"
+  }, {
+    "@id" : "spice:artefact/kate-at-the-piano",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1957",
+    "schema:url" : "https://imma.ie/collection/kate-at-the-piano/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/kate-at-the-piano",
+    "arco-cd:hasTitle" : "Kate at the Piano"
+  }, {
+    "@id" : "spice:artefact/kate-at-the-piano-iv",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1957",
+    "schema:url" : "https://imma.ie/collection/kate-at-the-piano-iv/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/kate-at-the-piano-iv",
+    "arco-cd:hasTitle" : "Kate at the Piano IV"
+  }, {
+    "@id" : "spice:artefact/kate-untitled",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1961",
+    "schema:url" : "https://imma.ie/collection/kate-untitled/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/kate-untitled",
+    "arco-cd:hasTitle" : "Kate (Untitled)"
+  }, {
+    "@id" : "spice:artefact/landscape-co-down-1943",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1943",
+    "schema:url" : "https://imma.ie/collection/landscape-co-down-1943/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/landscape-co-down-1943",
+    "arco-cd:hasTitle" : "Landscape CO DOWN, 1943"
+  }, {
+    "@id" : "spice:artefact/last-still-life",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1983",
+    "schema:url" : "https://imma.ie/collection/last-still-life/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/last-still-life",
+    "arco-cd:hasTitle" : "Last Still Life"
+  }, {
+    "@id" : "spice:artefact/legend-iii-queen-with-geese-1970",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1970",
+    "schema:url" : "https://imma.ie/collection/legend-iii-queen-with-geese-1970/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/legend-iii-queen-with-geese-1970",
+    "arco-cd:hasTitle" : "Legend III, Queen With Geese, 1970"
+  }, {
+    "@id" : "spice:artefact/litle-eves-apple",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1959",
+    "schema:url" : "https://imma.ie/collection/litle-eves-apple/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/litle-eves-apple",
+    "arco-cd:hasTitle" : "Litle Eve’s Apple"
+  }, {
+    "@id" : "spice:artefact/may-herring-for-kate-1971",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1971",
+    "schema:url" : "https://imma.ie/collection/may-herring-for-kate-1971/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/may-herring-for-kate-1971",
+    "arco-cd:hasTitle" : "May Herring for Kate, 1971"
+  }, {
+    "@id" : "spice:artefact/mooncatcher",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1958",
+    "schema:url" : "https://imma.ie/collection/mooncatcher/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/mooncatcher",
+    "arco-cd:hasTitle" : "Mooncatcher"
+  }, {
+    "@id" : "spice:artefact/mooncatcher-family",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1959",
+    "schema:url" : "https://imma.ie/collection/mooncatcher-family/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/mooncatcher-family",
+    "arco-cd:hasTitle" : "Mooncatcher family"
+  }, {
+    "@id" : "spice:artefact/opus-1-no-15-1941",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1941",
+    "schema:url" : "https://imma.ie/collection/opus-1-no-15-1941/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/opus-1-no-15-1941",
+    "arco-cd:hasTitle" : "Opus 1, No. 15, 1941"
+  }, {
+    "@id" : "spice:artefact/opus-1-no-16-group-ii-the-childs-brain",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1940",
+    "schema:url" : "https://imma.ie/collection/opus-1-no-16-group-ii-the-childs-brain/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/opus-1-no-16-group-ii-the-childs-brain",
+    "arco-cd:hasTitle" : "(Opus 1, No. 16, Group II), The Child’s Brain"
+  }, {
+    "@id" : "spice:artefact/opus-iii-no-4",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1938",
+    "schema:url" : "https://imma.ie/collection/opus-iii-no-4/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/opus-iii-no-4",
+    "arco-cd:hasTitle" : "Opus III, No. 4"
+  }, {
+    "@id" : "spice:artefact/people",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1959",
+    "schema:url" : "https://imma.ie/collection/people/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/people",
+    "arco-cd:hasTitle" : "People"
+  }, {
+    "@id" : "spice:artefact/plants-i",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1959",
+    "schema:url" : "https://imma.ie/collection/plants-i/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/plants-i",
+    "arco-cd:hasTitle" : "Plants I"
+  }, {
+    "@id" : "spice:artefact/plants-ii",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1959",
+    "schema:url" : "https://imma.ie/collection/plants-ii/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/plants-ii",
+    "arco-cd:hasTitle" : "Plants II"
+  }, {
+    "@id" : "spice:artefact/sadie-and-may-landgirls",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1947",
+    "schema:url" : "https://imma.ie/collection/sadie-and-may-landgirls/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/sadie-and-may-landgirls",
+    "arco-cd:hasTitle" : "Sadie and May, Landgirls"
+  }, {
+    "@id" : "spice:artefact/seated-figures",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1959",
+    "schema:url" : "https://imma.ie/collection/seated-figures/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/seated-figures",
+    "arco-cd:hasTitle" : "Seated Figures"
+  }, {
+    "@id" : "spice:artefact/spanish-circus-iii",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1920",
+    "schema:url" : "https://imma.ie/collection/spanish-circus-iii/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/spanish-circus-iii",
+    "arco-cd:hasTitle" : "Spanish Circus III"
+  }, {
+    "@id" : "spice:artefact/the-family",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1958",
+    "schema:url" : "https://imma.ie/collection/the-family/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-family",
+    "arco-cd:hasTitle" : "The Family"
+  }, {
+    "@id" : "spice:artefact/the-family-3",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1957",
+    "schema:url" : "https://imma.ie/collection/the-family-3/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-family-3",
+    "arco-cd:hasTitle" : "The Family"
+  }, {
+    "@id" : "spice:artefact/the-family-4",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1940",
+    "schema:url" : "https://imma.ie/collection/the-family-4/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-family-4",
+    "arco-cd:hasTitle" : "The Family"
+  }, {
+    "@id" : "spice:artefact/the-singer",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1959",
+    "schema:url" : "https://imma.ie/collection/the-singer/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-singer",
+    "arco-cd:hasTitle" : "The Singer"
+  }, {
+    "@id" : "spice:artefact/the-sisters",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1959",
+    "schema:url" : "https://imma.ie/collection/the-sisters/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-sisters",
+    "arco-cd:hasTitle" : "The Sisters"
+  }, {
+    "@id" : "spice:artefact/untitled-120",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1960",
+    "schema:url" : "https://imma.ie/collection/untitled-120/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-120",
+    "arco-cd:hasTitle" : "Untitled"
+  }, {
+    "@id" : "spice:artefact/untitled-121",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1960",
+    "schema:url" : "https://imma.ie/collection/untitled-121/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-121",
+    "arco-cd:hasTitle" : "Untitled"
+  }, {
+    "@id" : "spice:artefact/untitled-122",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1960",
+    "schema:url" : "https://imma.ie/collection/untitled-122/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-122",
+    "arco-cd:hasTitle" : "Untitled"
+  }, {
+    "@id" : "spice:artefact/untitled-123",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1959",
+    "schema:url" : "https://imma.ie/collection/untitled-123/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-123",
+    "arco-cd:hasTitle" : "Untitled"
+  }, {
+    "@id" : "spice:artefact/untitled-124",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1959",
+    "schema:url" : "https://imma.ie/collection/untitled-124/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-124",
+    "arco-cd:hasTitle" : "Untitled"
+  }, {
+    "@id" : "spice:artefact/untitled-125",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1959",
+    "schema:url" : "https://imma.ie/collection/untitled-125/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-125",
+    "arco-cd:hasTitle" : "Untitled"
+  }, {
+    "@id" : "spice:artefact/untitled-126",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1959",
+    "schema:url" : "https://imma.ie/collection/untitled-126/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-126",
+    "arco-cd:hasTitle" : "Untitled"
+  }, {
+    "@id" : "spice:artefact/untitled-127",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1959",
+    "schema:url" : "https://imma.ie/collection/untitled-127/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-127",
+    "arco-cd:hasTitle" : "Untitled"
+  }, {
+    "@id" : "spice:artefact/untitled-128",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1958",
+    "schema:url" : "https://imma.ie/collection/untitled-128/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-128",
+    "arco-cd:hasTitle" : "Untitled"
+  }, {
+    "@id" : "spice:artefact/untitled-129",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1958",
+    "schema:url" : "https://imma.ie/collection/untitled-129/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-129",
+    "arco-cd:hasTitle" : "Untitled"
+  }, {
+    "@id" : "spice:artefact/untitled-130",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1958",
+    "schema:url" : "https://imma.ie/collection/untitled-130/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-130",
+    "arco-cd:hasTitle" : "Untitled"
+  }, {
+    "@id" : "spice:artefact/untitled-131",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1958",
+    "schema:url" : "https://imma.ie/collection/untitled-131/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-131",
+    "arco-cd:hasTitle" : "Untitled"
+  }, {
+    "@id" : "spice:artefact/untitled-132",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1957",
+    "schema:url" : "https://imma.ie/collection/untitled-132/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-132",
+    "arco-cd:hasTitle" : "Untitled"
+  }, {
+    "@id" : "spice:artefact/untitled-138",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1948",
+    "schema:url" : "https://imma.ie/collection/untitled-138/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-138",
+    "arco-cd:hasTitle" : "Untitled"
+  }, {
+    "@id" : "spice:artefact/untitled-139",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1944",
+    "schema:url" : "https://imma.ie/collection/untitled-139/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-139",
+    "arco-cd:hasTitle" : "Untitled"
+  }, {
+    "@id" : "spice:artefact/untitled-ardglass-fishermen",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1947",
+    "schema:url" : "https://imma.ie/collection/untitled-ardglass-fishermen/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-ardglass-fishermen",
+    "arco-cd:hasTitle" : "Untitled (Ardglass Fishermen)"
+  }, {
+    "@id" : "spice:artefact/untitled-figures-in-a-landscape",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1944",
+    "schema:url" : "https://imma.ie/collection/untitled-figures-in-a-landscape/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-figures-in-a-landscape",
+    "arco-cd:hasTitle" : "Untitled (Figures in a landscape)"
+  }, {
+    "@id" : "spice:artefact/woman-carnmoon",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "schema:dateCreated" : "1958",
+    "schema:url" : "https://imma.ie/collection/woman-carnmoon/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/woman-carnmoon",
+    "arco-cd:hasTitle" : "Woman: Carnmoon"
+  }, {
+    "@id" : "spice:attribution/ardglass",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/atalanta",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/bon-voyage",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/by-the-sea-wall",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/christmas-morning-ballyhalbert-no-7",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/dancing-figures",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/encounter-with-half-a-horse",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/fair-head",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/farini-church-hill",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/fermanagh-bog",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/figure-with-owls",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/fish-and-chips",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/girl-at-piano",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/girl-in-a-blue-striped-dress",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/glendowan",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/glendowan-2",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/glendowan-3",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/glendowan-4",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/in-relax-mood",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/in-retrospect",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/kate-at-the-piano",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/kate-at-the-piano-iv",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/kate-untitled",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/landscape-co-down-1943",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/last-still-life",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/legend-iii-queen-with-geese-1970",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/litle-eves-apple",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/may-herring-for-kate-1971",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/mooncatcher",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/mooncatcher-family",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/opus-1-no-15-1941",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/opus-1-no-16-group-ii-the-childs-brain",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/opus-iii-no-4",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/people",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/plants-i",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/plants-ii",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/sadie-and-may-landgirls",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/seated-figures",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/spanish-circus-iii",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/the-family",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/the-family-3",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/the-family-4",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/the-singer",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/the-sisters",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/untitled-120",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/untitled-121",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/untitled-122",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/untitled-123",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/untitled-124",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/untitled-125",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/untitled-126",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/untitled-127",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/untitled-128",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/untitled-129",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/untitled-130",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/untitled-131",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/untitled-132",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/untitled-138",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/untitled-139",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/untitled-ardglass-fishermen",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/untitled-figures-in-a-landscape",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/woman-carnmoon",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  } ],
+  "@context" : {
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

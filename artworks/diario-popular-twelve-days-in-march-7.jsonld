@@ -1,0 +1,80 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/diario-popular-twelve-days-in-march-7",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "In São Paulo Maguire also worked on a series of drawings which involved a very different approach to that taken with the ‘Casa da Cultura’ series. Each day in São Paulo’s newspaper, The Diario Popular, photographs of convicted criminals or those wanted by the police appeared. Working from the grainy newspaper photographs, Maguire made drawings of those men. In contrast to the sketches he made of the children in the ‘Casa da Cultura’ series, with the works in ‘Diario Popular’ Maguire spent a long time looking, contemplating and trying to come to terms with the qualities of each man’s expression. The drawings are haunting and full of feelings of empathy for the individual depicted.",
+    "dc:source" : "https://imma.ie/collection/diario-popular-twelve-days-in-march-7/",
+    "schema:creditText" : "IMMA Collection: Heritage Gift Owen O'Brien, 2000",
+    "image" : "spice:documentation/diario-popular-twelve-days-in-march-7",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "mixed media on paper",
+    "schema:size" : "50 x 70 cm",
+    "arco-cd:hasInventory" : "IMMA.1316.6"
+  }, {
+    "@id" : "spice:documentation/diario-popular-twelve-days-in-march-7",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Brian Maguire, Diario Popular (Twelve Days in March), 1998, mixed media on paper, 50 x 70 cm, Collection Irish Museum of Modern Art, Heritage Gift Owen O'Brien, 2000 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/474.jpg"
+  } ],
+  "@context" : {
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

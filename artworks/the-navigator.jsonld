@@ -1,0 +1,80 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/the-navigator",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "Michael Mulcahy is one of the artists most prominently associated with Neo-Expressionist painting in this country. His work expresses the deep restlessness which has led him to travel to Africa, and Australia, living with tribal communities, seeking a meaningful approach to life. His paintings hover between the figurative and the abstract, often carrying powerful shamanistic references from the cultures with which he has engaged. ‘The Navigator’, like much of his earlier work, expresses brooding sexual desire. The tension between the male figure and the brightly lit, womb-like opening is palpable, while the title may be a play on the name given to the sixth-century Irish saint, Brendan The Navigator, so called because of the belief that he sailed the then uncharted waters of the Atlantic. As such, it recalls a world where man, nature and religion were more closely entwined.",
+    "dc:source" : "https://imma.ie/collection/the-navigator/",
+    "schema:creditText" : "IMMA Collection: Donation, Vincent &amp; Noeleen Ferguson, 1996",
+    "image" : "spice:documentation/the-navigator",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Oil on canvas",
+    "schema:size" : "157.5 x 165 cm",
+    "arco-cd:hasInventory" : "IMMA.774"
+  }, {
+    "@id" : "spice:documentation/the-navigator",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Michael Mulcahy, The Navigator, 1982, Oil on canvas, 157.5 x 165 cm, Collection Irish Museum of Modern Art, Donation, Vincent &amp; Noeleen Ferguson, 1996 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2019/05/1487.jpg"
+  } ],
+  "@context" : {
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

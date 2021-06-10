@@ -1,0 +1,102 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/wright-daphne",
+    "@type" : "foaf:Person",
+    "dc:description" : [ "Irish artist Daphne Wright (born 1963) studied at the National College of Art and Design and Newcastle-upon-Tyne Polytechnic. Working in sculpture, film, print and installation, Wright considers ideas of language and communication, faith, ageing and death within her diverse artistic practice. Wright has exhibited in Ireland and Europe since the 1990s. Her work is represented in major public collections including the Gallery of Modern Art, Glasgow; Hamburger Kunsthalle, and the Arts Council of England. Wright is an elected member of Aosdána.", "Irish artist Daphne Wright (born 1963) studied at the National College of Art and Design and Newcastle-upon-Tyne Polytechnic. Working in sculpture, film, print and installation, Wright considers ideas of language and communication, faith, ageing and death within her diverse artistic practice. Wright has exhibited in Ireland and Europe since the 1990s." ],
+    "dc:source" : "https://imma.ie/artists/daphne-wright/",
+    "schema:birthDate" : "b.1963",
+    "schema:url" : "https://imma.ie/artists/daphne-wright/",
+    "rdfs:label" : "Daphne Wright"
+  }, {
+    "@id" : "spice:artefact/place-x-1",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/wright-daphne",
+    "author" : "spice:agent/wright-daphne",
+    "schema:dateCreated" : "2001",
+    "schema:url" : "https://imma.ie/collection/place-x-1/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/place-x-1",
+    "arco-cd:hasTitle" : "Place X 1"
+  }, {
+    "@id" : "spice:artefact/where-do-broken-hearts-go",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/wright-daphne",
+    "author" : "spice:agent/wright-daphne",
+    "schema:dateCreated" : "2000",
+    "schema:url" : "https://imma.ie/collection/where-do-broken-hearts-go/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/where-do-broken-hearts-go",
+    "arco-cd:hasTitle" : "Where Do Broken Hearts Go"
+  }, {
+    "@id" : "spice:attribution/place-x-1",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/wright-daphne"
+  }, {
+    "@id" : "spice:attribution/where-do-broken-hearts-go",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/wright-daphne"
+  } ],
+  "@context" : {
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

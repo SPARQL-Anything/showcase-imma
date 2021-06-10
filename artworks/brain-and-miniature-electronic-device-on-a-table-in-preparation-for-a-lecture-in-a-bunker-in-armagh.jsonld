@@ -1,0 +1,80 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/brain-and-miniature-electronic-device-on-a-table-in-preparation-for-a-lecture-in-a-bunker-in-armagh",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "Brain and miniature electronic device on a table in preparation for a lecture in a bunker in Armagh. is a 1985 work by Terry Atkinson. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "dc:source" : "https://imma.ie/collection/brain-and-miniature-electronic-device-on-a-table-in-preparation-for-a-lecture-in-a-bunker-in-armagh/",
+    "schema:creditText" : "IMMA Collection: Purchase, 1998",
+    "image" : "spice:documentation/brain-and-miniature-electronic-device-on-a-table-in-preparation-for-a-lecture-in-a-bunker-in-armagh",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Pastel and pencil on paper",
+    "schema:size" : "45 x 42 cm",
+    "arco-cd:hasInventory" : "IMMA.817"
+  }, {
+    "@id" : "spice:documentation/brain-and-miniature-electronic-device-on-a-table-in-preparation-for-a-lecture-in-a-bunker-in-armagh",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Terry Atkinson, Brain and miniature electronic device on a table in preparation for a lecture in a bunker in Armagh., 1985, Pastel and pencil on paper, 45 x 42 cm, Collection Irish Museum of Modern Art, Purchase, 1998 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2020/02/1097.jpg"
+  } ],
+  "@context" : {
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

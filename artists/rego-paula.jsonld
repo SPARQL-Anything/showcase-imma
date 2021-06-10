@@ -1,0 +1,130 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/rego-paula",
+    "@type" : "foaf:Person",
+    "dc:description" : [ "Born in Lisbon, Portugal in 1935, Dame Paula Rego trained at the Slade School of Fine Art, London. Rego is celebrated for her bold and intense paintings, drawings and prints, which intertwine the private and the public, the intimate and the political, the real and the imagined, combining autobiographical elements with stories from literature, folklore, and mythology, references to earlier art, and observations on the contemporary world.. Rego lives and works in London and has exhibited widely in Britain and internationally. Since 2004, major retrospectives of her work have been held at Tate Britain, Birmingham Museum and Art Gallery and the Museo Nacional Centro de Arte Reina Sofía, Madrid.", "Born in Lisbon, Portugal in 1935, Dame Paula Rego trained at the Slade School of Fine Art, London. Rego is celebrated for her bold and intense paintings, drawings and prints, which intertwine the private and the public, the intimate and the political, the real and the imagined, combining autobiographical elements with stories from literature, folklore, and mythology, references to earlier art, and observations on the contemporary world." ],
+    "dc:source" : "https://imma.ie/artists/paula-rego/",
+    "schema:birthDate" : "b.1935",
+    "schema:url" : "https://imma.ie/artists/paula-rego/",
+    "rdfs:label" : "Paula Rego"
+  }, {
+    "@id" : "spice:artefact/little-miss-muffet",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/rego-paula",
+    "author" : "spice:agent/rego-paula",
+    "schema:dateCreated" : "1989",
+    "schema:url" : "https://imma.ie/collection/little-miss-muffet/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/little-miss-muffet",
+    "arco-cd:hasTitle" : "Little Miss Muffet"
+  }, {
+    "@id" : "spice:artefact/pirates-taking-away-children",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/rego-paula",
+    "author" : "spice:agent/rego-paula",
+    "schema:dateCreated" : "1992",
+    "schema:url" : "https://imma.ie/collection/pirates-taking-away-children/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/pirates-taking-away-children",
+    "arco-cd:hasTitle" : "Pirates Taking Away Children"
+  }, {
+    "@id" : "spice:artefact/the-bakers-wife",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/rego-paula",
+    "author" : "spice:agent/rego-paula",
+    "schema:dateCreated" : "1989",
+    "schema:url" : "https://imma.ie/collection/the-bakers-wife/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-bakers-wife",
+    "arco-cd:hasTitle" : "The Baker’s Wife"
+  }, {
+    "@id" : "spice:artefact/the-night-crow",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/rego-paula",
+    "author" : "spice:agent/rego-paula",
+    "schema:dateCreated" : "1992",
+    "schema:url" : "https://imma.ie/collection/the-night-crow/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-night-crow",
+    "arco-cd:hasTitle" : "The Night Crow"
+  }, {
+    "@id" : "spice:attribution/little-miss-muffet",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/rego-paula"
+  }, {
+    "@id" : "spice:attribution/pirates-taking-away-children",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/rego-paula"
+  }, {
+    "@id" : "spice:attribution/the-bakers-wife",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/rego-paula"
+  }, {
+    "@id" : "spice:attribution/the-night-crow",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/rego-paula"
+  } ],
+  "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

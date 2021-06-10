@@ -1,0 +1,80 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/8-limestones-cut-to-a-specific-size-from-rough-blocks-150-x-50-x-50cm-split-into-parts-and-reassembled-into-their-original-form",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "Unlike traditional stone sculpture where a piece of stone is cut, chiselled and polished to make it into some other form, in Rüeckreim’s work the marks made by the drills and chisels are not smoothed away, and the natural fracture lines in the rock are revealed; the irregular lines following the internal (geological) structure of the stone. By dividing the stones in various permutations of vertical and horizontal splits the individual characteristics of the stones are made visible, forming a complex and intricate pattern. The split stones are then returned to their position and the original volume reappears. In this piece eight similar stones, or stele, are arranged on a grid, on a scale relating to that of the human body, and it is this scale, coupled with the lack of ostentation in the readability of the process, which makes the work so human.",
+    "dc:source" : "https://imma.ie/collection/8-limestones-cut-to-a-specific-size-from-rough-blocks-150-x-50-x-50cm-split-into-parts-and-reassembled-into-their-original-form/",
+    "schema:creditText" : "IMMA Collection: Purchase, 2001",
+    "image" : "spice:documentation/8-limestones-cut-to-a-specific-size-from-rough-blocks-150-x-50-x-50cm-split-into-parts-and-reassembled-into-their-original-form",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Limestone",
+    "schema:size" : "150 x 50 x 50 cm (each)",
+    "arco-cd:hasInventory" : "IMMA.1489"
+  }, {
+    "@id" : "spice:documentation/8-limestones-cut-to-a-specific-size-from-rough-blocks-150-x-50-x-50cm-split-into-parts-and-reassembled-into-their-original-form",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Ulrich Rückriem, 8 Limestones cut to a specific size from rough blocks 150 x 50 x 50cm split into parts and reassembled into their original form, 1988, Limestone, 150 x 50 x 50 cm (each), Collection Irish Museum of Modern Art, Purchase, 2001 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2021/01/1505.jpg"
+  } ],
+  "@context" : {
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

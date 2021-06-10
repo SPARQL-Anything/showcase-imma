@@ -1,0 +1,80 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/untitled-23",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "Acting like a film or theatre director, Belfast-born artist Hannah Starkey carefully stages her photographs. Starkey works with professional actors, chosen by the artist to play a certain role in the scenarios that she scripts. Costumes, lighting, location, time of day are all pinned down in advance of creating the final image. Starkey’s images seem like snatched moments and often it appears as though the sitters have been caught unawares, mid-thought or mid-action. Knowing about the careful planning behind the work shatters this illusion. In an age when images are so readily available to us, Starkey questions this possibility of catching a moment, freezing it – and in doing so she also questions the role of photography in creating and recording memories. ",
+    "dc:source" : "https://imma.ie/collection/untitled-23/",
+    "schema:creditText" : "IMMA Collection: Donated by George and Maura McClelland, 2000",
+    "image" : "spice:documentation/untitled-23",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "C-type print",
+    "schema:size" : "Framed: 126 x 164 x 4 cm 122 x 152 cm",
+    "arco-cd:hasInventory" : "IMMA.1258"
+  }, {
+    "@id" : "spice:documentation/untitled-23",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Hannah Starkey, Untitled, 1999, C-type print, Framed: 126 x 164 x 4 cm 122 x 152 cm, Collection Irish Museum of Modern Art, Donated by George and Maura McClelland, 2000 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2019/05/769.jpg"
+  } ],
+  "@context" : {
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/dillon-gerard",
+    "@type" : "foaf:Person",
+    "dc:description" : "Gerard Dillon was one of the most imaginative of the folk-inspired Irish painters of the 20th century. Born in Belfast, he worked for a decorating firm in London from 1934 to 1939. From 1936 he began to paint and visited Connemara frequently. He spent the war years in Belfast and Dublin and was associated in exhibitions with George Campbell and Daniel O’Neill. From 1943 he was a regular contributor and committee member of the Irish Exhibition of Living Art. He returned to London in 1945 but often returned to Roundstone, Connemara to paint. He represented Ireland at the Guggenheim International in 1960 and the Marzotto International Rome in 1963. Dillon lived in Dublin from 1968 until his death.",
+    "dc:source" : "https://imma.ie/artists/gerard-dillon/",
+    "schema:birthDate" : "1916–1971",
+    "schema:url" : "https://imma.ie/artists/gerard-dillon/",
+    "rdfs:label" : "Gerard Dillon"
+  }, {
+    "@id" : "spice:artefact/clown-with-bird-canvas",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/dillon-gerard",
+    "author" : "spice:agent/dillon-gerard",
+    "schema:dateCreated" : "1960",
+    "schema:url" : "https://imma.ie/collection/clown-with-bird-canvas/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/clown-with-bird-canvas",
+    "arco-cd:hasTitle" : "Clown with Bird Canvas"
+  }, {
+    "@id" : "spice:artefact/interior-decorators",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/dillon-gerard",
+    "author" : "spice:agent/dillon-gerard",
+    "schema:dateCreated" : "1945",
+    "schema:url" : "https://imma.ie/collection/interior-decorators/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/interior-decorators",
+    "arco-cd:hasTitle" : "Interior Decorators"
+  }, {
+    "@id" : "spice:artefact/mother-and-twins",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/dillon-gerard",
+    "author" : "spice:agent/dillon-gerard",
+    "schema:dateCreated" : "1952",
+    "schema:url" : "https://imma.ie/collection/mother-and-twins/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/mother-and-twins",
+    "arco-cd:hasTitle" : "Mother and Twins"
+  }, {
+    "@id" : "spice:artefact/old-man-and-dog",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/dillon-gerard",
+    "author" : "spice:agent/dillon-gerard",
+    "schema:dateCreated" : "1945",
+    "schema:url" : "https://imma.ie/collection/old-man-and-dog/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/old-man-and-dog",
+    "arco-cd:hasTitle" : "Old Man and Dog"
+  }, {
+    "@id" : "spice:artefact/the-temple-1948",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/dillon-gerard",
+    "author" : "spice:agent/dillon-gerard",
+    "schema:dateCreated" : "1948",
+    "schema:url" : "https://imma.ie/collection/the-temple-1948/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-temple-1948",
+    "arco-cd:hasTitle" : "The Temple, 1948"
+  }, {
+    "@id" : "spice:attribution/clown-with-bird-canvas",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/dillon-gerard"
+  }, {
+    "@id" : "spice:attribution/interior-decorators",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/dillon-gerard"
+  }, {
+    "@id" : "spice:attribution/mother-and-twins",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/dillon-gerard"
+  }, {
+    "@id" : "spice:attribution/old-man-and-dog",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/dillon-gerard"
+  }, {
+    "@id" : "spice:attribution/the-temple-1948",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/dillon-gerard"
+  } ],
+  "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

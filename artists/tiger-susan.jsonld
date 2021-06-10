@@ -1,0 +1,111 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/tiger-susan",
+    "@type" : "foaf:Person",
+    "dc:description" : "American artist Susan Tiger attended Syracuse University and the Pennsylvania Academy of Fine Arts, before moving to Ireland in 1998. Tiger’s intimate drawings in graphite and acrylic recount personal memories and experiences through an exploration of line, colour and shape. Tiger has exhibited in Ireland, Holland and South Africa. She has also published a number of artists’ books. Her work is represented in the collections of the Iziko South African National Gallery and the University of North Carolina.",
+    "dc:source" : "https://imma.ie/artists/susan-tiger/",
+    "schema:url" : "https://imma.ie/artists/susan-tiger/",
+    "rdfs:label" : "Susan Tiger"
+  }, {
+    "@id" : "spice:artefact/accordianed-paper",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/tiger-susan",
+    "author" : "spice:agent/tiger-susan",
+    "schema:dateCreated" : "2006",
+    "schema:url" : "https://imma.ie/collection/accordianed-paper/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/accordianed-paper",
+    "arco-cd:hasTitle" : "Accordian(ed) paper"
+  }, {
+    "@id" : "spice:artefact/dog-with-lion-head",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/tiger-susan",
+    "author" : "spice:agent/tiger-susan",
+    "schema:dateCreated" : "2006",
+    "schema:url" : "https://imma.ie/collection/dog-with-lion-head/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/dog-with-lion-head",
+    "arco-cd:hasTitle" : "Protected: Dog with Lion Head"
+  }, {
+    "@id" : "spice:artefact/white-bench",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/tiger-susan",
+    "author" : "spice:agent/tiger-susan",
+    "schema:dateCreated" : "2006",
+    "schema:url" : "https://imma.ie/collection/white-bench/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/white-bench",
+    "arco-cd:hasTitle" : "Protected: White Bench"
+  }, {
+    "@id" : "spice:attribution/accordianed-paper",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/tiger-susan"
+  }, {
+    "@id" : "spice:attribution/dog-with-lion-head",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/tiger-susan"
+  }, {
+    "@id" : "spice:attribution/white-bench",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/tiger-susan"
+  } ],
+  "@context" : {
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/erwitt-elliott",
+    "@type" : "foaf:Person",
+    "dc:description" : "Photographer Elliott Erwitt was born in France to Russian parents, the family then immigrated to the US in 1939. Erwitt studied photography at Los Angeles City College and film at the New School for Social Research, New York. His observational photographic work captures moments of the sublime in ordinary life. He also created intimate portraits of such iconic figures as Marilyn Monroe, Che Guevara and Jackie Kennedy. Erwitt became a member of Magnum Photos in 1953 and served as president of the agency for three years in the late 1960s. From the 1970s, he also produced a number of documentaries and comedy films.",
+    "dc:source" : "https://imma.ie/artists/elliott-erwitt/",
+    "schema:birthDate" : "b.1928",
+    "schema:url" : "https://imma.ie/artists/elliott-erwitt/",
+    "rdfs:label" : "Elliott Erwitt"
+  }, {
+    "@id" : "spice:artefact/dublin",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/erwitt-elliott",
+    "author" : "spice:agent/erwitt-elliott",
+    "schema:dateCreated" : "1962",
+    "schema:url" : "https://imma.ie/collection/dublin/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/dublin",
+    "arco-cd:hasTitle" : "Dublin"
+  }, {
+    "@id" : "spice:artefact/horse-show",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/erwitt-elliott",
+    "author" : "spice:agent/erwitt-elliott",
+    "schema:dateCreated" : "1962",
+    "schema:url" : "https://imma.ie/collection/horse-show/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/horse-show",
+    "arco-cd:hasTitle" : "Horse Show"
+  }, {
+    "@id" : "spice:attribution/dublin",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/erwitt-elliott"
+  }, {
+    "@id" : "spice:attribution/horse-show",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/erwitt-elliott"
+  } ],
+  "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

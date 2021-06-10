@@ -1,0 +1,144 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/mckenna-james",
+    "@type" : "foaf:Person",
+    "dc:description" : "Irish sculptor, poet and playwright James McKenna studied at the National College of Art and Design. The work of the Italian Renaissance masters influenced McKenna throughout his career. Political events, often married with Celtic mythology, also informed his work. He was a founding member of both the Independent Artists Group and the Sculptors’ Society of Ireland and exhibited with the Irish Exhibitions of Living Art. He was awarded the Macaulay Fellowship for Sculpture in 1960 and became a member of Aosdána in 1983. A major retrospective of his work was held at IMMA in 2007.",
+    "dc:source" : "https://imma.ie/artists/james-mckenna/",
+    "schema:birthDate" : "1933–2000",
+    "schema:url" : "https://imma.ie/artists/james-mckenna/",
+    "rdfs:label" : "James McKenna"
+  }, {
+    "@id" : "spice:artefact/a-funny-thing-happened-on-the-way-to-the-g-p-o",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/mckenna-james",
+    "author" : "spice:agent/mckenna-james",
+    "schema:dateCreated" : "1990",
+    "schema:url" : "https://imma.ie/collection/a-funny-thing-happened-on-the-way-to-the-g-p-o/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/a-funny-thing-happened-on-the-way-to-the-g-p-o",
+    "arco-cd:hasTitle" : "A Funny Thing Happened on the Way to the G.P.O."
+  }, {
+    "@id" : "spice:artefact/aisling-scariff",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/mckenna-james",
+    "author" : "spice:agent/mckenna-james",
+    "schema:dateCreated" : "1964",
+    "schema:url" : "https://imma.ie/collection/aisling-scariff/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/aisling-scariff",
+    "arco-cd:hasTitle" : "Aisling, Scariff"
+  }, {
+    "@id" : "spice:artefact/ferdia-for-nath-ferdia-at-the-ford",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/mckenna-james",
+    "author" : "spice:agent/mckenna-james",
+    "schema:dateCreated" : "1989",
+    "schema:url" : "https://imma.ie/collection/ferdia-for-nath-ferdia-at-the-ford/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/ferdia-for-nath-ferdia-at-the-ford",
+    "arco-cd:hasTitle" : "Ferdia for nÁth / Ferdia at the Ford"
+  }, {
+    "@id" : "spice:artefact/nude-young-girl-standing",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/mckenna-james",
+    "author" : "spice:agent/mckenna-james",
+    "schema:dateCreated" : "1965",
+    "schema:url" : "https://imma.ie/collection/nude-young-girl-standing/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/nude-young-girl-standing",
+    "arco-cd:hasTitle" : "Nude Young Girl Standing"
+  }, {
+    "@id" : "spice:artefact/the-royal-hospital-where-williams-soldiers-recuperated-after-aughrim-in-1692",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/mckenna-james",
+    "author" : "spice:agent/mckenna-james",
+    "schema:dateCreated" : "1969",
+    "schema:url" : "https://imma.ie/collection/the-royal-hospital-where-williams-soldiers-recuperated-after-aughrim-in-1692/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-royal-hospital-where-williams-soldiers-recuperated-after-aughrim-in-1692",
+    "arco-cd:hasTitle" : "The Royal Hospital Where William’s Soldiers Recuperated After Aughrim in 1692"
+  }, {
+    "@id" : "spice:attribution/a-funny-thing-happened-on-the-way-to-the-g-p-o",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/mckenna-james"
+  }, {
+    "@id" : "spice:attribution/aisling-scariff",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/mckenna-james"
+  }, {
+    "@id" : "spice:attribution/ferdia-for-nath-ferdia-at-the-ford",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/mckenna-james"
+  }, {
+    "@id" : "spice:attribution/nude-young-girl-standing",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/mckenna-james"
+  }, {
+    "@id" : "spice:attribution/the-royal-hospital-where-williams-soldiers-recuperated-after-aughrim-in-1692",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/mckenna-james"
+  } ],
+  "@context" : {
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

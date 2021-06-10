@@ -1,0 +1,270 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/bourke-brian",
+    "@type" : "foaf:Person",
+    "dc:description" : "Dublin born artist Brian Bourke studied at the National College of Art and Design, Dublin and St. Martin’s School of Art, London. He represented Ireland at the Paris Biennale in 1965, claimed first prize in the Irish Exhibition of Living Art competition in 1967, and received the O’Malley Award from the Irish-American Cultural Institute in 1993. Bourke is well known for his very distinctive portraits and self portraits which combine strong colours and often caricature-like distortion. His works are in many important collections and galleries throughout Europe.",
+    "dc:source" : "https://imma.ie/artists/brian-bourke/",
+    "schema:birthDate" : "b.1936",
+    "schema:url" : "https://imma.ie/artists/brian-bourke/",
+    "rdfs:label" : "Brian Bourke"
+  }, {
+    "@id" : "spice:artefact/courtyard-tree-cardet-france",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/bourke-brian",
+    "author" : "spice:agent/bourke-brian",
+    "schema:dateCreated" : "1990",
+    "schema:url" : "https://imma.ie/collection/courtyard-tree-cardet-france/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/courtyard-tree-cardet-france",
+    "arco-cd:hasTitle" : "Courtyard Tree, Cardet, France"
+  }, {
+    "@id" : "spice:artefact/portrait-of-j-with-basque-hat",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/bourke-brian",
+    "author" : "spice:agent/bourke-brian",
+    "schema:dateCreated" : "1982",
+    "schema:url" : "https://imma.ie/collection/portrait-of-j-with-basque-hat/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/portrait-of-j-with-basque-hat",
+    "arco-cd:hasTitle" : "Portrait of J with Basque hat"
+  }, {
+    "@id" : "spice:artefact/portrait-of-om-st-ives",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/bourke-brian",
+    "author" : "spice:agent/bourke-brian",
+    "schema:dateCreated" : "1987",
+    "schema:url" : "https://imma.ie/collection/portrait-of-om-st-ives/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/portrait-of-om-st-ives",
+    "arco-cd:hasTitle" : "Portrait of O’M, St Ives"
+  }, {
+    "@id" : "spice:artefact/self-portrait-with-blue-black-and-red",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/bourke-brian",
+    "author" : "spice:agent/bourke-brian",
+    "schema:dateCreated" : "2004",
+    "schema:url" : "https://imma.ie/collection/self-portrait-with-blue-black-and-red/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/self-portrait-with-blue-black-and-red",
+    "arco-cd:hasTitle" : "Self Portrait with Blue, Black and Red"
+  }, {
+    "@id" : "spice:artefact/self-portrait-with-blue-red-and-green",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/bourke-brian",
+    "author" : "spice:agent/bourke-brian",
+    "schema:dateCreated" : "2004",
+    "schema:url" : "https://imma.ie/collection/self-portrait-with-blue-red-and-green/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/self-portrait-with-blue-red-and-green",
+    "arco-cd:hasTitle" : "Self Portrait with Blue, Red and Green"
+  }, {
+    "@id" : "spice:artefact/self-portrait-with-blue-red-and-green-2",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/bourke-brian",
+    "author" : "spice:agent/bourke-brian",
+    "schema:dateCreated" : "2004",
+    "schema:url" : "https://imma.ie/collection/self-portrait-with-blue-red-and-green-2/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/self-portrait-with-blue-red-and-green-2",
+    "arco-cd:hasTitle" : "Self Portrait with Blue, Red and Green"
+  }, {
+    "@id" : "spice:artefact/self-portrait-with-blue-red-and-green-3",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/bourke-brian",
+    "author" : "spice:agent/bourke-brian",
+    "schema:dateCreated" : "2004",
+    "schema:url" : "https://imma.ie/collection/self-portrait-with-blue-red-and-green-3/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/self-portrait-with-blue-red-and-green-3",
+    "arco-cd:hasTitle" : "Self Portrait with Blue, Red and Green"
+  }, {
+    "@id" : "spice:artefact/self-portrait-with-blue-red-and-green-4",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/bourke-brian",
+    "author" : "spice:agent/bourke-brian",
+    "schema:dateCreated" : "2004",
+    "schema:url" : "https://imma.ie/collection/self-portrait-with-blue-red-and-green-4/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/self-portrait-with-blue-red-and-green-4",
+    "arco-cd:hasTitle" : "Self Portrait with Blue, Red and Green"
+  }, {
+    "@id" : "spice:artefact/self-portrait-with-blue-red-and-green-5",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/bourke-brian",
+    "author" : "spice:agent/bourke-brian",
+    "schema:dateCreated" : "2004",
+    "schema:url" : "https://imma.ie/collection/self-portrait-with-blue-red-and-green-5/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/self-portrait-with-blue-red-and-green-5",
+    "arco-cd:hasTitle" : "Self Portrait with Blue, Red and Green"
+  }, {
+    "@id" : "spice:artefact/self-portrait-with-blue-red-and-green-6",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/bourke-brian",
+    "author" : "spice:agent/bourke-brian",
+    "schema:dateCreated" : "2004",
+    "schema:url" : "https://imma.ie/collection/self-portrait-with-blue-red-and-green-6/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/self-portrait-with-blue-red-and-green-6",
+    "arco-cd:hasTitle" : "Self Portrait with Blue, Red and Green"
+  }, {
+    "@id" : "spice:artefact/self-portrait-with-blue-red-and-green-7",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/bourke-brian",
+    "author" : "spice:agent/bourke-brian",
+    "schema:dateCreated" : "2004",
+    "schema:url" : "https://imma.ie/collection/self-portrait-with-blue-red-and-green-7/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/self-portrait-with-blue-red-and-green-7",
+    "arco-cd:hasTitle" : "Self Portrait with Blue, Red and Green"
+  }, {
+    "@id" : "spice:artefact/self-portrait-with-blue-red-and-green-8",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/bourke-brian",
+    "author" : "spice:agent/bourke-brian",
+    "schema:dateCreated" : "2004",
+    "schema:url" : "https://imma.ie/collection/self-portrait-with-blue-red-and-green-8/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/self-portrait-with-blue-red-and-green-8",
+    "arco-cd:hasTitle" : "Self Portrait with Blue, Red and Green"
+  }, {
+    "@id" : "spice:artefact/self-portrait-with-hat",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/bourke-brian",
+    "author" : "spice:agent/bourke-brian",
+    "schema:dateCreated" : "2004",
+    "schema:url" : "https://imma.ie/collection/self-portrait-with-hat/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/self-portrait-with-hat",
+    "arco-cd:hasTitle" : "Self Portrait with hat"
+  }, {
+    "@id" : "spice:artefact/woman-giving-birth-to-men",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/bourke-brian",
+    "author" : "spice:agent/bourke-brian",
+    "schema:dateCreated" : "2001",
+    "schema:url" : "https://imma.ie/collection/woman-giving-birth-to-men/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/woman-giving-birth-to-men",
+    "arco-cd:hasTitle" : "Woman Giving Birth to Men"
+  }, {
+    "@id" : "spice:attribution/courtyard-tree-cardet-france",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/bourke-brian"
+  }, {
+    "@id" : "spice:attribution/portrait-of-j-with-basque-hat",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/bourke-brian"
+  }, {
+    "@id" : "spice:attribution/portrait-of-om-st-ives",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/bourke-brian"
+  }, {
+    "@id" : "spice:attribution/self-portrait-with-blue-black-and-red",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/bourke-brian"
+  }, {
+    "@id" : "spice:attribution/self-portrait-with-blue-red-and-green",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/bourke-brian"
+  }, {
+    "@id" : "spice:attribution/self-portrait-with-blue-red-and-green-2",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/bourke-brian"
+  }, {
+    "@id" : "spice:attribution/self-portrait-with-blue-red-and-green-3",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/bourke-brian"
+  }, {
+    "@id" : "spice:attribution/self-portrait-with-blue-red-and-green-4",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/bourke-brian"
+  }, {
+    "@id" : "spice:attribution/self-portrait-with-blue-red-and-green-5",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/bourke-brian"
+  }, {
+    "@id" : "spice:attribution/self-portrait-with-blue-red-and-green-6",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/bourke-brian"
+  }, {
+    "@id" : "spice:attribution/self-portrait-with-blue-red-and-green-7",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/bourke-brian"
+  }, {
+    "@id" : "spice:attribution/self-portrait-with-blue-red-and-green-8",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/bourke-brian"
+  }, {
+    "@id" : "spice:attribution/self-portrait-with-hat",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/bourke-brian"
+  }, {
+    "@id" : "spice:attribution/woman-giving-birth-to-men",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/bourke-brian"
+  } ],
+  "@context" : {
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

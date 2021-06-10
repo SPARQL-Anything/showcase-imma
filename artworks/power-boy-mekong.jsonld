@@ -1,0 +1,85 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/power-boy-mekong",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "Power Boy (Mekong) (2009) is a large photographic print showing a figure covered in in strings of lights from a Thai karaoke club. The character Power Boy sits overlooking a darkened river. This image is an example of the political and social discussions that are prevalent in Apichatpong’s work: here, the artist examines the consequences of the hydroelectric Xayaburi Dam that is being built on the Lower Mekong River, which is destroying livelihoods, devastating the water’s ecological systems and, in turn, triggering multiple protests. On the other hand, the dam is expected to generate electricity for countries in Southeast Asia—power that many who live along the river will rely on in their daily lives. [Source of text: http://artasiapacific.com/Magazine/WebExclusives/TheSerenityOfMadness ]",
+    "dc:source" : "https://imma.ie/collection/power-boy-mekong/",
+    "schema:creditText" : "IMMA Collection: Donation, 2011",
+    "image" : "spice:documentation/power-boy-mekong",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Giclée print",
+    "schema:size" : "147 x 222 cmFramed: 151.5 x 226.8 x 5.1 cm",
+    "schema:version" : "Edition 1/5",
+    "arco-cd:hasInventory" : "IMMA.3419"
+  }, {
+    "@id" : "spice:documentation/power-boy-mekong",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Apichatpong Weerasethakul, Power Boy (Mekong), 2011, Giclée print, 147 x 222 cmFramed: 151.5 x 226.8 x 5.1 cm, Collection Irish Museum of Modern Art, Donation, 2011 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2020/03/6149.jpg"
+  } ],
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "version" : {
+      "@id" : "http://schema.org/version",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/woodrow-bill",
+    "@type" : "foaf:Person",
+    "dc:description" : "English artist Bill Woodrow (born 1948) attended St Martin’s School of Art and Chelsea School of Art, London. Woodrow came to prominence in the early 1980s with a series of sculptural works made from found objects and domestic appliances. Working with materials including glass, wax, steel and cast bronze, his sculptures make reference to issues of environmental pollution, economic policy and consumerism. Woodrow represented Britain at the 1982 Sydney Biennale, the Paris Biennale in 1982 and 1985, and the Sâo Paulo Biennial in 1983 and 1991. His work is represented in major public collections including the Victoria and Albert Museum; the British Museum; the Imperial War Museum and the Henry Moore Institute.",
+    "dc:source" : "https://imma.ie/artists/bill-woodrow/",
+    "schema:birthDate" : "b.1948",
+    "schema:url" : "https://imma.ie/artists/bill-woodrow/",
+    "rdfs:label" : "Bill Woodrow"
+  }, {
+    "@id" : "spice:artefact/greenleaf-portfolio",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/woodrow-bill",
+    "author" : "spice:agent/woodrow-bill",
+    "schema:dateCreated" : "1992",
+    "schema:url" : "https://imma.ie/collection/greenleaf-portfolio/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/greenleaf-portfolio",
+    "arco-cd:hasTitle" : "Greenleaf portfolio"
+  }, {
+    "@id" : "spice:artefact/in-case-of",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/woodrow-bill",
+    "author" : "spice:agent/woodrow-bill",
+    "schema:dateCreated" : "1988",
+    "schema:url" : "https://imma.ie/collection/in-case-of/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/in-case-of",
+    "arco-cd:hasTitle" : "In Case of"
+  }, {
+    "@id" : "spice:artefact/lucky-dip",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/woodrow-bill",
+    "author" : "spice:agent/woodrow-bill",
+    "schema:dateCreated" : "1986",
+    "schema:url" : "https://imma.ie/collection/lucky-dip/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/lucky-dip",
+    "arco-cd:hasTitle" : "Lucky Dip"
+  }, {
+    "@id" : "spice:artefact/the-periodic-table-portfolio",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/woodrow-bill",
+    "author" : "spice:agent/woodrow-bill",
+    "schema:dateCreated" : "1994",
+    "schema:url" : "https://imma.ie/collection/the-periodic-table-portfolio/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-periodic-table-portfolio",
+    "arco-cd:hasTitle" : "The Periodic Table portfolio"
+  }, {
+    "@id" : "spice:artefact/untitled-59",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/woodrow-bill",
+    "author" : "spice:agent/woodrow-bill",
+    "schema:dateCreated" : "1993",
+    "schema:url" : "https://imma.ie/collection/untitled-59/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-59",
+    "arco-cd:hasTitle" : "Untitled"
+  }, {
+    "@id" : "spice:attribution/greenleaf-portfolio",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/woodrow-bill"
+  }, {
+    "@id" : "spice:attribution/in-case-of",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/woodrow-bill"
+  }, {
+    "@id" : "spice:attribution/lucky-dip",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/woodrow-bill"
+  }, {
+    "@id" : "spice:attribution/the-periodic-table-portfolio",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/woodrow-bill"
+  }, {
+    "@id" : "spice:attribution/untitled-59",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/woodrow-bill"
+  } ],
+  "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/garry-mark",
+    "@type" : "foaf:Person",
+    "dc:description" : [ "Born in Mullingar, Co. Meath, Mark Garry is driven by a fundamental interest in observing how humans navigate the world and the subjectivity inherent in these navigations. He uses a variety of media and mechanisms in his practice, primarily focusing on institution-based installations. These delicate site-specific installations are measured and meticulous systems of construction, combining physical, visual, sensory and empathetic analogues, creating arrangements of elements that intersect the space and form relationships between a given room and each other. They incorporate a specific range of natural and craft materials and processes such as plants, thread, beads, woodcarvings and manufactured materials such as coloured contact, origami, and mechanical musical mechanisms.", "Born in Mullingar, Co. Meath, Mark Garry is driven by a fundamental interest in observing how humans navigate the world and the subjectivity inherent in these navigations. He uses a variety of media and mechanisms in his practice, primarily focusing on institution-based installations." ],
+    "dc:source" : "https://imma.ie/artists/mark-garry/",
+    "schema:birthDate" : "b.1972",
+    "schema:url" : "https://imma.ie/artists/mark-garry/",
+    "rdfs:label" : "Mark Garry"
+  }, {
+    "@id" : "spice:artefact/after-nature-i",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/garry-mark",
+    "author" : "spice:agent/garry-mark",
+    "schema:dateCreated" : "2017",
+    "schema:url" : "https://imma.ie/collection/after-nature-i/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/after-nature-i",
+    "arco-cd:hasTitle" : "After Nature I"
+  }, {
+    "@id" : "spice:artefact/after-nature-ii",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/garry-mark",
+    "author" : "spice:agent/garry-mark",
+    "schema:dateCreated" : "2017",
+    "schema:url" : "https://imma.ie/collection/after-nature-ii/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/after-nature-ii",
+    "arco-cd:hasTitle" : "After Nature II"
+  }, {
+    "@id" : "spice:artefact/after-nature-iii",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/garry-mark",
+    "author" : "spice:agent/garry-mark",
+    "schema:dateCreated" : "2017",
+    "schema:url" : "https://imma.ie/collection/after-nature-iii/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/after-nature-iii",
+    "arco-cd:hasTitle" : "After Nature III"
+  }, {
+    "@id" : "spice:artefact/north-of-the-west",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/garry-mark",
+    "author" : "spice:agent/garry-mark",
+    "schema:dateCreated" : "2017",
+    "schema:url" : "https://imma.ie/collection/north-of-the-west/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/north-of-the-west",
+    "arco-cd:hasTitle" : "North of the West"
+  }, {
+    "@id" : "spice:attribution/after-nature-i",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/garry-mark"
+  }, {
+    "@id" : "spice:attribution/after-nature-ii",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/garry-mark"
+  }, {
+    "@id" : "spice:attribution/after-nature-iii",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/garry-mark"
+  }, {
+    "@id" : "spice:attribution/north-of-the-west",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/garry-mark"
+  } ],
+  "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

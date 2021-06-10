@@ -1,0 +1,102 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/mosse-richard",
+    "@type" : "foaf:Person",
+    "dc:description" : "Richard Mosse (b. 1980) holds an MFA in photography from Yale University and a postgraduate diploma in Fine Art from Goldsmiths, London. He also holds a first-class BA in English Literature from King’s College London and a master’s in Cultural Studies from the London Consortium (ICA, AA, Tate and Birkbeck). His work seeks to challenge and transgress traditional conventions of photography through unmitigated aesthetic strategies in situations of tragedy and conflict. Aperture Foundation and Pulitzer Center on Crisis Reporting co-published his first monograph, Infra (2012). It offers a fevered inflation of the traditional reportage document underlining the growing tension between art, fiction and photojournalism. Mosse initiates a dialogue with photography that begins as an intoxicating mediation on a broken genre, but ends as a haunting elegy for a vividly beautiful land touched by unspeakable tragedy. Richard Mosse represented Ireland at the 55th Venice Art Biennale with an immersive multi-screen video installation shot on 16mm infrared film in Eastern Congo.",
+    "dc:source" : "https://imma.ie/artists/richard-mosse/",
+    "schema:birthDate" : "b.1980",
+    "schema:url" : "https://imma.ie/artists/richard-mosse/",
+    "rdfs:label" : "Richard Mosse"
+  }, {
+    "@id" : "spice:artefact/general-fevrier",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/mosse-richard",
+    "author" : "spice:agent/mosse-richard",
+    "schema:dateCreated" : "2010",
+    "schema:url" : "https://imma.ie/collection/general-fevrier/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/general-fevrier",
+    "arco-cd:hasTitle" : "General Février"
+  }, {
+    "@id" : "spice:artefact/growing-up-in-public",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/mosse-richard",
+    "author" : "spice:agent/mosse-richard",
+    "schema:dateCreated" : "2011",
+    "schema:url" : "https://imma.ie/collection/growing-up-in-public/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/growing-up-in-public",
+    "arco-cd:hasTitle" : "Growing Up In Public"
+  }, {
+    "@id" : "spice:attribution/general-fevrier",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/mosse-richard"
+  }, {
+    "@id" : "spice:attribution/growing-up-in-public",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/mosse-richard"
+  } ],
+  "@context" : {
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

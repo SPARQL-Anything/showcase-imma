@@ -1,0 +1,88 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/kilfeather-caoimhe",
+    "@type" : "foaf:Person",
+    "dc:description" : [ "Caoimhe Kilfeather’s", "Caoimhe Kilfeather creates sculptural work that integrates a range of intersecting formal, spatial and art historical interests. Much of the work results from her interest in the experience of the material traces of production; of a world composed of the aesthetic residues of times long since passed, those recently faded from memory, and those of the here and now. An expanded notion of craft or artisanship and its potential to bridge the seemingly oppositional notions of thinking and making, form a context within which she develops her work. Solo exhibitions include Swimming in the Field, Goethe Institute, Dublin and After Dark (with Mark Swords), Mermaid Arts Centre, Co. Wicklow in 2011. Group exhibitions include Iron and Steel, Hillsboro Fine Art, Dublin, 2012; Into the Light, Crawford Art Gallery, Cork and Futures 12, RHA, Dublin in 2012" ],
+    "dc:source" : "https://imma.ie/artists/caoimhe-kilfeather/",
+    "schema:birthDate" : "b.1979",
+    "schema:url" : "https://imma.ie/artists/caoimhe-kilfeather/",
+    "rdfs:label" : "Caoimhe Kilfeather"
+  }, {
+    "@id" : "spice:artefact/abbreviation",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/kilfeather-caoimhe",
+    "author" : "spice:agent/kilfeather-caoimhe",
+    "schema:dateCreated" : "2011",
+    "schema:url" : "https://imma.ie/collection/abbreviation/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/abbreviation",
+    "arco-cd:hasTitle" : "Abbreviation"
+  }, {
+    "@id" : "spice:attribution/abbreviation",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/kilfeather-caoimhe"
+  } ],
+  "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

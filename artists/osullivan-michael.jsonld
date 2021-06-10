@@ -1,0 +1,102 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/osullivan-michael",
+    "@type" : "foaf:Person",
+    "dc:description" : "Michael O'Sullivan was born in Dublin in 1945. In 1968 he received a Diploma in Sculpture from the National College of Art and Design (NCAD), Dublin. He travelled on a Taylor study scholarship to Amsterdam and the Vassos Kenellos Studio, Athens in 1969. O'Sullivan began lecturing at NCAD in 1972. Influenced by the writings of James Joyce he participated in the Ulysses Project at the Douglas Hyde Gallery, Trinity College, Dublin in 1982. He took early retirement from his post as Lecturer in Sculpture in NCAD in September 2007.",
+    "dc:source" : "https://imma.ie/artists/michael-osullivan/",
+    "schema:birthDate" : "b.1945",
+    "schema:url" : "https://imma.ie/artists/michael-osullivan/",
+    "rdfs:label" : "Michael O’Sullivan"
+  }, {
+    "@id" : "spice:artefact/mythical-mare",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/osullivan-michael",
+    "author" : "spice:agent/osullivan-michael",
+    "schema:dateCreated" : "1978",
+    "schema:url" : "https://imma.ie/collection/mythical-mare/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/mythical-mare",
+    "arco-cd:hasTitle" : "Mythical Mare"
+  }, {
+    "@id" : "spice:artefact/st-brendan-discovers-the-crystal-pool",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/osullivan-michael",
+    "author" : "spice:agent/osullivan-michael",
+    "schema:dateCreated" : "1982",
+    "schema:url" : "https://imma.ie/collection/st-brendan-discovers-the-crystal-pool/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/st-brendan-discovers-the-crystal-pool",
+    "arco-cd:hasTitle" : "St Brendan Discovers the Crystal Pool"
+  }, {
+    "@id" : "spice:attribution/mythical-mare",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/osullivan-michael"
+  }, {
+    "@id" : "spice:attribution/st-brendan-discovers-the-crystal-pool",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/osullivan-michael"
+  } ],
+  "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

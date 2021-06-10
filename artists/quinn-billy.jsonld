@@ -1,0 +1,116 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/quinn-billy",
+    "@type" : "foaf:Person",
+    "dc:description" : "Irish artist Billy Quinn (born 1954) studied at the National College of Art and Design. He relocated to London in 1974, and moved to New York in the 1990s. Quinn’s practice combines photography, painting, installation and performance, and deals with issues including AIDS and his Roman Catholic upbringing. Quinn returned to Ireland to take part in IMMA’s Artist's Residency Programme in 1995. He has since exhibited and taught in Ireland, the UK and the United States.",
+    "dc:source" : "https://imma.ie/artists/billy-quinn/",
+    "schema:birthDate" : "b.1954",
+    "schema:url" : "https://imma.ie/artists/billy-quinn/",
+    "rdfs:label" : "Billy Quinn"
+  }, {
+    "@id" : "spice:artefact/billy",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/quinn-billy",
+    "author" : "spice:agent/quinn-billy",
+    "schema:dateCreated" : "1991",
+    "schema:url" : "https://imma.ie/collection/billy/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/billy",
+    "arco-cd:hasTitle" : "Billy"
+  }, {
+    "@id" : "spice:artefact/brian-and-rachel",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/quinn-billy",
+    "author" : "spice:agent/quinn-billy",
+    "schema:dateCreated" : "1993",
+    "schema:url" : "https://imma.ie/collection/brian-and-rachel/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/brian-and-rachel",
+    "arco-cd:hasTitle" : "Brian and Rachel"
+  }, {
+    "@id" : "spice:artefact/sodomy-piece",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/quinn-billy",
+    "author" : "spice:agent/quinn-billy",
+    "schema:dateCreated" : "1992",
+    "schema:url" : "https://imma.ie/collection/sodomy-piece/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/sodomy-piece",
+    "arco-cd:hasTitle" : "Sodomy Piece"
+  }, {
+    "@id" : "spice:attribution/billy",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/quinn-billy"
+  }, {
+    "@id" : "spice:attribution/brian-and-rachel",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/quinn-billy"
+  }, {
+    "@id" : "spice:attribution/sodomy-piece",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/quinn-billy"
+  } ],
+  "@context" : {
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

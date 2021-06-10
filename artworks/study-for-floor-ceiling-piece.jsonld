@@ -1,0 +1,80 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/study-for-floor-ceiling-piece",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "More widely known for her cast sculptures of the empty spaces defined by particular buildings or objects, Whiteread’s drawings are similarly evocative of human history. Each drawing concentrates on a single architectural motif, which is developed on subtly coloured graph paper with correction fluid, tippex, resin and inks. The artist’s love of texture is highlighted by her drawings media which also have the quality of suggesting past and present states. The drawings are of typical rather than specific architectural motifs. Viewed as such, they provide an opportunity to see the artist’s mind in action, sifting and extracting from the world of experience, prior to making sculpture.",
+    "dc:source" : "https://imma.ie/collection/study-for-floor-ceiling-piece/",
+    "schema:creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1994",
+    "image" : "spice:documentation/study-for-floor-ceiling-piece",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Correction fluid, ink and watercolour on graph paper",
+    "schema:size" : "45.5 x 30.5cm",
+    "arco-cd:hasInventory" : "L.1253.5"
+  }, {
+    "@id" : "spice:documentation/study-for-floor-ceiling-piece",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Rachel Whiteread, Study for Floor Ceiling Piece, 1993, Correction fluid, ink and watercolour on graph paper, 45.5 x 30.5cm, Collection Irish Museum of Modern Art, Loan, Weltkunst Foundation, 1994 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2020/02/3466.jpg"
+  } ],
+  "@context" : {
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

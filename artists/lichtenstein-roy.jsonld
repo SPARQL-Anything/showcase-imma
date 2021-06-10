@@ -1,0 +1,88 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/lichtenstein-roy",
+    "@type" : "foaf:Person",
+    "dc:description" : "Pop artist Roy Lichtenstein was born in manhattan. He studied with the painter Reginald Marsh at the Art Students League. Lichenstein was conscripted to the US Army with the outbreak of World War II. After the war he received his BFA and MFA from Ohio State University. Until 1963 he held various teaching positions. During the 1960s, along with Andy Warhol and Jasper Johns, Lichtenstein became a leading figure in the Pop Art movement. His work was heavily influenced by popular advertising and comic book style, an approach that he continued for the rest of his career. After his death the Roy Lichtenstein Foundation was established in 1999. A major retrospective opened at the Art Institute of Chicago in May 2012 before going to the National Gallery of Art in Washington, Tate Modern in London, and the Centre Pompidou in Paris in 2013.",
+    "dc:source" : "https://imma.ie/artists/roy-lichtenstein/",
+    "schema:birthDate" : "1923–1997",
+    "schema:url" : "https://imma.ie/artists/roy-lichtenstein/",
+    "rdfs:label" : "Roy Lichtenstein"
+  }, {
+    "@id" : "spice:artefact/bicentennial-print",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/lichtenstein-roy",
+    "author" : "spice:agent/lichtenstein-roy",
+    "schema:dateCreated" : "1975",
+    "schema:url" : "https://imma.ie/collection/bicentennial-print/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/bicentennial-print",
+    "arco-cd:hasTitle" : "Bicentennial Print"
+  }, {
+    "@id" : "spice:attribution/bicentennial-print",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/lichtenstein-roy"
+  } ],
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/hapaska-siobhan",
+    "@type" : "foaf:Person",
+    "dc:description" : "Northern Irish artist Siobhán Hapaska studied at Middlesex Polytechnic and Goldsmiths College, London. Her wall and floor based sculptural works combine a range of synthetic and organic materials to consider ideas of speed, displacement, communication and our relationship with the environment. Hapaska has exhibition nationally and internationally since the 1990s. She received the IMMA Glen Dimplex Award in 1998 and represented Ireland at the Venice Biennale in 2001. Her work is held in many public collections, including Tate Modern and the British Council.",
+    "dc:source" : "https://imma.ie/artists/siobhan-hapaska/",
+    "schema:birthDate" : "b.1963",
+    "schema:url" : "https://imma.ie/artists/siobhan-hapaska/",
+    "rdfs:label" : "Siobhán Hapaska"
+  }, {
+    "@id" : "spice:artefact/bond",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/hapaska-siobhan",
+    "author" : "spice:agent/hapaska-siobhan",
+    "schema:dateCreated" : "1999",
+    "schema:url" : "https://imma.ie/collection/bond/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/bond",
+    "arco-cd:hasTitle" : "Bond"
+  }, {
+    "@id" : "spice:artefact/heart",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/hapaska-siobhan",
+    "author" : "spice:agent/hapaska-siobhan",
+    "schema:dateCreated" : "1993",
+    "schema:url" : "https://imma.ie/collection/heart/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/heart",
+    "arco-cd:hasTitle" : "Heart"
+  }, {
+    "@id" : "spice:artefact/old-sub",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/hapaska-siobhan",
+    "author" : "spice:agent/hapaska-siobhan",
+    "schema:dateCreated" : "1996",
+    "schema:url" : "https://imma.ie/collection/old-sub/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/old-sub",
+    "arco-cd:hasTitle" : "Old Sub"
+  }, {
+    "@id" : "spice:attribution/bond",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/hapaska-siobhan"
+  }, {
+    "@id" : "spice:attribution/heart",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/hapaska-siobhan"
+  }, {
+    "@id" : "spice:attribution/old-sub",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/hapaska-siobhan"
+  } ],
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/i-reached-inside-myself-through-time",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "‘’I reached inside myself through time’’, 2015 is a complex multi-media installation work specially commissioned for the group exhibition LIAF 2015: Disappearing Acts, Lofoten, Norway’s International Art Festival, curated in 2015 by Matt Packer and Arne Skaug Olsen.",
+    "dc:source" : "https://imma.ie/collection/i-reached-inside-myself-through-time/",
+    "schema:creditText" : "IMMA Collection: Purchase, Hennessy Art Fund for IMMA Collection, 2016",
+    "image" : "spice:documentation/i-reached-inside-myself-through-time",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Texts from Olaf Stapledon's timeline for Last and First Men, an acapella recording of Morten Harket's vocals for The sun always shines on TV sourced on-line, True Type (digital) rendering of the Futura font by Paul Renner, high resolution impulse response recordings made in various spaces in the Lofoten islands, Reaper DAW with convolution reverb plug-in, Feonic audio-actuators, stereo amplifier, 2 Raspberry-Pi computers running Raspbian, Openframeworks open source toolkit, programming, modified LCD screen, Arduino Uno with 2.8\" TFT display, anti-static bag, aluminium profiles, cables, cable glands, nuts, bolts, screws, wood, webbing, ratchet-straps, plasterboard, plastic window film, black carpet and adhesive.",
+    "arco-cd:hasInventory" : "IMMA.4005"
+  }, {
+    "@id" : "spice:documentation/i-reached-inside-myself-through-time",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Dennis McNulty, I reached inside myself through time, 2015, Texts from Olaf Stapledon's timeline for Last and First Men, an acapella recording of Morten Harket's vocals for The sun always shines on TV sourced on-line, True Type (digital) rendering of the Futura font by Paul Renner, high resolution impulse response recordings made in various spaces in the Lofoten islands, Reaper DAW with convolution reverb plug-in, Feonic audio-actuators, stereo amplifier, 2 Raspberry-Pi computers running Raspbian, Openframeworks open source toolkit, programming, modified LCD screen, Arduino Uno with 2.8\" TFT display, anti-static bag, aluminium profiles, cables, cable glands, nuts, bolts, screws, wood, webbing, ratchet-straps, plasterboard, plastic window film, black carpet and adhesive., Collection Irish Museum of Modern Art, Purchase, Hennessy Art Fund for IMMA Collection, 2016 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/8070.jpg"
+  } ],
+  "@context" : {
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

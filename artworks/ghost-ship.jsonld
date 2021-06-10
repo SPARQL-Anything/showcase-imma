@@ -1,0 +1,75 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/ghost-ship",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "Dorothy Cross’s fascination with the sea is evident in ‘Ghost Ship’. In 1999 Cross was the winner of the Nissan Art Prize for a temporary public sculpture in Dublin, a joint venture between the Irish Museum of Modern Art and Nissan Ireland. ‘Ghost Ship’ is Dorothy Cross’s personal homage to lightships, which were once a familiar sight around the Irish coast. In their heyday there were twelve lightships used to mark reefs or other dangers in the open sea, the names of which were painted in large white lettering on the red ships. These engineless ships were towed into position, anchored in place and crewed by the lightshipmen who served on board for up to six weeks. Cross secured a decommissioned lightship, the 140 ft long Albatross, which she covered with phosphorescent paint and moored in Scotsman’s Bay in Dun Laoghaire from 3-21 February 1999, creating a magical ghostly presence glowing in the dark out at sea. At regular intervals the phosphorescent paint slowly faded and was then re-charged using UV lights.",
+    "dc:source" : "https://imma.ie/collection/ghost-ship/",
+    "schema:creditText" : "IMMA Collection: Purchase, 2003",
+    "image" : "spice:documentation/ghost-ship",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Two light ship models, phosphorescent paint, ultraviolet lights, video",
+    "arco-cd:hasInventory" : "IMMA.1607"
+  }, {
+    "@id" : "spice:documentation/ghost-ship",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Dorothy Cross, Ghost Ship, 1999, Two light ship models, phosphorescent paint, ultraviolet lights, video, Duration: 10 min loop, Collection Irish Museum of Modern Art, Purchase, 2003 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/1631.jpg"
+  } ],
+  "@context" : {
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

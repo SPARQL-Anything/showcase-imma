@@ -1,0 +1,130 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/hall-adrian",
+    "@type" : "foaf:Person",
+    "dc:description" : "British artist Adrian Hall attended Plymouth College of Art, the Royal College of Art and Yale University. Hall lived in Belfast from 1972 to 1979, when he moved to Sidney. He works in a broad range of media including painting, collage, photography, performance, sculpture and installation. During the 1970s, Hall exhibited regularly with the David Hendriks Gallery, Dublin. He was awarded the P.J. Carrolls Prize for Sculpture at the Irish Exhibition of Living Art in 1975.",
+    "dc:source" : "https://imma.ie/artists/adrian-hall/",
+    "schema:birthDate" : "b.1943",
+    "schema:url" : "https://imma.ie/artists/adrian-hall/",
+    "rdfs:label" : "Adrian Hall"
+  }, {
+    "@id" : "spice:artefact/easter-group-sculptogram",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/hall-adrian",
+    "author" : "spice:agent/hall-adrian",
+    "schema:dateCreated" : "1976",
+    "schema:url" : "https://imma.ie/collection/easter-group-sculptogram/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/easter-group-sculptogram",
+    "arco-cd:hasTitle" : "Easter Group (Sculptogram)"
+  }, {
+    "@id" : "spice:artefact/portrait-of-david-hendriks-commissioned-by-gordon-lambert",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/hall-adrian",
+    "author" : "spice:agent/hall-adrian",
+    "schema:dateCreated" : "1979",
+    "schema:url" : "https://imma.ie/collection/portrait-of-david-hendriks-commissioned-by-gordon-lambert/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/portrait-of-david-hendriks-commissioned-by-gordon-lambert",
+    "arco-cd:hasTitle" : "Portrait of David Hendriks (commissioned by Gordon Lambert)"
+  }, {
+    "@id" : "spice:artefact/portrait-of-gordon-lambert-commissioned-by-gordon-lambert",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/hall-adrian",
+    "author" : "spice:agent/hall-adrian",
+    "schema:dateCreated" : "1979",
+    "schema:url" : "https://imma.ie/collection/portrait-of-gordon-lambert-commissioned-by-gordon-lambert/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/portrait-of-gordon-lambert-commissioned-by-gordon-lambert",
+    "arco-cd:hasTitle" : "Portrait of Gordon Lambert (commissioned by Gordon Lambert)"
+  }, {
+    "@id" : "spice:artefact/sculptogram",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/hall-adrian",
+    "author" : "spice:agent/hall-adrian",
+    "schema:dateCreated" : "1975",
+    "schema:url" : "https://imma.ie/collection/sculptogram/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/sculptogram",
+    "arco-cd:hasTitle" : "Sculptogram"
+  }, {
+    "@id" : "spice:attribution/easter-group-sculptogram",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/hall-adrian"
+  }, {
+    "@id" : "spice:attribution/portrait-of-david-hendriks-commissioned-by-gordon-lambert",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/hall-adrian"
+  }, {
+    "@id" : "spice:attribution/portrait-of-gordon-lambert-commissioned-by-gordon-lambert",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/hall-adrian"
+  }, {
+    "@id" : "spice:attribution/sculptogram",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/hall-adrian"
+  } ],
+  "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

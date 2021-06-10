@@ -1,0 +1,116 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/kokoschka-oskar",
+    "@type" : "foaf:Person",
+    "dc:description" : "Austrian artist, poet and playwright Oskar Kokoschka was born in Pöchlarn and studied at the Vienna School of Arts and Crafts, where his expressionist works caused controversy. After serving in World War I, Kokoschka took up a professorship at the Dresden Academy. He returned to Vienna in 1931, but due to the rise of the Nazi Party, he moved to Prague and became a Czech citizen in 1937. The same year, the Nazi Party condemned his work as ‘degenerate art’ and removed it from public view. He fled to England in 1938 and became a British national in 1947. Six years later he settled in Geneva, where he taught at the Summer Academy of Fine Arts and designed sets and costumes for the theatre and the opera. Kokoschka’s autobiography 'Mein Leben' was published in 1971.",
+    "dc:source" : "https://imma.ie/artists/oskar-kokoschka/",
+    "schema:birthDate" : "1886–1980",
+    "schema:url" : "https://imma.ie/artists/oskar-kokoschka/",
+    "rdfs:label" : "Oskar Kokoschka"
+  }, {
+    "@id" : "spice:artefact/flowers",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/kokoschka-oskar",
+    "author" : "spice:agent/kokoschka-oskar",
+    "schema:dateCreated" : "1941",
+    "schema:url" : "https://imma.ie/collection/flowers/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/flowers",
+    "arco-cd:hasTitle" : "Flowers"
+  }, {
+    "@id" : "spice:artefact/girl-with-cat",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/kokoschka-oskar",
+    "author" : "spice:agent/kokoschka-oskar",
+    "schema:dateCreated" : "1945",
+    "schema:url" : "https://imma.ie/collection/girl-with-cat/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/girl-with-cat",
+    "arco-cd:hasTitle" : "Girl with Cat"
+  }, {
+    "@id" : "spice:artefact/pigeons",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/kokoschka-oskar",
+    "author" : "spice:agent/kokoschka-oskar",
+    "schema:dateCreated" : "1941",
+    "schema:url" : "https://imma.ie/collection/pigeons/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/pigeons",
+    "arco-cd:hasTitle" : "Pigeons"
+  }, {
+    "@id" : "spice:attribution/flowers",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/kokoschka-oskar"
+  }, {
+    "@id" : "spice:attribution/girl-with-cat",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/kokoschka-oskar"
+  }, {
+    "@id" : "spice:attribution/pigeons",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/kokoschka-oskar"
+  } ],
+  "@context" : {
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

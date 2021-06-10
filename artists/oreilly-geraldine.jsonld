@@ -1,0 +1,116 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/oreilly-geraldine",
+    "@type" : "foaf:Person",
+    "dc:description" : "Irish artist and printmaker Geraldine O’Reilly (born 1956) studied painting at the National College of Art and Design, Dublin. She received a Fulbright Scholarship in 1989 and has exhibited extensively in Ireland, Europe and the U.S. since this time. O’Reilly is a former board member of Graphic Studio Dublin and was elected chairperson in 2008. She was elected as a member of Aosdána in 2004. Her work is held in many private and public collections including that of the National Gallery of Ireland; the Chester Beatty Museum and Library; Boston College and the State University of New York.",
+    "dc:source" : "https://imma.ie/artists/geraldine-oreilly/",
+    "schema:birthDate" : "b.1956",
+    "schema:url" : "https://imma.ie/artists/geraldine-oreilly/",
+    "rdfs:label" : "Geraldine O’Reilly"
+  }, {
+    "@id" : "spice:artefact/bag",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/oreilly-geraldine",
+    "author" : "spice:agent/oreilly-geraldine",
+    "schema:dateCreated" : "1988",
+    "schema:url" : "https://imma.ie/collection/bag/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/bag",
+    "arco-cd:hasTitle" : "Bag"
+  }, {
+    "@id" : "spice:artefact/innocence",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/oreilly-geraldine",
+    "author" : "spice:agent/oreilly-geraldine",
+    "schema:dateCreated" : "1988",
+    "schema:url" : "https://imma.ie/collection/innocence/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/innocence",
+    "arco-cd:hasTitle" : "Innocence"
+  }, {
+    "@id" : "spice:artefact/irish-women-migrants",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/oreilly-geraldine",
+    "author" : "spice:agent/oreilly-geraldine",
+    "schema:dateCreated" : "1988",
+    "schema:url" : "https://imma.ie/collection/irish-women-migrants/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/irish-women-migrants",
+    "arco-cd:hasTitle" : "Irish Women Migrants"
+  }, {
+    "@id" : "spice:attribution/bag",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/oreilly-geraldine"
+  }, {
+    "@id" : "spice:attribution/innocence",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/oreilly-geraldine"
+  }, {
+    "@id" : "spice:attribution/irish-women-migrants",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/oreilly-geraldine"
+  } ],
+  "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

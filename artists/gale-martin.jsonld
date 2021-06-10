@@ -1,0 +1,116 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/gale-martin",
+    "@type" : "foaf:Person",
+    "dc:description" : "Painter Martin Gale was born in England and grew up in Ireland. He attended the National College of Art and Design, Dublin. Gale's tense, hyper-realist images, often featuring individuals isolated in the landscape, create an unspecified sense of ambiguity and unease which holds the viewer within an undefined narrative. Gale has exhibited widely since the 1970s and represented Ireland at the XI Biennale de Paris in 1980. His work was the subject of a retrospective exhibition in the Royal Hibernian Academy Gallagher Gallery in 2005. Gale is a member of Aosdána and the RHA.",
+    "dc:source" : "https://imma.ie/artists/martin-gale/",
+    "schema:birthDate" : "b.1949",
+    "schema:url" : "https://imma.ie/artists/martin-gale/",
+    "rdfs:label" : "Martin Gale"
+  }, {
+    "@id" : "spice:artefact/intrusion",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/gale-martin",
+    "author" : "spice:agent/gale-martin",
+    "schema:dateCreated" : "1973",
+    "schema:url" : "https://imma.ie/collection/intrusion/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/intrusion",
+    "arco-cd:hasTitle" : "Intrusion"
+  }, {
+    "@id" : "spice:artefact/sonnys-day",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/gale-martin",
+    "author" : "spice:agent/gale-martin",
+    "schema:dateCreated" : "1980",
+    "schema:url" : "https://imma.ie/collection/sonnys-day/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/sonnys-day",
+    "arco-cd:hasTitle" : "Sonny’s Day"
+  }, {
+    "@id" : "spice:artefact/tournament",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/gale-martin",
+    "author" : "spice:agent/gale-martin",
+    "schema:dateCreated" : "2010",
+    "schema:url" : "https://imma.ie/collection/tournament/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/tournament",
+    "arco-cd:hasTitle" : "Tournament"
+  }, {
+    "@id" : "spice:attribution/intrusion",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/gale-martin"
+  }, {
+    "@id" : "spice:attribution/sonnys-day",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/gale-martin"
+  }, {
+    "@id" : "spice:attribution/tournament",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/gale-martin"
+  } ],
+  "@context" : {
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

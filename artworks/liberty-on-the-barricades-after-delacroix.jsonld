@@ -1,0 +1,80 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/liberty-on-the-barricades-after-delacroix",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "Robert Ballagh’s ‘Liberty on the Barricades (After Delacroix)’ is an interpretation of ‘Liberty Leading the People’ (1830), a painting by the French Romantic painter, Eugene Delacroix. The subject matter of Delacroix’s painting is the turmoil and violence that continued on the streets of Paris following the French Revolution in 1789. In France, Liberty is depicted as a lady, her image is influenced by the statues of Ancient Greece, alluding to the ideals of democracy that began in Ancient Greece and Rome. In Delacroix’s composition Liberty charges forward holding the French flag to represent democracy. The figure on the left in a nightshirt refers to the cruelty of the King’s soldiers who often killed men in their beds. Behind Liberty a mob of men surge forward and in the background the city is shrouded in smoke.",
+    "dc:source" : "https://imma.ie/collection/liberty-on-the-barricades-after-delacroix/",
+    "schema:creditText" : "IMMA Collection: Heritage Gift by Bank of Ireland, 1999",
+    "image" : "spice:documentation/liberty-on-the-barricades-after-delacroix",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Acrylic on canvas",
+    "schema:size" : "183 x 244 cm",
+    "arco-cd:hasInventory" : "IMMA.1260"
+  }, {
+    "@id" : "spice:documentation/liberty-on-the-barricades-after-delacroix",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Robert Ballagh, Liberty on the Barricades (After Delacroix), 1969, Acrylic on canvas, 183 x 244 cm, Collection Irish Museum of Modern Art, Heritage Gift by Bank of Ireland, 1999 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/818.jpg"
+  } ],
+  "@context" : {
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/untitled-67",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "Matt Mullican is a conceptual artist who works with the idea of the city and its impact on our lives. His work addresses the issue of communication through a common pictorial language – the international signs of urban cultures. An accompanying consideration in his work is an exploration of the potential for visual signifiers to surpass the verbal. His practice has encompassed an extraordinary range of media, including bulletin boards, banners, tapestry and above all, the invisible world of the computer data bank. ‘Untitled’, 1989 is a series of twelve computer generated images of an imaginary walled city. It is not peopled; as the artist states: “it’s more like a world fair, an exhibition ground […] The entire environment was conceived of and developed as a sign”*. Mullican’s use of technology and media such as the bulletin board consciously blurs the distinction between fine art and commercial art, between the designer and the artist.",
+    "dc:source" : "https://imma.ie/collection/untitled-67/",
+    "schema:creditText" : "IMMA Collection: Purchase, 1991",
+    "image" : "spice:documentation/untitled-67",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Lightboxes and transparencies",
+    "schema:size" : "91.5 x 122 x 16.5 cm (each)",
+    "arco-cd:hasInventory" : "IMMA.19"
+  }, {
+    "@id" : "spice:documentation/untitled-67",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Matt Mullican, Untitled, 1989, Lightboxes and transparencies, 91.5 x 122 x 16.5 cm (each), Collection Irish Museum of Modern Art, Purchase, 1991 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2020/03/640.jpg"
+  } ],
+  "@context" : {
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

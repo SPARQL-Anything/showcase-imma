@@ -1,0 +1,44 @@
+{
+  "@id" : "spice:agent/fujiwara-simon",
+  "@type" : "foaf:Person",
+  "dc:description" : [ "Simon Fujiwara (born London, 1982) lives and works in Berlin. He studied Architecture at Cambridge University from 2002 to 2005, and then Fine Art at the Städelschule Hochschule fur Bildende Kunst in Frankfurt am Main from 2006 to 2008. He has participated in several recent biennials including the Venice Biennale, 2009; Manifesta 8 and São Paulo Biennial in 2010; Manchester International Festival, and Performa, New York, all 2011. His work has been presented at galleries around the world including The Power Plant Contemporary Art Gallery, Toronto, Tate St Ives, Pompidou Centre, Paris and The Solomon R. Guggenheim Museum, New York.", "Simon Fujiwara (born London, 1982) lives and works in Berlin. He studied Architecture at Cambridge University from 2002 to 2005, and then Fine Art at the Städelschule Hochschule fur Bildende Kunst in Frankfurt am Main from 2006 to 2008. " ],
+  "dc:source" : "https://imma.ie/artists/simon-fujiwara/",
+  "schema:birthDate" : "b.1982",
+  "schema:url" : "https://imma.ie/artists/simon-fujiwara/",
+  "rdfs:label" : "Simon Fujiwara",
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

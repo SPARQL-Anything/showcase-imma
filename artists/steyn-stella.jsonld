@@ -1,0 +1,44 @@
+{
+  "@id" : "spice:agent/steyn-stella",
+  "@type" : "foaf:Person",
+  "dc:description" : "Born in Dublin to Russian and German parents, painter Stella Steyn (1907-1987) studied at the Metropolitan School of Art and La Grande Chaumière, Paris. She then spent a year at the Bauhaus before settling in London in 1932. Influenced by French painting, her studies of the female body, still lifes and flowers, retain a vibrant fauvist quality and simplicity of form. Steyn exhibited in London from the 1950s. Little known in Ireland for many years, a retrospective exhibition of her work held at Dublin’s Gorry Gallery in 1995, and The Molesworth Gallery in 2001, renewed critical interest in her work.",
+  "dc:source" : "https://imma.ie/artists/stella-steyn/",
+  "schema:birthDate" : "1907–1987",
+  "schema:url" : "https://imma.ie/artists/stella-steyn/",
+  "rdfs:label" : "Stella Steyn",
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

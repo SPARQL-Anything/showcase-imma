@@ -1,0 +1,88 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/siskind-aaron",
+    "@type" : "foaf:Person",
+    "dc:description" : "Aaron Siskind brought an abstract, formal approach to photography, inviting comparison with the Abstract Expressionist painters of the 1950s and 60s. Born in New York and trained as a writer, Siskind dedicated himself to photography in the 1930s, working in the socially conscious documentary mode. The “Harlem Document” explored the social, political and economic conditions of this Manhattan neighbourhood through images of the mostly African-American residents. In the 1940s, Siskind’s interests shifted to more formal, poetic imagery laden with human emotion; black and white photographs captured weathered fragments and textured surfaces animated with graffiti, paint splashes and patterns of decay. Siskind not only cultivated friendships with Abstract Expressionists Franz Kline, Barnett Newman and Mark Rothko, he also exhibited at the Charles Egan Gallery in New York, which specialized in this synthetic modernist style. Siskind and painter Franz Kline were close friends and artistic colleagues. In 1961, while driving in Mexico, Siskind chanced upon a wall with bold black brush strokes reminiscent of Kline’s signature style. Siskind eventually created an homage to his friend, who died in 1962, through a series of photographs focused on rough wall markings shot on another Mexican road trip in 1972. Siskind was influential as a photographer and a teacher; he joined the Institute of Design in Chicago in 1951 at the invitation of photographer Harry Callahan, and then also taught at the Rhode Island School of Design from 1971 – 1976. One of the founders of the Society for Photographic Education, he received the John Simon Guggenheim Memorial Fellowship (1966) which supported an extended stay in Rome.",
+    "dc:source" : "https://imma.ie/artists/aaron-siskind/",
+    "schema:birthDate" : "1903–1991",
+    "schema:url" : "https://imma.ie/artists/aaron-siskind/",
+    "rdfs:label" : "Aaron Siskind"
+  }, {
+    "@id" : "spice:artefact/veracruz-215",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/siskind-aaron",
+    "author" : "spice:agent/siskind-aaron",
+    "schema:dateCreated" : "1973",
+    "schema:url" : "https://imma.ie/collection/veracruz-215/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/veracruz-215",
+    "arco-cd:hasTitle" : "Veracruz, 215"
+  }, {
+    "@id" : "spice:attribution/veracruz-215",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/siskind-aaron"
+  } ],
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

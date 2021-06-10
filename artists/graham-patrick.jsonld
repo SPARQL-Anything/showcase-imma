@@ -1,0 +1,102 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/graham-patrick",
+    "@type" : "foaf:Person",
+    "dc:description" : "Irish artist Patrick Graham studied at the National College of Art and Design, Dublin. Graham's practice is driven by his personal experiences of political mismanagement, as well as religious and sexual repression. His paintings are large, gestural and expressive, and the canvases are often ripped or slashed. Graham has exhibited in Ireland and internationally since the late 1960s. A major retrospective of his work took place in Los Angeles in 2002. Graham is an elected member of Aosdána.",
+    "dc:source" : "https://imma.ie/artists/patrick-graham/",
+    "schema:birthDate" : "b.1943",
+    "schema:url" : "https://imma.ie/artists/patrick-graham/",
+    "rdfs:label" : "Patrick Graham"
+  }, {
+    "@id" : "spice:artefact/ark-of-dreaming",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/graham-patrick",
+    "author" : "spice:agent/graham-patrick",
+    "schema:dateCreated" : "1990",
+    "schema:url" : "https://imma.ie/collection/ark-of-dreaming/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/ark-of-dreaming",
+    "arco-cd:hasTitle" : "Ark of Dreaming"
+  }, {
+    "@id" : "spice:artefact/brian-in-the-light-of-experience",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/graham-patrick",
+    "author" : "spice:agent/graham-patrick",
+    "schema:dateCreated" : "1984",
+    "schema:url" : "https://imma.ie/collection/brian-in-the-light-of-experience/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/brian-in-the-light-of-experience",
+    "arco-cd:hasTitle" : "Brian in the Light of Experience"
+  }, {
+    "@id" : "spice:attribution/ark-of-dreaming",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/graham-patrick"
+  }, {
+    "@id" : "spice:attribution/brian-in-the-light-of-experience",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/graham-patrick"
+  } ],
+  "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

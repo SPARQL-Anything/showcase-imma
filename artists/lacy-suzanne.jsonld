@@ -1,0 +1,44 @@
+{
+  "@id" : "spice:agent/lacy-suzanne",
+  "@type" : "foaf:Person",
+  "dc:description" : [ "Lacy’s work has been reviewed in The Village Voice, Artforum, L.A. Times, the New York Times, Art in America, and in numerous books and periodicals. She lectures widely, has published over 70 texts of critical commentary, and has exhibited in The Tanks at Tate Modern, The Museum of Contemporary Art in Los Angeles, the Whitney Museum, the New Museum and P.S. 1 in New York, and The Bilbao Museum in Spain. Her scores of fellowships include the Guggenheim Foundation, The Henry Moore Foundation, and The National Endowment for the Arts.", "Suzanne Lacy is a visual artist whose prolific career includes performances, video and photographic installation, critical writing and public practices in communities. She is best known as one of the Los Angeles performance artists who became active in the 70s and shaped the emergent art of social engagement. Her work ranges from intimate, graphic body explorations to large-scale public performances involving literally hundreds of performers and thousands of audience members." ],
+  "dc:source" : "https://imma.ie/artists/suzanne-lacy/",
+  "schema:birthDate" : "b.1945",
+  "schema:url" : "https://imma.ie/artists/suzanne-lacy/",
+  "rdfs:label" : "Suzanne Lacy",
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

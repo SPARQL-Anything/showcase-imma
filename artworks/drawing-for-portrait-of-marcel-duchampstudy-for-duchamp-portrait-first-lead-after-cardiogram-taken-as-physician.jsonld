@@ -1,0 +1,70 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/drawing-for-portrait-of-marcel-duchampstudy-for-duchamp-portrait-first-lead-after-cardiogram-taken-as-physician",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "When Brian O’Doherty created Marcel Duchamp’s portrait in the form of a recording of his heartbeat, he not only paid tribute to a friend and one of the most influential figures of late twentieth century art, but did so in a manner that typified those changes in our perception of art which the ‘sitter’ did so much to bring about: issues of personal identity; time and consciousness; definitions of art; and the subversion of the cult of artistic genius. ",
+    "dc:source" : "https://imma.ie/collection/drawing-for-portrait-of-marcel-duchampstudy-for-duchamp-portrait-first-lead-after-cardiogram-taken-as-physician/",
+    "schema:creditText" : "IMMA Collection: Donation, Joseph Masheck, 1991",
+    "image" : "spice:documentation/drawing-for-portrait-of-marcel-duchampstudy-for-duchamp-portrait-first-lead-after-cardiogram-taken-as-physician",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Pencil on paper",
+    "schema:size" : "49 x 62 cm Framed: 48.5 x 61 cm",
+    "arco-cd:hasInventory" : "IMMA.85"
+  }, {
+    "@id" : "spice:documentation/drawing-for-portrait-of-marcel-duchampstudy-for-duchamp-portrait-first-lead-after-cardiogram-taken-as-physician",
+    "@type" : "schema:ImageObject",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/697.jpg"
+  } ],
+  "@context" : {
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

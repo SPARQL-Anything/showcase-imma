@@ -1,0 +1,80 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/megalith-series-4",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "Influenced by time spent as a young girl near the Burren, Co Clare, from 1970-1979 Madden painted a large series of vertical works titled ‘Megalith’. The word ‘megalith’ derives from the Ancient Greek for ‘big stone’. A feature of the landscape of the Burren, they are often described as burial sites, but this remains a matter of speculation. Their visual impact on the landscape suggests they were also focal points. The vertical irregular lines, separating areas and establishing tensions among dark colour fields, enable the viewer to imagine moving around these huge, flat, vertical rocks.",
+    "dc:source" : "https://imma.ie/collection/megalith-series-4/",
+    "schema:creditText" : "IMMA Collection: Heritage Gift by Bank of Ireland, 1999",
+    "image" : "spice:documentation/megalith-series-4",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Polymer acrilyc on cotton duck",
+    "schema:size" : "161 x 229 cm",
+    "arco-cd:hasInventory" : "IMMA.1273"
+  }, {
+    "@id" : "spice:documentation/megalith-series-4",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "Anne Madden, Megalith Series (4), 1971, Polymer acrilyc on cotton duck, 161 x 229 cm, Collection Irish Museum of Modern Art, Heritage Gift by Bank of Ireland, 1999 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/1317.jpg"
+  } ],
+  "@context" : {
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

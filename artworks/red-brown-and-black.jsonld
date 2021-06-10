@@ -1,0 +1,80 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/red-brown-and-black",
+    "@type" : "schema:CreativeWork",
+    "dc:description" : "William Scott moved between figuration and abstraction throughout his career. The minimal composition of simple forms, large expanses of colour and muted palette in this work acknowledge the influence on him of Colour-Field artists such Mark Rothko and Barnett Newman. Scott’s preoccupation with the arrangement of forms in space, evident in his depiction of kitchen implements in his still lives, can also be seen in this composition; however any recognisable forms are broken down to their bare essentials. The elimination of identifiable objects enabled Scott to focus more completely on colour, form and texture in the work. Thin layers of paint are applied to create a smooth, flat surface devoid of brushstrokes, in keeping with the style of Colour-Field Painting. His subdued colour palette is offset by the dynamic tensions he creates between these muted colours by carefully balancing the values of tones and hue.",
+    "dc:source" : "https://imma.ie/collection/red-brown-and-black/",
+    "schema:creditText" : "IMMA Collection: Gift from the WIlliam Scott Foundation, 2006",
+    "image" : "spice:documentation/red-brown-and-black",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:material" : "Oil on canvas",
+    "schema:size" : "167.6 x 381 cm",
+    "arco-cd:hasInventory" : "IMMA.2115"
+  }, {
+    "@id" : "spice:documentation/red-brown-and-black",
+    "@type" : "schema:ImageObject",
+    "schema:caption" : "William Scott, Red Brown and Black, 1967, Oil on canvas, 167.6 x 381 cm, Collection Irish Museum of Modern Art, Gift from the WIlliam Scott Foundation, 2006 ",
+    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/2075.jpg"
+  } ],
+  "@context" : {
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

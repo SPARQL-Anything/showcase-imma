@@ -1,0 +1,97 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/knezevic-barbara",
+    "@type" : "foaf:Person",
+    "dc:description" : [ "Barbara Knezevic was selected for the Hennessy Art Fund for IMMA Collection 2018. Her sculptural arrangement ‘The Last Thing On Earth’ (2016) is framed by the proposition: What if this is the last thing, the final material to be pulled out of the ground, the final piece of stuff that has not already been purposed by humans. The ‘thing’ referred to here is a multi-sided marble object at the centre of the work, around which a constellation of other objects including a photographic backdrop, tripods and archaeological tools, mirrors, and an iPad are arranged.", "Barbara Knezevic lives and works in Dublin. She attended Sydney College of the Arts (BA) and the National College of Art and Design, Dublin (MFA). Recent exhibitions include Oonagh Young Gallery, Dublin; The MAC, Belfast; Temple Bar Gallery + Studios, Dublin; EKKM, Tallinn; Gallery Augusta, Helsinki; Solstice Arts Centre, Navan; Tulca Festival of Visual Art, Galway; HIAP, Helsinki; The LAB, Dublin City Council; Project Arts Centre, Dublin; EVA International, Limerick." ],
+    "dc:source" : "https://imma.ie/artists/barbara-knezevic/",
+    "schema:url" : "https://imma.ie/artists/barbara-knezevic/",
+    "rdfs:label" : "Barbara Knezevic"
+  }, {
+    "@id" : "spice:artefact/the-last-thing-on-earth",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/knezevic-barbara",
+    "author" : "spice:agent/knezevic-barbara",
+    "schema:dateCreated" : "2016",
+    "schema:url" : "https://imma.ie/collection/the-last-thing-on-earth/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-last-thing-on-earth",
+    "arco-cd:hasTitle" : "The Last Thing on Earth"
+  }, {
+    "@id" : "spice:artefact/the-last-thing-on-earth-2",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/knezevic-barbara",
+    "author" : "spice:agent/knezevic-barbara",
+    "schema:dateCreated" : "2016",
+    "schema:url" : "https://imma.ie/collection/the-last-thing-on-earth-2/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-last-thing-on-earth-2",
+    "arco-cd:hasTitle" : "The Last Thing on Earth"
+  }, {
+    "@id" : "spice:attribution/the-last-thing-on-earth",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/knezevic-barbara"
+  }, {
+    "@id" : "spice:attribution/the-last-thing-on-earth-2",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/knezevic-barbara"
+  } ],
+  "@context" : {
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

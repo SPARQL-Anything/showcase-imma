@@ -1,0 +1,39 @@
+{
+  "@id" : "spice:agent/blake-alexis",
+  "@type" : "foaf:Person",
+  "dc:description" : [ "Alexis Blake has a multidisciplinary practice that coalesces visual art, movement and performance. She investigates the way in which the body is represented and treated as an archive, which she then critically examines, disrupts and re-negotiates. Her work directly engages with representations and subjectification of the female body whilst activating it as a site and an agent for socio-political change. In doing so she creates spaces to expose and elude systems of representation and power.", "June 2019", "Alexis Blake has a multidisciplinary practice that coalesces visual art, movement and performance. She investigates the way in which the body is represented and treated as an archive, which she then critically examines, disrupts and re-negotiates." ],
+  "dc:source" : "https://imma.ie/artists/alexis-blake/",
+  "schema:url" : "https://imma.ie/artists/alexis-blake/",
+  "rdfs:label" : "Alexis Blake",
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

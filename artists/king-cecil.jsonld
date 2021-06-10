@@ -1,0 +1,270 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/king-cecil",
+    "@type" : "foaf:Person",
+    "dc:description" : "Self-taught Irish artist Cecil King was a successful businessman, who began to paint in his mid-30s. Initially King painted in a semi-realist style. From the late 1960s figurative elements in his work were replaced by plain fields of colour and geometric forms. King was a founding organiser of Rosc. He was the subject of a major retrospective at Dublin City Gallery The Hugh Lane in 1981, and a solo exhibition at IMMA in 2008. King’s work is held in numerous public and private collections.",
+    "dc:source" : "https://imma.ie/artists/cecil-king/",
+    "schema:birthDate" : "1921–1986",
+    "schema:url" : "https://imma.ie/artists/cecil-king/",
+    "rdfs:label" : "Cecil King"
+  }, {
+    "@id" : "spice:artefact/baggot-street-series",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/king-cecil",
+    "author" : "spice:agent/king-cecil",
+    "schema:dateCreated" : "1969",
+    "schema:url" : "https://imma.ie/collection/baggot-street-series/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/baggot-street-series",
+    "arco-cd:hasTitle" : "Baggot Street Series"
+  }, {
+    "@id" : "spice:artefact/berlin-painting",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/king-cecil",
+    "author" : "spice:agent/king-cecil",
+    "schema:dateCreated" : "1970",
+    "schema:url" : "https://imma.ie/collection/berlin-painting/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/berlin-painting",
+    "arco-cd:hasTitle" : "Berlin Painting"
+  }, {
+    "@id" : "spice:artefact/berlin-painting-no-17",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/king-cecil",
+    "author" : "spice:agent/king-cecil",
+    "schema:dateCreated" : "1965",
+    "schema:url" : "https://imma.ie/collection/berlin-painting-no-17/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/berlin-painting-no-17",
+    "arco-cd:hasTitle" : "Berlin Painting no. 17"
+  }, {
+    "@id" : "spice:artefact/circus-series",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/king-cecil",
+    "author" : "spice:agent/king-cecil",
+    "schema:dateCreated" : "1967",
+    "schema:url" : "https://imma.ie/collection/circus-series/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/circus-series",
+    "arco-cd:hasTitle" : "Circus Series"
+  }, {
+    "@id" : "spice:artefact/disintegration",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/king-cecil",
+    "author" : "spice:agent/king-cecil",
+    "schema:dateCreated" : "1960",
+    "schema:url" : "https://imma.ie/collection/disintegration/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/disintegration",
+    "arco-cd:hasTitle" : "Disintegration"
+  }, {
+    "@id" : "spice:artefact/easter",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/king-cecil",
+    "author" : "spice:agent/king-cecil",
+    "schema:dateCreated" : "1974",
+    "schema:url" : "https://imma.ie/collection/easter/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/easter",
+    "arco-cd:hasTitle" : "Easter"
+  }, {
+    "@id" : "spice:artefact/four-poems",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/king-cecil",
+    "author" : "spice:agent/king-cecil",
+    "schema:dateCreated" : "1984",
+    "schema:url" : "https://imma.ie/collection/four-poems/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/four-poems",
+    "arco-cd:hasTitle" : "Four Poems"
+  }, {
+    "@id" : "spice:artefact/glanmore-sonnets-von-seamus-heaney-mit-pastellen-von-cecil-king",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/king-cecil",
+    "author" : "spice:agent/king-cecil",
+    "schema:dateCreated" : "1977",
+    "schema:url" : "https://imma.ie/collection/glanmore-sonnets-von-seamus-heaney-mit-pastellen-von-cecil-king/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/glanmore-sonnets-von-seamus-heaney-mit-pastellen-von-cecil-king",
+    "arco-cd:hasTitle" : "Glanmore Sonnets von Seamus Heaney mit Pastellen von Cecil King"
+  }, {
+    "@id" : "spice:artefact/idrone",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/king-cecil",
+    "author" : "spice:agent/king-cecil",
+    "schema:dateCreated" : "1972",
+    "schema:url" : "https://imma.ie/collection/idrone/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/idrone",
+    "arco-cd:hasTitle" : "Idrone"
+  }, {
+    "@id" : "spice:artefact/link",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/king-cecil",
+    "author" : "spice:agent/king-cecil",
+    "schema:dateCreated" : "1976",
+    "schema:url" : "https://imma.ie/collection/link/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/link",
+    "arco-cd:hasTitle" : "Link"
+  }, {
+    "@id" : "spice:artefact/outer-worlds",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/king-cecil",
+    "author" : "spice:agent/king-cecil",
+    "schema:dateCreated" : "1960",
+    "schema:url" : "https://imma.ie/collection/outer-worlds/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/outer-worlds",
+    "arco-cd:hasTitle" : "Outer Worlds"
+  }, {
+    "@id" : "spice:artefact/sounion",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/king-cecil",
+    "author" : "spice:agent/king-cecil",
+    "schema:dateCreated" : "1975",
+    "schema:url" : "https://imma.ie/collection/sounion/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/sounion",
+    "arco-cd:hasTitle" : "Sounion"
+  }, {
+    "@id" : "spice:artefact/untitled-78",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/king-cecil",
+    "author" : "spice:agent/king-cecil",
+    "schema:dateCreated" : "1985",
+    "schema:url" : "https://imma.ie/collection/untitled-78/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-78",
+    "arco-cd:hasTitle" : "Untitled"
+  }, {
+    "@id" : "spice:artefact/verge-2",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/king-cecil",
+    "author" : "spice:agent/king-cecil",
+    "schema:dateCreated" : "1985",
+    "schema:url" : "https://imma.ie/collection/verge-2/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/verge-2",
+    "arco-cd:hasTitle" : "Verge"
+  }, {
+    "@id" : "spice:attribution/baggot-street-series",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/king-cecil"
+  }, {
+    "@id" : "spice:attribution/berlin-painting",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/king-cecil"
+  }, {
+    "@id" : "spice:attribution/berlin-painting-no-17",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/king-cecil"
+  }, {
+    "@id" : "spice:attribution/circus-series",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/king-cecil"
+  }, {
+    "@id" : "spice:attribution/disintegration",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/king-cecil"
+  }, {
+    "@id" : "spice:attribution/easter",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/king-cecil"
+  }, {
+    "@id" : "spice:attribution/four-poems",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/king-cecil"
+  }, {
+    "@id" : "spice:attribution/glanmore-sonnets-von-seamus-heaney-mit-pastellen-von-cecil-king",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/king-cecil"
+  }, {
+    "@id" : "spice:attribution/idrone",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/king-cecil"
+  }, {
+    "@id" : "spice:attribution/link",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/king-cecil"
+  }, {
+    "@id" : "spice:attribution/outer-worlds",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/king-cecil"
+  }, {
+    "@id" : "spice:attribution/sounion",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/king-cecil"
+  }, {
+    "@id" : "spice:attribution/untitled-78",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/king-cecil"
+  }, {
+    "@id" : "spice:attribution/verge-2",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/king-cecil"
+  } ],
+  "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

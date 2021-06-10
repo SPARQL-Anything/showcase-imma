@@ -1,0 +1,382 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/kabakov-ilya",
+    "@type" : "foaf:Person",
+    "dc:description" : "Ilya Kabakov is one of the most influential artists to have emerged from the former Soviet Union. Since his move to the West in 1987 he has become a leading figure in installation art. Kabakov’s practice combines drawings, paintings and found objects to form complex installations which reflect the social, historical and political forces which have shaped his life and work. He has created installations in venues worldwide including MoMA, New York, the Hirshhorn Museum, Washington and the Pompidou Centre, Paris. Together with his wife Emilia, Kabakov created a large site specific installation at IMMA in 1999.",
+    "dc:source" : "https://imma.ie/artists/ilya-kabakov/",
+    "schema:birthDate" : "b.1933",
+    "schema:url" : "https://imma.ie/artists/ilya-kabakov/",
+    "rdfs:label" : "Ilya Kabakov"
+  }, {
+    "@id" : "spice:artefact/10-characters-ronald-feldman-fine-arts-new-york",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/kabakov-ilya",
+    "author" : "spice:agent/kabakov-ilya",
+    "schema:dateCreated" : "1988",
+    "schema:url" : "https://imma.ie/collection/10-characters-ronald-feldman-fine-arts-new-york/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/10-characters-ronald-feldman-fine-arts-new-york",
+    "arco-cd:hasTitle" : "10 Characters – Ronald Feldman Fine Arts, New York"
+  }, {
+    "@id" : "spice:artefact/agonizing-surikov",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/kabakov-ilya",
+    "author" : "spice:agent/kabakov-ilya",
+    "schema:dateCreated" : "1972",
+    "schema:url" : "https://imma.ie/collection/agonizing-surikov/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/agonizing-surikov",
+    "arco-cd:hasTitle" : "Agonizing Surikov"
+  }, {
+    "@id" : "spice:artefact/anna-petrovna-has-a-dream-v",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/kabakov-ilya",
+    "author" : "spice:agent/kabakov-ilya",
+    "schema:dateCreated" : "1972",
+    "schema:url" : "https://imma.ie/collection/anna-petrovna-has-a-dream-v/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/anna-petrovna-has-a-dream-v",
+    "arco-cd:hasTitle" : "Anna Petrovna Has a Dream, V"
+  }, {
+    "@id" : "spice:artefact/generous-barmin-iii",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/kabakov-ilya",
+    "author" : "spice:agent/kabakov-ilya",
+    "schema:dateCreated" : "1972",
+    "schema:url" : "https://imma.ie/collection/generous-barmin-iii/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/generous-barmin-iii",
+    "arco-cd:hasTitle" : "Generous Barmin, III"
+  }, {
+    "@id" : "spice:artefact/mathematical-gorsky-vii",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/kabakov-ilya",
+    "author" : "spice:agent/kabakov-ilya",
+    "schema:dateCreated" : "1972",
+    "schema:url" : "https://imma.ie/collection/mathematical-gorsky-vii/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/mathematical-gorsky-vii",
+    "arco-cd:hasTitle" : "Mathematical Gorsky, VII"
+  }, {
+    "@id" : "spice:artefact/sitting-in-the-closet-primakov-vi",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/kabakov-ilya",
+    "author" : "spice:agent/kabakov-ilya",
+    "schema:dateCreated" : "1972",
+    "schema:url" : "https://imma.ie/collection/sitting-in-the-closet-primakov-vi/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/sitting-in-the-closet-primakov-vi",
+    "arco-cd:hasTitle" : "Sitting-in-the-Closet Primakov, VI"
+  }, {
+    "@id" : "spice:artefact/targets-galerie-peter-pakesch",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/kabakov-ilya",
+    "author" : "spice:agent/kabakov-ilya",
+    "schema:dateCreated" : "1991",
+    "schema:url" : "https://imma.ie/collection/targets-galerie-peter-pakesch/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/targets-galerie-peter-pakesch",
+    "arco-cd:hasTitle" : "Targets – Galerie Peter Pakesch"
+  }, {
+    "@id" : "spice:artefact/the-boat-of-my-life-saltburger-kunstverein",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/kabakov-ilya",
+    "author" : "spice:agent/kabakov-ilya",
+    "schema:dateCreated" : "1993",
+    "schema:url" : "https://imma.ie/collection/the-boat-of-my-life-saltburger-kunstverein/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-boat-of-my-life-saltburger-kunstverein",
+    "arco-cd:hasTitle" : "The Boat of my Life – Saltburger Kunstverein"
+  }, {
+    "@id" : "spice:artefact/the-bridge-the-museum-of-modern-art",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/kabakov-ilya",
+    "author" : "spice:agent/kabakov-ilya",
+    "schema:dateCreated" : "1991",
+    "schema:url" : "https://imma.ie/collection/the-bridge-the-museum-of-modern-art/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-bridge-the-museum-of-modern-art",
+    "arco-cd:hasTitle" : "The Bridge, The Museum of Modern Art"
+  }, {
+    "@id" : "spice:artefact/the-communal-kitchen-la-fondation-dina-vierny-musee-maillol-paris",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/kabakov-ilya",
+    "author" : "spice:agent/kabakov-ilya",
+    "schema:dateCreated" : "1994",
+    "schema:url" : "https://imma.ie/collection/the-communal-kitchen-la-fondation-dina-vierny-musee-maillol-paris/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-communal-kitchen-la-fondation-dina-vierny-musee-maillol-paris",
+    "arco-cd:hasTitle" : "The Communal Kitchen – La Fondation Dina Vierny, Musée Maillol Paris"
+  }, {
+    "@id" : "spice:artefact/the-decorator-maligin-viii",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/kabakov-ilya",
+    "author" : "spice:agent/kabakov-ilya",
+    "schema:dateCreated" : "1972",
+    "schema:url" : "https://imma.ie/collection/the-decorator-maligin-viii/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-decorator-maligin-viii",
+    "arco-cd:hasTitle" : "The Decorator Maligin, VIII"
+  }, {
+    "@id" : "spice:artefact/the-flying-komarov",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/kabakov-ilya",
+    "author" : "spice:agent/kabakov-ilya",
+    "schema:dateCreated" : "1972",
+    "schema:url" : "https://imma.ie/collection/the-flying-komarov/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-flying-komarov",
+    "arco-cd:hasTitle" : "The Flying Komarov"
+  }, {
+    "@id" : "spice:artefact/the-ghosts-in-the-morning",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/kabakov-ilya",
+    "author" : "spice:agent/kabakov-ilya",
+    "schema:dateCreated" : "2010",
+    "schema:url" : "https://imma.ie/collection/the-ghosts-in-the-morning/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-ghosts-in-the-morning",
+    "arco-cd:hasTitle" : "The Ghosts in the Morning"
+  }, {
+    "@id" : "spice:artefact/the-joker-gorokhov-ii",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/kabakov-ilya",
+    "author" : "spice:agent/kabakov-ilya",
+    "schema:dateCreated" : "1972",
+    "schema:url" : "https://imma.ie/collection/the-joker-gorokhov-ii/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-joker-gorokhov-ii",
+    "arco-cd:hasTitle" : "The Joker Gorokhov, II"
+  }, {
+    "@id" : "spice:artefact/the-looking-out-the-window-arkhipov-x",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/kabakov-ilya",
+    "author" : "spice:agent/kabakov-ilya",
+    "schema:dateCreated" : "1972",
+    "schema:url" : "https://imma.ie/collection/the-looking-out-the-window-arkhipov-x/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-looking-out-the-window-arkhipov-x",
+    "arco-cd:hasTitle" : "The Looking-out-the-Window Arkhipov, X"
+  }, {
+    "@id" : "spice:artefact/the-man-who-flew-into-his-picture-ica-philadelphia-pa",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/kabakov-ilya",
+    "author" : "spice:agent/kabakov-ilya",
+    "schema:dateCreated" : "1991",
+    "schema:url" : "https://imma.ie/collection/the-man-who-flew-into-his-picture-ica-philadelphia-pa/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-man-who-flew-into-his-picture-ica-philadelphia-pa",
+    "arco-cd:hasTitle" : "The Man Who Flew into His Picture – ICA Philadelphia, PA"
+  }, {
+    "@id" : "spice:artefact/the-man-who-flew-to-space-ronald-feldman-fine-arts-new-york",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/kabakov-ilya",
+    "author" : "spice:agent/kabakov-ilya",
+    "schema:dateCreated" : "1988",
+    "schema:url" : "https://imma.ie/collection/the-man-who-flew-to-space-ronald-feldman-fine-arts-new-york/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-man-who-flew-to-space-ronald-feldman-fine-arts-new-york",
+    "arco-cd:hasTitle" : "The Man Who Flew to Space – Ronald Feldman Fine Arts, New York"
+  }, {
+    "@id" : "spice:artefact/the-mysterious-exhibition-from-the-childrens-hospital",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/kabakov-ilya",
+    "author" : "spice:agent/kabakov-ilya",
+    "schema:dateCreated" : "1998",
+    "schema:url" : "https://imma.ie/collection/the-mysterious-exhibition-from-the-childrens-hospital/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-mysterious-exhibition-from-the-childrens-hospital",
+    "arco-cd:hasTitle" : "The Mysterious Exhibition from the Children’s Hospital"
+  }, {
+    "@id" : "spice:artefact/the-red-pavilion-venice-biennale",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/kabakov-ilya",
+    "author" : "spice:agent/kabakov-ilya",
+    "schema:dateCreated" : "1993",
+    "schema:url" : "https://imma.ie/collection/the-red-pavilion-venice-biennale/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-red-pavilion-venice-biennale",
+    "arco-cd:hasTitle" : "The Red Pavilion – Venice Biennale"
+  }, {
+    "@id" : "spice:artefact/the-released-gavrilov-ix",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/kabakov-ilya",
+    "author" : "spice:agent/kabakov-ilya",
+    "schema:dateCreated" : "1972",
+    "schema:url" : "https://imma.ie/collection/the-released-gavrilov-ix/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-released-gavrilov-ix",
+    "arco-cd:hasTitle" : "The Released Gavrilov, IX"
+  }, {
+    "@id" : "spice:artefact/the-toilet-documenta-ix-kassel",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/kabakov-ilya",
+    "author" : "spice:agent/kabakov-ilya",
+    "schema:dateCreated" : "1992",
+    "schema:url" : "https://imma.ie/collection/the-toilet-documenta-ix-kassel/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-toilet-documenta-ix-kassel",
+    "arco-cd:hasTitle" : "The Toilet – Documenta IX, Kassel"
+  }, {
+    "@id" : "spice:artefact/the-unhung-painting-museum-ludwig-koln",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/kabakov-ilya",
+    "author" : "spice:agent/kabakov-ilya",
+    "schema:dateCreated" : "1992",
+    "schema:url" : "https://imma.ie/collection/the-unhung-painting-museum-ludwig-koln/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-unhung-painting-museum-ludwig-koln",
+    "arco-cd:hasTitle" : "The Unhung Painting – Museum Ludwig, Köln"
+  }, {
+    "@id" : "spice:attribution/10-characters-ronald-feldman-fine-arts-new-york",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/kabakov-ilya"
+  }, {
+    "@id" : "spice:attribution/agonizing-surikov",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/kabakov-ilya"
+  }, {
+    "@id" : "spice:attribution/anna-petrovna-has-a-dream-v",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/kabakov-ilya"
+  }, {
+    "@id" : "spice:attribution/generous-barmin-iii",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/kabakov-ilya"
+  }, {
+    "@id" : "spice:attribution/mathematical-gorsky-vii",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/kabakov-ilya"
+  }, {
+    "@id" : "spice:attribution/sitting-in-the-closet-primakov-vi",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/kabakov-ilya"
+  }, {
+    "@id" : "spice:attribution/targets-galerie-peter-pakesch",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/kabakov-ilya"
+  }, {
+    "@id" : "spice:attribution/the-boat-of-my-life-saltburger-kunstverein",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/kabakov-ilya"
+  }, {
+    "@id" : "spice:attribution/the-bridge-the-museum-of-modern-art",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/kabakov-ilya"
+  }, {
+    "@id" : "spice:attribution/the-communal-kitchen-la-fondation-dina-vierny-musee-maillol-paris",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/kabakov-ilya"
+  }, {
+    "@id" : "spice:attribution/the-decorator-maligin-viii",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/kabakov-ilya"
+  }, {
+    "@id" : "spice:attribution/the-flying-komarov",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/kabakov-ilya"
+  }, {
+    "@id" : "spice:attribution/the-ghosts-in-the-morning",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/kabakov-ilya"
+  }, {
+    "@id" : "spice:attribution/the-joker-gorokhov-ii",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/kabakov-ilya"
+  }, {
+    "@id" : "spice:attribution/the-looking-out-the-window-arkhipov-x",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/kabakov-ilya"
+  }, {
+    "@id" : "spice:attribution/the-man-who-flew-into-his-picture-ica-philadelphia-pa",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/kabakov-ilya"
+  }, {
+    "@id" : "spice:attribution/the-man-who-flew-to-space-ronald-feldman-fine-arts-new-york",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/kabakov-ilya"
+  }, {
+    "@id" : "spice:attribution/the-mysterious-exhibition-from-the-childrens-hospital",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/kabakov-ilya"
+  }, {
+    "@id" : "spice:attribution/the-red-pavilion-venice-biennale",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/kabakov-ilya"
+  }, {
+    "@id" : "spice:attribution/the-released-gavrilov-ix",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/kabakov-ilya"
+  }, {
+    "@id" : "spice:attribution/the-toilet-documenta-ix-kassel",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/kabakov-ilya"
+  }, {
+    "@id" : "spice:attribution/the-unhung-painting-museum-ludwig-koln",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/kabakov-ilya"
+  } ],
+  "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

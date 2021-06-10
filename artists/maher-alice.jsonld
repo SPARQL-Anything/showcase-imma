@@ -1,0 +1,298 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/maher-alice",
+    "@type" : "foaf:Person",
+    "dc:description" : [ "Alice Maher studied at the University of Limerick and the Crawford College of Art, Cork. She was awarded a Master’s degree in Fine Art from the University of Ulster and shortly after a Fulbright Scholarship to San Francisco Art Institute.", "One of Ireland's leading contemporary artists, Alice Maher works within the realms of nature and culture, subversion and transformation, mythology and memory. Her work involves many different media including painting, drawing, sculpture, print, photography and installation." ],
+    "dc:source" : "https://imma.ie/artists/alice-maher/",
+    "schema:birthDate" : "b.1956",
+    "schema:url" : "https://imma.ie/artists/alice-maher/",
+    "rdfs:label" : "Alice Maher"
+  }, {
+    "@id" : "spice:artefact/bed-time-from-the-snail-chronicles",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/maher-alice",
+    "author" : "spice:agent/maher-alice",
+    "schema:dateCreated" : "2004",
+    "schema:url" : "https://imma.ie/collection/bed-time-from-the-snail-chronicles/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/bed-time-from-the-snail-chronicles",
+    "arco-cd:hasTitle" : "Bed Time, from The Snail Chronicles"
+  }, {
+    "@id" : "spice:artefact/berry-dress",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/maher-alice",
+    "author" : "spice:agent/maher-alice",
+    "schema:dateCreated" : "1994",
+    "schema:url" : "https://imma.ie/collection/berry-dress/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/berry-dress",
+    "arco-cd:hasTitle" : "Berry Dress"
+  }, {
+    "@id" : "spice:artefact/cassandras-necklace",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/maher-alice",
+    "author" : "spice:agent/maher-alice",
+    "schema:dateCreated" : "2012",
+    "schema:url" : "https://imma.ie/collection/cassandras-necklace/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/cassandras-necklace",
+    "arco-cd:hasTitle" : "Cassandra’s Necklace"
+  }, {
+    "@id" : "spice:artefact/coma-berenices",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/maher-alice",
+    "author" : "spice:agent/maher-alice",
+    "schema:dateCreated" : "1999",
+    "schema:url" : "https://imma.ie/collection/coma-berenices/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/coma-berenices",
+    "arco-cd:hasTitle" : "Coma Berenices"
+  }, {
+    "@id" : "spice:artefact/double-drawing-from-the-snail-chronicles",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/maher-alice",
+    "author" : "spice:agent/maher-alice",
+    "schema:dateCreated" : "2004",
+    "schema:url" : "https://imma.ie/collection/double-drawing-from-the-snail-chronicles/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/double-drawing-from-the-snail-chronicles",
+    "arco-cd:hasTitle" : "Double Drawing, from The Snail Chronicles"
+  }, {
+    "@id" : "spice:artefact/familiar-1",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/maher-alice",
+    "author" : "spice:agent/maher-alice",
+    "schema:dateCreated" : "1994",
+    "schema:url" : "https://imma.ie/collection/familiar-1/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/familiar-1",
+    "arco-cd:hasTitle" : "familiar 1"
+  }, {
+    "@id" : "spice:artefact/fever-bush-from-the-snail-chronicles",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/maher-alice",
+    "author" : "spice:agent/maher-alice",
+    "schema:dateCreated" : "2004",
+    "schema:url" : "https://imma.ie/collection/fever-bush-from-the-snail-chronicles/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/fever-bush-from-the-snail-chronicles",
+    "arco-cd:hasTitle" : "Fever Bush, from The Snail Chronicles"
+  }, {
+    "@id" : "spice:artefact/helix-virginius-from-the-snail-chronicles",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/maher-alice",
+    "author" : "spice:agent/maher-alice",
+    "schema:dateCreated" : "2004",
+    "schema:url" : "https://imma.ie/collection/helix-virginius-from-the-snail-chronicles/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/helix-virginius-from-the-snail-chronicles",
+    "arco-cd:hasTitle" : "Helix Virginius, from The Snail Chronicles"
+  }, {
+    "@id" : "spice:artefact/ledas-choice",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/maher-alice",
+    "author" : "spice:agent/maher-alice",
+    "schema:dateCreated" : "2013",
+    "schema:url" : "https://imma.ie/collection/ledas-choice/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/ledas-choice",
+    "arco-cd:hasTitle" : "Leda’s Choice"
+  }, {
+    "@id" : "spice:artefact/ombre-v",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/maher-alice",
+    "author" : "spice:agent/maher-alice",
+    "schema:dateCreated" : "1997",
+    "schema:url" : "https://imma.ie/collection/ombre-v/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/ombre-v",
+    "arco-cd:hasTitle" : "Ombre V"
+  }, {
+    "@id" : "spice:artefact/red-loop",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/maher-alice",
+    "author" : "spice:agent/maher-alice",
+    "schema:dateCreated" : "1994",
+    "schema:url" : "https://imma.ie/collection/red-loop/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/red-loop",
+    "arco-cd:hasTitle" : "Red Loop"
+  }, {
+    "@id" : "spice:artefact/sleep-of-ecstasy-from-the-snail-chronicles",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/maher-alice",
+    "author" : "spice:agent/maher-alice",
+    "schema:dateCreated" : "2004",
+    "schema:url" : "https://imma.ie/collection/sleep-of-ecstasy-from-the-snail-chronicles/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/sleep-of-ecstasy-from-the-snail-chronicles",
+    "arco-cd:hasTitle" : "Sleep of Ecstasy, from The Snail Chronicles"
+  }, {
+    "@id" : "spice:artefact/the-axe-and-the-waving-girl",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/maher-alice",
+    "author" : "spice:agent/maher-alice",
+    "schema:dateCreated" : "2003",
+    "schema:url" : "https://imma.ie/collection/the-axe-and-the-waving-girl/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-axe-and-the-waving-girl",
+    "arco-cd:hasTitle" : "The Axe (and The Waving Girl)"
+  }, {
+    "@id" : "spice:artefact/the-conversation",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/maher-alice",
+    "author" : "spice:agent/maher-alice",
+    "schema:dateCreated" : "2013",
+    "schema:url" : "https://imma.ie/collection/the-conversation/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-conversation",
+    "arco-cd:hasTitle" : "The Conversation"
+  }, {
+    "@id" : "spice:artefact/the-history-of-tears",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/maher-alice",
+    "author" : "spice:agent/maher-alice",
+    "schema:dateCreated" : "2013",
+    "schema:url" : "https://imma.ie/collection/the-history-of-tears/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-history-of-tears",
+    "arco-cd:hasTitle" : "The History of Tears"
+  }, {
+    "@id" : "spice:artefact/the-music-of-things-sleep",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/maher-alice",
+    "author" : "spice:agent/maher-alice",
+    "schema:dateCreated" : "2009",
+    "schema:url" : "https://imma.ie/collection/the-music-of-things-sleep/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-music-of-things-sleep",
+    "arco-cd:hasTitle" : "The Music of Things (Sleep)"
+  }, {
+    "@id" : "spice:attribution/bed-time-from-the-snail-chronicles",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/maher-alice"
+  }, {
+    "@id" : "spice:attribution/berry-dress",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/maher-alice"
+  }, {
+    "@id" : "spice:attribution/cassandras-necklace",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/maher-alice"
+  }, {
+    "@id" : "spice:attribution/coma-berenices",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/maher-alice"
+  }, {
+    "@id" : "spice:attribution/double-drawing-from-the-snail-chronicles",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/maher-alice"
+  }, {
+    "@id" : "spice:attribution/familiar-1",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/maher-alice"
+  }, {
+    "@id" : "spice:attribution/fever-bush-from-the-snail-chronicles",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/maher-alice"
+  }, {
+    "@id" : "spice:attribution/helix-virginius-from-the-snail-chronicles",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/maher-alice"
+  }, {
+    "@id" : "spice:attribution/ledas-choice",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/maher-alice"
+  }, {
+    "@id" : "spice:attribution/ombre-v",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/maher-alice"
+  }, {
+    "@id" : "spice:attribution/red-loop",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/maher-alice"
+  }, {
+    "@id" : "spice:attribution/sleep-of-ecstasy-from-the-snail-chronicles",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/maher-alice"
+  }, {
+    "@id" : "spice:attribution/the-axe-and-the-waving-girl",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/maher-alice"
+  }, {
+    "@id" : "spice:attribution/the-conversation",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/maher-alice"
+  }, {
+    "@id" : "spice:attribution/the-history-of-tears",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/maher-alice"
+  }, {
+    "@id" : "spice:attribution/the-music-of-things-sleep",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/maher-alice"
+  } ],
+  "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

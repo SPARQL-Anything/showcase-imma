@@ -1,0 +1,592 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/le-brocquy-louis",
+    "@type" : "foaf:Person",
+    "dc:description" : "Born in Dublin, Louis le Brocquy is considered one of Ireland’s foremost painters. In 1943 he became a founding member of the Irish Exhibition of Living Art. He represented Ireland at the Venice Biennale in 1956, where he won the Premio Acquisito Internationale. He was elected Saoi by members of Aosdána in 1992. In 1998 he received the IMMA Glen Dimplex award for a sustained contribution to the visual arts in Ireland and was honored with the Freedom of Dublin City in 2007. Acknowledged by museum retrospective exhibitions worldwide, including France, USA and Japan, his work is represented in numerous public collections, from the Guggenheim, New York to Tate, London.",
+    "dc:source" : "https://imma.ie/artists/louis-le-brocquy/",
+    "schema:birthDate" : "1916–2012",
+    "schema:url" : "https://imma.ie/artists/louis-le-brocquy/",
+    "rdfs:label" : "Louis le Brocquy"
+  }, {
+    "@id" : "spice:artefact/a-picnic",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/le-brocquy-louis",
+    "author" : "spice:agent/le-brocquy-louis",
+    "schema:dateCreated" : "1940",
+    "schema:url" : "https://imma.ie/collection/a-picnic/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/a-picnic",
+    "arco-cd:hasTitle" : "A Picnic"
+  }, {
+    "@id" : "spice:artefact/adam-and-eve-in-the-garden",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/le-brocquy-louis",
+    "author" : "spice:agent/le-brocquy-louis",
+    "schema:dateCreated" : "1951",
+    "schema:url" : "https://imma.ie/collection/adam-and-eve-in-the-garden/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/adam-and-eve-in-the-garden",
+    "arco-cd:hasTitle" : "Adam and Eve in the Garden"
+  }, {
+    "@id" : "spice:artefact/allegory",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/le-brocquy-louis",
+    "author" : "spice:agent/le-brocquy-louis",
+    "schema:dateCreated" : "1950",
+    "schema:url" : "https://imma.ie/collection/allegory/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/allegory",
+    "arco-cd:hasTitle" : "Allegory"
+  }, {
+    "@id" : "spice:artefact/children-in-a-wood-i",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/le-brocquy-louis",
+    "author" : "spice:agent/le-brocquy-louis",
+    "schema:dateCreated" : "1988",
+    "schema:url" : "https://imma.ie/collection/children-in-a-wood-i/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/children-in-a-wood-i",
+    "arco-cd:hasTitle" : "Children in a Wood I"
+  }, {
+    "@id" : "spice:artefact/descartes",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/le-brocquy-louis",
+    "author" : "spice:agent/le-brocquy-louis",
+    "schema:dateCreated" : "1996",
+    "schema:url" : "https://imma.ie/collection/descartes/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/descartes",
+    "arco-cd:hasTitle" : "Descartes"
+  }, {
+    "@id" : "spice:artefact/hosting-of-the-tain",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/le-brocquy-louis",
+    "author" : "spice:agent/le-brocquy-louis",
+    "schema:dateCreated" : "1969",
+    "schema:url" : "https://imma.ie/collection/hosting-of-the-tain/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/hosting-of-the-tain",
+    "arco-cd:hasTitle" : "Hosting of the Táin"
+  }, {
+    "@id" : "spice:artefact/image-of-anne",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/le-brocquy-louis",
+    "author" : "spice:agent/le-brocquy-louis",
+    "schema:dateCreated" : "1974",
+    "schema:url" : "https://imma.ie/collection/image-of-anne/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/image-of-anne",
+    "arco-cd:hasTitle" : "Image of Anne"
+  }, {
+    "@id" : "spice:artefact/image-of-samuel-beckett",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/le-brocquy-louis",
+    "author" : "spice:agent/le-brocquy-louis",
+    "schema:dateCreated" : "2009",
+    "schema:url" : "https://imma.ie/collection/image-of-samuel-beckett/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/image-of-samuel-beckett",
+    "arco-cd:hasTitle" : "Image of Samuel Beckett"
+  }, {
+    "@id" : "spice:artefact/image-of-seamus-heaney",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/le-brocquy-louis",
+    "author" : "spice:agent/le-brocquy-louis",
+    "schema:dateCreated" : "2009",
+    "schema:url" : "https://imma.ie/collection/image-of-seamus-heaney/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/image-of-seamus-heaney",
+    "arco-cd:hasTitle" : "Image of Seamus Heaney"
+  }, {
+    "@id" : "spice:artefact/image-of-seamus-heaney-2",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/le-brocquy-louis",
+    "author" : "spice:agent/le-brocquy-louis",
+    "schema:dateCreated" : "1993",
+    "schema:url" : "https://imma.ie/collection/image-of-seamus-heaney-2/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/image-of-seamus-heaney-2",
+    "arco-cd:hasTitle" : "Image of Seamus Heaney"
+  }, {
+    "@id" : "spice:artefact/image-of-w-b-yeats",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/le-brocquy-louis",
+    "author" : "spice:agent/le-brocquy-louis",
+    "schema:dateCreated" : "1976",
+    "schema:url" : "https://imma.ie/collection/image-of-w-b-yeats/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/image-of-w-b-yeats",
+    "arco-cd:hasTitle" : "Image of W.B. Yeats"
+  }, {
+    "@id" : "spice:artefact/james-joyce-study-64",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/le-brocquy-louis",
+    "author" : "spice:agent/le-brocquy-louis",
+    "schema:dateCreated" : "1977",
+    "schema:url" : "https://imma.ie/collection/james-joyce-study-64/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/james-joyce-study-64",
+    "arco-cd:hasTitle" : "James Joyce, Study 64"
+  }, {
+    "@id" : "spice:artefact/men-of-connaught-mille-tetes-gris-noir-blanc",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/le-brocquy-louis",
+    "author" : "spice:agent/le-brocquy-louis",
+    "schema:dateCreated" : "1976",
+    "schema:url" : "https://imma.ie/collection/men-of-connaught-mille-tetes-gris-noir-blanc/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/men-of-connaught-mille-tetes-gris-noir-blanc",
+    "arco-cd:hasTitle" : "Men of Connaught, Mille Tetes Gris Noir Blanc"
+  }, {
+    "@id" : "spice:artefact/shadows-portfolio",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/le-brocquy-louis",
+    "author" : "spice:agent/le-brocquy-louis",
+    "schema:dateCreated" : "1986",
+    "schema:url" : "https://imma.ie/collection/shadows-portfolio/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/shadows-portfolio",
+    "arco-cd:hasTitle" : "‘Shadows’ Portfolio"
+  }, {
+    "@id" : "spice:artefact/shakespeare-head",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/le-brocquy-louis",
+    "author" : "spice:agent/le-brocquy-louis",
+    "schema:dateCreated" : "1983",
+    "schema:url" : "https://imma.ie/collection/shakespeare-head/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/shakespeare-head",
+    "arco-cd:hasTitle" : "Shakespeare Head"
+  }, {
+    "@id" : "spice:artefact/the-tain-army-massing",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/le-brocquy-louis",
+    "author" : "spice:agent/le-brocquy-louis",
+    "schema:dateCreated" : "1969",
+    "schema:url" : "https://imma.ie/collection/the-tain-army-massing/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-tain-army-massing",
+    "arco-cd:hasTitle" : "The Táin. Army massing"
+  }, {
+    "@id" : "spice:artefact/the-tain-battle-field",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/le-brocquy-louis",
+    "author" : "spice:agent/le-brocquy-louis",
+    "schema:dateCreated" : "1969",
+    "schema:url" : "https://imma.ie/collection/the-tain-battle-field/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-tain-battle-field",
+    "arco-cd:hasTitle" : "The Táin. Battle field"
+  }, {
+    "@id" : "spice:artefact/the-tain-bull-of-cuailnge",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/le-brocquy-louis",
+    "author" : "spice:agent/le-brocquy-louis",
+    "schema:dateCreated" : "1969",
+    "schema:url" : "https://imma.ie/collection/the-tain-bull-of-cuailnge/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-tain-bull-of-cuailnge",
+    "arco-cd:hasTitle" : "The Táin. Bull of Cuailnge"
+  }, {
+    "@id" : "spice:artefact/the-tain-chariots",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/le-brocquy-louis",
+    "author" : "spice:agent/le-brocquy-louis",
+    "schema:dateCreated" : "1969",
+    "schema:url" : "https://imma.ie/collection/the-tain-chariots/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-tain-chariots",
+    "arco-cd:hasTitle" : "The Táin. Chariots"
+  }, {
+    "@id" : "spice:artefact/the-tain-chariots-2",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/le-brocquy-louis",
+    "author" : "spice:agent/le-brocquy-louis",
+    "schema:dateCreated" : "1969",
+    "schema:url" : "https://imma.ie/collection/the-tain-chariots-2/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-tain-chariots-2",
+    "arco-cd:hasTitle" : "The Táin. Chariots"
+  }, {
+    "@id" : "spice:artefact/the-tain-chariots-3",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/le-brocquy-louis",
+    "author" : "spice:agent/le-brocquy-louis",
+    "schema:dateCreated" : "1969",
+    "schema:url" : "https://imma.ie/collection/the-tain-chariots-3/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-tain-chariots-3",
+    "arco-cd:hasTitle" : "The Táin. Chariots"
+  }, {
+    "@id" : "spice:artefact/the-tain-chariots-charging",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/le-brocquy-louis",
+    "author" : "spice:agent/le-brocquy-louis",
+    "schema:dateCreated" : "1969",
+    "schema:url" : "https://imma.ie/collection/the-tain-chariots-charging/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-tain-chariots-charging",
+    "arco-cd:hasTitle" : "The Táin. Chariots charging"
+  }, {
+    "@id" : "spice:artefact/the-tain-cuchulainn-confronting-ferdia",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/le-brocquy-louis",
+    "author" : "spice:agent/le-brocquy-louis",
+    "schema:dateCreated" : "1969",
+    "schema:url" : "https://imma.ie/collection/the-tain-cuchulainn-confronting-ferdia/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-tain-cuchulainn-confronting-ferdia",
+    "arco-cd:hasTitle" : "The Táin. Cúchulainn confronting Ferdia"
+  }, {
+    "@id" : "spice:artefact/the-tain-cuchulainn-displayed",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/le-brocquy-louis",
+    "author" : "spice:agent/le-brocquy-louis",
+    "schema:dateCreated" : "1969",
+    "schema:url" : "https://imma.ie/collection/the-tain-cuchulainn-displayed/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-tain-cuchulainn-displayed",
+    "arco-cd:hasTitle" : "The Táin. Cúchulainn displayed"
+  }, {
+    "@id" : "spice:artefact/the-tain-cuchulainn-in-warp-spasm",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/le-brocquy-louis",
+    "author" : "spice:agent/le-brocquy-louis",
+    "schema:dateCreated" : "1969",
+    "schema:url" : "https://imma.ie/collection/the-tain-cuchulainn-in-warp-spasm/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-tain-cuchulainn-in-warp-spasm",
+    "arco-cd:hasTitle" : "The Táin. Cúchulainn in warp-spasm"
+  }, {
+    "@id" : "spice:artefact/the-tain-cuchulainn-in-warp-spasm-2",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/le-brocquy-louis",
+    "author" : "spice:agent/le-brocquy-louis",
+    "schema:dateCreated" : "1969",
+    "schema:url" : "https://imma.ie/collection/the-tain-cuchulainn-in-warp-spasm-2/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-tain-cuchulainn-in-warp-spasm-2",
+    "arco-cd:hasTitle" : "The Táin. Cúchulainn in warp-spasm"
+  }, {
+    "@id" : "spice:artefact/the-tain-cuchulainn-mounting-into-his-chariot",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/le-brocquy-louis",
+    "author" : "spice:agent/le-brocquy-louis",
+    "schema:dateCreated" : "1969",
+    "schema:url" : "https://imma.ie/collection/the-tain-cuchulainn-mounting-into-his-chariot/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-tain-cuchulainn-mounting-into-his-chariot",
+    "arco-cd:hasTitle" : "The Táin. Cúchulainn mounting into his chariot"
+  }, {
+    "@id" : "spice:artefact/the-tain-deer-among-dolmens",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/le-brocquy-louis",
+    "author" : "spice:agent/le-brocquy-louis",
+    "schema:dateCreated" : "1969",
+    "schema:url" : "https://imma.ie/collection/the-tain-deer-among-dolmens/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-tain-deer-among-dolmens",
+    "arco-cd:hasTitle" : "The Táin. Deer among dolmens"
+  }, {
+    "@id" : "spice:artefact/the-tain-horseman",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/le-brocquy-louis",
+    "author" : "spice:agent/le-brocquy-louis",
+    "schema:dateCreated" : "1969",
+    "schema:url" : "https://imma.ie/collection/the-tain-horseman/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-tain-horseman",
+    "arco-cd:hasTitle" : "The Táin. Horseman"
+  }, {
+    "@id" : "spice:artefact/the-tain-hurling",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/le-brocquy-louis",
+    "author" : "spice:agent/le-brocquy-louis",
+    "schema:dateCreated" : "1969",
+    "schema:url" : "https://imma.ie/collection/the-tain-hurling/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-tain-hurling",
+    "arco-cd:hasTitle" : "The Táin. Hurling"
+  }, {
+    "@id" : "spice:artefact/the-tain-magic-chariot",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/le-brocquy-louis",
+    "author" : "spice:agent/le-brocquy-louis",
+    "schema:dateCreated" : "1969",
+    "schema:url" : "https://imma.ie/collection/the-tain-magic-chariot/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-tain-magic-chariot",
+    "arco-cd:hasTitle" : "The Táin. Magic chariot"
+  }, {
+    "@id" : "spice:artefact/the-tain-mare-and-foals",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/le-brocquy-louis",
+    "author" : "spice:agent/le-brocquy-louis",
+    "schema:dateCreated" : "1969",
+    "schema:url" : "https://imma.ie/collection/the-tain-mare-and-foals/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-tain-mare-and-foals",
+    "arco-cd:hasTitle" : "The Táin. Mare and foals"
+  }, {
+    "@id" : "spice:artefact/the-tain-pillow-talk",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/le-brocquy-louis",
+    "author" : "spice:agent/le-brocquy-louis",
+    "schema:dateCreated" : "1969",
+    "schema:url" : "https://imma.ie/collection/the-tain-pillow-talk/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-tain-pillow-talk",
+    "arco-cd:hasTitle" : "The Táin. Pillow talk"
+  }, {
+    "@id" : "spice:artefact/the-tain-the-boy-cuchulainn",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/le-brocquy-louis",
+    "author" : "spice:agent/le-brocquy-louis",
+    "schema:dateCreated" : "1969",
+    "schema:url" : "https://imma.ie/collection/the-tain-the-boy-cuchulainn/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-tain-the-boy-cuchulainn",
+    "arco-cd:hasTitle" : "The Táin. The boy Cúchulainn"
+  }, {
+    "@id" : "spice:artefact/the-tain-the-boy-cuchulainn-hurling",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/le-brocquy-louis",
+    "author" : "spice:agent/le-brocquy-louis",
+    "schema:dateCreated" : "1969",
+    "schema:url" : "https://imma.ie/collection/the-tain-the-boy-cuchulainn-hurling/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-tain-the-boy-cuchulainn-hurling",
+    "arco-cd:hasTitle" : "The Táin. The boy Cúchulainn hurling"
+  }, {
+    "@id" : "spice:artefact/the-tain-the-morrigan-in-bird-shape",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/le-brocquy-louis",
+    "author" : "spice:agent/le-brocquy-louis",
+    "schema:dateCreated" : "1969",
+    "schema:url" : "https://imma.ie/collection/the-tain-the-morrigan-in-bird-shape/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-tain-the-morrigan-in-bird-shape",
+    "arco-cd:hasTitle" : "The Táin. The Morrígan in bird shape"
+  }, {
+    "@id" : "spice:artefact/the-tain-ulster-rises-from-its-pangs",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/le-brocquy-louis",
+    "author" : "spice:agent/le-brocquy-louis",
+    "schema:dateCreated" : "1969",
+    "schema:url" : "https://imma.ie/collection/the-tain-ulster-rises-from-its-pangs/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-tain-ulster-rises-from-its-pangs",
+    "arco-cd:hasTitle" : "The Táin. Ulster rises from its pangs"
+  }, {
+    "@id" : "spice:attribution/a-picnic",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/le-brocquy-louis"
+  }, {
+    "@id" : "spice:attribution/adam-and-eve-in-the-garden",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/le-brocquy-louis"
+  }, {
+    "@id" : "spice:attribution/allegory",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/le-brocquy-louis"
+  }, {
+    "@id" : "spice:attribution/children-in-a-wood-i",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/le-brocquy-louis"
+  }, {
+    "@id" : "spice:attribution/descartes",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/le-brocquy-louis"
+  }, {
+    "@id" : "spice:attribution/hosting-of-the-tain",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/le-brocquy-louis"
+  }, {
+    "@id" : "spice:attribution/image-of-anne",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/le-brocquy-louis"
+  }, {
+    "@id" : "spice:attribution/image-of-samuel-beckett",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/le-brocquy-louis"
+  }, {
+    "@id" : "spice:attribution/image-of-seamus-heaney",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/le-brocquy-louis"
+  }, {
+    "@id" : "spice:attribution/image-of-seamus-heaney-2",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/le-brocquy-louis"
+  }, {
+    "@id" : "spice:attribution/image-of-w-b-yeats",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/le-brocquy-louis"
+  }, {
+    "@id" : "spice:attribution/james-joyce-study-64",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/le-brocquy-louis"
+  }, {
+    "@id" : "spice:attribution/men-of-connaught-mille-tetes-gris-noir-blanc",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/le-brocquy-louis"
+  }, {
+    "@id" : "spice:attribution/shadows-portfolio",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/le-brocquy-louis"
+  }, {
+    "@id" : "spice:attribution/shakespeare-head",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/le-brocquy-louis"
+  }, {
+    "@id" : "spice:attribution/the-tain-army-massing",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/le-brocquy-louis"
+  }, {
+    "@id" : "spice:attribution/the-tain-battle-field",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/le-brocquy-louis"
+  }, {
+    "@id" : "spice:attribution/the-tain-bull-of-cuailnge",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/le-brocquy-louis"
+  }, {
+    "@id" : "spice:attribution/the-tain-chariots",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/le-brocquy-louis"
+  }, {
+    "@id" : "spice:attribution/the-tain-chariots-2",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/le-brocquy-louis"
+  }, {
+    "@id" : "spice:attribution/the-tain-chariots-3",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/le-brocquy-louis"
+  }, {
+    "@id" : "spice:attribution/the-tain-chariots-charging",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/le-brocquy-louis"
+  }, {
+    "@id" : "spice:attribution/the-tain-cuchulainn-confronting-ferdia",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/le-brocquy-louis"
+  }, {
+    "@id" : "spice:attribution/the-tain-cuchulainn-displayed",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/le-brocquy-louis"
+  }, {
+    "@id" : "spice:attribution/the-tain-cuchulainn-in-warp-spasm",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/le-brocquy-louis"
+  }, {
+    "@id" : "spice:attribution/the-tain-cuchulainn-in-warp-spasm-2",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/le-brocquy-louis"
+  }, {
+    "@id" : "spice:attribution/the-tain-cuchulainn-mounting-into-his-chariot",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/le-brocquy-louis"
+  }, {
+    "@id" : "spice:attribution/the-tain-deer-among-dolmens",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/le-brocquy-louis"
+  }, {
+    "@id" : "spice:attribution/the-tain-horseman",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/le-brocquy-louis"
+  }, {
+    "@id" : "spice:attribution/the-tain-hurling",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/le-brocquy-louis"
+  }, {
+    "@id" : "spice:attribution/the-tain-magic-chariot",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/le-brocquy-louis"
+  }, {
+    "@id" : "spice:attribution/the-tain-mare-and-foals",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/le-brocquy-louis"
+  }, {
+    "@id" : "spice:attribution/the-tain-pillow-talk",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/le-brocquy-louis"
+  }, {
+    "@id" : "spice:attribution/the-tain-the-boy-cuchulainn",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/le-brocquy-louis"
+  }, {
+    "@id" : "spice:attribution/the-tain-the-boy-cuchulainn-hurling",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/le-brocquy-louis"
+  }, {
+    "@id" : "spice:attribution/the-tain-the-morrigan-in-bird-shape",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/le-brocquy-louis"
+  }, {
+    "@id" : "spice:attribution/the-tain-ulster-rises-from-its-pangs",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/le-brocquy-louis"
+  } ],
+  "@context" : {
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "http://dom.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}
