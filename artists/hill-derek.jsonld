@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/hill-derek",
     "@type" : "foaf:Person",
-    "dc:description" : "English portrait and landscape painter Derek Hill spent much of his life living in Ireland. He worked as a theatre designer in the 1930s before gaining success as a portrait painter in the 1960s. Hill's subjects included many notable composers, musicians, politicians and statesmen. He was awarded the CBE in 1997 and received honorary Irish citizenship in 1999. His former home in Co. Donegal is now open to the public and houses his personal art collection, including works by Picasso, Degas and Jack B. Yeats, which he donated to the Irish State.",
-    "dc:source" : "https://imma.ie/artists/derek-hill/",
-    "schema:birthDate" : "1916–2000",
-    "schema:url" : "https://imma.ie/artists/derek-hill/",
-    "rdfs:label" : "Derek Hill"
+    "description" : "English portrait and landscape painter Derek Hill spent much of his life living in Ireland. He worked as a theatre designer in the 1930s before gaining success as a portrait painter in the 1960s. Hill's subjects included many notable composers, musicians, politicians and statesmen. He was awarded the CBE in 1997 and received honorary Irish citizenship in 1999. His former home in Co. Donegal is now open to the public and houses his personal art collection, including works by Picasso, Degas and Jack B. Yeats, which he donated to the Irish State.",
+    "source" : "https://imma.ie/artists/derek-hill/",
+    "birthDate" : "1916–2000",
+    "url" : "https://imma.ie/artists/derek-hill/",
+    "label" : "Derek Hill"
   }, {
     "@id" : "spice:artefact/the-back-of-tory-island",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/hill-derek",
     "author" : "spice:agent/hill-derek",
-    "schema:dateCreated" : "1960",
-    "schema:url" : "https://imma.ie/collection/the-back-of-tory-island/",
+    "dateCreated" : "1960",
+    "url" : "https://imma.ie/collection/the-back-of-tory-island/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-back-of-tory-island",
-    "arco-cd:hasTitle" : "The Back of Tory Island"
+    "hasTitle" : "The Back of Tory Island"
   }, {
     "@id" : "spice:attribution/the-back-of-tory-island",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,24 +24,19 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -52,16 +47,14 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

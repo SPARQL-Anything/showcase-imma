@@ -2,41 +2,41 @@
   "@graph" : [ {
     "@id" : "spice:agent/harrison-colin",
     "@type" : "foaf:Person",
-    "dc:description" : "British artist Colin Harrison studied at Leicester College of Art and the Royal College of Art in London. He was a prize winner in the Irish Exhibition of Living Art in 1969. Harrison lectured in the Fine Art Department at the Ulster College of Art until 1973. He is a member of the RHA.",
-    "dc:source" : "https://imma.ie/artists/colin-harrison/",
-    "schema:birthDate" : "b.1939",
-    "schema:url" : "https://imma.ie/artists/colin-harrison/",
-    "rdfs:label" : "Colin Harrison"
+    "description" : "British artist Colin Harrison studied at Leicester College of Art and the Royal College of Art in London. He was a prize winner in the Irish Exhibition of Living Art in 1969. Harrison lectured in the Fine Art Department at the Ulster College of Art until 1973. He is a member of the RHA.",
+    "source" : "https://imma.ie/artists/colin-harrison/",
+    "birthDate" : "b.1939",
+    "url" : "https://imma.ie/artists/colin-harrison/",
+    "label" : "Colin Harrison"
   }, {
     "@id" : "spice:artefact/alan-tate-tony-hickey",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/harrison-colin",
     "author" : "spice:agent/harrison-colin",
-    "schema:dateCreated" : "1978",
-    "schema:url" : "https://imma.ie/collection/alan-tate-tony-hickey/",
+    "dateCreated" : "1978",
+    "url" : "https://imma.ie/collection/alan-tate-tony-hickey/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/alan-tate-tony-hickey",
-    "arco-cd:hasTitle" : "Alan Tate &amp; Tony Hickey"
+    "hasTitle" : "Alan Tate &amp; Tony Hickey"
   }, {
     "@id" : "spice:artefact/hogarth-drawing",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/harrison-colin",
     "author" : "spice:agent/harrison-colin",
-    "schema:dateCreated" : "1976",
-    "schema:url" : "https://imma.ie/collection/hogarth-drawing/",
+    "dateCreated" : "1976",
+    "url" : "https://imma.ie/collection/hogarth-drawing/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/hogarth-drawing",
-    "arco-cd:hasTitle" : "Hogarth Drawing"
+    "hasTitle" : "Hogarth Drawing"
   }, {
     "@id" : "spice:artefact/the-portable-history-of-the-world",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/harrison-colin",
     "author" : "spice:agent/harrison-colin",
-    "schema:dateCreated" : "1974",
-    "schema:url" : "https://imma.ie/collection/the-portable-history-of-the-world/",
+    "dateCreated" : "1974",
+    "url" : "https://imma.ie/collection/the-portable-history-of-the-world/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-portable-history-of-the-world",
-    "arco-cd:hasTitle" : "The Portable History of the World"
+    "hasTitle" : "The Portable History of the World"
   }, {
     "@id" : "spice:attribution/alan-tate-tony-hickey",
     "@type" : "arco:AuthorshipAttribution",
@@ -60,48 +60,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

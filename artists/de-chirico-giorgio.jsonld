@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/de-chirico-giorgio",
     "@type" : "foaf:Person",
-    "dc:description" : "Greek-born Italian artist Giorgio de Chirico studied art in Athens, Florence and at the Academy of Fine Arts, Munich. He moved to Paris in 1911 and to Ferrara, Italy in 1915. De Chirico was one of the originators of Pittura Metafisica, and his best known paintings depict fantastic architectural landscapes, often peopled with faceless mannequins that later inspired the surrealists. He went on to adopt a more traditional style of painting and later worked in stage and costume design, and as a writer and illustrator. De Chirico was elected to the French Académie des Beaux-Arts in 1974.",
-    "dc:source" : "https://imma.ie/artists/giorgio-de-chirico/",
-    "schema:birthDate" : "1888–1978",
-    "schema:url" : "https://imma.ie/artists/giorgio-de-chirico/",
-    "rdfs:label" : "Giorgio de Chirico"
+    "description" : "Greek-born Italian artist Giorgio de Chirico studied art in Athens, Florence and at the Academy of Fine Arts, Munich. He moved to Paris in 1911 and to Ferrara, Italy in 1915. De Chirico was one of the originators of Pittura Metafisica, and his best known paintings depict fantastic architectural landscapes, often peopled with faceless mannequins that later inspired the surrealists. He went on to adopt a more traditional style of painting and later worked in stage and costume design, and as a writer and illustrator. De Chirico was elected to the French Académie des Beaux-Arts in 1974.",
+    "source" : "https://imma.ie/artists/giorgio-de-chirico/",
+    "birthDate" : "1888–1978",
+    "url" : "https://imma.ie/artists/giorgio-de-chirico/",
+    "label" : "Giorgio de Chirico"
   }, {
     "@id" : "spice:artefact/il-trovatore",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/de-chirico-giorgio",
     "author" : "spice:agent/de-chirico-giorgio",
-    "schema:dateCreated" : "1955",
-    "schema:url" : "https://imma.ie/collection/il-trovatore/",
+    "dateCreated" : "1955",
+    "url" : "https://imma.ie/collection/il-trovatore/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/il-trovatore",
-    "arco-cd:hasTitle" : "Il Trovatore"
+    "hasTitle" : "Il Trovatore"
   }, {
     "@id" : "spice:attribution/il-trovatore",
     "@type" : "arco:AuthorshipAttribution",
@@ -32,48 +32,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -2,31 +2,31 @@
   "@graph" : [ {
     "@id" : "spice:agent/taaffe-philip",
     "@type" : "foaf:Person",
-    "dc:description" : "American artist Philip Taaffe (born 1955) studied at Cooper Union in New York. Taaffe’s vivid, abstract paintings employ symbols drawn from a vast array of cultural and historical sources, from Islamic architecture and Eastern European textile design, to calligraphy and information technology. Taaffe has exhibited extensively in Europe and the US, including a solo exhibition at IMMA in 2011. Taaffe’s work is represented in major public collections including those of the MoMA, New York; the Guggenheim Museum, New York, and the Reina Sofía Museum, Madrid.",
-    "dc:source" : "https://imma.ie/artists/philip-taaffe/",
-    "schema:birthDate" : "b.1955",
-    "schema:url" : "https://imma.ie/artists/philip-taaffe/",
-    "rdfs:label" : "Philip Taaffe"
+    "description" : "American artist Philip Taaffe (born 1955) studied at Cooper Union in New York. Taaffe’s vivid, abstract paintings employ symbols drawn from a vast array of cultural and historical sources, from Islamic architecture and Eastern European textile design, to calligraphy and information technology. Taaffe has exhibited extensively in Europe and the US, including a solo exhibition at IMMA in 2011. Taaffe’s work is represented in major public collections including those of the MoMA, New York; the Guggenheim Museum, New York, and the Reina Sofía Museum, Madrid.",
+    "source" : "https://imma.ie/artists/philip-taaffe/",
+    "birthDate" : "b.1955",
+    "url" : "https://imma.ie/artists/philip-taaffe/",
+    "label" : "Philip Taaffe"
   }, {
     "@id" : "spice:artefact/cape-siren",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/taaffe-philip",
     "author" : "spice:agent/taaffe-philip",
-    "schema:dateCreated" : "2008",
-    "schema:url" : "https://imma.ie/collection/cape-siren/",
+    "dateCreated" : "2008",
+    "url" : "https://imma.ie/collection/cape-siren/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/cape-siren",
-    "arco-cd:hasTitle" : "Cape Siren"
+    "hasTitle" : "Cape Siren"
   }, {
     "@id" : "spice:artefact/composition-with-ornamental-fragments-6",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/taaffe-philip",
     "author" : "spice:agent/taaffe-philip",
-    "schema:dateCreated" : "2011",
-    "schema:url" : "https://imma.ie/collection/composition-with-ornamental-fragments-6/",
+    "dateCreated" : "2011",
+    "url" : "https://imma.ie/collection/composition-with-ornamental-fragments-6/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/composition-with-ornamental-fragments-6",
-    "arco-cd:hasTitle" : "Composition with Ornamental Fragments 6"
+    "hasTitle" : "Composition with Ornamental Fragments 6"
   }, {
     "@id" : "spice:attribution/cape-siren",
     "@type" : "arco:AuthorshipAttribution",
@@ -42,24 +42,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -70,24 +67,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

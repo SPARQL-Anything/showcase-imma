@@ -2,66 +2,57 @@
   "@graph" : [ {
     "@id" : "spice:artefact/greenleaf-portfolio",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Greenleaf portfolio is a 1992 work by Bill Woodrow. It is not currently on display in IMMA. ",
-    "dc:source" : "https://imma.ie/collection/greenleaf-portfolio/",
-    "schema:creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1995",
+    "description" : "Greenleaf portfolio is a 1992 work by Bill Woodrow. It is not currently on display in IMMA. ",
+    "source" : "https://imma.ie/collection/greenleaf-portfolio/",
+    "creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1995",
     "image" : "spice:documentation/greenleaf-portfolio",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Etching",
-    "schema:size" : "68.7 x 76 cm",
-    "schema:version" : "Editiom 16/35",
-    "arco-cd:hasInventory" : "L.779 LW"
+    "material" : "Etching",
+    "size" : "68.7 x 76 cm",
+    "version" : "Editiom 16/35",
+    "hasInventory" : "L.779 LW"
   }, {
     "@id" : "spice:documentation/greenleaf-portfolio",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Bill Woodrow, Greenleaf portfolio, 1992, Etching, 68.7 x 76 cm, Collection Irish Museum of Modern Art, Loan, Weltkunst Foundation, 1995 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Bill Woodrow, Greenleaf portfolio, 1992, Etching, 68.7 x 76 cm, Collection Irish Museum of Modern Art, Loan, Weltkunst Foundation, 1995 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

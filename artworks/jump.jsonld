@@ -1,0 +1,67 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/jump",
+    "@type" : "schema:CreativeWork",
+    "description" : "Since 2008, Cléa van der Grijn’s work and practice is about unravelling the complexities associated around the culture of death, reconstructed memory and time. In JUMP (2018) van der Grijn asks what are the memories between the transitional period of jumping and hitting the water when life becomes momentarily suspended. When viewed from our typical perspective of being within and perceiving the world according to linear time, the period of a jump, between the precipitation of the action and the landing, the splash, happens in an instant; and from this perspective, not much can ‘happen’ in an instant. This is the effect of forgetting that linear time is a projection, a construct that the mind creates to make it possible to self-identify and exist in the world. ",
+    "source" : "https://imma.ie/collection/jump/",
+    "creditText" : "IMMA Collection: Purchase, 2021, 2021",
+    "image" : "spice:documentation/jump",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "material" : "HD Video",
+    "hasInventory" : "IMMA.4228"
+  }, {
+    "@id" : "spice:documentation/jump",
+    "@type" : "schema:ImageObject",
+    "caption" : "Cléa van der Grijn, Jump, 2018, HD Video, Duration: 26min.31 sec., Collection Irish Museum of Modern Art, Purchase, 2021, 2021 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "url" : "https://imma.ie/wp-content/uploads/2021/04/9529.jpg"
+  } ],
+  "@context" : {
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

@@ -2,37 +2,33 @@
   "@graph" : [ {
     "@id" : "spice:artefact/remains-artist-supplied-master-hdcam-sr-25psf-000800",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Remains – Artist-Supplied Master, HDCAM-SR, 25PSF, 00:08:00 is a 2013 work by Willie Doherty. It has a duration of 15 min. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/remains-artist-supplied-master-hdcam-sr-25psf-000800/",
-    "schema:creditText" : "IMMA Collection: Heritage Gift, 2014",
+    "description" : "Remains – Artist-Supplied Master, HDCAM-SR, 25PSF, 00:08:00 is a 2013 work by Willie Doherty. It has a duration of 15 min. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/remains-artist-supplied-master-hdcam-sr-25psf-000800/",
+    "creditText" : "IMMA Collection: Heritage Gift, 2014",
     "image" : "spice:documentation/remains-artist-supplied-master-hdcam-sr-25psf-000800",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "High-definition video (colour, sound)",
-    "schema:version" : "2/3 (Edition of 3 + 1 AP)",
-    "arco-cd:hasInventory" : "IMMA.3873.002"
+    "material" : "High-definition video (colour, sound)",
+    "version" : "2/3 (Edition of 3 + 1 AP)",
+    "hasInventory" : "IMMA.3873.002"
   }, {
     "@id" : "spice:documentation/remains-artist-supplied-master-hdcam-sr-25psf-000800",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Willie Doherty, Remains – Artist-Supplied Master, HDCAM-SR, 25PSF, 00:08:00, 2013, High-definition video (colour, sound), Duration: 15 min, Collection Irish Museum of Modern Art, Heritage Gift, 2014 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Willie Doherty, Remains – Artist-Supplied Master, HDCAM-SR, 25PSF, 00:08:00, 2013, High-definition video (colour, sound), Duration: 15 min, Collection Irish Museum of Modern Art, Heritage Gift, 2014 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -43,20 +39,16 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

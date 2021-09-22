@@ -2,32 +2,29 @@
   "@graph" : [ {
     "@id" : "spice:artefact/if-the-ground-should-open",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "If The Ground Should Open is a 2016 work by Jaki Irvine. It has a duration of 48 min. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/if-the-ground-should-open/",
-    "schema:creditText" : "IMMA Collection: Purchase, 2016 - Commissioned by IMMA as part of the 1916 programme, December 2016",
+    "description" : "If The Ground Should Open is a 2016 work by Jaki Irvine. It has a duration of 48 min. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/if-the-ground-should-open/",
+    "creditText" : "IMMA Collection: Purchase, 2016 - Commissioned by IMMA as part of the 1916 programme, December 2016",
     "image" : "spice:documentation/if-the-ground-should-open",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "8 Channel HD video",
-    "arco-cd:hasInventory" : "IMMA.4009"
+    "material" : "8 Channel HD video",
+    "hasInventory" : "IMMA.4009"
   }, {
     "@id" : "spice:documentation/if-the-ground-should-open",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Jaki Irvine, If The Ground Should Open, 2016, 8 Channel HD video, Duration: 48 min, Collection Irish Museum of Modern Art, Purchase, 2016 - Commissioned by IMMA as part of the 1916 programme, December 2016 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Jaki Irvine, If The Ground Should Open, 2016, 8 Channel HD video, Duration: 48 min, Collection Irish Museum of Modern Art, Purchase, 2016 - Commissioned by IMMA as part of the 1916 programme, December 2016 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -38,20 +35,16 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

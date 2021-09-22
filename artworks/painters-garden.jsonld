@@ -2,71 +2,61 @@
   "@graph" : [ {
     "@id" : "spice:artefact/painters-garden",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Painter’s Garden is a 2003 work by Lucian Freud. It is not currently on display in IMMA. ",
-    "dc:source" : "https://imma.ie/collection/painters-garden/",
-    "schema:creditText" : "IMMA Collection: On Loan, Private Collection, ",
+    "description" : "Painter’s Garden is a 2003 work by Lucian Freud. It is not currently on display in IMMA. ",
+    "source" : "https://imma.ie/collection/painters-garden/",
+    "creditText" : "IMMA Collection: On Loan, Private Collection, ",
     "image" : "spice:documentation/painters-garden",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Etching",
-    "schema:size" : "Plate: 63.5 x 86.8 cm Sheet: 77.5 x 100.1 cm Framed: 89.5 x 111 x 3.7 cm",
-    "schema:version" : "Edition Proof 2",
-    "arco-cd:hasInventory" : "EX.2016.1.47"
+    "material" : "Etching",
+    "size" : "Plate: 63.5 x 86.8 cm Sheet: 77.5 x 100.1 cm Framed: 89.5 x 111 x 3.7 cm",
+    "version" : "Edition Proof 2",
+    "hasInventory" : "EX.2016.1.47"
   }, {
     "@id" : "spice:documentation/painters-garden",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Lucian Freud, Painter’s Garden, 2003, Etching, Plate: 63.5 x 86.8 cm Sheet: 77.5 x 100.1 cm Framed: 89.5 x 111 x 3.7 cm, Collection Irish Museum of Modern Art, On Loan, Private Collection ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Lucian Freud, Painter’s Garden, 2003, Etching, Plate: 63.5 x 86.8 cm Sheet: 77.5 x 100.1 cm Framed: 89.5 x 111 x 3.7 cm, Collection Irish Museum of Modern Art, On Loan, Private Collection ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/7593.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/7593.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

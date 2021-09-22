@@ -2,81 +2,81 @@
   "@graph" : [ {
     "@id" : "spice:agent/tyrrell-charles",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish artist Charles Tyrrell (born 1950) studied painting at the National College of Art and Design. Incorporating drawing, print and painting on canvas and aluminium, Tyrrell’s visual art practice combines abstract, geometric forms with elements of the experienced world. Tyrell represented Ireland at the Paris Biennale in 1982. He has exhibited extensively, including solo exhibitions at the RHA; Project Arts Centre, Dublin, and the Butler Gallery, Kilkenny. Tyrell taught at the Dun Laoghaire School of Art from 1977 to 1981. He is a member of Aosdána.",
-    "dc:source" : "https://imma.ie/artists/charles-tyrrell/",
-    "schema:birthDate" : "b.1950",
-    "schema:url" : "https://imma.ie/artists/charles-tyrrell/",
-    "rdfs:label" : "Charles Tyrrell"
+    "description" : "Irish artist Charles Tyrrell (born 1950) studied painting at the National College of Art and Design. Incorporating drawing, print and painting on canvas and aluminium, Tyrrell’s visual art practice combines abstract, geometric forms with elements of the experienced world. Tyrell represented Ireland at the Paris Biennale in 1982. He has exhibited extensively, including solo exhibitions at the RHA; Project Arts Centre, Dublin, and the Butler Gallery, Kilkenny. Tyrell taught at the Dun Laoghaire School of Art from 1977 to 1981. He is a member of Aosdána.",
+    "source" : "https://imma.ie/artists/charles-tyrrell/",
+    "birthDate" : "b.1950",
+    "url" : "https://imma.ie/artists/charles-tyrrell/",
+    "label" : "Charles Tyrrell"
   }, {
     "@id" : "spice:artefact/1995-i",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/tyrrell-charles",
     "author" : "spice:agent/tyrrell-charles",
-    "schema:dateCreated" : "1995",
-    "schema:url" : "https://imma.ie/collection/1995-i/",
+    "dateCreated" : "1995",
+    "url" : "https://imma.ie/collection/1995-i/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/1995-i",
-    "arco-cd:hasTitle" : "1995 I"
+    "hasTitle" : "1995 I"
   }, {
     "@id" : "spice:artefact/abstract-diptych",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/tyrrell-charles",
     "author" : "spice:agent/tyrrell-charles",
-    "schema:dateCreated" : "1976",
-    "schema:url" : "https://imma.ie/collection/abstract-diptych/",
+    "dateCreated" : "1976",
+    "url" : "https://imma.ie/collection/abstract-diptych/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/abstract-diptych",
-    "arco-cd:hasTitle" : "Abstract (diptych)"
+    "hasTitle" : "Abstract (diptych)"
   }, {
     "@id" : "spice:artefact/abstract-untitled",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/tyrrell-charles",
     "author" : "spice:agent/tyrrell-charles",
-    "schema:dateCreated" : "1979",
-    "schema:url" : "https://imma.ie/collection/abstract-untitled/",
+    "dateCreated" : "1979",
+    "url" : "https://imma.ie/collection/abstract-untitled/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/abstract-untitled",
-    "arco-cd:hasTitle" : "Abstract (untitled)"
+    "hasTitle" : "Abstract (untitled)"
   }, {
     "@id" : "spice:artefact/island",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/tyrrell-charles",
     "author" : "spice:agent/tyrrell-charles",
-    "schema:dateCreated" : "1997",
-    "schema:url" : "https://imma.ie/collection/island/",
+    "dateCreated" : "1997",
+    "url" : "https://imma.ie/collection/island/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/island",
-    "arco-cd:hasTitle" : "Island"
+    "hasTitle" : "Island"
   }, {
     "@id" : "spice:artefact/march-1992",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/tyrrell-charles",
     "author" : "spice:agent/tyrrell-charles",
-    "schema:dateCreated" : "1992",
-    "schema:url" : "https://imma.ie/collection/march-1992/",
+    "dateCreated" : "1992",
+    "url" : "https://imma.ie/collection/march-1992/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/march-1992",
-    "arco-cd:hasTitle" : "March 1992"
+    "hasTitle" : "March 1992"
   }, {
     "@id" : "spice:artefact/once-upon-a-time",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/tyrrell-charles",
     "author" : "spice:agent/tyrrell-charles",
-    "schema:dateCreated" : "1974",
-    "schema:url" : "https://imma.ie/collection/once-upon-a-time/",
+    "dateCreated" : "1974",
+    "url" : "https://imma.ie/collection/once-upon-a-time/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/once-upon-a-time",
-    "arco-cd:hasTitle" : "Once Upon a Time"
+    "hasTitle" : "Once Upon a Time"
   }, {
     "@id" : "spice:artefact/untitled-97",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/tyrrell-charles",
     "author" : "spice:agent/tyrrell-charles",
-    "schema:dateCreated" : "1975",
-    "schema:url" : "https://imma.ie/collection/untitled-97/",
+    "dateCreated" : "1975",
+    "url" : "https://imma.ie/collection/untitled-97/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-97",
-    "arco-cd:hasTitle" : "Untitled"
+    "hasTitle" : "Untitled"
   }, {
     "@id" : "spice:attribution/1995-i",
     "@type" : "arco:AuthorshipAttribution",
@@ -112,24 +112,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -140,24 +137,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

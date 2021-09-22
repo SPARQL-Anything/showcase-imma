@@ -2,181 +2,181 @@
   "@graph" : [ {
     "@id" : "spice:agent/stein-amelia",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish photographer Amelia Stein (born 1958) has worked freelance since 1981. Stein’s extensive body of photographic work ranges from portraiture, images of the performing arts and Dublin’s Botanical Gardens, to deeply personal examinations of loss and memory, absence and presence. In 2004 Stein became the first photographer to be elected a member of the RHA. She is also a member of Aosdána. Stein’s work has been exhibited nationwide at venues such as the RHA and the Fenderesky Gallery, Belfast.",
-    "dc:source" : "https://imma.ie/artists/amelia-stein/",
-    "schema:birthDate" : "b.1958",
-    "schema:url" : "https://imma.ie/artists/amelia-stein/",
-    "rdfs:label" : "Amelia Stein"
+    "description" : "Irish photographer Amelia Stein (born 1958) has worked freelance since 1981. Stein’s extensive body of photographic work ranges from portraiture, images of the performing arts and Dublin’s Botanical Gardens, to deeply personal examinations of loss and memory, absence and presence. In 2004 Stein became the first photographer to be elected a member of the RHA. She is also a member of Aosdána. Stein’s work has been exhibited nationwide at venues such as the RHA and the Fenderesky Gallery, Belfast.",
+    "source" : "https://imma.ie/artists/amelia-stein/",
+    "birthDate" : "b.1958",
+    "url" : "https://imma.ie/artists/amelia-stein/",
+    "label" : "Amelia Stein"
   }, {
     "@id" : "spice:artefact/loss-memory-belts",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/stein-amelia",
     "author" : "spice:agent/stein-amelia",
-    "schema:dateCreated" : "2002",
-    "schema:url" : "https://imma.ie/collection/loss-memory-belts/",
+    "dateCreated" : "2002",
+    "url" : "https://imma.ie/collection/loss-memory-belts/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/loss-memory-belts",
-    "arco-cd:hasTitle" : "Loss &amp; Memory – Belts"
+    "hasTitle" : "Loss &amp; Memory – Belts"
   }, {
     "@id" : "spice:artefact/loss-memory-booties",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/stein-amelia",
     "author" : "spice:agent/stein-amelia",
-    "schema:dateCreated" : "2002",
-    "schema:url" : "https://imma.ie/collection/loss-memory-booties/",
+    "dateCreated" : "2002",
+    "url" : "https://imma.ie/collection/loss-memory-booties/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/loss-memory-booties",
-    "arco-cd:hasTitle" : "Loss &amp; Memory – Booties"
+    "hasTitle" : "Loss &amp; Memory – Booties"
   }, {
     "@id" : "spice:artefact/loss-memory-clock",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/stein-amelia",
     "author" : "spice:agent/stein-amelia",
-    "schema:dateCreated" : "2002",
-    "schema:url" : "https://imma.ie/collection/loss-memory-clock/",
+    "dateCreated" : "2002",
+    "url" : "https://imma.ie/collection/loss-memory-clock/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/loss-memory-clock",
-    "arco-cd:hasTitle" : "Loss &amp; Memory – Clock"
+    "hasTitle" : "Loss &amp; Memory – Clock"
   }, {
     "@id" : "spice:artefact/loss-memory-dumbells",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/stein-amelia",
     "author" : "spice:agent/stein-amelia",
-    "schema:dateCreated" : "2002",
-    "schema:url" : "https://imma.ie/collection/loss-memory-dumbells/",
+    "dateCreated" : "2002",
+    "url" : "https://imma.ie/collection/loss-memory-dumbells/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/loss-memory-dumbells",
-    "arco-cd:hasTitle" : "Loss &amp; Memory – Dumbells"
+    "hasTitle" : "Loss &amp; Memory – Dumbells"
   }, {
     "@id" : "spice:artefact/loss-memory-fork-and-trowel",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/stein-amelia",
     "author" : "spice:agent/stein-amelia",
-    "schema:dateCreated" : "2002",
-    "schema:url" : "https://imma.ie/collection/loss-memory-fork-and-trowel/",
+    "dateCreated" : "2002",
+    "url" : "https://imma.ie/collection/loss-memory-fork-and-trowel/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/loss-memory-fork-and-trowel",
-    "arco-cd:hasTitle" : "Loss &amp; Memory – Fork and Trowel"
+    "hasTitle" : "Loss &amp; Memory – Fork and Trowel"
   }, {
     "@id" : "spice:artefact/loss-memory-her-shoes",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/stein-amelia",
     "author" : "spice:agent/stein-amelia",
-    "schema:dateCreated" : "2002",
-    "schema:url" : "https://imma.ie/collection/loss-memory-her-shoes/",
+    "dateCreated" : "2002",
+    "url" : "https://imma.ie/collection/loss-memory-her-shoes/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/loss-memory-her-shoes",
-    "arco-cd:hasTitle" : "Loss &amp; Memory – Her Shoes"
+    "hasTitle" : "Loss &amp; Memory – Her Shoes"
   }, {
     "@id" : "spice:artefact/loss-memory-his-shoes",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/stein-amelia",
     "author" : "spice:agent/stein-amelia",
-    "schema:dateCreated" : "2002",
-    "schema:url" : "https://imma.ie/collection/loss-memory-his-shoes/",
+    "dateCreated" : "2002",
+    "url" : "https://imma.ie/collection/loss-memory-his-shoes/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/loss-memory-his-shoes",
-    "arco-cd:hasTitle" : "Loss &amp; Memory – His Shoes"
+    "hasTitle" : "Loss &amp; Memory – His Shoes"
   }, {
     "@id" : "spice:artefact/loss-memory-old-training-shoes",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/stein-amelia",
     "author" : "spice:agent/stein-amelia",
-    "schema:dateCreated" : "2002",
-    "schema:url" : "https://imma.ie/collection/loss-memory-old-training-shoes/",
+    "dateCreated" : "2002",
+    "url" : "https://imma.ie/collection/loss-memory-old-training-shoes/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/loss-memory-old-training-shoes",
-    "arco-cd:hasTitle" : "Loss &amp; Memory – Old Training Shoes"
+    "hasTitle" : "Loss &amp; Memory – Old Training Shoes"
   }, {
     "@id" : "spice:artefact/loss-memory-ornaments",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/stein-amelia",
     "author" : "spice:agent/stein-amelia",
-    "schema:dateCreated" : "2002",
-    "schema:url" : "https://imma.ie/collection/loss-memory-ornaments/",
+    "dateCreated" : "2002",
+    "url" : "https://imma.ie/collection/loss-memory-ornaments/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/loss-memory-ornaments",
-    "arco-cd:hasTitle" : "Loss &amp; Memory – Ornaments"
+    "hasTitle" : "Loss &amp; Memory – Ornaments"
   }, {
     "@id" : "spice:artefact/loss-memory-purses",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/stein-amelia",
     "author" : "spice:agent/stein-amelia",
-    "schema:dateCreated" : "2002",
-    "schema:url" : "https://imma.ie/collection/loss-memory-purses/",
+    "dateCreated" : "2002",
+    "url" : "https://imma.ie/collection/loss-memory-purses/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/loss-memory-purses",
-    "arco-cd:hasTitle" : "Loss &amp; Memory – Purses"
+    "hasTitle" : "Loss &amp; Memory – Purses"
   }, {
     "@id" : "spice:artefact/loss-memory-shabbos-candlesticks",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/stein-amelia",
     "author" : "spice:agent/stein-amelia",
-    "schema:dateCreated" : "2002",
-    "schema:url" : "https://imma.ie/collection/loss-memory-shabbos-candlesticks/",
+    "dateCreated" : "2002",
+    "url" : "https://imma.ie/collection/loss-memory-shabbos-candlesticks/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/loss-memory-shabbos-candlesticks",
-    "arco-cd:hasTitle" : "Loss &amp; Memory – Shabbos Candlesticks"
+    "hasTitle" : "Loss &amp; Memory – Shabbos Candlesticks"
   }, {
     "@id" : "spice:artefact/loss-memory-spice-jars",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/stein-amelia",
     "author" : "spice:agent/stein-amelia",
-    "schema:dateCreated" : "2002",
-    "schema:url" : "https://imma.ie/collection/loss-memory-spice-jars/",
+    "dateCreated" : "2002",
+    "url" : "https://imma.ie/collection/loss-memory-spice-jars/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/loss-memory-spice-jars",
-    "arco-cd:hasTitle" : "Loss &amp; Memory – Spice Jars"
+    "hasTitle" : "Loss &amp; Memory – Spice Jars"
   }, {
     "@id" : "spice:artefact/loss-memory-sports-trophies",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/stein-amelia",
     "author" : "spice:agent/stein-amelia",
-    "schema:dateCreated" : "2002",
-    "schema:url" : "https://imma.ie/collection/loss-memory-sports-trophies/",
+    "dateCreated" : "2002",
+    "url" : "https://imma.ie/collection/loss-memory-sports-trophies/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/loss-memory-sports-trophies",
-    "arco-cd:hasTitle" : "Loss &amp; Memory – Sports Trophies"
+    "hasTitle" : "Loss &amp; Memory – Sports Trophies"
   }, {
     "@id" : "spice:artefact/loss-memory-stationery-box",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/stein-amelia",
     "author" : "spice:agent/stein-amelia",
-    "schema:dateCreated" : "2002",
-    "schema:url" : "https://imma.ie/collection/loss-memory-stationery-box/",
+    "dateCreated" : "2002",
+    "url" : "https://imma.ie/collection/loss-memory-stationery-box/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/loss-memory-stationery-box",
-    "arco-cd:hasTitle" : "Loss &amp; Memory – Stationery Box"
+    "hasTitle" : "Loss &amp; Memory – Stationery Box"
   }, {
     "@id" : "spice:artefact/loss-memory-tea-cups",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/stein-amelia",
     "author" : "spice:agent/stein-amelia",
-    "schema:dateCreated" : "2002",
-    "schema:url" : "https://imma.ie/collection/loss-memory-tea-cups/",
+    "dateCreated" : "2002",
+    "url" : "https://imma.ie/collection/loss-memory-tea-cups/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/loss-memory-tea-cups",
-    "arco-cd:hasTitle" : "Loss &amp; Memory – Tea Cups"
+    "hasTitle" : "Loss &amp; Memory – Tea Cups"
   }, {
     "@id" : "spice:artefact/loss-memory-wooden-spoon-and-spatula",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/stein-amelia",
     "author" : "spice:agent/stein-amelia",
-    "schema:dateCreated" : "2002",
-    "schema:url" : "https://imma.ie/collection/loss-memory-wooden-spoon-and-spatula/",
+    "dateCreated" : "2002",
+    "url" : "https://imma.ie/collection/loss-memory-wooden-spoon-and-spatula/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/loss-memory-wooden-spoon-and-spatula",
-    "arco-cd:hasTitle" : "Loss &amp; Memory – Wooden Spoon And Spatula"
+    "hasTitle" : "Loss &amp; Memory – Wooden Spoon And Spatula"
   }, {
     "@id" : "spice:artefact/teapot",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/stein-amelia",
     "author" : "spice:agent/stein-amelia",
-    "schema:dateCreated" : "2007",
-    "schema:url" : "https://imma.ie/collection/teapot/",
+    "dateCreated" : "2007",
+    "url" : "https://imma.ie/collection/teapot/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/teapot",
-    "arco-cd:hasTitle" : "Teapot"
+    "hasTitle" : "Teapot"
   }, {
     "@id" : "spice:attribution/loss-memory-belts",
     "@type" : "arco:AuthorshipAttribution",
@@ -256,48 +256,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

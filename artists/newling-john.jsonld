@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/newling-john",
     "@type" : "foaf:Person",
-    "dc:description" : "British artist John Newling (born 1952) was born in Birmingham. He completed his M.A. and M.Phil degrees at Chelsea College of Art and University of Wolverhampton. In 1985 he was awarded the first Fulbright Fellowship in Visual Art. Newling has large scale works within the public domain including major commissions for the Royal Mail and HM Revenue &amp; Customs. Newling lives in Nottingham where he is currently Professor of Installation Sculpture at The Nottingham Trent University.",
-    "dc:source" : "https://imma.ie/artists/john-newling/",
-    "schema:birthDate" : "b.1952",
-    "schema:url" : "https://imma.ie/artists/john-newling/",
-    "rdfs:label" : "John Newling"
+    "description" : "British artist John Newling (born 1952) was born in Birmingham. He completed his M.A. and M.Phil degrees at Chelsea College of Art and University of Wolverhampton. In 1985 he was awarded the first Fulbright Fellowship in Visual Art. Newling has large scale works within the public domain including major commissions for the Royal Mail and HM Revenue &amp; Customs. Newling lives in Nottingham where he is currently Professor of Installation Sculpture at The Nottingham Trent University.",
+    "source" : "https://imma.ie/artists/john-newling/",
+    "birthDate" : "b.1952",
+    "url" : "https://imma.ie/artists/john-newling/",
+    "label" : "John Newling"
   }, {
     "@id" : "spice:artefact/maquette-for-a-turning-mutability",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/newling-john",
     "author" : "spice:agent/newling-john",
-    "schema:dateCreated" : "1996",
-    "schema:url" : "https://imma.ie/collection/maquette-for-a-turning-mutability/",
+    "dateCreated" : "1996",
+    "url" : "https://imma.ie/collection/maquette-for-a-turning-mutability/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/maquette-for-a-turning-mutability",
-    "arco-cd:hasTitle" : "Maquette for A Turning Mutability"
+    "hasTitle" : "Maquette for A Turning Mutability"
   }, {
     "@id" : "spice:attribution/maquette-for-a-turning-mutability",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,44 +28,37 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

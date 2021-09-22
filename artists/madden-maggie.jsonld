@@ -1,30 +1,26 @@
 {
   "@id" : "spice:agent/madden-maggie",
   "@type" : "foaf:Person",
-  "dc:description" : [ "Maggie Madden assembles a diverse array of collected materials&nbsp;to craft into fragile sculptural formations with geometric affinities. The work is suggestive of architectural structures, but also reflects on our spatial encounters in both the urban landscape and the natural world. The linear structures are made using telephone wire and optical fibre to form subtle three dimensional drawings in space, delicately balanced and at times barely visible. During the process of construction the physical limits of the materials are taken in to account, as there is an attempt made at rendering some materials to appear almost weightless. Tension is created as the sculptural formations often have a fragility that teeters on the brink of collapse.", "Maggie Madden assembles a diverse array of collected materials to craft into fragile sculptural formations with geometric affinities. The work is suggestive of architectural structures, but also reflects on our spatial encounters in both the urban landscape and the natural world. " ],
-  "dc:source" : "https://imma.ie/artists/maggie-madden/",
-  "schema:url" : "https://imma.ie/artists/maggie-madden/",
-  "rdfs:label" : "Maggie Madden",
+  "description" : [ "Maggie Madden assembles a diverse array of collected materials&nbsp;to craft into fragile sculptural formations with geometric affinities. The work is suggestive of architectural structures, but also reflects on our spatial encounters in both the urban landscape and the natural world. The linear structures are made using telephone wire and optical fibre to form subtle three dimensional drawings in space, delicately balanced and at times barely visible. During the process of construction the physical limits of the materials are taken in to account, as there is an attempt made at rendering some materials to appear almost weightless. Tension is created as the sculptural formations often have a fragility that teeters on the brink of collapse.", "Maggie Madden assembles a diverse array of collected materials to craft into fragile sculptural formations with geometric affinities. The work is suggestive of architectural structures, but also reflects on our spatial encounters in both the urban landscape and the natural world. " ],
+  "source" : "https://imma.ie/artists/maggie-madden/",
+  "url" : "https://imma.ie/artists/maggie-madden/",
+  "label" : "Maggie Madden",
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

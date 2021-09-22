@@ -2,40 +2,40 @@
   "@graph" : [ {
     "@id" : "spice:agent/davis-william-e",
     "@type" : "foaf:Person",
-    "dc:source" : "https://imma.ie/artists/william-e-davis/",
-    "schema:birthDate" : "1918–2016",
-    "schema:url" : "https://imma.ie/artists/william-e-davis/",
-    "rdfs:label" : "William E. Davis"
+    "source" : "https://imma.ie/artists/william-e-davis/",
+    "birthDate" : "1918–2016",
+    "url" : "https://imma.ie/artists/william-e-davis/",
+    "label" : "William E. Davis"
   }, {
     "@id" : "spice:artefact/open-white-hub",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/davis-william-e",
     "author" : "spice:agent/davis-william-e",
-    "schema:dateCreated" : "1998",
-    "schema:url" : "https://imma.ie/collection/open-white-hub/",
+    "dateCreated" : "1998",
+    "url" : "https://imma.ie/collection/open-white-hub/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/open-white-hub",
-    "arco-cd:hasTitle" : "Open White Hub"
+    "hasTitle" : "Open White Hub"
   }, {
     "@id" : "spice:artefact/three-steps",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/davis-william-e",
     "author" : "spice:agent/davis-william-e",
-    "schema:dateCreated" : "1994",
-    "schema:url" : "https://imma.ie/collection/three-steps/",
+    "dateCreated" : "1994",
+    "url" : "https://imma.ie/collection/three-steps/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/three-steps",
-    "arco-cd:hasTitle" : "Three Steps"
+    "hasTitle" : "Three Steps"
   }, {
     "@id" : "spice:artefact/white-building-black-knob",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/davis-william-e",
     "author" : "spice:agent/davis-william-e",
-    "schema:dateCreated" : "1995",
-    "schema:url" : "https://imma.ie/collection/white-building-black-knob/",
+    "dateCreated" : "1995",
+    "url" : "https://imma.ie/collection/white-building-black-knob/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/white-building-black-knob",
-    "arco-cd:hasTitle" : "White Building/Black Knob"
+    "hasTitle" : "White Building/Black Knob"
   }, {
     "@id" : "spice:attribution/open-white-hub",
     "@type" : "arco:AuthorshipAttribution",
@@ -59,44 +59,38 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

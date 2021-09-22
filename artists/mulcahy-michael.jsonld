@@ -2,81 +2,81 @@
   "@graph" : [ {
     "@id" : "spice:agent/mulcahy-michael",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish painter Michael Mulcahy (born 1952) attended the Crawford Municipal School of Art, Cork, and the National College of Art and Design, Dublin. He is now one of the artists most prominently associated with Neo-expressionist painting in Ireland. Mulcahy has travelled extensively, particularly in North and West Africa where he lived with local communities. His semi-abstract paintings make reference to those groups, such as the Dogon in Mali, with which he has engaged. Mulcahy represented Ireland at the Sidney Biennale in 1984. He is an elected member of Aosdána.",
-    "dc:source" : "https://imma.ie/artists/michael-mulcahy/",
-    "schema:birthDate" : "b.1952",
-    "schema:url" : "https://imma.ie/artists/michael-mulcahy/",
-    "rdfs:label" : "Michael Mulcahy"
+    "description" : "Irish painter Michael Mulcahy (born 1952) attended the Crawford Municipal School of Art, Cork, and the National College of Art and Design, Dublin. He is now one of the artists most prominently associated with Neo-expressionist painting in Ireland. Mulcahy has travelled extensively, particularly in North and West Africa where he lived with local communities. His semi-abstract paintings make reference to those groups, such as the Dogon in Mali, with which he has engaged. Mulcahy represented Ireland at the Sidney Biennale in 1984. He is an elected member of Aosdána.",
+    "source" : "https://imma.ie/artists/michael-mulcahy/",
+    "birthDate" : "b.1952",
+    "url" : "https://imma.ie/artists/michael-mulcahy/",
+    "label" : "Michael Mulcahy"
   }, {
     "@id" : "spice:artefact/chuksoam-1-do-gong-series-18",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/mulcahy-michael",
     "author" : "spice:agent/mulcahy-michael",
-    "schema:dateCreated" : "1988",
-    "schema:url" : "https://imma.ie/collection/chuksoam-1-do-gong-series-18/",
+    "dateCreated" : "1988",
+    "url" : "https://imma.ie/collection/chuksoam-1-do-gong-series-18/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/chuksoam-1-do-gong-series-18",
-    "arco-cd:hasTitle" : "Ch’uksoam 1 Do-Gong Series 18"
+    "hasTitle" : "Ch’uksoam 1 Do-Gong Series 18"
   }, {
     "@id" : "spice:artefact/dogon-series-8",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/mulcahy-michael",
     "author" : "spice:agent/mulcahy-michael",
-    "schema:dateCreated" : "1988",
-    "schema:url" : "https://imma.ie/collection/dogon-series-8/",
+    "dateCreated" : "1988",
+    "url" : "https://imma.ie/collection/dogon-series-8/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/dogon-series-8",
-    "arco-cd:hasTitle" : "Dogon Series 8"
+    "hasTitle" : "Dogon Series 8"
   }, {
     "@id" : "spice:artefact/ganga-2",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/mulcahy-michael",
     "author" : "spice:agent/mulcahy-michael",
-    "schema:dateCreated" : "1991",
-    "schema:url" : "https://imma.ie/collection/ganga-2/",
+    "dateCreated" : "1991",
+    "url" : "https://imma.ie/collection/ganga-2/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/ganga-2",
-    "arco-cd:hasTitle" : "Ganga 2"
+    "hasTitle" : "Ganga 2"
   }, {
     "@id" : "spice:artefact/mary-you-forgot-your-present",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/mulcahy-michael",
     "author" : "spice:agent/mulcahy-michael",
-    "schema:dateCreated" : "1984",
-    "schema:url" : "https://imma.ie/collection/mary-you-forgot-your-present/",
+    "dateCreated" : "1984",
+    "url" : "https://imma.ie/collection/mary-you-forgot-your-present/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/mary-you-forgot-your-present",
-    "arco-cd:hasTitle" : "‘Mary you forgot your present’"
+    "hasTitle" : "‘Mary you forgot your present’"
   }, {
     "@id" : "spice:artefact/stranger",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/mulcahy-michael",
     "author" : "spice:agent/mulcahy-michael",
-    "schema:dateCreated" : "1983",
-    "schema:url" : "https://imma.ie/collection/stranger/",
+    "dateCreated" : "1983",
+    "url" : "https://imma.ie/collection/stranger/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/stranger",
-    "arco-cd:hasTitle" : "Stranger"
+    "hasTitle" : "Stranger"
   }, {
     "@id" : "spice:artefact/the-navigator",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/mulcahy-michael",
     "author" : "spice:agent/mulcahy-michael",
-    "schema:dateCreated" : "1982",
-    "schema:url" : "https://imma.ie/collection/the-navigator/",
+    "dateCreated" : "1982",
+    "url" : "https://imma.ie/collection/the-navigator/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-navigator",
-    "arco-cd:hasTitle" : "The Navigator"
+    "hasTitle" : "The Navigator"
   }, {
     "@id" : "spice:artefact/the-sepic-river-as-the-sun-goes-sleeping",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/mulcahy-michael",
     "author" : "spice:agent/mulcahy-michael",
-    "schema:dateCreated" : "1989",
-    "schema:url" : "https://imma.ie/collection/the-sepic-river-as-the-sun-goes-sleeping/",
+    "dateCreated" : "1989",
+    "url" : "https://imma.ie/collection/the-sepic-river-as-the-sun-goes-sleeping/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-sepic-river-as-the-sun-goes-sleeping",
-    "arco-cd:hasTitle" : "The Sepic River as the Sun Goes Sleeping"
+    "hasTitle" : "The Sepic River as the Sun Goes Sleeping"
   }, {
     "@id" : "spice:attribution/chuksoam-1-do-gong-series-18",
     "@type" : "arco:AuthorshipAttribution",
@@ -112,24 +112,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -140,24 +137,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

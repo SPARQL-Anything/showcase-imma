@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/graham-dan",
     "@type" : "foaf:Person",
-    "dc:description" : "The American artist writer and curator Dan Graham began his career in 1962 when he founded the John Daniels Gallery in New York. There, he began to work on conceptual pieces and went on to work in installation, video, photography, performance and large scale steel and glass sculpture pavilions. He has received numerous awards including the Coutts Contemporary Art Foundation Award (1992), the Vermeil Medal of the City of Paris (2001), and an American Academy of Arts and Letters Award (2010). Major retrospectives of Graham’s oeuvre were held in 2001 and 2009 at venues including the Museum of Modern Art, Oxford (2001) and MOCA, Los Angeles (2009). His work is represented in major international public collections including Tate, London; MoMA, New York; SFMOMA and the Whitney Museum of American Art, New York.",
-    "dc:source" : "https://imma.ie/artists/dan-graham/",
-    "schema:birthDate" : "b.1942",
-    "schema:url" : "https://imma.ie/artists/dan-graham/",
-    "rdfs:label" : "Dan Graham"
+    "description" : "The American artist writer and curator Dan Graham began his career in 1962 when he founded the John Daniels Gallery in New York. There, he began to work on conceptual pieces and went on to work in installation, video, photography, performance and large scale steel and glass sculpture pavilions. He has received numerous awards including the Coutts Contemporary Art Foundation Award (1992), the Vermeil Medal of the City of Paris (2001), and an American Academy of Arts and Letters Award (2010). Major retrospectives of Graham’s oeuvre were held in 2001 and 2009 at venues including the Museum of Modern Art, Oxford (2001) and MOCA, Los Angeles (2009). His work is represented in major international public collections including Tate, London; MoMA, New York; SFMOMA and the Whitney Museum of American Art, New York.",
+    "source" : "https://imma.ie/artists/dan-graham/",
+    "birthDate" : "b.1942",
+    "url" : "https://imma.ie/artists/dan-graham/",
+    "label" : "Dan Graham"
   }, {
     "@id" : "spice:artefact/split-level-two-house-home-jersey-city-new-jersey",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/graham-dan",
     "author" : "spice:agent/graham-dan",
-    "schema:dateCreated" : "1966",
-    "schema:url" : "https://imma.ie/collection/split-level-two-house-home-jersey-city-new-jersey/",
+    "dateCreated" : "1966",
+    "url" : "https://imma.ie/collection/split-level-two-house-home-jersey-city-new-jersey/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/split-level-two-house-home-jersey-city-new-jersey",
-    "arco-cd:hasTitle" : "Split Level. Two House Home. Jersey City, New Jersey"
+    "hasTitle" : "Split Level. Two House Home. Jersey City, New Jersey"
   }, {
     "@id" : "spice:attribution/split-level-two-house-home-jersey-city-new-jersey",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,40 +24,33 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

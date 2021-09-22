@@ -2,20 +2,20 @@
   "@graph" : [ {
     "@id" : "spice:agent/rippey-carla",
     "@type" : "foaf:Person",
-    "dc:source" : "https://imma.ie/artists/carla-rippey/",
-    "schema:birthDate" : "b.1950",
-    "schema:url" : "https://imma.ie/artists/carla-rippey/",
-    "rdfs:label" : "Carla Rippey"
+    "source" : "https://imma.ie/artists/carla-rippey/",
+    "birthDate" : "b.1950",
+    "url" : "https://imma.ie/artists/carla-rippey/",
+    "label" : "Carla Rippey"
   }, {
     "@id" : "spice:artefact/alegoria-de-la-rosa",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/rippey-carla",
     "author" : "spice:agent/rippey-carla",
-    "schema:dateCreated" : "1996",
-    "schema:url" : "https://imma.ie/collection/alegoria-de-la-rosa/",
+    "dateCreated" : "1996",
+    "url" : "https://imma.ie/collection/alegoria-de-la-rosa/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/alegoria-de-la-rosa",
-    "arco-cd:hasTitle" : "Alegoría de la Rosa"
+    "hasTitle" : "Alegoría de la Rosa"
   }, {
     "@id" : "spice:attribution/alegoria-de-la-rosa",
     "@type" : "arco:AuthorshipAttribution",
@@ -27,24 +27,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -55,20 +52,17 @@
       "@type" : "@id"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

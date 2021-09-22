@@ -2,61 +2,61 @@
   "@graph" : [ {
     "@id" : "spice:agent/landweer-sonja",
     "@type" : "foaf:Person",
-    "dc:description" : "Dutch artist Sonia Landweer studied at the Amsterdam School of Industrial Design. In 1965 she moved to Ireland to set up a ceramic studio at the Kilkenny Design Workshop. Landweer's innovative practice in jewellery, body sculpture, bronze and ceramics has evolved from a close relationship with the natural world. Landweer’s ceramic works have been exhibited in group and solo exhibitions in Ireland and Europe since the 1960s, including retrospectives at Visual, Carlow; the National Craft Gallery, Kilkenny and Designyard, Dublin. Her work is represented in public and private collections worldwide.",
-    "dc:source" : "https://imma.ie/artists/sonja-landweer/",
-    "schema:birthDate" : "b.1933",
-    "schema:url" : "https://imma.ie/artists/sonja-landweer/",
-    "rdfs:label" : "Sonja Landweer"
+    "description" : "Dutch artist Sonia Landweer studied at the Amsterdam School of Industrial Design. In 1965 she moved to Ireland to set up a ceramic studio at the Kilkenny Design Workshop. Landweer's innovative practice in jewellery, body sculpture, bronze and ceramics has evolved from a close relationship with the natural world. Landweer’s ceramic works have been exhibited in group and solo exhibitions in Ireland and Europe since the 1960s, including retrospectives at Visual, Carlow; the National Craft Gallery, Kilkenny and Designyard, Dublin. Her work is represented in public and private collections worldwide.",
+    "source" : "https://imma.ie/artists/sonja-landweer/",
+    "birthDate" : "b.1933",
+    "url" : "https://imma.ie/artists/sonja-landweer/",
+    "label" : "Sonja Landweer"
   }, {
     "@id" : "spice:artefact/bowl-ceramic-ovoid-body",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/landweer-sonja",
     "author" : "spice:agent/landweer-sonja",
-    "schema:dateCreated" : "1959",
-    "schema:url" : "https://imma.ie/collection/bowl-ceramic-ovoid-body/",
+    "dateCreated" : "1959",
+    "url" : "https://imma.ie/collection/bowl-ceramic-ovoid-body/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/bowl-ceramic-ovoid-body",
-    "arco-cd:hasTitle" : "Bowl, Ceramic Ovoid Body"
+    "hasTitle" : "Bowl, Ceramic Ovoid Body"
   }, {
     "@id" : "spice:artefact/bowl-round-body",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/landweer-sonja",
     "author" : "spice:agent/landweer-sonja",
-    "schema:dateCreated" : "1968",
-    "schema:url" : "https://imma.ie/collection/bowl-round-body/",
+    "dateCreated" : "1968",
+    "url" : "https://imma.ie/collection/bowl-round-body/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/bowl-round-body",
-    "arco-cd:hasTitle" : "Bowl Round Body"
+    "hasTitle" : "Bowl Round Body"
   }, {
     "@id" : "spice:artefact/bowl-round-ceramic",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/landweer-sonja",
     "author" : "spice:agent/landweer-sonja",
-    "schema:dateCreated" : "1971",
-    "schema:url" : "https://imma.ie/collection/bowl-round-ceramic/",
+    "dateCreated" : "1971",
+    "url" : "https://imma.ie/collection/bowl-round-ceramic/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/bowl-round-ceramic",
-    "arco-cd:hasTitle" : "Bowl Round Ceramic"
+    "hasTitle" : "Bowl Round Ceramic"
   }, {
     "@id" : "spice:artefact/ceramic-bowl-round-body",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/landweer-sonja",
     "author" : "spice:agent/landweer-sonja",
-    "schema:dateCreated" : "1971",
-    "schema:url" : "https://imma.ie/collection/ceramic-bowl-round-body/",
+    "dateCreated" : "1971",
+    "url" : "https://imma.ie/collection/ceramic-bowl-round-body/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/ceramic-bowl-round-body",
-    "arco-cd:hasTitle" : "Ceramic Bowl, Round Body"
+    "hasTitle" : "Ceramic Bowl, Round Body"
   }, {
     "@id" : "spice:artefact/inlaid-stoneware-spiral-with-fawn-feathers",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/landweer-sonja",
     "author" : "spice:agent/landweer-sonja",
-    "schema:dateCreated" : "1987",
-    "schema:url" : "https://imma.ie/collection/inlaid-stoneware-spiral-with-fawn-feathers/",
+    "dateCreated" : "1987",
+    "url" : "https://imma.ie/collection/inlaid-stoneware-spiral-with-fawn-feathers/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/inlaid-stoneware-spiral-with-fawn-feathers",
-    "arco-cd:hasTitle" : "Inlaid stoneware spiral with fawn feathers"
+    "hasTitle" : "Inlaid stoneware spiral with fawn feathers"
   }, {
     "@id" : "spice:attribution/bowl-ceramic-ovoid-body",
     "@type" : "arco:AuthorshipAttribution",
@@ -84,24 +84,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -112,24 +109,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

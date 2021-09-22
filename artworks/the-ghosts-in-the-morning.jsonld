@@ -2,20 +2,20 @@
   "@graph" : [ {
     "@id" : "spice:artefact/the-ghosts-in-the-morning",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "The Ghosts in the Morning is a 2010 work by Emilia Kabakov and Ilya Kabakov. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/the-ghosts-in-the-morning/",
-    "schema:creditText" : "IMMA Collection: IMMA Editions, Donated by the artist, 2009",
+    "description" : "The Ghosts in the Morning is a 2010 work by Emilia Kabakov and Ilya Kabakov. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/the-ghosts-in-the-morning/",
+    "creditText" : "IMMA Collection: IMMA Editions, Donated by the artist, 2009",
     "image" : "spice:documentation/the-ghosts-in-the-morning",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Pigmentprint on somerset satin 280 g/qm",
-    "schema:size" : "48 x 68 cm",
-    "schema:version" : "Edition 10/20",
-    "arco-cd:hasInventory" : "IMMA.3085"
+    "material" : "Pigmentprint on somerset satin 280 g/qm",
+    "size" : "48 x 68 cm",
+    "version" : "Edition 10/20",
+    "hasInventory" : "IMMA.3085"
   }, {
     "@id" : "spice:documentation/the-ghosts-in-the-morning",
     "@type" : "schema:ImageObject",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2019/10/4135.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2019/10/4135.jpg"
   } ],
   "@context" : {
     "maintainer" : {
@@ -23,40 +23,32 @@
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

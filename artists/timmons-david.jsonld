@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/timmons-david",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish artist David Timmons (born 1972) studied at the National College of Art and Design and the Royal College of Art, London. Timmons’ elegant sculptural works, constructed from MDF and automobile paint, make reference to contemporary interiors and design which contrasts somewhat with their evocative titles. Timmons has exhibited at the RHA, the Green on Red Gallery, Dublin; Rocket Gallery, London and IMMA. His work is in the collection of the Arts Council of Ireland.",
-    "dc:source" : "https://imma.ie/artists/david-timmons/",
-    "schema:birthDate" : "b.1972",
-    "schema:url" : "https://imma.ie/artists/david-timmons/",
-    "rdfs:label" : "David Timmons"
+    "description" : "Irish artist David Timmons (born 1972) studied at the National College of Art and Design and the Royal College of Art, London. Timmons’ elegant sculptural works, constructed from MDF and automobile paint, make reference to contemporary interiors and design which contrasts somewhat with their evocative titles. Timmons has exhibited at the RHA, the Green on Red Gallery, Dublin; Rocket Gallery, London and IMMA. His work is in the collection of the Arts Council of Ireland.",
+    "source" : "https://imma.ie/artists/david-timmons/",
+    "birthDate" : "b.1972",
+    "url" : "https://imma.ie/artists/david-timmons/",
+    "label" : "David Timmons"
   }, {
     "@id" : "spice:artefact/there-is-no-estrangement-between-you-and-the-machine",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/timmons-david",
     "author" : "spice:agent/timmons-david",
-    "schema:dateCreated" : "2003",
-    "schema:url" : "https://imma.ie/collection/there-is-no-estrangement-between-you-and-the-machine/",
+    "dateCreated" : "2003",
+    "url" : "https://imma.ie/collection/there-is-no-estrangement-between-you-and-the-machine/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/there-is-no-estrangement-between-you-and-the-machine",
-    "arco-cd:hasTitle" : "There is No Estrangement Between You and The Machine"
+    "hasTitle" : "There is No Estrangement Between You and The Machine"
   }, {
     "@id" : "spice:attribution/there-is-no-estrangement-between-you-and-the-machine",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,24 +28,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -56,24 +53,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -2,41 +2,41 @@
   "@graph" : [ {
     "@id" : "spice:agent/reichek-elaine",
     "@type" : "foaf:Person",
-    "dc:description" : "American conceptual artist Elaine Reichek (born 1943) studied under Ad Reinhardt at Yale University. Her work deals with issues of national and cultural identity, informed by feminist theory and practice. Employing traditionally female practices such as knitting and embroidery, Reichek recreates familiar historical images and political icons in order to challenge notions of knowledge and culture. Reichek has exhibited extensively in the United States and Europe, including a solo exhibition at IMMA in 1993.",
-    "dc:source" : "https://imma.ie/artists/elaine-reichek/",
-    "schema:birthDate" : "b.1943",
-    "schema:url" : "https://imma.ie/artists/elaine-reichek/",
-    "rdfs:label" : "Elaine Reichek"
+    "description" : "American conceptual artist Elaine Reichek (born 1943) studied under Ad Reinhardt at Yale University. Her work deals with issues of national and cultural identity, informed by feminist theory and practice. Employing traditionally female practices such as knitting and embroidery, Reichek recreates familiar historical images and political icons in order to challenge notions of knowledge and culture. Reichek has exhibited extensively in the United States and Europe, including a solo exhibition at IMMA in 1993.",
+    "source" : "https://imma.ie/artists/elaine-reichek/",
+    "birthDate" : "b.1943",
+    "url" : "https://imma.ie/artists/elaine-reichek/",
+    "label" : "Elaine Reichek"
   }, {
     "@id" : "spice:artefact/chiricahua-apaches",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/reichek-elaine",
     "author" : "spice:agent/reichek-elaine",
-    "schema:dateCreated" : "1991",
-    "schema:url" : "https://imma.ie/collection/chiricahua-apaches/",
+    "dateCreated" : "1991",
+    "url" : "https://imma.ie/collection/chiricahua-apaches/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/chiricahua-apaches",
-    "arco-cd:hasTitle" : "Chiricahua Apaches"
+    "hasTitle" : "Chiricahua Apaches"
   }, {
     "@id" : "spice:artefact/silver-photograph-i",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/reichek-elaine",
     "author" : "spice:agent/reichek-elaine",
-    "schema:dateCreated" : "1991",
-    "schema:url" : "https://imma.ie/collection/silver-photograph-i/",
+    "dateCreated" : "1991",
+    "url" : "https://imma.ie/collection/silver-photograph-i/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/silver-photograph-i",
-    "arco-cd:hasTitle" : "Silver Photograph I"
+    "hasTitle" : "Silver Photograph I"
   }, {
     "@id" : "spice:artefact/silver-photograph-ii",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/reichek-elaine",
     "author" : "spice:agent/reichek-elaine",
-    "schema:dateCreated" : "1991",
-    "schema:url" : "https://imma.ie/collection/silver-photograph-ii/",
+    "dateCreated" : "1991",
+    "url" : "https://imma.ie/collection/silver-photograph-ii/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/silver-photograph-ii",
-    "arco-cd:hasTitle" : "Silver Photograph II"
+    "hasTitle" : "Silver Photograph II"
   }, {
     "@id" : "spice:attribution/chiricahua-apaches",
     "@type" : "arco:AuthorshipAttribution",
@@ -56,24 +56,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -84,24 +81,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

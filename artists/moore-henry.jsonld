@@ -2,31 +2,31 @@
   "@graph" : [ {
     "@id" : "spice:agent/moore-henry",
     "@type" : "foaf:Person",
-    "dc:description" : "English sculptor and draughtsman Henry Moore (1898-1986) served in the army before attending Leeds School of Art and the Royal College of Art, London. Taking the human figure as his primary subject matter, Moore is now considered the most important British sculptor of the twentieth century. Moore exhibited extensively from the late 1920s. He also taught at the Royal College of Art and at Chelsea School of Art. His work is represented in major public and private collections worldwide.",
-    "dc:source" : "https://imma.ie/artists/henry-moore/",
-    "schema:birthDate" : "1898–1986",
-    "schema:url" : "https://imma.ie/artists/henry-moore/",
-    "rdfs:label" : "Henry Moore"
+    "description" : "English sculptor and draughtsman Henry Moore (1898-1986) served in the army before attending Leeds School of Art and the Royal College of Art, London. Taking the human figure as his primary subject matter, Moore is now considered the most important British sculptor of the twentieth century. Moore exhibited extensively from the late 1920s. He also taught at the Royal College of Art and at Chelsea School of Art. His work is represented in major public and private collections worldwide.",
+    "source" : "https://imma.ie/artists/henry-moore/",
+    "birthDate" : "1898–1986",
+    "url" : "https://imma.ie/artists/henry-moore/",
+    "label" : "Henry Moore"
   }, {
     "@id" : "spice:artefact/reclining-figure-and-small-motif",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/moore-henry",
     "author" : "spice:agent/moore-henry",
-    "schema:dateCreated" : "1967",
-    "schema:url" : "https://imma.ie/collection/reclining-figure-and-small-motif/",
+    "dateCreated" : "1967",
+    "url" : "https://imma.ie/collection/reclining-figure-and-small-motif/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/reclining-figure-and-small-motif",
-    "arco-cd:hasTitle" : "Reclining Figure and Small Motif"
+    "hasTitle" : "Reclining Figure and Small Motif"
   }, {
     "@id" : "spice:artefact/standing-figures",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/moore-henry",
     "author" : "spice:agent/moore-henry",
-    "schema:dateCreated" : "1966",
-    "schema:url" : "https://imma.ie/collection/standing-figures/",
+    "dateCreated" : "1966",
+    "url" : "https://imma.ie/collection/standing-figures/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/standing-figures",
-    "arco-cd:hasTitle" : "Standing Figures"
+    "hasTitle" : "Standing Figures"
   }, {
     "@id" : "spice:attribution/reclining-figure-and-small-motif",
     "@type" : "arco:AuthorshipAttribution",
@@ -42,44 +42,37 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -87,7 +80,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -2,31 +2,31 @@
   "@graph" : [ {
     "@id" : "spice:agent/oppenheim-dennis",
     "@type" : "foaf:Person",
-    "dc:description" : "American artist, sculptor and photographer, Dennis Oppenheim was a leading figure in the development of conceptualism in the United States. From the 1970s, Oppenheim created ephemeral earth works and was in the vanguard of artists using film and video in relation to performance. His work has been exhibited at the Whitney Museum, New York, the Pompidou Centre, Paris, and the Museum of Contemporary Art, Los Angeles. He exhibited at the Venice Biennale in 1997 and was the subject of a major solo exhibition at IMMA in 2001. In 2007, he received a Lifetime Achievement Award at the Vancouver Sculpture Biennale.",
-    "dc:source" : "https://imma.ie/artists/dennis-oppenheim/",
-    "schema:birthDate" : "1938–2011",
-    "schema:url" : "https://imma.ie/artists/dennis-oppenheim/",
-    "rdfs:label" : "Dennis Oppenheim"
+    "description" : "American artist, sculptor and photographer, Dennis Oppenheim was a leading figure in the development of conceptualism in the United States. From the 1970s, Oppenheim created ephemeral earth works and was in the vanguard of artists using film and video in relation to performance. His work has been exhibited at the Whitney Museum, New York, the Pompidou Centre, Paris, and the Museum of Contemporary Art, Los Angeles. He exhibited at the Venice Biennale in 1997 and was the subject of a major solo exhibition at IMMA in 2001. In 2007, he received a Lifetime Achievement Award at the Vancouver Sculpture Biennale.",
+    "source" : "https://imma.ie/artists/dennis-oppenheim/",
+    "birthDate" : "1938–2011",
+    "url" : "https://imma.ie/artists/dennis-oppenheim/",
+    "label" : "Dennis Oppenheim"
   }, {
     "@id" : "spice:artefact/attempt-to-raise-hell",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/oppenheim-dennis",
     "author" : "spice:agent/oppenheim-dennis",
-    "schema:dateCreated" : "1974",
-    "schema:url" : "https://imma.ie/collection/attempt-to-raise-hell/",
+    "dateCreated" : "1974",
+    "url" : "https://imma.ie/collection/attempt-to-raise-hell/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/attempt-to-raise-hell",
-    "arco-cd:hasTitle" : "Attempt to Raise Hell"
+    "hasTitle" : "Attempt to Raise Hell"
   }, {
     "@id" : "spice:artefact/reading-position-for-second-degree-burn",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/oppenheim-dennis",
     "author" : "spice:agent/oppenheim-dennis",
-    "schema:dateCreated" : "1970",
-    "schema:url" : "https://imma.ie/collection/reading-position-for-second-degree-burn/",
+    "dateCreated" : "1970",
+    "url" : "https://imma.ie/collection/reading-position-for-second-degree-burn/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/reading-position-for-second-degree-burn",
-    "arco-cd:hasTitle" : "Reading Position for Second Degree Burn"
+    "hasTitle" : "Reading Position for Second Degree Burn"
   }, {
     "@id" : "spice:attribution/attempt-to-raise-hell",
     "@type" : "arco:AuthorshipAttribution",
@@ -42,44 +42,37 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -87,7 +80,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

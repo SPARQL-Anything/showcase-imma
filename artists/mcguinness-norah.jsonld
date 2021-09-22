@@ -2,51 +2,51 @@
   "@graph" : [ {
     "@id" : "spice:agent/mcguinness-norah",
     "@type" : "foaf:Person",
-    "dc:description" : "Derry born artist Norah McGuinness attended the Metropolitan School of Art, Dublin, and Chelsea Polytechnic, London. She moved to Paris to study under cubist painter André Lhote in 1929. McGuinness returned to Ireland in 1937. A founder member of the Irish Exhibition of Living Art in 1943, she succeeded Mainie Jellett as president in 1944, a position she held for over twenty years. McGuinness, together with Nano Reid, represented Ireland at the Venice Biennale in 1950. A major retrospective exhibition of her work was held at Trinity College, Dublin, in 1968. Her work featured in IMMA’s 2013 ‘Analysing Cubism’ exhibition.",
-    "dc:source" : "https://imma.ie/artists/norah-mcguinness/",
-    "schema:birthDate" : "1901–1980",
-    "schema:url" : "https://imma.ie/artists/norah-mcguinness/",
-    "rdfs:label" : "Norah McGuinness"
+    "description" : "Derry born artist Norah McGuinness attended the Metropolitan School of Art, Dublin, and Chelsea Polytechnic, London. She moved to Paris to study under cubist painter André Lhote in 1929. McGuinness returned to Ireland in 1937. A founder member of the Irish Exhibition of Living Art in 1943, she succeeded Mainie Jellett as president in 1944, a position she held for over twenty years. McGuinness, together with Nano Reid, represented Ireland at the Venice Biennale in 1950. A major retrospective exhibition of her work was held at Trinity College, Dublin, in 1968. Her work featured in IMMA’s 2013 ‘Analysing Cubism’ exhibition.",
+    "source" : "https://imma.ie/artists/norah-mcguinness/",
+    "birthDate" : "1901–1980",
+    "url" : "https://imma.ie/artists/norah-mcguinness/",
+    "label" : "Norah McGuinness"
   }, {
     "@id" : "spice:artefact/bird-table",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/mcguinness-norah",
     "author" : "spice:agent/mcguinness-norah",
-    "schema:dateCreated" : "1969",
-    "schema:url" : "https://imma.ie/collection/bird-table/",
+    "dateCreated" : "1969",
+    "url" : "https://imma.ie/collection/bird-table/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/bird-table",
-    "arco-cd:hasTitle" : "Bird Table"
+    "hasTitle" : "Bird Table"
   }, {
     "@id" : "spice:artefact/orange-weeds-and-white-water",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/mcguinness-norah",
     "author" : "spice:agent/mcguinness-norah",
-    "schema:dateCreated" : "1972",
-    "schema:url" : "https://imma.ie/collection/orange-weeds-and-white-water/",
+    "dateCreated" : "1972",
+    "url" : "https://imma.ie/collection/orange-weeds-and-white-water/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/orange-weeds-and-white-water",
-    "arco-cd:hasTitle" : "Orange Weeds and White Water"
+    "hasTitle" : "Orange Weeds and White Water"
   }, {
     "@id" : "spice:artefact/path-to-the-sun",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/mcguinness-norah",
     "author" : "spice:agent/mcguinness-norah",
-    "schema:dateCreated" : "1962",
-    "schema:url" : "https://imma.ie/collection/path-to-the-sun/",
+    "dateCreated" : "1962",
+    "url" : "https://imma.ie/collection/path-to-the-sun/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/path-to-the-sun",
-    "arco-cd:hasTitle" : "Path to the Sun"
+    "hasTitle" : "Path to the Sun"
   }, {
     "@id" : "spice:artefact/shore-pools",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/mcguinness-norah",
     "author" : "spice:agent/mcguinness-norah",
-    "schema:dateCreated" : "1965",
-    "schema:url" : "https://imma.ie/collection/shore-pools/",
+    "dateCreated" : "1965",
+    "url" : "https://imma.ie/collection/shore-pools/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/shore-pools",
-    "arco-cd:hasTitle" : "Shore Pools"
+    "hasTitle" : "Shore Pools"
   }, {
     "@id" : "spice:attribution/bird-table",
     "@type" : "arco:AuthorshipAttribution",
@@ -66,40 +66,33 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -115,7 +108,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

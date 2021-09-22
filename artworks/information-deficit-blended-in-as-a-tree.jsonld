@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/information-deficit-blended-in-as-a-tree",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "“This sculpture presents five unidentified male heads hidden in a fake tree shelf stack. The work was originally made for a 2006 exhibition where artists were asked to respond to the Limerick City Gallery of Art (LCGA) collection. I was interested in the plaster cast copy busts that were no longer on public display. These once punctuated the book stacks when the collection was part of the Carnegie Library (which later became LCGA). The title incorporates two ways of not revealing the identity of the heads. Around the time of making this work, the Minister for Health used the phrase ‘information deficit’ to avoid providing specific answers about problems in the health service. This mildly garbled managementspeak provided excellent cover for ongoing political incompetence, and yet it seemed appropriate to how we deal with history. The ‘blending-in’ of the heads behind fake pine tree clusters comes from the telecoms industry where it is used to describe techniques for hiding or disguising infrastructure technology such as mobile phone masts, hidden within or as artificial trees in areas of environmental sensitivity. With everything hidden, there should be nothing on display but all these techniques fail, revealing more instead in the end.”*",
-    "dc:source" : "https://imma.ie/collection/information-deficit-blended-in-as-a-tree/",
-    "schema:creditText" : "IMMA Collection: Purchase, 2010",
+    "description" : "“This sculpture presents five unidentified male heads hidden in a fake tree shelf stack. The work was originally made for a 2006 exhibition where artists were asked to respond to the Limerick City Gallery of Art (LCGA) collection. I was interested in the plaster cast copy busts that were no longer on public display. These once punctuated the book stacks when the collection was part of the Carnegie Library (which later became LCGA). The title incorporates two ways of not revealing the identity of the heads. Around the time of making this work, the Minister for Health used the phrase ‘information deficit’ to avoid providing specific answers about problems in the health service. This mildly garbled managementspeak provided excellent cover for ongoing political incompetence, and yet it seemed appropriate to how we deal with history. The ‘blending-in’ of the heads behind fake pine tree clusters comes from the telecoms industry where it is used to describe techniques for hiding or disguising infrastructure technology such as mobile phone masts, hidden within or as artificial trees in areas of environmental sensitivity. With everything hidden, there should be nothing on display but all these techniques fail, revealing more instead in the end.”*",
+    "source" : "https://imma.ie/collection/information-deficit-blended-in-as-a-tree/",
+    "creditText" : "IMMA Collection: Purchase, 2010",
     "image" : "spice:documentation/information-deficit-blended-in-as-a-tree",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Metal shelving, archival paper, toner, EVA glue, balsa wood, cocktail sticks, varnish, grate polish, framed c-print photograph, (papier-mâché made from pages of the Daily Telegraph)",
-    "schema:size" : "350 x 200 x 300 cm Framed: 35 x 50 x 4.4 cm",
-    "arco-cd:hasInventory" : "IMMA.3310"
+    "material" : "Metal shelving, archival paper, toner, EVA glue, balsa wood, cocktail sticks, varnish, grate polish, framed c-print photograph, (papier-mâché made from pages of the Daily Telegraph)",
+    "size" : "350 x 200 x 300 cm Framed: 35 x 50 x 4.4 cm",
+    "hasInventory" : "IMMA.3310"
   }, {
     "@id" : "spice:documentation/information-deficit-blended-in-as-a-tree",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Alan Phelan, Information deficit blended-in as a tree, 2006, Metal shelving, archival paper, toner, EVA glue, balsa wood, cocktail sticks, varnish, grate polish, framed c-print photograph, (papier-mâché made from pages of the Daily Telegraph), 350 x 200 x 300 cm Framed: 35 x 50 x 4.4 cm, Collection Irish Museum of Modern Art, Purchase, 2010 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Alan Phelan, Information deficit blended-in as a tree, 2006, Metal shelving, archival paper, toner, EVA glue, balsa wood, cocktail sticks, varnish, grate polish, framed c-print photograph, (papier-mâché made from pages of the Daily Telegraph), 350 x 200 x 300 cm Framed: 35 x 50 x 4.4 cm, Collection Irish Museum of Modern Art, Purchase, 2010 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/5561.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2021/07/5561.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

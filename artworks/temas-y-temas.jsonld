@@ -2,71 +2,61 @@
   "@graph" : [ {
     "@id" : "spice:artefact/temas-y-temas",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Temas y Temas is a 1977 work by Edgar Alvarez. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/temas-y-temas/",
-    "schema:creditText" : "IMMA Collection: Donation, Smurfit: Cartón y Papel de México, 2000",
+    "description" : "Temas y Temas is a 1977 work by Edgar Alvarez. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/temas-y-temas/",
+    "creditText" : "IMMA Collection: Donation, Smurfit: Cartón y Papel de México, 2000",
     "image" : "spice:documentation/temas-y-temas",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Screenprint",
-    "schema:size" : "71.5 x 57.6 cm",
-    "schema:version" : "Edition 135/150",
-    "arco-cd:hasInventory" : "IMMA.916 MP"
+    "material" : "Screenprint",
+    "size" : "71.5 x 57.6 cm",
+    "version" : "Edition 135/150",
+    "hasInventory" : "IMMA.916 MP"
   }, {
     "@id" : "spice:documentation/temas-y-temas",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Edgar Alvarez, Temas y Temas, 1977, Screenprint, 71.5 x 57.6 cm, Collection Irish Museum of Modern Art, Donation, Smurfit: Cartón y Papel de México, 2000 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Edgar Alvarez, Temas y Temas, 1977, Screenprint, 71.5 x 57.6 cm, Collection Irish Museum of Modern Art, Donation, Smurfit: Cartón y Papel de México, 2000 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/600.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/600.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

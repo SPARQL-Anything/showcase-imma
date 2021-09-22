@@ -1,0 +1,67 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/no-title",
+    "@type" : "schema:CreativeWork",
+    "description" : "No Title (2016) is an expansive project by Sarah Pierce that considers the condition of dementia in relation to the protocols of art making. Anchored in a series of modestly produced videos No Title actively questions the ethics of representation, and the limitations of clinical discourse in re-thinking subject-hood around dementia. Filming in her family home, and assisted by her niece operating camera, Pierce intimately guides her parents through a series of table-top exercises she developed, that speak of art-making, of habitude, of domesticity, but also unflinchingly of memory, of loss, and profound familial love. No Title pictures the painful process of renegotiating familial relations surrounding ‘the dementia subject’. When concepts like mother / daughter / husband are no longer reciprocated how do we relinquish our most primal bonds in the absence of terms to describe these radical new relations? ",
+    "source" : "https://imma.ie/collection/no-title/",
+    "creditText" : "IMMA Collection: Purchase, 2021, 2021",
+    "image" : "spice:documentation/no-title",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "material" : "Six single channel videos (exercises 1 – 6), drawings on paper (exercise 7), objects and materials",
+    "hasInventory" : "IMMA.4200"
+  }, {
+    "@id" : "spice:documentation/no-title",
+    "@type" : "schema:ImageObject",
+    "caption" : "Sarah Pierce, No Title, 2017, Six single channel videos (exercises 1 – 6), drawings on paper (exercise 7), objects and materials, Collection Irish Museum of Modern Art, Purchase, 2021, 2021 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "url" : "https://imma.ie/wp-content/uploads/2021/04/9495.jpg"
+  } ],
+  "@context" : {
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

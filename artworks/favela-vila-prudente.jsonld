@@ -2,66 +2,57 @@
   "@graph" : [ {
     "@id" : "spice:artefact/favela-vila-prudente",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "‘Favela Vila Prudente’ is the second phase of Maguire’s 1998 São Paulo project. After completing the ‘Casa da Cultura’ series, Maguire visited the children’s homes, where his portraits had found their niche, sometimes in the most unexpected places: drawings were hanging from coat-hooks, on curtains and perched alongside treasured nick-knacks and soft-toys on sideboards. Maguire worked with the photographer Sam Gallagher on this aspect of the project, and his photographs make up the series ‘Favela Vila Prudente’.",
-    "dc:source" : "https://imma.ie/collection/favela-vila-prudente/",
-    "schema:creditText" : "IMMA Collection: Heritage gift by Owen O'Brien, 2000",
+    "description" : "‘Favela Vila Prudente’ is the second phase of Maguire’s 1998 São Paulo project. After completing the ‘Casa da Cultura’ series, Maguire visited the children’s homes, where his portraits had found their niche, sometimes in the most unexpected places: drawings were hanging from coat-hooks, on curtains and perched alongside treasured nick-knacks and soft-toys on sideboards. Maguire worked with the photographer Sam Gallagher on this aspect of the project, and his photographs make up the series ‘Favela Vila Prudente’.",
+    "source" : "https://imma.ie/collection/favela-vila-prudente/",
+    "creditText" : "IMMA Collection: Heritage gift by Owen O'Brien, 2000",
     "image" : "spice:documentation/favela-vila-prudente",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Cibachrome on aluminium",
-    "schema:size" : "112 x 75 cm",
-    "schema:version" : "Edition of 3",
-    "arco-cd:hasInventory" : "IMMA.1315"
+    "material" : "Cibachrome on aluminium",
+    "size" : "112 x 75 cm",
+    "version" : "Edition of 3",
+    "hasInventory" : "IMMA.1315"
   }, {
     "@id" : "spice:documentation/favela-vila-prudente",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Brian Maguire, Favela Vila Prudente, 1998, Cibachrome on aluminium, 112 x 75 cm, Collection Irish Museum of Modern Art, Heritage gift by Owen O'Brien, 2000 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Brian Maguire, Favela Vila Prudente, 1998, Cibachrome on aluminium, 112 x 75 cm, Collection Irish Museum of Modern Art, Heritage gift by Owen O'Brien, 2000 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/alan-tate-tony-hickey",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Alan Tate &amp; Tony Hickey is a 1978 work by Colin Harrison. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/alan-tate-tony-hickey/",
-    "schema:creditText" : "IMMA Collection: Donated by Dorothy Walker in Memory of Alan Tate, 1998",
+    "description" : "Alan Tate &amp; Tony Hickey is a 1978 work by Colin Harrison. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/alan-tate-tony-hickey/",
+    "creditText" : "IMMA Collection: Donated by Dorothy Walker in Memory of Alan Tate, 1998",
     "image" : "spice:documentation/alan-tate-tony-hickey",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Pencil on paper",
-    "schema:size" : "60.5 x 52 cm",
-    "arco-cd:hasInventory" : "IMMA.802"
+    "material" : "Pencil on paper",
+    "size" : "60.5 x 52 cm",
+    "hasInventory" : "IMMA.802"
   }, {
     "@id" : "spice:documentation/alan-tate-tony-hickey",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Colin Harrison, Alan Tate &amp; Tony Hickey, 1978, Pencil on paper, 60.5 x 52 cm, Collection Irish Museum of Modern Art, Donated by Dorothy Walker in Memory of Alan Tate, 1998 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Colin Harrison, Alan Tate &amp; Tony Hickey, 1978, Pencil on paper, 60.5 x 52 cm, Collection Irish Museum of Modern Art, Donated by Dorothy Walker in Memory of Alan Tate, 1998 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2019/10/1081.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2019/10/1081.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

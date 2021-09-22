@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/sounion",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Cecil King gave up a successful career as a businessman to become a painter. Self-taught (apart from some classes with Neville Johnson), he was drawn to the formalist aesthetic of Clement Greenberg, who stressed that the primary concerns of painting should be with colour and flatness, with the properties of the medium itself. At first glance King’s paintings seem to epitomise this self-obsessed approach, but the internal dynamics of colour and shape generate tensions which link the work to the external world, as in ‘Sounion’.",
-    "dc:source" : "https://imma.ie/collection/sounion/",
-    "schema:creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
+    "description" : "Cecil King gave up a successful career as a businessman to become a painter. Self-taught (apart from some classes with Neville Johnson), he was drawn to the formalist aesthetic of Clement Greenberg, who stressed that the primary concerns of painting should be with colour and flatness, with the properties of the medium itself. At first glance King’s paintings seem to epitomise this self-obsessed approach, but the internal dynamics of colour and shape generate tensions which link the work to the external world, as in ‘Sounion’.",
+    "source" : "https://imma.ie/collection/sounion/",
+    "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/sounion",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Oil on canvas",
-    "schema:size" : "122.1 x 183.2 cm",
-    "arco-cd:hasInventory" : "IMMA.278 GL"
+    "material" : "Oil on canvas",
+    "size" : "122.1 x 183.2 cm",
+    "hasInventory" : "IMMA.278 GL"
   }, {
     "@id" : "spice:documentation/sounion",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Cecil King, Sounion, 1975, Oil on canvas, 122.1 x 183.2 cm, Collection Irish Museum of Modern Art, Gordon Lambert Trust, 1992 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Cecil King, Sounion, 1975, Oil on canvas, 122.1 x 183.2 cm, Collection Irish Museum of Modern Art, Gordon Lambert Trust, 1992 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/1952.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/1952.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/ferguson-shaun",
     "@type" : "foaf:Person",
-    "dc:description" : "British figurative painter Shaun Ferguson studied Fine Art at the University of Trent, Nottingham before receiving a post graduate diploma in Painting from the Royal Academy of Arts. He was awarded the 1988 Elizabeth Greenshields Award, the 1989 Henry Wyndham Prize and was outright winner of the Discerning Eye, 'New Discovery Award' in 1990. His work is held in private and public collections including the Ulster Museum, Belfast and Durban Museum, South Africa.",
-    "dc:source" : "https://imma.ie/artists/shaun-ferguson/",
-    "schema:birthDate" : "b.1963",
-    "schema:url" : "https://imma.ie/artists/shaun-ferguson/",
-    "rdfs:label" : "Shaun Ferguson"
+    "description" : "British figurative painter Shaun Ferguson studied Fine Art at the University of Trent, Nottingham before receiving a post graduate diploma in Painting from the Royal Academy of Arts. He was awarded the 1988 Elizabeth Greenshields Award, the 1989 Henry Wyndham Prize and was outright winner of the Discerning Eye, 'New Discovery Award' in 1990. His work is held in private and public collections including the Ulster Museum, Belfast and Durban Museum, South Africa.",
+    "source" : "https://imma.ie/artists/shaun-ferguson/",
+    "birthDate" : "b.1963",
+    "url" : "https://imma.ie/artists/shaun-ferguson/",
+    "label" : "Shaun Ferguson"
   }, {
     "@id" : "spice:artefact/chiltern-st",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ferguson-shaun",
     "author" : "spice:agent/ferguson-shaun",
-    "schema:dateCreated" : "1989",
-    "schema:url" : "https://imma.ie/collection/chiltern-st/",
+    "dateCreated" : "1989",
+    "url" : "https://imma.ie/collection/chiltern-st/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/chiltern-st",
-    "arco-cd:hasTitle" : "Chiltern St"
+    "hasTitle" : "Chiltern St"
   }, {
     "@id" : "spice:attribution/chiltern-st",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,40 +28,33 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

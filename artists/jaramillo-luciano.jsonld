@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/jaramillo-luciano",
     "@type" : "foaf:Person",
-    "dc:description" : "Colombian painter Luciano Jaramillo travelled with his family to Europe in 1951 where they settled in Paris for a number of years. While in France he studied at L’Ecole des internal Roches in Normandy and was introduced to art through museum visits. Returning to Colombia in 1955, Jaramillo studied at Colegio Helvetia in Bogota. In 1961 he was appointed Professor of Painting at the School of Fine Arts at the Universidad de los Andes in Bogota and during the 1970s he won numerous national commissions in Colombia, including a tourism poster campaign. Jaramillo was honoured at the Museum of Modern Art in Bogota with a retrospective exhibition and book launch in 1986.",
-    "dc:source" : "https://imma.ie/artists/luciano-jaramillo/",
-    "schema:birthDate" : "1938–1984",
-    "schema:url" : "https://imma.ie/artists/luciano-jaramillo/",
-    "rdfs:label" : "Luciano Jaramillo"
+    "description" : "Colombian painter Luciano Jaramillo travelled with his family to Europe in 1951 where they settled in Paris for a number of years. While in France he studied at L’Ecole des internal Roches in Normandy and was introduced to art through museum visits. Returning to Colombia in 1955, Jaramillo studied at Colegio Helvetia in Bogota. In 1961 he was appointed Professor of Painting at the School of Fine Arts at the Universidad de los Andes in Bogota and during the 1970s he won numerous national commissions in Colombia, including a tourism poster campaign. Jaramillo was honoured at the Museum of Modern Art in Bogota with a retrospective exhibition and book launch in 1986.",
+    "source" : "https://imma.ie/artists/luciano-jaramillo/",
+    "birthDate" : "1938–1984",
+    "url" : "https://imma.ie/artists/luciano-jaramillo/",
+    "label" : "Luciano Jaramillo"
   }, {
     "@id" : "spice:artefact/cocktail",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/jaramillo-luciano",
     "author" : "spice:agent/jaramillo-luciano",
-    "schema:dateCreated" : "1982",
-    "schema:url" : "https://imma.ie/collection/cocktail/",
+    "dateCreated" : "1982",
+    "url" : "https://imma.ie/collection/cocktail/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/cocktail",
-    "arco-cd:hasTitle" : "Cocktail"
+    "hasTitle" : "Cocktail"
   }, {
     "@id" : "spice:attribution/cocktail",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,24 +28,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -56,24 +53,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

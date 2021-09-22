@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/linen-chair",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Linen Chair is a 1967 work by Noel Sheridan. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/linen-chair/",
-    "schema:creditText" : "IMMA Collection: Heritage Gift, 2002",
+    "description" : "Linen Chair is a 1967 work by Noel Sheridan. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/linen-chair/",
+    "creditText" : "IMMA Collection: Heritage Gift, 2002",
     "image" : "spice:documentation/linen-chair",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Acrylic",
-    "schema:size" : "142 x 92 cm",
-    "arco-cd:hasInventory" : "IMMA.2638"
+    "material" : "Acrylic",
+    "size" : "142 x 92 cm",
+    "hasInventory" : "IMMA.2638"
   }, {
     "@id" : "spice:documentation/linen-chair",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Noel Sheridan, Linen Chair, 1967, Acrylic, 142 x 92 cm, Collection Irish Museum of Modern Art, Heritage Gift, 2002 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Noel Sheridan, Linen Chair, 1967, Acrylic, 142 x 92 cm, Collection Irish Museum of Modern Art, Heritage Gift, 2002 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/3573.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/3573.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

@@ -2,37 +2,33 @@
   "@graph" : [ {
     "@id" : "spice:artefact/angels-of-sarajevo-2",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Angels of Sarajevo is a 1993 work by Louis Jammes. It is not currently on display in IMMA. ",
-    "dc:source" : "https://imma.ie/collection/angels-of-sarajevo-2/",
-    "schema:creditText" : "IMMA Collection: Donation, 2015",
+    "description" : "Angels of Sarajevo is a 1993 work by Louis Jammes. It is not currently on display in IMMA. ",
+    "source" : "https://imma.ie/collection/angels-of-sarajevo-2/",
+    "creditText" : "IMMA Collection: Donation, 2015",
     "image" : "spice:documentation/angels-of-sarajevo-2",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Poster",
-    "schema:size" : "Framed: 183 x 140 x 6 cm",
-    "arco-cd:hasInventory" : "IA/GC/2"
+    "material" : "Poster",
+    "size" : "Framed: 183 x 140 x 6 cm",
+    "hasInventory" : "IA/GC/2"
   }, {
     "@id" : "spice:documentation/angels-of-sarajevo-2",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Louis Jammes, Angels of Sarajevo, 1993, Poster, Framed: 183 x 140 x 6 cm, Collection Irish Museum of Modern Art, Donation, 2015 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Louis Jammes, Angels of Sarajevo, 1993, Poster, Framed: 183 x 140 x 6 cm, Collection Irish Museum of Modern Art, Donation, 2015 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -43,20 +39,16 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

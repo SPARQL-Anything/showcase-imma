@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/parachute",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "‘Parachute’ by Dorothy Cross is a comment on loss and remembrance. A gannet, its beak near the ground, hangs upside down from a parachute suspended from the ceiling. Through the recuperation of the remainders of natural physical surroundings – a washed up gannet on Ireland’s Atlantic coast, Cross’ work both returns its animal protagonist to its former existence and presents a composition pertaining contemporaneously to the incidental and the highly careful assemblage. If, however, Parachute evokes former selves, it also appears to stem from a highly subtle sense of loss, where the accident – the artwork, the gannet’s death – is both recalled and forever relinquished.",
-    "dc:source" : "https://imma.ie/collection/parachute/",
-    "schema:creditText" : "IMMA Collection: Purchase, 2005",
+    "description" : "‘Parachute’ by Dorothy Cross is a comment on loss and remembrance. A gannet, its beak near the ground, hangs upside down from a parachute suspended from the ceiling. Through the recuperation of the remainders of natural physical surroundings – a washed up gannet on Ireland’s Atlantic coast, Cross’ work both returns its animal protagonist to its former existence and presents a composition pertaining contemporaneously to the incidental and the highly careful assemblage. If, however, Parachute evokes former selves, it also appears to stem from a highly subtle sense of loss, where the accident – the artwork, the gannet’s death – is both recalled and forever relinquished.",
+    "source" : "https://imma.ie/collection/parachute/",
+    "creditText" : "IMMA Collection: Purchase, 2005",
     "image" : "spice:documentation/parachute",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Parachute and gannet",
-    "schema:size" : "Dimensions variable",
-    "arco-cd:hasInventory" : "IMMA.1898"
+    "material" : "Parachute and gannet",
+    "size" : "Dimensions variable",
+    "hasInventory" : "IMMA.1898"
   }, {
     "@id" : "spice:documentation/parachute",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Dorothy Cross, Parachute, 2005, Parachute and gannet, Dimensions variable, Collection Irish Museum of Modern Art, Purchase, 2005 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Dorothy Cross, Parachute, 2005, Parachute and gannet, Dimensions variable, Collection Irish Museum of Modern Art, Purchase, 2005 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2020/06/1762.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2020/06/1762.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

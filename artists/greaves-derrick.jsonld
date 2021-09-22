@@ -2,31 +2,31 @@
   "@graph" : [ {
     "@id" : "spice:agent/greaves-derrick",
     "@type" : "foaf:Person",
-    "dc:description" : "Derrick Greaves studied at the Royal College of Art, London and went on to study in Italy. In 1956 he represented Britain at the Venice Biennale. Greaves was Head of Printmaking at Norwich School of Art from 1983 to 1991. He has exhibited extensively worldwide and received numerous awards. Greaves’ work can be found in the collections of Tate, London; Philadelphia Museum of Art; New York Public Library; British Museum and the Arts Council of England, among others.",
-    "dc:source" : "https://imma.ie/artists/derrick-greaves/",
-    "schema:birthDate" : "b.1927",
-    "schema:url" : "https://imma.ie/artists/derrick-greaves/",
-    "rdfs:label" : "Derrick Greaves"
+    "description" : "Derrick Greaves studied at the Royal College of Art, London and went on to study in Italy. In 1956 he represented Britain at the Venice Biennale. Greaves was Head of Printmaking at Norwich School of Art from 1983 to 1991. He has exhibited extensively worldwide and received numerous awards. Greaves’ work can be found in the collections of Tate, London; Philadelphia Museum of Art; New York Public Library; British Museum and the Arts Council of England, among others.",
+    "source" : "https://imma.ie/artists/derrick-greaves/",
+    "birthDate" : "b.1927",
+    "url" : "https://imma.ie/artists/derrick-greaves/",
+    "label" : "Derrick Greaves"
   }, {
     "@id" : "spice:artefact/studies-of-a-peach",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/greaves-derrick",
     "author" : "spice:agent/greaves-derrick",
-    "schema:dateCreated" : "1969",
-    "schema:url" : "https://imma.ie/collection/studies-of-a-peach/",
+    "dateCreated" : "1969",
+    "url" : "https://imma.ie/collection/studies-of-a-peach/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/studies-of-a-peach",
-    "arco-cd:hasTitle" : "Studies of a Peach"
+    "hasTitle" : "Studies of a Peach"
   }, {
     "@id" : "spice:artefact/two-falling-black-petals-and-vase",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/greaves-derrick",
     "author" : "spice:agent/greaves-derrick",
-    "schema:dateCreated" : "1970",
-    "schema:url" : "https://imma.ie/collection/two-falling-black-petals-and-vase/",
+    "dateCreated" : "1970",
+    "url" : "https://imma.ie/collection/two-falling-black-petals-and-vase/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/two-falling-black-petals-and-vase",
-    "arco-cd:hasTitle" : "Two Falling Black Petals and Vase"
+    "hasTitle" : "Two Falling Black Petals and Vase"
   }, {
     "@id" : "spice:attribution/studies-of-a-peach",
     "@type" : "arco:AuthorshipAttribution",
@@ -38,40 +38,33 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -87,7 +80,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

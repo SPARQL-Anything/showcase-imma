@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/staton-sarah",
     "@type" : "foaf:Person",
-    "dc:description" : "British artist Sarah Staton (born 1961) lives and works in Sheffield. She studied at St Martins School of Art, London from 1984 to 1988. Staton completed a Henry Moore Fellowship at Sheffield Hallam University in 2005. She has exhibited worldwide. Her work can be found in the collections of Cass Sculpture Foundation and Tate Britain, London.",
-    "dc:source" : "https://imma.ie/artists/sarah-staton/",
-    "schema:birthDate" : "b.1961",
-    "schema:url" : "https://imma.ie/artists/sarah-staton/",
-    "rdfs:label" : "Sarah Staton"
+    "description" : "British artist Sarah Staton (born 1961) lives and works in Sheffield. She studied at St Martins School of Art, London from 1984 to 1988. Staton completed a Henry Moore Fellowship at Sheffield Hallam University in 2005. She has exhibited worldwide. Her work can be found in the collections of Cass Sculpture Foundation and Tate Britain, London.",
+    "source" : "https://imma.ie/artists/sarah-staton/",
+    "birthDate" : "b.1961",
+    "url" : "https://imma.ie/artists/sarah-staton/",
+    "label" : "Sarah Staton"
   }, {
     "@id" : "spice:artefact/untitled-47",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/staton-sarah",
     "author" : "spice:agent/staton-sarah",
-    "schema:dateCreated" : "1994",
-    "schema:url" : "https://imma.ie/collection/untitled-47/",
+    "dateCreated" : "1994",
+    "url" : "https://imma.ie/collection/untitled-47/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-47",
-    "arco-cd:hasTitle" : "Untitled"
+    "hasTitle" : "Untitled"
   }, {
     "@id" : "spice:attribution/untitled-47",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,40 +24,33 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

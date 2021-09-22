@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/feldman-morton",
     "@type" : "foaf:Person",
-    "dc:description" : "American composer Morton Feldman was a pioneer of indeterminate music, a development associated with the experimental New York School of composers, such as John Cage and Christian Wolff. From the 1950s Feldman began to write pieces which had no relation to traditional compositional systems and which experimented with musical notation. Feldman found inspiration in the paintings of the Abstract Expressionists and wrote a number of pieces in honour of artists who became his close friends. A major exhibition celebrating Feldman’s relationship with the visual arts was presented at IMMA in 2010.",
-    "dc:source" : "https://imma.ie/artists/morton-feldman/",
-    "schema:birthDate" : "1926–1987",
-    "schema:url" : "https://imma.ie/artists/morton-feldman/",
-    "rdfs:label" : "Morton Feldman"
+    "description" : "American composer Morton Feldman was a pioneer of indeterminate music, a development associated with the experimental New York School of composers, such as John Cage and Christian Wolff. From the 1950s Feldman began to write pieces which had no relation to traditional compositional systems and which experimented with musical notation. Feldman found inspiration in the paintings of the Abstract Expressionists and wrote a number of pieces in honour of artists who became his close friends. A major exhibition celebrating Feldman’s relationship with the visual arts was presented at IMMA in 2010.",
+    "source" : "https://imma.ie/artists/morton-feldman/",
+    "birthDate" : "1926–1987",
+    "url" : "https://imma.ie/artists/morton-feldman/",
+    "label" : "Morton Feldman"
   }, {
     "@id" : "spice:artefact/page-from-chorus-and-instruments",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/feldman-morton",
     "author" : "spice:agent/feldman-morton",
-    "schema:dateCreated" : "1965",
-    "schema:url" : "https://imma.ie/collection/page-from-chorus-and-instruments/",
+    "dateCreated" : "1965",
+    "url" : "https://imma.ie/collection/page-from-chorus-and-instruments/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/page-from-chorus-and-instruments",
-    "arco-cd:hasTitle" : "Page from Chorus and Instruments"
+    "hasTitle" : "Page from Chorus and Instruments"
   }, {
     "@id" : "spice:attribution/page-from-chorus-and-instruments",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,40 +24,33 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

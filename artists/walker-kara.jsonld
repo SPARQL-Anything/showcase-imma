@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/walker-kara",
     "@type" : "foaf:Person",
-    "dc:description" : "African-American artist Kara Walker (born 1969) studied painting and printmaking at the Atlanta College of Art and the Rhode Island School of Design. Since the 1990s, Walker has used black cut paper silhouettes to explore challenging issues of race, gender, and sexuality. Walker’s work has been exhibited extensively worldwide. She represented the United States at the 2002 Bienal de São Paulo and has had solo exhibitions at SFMOMA; Tate Liverpool; MoMA, New York, and the Walker Art Center, Minneapolis.",
-    "dc:source" : "https://imma.ie/artists/kara-walker/",
-    "schema:birthDate" : "b.1969",
-    "schema:url" : "https://imma.ie/artists/kara-walker/",
-    "rdfs:label" : "Kara Walker"
+    "description" : "African-American artist Kara Walker (born 1969) studied painting and printmaking at the Atlanta College of Art and the Rhode Island School of Design. Since the 1990s, Walker has used black cut paper silhouettes to explore challenging issues of race, gender, and sexuality. Walker’s work has been exhibited extensively worldwide. She represented the United States at the 2002 Bienal de São Paulo and has had solo exhibitions at SFMOMA; Tate Liverpool; MoMA, New York, and the Walker Art Center, Minneapolis.",
+    "source" : "https://imma.ie/artists/kara-walker/",
+    "birthDate" : "b.1969",
+    "url" : "https://imma.ie/artists/kara-walker/",
+    "label" : "Kara Walker"
   }, {
     "@id" : "spice:artefact/freedom-a-fable-by-kara-elizabeth-walker-a-curios-interpretation-of-the-wit-of-a-negress-in-troubled-times-with-illustration",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/walker-kara",
     "author" : "spice:agent/walker-kara",
-    "schema:dateCreated" : "1997",
-    "schema:url" : "https://imma.ie/collection/freedom-a-fable-by-kara-elizabeth-walker-a-curios-interpretation-of-the-wit-of-a-negress-in-troubled-times-with-illustration/",
+    "dateCreated" : "1997",
+    "url" : "https://imma.ie/collection/freedom-a-fable-by-kara-elizabeth-walker-a-curios-interpretation-of-the-wit-of-a-negress-in-troubled-times-with-illustration/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/freedom-a-fable-by-kara-elizabeth-walker-a-curios-interpretation-of-the-wit-of-a-negress-in-troubled-times-with-illustration",
-    "arco-cd:hasTitle" : "Freedom, A Fable by Kara Elizabeth Walker – A Curios Interpretation of the Wit of a Negress in Troubled Times With Illustration"
+    "hasTitle" : "Freedom, A Fable by Kara Elizabeth Walker – A Curios Interpretation of the Wit of a Negress in Troubled Times With Illustration"
   }, {
     "@id" : "spice:attribution/freedom-a-fable-by-kara-elizabeth-walker-a-curios-interpretation-of-the-wit-of-a-negress-in-troubled-times-with-illustration",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,24 +24,19 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -52,16 +47,14 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -2,71 +2,61 @@
   "@graph" : [ {
     "@id" : "spice:artefact/untitled-q-96",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Untitled (Q-96) is a 2006 work by Thomas Nozkowski. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/untitled-q-96/",
-    "schema:creditText" : "IMMA Collection: Purchase, 2006",
+    "description" : "Untitled (Q-96) is a 2006 work by Thomas Nozkowski. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/untitled-q-96/",
+    "creditText" : "IMMA Collection: Purchase, 2006",
     "image" : "spice:documentation/untitled-q-96",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Oil on paper",
-    "schema:size" : "Framed: 78 x 96 cm 55.9 x 76.2 cm",
-    "schema:version" : "Edition of 800",
-    "arco-cd:hasInventory" : "IMMA.1998"
+    "material" : "Oil on paper",
+    "size" : "Framed: 78 x 96 cm 55.9 x 76.2 cm",
+    "version" : "Edition of 800",
+    "hasInventory" : "IMMA.1998"
   }, {
     "@id" : "spice:documentation/untitled-q-96",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Thomas Nozkowski, Untitled (Q-96), 2006, Oil on paper, Framed: 78 x 96 cm 55.9 x 76.2 cm, Collection Irish Museum of Modern Art, Purchase, 2006 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Thomas Nozkowski, Untitled (Q-96), 2006, Oil on paper, Framed: 78 x 96 cm 55.9 x 76.2 cm, Collection Irish Museum of Modern Art, Purchase, 2006 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/499.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/499.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

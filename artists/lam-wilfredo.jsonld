@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/lam-wilfredo",
     "@type" : "foaf:Person",
-    "dc:description" : "Cuban painter and printmaker Wilfredo Lam studied at the San Alejandro Academy, Havana. From 1924 to 1942 Lam lived in Madrid and Paris, where he met Picasso, Breton and other artists of the Surrealist movement. Lam’s paintings of hybrid figures, influenced by both Western and Afro-Cuban culture, were exhibited extensively from the 1940s. He received the Guggenheim International Award in 1964. Major posthumous exhibitions of his work have taken place at the Museo Nacional Centro de Arte Reina Sofía, Madrid; the Grand Palais, Paris, and the Miami Art Museum.",
-    "dc:source" : "https://imma.ie/artists/wilfredo-lam/",
-    "schema:birthDate" : "1902–1982",
-    "schema:url" : "https://imma.ie/artists/wilfredo-lam/",
-    "rdfs:label" : "Wilfredo Lam"
+    "description" : "Cuban painter and printmaker Wilfredo Lam studied at the San Alejandro Academy, Havana. From 1924 to 1942 Lam lived in Madrid and Paris, where he met Picasso, Breton and other artists of the Surrealist movement. Lam’s paintings of hybrid figures, influenced by both Western and Afro-Cuban culture, were exhibited extensively from the 1940s. He received the Guggenheim International Award in 1964. Major posthumous exhibitions of his work have taken place at the Museo Nacional Centro de Arte Reina Sofía, Madrid; the Grand Palais, Paris, and the Miami Art Museum.",
+    "source" : "https://imma.ie/artists/wilfredo-lam/",
+    "birthDate" : "1902–1982",
+    "url" : "https://imma.ie/artists/wilfredo-lam/",
+    "label" : "Wilfredo Lam"
   }, {
     "@id" : "spice:artefact/portrait",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lam-wilfredo",
     "author" : "spice:agent/lam-wilfredo",
-    "schema:dateCreated" : "1982",
-    "schema:url" : "https://imma.ie/collection/portrait/",
+    "dateCreated" : "1982",
+    "url" : "https://imma.ie/collection/portrait/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/portrait",
-    "arco-cd:hasTitle" : "Portrait"
+    "hasTitle" : "Portrait"
   }, {
     "@id" : "spice:attribution/portrait",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,40 +28,33 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

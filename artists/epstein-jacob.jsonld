@@ -2,41 +2,41 @@
   "@graph" : [ {
     "@id" : "spice:agent/epstein-jacob",
     "@type" : "foaf:Person",
-    "dc:description" : "Jacob Epstein was born in America to Polish parents. In his early twenties, Epstein moved from New York to Paris and then London. He became a British citizen in 1911. Taking the human figure as the primary focus of his work, Epstein was among a group of pioneering sculptors who promoted carving directly from stone with regard to its natural form and grain. Epstein exhibited widely from the 1910s. A major retrospective exhibition of his work was held at the Tate Gallery in 1953. His sculptural work is represented in major collections worldwide.",
-    "dc:source" : "https://imma.ie/artists/jacob-epstein/",
-    "schema:birthDate" : "1880–1959",
-    "schema:url" : "https://imma.ie/artists/jacob-epstein/",
-    "rdfs:label" : "Jacob Epstein"
+    "description" : "Jacob Epstein was born in America to Polish parents. In his early twenties, Epstein moved from New York to Paris and then London. He became a British citizen in 1911. Taking the human figure as the primary focus of his work, Epstein was among a group of pioneering sculptors who promoted carving directly from stone with regard to its natural form and grain. Epstein exhibited widely from the 1910s. A major retrospective exhibition of his work was held at the Tate Gallery in 1953. His sculptural work is represented in major collections worldwide.",
+    "source" : "https://imma.ie/artists/jacob-epstein/",
+    "birthDate" : "1880–1959",
+    "url" : "https://imma.ie/artists/jacob-epstein/",
+    "label" : "Jacob Epstein"
   }, {
     "@id" : "spice:artefact/christ-rising-from-the-tomb-last-work-byartist-part-of-uncompleted-commission",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/epstein-jacob",
     "author" : "spice:agent/epstein-jacob",
-    "schema:dateCreated" : "1940",
-    "schema:url" : "https://imma.ie/collection/christ-rising-from-the-tomb-last-work-byartist-part-of-uncompleted-commission/",
+    "dateCreated" : "1940",
+    "url" : "https://imma.ie/collection/christ-rising-from-the-tomb-last-work-byartist-part-of-uncompleted-commission/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/christ-rising-from-the-tomb-last-work-byartist-part-of-uncompleted-commission",
-    "arco-cd:hasTitle" : "Christ Rising from the Tomb (last work by artist, part of uncompleted commission)"
+    "hasTitle" : "Christ Rising from the Tomb (last work by artist, part of uncompleted commission)"
   }, {
     "@id" : "spice:artefact/portrait-of-lucian-freud",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/epstein-jacob",
     "author" : "spice:agent/epstein-jacob",
-    "schema:dateCreated" : "1947",
-    "schema:url" : "https://imma.ie/collection/portrait-of-lucian-freud/",
+    "dateCreated" : "1947",
+    "url" : "https://imma.ie/collection/portrait-of-lucian-freud/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/portrait-of-lucian-freud",
-    "arco-cd:hasTitle" : "Portrait of Lucian Freud"
+    "hasTitle" : "Portrait of Lucian Freud"
   }, {
     "@id" : "spice:artefact/third-portrait-of-jackie-ragamuffin",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/epstein-jacob",
     "author" : "spice:agent/epstein-jacob",
-    "schema:dateCreated" : "1939",
-    "schema:url" : "https://imma.ie/collection/third-portrait-of-jackie-ragamuffin/",
+    "dateCreated" : "1939",
+    "url" : "https://imma.ie/collection/third-portrait-of-jackie-ragamuffin/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/third-portrait-of-jackie-ragamuffin",
-    "arco-cd:hasTitle" : "Third Portrait of Jackie (Ragamuffin)"
+    "hasTitle" : "Third Portrait of Jackie (Ragamuffin)"
   }, {
     "@id" : "spice:attribution/christ-rising-from-the-tomb-last-work-byartist-part-of-uncompleted-commission",
     "@type" : "arco:AuthorshipAttribution",
@@ -60,48 +60,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

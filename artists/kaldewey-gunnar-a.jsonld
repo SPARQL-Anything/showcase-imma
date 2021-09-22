@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/kaldewey-gunnar-a",
     "@type" : "foaf:Person",
-    "dc:description" : "German book artist Gunnar A. Kaldewey made his first book while working at a letterpress printers. In 1985 he formed The Kaldewey Press in Poestenkill, New York. The Kaldewey Press has become one of the leading presses for contemporary artists’ books. Editions by artists such as Mischa Kuball, Jonathan Lasker and Richard Tuttle, and authors from Lao Tsu and Ovid to Samuel Beckett and Paul Celan, have been exhibited in more than 100 museums and libraries worldwide.",
-    "dc:source" : "https://imma.ie/artists/gunnar-a-kaldewey/",
-    "schema:birthDate" : "b.1946",
-    "schema:url" : "https://imma.ie/artists/gunnar-a-kaldewey/",
-    "rdfs:label" : "Gunnar A. Kaldewey"
+    "description" : "German book artist Gunnar A. Kaldewey made his first book while working at a letterpress printers. In 1985 he formed The Kaldewey Press in Poestenkill, New York. The Kaldewey Press has become one of the leading presses for contemporary artists’ books. Editions by artists such as Mischa Kuball, Jonathan Lasker and Richard Tuttle, and authors from Lao Tsu and Ovid to Samuel Beckett and Paul Celan, have been exhibited in more than 100 museums and libraries worldwide.",
+    "source" : "https://imma.ie/artists/gunnar-a-kaldewey/",
+    "birthDate" : "b.1946",
+    "url" : "https://imma.ie/artists/gunnar-a-kaldewey/",
+    "label" : "Gunnar A. Kaldewey"
   }, {
     "@id" : "spice:artefact/the-hudson-river",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/kaldewey-gunnar-a",
     "author" : "spice:agent/kaldewey-gunnar-a",
-    "schema:dateCreated" : "1991",
-    "schema:url" : "https://imma.ie/collection/the-hudson-river/",
+    "dateCreated" : "1991",
+    "url" : "https://imma.ie/collection/the-hudson-river/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-hudson-river",
-    "arco-cd:hasTitle" : "The Hudson River"
+    "hasTitle" : "The Hudson River"
   }, {
     "@id" : "spice:attribution/the-hudson-river",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,44 +28,37 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

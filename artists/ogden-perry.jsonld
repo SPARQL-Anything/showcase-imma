@@ -2,31 +2,31 @@
   "@graph" : [ {
     "@id" : "spice:agent/ogden-perry",
     "@type" : "foaf:Person",
-    "dc:description" : "English photographer Perry Ogden (born 1961) trained with fashion photographer Tony McGee before working as a professional fashion photographer for publications including ‘Vogue’, ‘The Face’, and ‘Arena’. Ogden’s other photographic projects include documenting Francis Bacon’s Studio in London, the road from Belfast to Derry and ‘Pony Kids’ in Dublin. He produced his first feature film, ‘Pavee Lackeen’, in 2005. Ogden’s photographic work has been exhibited widely at venues including Dublin City Gallery The Hugh Lane; Fondation Beyeler, Basle, and Fondation Van Gogh, Arles.",
-    "dc:source" : "https://imma.ie/artists/perry-ogden/",
-    "schema:birthDate" : "b.1961",
-    "schema:url" : "https://imma.ie/artists/perry-ogden/",
-    "rdfs:label" : "Perry Ogden"
+    "description" : "English photographer Perry Ogden (born 1961) trained with fashion photographer Tony McGee before working as a professional fashion photographer for publications including ‘Vogue’, ‘The Face’, and ‘Arena’. Ogden’s other photographic projects include documenting Francis Bacon’s Studio in London, the road from Belfast to Derry and ‘Pony Kids’ in Dublin. He produced his first feature film, ‘Pavee Lackeen’, in 2005. Ogden’s photographic work has been exhibited widely at venues including Dublin City Gallery The Hugh Lane; Fondation Beyeler, Basle, and Fondation Van Gogh, Arles.",
+    "source" : "https://imma.ie/artists/perry-ogden/",
+    "birthDate" : "b.1961",
+    "url" : "https://imma.ie/artists/perry-ogden/",
+    "label" : "Perry Ogden"
   }, {
     "@id" : "spice:artefact/connemara-portraits-from-the-series-theres-plenty-cloud-on-the-mountains-abroad",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ogden-perry",
     "author" : "spice:agent/ogden-perry",
-    "schema:dateCreated" : "1992",
-    "schema:url" : "https://imma.ie/collection/connemara-portraits-from-the-series-theres-plenty-cloud-on-the-mountains-abroad/",
+    "dateCreated" : "1992",
+    "url" : "https://imma.ie/collection/connemara-portraits-from-the-series-theres-plenty-cloud-on-the-mountains-abroad/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/connemara-portraits-from-the-series-theres-plenty-cloud-on-the-mountains-abroad",
-    "arco-cd:hasTitle" : "Connemara portraits from the series ‘There’s Plenty Cloud on the Mountains Abroad’"
+    "hasTitle" : "Connemara portraits from the series ‘There’s Plenty Cloud on the Mountains Abroad’"
   }, {
     "@id" : "spice:artefact/untitled-11",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ogden-perry",
     "author" : "spice:agent/ogden-perry",
-    "schema:dateCreated" : "2009",
-    "schema:url" : "https://imma.ie/collection/untitled-11/",
+    "dateCreated" : "2009",
+    "url" : "https://imma.ie/collection/untitled-11/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-11",
-    "arco-cd:hasTitle" : "Untitled"
+    "hasTitle" : "Untitled"
   }, {
     "@id" : "spice:attribution/connemara-portraits-from-the-series-theres-plenty-cloud-on-the-mountains-abroad",
     "@type" : "arco:AuthorshipAttribution",
@@ -42,24 +42,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -70,24 +67,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

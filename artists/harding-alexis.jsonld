@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/harding-alexis",
     "@type" : "foaf:Person",
-    "dc:description" : "British painter Alexis Harding studied fine art at Goldsmiths College, London. Within his process based practice Harding attempts to manipulate the core ingredients of painting in order to stretch the language of abstraction. Mixing gloss and oil paint, he creates works in which abstract grids and lines seem to slide and hang from the canvas. Harding has exhibited throughout Europe, including numerous solo exhibitions at Andrew Mummery Gallery, London, and the Rubicon Gallery, Dublin.",
-    "dc:source" : "https://imma.ie/artists/alexis-harding/",
-    "schema:birthDate" : "b.1973",
-    "schema:url" : "https://imma.ie/artists/alexis-harding/",
-    "rdfs:label" : "Alexis Harding"
+    "description" : "British painter Alexis Harding studied fine art at Goldsmiths College, London. Within his process based practice Harding attempts to manipulate the core ingredients of painting in order to stretch the language of abstraction. Mixing gloss and oil paint, he creates works in which abstract grids and lines seem to slide and hang from the canvas. Harding has exhibited throughout Europe, including numerous solo exhibitions at Andrew Mummery Gallery, London, and the Rubicon Gallery, Dublin.",
+    "source" : "https://imma.ie/artists/alexis-harding/",
+    "birthDate" : "b.1973",
+    "url" : "https://imma.ie/artists/alexis-harding/",
+    "label" : "Alexis Harding"
   }, {
     "@id" : "spice:artefact/drifters-escape-blue-oil-dark-blue-gloss",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/harding-alexis",
     "author" : "spice:agent/harding-alexis",
-    "schema:dateCreated" : "2006",
-    "schema:url" : "https://imma.ie/collection/drifters-escape-blue-oil-dark-blue-gloss/",
+    "dateCreated" : "2006",
+    "url" : "https://imma.ie/collection/drifters-escape-blue-oil-dark-blue-gloss/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/drifters-escape-blue-oil-dark-blue-gloss",
-    "arco-cd:hasTitle" : "Drifters Escape (Blue oil / Dark blue gloss)"
+    "hasTitle" : "Drifters Escape (Blue oil / Dark blue gloss)"
   }, {
     "@id" : "spice:attribution/drifters-escape-blue-oil-dark-blue-gloss",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,40 +28,33 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

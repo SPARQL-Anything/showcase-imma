@@ -2,22 +2,22 @@
   "@graph" : [ {
     "@id" : "spice:artefact/odeon-v",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Odeon V is a 1966 work by William Scott. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/odeon-v/",
-    "schema:creditText" : "IMMA Collection: Heritage Gift, P.J. Carroll &amp; Co. Ltd. Art Collection, 2005",
+    "description" : "Odeon V is a 1966 work by William Scott. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/odeon-v/",
+    "creditText" : "IMMA Collection: Heritage Gift, P.J. Carroll &amp; Co. Ltd. Art Collection, 2005",
     "image" : "spice:documentation/odeon-v",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Lithograph",
-    "schema:size" : "50.8 x 60.9 cm",
-    "schema:version" : "Edition 22/75",
-    "arco-cd:hasInventory" : "IMMA.1878"
+    "material" : "Lithograph",
+    "size" : "50.8 x 60.9 cm",
+    "version" : "Edition 22/75",
+    "hasInventory" : "IMMA.1878"
   }, {
     "@id" : "spice:documentation/odeon-v",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "William Scott, Odeon V, 1966, Lithograph, 50.8 x 60.9 cm, Collection Irish Museum of Modern Art, Heritage Gift, P.J. Carroll &amp; Co. Ltd. Art Collection, 2005 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "William Scott, Odeon V, 1966, Lithograph, 50.8 x 60.9 cm, Collection Irish Museum of Modern Art, Heritage Gift, P.J. Carroll &amp; Co. Ltd. Art Collection, 2005 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/1803.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/1803.jpg"
   } ],
   "@context" : {
     "image" : {
@@ -25,48 +25,38 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

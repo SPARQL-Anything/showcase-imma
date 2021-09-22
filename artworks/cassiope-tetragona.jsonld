@@ -2,71 +2,61 @@
   "@graph" : [ {
     "@id" : "spice:artefact/cassiope-tetragona",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Cassiope Tetragona is a 1929 work by Karl Blossfeldt. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/cassiope-tetragona/",
-    "schema:creditText" : "IMMA Collection: Donation, David Kronn Collection, 2015",
+    "description" : "Cassiope Tetragona is a 1929 work by Karl Blossfeldt. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/cassiope-tetragona/",
+    "creditText" : "IMMA Collection: Donation, David Kronn Collection, 2015",
     "image" : "spice:documentation/cassiope-tetragona",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Photogravure",
-    "schema:size" : "24 x 31 cm",
-    "schema:version" : "Plate 28",
-    "arco-cd:hasInventory" : "IMMA.3954"
+    "material" : "Photogravure",
+    "size" : "24 x 31 cm",
+    "version" : "Plate 28",
+    "hasInventory" : "IMMA.3954"
   }, {
     "@id" : "spice:documentation/cassiope-tetragona",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Karl Blossfeldt, Cassiope Tetragona, 1929, Photogravure, 24 x 31 cm, Collection Irish Museum of Modern Art, Donation, David Kronn Collection, 2015 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Karl Blossfeldt, Cassiope Tetragona, 1929, Photogravure, 24 x 31 cm, Collection Irish Museum of Modern Art, Donation, David Kronn Collection, 2015 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/7494.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/7494.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

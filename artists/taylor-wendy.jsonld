@@ -2,31 +2,31 @@
   "@graph" : [ {
     "@id" : "spice:agent/taylor-wendy",
     "@type" : "foaf:Person",
-    "dc:description" : "British sculptor Wendy Taylor studied at St Martins School of Art. Driven by a commitment to art as a means of communication, her site specific sculptures range from large scale abstract pieces, to anatomically specific plant and animal works. Taylor’s commissions include public sculptures in Britain, Ireland, China and the US. Her work is represented in major public collections, including the Victoria and Albert Museum, London; the Ulster Museum, Belfast and Lunds Museum, Goteborg.",
-    "dc:source" : "https://imma.ie/artists/wendy-taylor/",
-    "schema:birthDate" : "b.1945",
-    "schema:url" : "https://imma.ie/artists/wendy-taylor/",
-    "rdfs:label" : "Wendy Taylor"
+    "description" : "British sculptor Wendy Taylor studied at St Martins School of Art. Driven by a commitment to art as a means of communication, her site specific sculptures range from large scale abstract pieces, to anatomically specific plant and animal works. Taylor’s commissions include public sculptures in Britain, Ireland, China and the US. Her work is represented in major public collections, including the Victoria and Albert Museum, London; the Ulster Museum, Belfast and Lunds Museum, Goteborg.",
+    "source" : "https://imma.ie/artists/wendy-taylor/",
+    "birthDate" : "b.1945",
+    "url" : "https://imma.ie/artists/wendy-taylor/",
+    "label" : "Wendy Taylor"
   }, {
     "@id" : "spice:artefact/brick-eggs",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/taylor-wendy",
     "author" : "spice:agent/taylor-wendy",
-    "schema:dateCreated" : "1979",
-    "schema:url" : "https://imma.ie/collection/brick-eggs/",
+    "dateCreated" : "1979",
+    "url" : "https://imma.ie/collection/brick-eggs/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/brick-eggs",
-    "arco-cd:hasTitle" : "Brick Eggs"
+    "hasTitle" : "Brick Eggs"
   }, {
     "@id" : "spice:artefact/maquette-for-dockside",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/taylor-wendy",
     "author" : "spice:agent/taylor-wendy",
-    "schema:dateCreated" : "1976",
-    "schema:url" : "https://imma.ie/collection/maquette-for-dockside/",
+    "dateCreated" : "1976",
+    "url" : "https://imma.ie/collection/maquette-for-dockside/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/maquette-for-dockside",
-    "arco-cd:hasTitle" : "Maquette for “Dockside”"
+    "hasTitle" : "Maquette for “Dockside”"
   }, {
     "@id" : "spice:attribution/brick-eggs",
     "@type" : "arco:AuthorshipAttribution",
@@ -38,24 +38,19 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -66,16 +61,14 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -87,7 +80,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

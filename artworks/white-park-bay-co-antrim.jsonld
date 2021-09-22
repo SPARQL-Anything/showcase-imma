@@ -2,37 +2,33 @@
   "@graph" : [ {
     "@id" : "spice:artefact/white-park-bay-co-antrim",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "White Park Bay, Co. Antrim is a 1985 work by Paul Wakefield. It is not currently on display in IMMA. ",
-    "dc:source" : "https://imma.ie/collection/white-park-bay-co-antrim/",
-    "schema:creditText" : "IMMA Collection: Permanent Loan, the Contemporary Irish art Society, 1992",
+    "description" : "White Park Bay, Co. Antrim is a 1985 work by Paul Wakefield. It is not currently on display in IMMA. ",
+    "source" : "https://imma.ie/collection/white-park-bay-co-antrim/",
+    "creditText" : "IMMA Collection: Permanent Loan, the Contemporary Irish art Society, 1992",
     "image" : "spice:documentation/white-park-bay-co-antrim",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Cibachrome photograph",
-    "schema:size" : "27 x 23 cm",
-    "arco-cd:hasInventory" : "L.423"
+    "material" : "Cibachrome photograph",
+    "size" : "27 x 23 cm",
+    "hasInventory" : "L.423"
   }, {
     "@id" : "spice:documentation/white-park-bay-co-antrim",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Paul Wakefield, White Park Bay, Co. Antrim, 1985, Cibachrome photograph, 27 x 23 cm, Collection Irish Museum of Modern Art, Permanent Loan, the Contemporary Irish art Society, 1992 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Paul Wakefield, White Park Bay, Co. Antrim, 1985, Cibachrome photograph, 27 x 23 cm, Collection Irish Museum of Modern Art, Permanent Loan, the Contemporary Irish art Society, 1992 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -43,20 +39,16 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

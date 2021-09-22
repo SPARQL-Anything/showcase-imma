@@ -2,37 +2,33 @@
   "@graph" : [ {
     "@id" : "spice:artefact/the-approach",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "‘The Approach’ is a scented banner made from dark green and navy wool fabric and black silk.The dimensions of the banner are 4.2 metres high x 2.3 metres wide. The front of the banner is made with large eight sections of three types of dark woolen fabric. These muted natural colours are chocolate brown, dark olive green and navy. The back of the banner is made from section of black silk. A large hole, 2.4 metres in diameter, pierces through the fabric.",
-    "dc:source" : "https://imma.ie/collection/the-approach/",
-    "schema:creditText" : "IMMA Collection: Donation, 2010",
+    "description" : "‘The Approach’ is a scented banner made from dark green and navy wool fabric and black silk.The dimensions of the banner are 4.2 metres high x 2.3 metres wide. The front of the banner is made with large eight sections of three types of dark woolen fabric. These muted natural colours are chocolate brown, dark olive green and navy. The back of the banner is made from section of black silk. A large hole, 2.4 metres in diameter, pierces through the fabric.",
+    "source" : "https://imma.ie/collection/the-approach/",
+    "creditText" : "IMMA Collection: Donation, 2010",
     "image" : "spice:documentation/the-approach",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Woolen fabric, silk, Vetiver essential oil",
-    "arco-cd:hasInventory" : "IMMA.3238.3"
+    "material" : "Woolen fabric, silk, Vetiver essential oil",
+    "hasInventory" : "IMMA.3238.3"
   }, {
     "@id" : "spice:documentation/the-approach",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Clodagh Emoe, The Approach, 2009, Woolen fabric, silk, Vetiver essential oil, Collection Irish Museum of Modern Art, Donation, 2010 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Clodagh Emoe, The Approach, 2009, Woolen fabric, silk, Vetiver essential oil, Collection Irish Museum of Modern Art, Donation, 2010 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/5155.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/5155.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -43,20 +39,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

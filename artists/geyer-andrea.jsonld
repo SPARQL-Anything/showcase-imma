@@ -1,35 +1,30 @@
 {
   "@id" : "spice:agent/geyer-andrea",
   "@type" : "foaf:Person",
-  "dc:description" : [ "Andrea Geyer (b. Freiburg, Germany, 1971) is an artist living and working in NYC. Her work has been exhibited widely at institutions including San Francisco Museum of Modern Art in California; The Museum of Modern Art, the Whitney Museum of American Art, Artists Space and White Columns, in New York City; Contemporary Art Museum Houston, Houston, Texas; A Space Gallery, Toronto, Canada; KINDL – Centre for Contemporary Art, Berlin, Germany, the Stedelijk Museum, Amsterdam; Red Cat and LACE, in Los Angeles; Tate Modern and Serpentine Gallery, London; Kunstmuseum St.Gallen, Switzerland; Göteborgs Konsthall, Gothenburg, Sweden; Generali Foundation and Secession, Vienna; Museum der Moderne, Salzburg; Govett-Brewster Art Gallery, New Zealand; the Turin Biennale; the São Paulo Biennial; and dOCUMENTA (12), Kassel, Germany. International public collections with Geyer’s work include the Museum of Modern Art in New York, the Whitney Museum of American Art, San Francisco Museum of Modern Art in California, Neue Galerie, MHK, Kassel, the Museum der Moderne, Salzburg and the Federal Collection of Germany.", "Andrea Geyer (b. Freiburg, Germany, 1971) is an artist living and working in NYC. " ],
-  "dc:source" : "https://imma.ie/artists/andrea-geyer/",
-  "schema:birthDate" : "b.1971",
-  "schema:url" : "https://imma.ie/artists/andrea-geyer/",
-  "rdfs:label" : "Andrea Geyer",
+  "description" : [ "Andrea Geyer (b. Freiburg, Germany, 1971) is an artist living and working in NYC. Her work has been exhibited widely at institutions including San Francisco Museum of Modern Art in California; The Museum of Modern Art, the Whitney Museum of American Art, Artists Space and White Columns, in New York City; Contemporary Art Museum Houston, Houston, Texas; A Space Gallery, Toronto, Canada; KINDL – Centre for Contemporary Art, Berlin, Germany, the Stedelijk Museum, Amsterdam; Red Cat and LACE, in Los Angeles; Tate Modern and Serpentine Gallery, London; Kunstmuseum St.Gallen, Switzerland; Göteborgs Konsthall, Gothenburg, Sweden; Generali Foundation and Secession, Vienna; Museum der Moderne, Salzburg; Govett-Brewster Art Gallery, New Zealand; the Turin Biennale; the São Paulo Biennial; and dOCUMENTA (12), Kassel, Germany. International public collections with Geyer’s work include the Museum of Modern Art in New York, the Whitney Museum of American Art, San Francisco Museum of Modern Art in California, Neue Galerie, MHK, Kassel, the Museum der Moderne, Salzburg and the Federal Collection of Germany.", "Andrea Geyer (b. Freiburg, Germany, 1971) is an artist living and working in NYC. " ],
+  "source" : "https://imma.ie/artists/andrea-geyer/",
+  "birthDate" : "b.1971",
+  "url" : "https://imma.ie/artists/andrea-geyer/",
+  "label" : "Andrea Geyer",
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

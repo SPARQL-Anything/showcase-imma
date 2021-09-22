@@ -1,0 +1,63 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/interview",
+    "@type" : "schema:CreativeWork",
+    "description" : "Interview is a 2000 work by Sandra Johnston. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/interview/",
+    "creditText" : "IMMA Collection: Purchase, 2021, 2021",
+    "image" : "spice:documentation/interview",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "material" : "single screen video work and text transcript /poster",
+    "hasInventory" : "IMMA.4220"
+  }, {
+    "@id" : "spice:documentation/interview",
+    "@type" : "schema:ImageObject",
+    "caption" : "Sandra Johnston, Interview, 2000, single screen video work and text transcript /poster, Collection Irish Museum of Modern Art, Purchase, 2021, 2021 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma"
+  } ],
+  "@context" : {
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

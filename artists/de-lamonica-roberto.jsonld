@@ -2,20 +2,20 @@
   "@graph" : [ {
     "@id" : "spice:agent/de-lamonica-roberto",
     "@type" : "foaf:Person",
-    "dc:source" : "https://imma.ie/artists/roberto-de-lamonica/",
-    "schema:birthDate" : "1933–1995",
-    "schema:url" : "https://imma.ie/artists/roberto-de-lamonica/",
-    "rdfs:label" : "Roberto De Lamonica"
+    "source" : "https://imma.ie/artists/roberto-de-lamonica/",
+    "birthDate" : "1933–1995",
+    "url" : "https://imma.ie/artists/roberto-de-lamonica/",
+    "label" : "Roberto De Lamonica"
   }, {
     "@id" : "spice:artefact/arvores",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/de-lamonica-roberto",
     "author" : "spice:agent/de-lamonica-roberto",
-    "schema:dateCreated" : "1977",
-    "schema:url" : "https://imma.ie/collection/arvores/",
+    "dateCreated" : "1977",
+    "url" : "https://imma.ie/collection/arvores/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/arvores",
-    "arco-cd:hasTitle" : "Arvores"
+    "hasTitle" : "Arvores"
   }, {
     "@id" : "spice:attribution/arvores",
     "@type" : "arco:AuthorshipAttribution",
@@ -27,24 +27,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -55,20 +52,17 @@
       "@type" : "@id"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

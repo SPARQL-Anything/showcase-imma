@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/balka-miroslaw",
     "@type" : "foaf:Person",
-    "dc:description" : "Polish artist Miroslaw Balka studied at the Warsaw Academy. His minimalist sculptural and installation works deal with personal and collective memories, particularly the fractured history of his native Poland and the devastating impact of its Nazi occupation from 1939 to 1945. Balka has exhibited widely internationally. He represented Poland at the Venice Biennale in 1993 and has had solo exhibitions at Tate Britain, London; the Museum of Contemporary Art, Zagreb; the Barbara Gladstone Gallery, New York and Galerie Nordenhake, Berlin. He exhibited at IMMA in 2007.",
-    "dc:source" : "https://imma.ie/artists/miroslaw-balka/",
-    "schema:birthDate" : "b.1958",
-    "schema:url" : "https://imma.ie/artists/miroslaw-balka/",
-    "rdfs:label" : "Miroslaw Balka"
+    "description" : "Polish artist Miroslaw Balka studied at the Warsaw Academy. His minimalist sculptural and installation works deal with personal and collective memories, particularly the fractured history of his native Poland and the devastating impact of its Nazi occupation from 1939 to 1945. Balka has exhibited widely internationally. He represented Poland at the Venice Biennale in 1993 and has had solo exhibitions at Tate Britain, London; the Museum of Contemporary Art, Zagreb; the Barbara Gladstone Gallery, New York and Galerie Nordenhake, Berlin. He exhibited at IMMA in 2007.",
+    "source" : "https://imma.ie/artists/miroslaw-balka/",
+    "birthDate" : "b.1958",
+    "url" : "https://imma.ie/artists/miroslaw-balka/",
+    "label" : "Miroslaw Balka"
   }, {
     "@id" : "spice:artefact/b",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/balka-miroslaw",
     "author" : "spice:agent/balka-miroslaw",
-    "schema:dateCreated" : "2007",
-    "schema:url" : "https://imma.ie/collection/b/",
+    "dateCreated" : "2007",
+    "url" : "https://imma.ie/collection/b/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/b",
-    "arco-cd:hasTitle" : "B"
+    "hasTitle" : "B"
   }, {
     "@id" : "spice:attribution/b",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,24 +28,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -56,24 +53,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

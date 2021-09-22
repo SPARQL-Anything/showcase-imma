@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/untitled-a-series-of-etchings-pub-paragonpress-series-of-15-etchings",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Untitled (a series of etchings pub. ParagonPress) Series of 15 Etchings is a 1994 work by Anish Kapoor. It is not currently on display in IMMA. ",
-    "dc:source" : "https://imma.ie/collection/untitled-a-series-of-etchings-pub-paragonpress-series-of-15-etchings/",
-    "schema:creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1995",
+    "description" : "Untitled (a series of etchings pub. ParagonPress) Series of 15 Etchings is a 1994 work by Anish Kapoor. It is not currently on display in IMMA. ",
+    "source" : "https://imma.ie/collection/untitled-a-series-of-etchings-pub-paragonpress-series-of-15-etchings/",
+    "creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1995",
     "image" : "spice:documentation/untitled-a-series-of-etchings-pub-paragonpress-series-of-15-etchings",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Spit bite etching",
-    "schema:size" : "50 x 58 cm",
-    "arco-cd:hasInventory" : "L.2008.1"
+    "material" : "Spit bite etching",
+    "size" : "50 x 58 cm",
+    "hasInventory" : "L.2008.1"
   }, {
     "@id" : "spice:documentation/untitled-a-series-of-etchings-pub-paragonpress-series-of-15-etchings",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Anish Kapoor, Untitled (a series of etchings pub. ParagonPress) Series of 15 Etchings, 1994, Spit bite etching, 50 x 58 cm, Collection Irish Museum of Modern Art, Loan, Weltkunst Foundation, 1995 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Anish Kapoor, Untitled (a series of etchings pub. ParagonPress) Series of 15 Etchings, 1994, Spit bite etching, 50 x 58 cm, Collection Irish Museum of Modern Art, Loan, Weltkunst Foundation, 1995 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2019/10/6159.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2019/10/6159.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

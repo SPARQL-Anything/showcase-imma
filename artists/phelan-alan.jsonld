@@ -4,50 +4,50 @@
     "@type" : "foaf:Person",
     "description" : "_:b0",
     "dc:description" : "Alan Phelan studied at Dublin City University and Rochester Institute of Technology, New York. Phelan uses a variety of materials and processes, including papier-mâché, steel, photography, film, text and the commissioning of hand-carved marble, to engage with subjects ranging from political history and cultural theory, to masculinity and modified cars. He has exhibited widely including the Whitney Museum of American Art, New York; SKUC, Ljubljana; Feinkost, Berlin and SKC, Belgrade. Phelan took part in IMMA’s Artists’ Residency Programme in 2008 and had a solo exhibition in the museum the following year.",
-    "dc:source" : "https://imma.ie/artists/alan-phelan/",
-    "schema:birthDate" : "b.1968",
-    "schema:url" : "https://imma.ie/artists/alan-phelan/",
-    "rdfs:label" : "Alan Phelan"
+    "source" : "https://imma.ie/artists/alan-phelan/",
+    "birthDate" : "b.1968",
+    "url" : "https://imma.ie/artists/alan-phelan/",
+    "label" : "Alan Phelan"
   }, {
     "@id" : "spice:artefact/death-drive",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/phelan-alan",
     "author" : "spice:agent/phelan-alan",
-    "schema:dateCreated" : "2009",
-    "schema:url" : "https://imma.ie/collection/death-drive/",
+    "dateCreated" : "2009",
+    "url" : "https://imma.ie/collection/death-drive/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/death-drive",
-    "arco-cd:hasTitle" : "Death Drive"
+    "hasTitle" : "Death Drive"
   }, {
     "@id" : "spice:artefact/gorans-stealth-yugo",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/phelan-alan",
     "author" : "spice:agent/phelan-alan",
-    "schema:dateCreated" : "2009",
-    "schema:url" : "https://imma.ie/collection/gorans-stealth-yugo/",
+    "dateCreated" : "2009",
+    "url" : "https://imma.ie/collection/gorans-stealth-yugo/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/gorans-stealth-yugo",
-    "arco-cd:hasTitle" : "Goran’s Stealth Yugo"
+    "hasTitle" : "Goran’s Stealth Yugo"
   }, {
     "@id" : "spice:artefact/include-me-out-of-the-partisans-manifesto",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/phelan-alan",
     "author" : "spice:agent/phelan-alan",
-    "schema:dateCreated" : "2012",
-    "schema:url" : "https://imma.ie/collection/include-me-out-of-the-partisans-manifesto/",
+    "dateCreated" : "2012",
+    "url" : "https://imma.ie/collection/include-me-out-of-the-partisans-manifesto/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/include-me-out-of-the-partisans-manifesto",
-    "arco-cd:hasTitle" : "Include Me Out of the partisans manifesto"
+    "hasTitle" : "Include Me Out of the partisans manifesto"
   }, {
     "@id" : "spice:artefact/information-deficit-blended-in-as-a-tree",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/phelan-alan",
     "author" : "spice:agent/phelan-alan",
-    "schema:dateCreated" : "2006",
-    "schema:url" : "https://imma.ie/collection/information-deficit-blended-in-as-a-tree/",
+    "dateCreated" : "2006",
+    "url" : "https://imma.ie/collection/information-deficit-blended-in-as-a-tree/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/information-deficit-blended-in-as-a-tree",
-    "arco-cd:hasTitle" : "Information deficit blended-in as a tree"
+    "hasTitle" : "Information deficit blended-in as a tree"
   }, {
     "@id" : "spice:attribution/death-drive",
     "@type" : "arco:AuthorshipAttribution",
@@ -66,36 +66,33 @@
     "hasAttributedAuthor" : "spice:agent/phelan-alan"
   } ],
   "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
-      "@type" : "@id"
-    },
-    "hasAttributedAuthor" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
       "@type" : "@id"
     },
     "description" : {
@@ -103,20 +100,17 @@
       "@type" : "@id"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

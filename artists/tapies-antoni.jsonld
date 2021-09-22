@@ -2,31 +2,31 @@
   "@graph" : [ {
     "@id" : "spice:agent/tapies-antoni",
     "@type" : "foaf:Person",
-    "dc:description" : "Spanish artist Antoni Tàpies (1923-2012) studied law at Barcelona University before deciding to become a full-time artist. From the late 1940s Tàpies experimented with unconventional materials such as ground chalk, earth and dust in his collage-based paintings. By the end of the next decade he had established himself as one of the most innovative painters associated with Art Informel, a form of European Abstract Expressionism. Tàpies exhibited internationally from the 1950s. His work is represented in major public and private collections worldwide. In 1984, The Fundació Antoni Tàpies was opened by the artist in his native Barcelona.",
-    "dc:source" : "https://imma.ie/artists/antoni-tapies/",
-    "schema:birthDate" : "1923–2012",
-    "schema:url" : "https://imma.ie/artists/antoni-tapies/",
-    "rdfs:label" : "Antoni Tàpies"
+    "description" : "Spanish artist Antoni Tàpies (1923-2012) studied law at Barcelona University before deciding to become a full-time artist. From the late 1940s Tàpies experimented with unconventional materials such as ground chalk, earth and dust in his collage-based paintings. By the end of the next decade he had established himself as one of the most innovative painters associated with Art Informel, a form of European Abstract Expressionism. Tàpies exhibited internationally from the 1950s. His work is represented in major public and private collections worldwide. In 1984, The Fundació Antoni Tàpies was opened by the artist in his native Barcelona.",
+    "source" : "https://imma.ie/artists/antoni-tapies/",
+    "birthDate" : "1923–2012",
+    "url" : "https://imma.ie/artists/antoni-tapies/",
+    "label" : "Antoni Tàpies"
   }, {
     "@id" : "spice:artefact/empreintes-de-pas",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/tapies-antoni",
     "author" : "spice:agent/tapies-antoni",
-    "schema:dateCreated" : "1975",
-    "schema:url" : "https://imma.ie/collection/empreintes-de-pas/",
+    "dateCreated" : "1975",
+    "url" : "https://imma.ie/collection/empreintes-de-pas/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/empreintes-de-pas",
-    "arco-cd:hasTitle" : "Empreintes de Pas"
+    "hasTitle" : "Empreintes de Pas"
   }, {
     "@id" : "spice:artefact/filosofia-del-zen",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/tapies-antoni",
     "author" : "spice:agent/tapies-antoni",
-    "schema:dateCreated" : "1982",
-    "schema:url" : "https://imma.ie/collection/filosofia-del-zen/",
+    "dateCreated" : "1982",
+    "url" : "https://imma.ie/collection/filosofia-del-zen/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/filosofia-del-zen",
-    "arco-cd:hasTitle" : "Filosofia del Zen"
+    "hasTitle" : "Filosofia del Zen"
   }, {
     "@id" : "spice:attribution/empreintes-de-pas",
     "@type" : "arco:AuthorshipAttribution",
@@ -42,44 +42,37 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -87,7 +80,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

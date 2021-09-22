@@ -2,31 +2,31 @@
   "@graph" : [ {
     "@id" : "spice:agent/parsons-betty",
     "@type" : "foaf:Person",
-    "dc:description" : "American artist and gallery owner Betty Parsons studied at the Académie de la Grande Chaumière in Paris. She was one of the pioneers of the found object, using driftwood to make colourful formal arrangements that can be considered both painting and sculpture. Parsons opened her pioneering gallery on 57th Street, New York, in 1946. She represented young avant-garde artists including Jackson Pollock, Mark Rothko, Barnet Newman and Agnes Martin. Parsons visited Ireland many times, attracted by her friendship with the collector Gordon Lambert and the artist Maria Simonds-Gooding.",
-    "dc:source" : "https://imma.ie/artists/betty-parsons/",
-    "schema:birthDate" : "1900–1982",
-    "schema:url" : "https://imma.ie/artists/betty-parsons/",
-    "rdfs:label" : "Betty Parsons"
+    "description" : "American artist and gallery owner Betty Parsons studied at the Académie de la Grande Chaumière in Paris. She was one of the pioneers of the found object, using driftwood to make colourful formal arrangements that can be considered both painting and sculpture. Parsons opened her pioneering gallery on 57th Street, New York, in 1946. She represented young avant-garde artists including Jackson Pollock, Mark Rothko, Barnet Newman and Agnes Martin. Parsons visited Ireland many times, attracted by her friendship with the collector Gordon Lambert and the artist Maria Simonds-Gooding.",
+    "source" : "https://imma.ie/artists/betty-parsons/",
+    "birthDate" : "1900–1982",
+    "url" : "https://imma.ie/artists/betty-parsons/",
+    "label" : "Betty Parsons"
   }, {
     "@id" : "spice:artefact/flash",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/parsons-betty",
     "author" : "spice:agent/parsons-betty",
-    "schema:dateCreated" : "1975",
-    "schema:url" : "https://imma.ie/collection/flash/",
+    "dateCreated" : "1975",
+    "url" : "https://imma.ie/collection/flash/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/flash",
-    "arco-cd:hasTitle" : "Flash"
+    "hasTitle" : "Flash"
   }, {
     "@id" : "spice:artefact/fragments",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/parsons-betty",
     "author" : "spice:agent/parsons-betty",
-    "schema:dateCreated" : "1968",
-    "schema:url" : "https://imma.ie/collection/fragments/",
+    "dateCreated" : "1968",
+    "url" : "https://imma.ie/collection/fragments/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/fragments",
-    "arco-cd:hasTitle" : "Fragments"
+    "hasTitle" : "Fragments"
   }, {
     "@id" : "spice:attribution/flash",
     "@type" : "arco:AuthorshipAttribution",
@@ -46,48 +46,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

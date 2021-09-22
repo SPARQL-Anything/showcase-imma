@@ -1,30 +1,26 @@
 {
   "@id" : "spice:agent/hoey-elaine",
   "@type" : "foaf:Person",
-  "dc:description" : [ "Elaine Hoey works mainly creating interactive based installations, appropriating contemporary digital art practices and aesthetics to explore the politics of digital humanity and our evolving relationship with the screen. She describes her process as ‘experimental’ and is interested in creating new forms of art whose language is digitally native though also subject to critique and informed by questions arising from complex social, political and cultural processes.", "Elaine Hoey works mainly creating interactive based installations, appropriating contemporary digital art practices and aesthetics to explore the politics of digital humanity and our evolving relationship with the screen." ],
-  "dc:source" : "https://imma.ie/artists/elaine-hoey/",
-  "schema:url" : "https://imma.ie/artists/elaine-hoey/",
-  "rdfs:label" : "Elaine Hoey",
+  "description" : [ "Elaine Hoey works mainly creating interactive based installations, appropriating contemporary digital art practices and aesthetics to explore the politics of digital humanity and our evolving relationship with the screen. She describes her process as ‘experimental’ and is interested in creating new forms of art whose language is digitally native though also subject to critique and informed by questions arising from complex social, political and cultural processes.", "Elaine Hoey works mainly creating interactive based installations, appropriating contemporary digital art practices and aesthetics to explore the politics of digital humanity and our evolving relationship with the screen." ],
+  "source" : "https://imma.ie/artists/elaine-hoey/",
+  "url" : "https://imma.ie/artists/elaine-hoey/",
+  "label" : "Elaine Hoey",
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

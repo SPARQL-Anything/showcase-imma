@@ -1,30 +1,26 @@
 {
   "@id" : "spice:agent/gibson-saidhbhin",
   "@type" : "foaf:Person",
-  "dc:description" : [ "Saidhbhín Gibson’s work explores the framing of the non-human environment for and by contemporary society. She employs multifarious methods of production in the manufacture of the work. Video, photography, drawing, sculpture and needlepoint lace are used to examine the interference by humans of the Natural world.&nbsp;Much of the work exemplifies economy rather than excess or waste.", "Saidhbhín Gibson’s work explores the framing of the non-human environment for and by contemporary society. She employs multifarious methods of production in the manufacture of the work. Video, photography, drawing, sculpture and needlepoint lace are used to examine the interference by humans of the Natural world." ],
-  "dc:source" : "https://imma.ie/artists/saidhbhin-gibson/",
-  "schema:url" : "https://imma.ie/artists/saidhbhin-gibson/",
-  "rdfs:label" : "Saidhbhín Gibson",
+  "description" : [ "Saidhbhín Gibson’s work explores the framing of the non-human environment for and by contemporary society. She employs multifarious methods of production in the manufacture of the work. Video, photography, drawing, sculpture and needlepoint lace are used to examine the interference by humans of the Natural world.&nbsp;Much of the work exemplifies economy rather than excess or waste.", "Saidhbhín Gibson’s work explores the framing of the non-human environment for and by contemporary society. She employs multifarious methods of production in the manufacture of the work. Video, photography, drawing, sculpture and needlepoint lace are used to examine the interference by humans of the Natural world." ],
+  "source" : "https://imma.ie/artists/saidhbhin-gibson/",
+  "url" : "https://imma.ie/artists/saidhbhin-gibson/",
+  "label" : "Saidhbhín Gibson",
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

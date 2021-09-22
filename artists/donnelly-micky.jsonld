@@ -2,41 +2,41 @@
   "@graph" : [ {
     "@id" : "spice:agent/donnelly-micky",
     "@type" : "foaf:Person",
-    "dc:description" : "Northern Irish artist Micky Donnelly studied art at the University of Ulster, Belfast. Working in sculpture, painting, drawing, photography and installation, Donnelly explores themes of nature and culture, and the varied psychological and political models we adopt in order to see the world. Donnelly was a founding member of ‘Circa’ magazine in 1981. He has exhibited nationally and internationally and his work is in many public and private collections. He was elected as a member of Aosdána in 1996.",
-    "dc:source" : "https://imma.ie/artists/micky-donnelly/",
-    "schema:birthDate" : "b.1952",
-    "schema:url" : "https://imma.ie/artists/micky-donnelly/",
-    "rdfs:label" : "Micky Donnelly"
+    "description" : "Northern Irish artist Micky Donnelly studied art at the University of Ulster, Belfast. Working in sculpture, painting, drawing, photography and installation, Donnelly explores themes of nature and culture, and the varied psychological and political models we adopt in order to see the world. Donnelly was a founding member of ‘Circa’ magazine in 1981. He has exhibited nationally and internationally and his work is in many public and private collections. He was elected as a member of Aosdána in 1996.",
+    "source" : "https://imma.ie/artists/micky-donnelly/",
+    "birthDate" : "b.1952",
+    "url" : "https://imma.ie/artists/micky-donnelly/",
+    "label" : "Micky Donnelly"
   }, {
     "@id" : "spice:artefact/reflex-seris-no-1",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/donnelly-micky",
     "author" : "spice:agent/donnelly-micky",
-    "schema:dateCreated" : "1997",
-    "schema:url" : "https://imma.ie/collection/reflex-seris-no-1/",
+    "dateCreated" : "1997",
+    "url" : "https://imma.ie/collection/reflex-seris-no-1/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/reflex-seris-no-1",
-    "arco-cd:hasTitle" : "Reflex Seris No. 1"
+    "hasTitle" : "Reflex Seris No. 1"
   }, {
     "@id" : "spice:artefact/reflex-seris-no-13",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/donnelly-micky",
     "author" : "spice:agent/donnelly-micky",
-    "schema:dateCreated" : "1997",
-    "schema:url" : "https://imma.ie/collection/reflex-seris-no-13/",
+    "dateCreated" : "1997",
+    "url" : "https://imma.ie/collection/reflex-seris-no-13/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/reflex-seris-no-13",
-    "arco-cd:hasTitle" : "Reflex Seris No.13"
+    "hasTitle" : "Reflex Seris No.13"
   }, {
     "@id" : "spice:artefact/untitled-81",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/donnelly-micky",
     "author" : "spice:agent/donnelly-micky",
-    "schema:dateCreated" : "1983",
-    "schema:url" : "https://imma.ie/collection/untitled-81/",
+    "dateCreated" : "1983",
+    "url" : "https://imma.ie/collection/untitled-81/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-81",
-    "arco-cd:hasTitle" : "Untitled"
+    "hasTitle" : "Untitled"
   }, {
     "@id" : "spice:attribution/reflex-seris-no-1",
     "@type" : "arco:AuthorshipAttribution",
@@ -52,40 +52,33 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -101,7 +94,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

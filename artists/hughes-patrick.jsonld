@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/hughes-patrick",
     "@type" : "foaf:Person",
-    "dc:description" : "British painter Patrick Hughes lives and works in London. A surrealist painter, he is renowned for his works on perspective and is considered the creator of ‘reverspective’. Since his first solo show in 1961 Hughes has exhibited extensively in Europe and the U.S., including solo exhibitions at Park Ryu Sook Gallery, Soeul, Galerie Lélia Mordoch, Paris, Galerie Boisserée, Cologne, and Flowers Central, London. Hughes taught at Leeds College of Art in the 1960s. He is also a designer and writer and has published four books on verbal and visual rhetoric.",
-    "dc:source" : "https://imma.ie/artists/patrick-hughes/",
-    "schema:birthDate" : "b.1939",
-    "schema:url" : "https://imma.ie/artists/patrick-hughes/",
-    "rdfs:label" : "Patrick Hughes"
+    "description" : "British painter Patrick Hughes lives and works in London. A surrealist painter, he is renowned for his works on perspective and is considered the creator of ‘reverspective’. Since his first solo show in 1961 Hughes has exhibited extensively in Europe and the U.S., including solo exhibitions at Park Ryu Sook Gallery, Soeul, Galerie Lélia Mordoch, Paris, Galerie Boisserée, Cologne, and Flowers Central, London. Hughes taught at Leeds College of Art in the 1960s. He is also a designer and writer and has published four books on verbal and visual rhetoric.",
+    "source" : "https://imma.ie/artists/patrick-hughes/",
+    "birthDate" : "b.1939",
+    "url" : "https://imma.ie/artists/patrick-hughes/",
+    "label" : "Patrick Hughes"
   }, {
     "@id" : "spice:artefact/present-rainbow",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/hughes-patrick",
     "author" : "spice:agent/hughes-patrick",
-    "schema:dateCreated" : "1978",
-    "schema:url" : "https://imma.ie/collection/present-rainbow/",
+    "dateCreated" : "1978",
+    "url" : "https://imma.ie/collection/present-rainbow/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/present-rainbow",
-    "arco-cd:hasTitle" : "“Present” Rainbow"
+    "hasTitle" : "“Present” Rainbow"
   }, {
     "@id" : "spice:attribution/present-rainbow",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,24 +28,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -56,24 +53,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

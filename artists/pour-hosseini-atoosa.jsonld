@@ -1,0 +1,77 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/pour-hosseini-atoosa",
+    "@type" : "foaf:Person",
+    "description" : [ "Atoosa Pour Hosseini holds an MA in Fine Art Media from the National College of Art and Design, Dublin as well as BA in Fine Art Painting at Azad University of Art and Architecture, Tehran. She is a Co-Director of the Experimental Film Society which is an Irish company dedicated to the production and screening of experimental cinema. She has received awards for her practice from the Arts Council of Ireland, Culture Ireland, and Dublin City Council and has exhibited both nationally and internationally.", "Atoosa  Pour  Hosseini (b. Tehran, Iran 1981) is an artist-filmmaker based in Dublin, Ireland. Her works are influenced by historical avant-garde cinema and explore questions about illusion, reality, and perception through the media of film, installation and performance.   " ],
+    "source" : "https://imma.ie/artists/atoosa-pour-hosseini/",
+    "url" : "https://imma.ie/artists/atoosa-pour-hosseini/",
+    "label" : "Atoosa Pour Hosseini"
+  }, {
+    "@id" : "spice:artefact/mirage",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/pour-hosseini-atoosa",
+    "author" : "spice:agent/pour-hosseini-atoosa",
+    "dateCreated" : "2015",
+    "url" : "https://imma.ie/collection/mirage/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/mirage",
+    "hasTitle" : "Mirage"
+  }, {
+    "@id" : "spice:attribution/mirage",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/pour-hosseini-atoosa"
+  } ],
+  "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

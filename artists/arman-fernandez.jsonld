@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/arman-fernandez",
     "@type" : "foaf:Person",
-    "dc:description" : "Arman was born Fernandez Armand in Nice, France. He studied painting at the École Nationale d'Art Décoratif, Nice and at the École du Louvre in Paris. A founding member of the 1960 Nouveaux Réalisme group, Arman used everyday objects collected together in large quantities in his art. From 1961, New York was a second home to the artist, and he completed many large scale public sculptures on the theme of the poetics of waste, excess and mass production there.",
-    "dc:source" : "https://imma.ie/artists/fernandez-arman/",
-    "schema:birthDate" : "1928–2005",
-    "schema:url" : "https://imma.ie/artists/fernandez-arman/",
-    "rdfs:label" : "Fernandez Arman"
+    "description" : "Arman was born Fernandez Armand in Nice, France. He studied painting at the École Nationale d'Art Décoratif, Nice and at the École du Louvre in Paris. A founding member of the 1960 Nouveaux Réalisme group, Arman used everyday objects collected together in large quantities in his art. From 1961, New York was a second home to the artist, and he completed many large scale public sculptures on the theme of the poetics of waste, excess and mass production there.",
+    "source" : "https://imma.ie/artists/fernandez-arman/",
+    "birthDate" : "1928–2005",
+    "url" : "https://imma.ie/artists/fernandez-arman/",
+    "label" : "Fernandez Arman"
   }, {
     "@id" : "spice:artefact/boom-boom",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/arman-fernandez",
     "author" : "spice:agent/arman-fernandez",
-    "schema:dateCreated" : "1966",
-    "schema:url" : "https://imma.ie/collection/boom-boom/",
+    "dateCreated" : "1966",
+    "url" : "https://imma.ie/collection/boom-boom/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/boom-boom",
-    "arco-cd:hasTitle" : "Boom-Boom"
+    "hasTitle" : "Boom-Boom"
   }, {
     "@id" : "spice:attribution/boom-boom",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,24 +24,19 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -52,16 +47,14 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

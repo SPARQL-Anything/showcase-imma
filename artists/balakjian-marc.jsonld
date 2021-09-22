@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/balakjian-marc",
     "@type" : "foaf:Person",
-    "dc:description" : "Marc Balakjian grew up in Lebanon and moved to London to study architecture in 1966. He went on to study painting at Hammersmith School of Art and printmaking at the Slade School of Fine Art. Balakjian has taught printmaking in many art schools in Great Britain, Europe and the US. He has exhibited worldwide in group and solo shows and his work is held in major public collections including the Victoria and Albert Museum, London; Bibliotheque Nationale, Paris and the National Gallery of Art, Washington.",
-    "dc:source" : "https://imma.ie/artists/marc-balakjian/",
-    "schema:birthDate" : "b.1940",
-    "schema:url" : "https://imma.ie/artists/marc-balakjian/",
-    "rdfs:label" : "Marc Balakjian"
+    "description" : "Marc Balakjian grew up in Lebanon and moved to London to study architecture in 1966. He went on to study painting at Hammersmith School of Art and printmaking at the Slade School of Fine Art. Balakjian has taught printmaking in many art schools in Great Britain, Europe and the US. He has exhibited worldwide in group and solo shows and his work is held in major public collections including the Victoria and Albert Museum, London; Bibliotheque Nationale, Paris and the National Gallery of Art, Washington.",
+    "source" : "https://imma.ie/artists/marc-balakjian/",
+    "birthDate" : "b.1940",
+    "url" : "https://imma.ie/artists/marc-balakjian/",
+    "label" : "Marc Balakjian"
   }, {
     "@id" : "spice:artefact/what-is-left-to-remember",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/balakjian-marc",
     "author" : "spice:agent/balakjian-marc",
-    "schema:dateCreated" : "1975",
-    "schema:url" : "https://imma.ie/collection/what-is-left-to-remember/",
+    "dateCreated" : "1975",
+    "url" : "https://imma.ie/collection/what-is-left-to-remember/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/what-is-left-to-remember",
-    "arco-cd:hasTitle" : "What is Left to Remember"
+    "hasTitle" : "What is Left to Remember"
   }, {
     "@id" : "spice:attribution/what-is-left-to-remember",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,40 +28,33 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -2,19 +2,19 @@
   "@graph" : [ {
     "@id" : "spice:agent/r-tal",
     "@type" : "foaf:Person",
-    "dc:source" : "https://imma.ie/artists/tal-r/",
-    "schema:url" : "https://imma.ie/artists/tal-r/",
-    "rdfs:label" : "Tal R"
+    "source" : "https://imma.ie/artists/tal-r/",
+    "url" : "https://imma.ie/artists/tal-r/",
+    "label" : "Tal R"
   }, {
     "@id" : "spice:artefact/klub-sombi-no-1",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/r-tal",
     "author" : "spice:agent/r-tal",
-    "schema:dateCreated" : "2001",
-    "schema:url" : "https://imma.ie/collection/klub-sombi-no-1/",
+    "dateCreated" : "2001",
+    "url" : "https://imma.ie/collection/klub-sombi-no-1/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/klub-sombi-no-1",
-    "arco-cd:hasTitle" : "Klub Sombi no. 1"
+    "hasTitle" : "Klub Sombi no. 1"
   }, {
     "@id" : "spice:attribution/klub-sombi-no-1",
     "@type" : "arco:AuthorshipAttribution",
@@ -26,32 +26,27 @@
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -63,7 +58,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

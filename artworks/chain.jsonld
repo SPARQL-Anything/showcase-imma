@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/chain",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "‘These paintings are from memory. The colour of a black board, words written then rubbed out. Being at play in the neat grounds of institutions. I see them as abstract paintings’.",
-    "dc:source" : "https://imma.ie/collection/chain/",
-    "schema:creditText" : "IMMA Collection: Purchase, 1998",
+    "description" : "‘These paintings are from memory. The colour of a black board, words written then rubbed out. Being at play in the neat grounds of institutions. I see them as abstract paintings’.",
+    "source" : "https://imma.ie/collection/chain/",
+    "creditText" : "IMMA Collection: Purchase, 1998",
     "image" : "spice:documentation/chain",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Oil on canvas",
-    "schema:size" : "52 x 42 cm",
-    "arco-cd:hasInventory" : "IMMA.795"
+    "material" : "Oil on canvas",
+    "size" : "52 x 42 cm",
+    "hasInventory" : "IMMA.795"
   }, {
     "@id" : "spice:documentation/chain",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Mark Joyce, Chain, 1997, Oil on canvas, 52 x 42 cm, Collection Irish Museum of Modern Art, Purchase, 1998 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Mark Joyce, Chain, 1997, Oil on canvas, 52 x 42 cm, Collection Irish Museum of Modern Art, Purchase, 1998 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2020/01/7.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2021/09/7.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

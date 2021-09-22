@@ -2,21 +2,35 @@
   "@graph" : [ {
     "@id" : "spice:agent/okelly-alanna",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish artist Alanna O'Kelly (born 1955) attended the National College of Art and Design and the Slade School of Art, London. Her practice incorporates sculpture, performance, slide installation and film. Influenced by feminist politics, O’Kelly explores ideas of the psychic conflicts of our shared history and the continuity of tradition. O’Kelly’s work has featured in major group and solo exhibitions since the 1980s. She represented Ireland at the Sao Paulo Biennale in 1996.",
-    "dc:source" : "https://imma.ie/artists/alanna-okelly/",
-    "schema:birthDate" : "b.1955",
-    "schema:url" : "https://imma.ie/artists/alanna-okelly/",
-    "rdfs:label" : "Alanna O’Kelly"
+    "description" : [ "Irish artist Alanna O’Kelly (born 1955) attended the National College of Art and Design and the Slade School of Art, London. Her practice incorporates sculpture, performance, slide installation and film. Influenced by feminist politics, O’Kelly explores ideas of the psychic conflicts of our shared history and the continuity of tradition. O’Kelly’s work has featured in major group and solo exhibitions since the 1980s. She represented Ireland at the Sao Paulo Biennale in 1996.", "Irish artist Alanna O'Kelly's practice incorporates sculpture, performance, slide installation and film. Influenced by feminist politics, O’Kelly explores ideas of the psychic conflicts of our shared history and the continuity of tradition. " ],
+    "source" : "https://imma.ie/artists/alanna-okelly/",
+    "birthDate" : "b.1955",
+    "url" : "https://imma.ie/artists/alanna-okelly/",
+    "label" : "Alanna O’Kelly"
+  }, {
+    "@id" : "spice:artefact/chant-down-greenham",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/okelly-alanna",
+    "author" : "spice:agent/okelly-alanna",
+    "dateCreated" : "1984",
+    "url" : "https://imma.ie/collection/chant-down-greenham/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/chant-down-greenham",
+    "hasTitle" : "Chant Down Greenham"
   }, {
     "@id" : "spice:artefact/sanctuary-wastelands",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/okelly-alanna",
     "author" : "spice:agent/okelly-alanna",
-    "schema:dateCreated" : "1994",
-    "schema:url" : "https://imma.ie/collection/sanctuary-wastelands/",
+    "dateCreated" : "1994",
+    "url" : "https://imma.ie/collection/sanctuary-wastelands/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/sanctuary-wastelands",
-    "arco-cd:hasTitle" : "Sanctuary/Wastelands"
+    "hasTitle" : "Sanctuary/Wastelands"
+  }, {
+    "@id" : "spice:attribution/chant-down-greenham",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/okelly-alanna"
   }, {
     "@id" : "spice:attribution/sanctuary-wastelands",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,44 +42,37 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -73,7 +80,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

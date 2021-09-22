@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/johnson-ray",
     "@type" : "foaf:Person",
-    "dc:description" : "American artist Ray Johnson studied at the Detroit Art Institute and at Black Mountain College under Joseph Albers. He moved to New York in 1949 and experimented with geometric abstract art before turning to collage. Johnson was a seminal Pop Art figure in the 1950s, an early conceptualist, and a pioneer of mail art.",
-    "dc:source" : "https://imma.ie/artists/ray-johnson/",
-    "schema:birthDate" : "1927–1995",
-    "schema:url" : "https://imma.ie/artists/ray-johnson/",
-    "rdfs:label" : "Ray Johnson"
+    "description" : "American artist Ray Johnson studied at the Detroit Art Institute and at Black Mountain College under Joseph Albers. He moved to New York in 1949 and experimented with geometric abstract art before turning to collage. Johnson was a seminal Pop Art figure in the 1950s, an early conceptualist, and a pioneer of mail art.",
+    "source" : "https://imma.ie/artists/ray-johnson/",
+    "birthDate" : "1927–1995",
+    "url" : "https://imma.ie/artists/ray-johnson/",
+    "label" : "Ray Johnson"
   }, {
     "@id" : "spice:artefact/untitled-118",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/johnson-ray",
     "author" : "spice:agent/johnson-ray",
-    "schema:dateCreated" : "1965",
-    "schema:url" : "https://imma.ie/collection/untitled-118/",
+    "dateCreated" : "1965",
+    "url" : "https://imma.ie/collection/untitled-118/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-118",
-    "arco-cd:hasTitle" : "Untitled"
+    "hasTitle" : "Untitled"
   }, {
     "@id" : "spice:attribution/untitled-118",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,40 +24,33 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

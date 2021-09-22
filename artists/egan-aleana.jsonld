@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/egan-aleana",
     "@type" : "foaf:Person",
-    "dc:description" : "Frequently absorbed by language and literature, Aleana Egan’s practice also acts as a response to the material world of architecture and to the sphere of human interaction. Imagining shapes as traces and memories Egan develops her sculptures as an emotional record of a built world, with her work often described as a process of collection and inclusion. Operating as a pause, a noting and a generative mining of the experience of different mediums, the components of her works are chosen for both their aesthetic and structural qualities. Solo exhibitions include Douglas Hyde Gallery, Dublin (2012); The Drawing Room, London (2011); Mole Vanvitelliana, Ancona (2010); Temple Bar Gallery, Dublin (2009); and Kunsthalle Basel, Switzerland (2008). Group exhibitions include ‘In the Line of Beauty’, Irish Museum of Modern Art, Dublin; Veneklasen/Werner, Berlin, and Jupiter Artland, Edinburgh (2013); Sculpture Center, New York and Landesmuseum Münster, Germany (2010); 5th Berlin Biennale, Berlin and Kunsthalle zu Kiel (2008).",
-    "dc:source" : "https://imma.ie/artists/aleana-egan/",
-    "schema:birthDate" : "b.1979",
-    "schema:url" : "https://imma.ie/artists/aleana-egan/",
-    "rdfs:label" : "Aleana Egan"
+    "description" : "Frequently absorbed by language and literature, Aleana Egan’s practice also acts as a response to the material world of architecture and to the sphere of human interaction. Imagining shapes as traces and memories Egan develops her sculptures as an emotional record of a built world, with her work often described as a process of collection and inclusion. Operating as a pause, a noting and a generative mining of the experience of different mediums, the components of her works are chosen for both their aesthetic and structural qualities. Solo exhibitions include Douglas Hyde Gallery, Dublin (2012); The Drawing Room, London (2011); Mole Vanvitelliana, Ancona (2010); Temple Bar Gallery, Dublin (2009); and Kunsthalle Basel, Switzerland (2008). Group exhibitions include ‘In the Line of Beauty’, Irish Museum of Modern Art, Dublin; Veneklasen/Werner, Berlin, and Jupiter Artland, Edinburgh (2013); Sculpture Center, New York and Landesmuseum Münster, Germany (2010); 5th Berlin Biennale, Berlin and Kunsthalle zu Kiel (2008).",
+    "source" : "https://imma.ie/artists/aleana-egan/",
+    "birthDate" : "b.1979",
+    "url" : "https://imma.ie/artists/aleana-egan/",
+    "label" : "Aleana Egan"
   }, {
     "@id" : "spice:artefact/the-sky-looks-down-on-almost-as-many-things-as-the-ceiling",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/egan-aleana",
     "author" : "spice:agent/egan-aleana",
-    "schema:dateCreated" : "2013",
-    "schema:url" : "https://imma.ie/collection/the-sky-looks-down-on-almost-as-many-things-as-the-ceiling/",
+    "dateCreated" : "2013",
+    "url" : "https://imma.ie/collection/the-sky-looks-down-on-almost-as-many-things-as-the-ceiling/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-sky-looks-down-on-almost-as-many-things-as-the-ceiling",
-    "arco-cd:hasTitle" : "The sky looks down on almost as many things as the ceiling"
+    "hasTitle" : "The sky looks down on almost as many things as the ceiling"
   }, {
     "@id" : "spice:attribution/the-sky-looks-down-on-almost-as-many-things-as-the-ceiling",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,40 +28,33 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

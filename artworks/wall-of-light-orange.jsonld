@@ -2,26 +2,25 @@
   "@graph" : [ {
     "@id" : "spice:artefact/wall-of-light-orange",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Wall of Light, Orange is a 2000 work by Sean Scully. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/wall-of-light-orange/",
-    "schema:creditText" : "IMMA Collection: Donation, IBRC, 2011",
+    "description" : "Wall of Light, Orange is a 2000 work by Sean Scully. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/wall-of-light-orange/",
+    "creditText" : "IMMA Collection: Donation, IBRC, 2011",
     "image" : "spice:documentation/wall-of-light-orange",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Spit bite aquatint on Somerset paper",
-    "schema:size" : "Framed: 58 x 75 cm Plate: 33x44 cm Sheet: 58x75 cm",
-    "schema:version" : "Edition 11/25",
-    "arco-cd:hasInventory" : "IMMA.3425"
+    "material" : "Spit bite aquatint on Somerset paper",
+    "size" : "Framed: 58 x 75 cm Plate: 33x44 cm Sheet: 58x75 cm",
+    "version" : "Edition 11/25",
+    "hasInventory" : "IMMA.3425"
   }, {
     "@id" : "spice:documentation/wall-of-light-orange",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Sean Scully, Wall of Light, Orange, 2000, Spit bite aquatint on Somerset paper, Framed: 58 x 75 cm Plate: 33x44 cm Sheet: 58x75 cm, Collection Irish Museum of Modern Art, Donation, IBRC, 2011 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Sean Scully, Wall of Light, Orange, 2000, Spit bite aquatint on Somerset paper, Framed: 58 x 75 cm Plate: 33x44 cm Sheet: 58x75 cm, Collection Irish Museum of Modern Art, Donation, IBRC, 2011 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -32,36 +31,28 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

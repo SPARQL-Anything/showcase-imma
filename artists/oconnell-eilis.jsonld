@@ -2,51 +2,51 @@
   "@graph" : [ {
     "@id" : "spice:agent/oconnell-eilis",
     "@type" : "foaf:Person",
-    "dc:description" : "Born in Derry, Eilis O'Connell studied at the Crawford School of Art, Cork, and Massachusetts College of Art, Boston. O’Connell’s totem-like sculptural works explore the combination of materials such as bronze and fibre glass, with organic debris from the natural environment. O’Connell represented Ireland at the Paris Biennale in 1982 and the Sao Paolo Biennale in 1985. She is a founder director of the national sculpture factory in Cork, a former member of the Arts Council of Ireland, a member of Aosdána, and of the RHA.",
-    "dc:source" : "https://imma.ie/artists/eilis-oconnell/",
-    "schema:birthDate" : "b.1953",
-    "schema:url" : "https://imma.ie/artists/eilis-oconnell/",
-    "rdfs:label" : "Eilis O’Connell"
+    "description" : "Born in Derry, Eilis O'Connell studied at the Crawford School of Art, Cork, and Massachusetts College of Art, Boston. O’Connell’s totem-like sculptural works explore the combination of materials such as bronze and fibre glass, with organic debris from the natural environment. O’Connell represented Ireland at the Paris Biennale in 1982 and the Sao Paolo Biennale in 1985. She is a founder director of the national sculpture factory in Cork, a former member of the Arts Council of Ireland, a member of Aosdána, and of the RHA.",
+    "source" : "https://imma.ie/artists/eilis-oconnell/",
+    "birthDate" : "b.1953",
+    "url" : "https://imma.ie/artists/eilis-oconnell/",
+    "label" : "Eilis O’Connell"
   }, {
     "@id" : "spice:artefact/christmas-1981-for-gordon-lambert",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/oconnell-eilis",
     "author" : "spice:agent/oconnell-eilis",
-    "schema:dateCreated" : "1981",
-    "schema:url" : "https://imma.ie/collection/christmas-1981-for-gordon-lambert/",
+    "dateCreated" : "1981",
+    "url" : "https://imma.ie/collection/christmas-1981-for-gordon-lambert/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/christmas-1981-for-gordon-lambert",
-    "arco-cd:hasTitle" : "Christmas 1981, for Gordon Lambert"
+    "hasTitle" : "Christmas 1981, for Gordon Lambert"
   }, {
     "@id" : "spice:artefact/column",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/oconnell-eilis",
     "author" : "spice:agent/oconnell-eilis",
-    "schema:dateCreated" : "1981",
-    "schema:url" : "https://imma.ie/collection/column/",
+    "dateCreated" : "1981",
+    "url" : "https://imma.ie/collection/column/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/column",
-    "arco-cd:hasTitle" : "Column"
+    "hasTitle" : "Column"
   }, {
     "@id" : "spice:artefact/laden",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/oconnell-eilis",
     "author" : "spice:agent/oconnell-eilis",
-    "schema:dateCreated" : "1999",
-    "schema:url" : "https://imma.ie/collection/laden/",
+    "dateCreated" : "1999",
+    "url" : "https://imma.ie/collection/laden/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/laden",
-    "arco-cd:hasTitle" : "Laden"
+    "hasTitle" : "Laden"
   }, {
     "@id" : "spice:artefact/slate-box-v",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/oconnell-eilis",
     "author" : "spice:agent/oconnell-eilis",
-    "schema:dateCreated" : "1981",
-    "schema:url" : "https://imma.ie/collection/slate-box-v/",
+    "dateCreated" : "1981",
+    "url" : "https://imma.ie/collection/slate-box-v/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/slate-box-v",
-    "arco-cd:hasTitle" : "Slate Box V"
+    "hasTitle" : "Slate Box V"
   }, {
     "@id" : "spice:attribution/christmas-1981-for-gordon-lambert",
     "@type" : "arco:AuthorshipAttribution",
@@ -70,40 +70,33 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -115,7 +108,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

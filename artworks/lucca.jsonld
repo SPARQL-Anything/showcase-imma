@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/lucca",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Since 1973 the photographer George Tatge has lived in Italy, where he took this photograph, Lucca, 1984, depicting the old town walls of the Tuscan city. Tatge finds that, if caught in a certain light, an ambiguous situation or object can be transformed into something revelatory. He explains that ‘It is paradoxical that I am often forced to work with great speed to catch that light while working with a very slow and cumbersome technique, that of the view camera. I work with a 5 x 7-inch Deardorff folding camera which requires a tripod and dark cloth to view the image reversed and upside down on the ground glass.’*",
-    "dc:source" : "https://imma.ie/collection/lucca/",
-    "schema:creditText" : "IMMA Collection: Donation, Novak/O'Doherty Collection, 2015",
+    "description" : "Since 1973 the photographer George Tatge has lived in Italy, where he took this photograph, Lucca, 1984, depicting the old town walls of the Tuscan city. Tatge finds that, if caught in a certain light, an ambiguous situation or object can be transformed into something revelatory. He explains that ‘It is paradoxical that I am often forced to work with great speed to catch that light while working with a very slow and cumbersome technique, that of the view camera. I work with a 5 x 7-inch Deardorff folding camera which requires a tripod and dark cloth to view the image reversed and upside down on the ground glass.’*",
+    "source" : "https://imma.ie/collection/lucca/",
+    "creditText" : "IMMA Collection: Donation, Novak/O'Doherty Collection, 2015",
     "image" : "spice:documentation/lucca",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Black and White Photograph",
-    "schema:size" : "Framed: 36 x 39 cm 11.6 x 16.8 cm",
-    "arco-cd:hasInventory" : "IMMA.3947"
+    "material" : "Black and White Photograph",
+    "size" : "Framed: 36 x 39 cm 11.6 x 16.8 cm",
+    "hasInventory" : "IMMA.3947"
   }, {
     "@id" : "spice:documentation/lucca",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "George Tatge, Lucca, 1984, Black and White Photograph, Framed: 36 x 39 cm 11.6 x 16.8 cm, Collection Irish Museum of Modern Art, Donation, Novak/O'Doherty Collection, 2015 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "George Tatge, Lucca, 1984, Black and White Photograph, Framed: 36 x 39 cm 11.6 x 16.8 cm, Collection Irish Museum of Modern Art, Donation, Novak/O'Doherty Collection, 2015 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/5117.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/5117.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/nozkowski-thomas",
     "@type" : "foaf:Person",
-    "dc:description" : "American artist Thomas Nozkowski (born 1944) studied at The Cooper Union Art School, New York. Nozkowski has been exhibiting since 1973 and had his first exhibition show in 1979. In 1982, the Museum of Modern Art, New York acquired one of his paintings from an early solo show for their permanent collection. His work is held in major American collections including that of the Brooklyn Museum; Dallas Museum of Art; the Metropolitan Museum of Art, New York; New York Public Library; and the San Francisco Museum of Modern Art.",
-    "dc:source" : "https://imma.ie/artists/thomas-nozkowski/",
-    "schema:birthDate" : "b.1944",
-    "schema:url" : "https://imma.ie/artists/thomas-nozkowski/",
-    "rdfs:label" : "Thomas Nozkowski"
+    "description" : "American artist Thomas Nozkowski (born 1944) studied at The Cooper Union Art School, New York. Nozkowski has been exhibiting since 1973 and had his first exhibition show in 1979. In 1982, the Museum of Modern Art, New York acquired one of his paintings from an early solo show for their permanent collection. His work is held in major American collections including that of the Brooklyn Museum; Dallas Museum of Art; the Metropolitan Museum of Art, New York; New York Public Library; and the San Francisco Museum of Modern Art.",
+    "source" : "https://imma.ie/artists/thomas-nozkowski/",
+    "birthDate" : "b.1944",
+    "url" : "https://imma.ie/artists/thomas-nozkowski/",
+    "label" : "Thomas Nozkowski"
   }, {
     "@id" : "spice:artefact/untitled-q-96",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/nozkowski-thomas",
     "author" : "spice:agent/nozkowski-thomas",
-    "schema:dateCreated" : "2006",
-    "schema:url" : "https://imma.ie/collection/untitled-q-96/",
+    "dateCreated" : "2006",
+    "url" : "https://imma.ie/collection/untitled-q-96/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-q-96",
-    "arco-cd:hasTitle" : "Untitled (Q-96)"
+    "hasTitle" : "Untitled (Q-96)"
   }, {
     "@id" : "spice:attribution/untitled-q-96",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,24 +28,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -56,24 +53,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

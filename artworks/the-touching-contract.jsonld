@@ -1,0 +1,59 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/the-touching-contract",
+    "@type" : "schema:CreativeWork",
+    "description" : "The Touching Contract proposes new ways of understanding the political gesture of touch through an immersive performance work. The work exists in two acts: the administration of a contract, followed by participation in the performance, which features an ensemble of women performers. The contract forms the basis of how audience members choose to participate in the performance, and was developed in discussion with an invited group of women. This group explored with the artists and the performers how women encounter the touch of the law every day, with and without consent.",
+    "source" : "https://imma.ie/collection/the-touching-contract/",
+    "creditText" : "IMMA Collection: Purchase, 2021, 2021",
+    "image" : "spice:documentation/the-touching-contract",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "material" : "performance, artefacts, documentation and archive material",
+    "hasInventory" : "IMMA.4203"
+  }, {
+    "@id" : "spice:documentation/the-touching-contract",
+    "@type" : "schema:ImageObject",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "url" : "https://imma.ie/wp-content/uploads/2021/04/9497.jpg"
+  } ],
+  "@context" : {
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/jones-griffiths-philip",
     "@type" : "foaf:Person",
-    "dc:description" : "Welsh photographer Philip Jones Griffiths studied pharmacy in Liverpool and worked as a chemist while photographing part-time for the 'Manchester Guardian'. In 1961 he became a full-time freelancer for the 'Observer' newspaper. In 1962 Griffiths covered the war in Algeria, and from 1966 to 1971 he photographed the effects of war on the Vietnamese people. His book of photographs from that period, 'Vietnam Inc.' has since become a classic of photojournalism. From 1973 to 1977 Griffiths covered the Yom Kippur War and worked in Cambodia and Thailand. He moved to New York in 1980 to assume the presidency of Magnum Photos, a post he held for a record five years. Later in his career Griffiths revisited Vietnam and published two further books on the legacy of the war, 'Agent Orange' and 'Vietnam at Peace'.",
-    "dc:source" : "https://imma.ie/artists/philip-jones-griffiths/",
-    "schema:birthDate" : "1936–2008",
-    "schema:url" : "https://imma.ie/artists/philip-jones-griffiths/",
-    "rdfs:label" : "Philip Jones Griffiths"
+    "description" : "Welsh photographer Philip Jones Griffiths studied pharmacy in Liverpool and worked as a chemist while photographing part-time for the 'Manchester Guardian'. In 1961 he became a full-time freelancer for the 'Observer' newspaper. In 1962 Griffiths covered the war in Algeria, and from 1966 to 1971 he photographed the effects of war on the Vietnamese people. His book of photographs from that period, 'Vietnam Inc.' has since become a classic of photojournalism. From 1973 to 1977 Griffiths covered the Yom Kippur War and worked in Cambodia and Thailand. He moved to New York in 1980 to assume the presidency of Magnum Photos, a post he held for a record five years. Later in his career Griffiths revisited Vietnam and published two further books on the legacy of the war, 'Agent Orange' and 'Vietnam at Peace'.",
+    "source" : "https://imma.ie/artists/philip-jones-griffiths/",
+    "birthDate" : "1936–2008",
+    "url" : "https://imma.ie/artists/philip-jones-griffiths/",
+    "label" : "Philip Jones Griffiths"
   }, {
     "@id" : "spice:artefact/soldier-behind-shield-northern-ireland",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/jones-griffiths-philip",
     "author" : "spice:agent/jones-griffiths-philip",
-    "schema:dateCreated" : "1973",
-    "schema:url" : "https://imma.ie/collection/soldier-behind-shield-northern-ireland/",
+    "dateCreated" : "1973",
+    "url" : "https://imma.ie/collection/soldier-behind-shield-northern-ireland/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/soldier-behind-shield-northern-ireland",
-    "arco-cd:hasTitle" : "Soldier Behind Shield, Northern Ireland"
+    "hasTitle" : "Soldier Behind Shield, Northern Ireland"
   }, {
     "@id" : "spice:attribution/soldier-behind-shield-northern-ireland",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,40 +28,33 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

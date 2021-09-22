@@ -2,37 +2,33 @@
   "@graph" : [ {
     "@id" : "spice:artefact/sunrise-2",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Sunrise is a 2018 work by Monir Shahroudy Farmanfarmaian. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/sunrise-2/",
-    "schema:creditText" : "IMMA Collection: IMMA Editions, Donated by the artist, 2020",
+    "description" : "Sunrise is a 2018 work by Monir Shahroudy Farmanfarmaian. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/sunrise-2/",
+    "creditText" : "IMMA Collection: IMMA Editions, Donated by the artist, 2020",
     "image" : "spice:documentation/sunrise-2",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Archival pigment giclée on Hahnemühle Archival Fine Art paper",
-    "schema:size" : "50.5 x 71.5 cm",
-    "arco-cd:hasInventory" : "IMMA.4119"
+    "material" : "Archival pigment giclée on Hahnemühle Archival Fine Art paper",
+    "size" : "50.5 x 71.5 cm",
+    "hasInventory" : "IMMA.4119"
   }, {
     "@id" : "spice:documentation/sunrise-2",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Monir Shahroudy Farmanfarmaian, Sunrise, 2018, Archival pigment giclée on Hahnemühle Archival Fine Art paper, 50.5 x 71.5 cm, Collection Irish Museum of Modern Art, IMMA Editions, Donated by the artist, 2020 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Monir Shahroudy Farmanfarmaian, Sunrise, 2018, Archival pigment giclée on Hahnemühle Archival Fine Art paper, 50.5 x 71.5 cm, Collection Irish Museum of Modern Art, IMMA Editions, Donated by the artist, 2020 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -43,20 +39,16 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

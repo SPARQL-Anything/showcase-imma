@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/adami-valerio",
     "@type" : "foaf:Person",
-    "dc:description" : "Italian painter and printmaker Valerio Adami is a world renowned exponent of Pop art. Trained at the Brera in Milan, he has worked in both London and Paris. Adami represented Italy at the 1968 Venice Biennale and was honoured in 1986 with a major retrospective at the Centre Georges-Pompidou in Paris. He is the subject of critical studies by Jacques Derrida, Italo Calvino, Jean-Francois Lyotard and others.",
-    "dc:source" : "https://imma.ie/artists/valerio-adami/",
-    "schema:birthDate" : "b.1935",
-    "schema:url" : "https://imma.ie/artists/valerio-adami/",
-    "rdfs:label" : "Valerio Adami"
+    "description" : "Italian painter and printmaker Valerio Adami is a world renowned exponent of Pop art. Trained at the Brera in Milan, he has worked in both London and Paris. Adami represented Italy at the 1968 Venice Biennale and was honoured in 1986 with a major retrospective at the Centre Georges-Pompidou in Paris. He is the subject of critical studies by Jacques Derrida, Italo Calvino, Jean-Francois Lyotard and others.",
+    "source" : "https://imma.ie/artists/valerio-adami/",
+    "birthDate" : "b.1935",
+    "url" : "https://imma.ie/artists/valerio-adami/",
+    "label" : "Valerio Adami"
   }, {
     "@id" : "spice:artefact/beauty-parlor",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/adami-valerio",
     "author" : "spice:agent/adami-valerio",
-    "schema:dateCreated" : "1969",
-    "schema:url" : "https://imma.ie/collection/beauty-parlor/",
+    "dateCreated" : "1969",
+    "url" : "https://imma.ie/collection/beauty-parlor/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/beauty-parlor",
-    "arco-cd:hasTitle" : "Beauty Parlor"
+    "hasTitle" : "Beauty Parlor"
   }, {
     "@id" : "spice:attribution/beauty-parlor",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,40 +28,33 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

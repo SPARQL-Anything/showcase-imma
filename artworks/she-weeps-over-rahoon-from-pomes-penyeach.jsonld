@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/she-weeps-over-rahoon-from-pomes-penyeach",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "She Weeps Over Rahoon from ‘Pomes Penyeach’ is a 1993 work by Sean Scully. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/she-weeps-over-rahoon-from-pomes-penyeach/",
-    "schema:creditText" : "IMMA Collection: Purchase, 2004",
+    "description" : "She Weeps Over Rahoon from ‘Pomes Penyeach’ is a 1993 work by Sean Scully. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/she-weeps-over-rahoon-from-pomes-penyeach/",
+    "creditText" : "IMMA Collection: Purchase, 2004",
     "image" : "spice:documentation/she-weeps-over-rahoon-from-pomes-penyeach",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Etching",
-    "schema:size" : "54 x 40 cm (sheet)",
-    "arco-cd:hasInventory" : "IMMA.1643.11"
+    "material" : "Etching",
+    "size" : "54 x 40 cm (sheet)",
+    "hasInventory" : "IMMA.1643.11"
   }, {
     "@id" : "spice:documentation/she-weeps-over-rahoon-from-pomes-penyeach",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Sean Scully, She Weeps Over Rahoon from ‘Pomes Penyeach’, 1993, Etching, 54 x 40 cm (sheet), Collection Irish Museum of Modern Art, Purchase, 2004 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Sean Scully, She Weeps Over Rahoon from ‘Pomes Penyeach’, 1993, Etching, 54 x 40 cm (sheet), Collection Irish Museum of Modern Art, Purchase, 2004 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2020/02/3962.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2020/02/3962.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

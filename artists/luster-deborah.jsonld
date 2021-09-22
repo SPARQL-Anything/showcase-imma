@@ -3,29 +3,26 @@
   "@type" : "foaf:Person",
   "description" : "_:b0",
   "dc:description" : "Deborah Luster lives in New Orleans, Louisiana, and Galway, Ireland. Luster is best known for her long-term documentary series, One Big Self: Prisoners of Louisiana, a photographic archive of formal portraits of prisoners from three Louisiana prisons.",
-  "dc:source" : "https://imma.ie/artists/deborah-luster/",
-  "schema:url" : "https://imma.ie/artists/deborah-luster/",
-  "rdfs:label" : "Deborah Luster",
+  "source" : "https://imma.ie/artists/deborah-luster/",
+  "url" : "https://imma.ie/artists/deborah-luster/",
+  "label" : "Deborah Luster",
   "@context" : {
     "description" : {
       "@id" : "http://purl.org/dc/elements/1.1/description",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

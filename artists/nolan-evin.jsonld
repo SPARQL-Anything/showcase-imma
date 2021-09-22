@@ -2,41 +2,41 @@
   "@graph" : [ {
     "@id" : "spice:agent/nolan-evin",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish artist Evin Nolan (born 1930) first exhibited at the Royal Hibernian Academy in 1956 and was an active member in the establishment of the Project Arts Centre. Nolan has received several commissions for public sculptures, including at Loughshore Park, Co. Antrim, and Castlebar Fire Station Headquarters, Co. Mayo. His work is held in public collections including that of the Arts Council of Ireland, Crawford Art Gallery, Cork, and University College Dublin.",
-    "dc:source" : "https://imma.ie/artists/evin-nolan/",
-    "schema:birthDate" : "b.1930",
-    "schema:url" : "https://imma.ie/artists/evin-nolan/",
-    "rdfs:label" : "Evin Nolan"
+    "description" : "Irish artist Evin Nolan (born 1930) first exhibited at the Royal Hibernian Academy in 1956 and was an active member in the establishment of the Project Arts Centre. Nolan has received several commissions for public sculptures, including at Loughshore Park, Co. Antrim, and Castlebar Fire Station Headquarters, Co. Mayo. His work is held in public collections including that of the Arts Council of Ireland, Crawford Art Gallery, Cork, and University College Dublin.",
+    "source" : "https://imma.ie/artists/evin-nolan/",
+    "birthDate" : "b.1930",
+    "url" : "https://imma.ie/artists/evin-nolan/",
+    "label" : "Evin Nolan"
   }, {
     "@id" : "spice:artefact/green-touch",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/nolan-evin",
     "author" : "spice:agent/nolan-evin",
-    "schema:dateCreated" : "1969",
-    "schema:url" : "https://imma.ie/collection/green-touch/",
+    "dateCreated" : "1969",
+    "url" : "https://imma.ie/collection/green-touch/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/green-touch",
-    "arco-cd:hasTitle" : "Green Touch"
+    "hasTitle" : "Green Touch"
   }, {
     "@id" : "spice:artefact/orange-expansion",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/nolan-evin",
     "author" : "spice:agent/nolan-evin",
-    "schema:dateCreated" : "1974",
-    "schema:url" : "https://imma.ie/collection/orange-expansion/",
+    "dateCreated" : "1974",
+    "url" : "https://imma.ie/collection/orange-expansion/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/orange-expansion",
-    "arco-cd:hasTitle" : "Orange Expansion"
+    "hasTitle" : "Orange Expansion"
   }, {
     "@id" : "spice:artefact/trio",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/nolan-evin",
     "author" : "spice:agent/nolan-evin",
-    "schema:dateCreated" : "1984",
-    "schema:url" : "https://imma.ie/collection/trio/",
+    "dateCreated" : "1984",
+    "url" : "https://imma.ie/collection/trio/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/trio",
-    "arco-cd:hasTitle" : "Trio"
+    "hasTitle" : "Trio"
   }, {
     "@id" : "spice:attribution/green-touch",
     "@type" : "arco:AuthorshipAttribution",
@@ -56,40 +56,33 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -101,7 +94,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

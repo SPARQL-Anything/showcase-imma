@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/gift",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Gift is a 2001 work by Janet Mullarney. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/gift/",
-    "schema:creditText" : "IMMA Collection: Donation, private, 2004",
+    "description" : "Gift is a 2001 work by Janet Mullarney. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/gift/",
+    "creditText" : "IMMA Collection: Donation, private, 2004",
     "image" : "spice:documentation/gift",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Calico, metal structure, plaster",
-    "schema:size" : "50 x 50 x 25 cm (each)",
-    "arco-cd:hasInventory" : "IMMA.1790"
+    "material" : "Calico, metal structure, plaster",
+    "size" : "50 x 50 x 25 cm (each)",
+    "hasInventory" : "IMMA.1790"
   }, {
     "@id" : "spice:documentation/gift",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Janet Mullarney, Gift, 2001, Calico, metal structure, plaster, 50 x 50 x 25 cm (each), Collection Irish Museum of Modern Art, Donation, private, 2004 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Janet Mullarney, Gift, 2001, Calico, metal structure, plaster, 50 x 50 x 25 cm (each), Collection Irish Museum of Modern Art, Donation, private, 2004 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/1727.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/1727.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

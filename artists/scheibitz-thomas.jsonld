@@ -2,31 +2,31 @@
   "@graph" : [ {
     "@id" : "spice:agent/scheibitz-thomas",
     "@type" : "foaf:Person",
-    "dc:description" : "German artist Thomas Scheibitz (born 1968) studied painting and sculpture at Dresden Art Academy. Scheibitz’s paintings are composed of geometrical formations, containing recognizable, reoccurring symbols. He combines these abstract landscapes with architectural elements to convey the underlying principles of our seemingly well-ordered world. Scheibitz has exhibited extensively across Europe and America. He represented Germany in the 2004 Bienal de São Paulo and the 2005 Venice Biennale. Scheibitz had a solo exhibition at IMMA in 2007.",
-    "dc:source" : "https://imma.ie/artists/thomas-scheibitz/",
-    "schema:birthDate" : "b.1968",
-    "schema:url" : "https://imma.ie/artists/thomas-scheibitz/",
-    "rdfs:label" : "Thomas Scheibitz"
+    "description" : "German artist Thomas Scheibitz (born 1968) studied painting and sculpture at Dresden Art Academy. Scheibitz’s paintings are composed of geometrical formations, containing recognizable, reoccurring symbols. He combines these abstract landscapes with architectural elements to convey the underlying principles of our seemingly well-ordered world. Scheibitz has exhibited extensively across Europe and America. He represented Germany in the 2004 Bienal de São Paulo and the 2005 Venice Biennale. Scheibitz had a solo exhibition at IMMA in 2007.",
+    "source" : "https://imma.ie/artists/thomas-scheibitz/",
+    "birthDate" : "b.1968",
+    "url" : "https://imma.ie/artists/thomas-scheibitz/",
+    "label" : "Thomas Scheibitz"
   }, {
     "@id" : "spice:artefact/il-fume-e-le-sue-fonti",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/scheibitz-thomas",
     "author" : "spice:agent/scheibitz-thomas",
-    "schema:dateCreated" : "2011",
-    "schema:url" : "https://imma.ie/collection/il-fume-e-le-sue-fonti/",
+    "dateCreated" : "2011",
+    "url" : "https://imma.ie/collection/il-fume-e-le-sue-fonti/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/il-fume-e-le-sue-fonti",
-    "arco-cd:hasTitle" : "Il Fume e le Sue Fonti"
+    "hasTitle" : "Il Fume e le Sue Fonti"
   }, {
     "@id" : "spice:artefact/precious-basics-ii",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/scheibitz-thomas",
     "author" : "spice:agent/scheibitz-thomas",
-    "schema:dateCreated" : "2007",
-    "schema:url" : "https://imma.ie/collection/precious-basics-ii/",
+    "dateCreated" : "2007",
+    "url" : "https://imma.ie/collection/precious-basics-ii/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/precious-basics-ii",
-    "arco-cd:hasTitle" : "Precious Basics II"
+    "hasTitle" : "Precious Basics II"
   }, {
     "@id" : "spice:attribution/il-fume-e-le-sue-fonti",
     "@type" : "arco:AuthorshipAttribution",
@@ -42,44 +42,37 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -87,7 +80,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

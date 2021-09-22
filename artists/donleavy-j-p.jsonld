@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/donleavy-j-p",
     "@type" : "foaf:Person",
-    "dc:description" : "Born in New York to Irish parents, writer and artist J.P. Donleavy moved to Dublin in the 1940s, where he attended Trinity College. A significant figure in Dublin’s post-war creative scene, Donleavy’s first exhibition took place at the St. Stephen’s Green Gallery in 1948 and his best known novel ‘The Ginger Man’ was first published in 1955. Donleavy has exhibited in Ireland and England, most recently at the Molesworth Gallery, Dublin and the Dollar Street Gallery, Brighton.",
-    "dc:source" : "https://imma.ie/artists/j-p-donleavy/",
-    "schema:birthDate" : "b.1926",
-    "schema:url" : "https://imma.ie/artists/j-p-donleavy/",
-    "rdfs:label" : "J.P. Donleavy"
+    "description" : "Born in New York to Irish parents, writer and artist J.P. Donleavy moved to Dublin in the 1940s, where he attended Trinity College. A significant figure in Dublin’s post-war creative scene, Donleavy’s first exhibition took place at the St. Stephen’s Green Gallery in 1948 and his best known novel ‘The Ginger Man’ was first published in 1955. Donleavy has exhibited in Ireland and England, most recently at the Molesworth Gallery, Dublin and the Dollar Street Gallery, Brighton.",
+    "source" : "https://imma.ie/artists/j-p-donleavy/",
+    "birthDate" : "b.1926",
+    "url" : "https://imma.ie/artists/j-p-donleavy/",
+    "label" : "J.P. Donleavy"
   }, {
     "@id" : "spice:artefact/dont-mind-me-im-from-the-new-world",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/donleavy-j-p",
     "author" : "spice:agent/donleavy-j-p",
-    "schema:dateCreated" : "1930",
-    "schema:url" : "https://imma.ie/collection/dont-mind-me-im-from-the-new-world/",
+    "dateCreated" : "1930",
+    "url" : "https://imma.ie/collection/dont-mind-me-im-from-the-new-world/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/dont-mind-me-im-from-the-new-world",
-    "arco-cd:hasTitle" : "Don’t Mind Me I’m From The New World"
+    "hasTitle" : "Don’t Mind Me I’m From The New World"
   }, {
     "@id" : "spice:attribution/dont-mind-me-im-from-the-new-world",
     "@type" : "arco:AuthorshipAttribution",
@@ -32,48 +32,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

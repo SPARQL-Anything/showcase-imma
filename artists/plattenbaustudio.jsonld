@@ -1,30 +1,26 @@
 {
   "@id" : "spice:agent/plattenbaustudio",
   "@type" : "foaf:Person",
-  "dc:description" : [ "plattenbaustudio is a young architecture and drawing studio, based in Berlin and founded by Irish architects Jennifer O’Donnell and Jonathan Janssens. The studio works at the intersection between the fields of art, architecture and academia, purposefully situating itself on the borders between these different areas of focus, and always investigating the inhabitation of space as a fundamental, and influential aspect of human life.", "plattenbaustudio is a young architecture and drawing studio, based in Berlin and founded by Irish architects Jennifer O'Donnell and Jonathan Janssens. The studio works at the intersection between the fields of art, architecture and academia, purposefully situating itself on the borders between these different areas of focus, and always investigating the in habitation of space as a fundamental, and influential aspect of human life." ],
-  "dc:source" : "https://imma.ie/artists/plattenbaustudio/",
-  "schema:url" : "https://imma.ie/artists/plattenbaustudio/",
-  "rdfs:label" : "plattenbaustudio",
+  "description" : [ "plattenbaustudio is a young architecture and drawing studio, based in Berlin and founded by Irish architects Jennifer O’Donnell and Jonathan Janssens. The studio works at the intersection between the fields of art, architecture and academia, purposefully situating itself on the borders between these different areas of focus, and always investigating the inhabitation of space as a fundamental, and influential aspect of human life.", "plattenbaustudio is a young architecture and drawing studio, based in Berlin and founded by Irish architects Jennifer O'Donnell and Jonathan Janssens. The studio works at the intersection between the fields of art, architecture and academia, purposefully situating itself on the borders between these different areas of focus, and always investigating the in habitation of space as a fundamental, and influential aspect of human life." ],
+  "source" : "https://imma.ie/artists/plattenbaustudio/",
+  "url" : "https://imma.ie/artists/plattenbaustudio/",
+  "label" : "plattenbaustudio",
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

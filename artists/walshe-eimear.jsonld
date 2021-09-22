@@ -1,0 +1,95 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/walshe-eimear",
+    "@type" : "foaf:Person",
+    "description" : [ "Eimear Walshe lives and works in Longford. Recent projects and presentations include The Department of Sexual Revolution Studies, Van Abbemuseum / Design Academy Eindhoven (2018); Miraculous Thirst: How to get off in days of deprivation, curated by Daniel Bermingham, Galway Arts Centre (2018); and Separatist Tendencies for The Deviant Programme, Van Abbemuseum (2017).", "Eimear Walshe is an artist, writer, and educator that uses academic study in Queer Theory and Feminist Epistemology in the production of sculpture, publishing, performances, and lectures. " ],
+    "source" : "https://imma.ie/artists/eimear-walshe/",
+    "birthDate" : "b.1992",
+    "url" : "https://imma.ie/artists/eimear-walshe/",
+    "label" : "Eimear Walshe"
+  }, {
+    "@id" : "spice:artefact/beef",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/walshe-eimear",
+    "author" : "spice:agent/walshe-eimear",
+    "dateCreated" : "2020",
+    "url" : "https://imma.ie/collection/beef/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/beef",
+    "hasTitle" : "BEEF"
+  }, {
+    "@id" : "spice:artefact/how-much-no-thanks",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/walshe-eimear",
+    "author" : "spice:agent/walshe-eimear",
+    "dateCreated" : "2020",
+    "url" : "https://imma.ie/collection/how-much-no-thanks/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/how-much-no-thanks",
+    "hasTitle" : "How Much no Thanks"
+  }, {
+    "@id" : "spice:attribution/beef",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/walshe-eimear"
+  }, {
+    "@id" : "spice:attribution/how-much-no-thanks",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/walshe-eimear"
+  } ],
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

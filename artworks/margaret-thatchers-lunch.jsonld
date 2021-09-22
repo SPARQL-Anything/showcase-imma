@@ -1,0 +1,71 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/margaret-thatchers-lunch",
+    "@type" : "schema:CreativeWork",
+    "description" : "Jarman clearly developed bodies of work that explored sexuality, religion and the esoteric but he also became explicitly political at times. His tended to focus his attention on British politics, in particular, the policies of the Conservative Government. Works such as Margaret Thatcher’s Lunch (1986) equate violent death with cold- blooded politicking. Scratched into the surface is the phrase; ‘GBH promises, promises, promises, The Affluent Society’. The cryptic GBH has variously been interpreted as ‘Grievous Bodily Harm’ of ‘Great British Horror’",
+    "source" : "https://imma.ie/collection/margaret-thatchers-lunch/",
+    "creditText" : "IMMA Collection: Purchase, 2020, 2020",
+    "image" : "spice:documentation/margaret-thatchers-lunch",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "material" : "Oil and mixed media on canvas",
+    "size" : "45.7 x 41.2 cm",
+    "hasInventory" : "IMMA.4190"
+  }, {
+    "@id" : "spice:documentation/margaret-thatchers-lunch",
+    "@type" : "schema:ImageObject",
+    "caption" : "Derek Jarman, Margaret Thatcher’s Lunch, 1987, Oil and mixed media on canvas, 45.7 x 41.2 cm, Collection Irish Museum of Modern Art, Purchase, 2020, 2020 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "url" : "https://imma.ie/wp-content/uploads/2021/04/9485.jpg"
+  } ],
+  "@context" : {
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

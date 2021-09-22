@@ -2,31 +2,31 @@
   "@graph" : [ {
     "@id" : "spice:agent/benglis-lynda",
     "@type" : "foaf:Person",
-    "dc:description" : "American artist Lynda Benglis received her B.F.A. from Newcomb College, New Orleans, in 1964. Taking the body and landscape as primary references, she creates work that exudes immediacy and physicality. Her interest in process has led Benglis to experiment with materials, from poured latex and wax, to precious metals and glass. She has exhibited worldwide at venues including the Whitney Museum of American Art; the Centre George Pompidou, Paris; Tate Modern and Tate Liverpool. Her work is represented in major collections including MoMa, New York, and the Tate.",
-    "dc:source" : "https://imma.ie/artists/lynda-benglis/",
-    "schema:birthDate" : "b.1941",
-    "schema:url" : "https://imma.ie/artists/lynda-benglis/",
-    "rdfs:label" : "Lynda Benglis"
+    "description" : "American artist Lynda Benglis received her B.F.A. from Newcomb College, New Orleans, in 1964. Taking the body and landscape as primary references, she creates work that exudes immediacy and physicality. Her interest in process has led Benglis to experiment with materials, from poured latex and wax, to precious metals and glass. She has exhibited worldwide at venues including the Whitney Museum of American Art; the Centre George Pompidou, Paris; Tate Modern and Tate Liverpool. Her work is represented in major collections including MoMa, New York, and the Tate.",
+    "source" : "https://imma.ie/artists/lynda-benglis/",
+    "birthDate" : "b.1941",
+    "url" : "https://imma.ie/artists/lynda-benglis/",
+    "label" : "Lynda Benglis"
   }, {
     "@id" : "spice:artefact/caelum",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/benglis-lynda",
     "author" : "spice:agent/benglis-lynda",
-    "schema:dateCreated" : "1986",
-    "schema:url" : "https://imma.ie/collection/caelum/",
+    "dateCreated" : "1986",
+    "url" : "https://imma.ie/collection/caelum/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/caelum",
-    "arco-cd:hasTitle" : "Caelum"
+    "hasTitle" : "Caelum"
   }, {
     "@id" : "spice:artefact/north-south-east-west",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/benglis-lynda",
     "author" : "spice:agent/benglis-lynda",
-    "schema:dateCreated" : "2009",
-    "schema:url" : "https://imma.ie/collection/north-south-east-west/",
+    "dateCreated" : "2009",
+    "url" : "https://imma.ie/collection/north-south-east-west/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/north-south-east-west",
-    "arco-cd:hasTitle" : "North South East West"
+    "hasTitle" : "North South East West"
   }, {
     "@id" : "spice:attribution/caelum",
     "@type" : "arco:AuthorshipAttribution",
@@ -46,48 +46,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

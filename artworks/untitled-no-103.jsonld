@@ -2,66 +2,57 @@
   "@graph" : [ {
     "@id" : "spice:artefact/untitled-no-103",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Untitled (No.103) is a 1987 work by Anish Kapoor. It is not currently on display in IMMA. ",
-    "dc:source" : "https://imma.ie/collection/untitled-no-103/",
-    "schema:creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1994",
+    "description" : "Untitled (No.103) is a 1987 work by Anish Kapoor. It is not currently on display in IMMA. ",
+    "source" : "https://imma.ie/collection/untitled-no-103/",
+    "creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1994",
     "image" : "spice:documentation/untitled-no-103",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Papier mâché and pigment on paper",
-    "schema:size" : "37 x 5 x 54.5 cm",
-    "arco-cd:hasInventory" : "L.561 LW"
+    "material" : "Papier mâché and pigment on paper",
+    "size" : "37 x 5 x 54.5 cm",
+    "hasInventory" : "L.561 LW"
   }, {
     "@id" : "spice:documentation/untitled-no-103",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Anish Kapoor, Untitled (No.103), 1987, Papier mâché and pigment on paper, 37 x 5 x 54.5 cm, Collection Irish Museum of Modern Art, Loan, Weltkunst Foundation, 1994 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Anish Kapoor, Untitled (No.103), 1987, Papier mâché and pigment on paper, 37 x 5 x 54.5 cm, Collection Irish Museum of Modern Art, Loan, Weltkunst Foundation, 1994 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2020/02/945.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2020/02/945.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

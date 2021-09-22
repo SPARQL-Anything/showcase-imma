@@ -1,0 +1,95 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/haugh-emma-wolf",
+    "@type" : "foaf:Person",
+    "description" : [ "Emma Wolf Haugh is a visual artist and educator based in Dublin and Berlin. Working across disciplines she weaves together installation, performance, publishing and collaborative workshop techniques. Haugh is interested in re-orienting attention in relation to cultural narratives and develops her work from a working class-queer-feminist questioning of what is missing? A continued engagement with club culture and dyke aesthetics informs the collective making of temporary, autonomous spaces. A background in working with Augusto Boals’ Theatre of the Oppressed has inflected her work with the particular quality of overlapping critique and proposition making towards shared spaces of potential and alterity.", "Emma Wolf-Haugh is a visual artist and educator. Weaving together installation, performance, publishing and collaborative workshop techniques, she is interested in reorienting attention towards cultural narratives by developing work from a questioning of ‘what is missing’. Her work is informed by how spaces, identities and social relations are generated temporarily in theatre, drag performance and queer DIY club scenes, via aesthetic and somatic practices. Since 2015 Haugh is part of the artist/curatorial collective The Many Headed Hydra together with the curator Suza Husse. Haugh has worked with: The Academy of Fine Arts Vienna (2017); The Universität der Künste Berlin (2017); IADT Dún Laoghaire (2017); NCAD, Dublin (2015); Hamburger Bahnhof Berlin (2018); Akademie der Künste der Welt, Cologne (2018) and Gasworks, London (2017). Selected projects include: Domestic Optimism, Graz Grazer Kunstverein, Austria (2020), Colomboscope Interdisciplinary Arts Festival, Sri Lanka (2019); Sex in Public, nGbK, Berlin (2018); Miraculous Thirst how to get off in days of deprivation, Galway Arts Centre (2018); Poverty of Vision, ROSC 50 Artist Research Commission, IMMA (2017) and Having A KiKi, Queer Desire &amp; Public Space, editor, published by PVA (2016)." ],
+    "source" : "https://imma.ie/artists/emma-wolf-haugh/",
+    "birthDate" : "b.1974",
+    "url" : "https://imma.ie/artists/emma-wolf-haugh/",
+    "label" : "Emma Wolf Haugh"
+  }, {
+    "@id" : "spice:artefact/domestic-optimism-act-one-a-lesbian-love-story",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/haugh-emma-wolf",
+    "author" : "spice:agent/haugh-emma-wolf",
+    "dateCreated" : "2020",
+    "url" : "https://imma.ie/collection/domestic-optimism-act-one-a-lesbian-love-story/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/domestic-optimism-act-one-a-lesbian-love-story",
+    "hasTitle" : "Domestic Optimism – Act One: A Lesbian Love Story,"
+  }, {
+    "@id" : "spice:artefact/poverty-of-vision",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/haugh-emma-wolf",
+    "author" : "spice:agent/haugh-emma-wolf",
+    "dateCreated" : "2017",
+    "url" : "https://imma.ie/collection/poverty-of-vision/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/poverty-of-vision",
+    "hasTitle" : "Poverty of Vision"
+  }, {
+    "@id" : "spice:attribution/domestic-optimism-act-one-a-lesbian-love-story",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/haugh-emma-wolf"
+  }, {
+    "@id" : "spice:attribution/poverty-of-vision",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/haugh-emma-wolf"
+  } ],
+  "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

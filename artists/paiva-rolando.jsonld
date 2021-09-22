@@ -2,20 +2,20 @@
   "@graph" : [ {
     "@id" : "spice:agent/paiva-rolando",
     "@type" : "foaf:Person",
-    "dc:source" : "https://imma.ie/artists/rolando-paiva/",
-    "schema:birthDate" : "1942–2003",
-    "schema:url" : "https://imma.ie/artists/rolando-paiva/",
-    "rdfs:label" : "Rolando Paiva"
+    "source" : "https://imma.ie/artists/rolando-paiva/",
+    "birthDate" : "1942–2003",
+    "url" : "https://imma.ie/artists/rolando-paiva/",
+    "label" : "Rolando Paiva"
   }, {
     "@id" : "spice:artefact/chagrin-damour",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/paiva-rolando",
     "author" : "spice:agent/paiva-rolando",
-    "schema:dateCreated" : "1982",
-    "schema:url" : "https://imma.ie/collection/chagrin-damour/",
+    "dateCreated" : "1982",
+    "url" : "https://imma.ie/collection/chagrin-damour/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/chagrin-damour",
-    "arco-cd:hasTitle" : "Chagrin d’Amour"
+    "hasTitle" : "Chagrin d’Amour"
   }, {
     "@id" : "spice:attribution/chagrin-damour",
     "@type" : "arco:AuthorshipAttribution",
@@ -23,20 +23,16 @@
   } ],
   "@context" : {
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -47,16 +43,14 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -68,7 +62,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

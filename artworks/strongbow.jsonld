@@ -2,37 +2,33 @@
   "@graph" : [ {
     "@id" : "spice:artefact/strongbow",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Strongbow is a 1978 work by James Coleman. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/strongbow/",
-    "schema:creditText" : "IMMA Collection: Purchase, 1991",
+    "description" : "Strongbow is a 1978 work by James Coleman. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/strongbow/",
+    "creditText" : "IMMA Collection: Purchase, 1991",
     "image" : "spice:documentation/strongbow",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Resin cast, plaster mould, Sony Art Couture monitor, audio equipment and speakers",
-    "arco-cd:hasInventory" : "IMMA.2"
+    "material" : "Resin cast, plaster mould, Sony Art Couture monitor, audio equipment and speakers",
+    "hasInventory" : "IMMA.2"
   }, {
     "@id" : "spice:documentation/strongbow",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "James Coleman, Strongbow, 1978, Resin cast, plaster mould, Sony Art Couture monitor, audio equipment and speakers, Collection Irish Museum of Modern Art, Purchase, 1991 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "James Coleman, Strongbow, 1978, Resin cast, plaster mould, Sony Art Couture monitor, audio equipment and speakers, Collection Irish Museum of Modern Art, Purchase, 1991 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/792.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/792.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -43,20 +39,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

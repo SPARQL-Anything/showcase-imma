@@ -2,38 +2,34 @@
   "@graph" : [ {
     "@id" : "spice:artefact/coming",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "‘Coming’ works with a toolbox of iconic modern artworks and objects, including Marcel Duchamp’s ‘Fountain’ and Carl André’s ‘Equivalent VIII’, represented in Craig-Martin’s signature style. A constantly evolving homage to artists that Craig-Martin felt revolutionised modern art.",
-    "dc:source" : "https://imma.ie/collection/coming/",
-    "schema:creditText" : "IMMA Collection: Purchase, 2006",
+    "description" : "‘Coming’ works with a toolbox of iconic modern artworks and objects, including Marcel Duchamp’s ‘Fountain’ and Carl André’s ‘Equivalent VIII’, represented in Craig-Martin’s signature style. A constantly evolving homage to artists that Craig-Martin felt revolutionised modern art.",
+    "source" : "https://imma.ie/collection/coming/",
+    "creditText" : "IMMA Collection: Purchase, 2006",
     "image" : "spice:documentation/coming",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Wall-mounted LCD monitor and computer with proprietary software",
-    "schema:size" : "47 x 35.6 x 14 cm",
-    "schema:version" : "Edition 2/10",
-    "arco-cd:hasInventory" : "IMMA.2001"
+    "material" : "Wall-mounted LCD monitor and computer with proprietary software",
+    "size" : "47 x 35.6 x 14 cm",
+    "version" : "Edition 2/10",
+    "hasInventory" : "IMMA.2001"
   }, {
     "@id" : "spice:documentation/coming",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Michael Craig-Martin, Coming, 2004, Wall-mounted LCD monitor and computer with proprietary software, 47 x 35.6 x 14 cm, Collection Irish Museum of Modern Art, Purchase, 2006 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Michael Craig-Martin, Coming, 2004, Wall-mounted LCD monitor and computer with proprietary software, 47 x 35.6 x 14 cm, Collection Irish Museum of Modern Art, Purchase, 2006 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -44,24 +40,19 @@
       "@type" : "@id"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

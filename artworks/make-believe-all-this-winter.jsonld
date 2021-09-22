@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/make-believe-all-this-winter",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Make Believe all this Winter reflects Souter’s fascination with the circus and clowns. ‘There is a certain poignancy to clowning’, she has observed, and the mood is simultaneously humorous and sad. Her composition has just the right measure of flatness, both in colour and texture. During this period her palette was muted with a preponderance of shades of yellow, white and cream and green.",
-    "dc:source" : "https://imma.ie/collection/make-believe-all-this-winter/",
-    "schema:creditText" : "IMMA Collection: Heritage Gift by the Bank of Ireland from the Bank of Ireland collection, 2008",
+    "description" : "Make Believe all this Winter reflects Souter’s fascination with the circus and clowns. ‘There is a certain poignancy to clowning’, she has observed, and the mood is simultaneously humorous and sad. Her composition has just the right measure of flatness, both in colour and texture. During this period her palette was muted with a preponderance of shades of yellow, white and cream and green.",
+    "source" : "https://imma.ie/collection/make-believe-all-this-winter/",
+    "creditText" : "IMMA Collection: Heritage Gift by the Bank of Ireland from the Bank of Ireland collection, 2008",
     "image" : "spice:documentation/make-believe-all-this-winter",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Oil on board",
-    "schema:size" : "34 x 38 cm",
-    "arco-cd:hasInventory" : "IMMA.2622"
+    "material" : "Oil on board",
+    "size" : "34 x 38 cm",
+    "hasInventory" : "IMMA.2622"
   }, {
     "@id" : "spice:documentation/make-believe-all-this-winter",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Camille Souter, Make Believe all This Winter, 1964, Oil on board, 34 x 38 cm, Collection Irish Museum of Modern Art, Heritage Gift by the Bank of Ireland from the Bank of Ireland collection, 2008 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Camille Souter, Make Believe all This Winter, 1964, Oil on board, 34 x 38 cm, Collection Irish Museum of Modern Art, Heritage Gift by the Bank of Ireland from the Bank of Ireland collection, 2008 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/3497.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/3497.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

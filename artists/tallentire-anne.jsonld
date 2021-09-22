@@ -2,37 +2,65 @@
   "@graph" : [ {
     "@id" : "spice:agent/tallentire-anne",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish artist Anne Tallentire (born 1949) studied Fine Art Media at the Slade School of Art. Often documenting the actions of both herself and others, Tallentire’s work is concerned with interrogating the apparatus of mapping and naming, and the relationship between the specific and the general, social control and urban occupations. Tallentire has exhibited in Ireland and Europe, including a solo exhibition at IMMA in 2010. She is currently a Professor of Fine Art at Central Saint Martins College of Art and Design, London.",
-    "dc:source" : "https://imma.ie/artists/anne-tallentire/",
-    "schema:birthDate" : "b.1949",
-    "schema:url" : "https://imma.ie/artists/anne-tallentire/",
-    "rdfs:label" : "Anne Tallentire"
+    "description" : [ "Irish artist Anne Tallentire (born 1949) studied Fine Art Media at the Slade School of Art. Often documenting the actions of both herself and others, Tallentire’s work is concerned with interrogating the apparatus of mapping and naming, and the relationship between the specific and the general, social control and urban occupations.", "Anne Tallentire is an artist, born in Northern Ireland who lives and works in London. In 1999 she represented Ireland at the Venice Biennale and in 2010 IMMA staged a major survey exhibition of her work entitled ‘This and other Things 1999 – 2010’.Anne co-organises Hmn a quarterly sound test bed centre with writer and curator Chris Fite Wassilak. Often documenting the actions of both herself and others, Tallentire’s work is concerned with interrogating the apparatus of mapping and naming, and the relationship between the specific and the general, social control and urban occupations. She is a member of Aosdána, Emeritus Professor in Fine Art, at Central Saint Martins, University of the Arts London, where she taught for over two decades and is represented by gallery Hollybush Gardens, London. " ],
+    "source" : "https://imma.ie/artists/anne-tallentire/",
+    "birthDate" : "b.1949",
+    "url" : "https://imma.ie/artists/anne-tallentire/",
+    "label" : "Anne Tallentire"
   }, {
     "@id" : "spice:artefact/document",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/tallentire-anne",
     "author" : "spice:agent/tallentire-anne",
-    "schema:dateCreated" : "2010",
-    "schema:url" : "https://imma.ie/collection/document/",
+    "dateCreated" : "2010",
+    "url" : "https://imma.ie/collection/document/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/document",
-    "arco-cd:hasTitle" : "Document"
+    "hasTitle" : "Document"
+  }, {
+    "@id" : "spice:artefact/setting-out-2",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/tallentire-anne",
+    "author" : "spice:agent/tallentire-anne",
+    "dateCreated" : "2020",
+    "url" : "https://imma.ie/collection/setting-out-2/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/setting-out-2",
+    "hasTitle" : "Setting Out 2"
   }, {
     "@id" : "spice:artefact/there",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/tallentire-anne",
     "author" : "spice:agent/tallentire-anne",
-    "schema:dateCreated" : "2010",
-    "schema:url" : "https://imma.ie/collection/there/",
+    "dateCreated" : "2010",
+    "url" : "https://imma.ie/collection/there/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/there",
-    "arco-cd:hasTitle" : "There"
+    "hasTitle" : "There"
+  }, {
+    "@id" : "spice:artefact/these-aggregations",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/tallentire-anne",
+    "author" : "spice:agent/tallentire-anne",
+    "dateCreated" : "2019",
+    "url" : "https://imma.ie/collection/these-aggregations/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/these-aggregations",
+    "hasTitle" : "These Aggregations"
   }, {
     "@id" : "spice:attribution/document",
     "@type" : "arco:AuthorshipAttribution",
     "hasAttributedAuthor" : "spice:agent/tallentire-anne"
   }, {
+    "@id" : "spice:attribution/setting-out-2",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/tallentire-anne"
+  }, {
     "@id" : "spice:attribution/there",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/tallentire-anne"
+  }, {
+    "@id" : "spice:attribution/these-aggregations",
     "@type" : "arco:AuthorshipAttribution",
     "hasAttributedAuthor" : "spice:agent/tallentire-anne"
   } ],
@@ -42,40 +70,33 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -87,7 +108,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

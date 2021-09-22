@@ -1,35 +1,142 @@
 {
-  "@id" : "spice:agent/johnston-sandra",
-  "@type" : "foaf:Person",
-  "dc:description" : [ "Sandra Johnston’s artworks often involve exploring the aftermath of trauma through acts of commemoration that exist as forms of live testimony and empathetic receptiveness. Her performances are experiential in nature, based on improvisational processes that explore physical states of responsiveness, formed in relation to the actualities of specific situations and the moment of making. Actions are assembled using mainly found objects, each offering the Johnston different kinds of tactile stimulation, informing through memory and haptic perception – as opposed to conceptual devising. The performances are intended as propositions, whereby the audience observes the emergence of latent relationships between materials and gestures, offered as ‘provisional behaviors’ and existing unapologetically as irrational, incomplete and mutable encounters.", "Sandra Johnston’s artworks often involve exploring the aftermath of trauma through acts of commemoration that exist as forms of live testimony and empathetic receptiveness. Her performances are experiential in nature, based on improvisational processes that explore physical states of responsiveness, formed in relation to the actualities of specific situations and the moment of making. " ],
-  "dc:source" : "https://imma.ie/artists/sandra-johnston/",
-  "schema:birthDate" : "b.1968",
-  "schema:url" : "https://imma.ie/artists/sandra-johnston/",
-  "rdfs:label" : "Sandra Johnston",
+  "@graph" : [ {
+    "@id" : "spice:agent/johnston-sandra",
+    "@type" : "foaf:Person",
+    "description" : [ "Sandra Johnston’s artworks often involve exploring the aftermath of trauma through acts of commemoration that exist as forms of live testimony and empathetic receptiveness. Her performances are experiential in nature, based on improvisational processes that explore physical states of responsiveness, formed in relation to the actualities of specific situations and the moment of making. Actions are assembled using mainly found objects, each offering the Johnston different kinds of tactile stimulation, informing through memory and haptic perception – as opposed to conceptual devising. The performances are intended as propositions, whereby the audience observes the emergence of latent relationships between materials and gestures, offered as ‘provisional behaviors’ and existing unapologetically as irrational, incomplete and mutable encounters.", "Sandra Johnston (Northern Ireland) has worked internationally since 1992, working predominantly in the areas of site-responsive performance and installation. Her actions have often involved exploring the aftermath of trauma through developing acts of commemoration as forms of testimony and empathetic encounter. She has held various teaching and research posts and currently is Senior Lecturer in Fine Art at the Northumbria University, Newcastle. Her practice-based investigation into issues of ‘trauma of place’ were extended as a PhD project entitled – Beyond Reasonable Doubt: An Investigation of Doubt, Risk and Testimony Through Performance Art Processes in Relation to Systems of Legal Justice published in 2013 with LIT (Berlin). She has been a co-founder and committee member of various artist-run collectives in Belfast, notably: CATALYST ARTS and BBEYOND. Some of her most recent performances and projects include: Here-to-Here, Notwithstanding, Fierce Festival 2019, Birmingham, UK (upcoming); The Biennial of Curitiba and p.ARTE Festival 2019 – Curitiba, Southern Brazil (upcoming); Asiatopia 20th Performance Festival, Bangkok Art and Culture Centre, Bangkok, Thailand (2018), Live Action 13, Gothenburg, Sweden (2018), Minimal, Poor, Present, as part of Glasgow International 2018, Scotland (2018), We Shout and Shout, But No One Listens: Art from Conflict Zones, CAMP/ Center for Art on Migration Politics, Copenhagen, Denmark (2017), Rise Up: Ending Racism, Poverty and War, part of Freedom City Newcastle upon Tyne, England (2017), Future Histories, Kilmainham Gaol, Dublin (2016), Border Crossings, SASA Gallery, Adelaide, Australia (2016), Lay Allude, with Alastair MacLennan, Bòlit Museum, Girona, Spain (2016), Tangible Live, EMMA Espoo Museum of Modern Art, Finland (2015), VIVA! Art Action, Montréal, Canada (2015)." ],
+    "source" : "https://imma.ie/artists/sandra-johnston/",
+    "birthDate" : "b.1968",
+    "url" : "https://imma.ie/artists/sandra-johnston/",
+    "label" : "Sandra Johnston"
+  }, {
+    "@id" : "spice:artefact/amend",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/johnston-sandra",
+    "author" : "spice:agent/johnston-sandra",
+    "dateCreated" : "2010",
+    "url" : "https://imma.ie/collection/amend/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/amend",
+    "hasTitle" : "Amend"
+  }, {
+    "@id" : "spice:artefact/even-now",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/johnston-sandra",
+    "author" : "spice:agent/johnston-sandra",
+    "dateCreated" : "2012",
+    "url" : "https://imma.ie/collection/even-now/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/even-now",
+    "hasTitle" : "Even Now"
+  }, {
+    "@id" : "spice:artefact/interview",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/johnston-sandra",
+    "author" : "spice:agent/johnston-sandra",
+    "dateCreated" : "2000",
+    "url" : "https://imma.ie/collection/interview/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/interview",
+    "hasTitle" : "Interview"
+  }, {
+    "@id" : "spice:artefact/short-strand",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/johnston-sandra",
+    "author" : "spice:agent/johnston-sandra",
+    "dateCreated" : "2000",
+    "url" : "https://imma.ie/collection/short-strand/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/short-strand",
+    "hasTitle" : "Short Strand"
+  }, {
+    "@id" : "spice:artefact/wait-it-out",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/johnston-sandra",
+    "author" : "spice:agent/johnston-sandra",
+    "dateCreated" : "2019",
+    "url" : "https://imma.ie/collection/wait-it-out/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/wait-it-out",
+    "hasTitle" : "Wait it out"
+  }, {
+    "@id" : "spice:artefact/waiting-out",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/johnston-sandra",
+    "author" : "spice:agent/johnston-sandra",
+    "dateCreated" : "2017",
+    "url" : "https://imma.ie/collection/waiting-out/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/waiting-out",
+    "hasTitle" : "Waiting Out"
+  }, {
+    "@id" : "spice:attribution/amend",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/johnston-sandra"
+  }, {
+    "@id" : "spice:attribution/even-now",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/johnston-sandra"
+  }, {
+    "@id" : "spice:attribution/interview",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/johnston-sandra"
+  }, {
+    "@id" : "spice:attribution/short-strand",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/johnston-sandra"
+  }, {
+    "@id" : "spice:attribution/wait-it-out",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/johnston-sandra"
+  }, {
+    "@id" : "spice:attribution/waiting-out",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/johnston-sandra"
+  } ],
   "@context" : {
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
     },
-    "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

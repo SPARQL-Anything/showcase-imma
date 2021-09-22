@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/steinberg-saul",
     "@type" : "foaf:Person",
-    "dc:description" : "Romanian cartoonist and artist Saul Steinberg (1914-1999) studied architecture in Italy before moving to America in 1941. A prolific artist, he is best known for his pen and ink drawings created for ‘Life’ magazine, ‘Harper’s Bazaar’ and ‘The New Yorker’. Steinberg also painted, sculpted and made collages and exhibited in galleries and museums worldwide. Retrospectives of his work were held at the Whitney Museum of American Art and the Institut Valencià d'Art Modern.",
-    "dc:source" : "https://imma.ie/artists/saul-steinberg/",
-    "schema:birthDate" : "1914–1999",
-    "schema:url" : "https://imma.ie/artists/saul-steinberg/",
-    "rdfs:label" : "Saul Steinberg"
+    "description" : "Romanian cartoonist and artist Saul Steinberg (1914-1999) studied architecture in Italy before moving to America in 1941. A prolific artist, he is best known for his pen and ink drawings created for ‘Life’ magazine, ‘Harper’s Bazaar’ and ‘The New Yorker’. Steinberg also painted, sculpted and made collages and exhibited in galleries and museums worldwide. Retrospectives of his work were held at the Whitney Museum of American Art and the Institut Valencià d'Art Modern.",
+    "source" : "https://imma.ie/artists/saul-steinberg/",
+    "birthDate" : "1914–1999",
+    "url" : "https://imma.ie/artists/saul-steinberg/",
+    "label" : "Saul Steinberg"
   }, {
     "@id" : "spice:artefact/sams-art",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/steinberg-saul",
     "author" : "spice:agent/steinberg-saul",
-    "schema:dateCreated" : "1966",
-    "schema:url" : "https://imma.ie/collection/sams-art/",
+    "dateCreated" : "1966",
+    "url" : "https://imma.ie/collection/sams-art/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/sams-art",
-    "arco-cd:hasTitle" : "Sam’s Art"
+    "hasTitle" : "Sam’s Art"
   }, {
     "@id" : "spice:attribution/sams-art",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,24 +28,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -56,24 +53,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

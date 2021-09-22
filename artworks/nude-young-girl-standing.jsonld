@@ -2,66 +2,57 @@
   "@graph" : [ {
     "@id" : "spice:artefact/nude-young-girl-standing",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "‘Nude Young Girl Standing’, 1965 is from McKenna’s earlier period. Made while the artist was in Florence and carved from a single piece of pear-wood, this still, solitary and elongated figure is rendered in a style much in contrast to his later work involving figures constructed from multiple pieces of wood and often suggesting a monumental presence or implied movement.",
-    "dc:source" : "https://imma.ie/collection/nude-young-girl-standing/",
-    "schema:creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
+    "description" : "‘Nude Young Girl Standing’, 1965 is from McKenna’s earlier period. Made while the artist was in Florence and carved from a single piece of pear-wood, this still, solitary and elongated figure is rendered in a style much in contrast to his later work involving figures constructed from multiple pieces of wood and often suggesting a monumental presence or implied movement.",
+    "source" : "https://imma.ie/collection/nude-young-girl-standing/",
+    "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/nude-young-girl-standing",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Wood",
-    "schema:size" : "94.3 x 17.2 x 8.8 cm",
-    "arco-cd:hasInventory" : "IMMA.293 GL"
+    "material" : "Wood",
+    "size" : "94.3 x 17.2 x 8.8 cm",
+    "hasInventory" : "IMMA.293 GL"
   }, {
     "@id" : "spice:documentation/nude-young-girl-standing",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "James McKenna, Nude Young Girl Standing, 1965, Wood, 94.3 x 17.2 x 8.8 cm, Collection Irish Museum of Modern Art, Gordon Lambert Trust, 1992 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "James McKenna, Nude Young Girl Standing, 1965, Wood, 94.3 x 17.2 x 8.8 cm, Collection Irish Museum of Modern Art, Gordon Lambert Trust, 1992 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/1963.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/1963.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

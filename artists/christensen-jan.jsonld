@@ -1,30 +1,26 @@
 {
   "@id" : "spice:agent/christensen-jan",
   "@type" : "foaf:Person",
-  "dc:description" : [ "Born 1977, Copenhagen. Lives and works in Berlin and Oslo.", "Jan Christensen’s work consists mostly of big installations for exhibitions and site-specific projects. Most of his work is wall drawing and painting, it is carefully planned out and sketched with a computer before it is meticulously carried out on location." ],
-  "dc:source" : "https://imma.ie/artists/jan-christensen/",
-  "schema:url" : "https://imma.ie/artists/jan-christensen/",
-  "rdfs:label" : "Jan Christensen",
+  "description" : [ "Born 1977, Copenhagen. Lives and works in Berlin and Oslo.", "Jan Christensen’s work consists mostly of big installations for exhibitions and site-specific projects. Most of his work is wall drawing and painting, it is carefully planned out and sketched with a computer before it is meticulously carried out on location." ],
+  "source" : "https://imma.ie/artists/jan-christensen/",
+  "url" : "https://imma.ie/artists/jan-christensen/",
+  "label" : "Jan Christensen",
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

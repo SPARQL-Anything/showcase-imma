@@ -4,19 +4,19 @@
     "@type" : "foaf:Person",
     "description" : "_:b0",
     "dc:description" : "Sam Jury graduated with an MFA in Painting from Cornell University in 1998 followed by a two year Fellowship in Print and Digital Media at the Royal Academy Schools, London. She has lived and worked in the US and Middle East and has exhibited internationally with solo shows in London and New York, and group shows in China, Spain, and Switzerland. In 2009 Jury was artist in residence at IMMA. She is based in the UK.",
-    "dc:source" : "https://imma.ie/artists/sam-jury/",
-    "schema:url" : "https://imma.ie/artists/sam-jury/",
-    "rdfs:label" : "Sam Jury"
+    "source" : "https://imma.ie/artists/sam-jury/",
+    "url" : "https://imma.ie/artists/sam-jury/",
+    "label" : "Sam Jury"
   }, {
     "@id" : "spice:artefact/all-things-being-equal",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/jury-sam",
     "author" : "spice:agent/jury-sam",
-    "schema:dateCreated" : "2009",
-    "schema:url" : "https://imma.ie/collection/all-things-being-equal/",
+    "dateCreated" : "2009",
+    "url" : "https://imma.ie/collection/all-things-being-equal/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/all-things-being-equal",
-    "arco-cd:hasTitle" : "All Things Being Equal"
+    "hasTitle" : "All Things Being Equal"
   }, {
     "@id" : "spice:attribution/all-things-being-equal",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,24 +28,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -56,12 +53,10 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -69,7 +64,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

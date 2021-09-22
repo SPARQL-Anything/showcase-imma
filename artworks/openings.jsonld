@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/openings",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "One could say that the paintings of Anne Madden function as an entrance to a symbolic realm, and indeed, some of her works from the 1980s have titles of architectural features, such as ‘Openings’ and ‘Window’. In ‘Openings’ Madden presents a dynamic interplay of planes and frames within frames, further developing the idea of a painting as a doorway to another dimension.",
-    "dc:source" : "https://imma.ie/collection/openings/",
-    "schema:creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
+    "description" : "One could say that the paintings of Anne Madden function as an entrance to a symbolic realm, and indeed, some of her works from the 1980s have titles of architectural features, such as ‘Openings’ and ‘Window’. In ‘Openings’ Madden presents a dynamic interplay of planes and frames within frames, further developing the idea of a painting as a doorway to another dimension.",
+    "source" : "https://imma.ie/collection/openings/",
+    "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/openings",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Gouache on paper",
-    "schema:size" : "63.3 x 100.3 cm",
-    "arco-cd:hasInventory" : "IMMA.307 GL"
+    "material" : "Gouache on paper",
+    "size" : "63.3 x 100.3 cm",
+    "hasInventory" : "IMMA.307 GL"
   }, {
     "@id" : "spice:documentation/openings",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Anne Madden, Openings, 1979, Gouache on paper, 63.3 x 100.3 cm, Collection Irish Museum of Modern Art, Gordon Lambert Trust, 1992 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Anne Madden, Openings, 1979, Gouache on paper, 63.3 x 100.3 cm, Collection Irish Museum of Modern Art, Gordon Lambert Trust, 1992 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/173.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/173.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

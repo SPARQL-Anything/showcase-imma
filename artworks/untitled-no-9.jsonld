@@ -2,71 +2,61 @@
   "@graph" : [ {
     "@id" : "spice:artefact/untitled-no-9",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Untitled (No.9) is a 1988 work by Anish Kapoor. It is not currently on display in IMMA. ",
-    "dc:source" : "https://imma.ie/collection/untitled-no-9/",
-    "schema:creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1994",
+    "description" : "Untitled (No.9) is a 1988 work by Anish Kapoor. It is not currently on display in IMMA. ",
+    "source" : "https://imma.ie/collection/untitled-no-9/",
+    "creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1994",
     "image" : "spice:documentation/untitled-no-9",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Colour aquatint etching",
-    "schema:size" : "67.9 x 51.4 cm",
-    "schema:version" : "Edition of 20.",
-    "arco-cd:hasInventory" : "L.567 LW"
+    "material" : "Colour aquatint etching",
+    "size" : "67.9 x 51.4 cm",
+    "version" : "Edition of 20.",
+    "hasInventory" : "L.567 LW"
   }, {
     "@id" : "spice:documentation/untitled-no-9",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Anish Kapoor, Untitled (No.9), 1988, Colour aquatint etching, 67.9 x 51.4 cm, Collection Irish Museum of Modern Art, Loan, Weltkunst Foundation, 1994 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Anish Kapoor, Untitled (No.9), 1988, Colour aquatint etching, 67.9 x 51.4 cm, Collection Irish Museum of Modern Art, Loan, Weltkunst Foundation, 1994 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2020/01/950.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2020/01/950.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

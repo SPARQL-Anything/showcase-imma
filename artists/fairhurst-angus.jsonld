@@ -2,31 +2,31 @@
   "@graph" : [ {
     "@id" : "spice:agent/fairhurst-angus",
     "@type" : "foaf:Person",
-    "dc:description" : "English artist Angus Fairhurst worked in a range of media including photography, video and painting but is perhaps best known for his bronze gorilla sculptures. Fairhurst studied Fine Art at Goldsmiths College in the 1980s and was among the generation of British artists that came to be known as the YBA’s (Young British Artists). In 1988 he was one of 16 students to take part in the exhibition Freeze, organised by Damien Hirst, that launched a number of their careers. He went on to collaborate with Damien Hirst and Sarah Lucas on many projects.",
-    "dc:source" : "https://imma.ie/artists/angus-fairhurst/",
-    "schema:birthDate" : "1966–2008",
-    "schema:url" : "https://imma.ie/artists/angus-fairhurst/",
-    "rdfs:label" : "Angus Fairhurst"
+    "description" : "English artist Angus Fairhurst worked in a range of media including photography, video and painting but is perhaps best known for his bronze gorilla sculptures. Fairhurst studied Fine Art at Goldsmiths College in the 1980s and was among the generation of British artists that came to be known as the YBA’s (Young British Artists). In 1988 he was one of 16 students to take part in the exhibition Freeze, organised by Damien Hirst, that launched a number of their careers. He went on to collaborate with Damien Hirst and Sarah Lucas on many projects.",
+    "source" : "https://imma.ie/artists/angus-fairhurst/",
+    "birthDate" : "1966–2008",
+    "url" : "https://imma.ie/artists/angus-fairhurst/",
+    "label" : "Angus Fairhurst"
   }, {
     "@id" : "spice:artefact/untitled-45",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/fairhurst-angus",
     "author" : "spice:agent/fairhurst-angus",
-    "schema:dateCreated" : "1994",
-    "schema:url" : "https://imma.ie/collection/untitled-45/",
+    "dateCreated" : "1994",
+    "url" : "https://imma.ie/collection/untitled-45/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-45",
-    "arco-cd:hasTitle" : "Untitled"
+    "hasTitle" : "Untitled"
   }, {
     "@id" : "spice:artefact/when-i-woke-up-in-the-morning-the-feeling-was-still-there",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/fairhurst-angus",
     "author" : "spice:agent/fairhurst-angus",
-    "schema:dateCreated" : "1992",
-    "schema:url" : "https://imma.ie/collection/when-i-woke-up-in-the-morning-the-feeling-was-still-there/",
+    "dateCreated" : "1992",
+    "url" : "https://imma.ie/collection/when-i-woke-up-in-the-morning-the-feeling-was-still-there/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/when-i-woke-up-in-the-morning-the-feeling-was-still-there",
-    "arco-cd:hasTitle" : "When I Woke Up in the Morning, the Feeling Was Still There"
+    "hasTitle" : "When I Woke Up in the Morning, the Feeling Was Still There"
   }, {
     "@id" : "spice:attribution/untitled-45",
     "@type" : "arco:AuthorshipAttribution",
@@ -46,48 +46,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

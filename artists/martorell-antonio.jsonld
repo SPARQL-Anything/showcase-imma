@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/martorell-antonio",
     "@type" : "foaf:Person",
-    "dc:description" : "Antonio Martorell was born in Santurce, Puerto Rico. A painter and graphic artist, he is also a writer and radio and television personality. He regularly exhibits in Puerto Rico and the United States. Martorell is currently an artist in residence at the University Of Puerto Rico-Cayey University. In Puerto Rico he holds workshops in Playa de Ponce, Hato Rey. He also interviews visual artists for the television show, En la Punta de La Lengua on WIPR-TV.",
-    "dc:source" : "https://imma.ie/artists/antonio-martorell/",
-    "schema:birthDate" : "b.1939",
-    "schema:url" : "https://imma.ie/artists/antonio-martorell/",
-    "rdfs:label" : "Antonio Martorell"
+    "description" : "Antonio Martorell was born in Santurce, Puerto Rico. A painter and graphic artist, he is also a writer and radio and television personality. He regularly exhibits in Puerto Rico and the United States. Martorell is currently an artist in residence at the University Of Puerto Rico-Cayey University. In Puerto Rico he holds workshops in Playa de Ponce, Hato Rey. He also interviews visual artists for the television show, En la Punta de La Lengua on WIPR-TV.",
+    "source" : "https://imma.ie/artists/antonio-martorell/",
+    "birthDate" : "b.1939",
+    "url" : "https://imma.ie/artists/antonio-martorell/",
+    "label" : "Antonio Martorell"
   }, {
     "@id" : "spice:artefact/retrato-de-viaje-de-mi-tia-consuelo",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/martorell-antonio",
     "author" : "spice:agent/martorell-antonio",
-    "schema:dateCreated" : "1974",
-    "schema:url" : "https://imma.ie/collection/retrato-de-viaje-de-mi-tia-consuelo/",
+    "dateCreated" : "1974",
+    "url" : "https://imma.ie/collection/retrato-de-viaje-de-mi-tia-consuelo/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/retrato-de-viaje-de-mi-tia-consuelo",
-    "arco-cd:hasTitle" : "Retrato de Viaje de mi Tía Consuelo"
+    "hasTitle" : "Retrato de Viaje de mi Tía Consuelo"
   }, {
     "@id" : "spice:attribution/retrato-de-viaje-de-mi-tia-consuelo",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,24 +24,19 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -52,16 +47,14 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

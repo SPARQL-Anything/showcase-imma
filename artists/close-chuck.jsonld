@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/close-chuck",
     "@type" : "foaf:Person",
-    "dc:description" : "American artist Chuck Close studied at the University of Washington, Seattle and at Yale University under master printer Gabor Peterdi. Close gained critical attention in 1970 with a series of monumental painted canvases of himself and his friends. He has exhibited internationally and his work is represented in public and private collections worldwide. Close was elected a member of the American Academy and Institute of Arts and Letters, New York in 1992.",
-    "dc:source" : "https://imma.ie/artists/chuck-close/",
-    "schema:birthDate" : "b.1940",
-    "schema:url" : "https://imma.ie/artists/chuck-close/",
-    "rdfs:label" : "Chuck Close"
+    "description" : "American artist Chuck Close studied at the University of Washington, Seattle and at Yale University under master printer Gabor Peterdi. Close gained critical attention in 1970 with a series of monumental painted canvases of himself and his friends. He has exhibited internationally and his work is represented in public and private collections worldwide. Close was elected a member of the American Academy and Institute of Arts and Letters, New York in 1992.",
+    "source" : "https://imma.ie/artists/chuck-close/",
+    "birthDate" : "b.1940",
+    "url" : "https://imma.ie/artists/chuck-close/",
+    "label" : "Chuck Close"
   }, {
     "@id" : "spice:artefact/self-portrait",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/close-chuck",
     "author" : "spice:agent/close-chuck",
-    "schema:dateCreated" : "1996",
-    "schema:url" : "https://imma.ie/collection/self-portrait/",
+    "dateCreated" : "1996",
+    "url" : "https://imma.ie/collection/self-portrait/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/self-portrait",
-    "arco-cd:hasTitle" : "Self Portrait"
+    "hasTitle" : "Self Portrait"
   }, {
     "@id" : "spice:attribution/self-portrait",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,44 +28,37 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

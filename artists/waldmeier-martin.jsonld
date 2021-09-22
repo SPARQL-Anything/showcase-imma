@@ -1,30 +1,26 @@
 {
   "@id" : "spice:agent/waldmeier-martin",
   "@type" : "foaf:Person",
-  "dc:description" : [ "Martin is a curator and researcher of contemporary art, working on the intersections between art, language and globalisation. Martin recently completed his Ph.D. in Visual Cultures at Goldsmiths (University of London), titled “The Artist as Translator”. His recent travelling exhibition, “The Translator’s Voice”, explored language identity in the global present and was awarded the FRAC Lorraine/MARCO Vigo/SFKM Førde Award for Young Curators.", "Martin is a curator and researcher of contemporary art, working on the intersections between art, language and globalisation. Martin has a Ph.D. in Visual Cultures from Goldsmiths (University of London), titled “The Artist as Translator”" ],
-  "dc:source" : "https://imma.ie/artists/martin-waldmeier/",
-  "schema:url" : "https://imma.ie/artists/martin-waldmeier/",
-  "rdfs:label" : "Martin Waldmeier",
+  "description" : [ "Martin is a curator and researcher of contemporary art, working on the intersections between art, language and globalisation. Martin recently completed his Ph.D. in Visual Cultures at Goldsmiths (University of London), titled “The Artist as Translator”. His recent travelling exhibition, “The Translator’s Voice”, explored language identity in the global present and was awarded the FRAC Lorraine/MARCO Vigo/SFKM Førde Award for Young Curators.", "Martin is a curator and researcher of contemporary art, working on the intersections between art, language and globalisation. Martin has a Ph.D. in Visual Cultures from Goldsmiths (University of London), titled “The Artist as Translator”" ],
+  "source" : "https://imma.ie/artists/martin-waldmeier/",
+  "url" : "https://imma.ie/artists/martin-waldmeier/",
+  "label" : "Martin Waldmeier",
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

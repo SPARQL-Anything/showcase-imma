@@ -2,66 +2,57 @@
   "@graph" : [ {
     "@id" : "spice:artefact/big-silver",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Commissioned for an installation at Smith College in 1995, ‘Big Silver’ is attached to a motorised pulley so that it rises and subsides at regular intervals, mimicking the ballet dancer’s pliés at the bar. At its lowest point on the floor it is a formless expanse of glittering fabric, but it reveals its true identity as it is pulled up the wall, the figurative emerges from the abstract and vice versa.",
-    "dc:source" : "https://imma.ie/collection/big-silver/",
-    "schema:creditText" : "IMMA Collection: Purchase, 1996",
+    "description" : "Commissioned for an installation at Smith College in 1995, ‘Big Silver’ is attached to a motorised pulley so that it rises and subsides at regular intervals, mimicking the ballet dancer’s pliés at the bar. At its lowest point on the floor it is a formless expanse of glittering fabric, but it reveals its true identity as it is pulled up the wall, the figurative emerges from the abstract and vice versa.",
+    "source" : "https://imma.ie/collection/big-silver/",
+    "creditText" : "IMMA Collection: Purchase, 1996",
     "image" : "spice:documentation/big-silver",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Silver lamé, electric motor, pulleys",
-    "schema:size" : "Dimensions variable",
-    "arco-cd:hasInventory" : "IMMA.753"
+    "material" : "Silver lamé, electric motor, pulleys",
+    "size" : "Dimensions variable",
+    "hasInventory" : "IMMA.753"
   }, {
     "@id" : "spice:documentation/big-silver",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Beverly Semmes, Big Silver, 1996, Silver lamé, electric motor, pulleys, Dimensions variable, Collection Irish Museum of Modern Art, Purchase, 1996 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Beverly Semmes, Big Silver, 1996, Silver lamé, electric motor, pulleys, Dimensions variable, Collection Irish Museum of Modern Art, Purchase, 1996 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/1054-1.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/1054-1.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

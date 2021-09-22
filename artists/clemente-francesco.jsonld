@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/clemente-francesco",
     "@type" : "foaf:Person",
-    "dc:description" : "Italian artist Francesco Clemente moved to Rome to study architecture in 1970, but soon turned to drawing and poetry. Influenced by extensive travels in Europe, the Caribbean, Egypt, Japan and India, he draws from a diverse range of imagery and symbols in his exotic and fantastical paintings, pastels and water colours. Clemente has exhibited internationally since the 1980s. A comprehensive retrospective of his work was held at the Guggenheim, New York, in 2000. He had a solo exhibition at IMMA in 2004.",
-    "dc:source" : "https://imma.ie/artists/francesco-clemente/",
-    "schema:birthDate" : "b.1952",
-    "schema:url" : "https://imma.ie/artists/francesco-clemente/",
-    "rdfs:label" : "Francesco Clemente"
+    "description" : "Italian artist Francesco Clemente moved to Rome to study architecture in 1970, but soon turned to drawing and poetry. Influenced by extensive travels in Europe, the Caribbean, Egypt, Japan and India, he draws from a diverse range of imagery and symbols in his exotic and fantastical paintings, pastels and water colours. Clemente has exhibited internationally since the 1980s. A comprehensive retrospective of his work was held at the Guggenheim, New York, in 2000. He had a solo exhibition at IMMA in 2004.",
+    "source" : "https://imma.ie/artists/francesco-clemente/",
+    "birthDate" : "b.1952",
+    "url" : "https://imma.ie/artists/francesco-clemente/",
+    "label" : "Francesco Clemente"
   }, {
     "@id" : "spice:artefact/celtic-self-portrait",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/clemente-francesco",
     "author" : "spice:agent/clemente-francesco",
-    "schema:dateCreated" : "2003",
-    "schema:url" : "https://imma.ie/collection/celtic-self-portrait/",
+    "dateCreated" : "2003",
+    "url" : "https://imma.ie/collection/celtic-self-portrait/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/celtic-self-portrait",
-    "arco-cd:hasTitle" : "Celtic Self-Portrait"
+    "hasTitle" : "Celtic Self-Portrait"
   }, {
     "@id" : "spice:attribution/celtic-self-portrait",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,44 +28,37 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

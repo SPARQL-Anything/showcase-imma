@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/english-simon-r",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish artist Simon R. English studied at the Crawford College of Art, Cork. He has lectured in painting at the Crawford College and currently lives and works in Cork. English has exhibited extensively since the late 1970s. His work is held in private and public collections including the Office of Public Works, Dublin; Cork County Council; and University of Limerick.",
-    "dc:source" : "https://imma.ie/artists/simon-r-english/",
-    "schema:birthDate" : "b.1956",
-    "schema:url" : "https://imma.ie/artists/simon-r-english/",
-    "rdfs:label" : "Simon R. English"
+    "description" : "Irish artist Simon R. English studied at the Crawford College of Art, Cork. He has lectured in painting at the Crawford College and currently lives and works in Cork. English has exhibited extensively since the late 1970s. His work is held in private and public collections including the Office of Public Works, Dublin; Cork County Council; and University of Limerick.",
+    "source" : "https://imma.ie/artists/simon-r-english/",
+    "birthDate" : "b.1956",
+    "url" : "https://imma.ie/artists/simon-r-english/",
+    "label" : "Simon R. English"
   }, {
     "@id" : "spice:artefact/display-case",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/english-simon-r",
     "author" : "spice:agent/english-simon-r",
-    "schema:dateCreated" : "1997",
-    "schema:url" : "https://imma.ie/collection/display-case/",
+    "dateCreated" : "1997",
+    "url" : "https://imma.ie/collection/display-case/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/display-case",
-    "arco-cd:hasTitle" : "Display Case"
+    "hasTitle" : "Display Case"
   }, {
     "@id" : "spice:attribution/display-case",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,40 +24,33 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

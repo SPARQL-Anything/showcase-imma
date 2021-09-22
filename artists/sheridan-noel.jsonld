@@ -2,291 +2,291 @@
   "@graph" : [ {
     "@id" : "spice:agent/sheridan-noel",
     "@type" : "foaf:Person",
-    "dc:description" : "Born in Dublin, Noel Sheridan studied at Trinity College, Dublin and Columbia University, New York. He exhibited at the Dawson Gallery in the late 1950s and represented Ireland at the Paris Biennale in 1960. He won the Carroll Prize for Painting at the Living Art Exhibition in Dublin in 1965 and 1969. Sheridan was Director of the Experimental Art Foundation in Adelaide, Australia, from 1975 to 1980, Director of the National College of Art and Design, Dublin from 1980 to 2002, with a four-year hiatus to inaugurate and direct the Perth Institute of Contemporary Arts, Australia. Sheridan was a founding member of Independent Artists, a committee member of Rosc and was elected to Aosdána. In 1994 he won the Emeritus Medal for cultural contribution from the Australia Council for the Arts. A retrospective exhibition of his work was held at the Royal Hibernian Academy in 2001.",
-    "dc:source" : "https://imma.ie/artists/noel-sheridan/",
-    "schema:birthDate" : "1936–2006",
-    "schema:url" : "https://imma.ie/artists/noel-sheridan/",
-    "rdfs:label" : "Noel Sheridan"
+    "description" : "Born in Dublin, Noel Sheridan studied at Trinity College, Dublin and Columbia University, New York. He exhibited at the Dawson Gallery in the late 1950s and represented Ireland at the Paris Biennale in 1960. He won the Carroll Prize for Painting at the Living Art Exhibition in Dublin in 1965 and 1969. Sheridan was Director of the Experimental Art Foundation in Adelaide, Australia, from 1975 to 1980, Director of the National College of Art and Design, Dublin from 1980 to 2002, with a four-year hiatus to inaugurate and direct the Perth Institute of Contemporary Arts, Australia. Sheridan was a founding member of Independent Artists, a committee member of Rosc and was elected to Aosdána. In 1994 he won the Emeritus Medal for cultural contribution from the Australia Council for the Arts. A retrospective exhibition of his work was held at the Royal Hibernian Academy in 2001.",
+    "source" : "https://imma.ie/artists/noel-sheridan/",
+    "birthDate" : "1936–2006",
+    "url" : "https://imma.ie/artists/noel-sheridan/",
+    "label" : "Noel Sheridan"
   }, {
     "@id" : "spice:artefact/anois-teacht-an-earraig",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/sheridan-noel",
     "author" : "spice:agent/sheridan-noel",
-    "schema:dateCreated" : "1970",
-    "schema:url" : "https://imma.ie/collection/anois-teacht-an-earraig/",
+    "dateCreated" : "1970",
+    "url" : "https://imma.ie/collection/anois-teacht-an-earraig/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/anois-teacht-an-earraig",
-    "arco-cd:hasTitle" : "Anois Teacht An Earraig"
+    "hasTitle" : "Anois Teacht An Earraig"
   }, {
     "@id" : "spice:artefact/black-painting",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/sheridan-noel",
     "author" : "spice:agent/sheridan-noel",
-    "schema:dateCreated" : "1967",
-    "schema:url" : "https://imma.ie/collection/black-painting/",
+    "dateCreated" : "1967",
+    "url" : "https://imma.ie/collection/black-painting/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/black-painting",
-    "arco-cd:hasTitle" : "Black Painting"
+    "hasTitle" : "Black Painting"
   }, {
     "@id" : "spice:artefact/blue-office",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/sheridan-noel",
     "author" : "spice:agent/sheridan-noel",
-    "schema:dateCreated" : "1967",
-    "schema:url" : "https://imma.ie/collection/blue-office/",
+    "dateCreated" : "1967",
+    "url" : "https://imma.ie/collection/blue-office/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/blue-office",
-    "arco-cd:hasTitle" : "Blue Office"
+    "hasTitle" : "Blue Office"
   }, {
     "@id" : "spice:artefact/demeter",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/sheridan-noel",
     "author" : "spice:agent/sheridan-noel",
-    "schema:dateCreated" : "2001",
-    "schema:url" : "https://imma.ie/collection/demeter/",
+    "dateCreated" : "2001",
+    "url" : "https://imma.ie/collection/demeter/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/demeter",
-    "arco-cd:hasTitle" : "Demeter"
+    "hasTitle" : "Demeter"
   }, {
     "@id" : "spice:artefact/demeter-a",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/sheridan-noel",
     "author" : "spice:agent/sheridan-noel",
-    "schema:dateCreated" : "2001",
-    "schema:url" : "https://imma.ie/collection/demeter-a/",
+    "dateCreated" : "2001",
+    "url" : "https://imma.ie/collection/demeter-a/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/demeter-a",
-    "arco-cd:hasTitle" : "Demeter A"
+    "hasTitle" : "Demeter A"
   }, {
     "@id" : "spice:artefact/demeter-b",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/sheridan-noel",
     "author" : "spice:agent/sheridan-noel",
-    "schema:dateCreated" : "2001",
-    "schema:url" : "https://imma.ie/collection/demeter-b/",
+    "dateCreated" : "2001",
+    "url" : "https://imma.ie/collection/demeter-b/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/demeter-b",
-    "arco-cd:hasTitle" : "Demeter B"
+    "hasTitle" : "Demeter B"
   }, {
     "@id" : "spice:artefact/demeter-sketch",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/sheridan-noel",
     "author" : "spice:agent/sheridan-noel",
-    "schema:dateCreated" : "2001",
-    "schema:url" : "https://imma.ie/collection/demeter-sketch/",
+    "dateCreated" : "2001",
+    "url" : "https://imma.ie/collection/demeter-sketch/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/demeter-sketch",
-    "arco-cd:hasTitle" : "Demeter Sketch"
+    "hasTitle" : "Demeter Sketch"
   }, {
     "@id" : "spice:artefact/double-sun",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/sheridan-noel",
     "author" : "spice:agent/sheridan-noel",
-    "schema:dateCreated" : "1959",
-    "schema:url" : "https://imma.ie/collection/double-sun/",
+    "dateCreated" : "1959",
+    "url" : "https://imma.ie/collection/double-sun/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/double-sun",
-    "arco-cd:hasTitle" : "Double Sun"
+    "hasTitle" : "Double Sun"
   }, {
     "@id" : "spice:artefact/drawing-3",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/sheridan-noel",
     "author" : "spice:agent/sheridan-noel",
-    "schema:dateCreated" : "1958",
-    "schema:url" : "https://imma.ie/collection/drawing-3/",
+    "dateCreated" : "1958",
+    "url" : "https://imma.ie/collection/drawing-3/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/drawing-3",
-    "arco-cd:hasTitle" : "Drawing"
+    "hasTitle" : "Drawing"
   }, {
     "@id" : "spice:artefact/everybody-should-get-stones",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/sheridan-noel",
     "author" : "spice:agent/sheridan-noel",
-    "schema:dateCreated" : "2005",
-    "schema:url" : "https://imma.ie/collection/everybody-should-get-stones/",
+    "dateCreated" : "2005",
+    "url" : "https://imma.ie/collection/everybody-should-get-stones/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/everybody-should-get-stones",
-    "arco-cd:hasTitle" : "Everybody Should Get Stones"
+    "hasTitle" : "Everybody Should Get Stones"
   }, {
     "@id" : "spice:artefact/everybody-should-get-stones-2",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/sheridan-noel",
     "author" : "spice:agent/sheridan-noel",
-    "schema:dateCreated" : "2001",
-    "schema:url" : "https://imma.ie/collection/everybody-should-get-stones-2/",
+    "dateCreated" : "2001",
+    "url" : "https://imma.ie/collection/everybody-should-get-stones-2/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/everybody-should-get-stones-2",
-    "arco-cd:hasTitle" : "Everybody Should Get Stones"
+    "hasTitle" : "Everybody Should Get Stones"
   }, {
     "@id" : "spice:artefact/field-workers-1",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/sheridan-noel",
     "author" : "spice:agent/sheridan-noel",
-    "schema:dateCreated" : "2001",
-    "schema:url" : "https://imma.ie/collection/field-workers-1/",
+    "dateCreated" : "2001",
+    "url" : "https://imma.ie/collection/field-workers-1/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/field-workers-1",
-    "arco-cd:hasTitle" : "Field Workers 1"
+    "hasTitle" : "Field Workers 1"
   }, {
     "@id" : "spice:artefact/field-workers-2",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/sheridan-noel",
     "author" : "spice:agent/sheridan-noel",
-    "schema:dateCreated" : "2001",
-    "schema:url" : "https://imma.ie/collection/field-workers-2/",
+    "dateCreated" : "2001",
+    "url" : "https://imma.ie/collection/field-workers-2/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/field-workers-2",
-    "arco-cd:hasTitle" : "Field Workers 2"
+    "hasTitle" : "Field Workers 2"
   }, {
     "@id" : "spice:artefact/goodbye-old-paint",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/sheridan-noel",
     "author" : "spice:agent/sheridan-noel",
-    "schema:dateCreated" : "1969",
-    "schema:url" : "https://imma.ie/collection/goodbye-old-paint/",
+    "dateCreated" : "1969",
+    "url" : "https://imma.ie/collection/goodbye-old-paint/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/goodbye-old-paint",
-    "arco-cd:hasTitle" : "Goodbye Old Paint"
+    "hasTitle" : "Goodbye Old Paint"
   }, {
     "@id" : "spice:artefact/information-for-the-people",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/sheridan-noel",
     "author" : "spice:agent/sheridan-noel",
-    "schema:dateCreated" : "1975",
-    "schema:url" : "https://imma.ie/collection/information-for-the-people/",
+    "dateCreated" : "1975",
+    "url" : "https://imma.ie/collection/information-for-the-people/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/information-for-the-people",
-    "arco-cd:hasTitle" : "Information for the People"
+    "hasTitle" : "Information for the People"
   }, {
     "@id" : "spice:artefact/linen-chair",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/sheridan-noel",
     "author" : "spice:agent/sheridan-noel",
-    "schema:dateCreated" : "1967",
-    "schema:url" : "https://imma.ie/collection/linen-chair/",
+    "dateCreated" : "1967",
+    "url" : "https://imma.ie/collection/linen-chair/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/linen-chair",
-    "arco-cd:hasTitle" : "Linen Chair"
+    "hasTitle" : "Linen Chair"
   }, {
     "@id" : "spice:artefact/orange-oak",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/sheridan-noel",
     "author" : "spice:agent/sheridan-noel",
-    "schema:dateCreated" : "1970",
-    "schema:url" : "https://imma.ie/collection/orange-oak/",
+    "dateCreated" : "1970",
+    "url" : "https://imma.ie/collection/orange-oak/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/orange-oak",
-    "arco-cd:hasTitle" : "Orange Oak"
+    "hasTitle" : "Orange Oak"
   }, {
     "@id" : "spice:artefact/pink-office",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/sheridan-noel",
     "author" : "spice:agent/sheridan-noel",
-    "schema:dateCreated" : "1967",
-    "schema:url" : "https://imma.ie/collection/pink-office/",
+    "dateCreated" : "1967",
+    "url" : "https://imma.ie/collection/pink-office/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/pink-office",
-    "arco-cd:hasTitle" : "Pink Office"
+    "hasTitle" : "Pink Office"
   }, {
     "@id" : "spice:artefact/seconds",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/sheridan-noel",
     "author" : "spice:agent/sheridan-noel",
-    "schema:dateCreated" : "1971",
-    "schema:url" : "https://imma.ie/collection/seconds/",
+    "dateCreated" : "1971",
+    "url" : "https://imma.ie/collection/seconds/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/seconds",
-    "arco-cd:hasTitle" : "Seconds"
+    "hasTitle" : "Seconds"
   }, {
     "@id" : "spice:artefact/shoot-out",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/sheridan-noel",
     "author" : "spice:agent/sheridan-noel",
-    "schema:dateCreated" : "1996",
-    "schema:url" : "https://imma.ie/collection/shoot-out/",
+    "dateCreated" : "1996",
+    "url" : "https://imma.ie/collection/shoot-out/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/shoot-out",
-    "arco-cd:hasTitle" : "Shoot Out"
+    "hasTitle" : "Shoot Out"
   }, {
     "@id" : "spice:artefact/the-essentialist-theory-of-art-fallacy-theory",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/sheridan-noel",
     "author" : "spice:agent/sheridan-noel",
-    "schema:dateCreated" : "1969",
-    "schema:url" : "https://imma.ie/collection/the-essentialist-theory-of-art-fallacy-theory/",
+    "dateCreated" : "1969",
+    "url" : "https://imma.ie/collection/the-essentialist-theory-of-art-fallacy-theory/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-essentialist-theory-of-art-fallacy-theory",
-    "arco-cd:hasTitle" : "The Essentialist Theory of Art Fallacy Theory"
+    "hasTitle" : "The Essentialist Theory of Art Fallacy Theory"
   }, {
     "@id" : "spice:artefact/the-rape-1",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/sheridan-noel",
     "author" : "spice:agent/sheridan-noel",
-    "schema:dateCreated" : "2001",
-    "schema:url" : "https://imma.ie/collection/the-rape-1/",
+    "dateCreated" : "2001",
+    "url" : "https://imma.ie/collection/the-rape-1/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-rape-1",
-    "arco-cd:hasTitle" : "The Rape 1"
+    "hasTitle" : "The Rape 1"
   }, {
     "@id" : "spice:artefact/the-rape-2",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/sheridan-noel",
     "author" : "spice:agent/sheridan-noel",
-    "schema:dateCreated" : "2001",
-    "schema:url" : "https://imma.ie/collection/the-rape-2/",
+    "dateCreated" : "2001",
+    "url" : "https://imma.ie/collection/the-rape-2/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-rape-2",
-    "arco-cd:hasTitle" : "The Rape 2"
+    "hasTitle" : "The Rape 2"
   }, {
     "@id" : "spice:artefact/the-rape-3",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/sheridan-noel",
     "author" : "spice:agent/sheridan-noel",
-    "schema:dateCreated" : "2001",
-    "schema:url" : "https://imma.ie/collection/the-rape-3/",
+    "dateCreated" : "2001",
+    "url" : "https://imma.ie/collection/the-rape-3/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-rape-3",
-    "arco-cd:hasTitle" : "The Rape 3"
+    "hasTitle" : "The Rape 3"
   }, {
     "@id" : "spice:artefact/the-rape-4",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/sheridan-noel",
     "author" : "spice:agent/sheridan-noel",
-    "schema:dateCreated" : "2001",
-    "schema:url" : "https://imma.ie/collection/the-rape-4/",
+    "dateCreated" : "2001",
+    "url" : "https://imma.ie/collection/the-rape-4/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-rape-4",
-    "arco-cd:hasTitle" : "The Rape 4"
+    "hasTitle" : "The Rape 4"
   }, {
     "@id" : "spice:artefact/the-rape-5",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/sheridan-noel",
     "author" : "spice:agent/sheridan-noel",
-    "schema:dateCreated" : "2001",
-    "schema:url" : "https://imma.ie/collection/the-rape-5/",
+    "dateCreated" : "2001",
+    "url" : "https://imma.ie/collection/the-rape-5/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-rape-5",
-    "arco-cd:hasTitle" : "The Rape 5"
+    "hasTitle" : "The Rape 5"
   }, {
     "@id" : "spice:artefact/the-rape-6",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/sheridan-noel",
     "author" : "spice:agent/sheridan-noel",
-    "schema:dateCreated" : "2001",
-    "schema:url" : "https://imma.ie/collection/the-rape-6/",
+    "dateCreated" : "2001",
+    "url" : "https://imma.ie/collection/the-rape-6/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-rape-6",
-    "arco-cd:hasTitle" : "The Rape 6"
+    "hasTitle" : "The Rape 6"
   }, {
     "@id" : "spice:artefact/window-composition",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/sheridan-noel",
     "author" : "spice:agent/sheridan-noel",
-    "schema:dateCreated" : "1967",
-    "schema:url" : "https://imma.ie/collection/window-composition/",
+    "dateCreated" : "1967",
+    "url" : "https://imma.ie/collection/window-composition/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/window-composition",
-    "arco-cd:hasTitle" : "Window Composition"
+    "hasTitle" : "Window Composition"
   }, {
     "@id" : "spice:attribution/anois-teacht-an-earraig",
     "@type" : "arco:AuthorshipAttribution",
@@ -410,48 +410,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

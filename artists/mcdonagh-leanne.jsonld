@@ -1,0 +1,175 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/mcdonagh-leanne",
+    "@type" : "foaf:Person",
+    "description" : [ "As an artist, Leanne McDonagh feels she has a unique opportunity to represent and record her community from within. She is employed by Cork Institute of Technology as the Traveller Education Coordinator, while she also develops her practice as an artist. She is currently working on a public sculpture funded by the % for Art scheme and has recently illustrated a short story book, titled, “Why The Moon Travels” written by a fellow Traveller, Oein De Bhairduin which is the first of its kind in Ireland.", "Leanne McDonagh is an artist and an educator, she is also a Traveller woman who grew up on a halting site, with first-hand experience of the prejudices and misconceptions that society has about Travellers. " ],
+    "source" : "https://imma.ie/artists/leanne-mcdonagh/",
+    "url" : "https://imma.ie/artists/leanne-mcdonagh/",
+    "label" : "Leanne McDonagh"
+  }, {
+    "@id" : "spice:artefact/beoirs",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/mcdonagh-leanne",
+    "author" : "spice:agent/mcdonagh-leanne",
+    "dateCreated" : "2014",
+    "url" : "https://imma.ie/collection/beoirs/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/beoirs",
+    "hasTitle" : "Beoirs"
+  }, {
+    "@id" : "spice:artefact/broken-barriers",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/mcdonagh-leanne",
+    "author" : "spice:agent/mcdonagh-leanne",
+    "dateCreated" : "2016",
+    "url" : "https://imma.ie/collection/broken-barriers/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/broken-barriers",
+    "hasTitle" : "Broken Barriers"
+  }, {
+    "@id" : "spice:artefact/clogged-channels",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/mcdonagh-leanne",
+    "author" : "spice:agent/mcdonagh-leanne",
+    "dateCreated" : "2016",
+    "url" : "https://imma.ie/collection/clogged-channels/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/clogged-channels",
+    "hasTitle" : "Clogged Channels"
+  }, {
+    "@id" : "spice:artefact/macho-men",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/mcdonagh-leanne",
+    "author" : "spice:agent/mcdonagh-leanne",
+    "dateCreated" : "2014",
+    "url" : "https://imma.ie/collection/macho-men/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/macho-men",
+    "hasTitle" : "Macho Men"
+  }, {
+    "@id" : "spice:artefact/police-presence",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/mcdonagh-leanne",
+    "author" : "spice:agent/mcdonagh-leanne",
+    "dateCreated" : "2014",
+    "url" : "https://imma.ie/collection/police-presence/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/police-presence",
+    "hasTitle" : "Police Presence"
+  }, {
+    "@id" : "spice:artefact/pride-of-place",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/mcdonagh-leanne",
+    "author" : "spice:agent/mcdonagh-leanne",
+    "dateCreated" : "2016",
+    "url" : "https://imma.ie/collection/pride-of-place/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/pride-of-place",
+    "hasTitle" : "Pride of Place"
+  }, {
+    "@id" : "spice:artefact/prim-proper",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/mcdonagh-leanne",
+    "author" : "spice:agent/mcdonagh-leanne",
+    "dateCreated" : "2014",
+    "url" : "https://imma.ie/collection/prim-proper/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/prim-proper",
+    "hasTitle" : "Prim &amp; Proper"
+  }, {
+    "@id" : "spice:artefact/why-the-moon-travels",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/mcdonagh-leanne",
+    "author" : "spice:agent/mcdonagh-leanne",
+    "dateCreated" : "2019",
+    "url" : "https://imma.ie/collection/why-the-moon-travels/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/why-the-moon-travels",
+    "hasTitle" : "Why the Moon Travels"
+  }, {
+    "@id" : "spice:attribution/beoirs",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/mcdonagh-leanne"
+  }, {
+    "@id" : "spice:attribution/broken-barriers",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/mcdonagh-leanne"
+  }, {
+    "@id" : "spice:attribution/clogged-channels",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/mcdonagh-leanne"
+  }, {
+    "@id" : "spice:attribution/macho-men",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/mcdonagh-leanne"
+  }, {
+    "@id" : "spice:attribution/police-presence",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/mcdonagh-leanne"
+  }, {
+    "@id" : "spice:attribution/pride-of-place",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/mcdonagh-leanne"
+  }, {
+    "@id" : "spice:attribution/prim-proper",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/mcdonagh-leanne"
+  }, {
+    "@id" : "spice:attribution/why-the-moon-travels",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/mcdonagh-leanne"
+  } ],
+  "@context" : {
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

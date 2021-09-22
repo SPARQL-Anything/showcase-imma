@@ -2,56 +2,53 @@
   "@graph" : [ {
     "@id" : "spice:artefact/14-13-32",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "14.13.32 is a 1991 work by Elizabeth Magill. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/14-13-32/",
+    "description" : "14.13.32 is a 1991 work by Elizabeth Magill. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/14-13-32/",
+    "creditText" : "IMMA Collection: Heritage Gift, Kerlin Gallery Collection, 2018, 2018",
     "image" : "spice:documentation/14-13-32",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "mixed media on canvas",
-    "schema:size" : "50.8 x 91.4 cm",
-    "arco-cd:hasInventory" : "IMMA.4103"
+    "material" : "mixed media on canvas",
+    "size" : "50.8 x 91.4 cm",
+    "hasInventory" : "IMMA.4103"
   }, {
     "@id" : "spice:documentation/14-13-32",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Elizabeth Magill, 14.13.32, 1991, mixed media on canvas, 50.8 x 91.4 cm, Collection Irish Museum of Modern Art, 2018 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Elizabeth Magill, 14.13.32, 1991, mixed media on canvas, 50.8 x 91.4 cm, Collection Irish Museum of Modern Art, Heritage Gift, Kerlin Gallery Collection, 2018, 2018 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

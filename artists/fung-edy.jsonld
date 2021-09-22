@@ -1,0 +1,77 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/fung-edy",
+    "@type" : "foaf:Person",
+    "description" : [ "Edy Fung is interested in exploring how methods of documentation and recording ranged and evolved in histories and cultures, and her practice explores both ends of the spectrum of human civilisation – appropriating past mythologies and alternate histories, as well as speculating near-future societal changes implied by the latest cultural and technological shifts.", "Edy Fung is a multidisicplinary artist and curator whose practice emerges from the expanded field of architecture, conducting material experiments with installation, video, digital image, social media, Internet Archive, sound and text around her research-led projects. " ],
+    "source" : "https://imma.ie/artists/edy-fung/",
+    "url" : "https://imma.ie/artists/edy-fung/",
+    "label" : "Edy Fung"
+  }, {
+    "@id" : "spice:artefact/diaries-monuments-memory-documentation-event-pandemic-archive-digital-identity-encoding-decoding-commemoration-deja-vu-always-already-burying-shame-treehole-winter-counts",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/fung-edy",
+    "author" : "spice:agent/fung-edy",
+    "dateCreated" : "2020",
+    "url" : "https://imma.ie/collection/diaries-monuments-memory-documentation-event-pandemic-archive-digital-identity-encoding-decoding-commemoration-deja-vu-always-already-burying-shame-treehole-winter-counts/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/diaries-monuments-memory-documentation-event-pandemic-archive-digital-identity-encoding-decoding-commemoration-deja-vu-always-already-burying-shame-treehole-winter-counts",
+    "hasTitle" : "Diaries. Monuments. Memory. Documentation. Event. Pandemic. Archive. Digital identity. Encoding. Decoding. Commemoration. Deja-vu. Always-already. Burying shame. Treehole. Winter counts"
+  }, {
+    "@id" : "spice:attribution/diaries-monuments-memory-documentation-event-pandemic-archive-digital-identity-encoding-decoding-commemoration-deja-vu-always-already-burying-shame-treehole-winter-counts",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/fung-edy"
+  } ],
+  "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/field-drawing-xiii",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Helena Gorey’s highly abstract artwork attempts to find a visual expression for the scientific laws governing such natural phenomena as the movement of the wind or changing light conditions. The whole of science is based on the notion that nature obeys rigid laws. Helena Gorey is concerned to acknowledge that cosmic order while simultaneously recording the tremendous variation that is inherent within it. Her paintings and, more recently, her video works pay homage to the wonder of the endless diversity hidden in the overall order.",
-    "dc:source" : "https://imma.ie/collection/field-drawing-xiii/",
-    "schema:creditText" : "IMMA Collection: Purchase, 2002",
+    "description" : "Helena Gorey’s highly abstract artwork attempts to find a visual expression for the scientific laws governing such natural phenomena as the movement of the wind or changing light conditions. The whole of science is based on the notion that nature obeys rigid laws. Helena Gorey is concerned to acknowledge that cosmic order while simultaneously recording the tremendous variation that is inherent within it. Her paintings and, more recently, her video works pay homage to the wonder of the endless diversity hidden in the overall order.",
+    "source" : "https://imma.ie/collection/field-drawing-xiii/",
+    "creditText" : "IMMA Collection: Purchase, 2002",
     "image" : "spice:documentation/field-drawing-xiii",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Gouache on paper",
-    "schema:size" : "12.5 x 18 cm",
-    "arco-cd:hasInventory" : "IMMA.2869"
+    "material" : "Gouache on paper",
+    "size" : "12.5 x 18 cm",
+    "hasInventory" : "IMMA.2869"
   }, {
     "@id" : "spice:documentation/field-drawing-xiii",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Helena Gorey, Field Drawing XIII, 2001, Gouache on paper, 12.5 x 18 cm, Collection Irish Museum of Modern Art, Purchase, 2002 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Helena Gorey, Field Drawing XIII, 2001, Gouache on paper, 12.5 x 18 cm, Collection Irish Museum of Modern Art, Purchase, 2002 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/1597.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/1597.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

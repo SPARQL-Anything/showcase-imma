@@ -2,111 +2,111 @@
   "@graph" : [ {
     "@id" : "spice:agent/chung-eun-mo",
     "@type" : "foaf:Person",
-    "dc:description" : "Born in Korea, Chung Eun-Mo moved to New York in the mid 1960s. She has lived between Ireland and Italy since the late 1980s. Her work is informed by a thorough knowledge of Modernism, especially of the work of the early abstractionists. Like Malevich and Albers, she is fascinated by both mathematical and chromatic harmonies and the changing effects of light on them. Chung Eun-Mo has exhibited worldwide, including a highly acclaimed site-specific installation at IMMA in 2003.",
-    "dc:source" : "https://imma.ie/artists/eun-mo-chung/",
-    "schema:birthDate" : "b.1946",
-    "schema:url" : "https://imma.ie/artists/eun-mo-chung/",
-    "rdfs:label" : "Eun-Mo Chung"
+    "description" : "Born in Korea, Chung Eun-Mo moved to New York in the mid 1960s. She has lived between Ireland and Italy since the late 1980s. Her work is informed by a thorough knowledge of Modernism, especially of the work of the early abstractionists. Like Malevich and Albers, she is fascinated by both mathematical and chromatic harmonies and the changing effects of light on them. Chung Eun-Mo has exhibited worldwide, including a highly acclaimed site-specific installation at IMMA in 2003.",
+    "source" : "https://imma.ie/artists/eun-mo-chung/",
+    "birthDate" : "b.1946",
+    "url" : "https://imma.ie/artists/eun-mo-chung/",
+    "label" : "Eun-Mo Chung"
   }, {
     "@id" : "spice:artefact/appearances",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/chung-eun-mo",
     "author" : "spice:agent/chung-eun-mo",
-    "schema:dateCreated" : "2003",
-    "schema:url" : "https://imma.ie/collection/appearances/",
+    "dateCreated" : "2003",
+    "url" : "https://imma.ie/collection/appearances/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/appearances",
-    "arco-cd:hasTitle" : "Appearances"
+    "hasTitle" : "Appearances"
   }, {
     "@id" : "spice:artefact/parallel-windows",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/chung-eun-mo",
     "author" : "spice:agent/chung-eun-mo",
-    "schema:dateCreated" : "1993",
-    "schema:url" : "https://imma.ie/collection/parallel-windows/",
+    "dateCreated" : "1993",
+    "url" : "https://imma.ie/collection/parallel-windows/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/parallel-windows",
-    "arco-cd:hasTitle" : "Parallel Windows"
+    "hasTitle" : "Parallel Windows"
   }, {
     "@id" : "spice:artefact/parallel-windows-i-original-drawing",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/chung-eun-mo",
     "author" : "spice:agent/chung-eun-mo",
-    "schema:dateCreated" : "1993",
-    "schema:url" : "https://imma.ie/collection/parallel-windows-i-original-drawing/",
+    "dateCreated" : "1993",
+    "url" : "https://imma.ie/collection/parallel-windows-i-original-drawing/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/parallel-windows-i-original-drawing",
-    "arco-cd:hasTitle" : "Parallel Windows I – original drawing"
+    "hasTitle" : "Parallel Windows I – original drawing"
   }, {
     "@id" : "spice:artefact/parallel-windows-ii-original-drawing",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/chung-eun-mo",
     "author" : "spice:agent/chung-eun-mo",
-    "schema:dateCreated" : "1993",
-    "schema:url" : "https://imma.ie/collection/parallel-windows-ii-original-drawing/",
+    "dateCreated" : "1993",
+    "url" : "https://imma.ie/collection/parallel-windows-ii-original-drawing/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/parallel-windows-ii-original-drawing",
-    "arco-cd:hasTitle" : "Parallel Windows II – original drawing"
+    "hasTitle" : "Parallel Windows II – original drawing"
   }, {
     "@id" : "spice:artefact/parallel-windows-iii-iv-original-drawing",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/chung-eun-mo",
     "author" : "spice:agent/chung-eun-mo",
-    "schema:dateCreated" : "1993",
-    "schema:url" : "https://imma.ie/collection/parallel-windows-iii-iv-original-drawing/",
+    "dateCreated" : "1993",
+    "url" : "https://imma.ie/collection/parallel-windows-iii-iv-original-drawing/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/parallel-windows-iii-iv-original-drawing",
-    "arco-cd:hasTitle" : "Parallel Windows III, IV – original drawing"
+    "hasTitle" : "Parallel Windows III, IV – original drawing"
   }, {
     "@id" : "spice:artefact/parallel-windows-ix-original-drawing",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/chung-eun-mo",
     "author" : "spice:agent/chung-eun-mo",
-    "schema:dateCreated" : "1993",
-    "schema:url" : "https://imma.ie/collection/parallel-windows-ix-original-drawing/",
+    "dateCreated" : "1993",
+    "url" : "https://imma.ie/collection/parallel-windows-ix-original-drawing/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/parallel-windows-ix-original-drawing",
-    "arco-cd:hasTitle" : "Parallel Windows IX – original drawing"
+    "hasTitle" : "Parallel Windows IX – original drawing"
   }, {
     "@id" : "spice:artefact/parallel-windows-print-of-imma-south-wing",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/chung-eun-mo",
     "author" : "spice:agent/chung-eun-mo",
-    "schema:dateCreated" : "1993",
-    "schema:url" : "https://imma.ie/collection/parallel-windows-print-of-imma-south-wing/",
+    "dateCreated" : "1993",
+    "url" : "https://imma.ie/collection/parallel-windows-print-of-imma-south-wing/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/parallel-windows-print-of-imma-south-wing",
-    "arco-cd:hasTitle" : "Parallel Windows – print of IMMA South Wing"
+    "hasTitle" : "Parallel Windows – print of IMMA South Wing"
   }, {
     "@id" : "spice:artefact/parallel-windows-v-vi-orginal-drawing",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/chung-eun-mo",
     "author" : "spice:agent/chung-eun-mo",
-    "schema:dateCreated" : "1993",
-    "schema:url" : "https://imma.ie/collection/parallel-windows-v-vi-orginal-drawing/",
+    "dateCreated" : "1993",
+    "url" : "https://imma.ie/collection/parallel-windows-v-vi-orginal-drawing/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/parallel-windows-v-vi-orginal-drawing",
-    "arco-cd:hasTitle" : "Parallel Windows V, VI – orginal drawing"
+    "hasTitle" : "Parallel Windows V, VI – orginal drawing"
   }, {
     "@id" : "spice:artefact/parallel-windows-vii-viii-original-drawing",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/chung-eun-mo",
     "author" : "spice:agent/chung-eun-mo",
-    "schema:dateCreated" : "1993",
-    "schema:url" : "https://imma.ie/collection/parallel-windows-vii-viii-original-drawing/",
+    "dateCreated" : "1993",
+    "url" : "https://imma.ie/collection/parallel-windows-vii-viii-original-drawing/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/parallel-windows-vii-viii-original-drawing",
-    "arco-cd:hasTitle" : "Parallel Windows VII, VIII – original drawing"
+    "hasTitle" : "Parallel Windows VII, VIII – original drawing"
   }, {
     "@id" : "spice:artefact/parallel-windows-x-original-drawing",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/chung-eun-mo",
     "author" : "spice:agent/chung-eun-mo",
-    "schema:dateCreated" : "1993",
-    "schema:url" : "https://imma.ie/collection/parallel-windows-x-original-drawing/",
+    "dateCreated" : "1993",
+    "url" : "https://imma.ie/collection/parallel-windows-x-original-drawing/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/parallel-windows-x-original-drawing",
-    "arco-cd:hasTitle" : "Parallel Windows X – original drawing"
+    "hasTitle" : "Parallel Windows X – original drawing"
   }, {
     "@id" : "spice:attribution/appearances",
     "@type" : "arco:AuthorshipAttribution",
@@ -154,24 +154,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -182,24 +179,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

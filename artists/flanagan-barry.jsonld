@@ -2,61 +2,61 @@
   "@graph" : [ {
     "@id" : "spice:agent/flanagan-barry",
     "@type" : "foaf:Person",
-    "dc:description" : "Born in Wales, Barry Flanagan studied at Birmingham College of Art and Crafts and then St Martin's School of Art, London. He lived and worked in Dublin and London. Flanagan was best known for his leaping and dancing bronze hares which were displayed worldwide. Flanagan represented Britain at the 1982 Venice Biennale. In 1991 he was elected to the Royal Academy and received an OBE. In 2006, in association with Dublin City Gallery The Hugh Lane, IMMA held a major retrospective of his work, which included ten large-scale bronzes installed along O'Connell Street and in Parnell Square.",
-    "dc:source" : "https://imma.ie/artists/barry-flanagan/",
-    "schema:birthDate" : "1941–2009",
-    "schema:url" : "https://imma.ie/artists/barry-flanagan/",
-    "rdfs:label" : "Barry Flanagan"
+    "description" : "Born in Wales, Barry Flanagan studied at Birmingham College of Art and Crafts and then St Martin's School of Art, London. He lived and worked in Dublin and London. Flanagan was best known for his leaping and dancing bronze hares which were displayed worldwide. Flanagan represented Britain at the 1982 Venice Biennale. In 1991 he was elected to the Royal Academy and received an OBE. In 2006, in association with Dublin City Gallery The Hugh Lane, IMMA held a major retrospective of his work, which included ten large-scale bronzes installed along O'Connell Street and in Parnell Square.",
+    "source" : "https://imma.ie/artists/barry-flanagan/",
+    "birthDate" : "1941–2009",
+    "url" : "https://imma.ie/artists/barry-flanagan/",
+    "label" : "Barry Flanagan"
   }, {
     "@id" : "spice:artefact/apartamento-minimal-y-otros-poemas",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/flanagan-barry",
     "author" : "spice:agent/flanagan-barry",
-    "schema:dateCreated" : "2000",
-    "schema:url" : "https://imma.ie/collection/apartamento-minimal-y-otros-poemas/",
+    "dateCreated" : "2000",
+    "url" : "https://imma.ie/collection/apartamento-minimal-y-otros-poemas/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/apartamento-minimal-y-otros-poemas",
-    "arco-cd:hasTitle" : "Apartamento Mínimal y Otros Poemas"
+    "hasTitle" : "Apartamento Mínimal y Otros Poemas"
   }, {
     "@id" : "spice:artefact/carving-no-6a",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/flanagan-barry",
     "author" : "spice:agent/flanagan-barry",
-    "schema:dateCreated" : "1982",
-    "schema:url" : "https://imma.ie/collection/carving-no-6a/",
+    "dateCreated" : "1982",
+    "url" : "https://imma.ie/collection/carving-no-6a/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/carving-no-6a",
-    "arco-cd:hasTitle" : "Carving No. 6a"
+    "hasTitle" : "Carving No. 6a"
   }, {
     "@id" : "spice:artefact/nose-flattened",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/flanagan-barry",
     "author" : "spice:agent/flanagan-barry",
-    "schema:dateCreated" : "1993",
-    "schema:url" : "https://imma.ie/collection/nose-flattened/",
+    "dateCreated" : "1993",
+    "url" : "https://imma.ie/collection/nose-flattened/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/nose-flattened",
-    "arco-cd:hasTitle" : "Nose Flattened…"
+    "hasTitle" : "Nose Flattened…"
   }, {
     "@id" : "spice:artefact/the-drummer",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/flanagan-barry",
     "author" : "spice:agent/flanagan-barry",
-    "schema:dateCreated" : "1996",
-    "schema:url" : "https://imma.ie/collection/the-drummer/",
+    "dateCreated" : "1996",
+    "url" : "https://imma.ie/collection/the-drummer/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-drummer",
-    "arco-cd:hasTitle" : "The Drummer"
+    "hasTitle" : "The Drummer"
   }, {
     "@id" : "spice:artefact/the-names-of-the-hare-1982",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/flanagan-barry",
     "author" : "spice:agent/flanagan-barry",
-    "schema:dateCreated" : "2006",
-    "schema:url" : "https://imma.ie/collection/the-names-of-the-hare-1982/",
+    "dateCreated" : "2006",
+    "url" : "https://imma.ie/collection/the-names-of-the-hare-1982/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-names-of-the-hare-1982",
-    "arco-cd:hasTitle" : "The Names of the Hare, 1982"
+    "hasTitle" : "The Names of the Hare, 1982"
   }, {
     "@id" : "spice:attribution/apartamento-minimal-y-otros-poemas",
     "@type" : "arco:AuthorshipAttribution",
@@ -80,24 +80,19 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -108,16 +103,14 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -129,7 +122,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

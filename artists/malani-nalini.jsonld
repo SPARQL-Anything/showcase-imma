@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/malani-nalini",
     "@type" : "foaf:Person",
-    "dc:description" : "Indian artist Nalini Malani trained at the Sir Jamshedjee Jeejeebhoy School of Art, Bombay. Her multi-layered work mixes universal concepts with specific historical and personal details, often referencing female figures from Indian and European traditions. Malani has exhibited internationally since the 1980s. A solo exhibition of her work was presented at IMMA in 2007.",
-    "dc:source" : "https://imma.ie/artists/nalini-malani/",
-    "schema:birthDate" : "b.1946",
-    "schema:url" : "https://imma.ie/artists/nalini-malani/",
-    "rdfs:label" : "Nalini Malani"
+    "description" : "Indian artist Nalini Malani trained at the Sir Jamshedjee Jeejeebhoy School of Art, Bombay. Her multi-layered work mixes universal concepts with specific historical and personal details, often referencing female figures from Indian and European traditions. Malani has exhibited internationally since the 1980s. A solo exhibition of her work was presented at IMMA in 2007.",
+    "source" : "https://imma.ie/artists/nalini-malani/",
+    "birthDate" : "b.1946",
+    "url" : "https://imma.ie/artists/nalini-malani/",
+    "label" : "Nalini Malani"
   }, {
     "@id" : "spice:artefact/stains",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/malani-nalini",
     "author" : "spice:agent/malani-nalini",
-    "schema:dateCreated" : "2000",
-    "schema:url" : "https://imma.ie/collection/stains/",
+    "dateCreated" : "2000",
+    "url" : "https://imma.ie/collection/stains/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/stains",
-    "arco-cd:hasTitle" : "Stains"
+    "hasTitle" : "Stains"
   }, {
     "@id" : "spice:attribution/stains",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,44 +28,37 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

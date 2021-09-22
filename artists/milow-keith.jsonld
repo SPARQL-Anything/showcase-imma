@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/milow-keith",
     "@type" : "foaf:Person",
-    "dc:description" : "British sculptor, painter and printmaker Keith Milow lived in New York for many years before moving to Amsterdam in 2002. From the 1970s, the form of the cross has served as a point of departure for Milow. He has also explored our relationship to art history, by incorporating in his sculptures the names of twentieth century artists. Milow’s work is represented in significant public and corporate collections around the world.",
-    "dc:source" : "https://imma.ie/artists/keith-milow/",
-    "schema:birthDate" : "b.1945",
-    "schema:url" : "https://imma.ie/artists/keith-milow/",
-    "rdfs:label" : "Keith Milow"
+    "description" : "British sculptor, painter and printmaker Keith Milow lived in New York for many years before moving to Amsterdam in 2002. From the 1970s, the form of the cross has served as a point of departure for Milow. He has also explored our relationship to art history, by incorporating in his sculptures the names of twentieth century artists. Milow’s work is represented in significant public and corporate collections around the world.",
+    "source" : "https://imma.ie/artists/keith-milow/",
+    "birthDate" : "b.1945",
+    "url" : "https://imma.ie/artists/keith-milow/",
+    "label" : "Keith Milow"
   }, {
     "@id" : "spice:artefact/a-cross-between-painting-and-sculpture-no-84",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/milow-keith",
     "author" : "spice:agent/milow-keith",
-    "schema:dateCreated" : "1978",
-    "schema:url" : "https://imma.ie/collection/a-cross-between-painting-and-sculpture-no-84/",
+    "dateCreated" : "1978",
+    "url" : "https://imma.ie/collection/a-cross-between-painting-and-sculpture-no-84/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/a-cross-between-painting-and-sculpture-no-84",
-    "arco-cd:hasTitle" : "A Cross Between Painting and Sculpture No. 84"
+    "hasTitle" : "A Cross Between Painting and Sculpture No. 84"
   }, {
     "@id" : "spice:attribution/a-cross-between-painting-and-sculpture-no-84",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,40 +28,33 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

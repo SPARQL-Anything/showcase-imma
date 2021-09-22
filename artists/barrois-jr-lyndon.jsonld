@@ -1,35 +1,30 @@
 {
   "@id" : "spice:agent/barrois-jr-lyndon",
   "@type" : "foaf:Person",
-  "dc:description" : "Lyndon Barrois Jr. uses magazines, cinematic and vernacular imagery as a primary subjects of inquiry, translating processes of production and meaning between various material contexts. Projects often call to question the subtle yet real ways that race, especially with relation to divergent masculinities, is created and disseminated.",
-  "dc:source" : "https://imma.ie/artists/lyndon-barrois-jr/",
-  "schema:birthDate" : "b.1983",
-  "schema:url" : "https://imma.ie/artists/lyndon-barrois-jr/",
-  "rdfs:label" : "Lyndon Barrois Jr.",
+  "description" : "Lyndon Barrois Jr. uses magazines, cinematic and vernacular imagery as a primary subjects of inquiry, translating processes of production and meaning between various material contexts. Projects often call to question the subtle yet real ways that race, especially with relation to divergent masculinities, is created and disseminated.",
+  "source" : "https://imma.ie/artists/lyndon-barrois-jr/",
+  "birthDate" : "b.1983",
+  "url" : "https://imma.ie/artists/lyndon-barrois-jr/",
+  "label" : "Lyndon Barrois Jr.",
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

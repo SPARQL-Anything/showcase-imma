@@ -1,30 +1,26 @@
 {
   "@id" : "spice:agent/farrington-marie",
   "@type" : "foaf:Person",
-  "dc:description" : [ "Marie Farrington’s sculptures trace the intimate intersections between history, knowledge and making by exploring the subtle forces and entropies contained in materials. Lending agency to invisible processes to reveal tiny occurrences unfolding in spaces and on surfaces, her sculptures act as ephemeral testing grounds that evoke a spectral presence and often uncover residual aspects of places. Marie’s material-lead works exist in conversation with the historical trajectories that have birthed them, working at once as a subversion and a making explicit of material while navigating how sites and substances may become imbued with value and meaning through time spent in contact with human processes. Introducing materials for their capacity to allude to memory and change, many of her pieces, although working within a concept of sculpture, exist as flat planes and use acts such as folding, layering, polishing or covering to establish a sense of image-hood that emphasises the notion of surface as a point of intersection between sculptures, images and architectural forms.", "Marie Farrington’s sculptures trace the intimate intersections between history, knowledge and making by exploring the subtle forces and entropies contained in materials. Lending agency to invisible processes to reveal tiny occurrences unfolding in spaces and on surfaces, her sculptures act as ephemeral testing grounds that evoke a spectral presence and often uncover residual aspects of places." ],
-  "dc:source" : "https://imma.ie/artists/marie-farrington/",
-  "schema:url" : "https://imma.ie/artists/marie-farrington/",
-  "rdfs:label" : "Marie Farrington",
+  "description" : [ "Marie Farrington’s sculptures trace the intimate intersections between history, knowledge and making by exploring the subtle forces and entropies contained in materials. Lending agency to invisible processes to reveal tiny occurrences unfolding in spaces and on surfaces, her sculptures act as ephemeral testing grounds that evoke a spectral presence and often uncover residual aspects of places. Marie’s material-lead works exist in conversation with the historical trajectories that have birthed them, working at once as a subversion and a making explicit of material while navigating how sites and substances may become imbued with value and meaning through time spent in contact with human processes. Introducing materials for their capacity to allude to memory and change, many of her pieces, although working within a concept of sculpture, exist as flat planes and use acts such as folding, layering, polishing or covering to establish a sense of image-hood that emphasises the notion of surface as a point of intersection between sculptures, images and architectural forms.", "Marie Farrington’s sculptures trace the intimate intersections between history, knowledge and making by exploring the subtle forces and entropies contained in materials. Lending agency to invisible processes to reveal tiny occurrences unfolding in spaces and on surfaces, her sculptures act as ephemeral testing grounds that evoke a spectral presence and often uncover residual aspects of places." ],
+  "source" : "https://imma.ie/artists/marie-farrington/",
+  "url" : "https://imma.ie/artists/marie-farrington/",
+  "label" : "Marie Farrington",
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

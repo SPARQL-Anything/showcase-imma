@@ -2,60 +2,60 @@
   "@graph" : [ {
     "@id" : "spice:agent/nicholls-nick",
     "@type" : "foaf:Person",
-    "dc:source" : "https://imma.ie/artists/nick-nicholls/",
-    "schema:birthDate" : "1914–1991",
-    "schema:url" : "https://imma.ie/artists/nick-nicholls/",
-    "rdfs:label" : "Nick Nicholls"
+    "source" : "https://imma.ie/artists/nick-nicholls/",
+    "birthDate" : "1914–1991",
+    "url" : "https://imma.ie/artists/nick-nicholls/",
+    "label" : "Nick Nicholls"
   }, {
     "@id" : "spice:artefact/bird-man",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/nicholls-nick",
     "author" : "spice:agent/nicholls-nick",
-    "schema:dateCreated" : "1935",
-    "schema:url" : "https://imma.ie/collection/bird-man/",
+    "dateCreated" : "1935",
+    "url" : "https://imma.ie/collection/bird-man/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/bird-man",
-    "arco-cd:hasTitle" : "Bird Man"
+    "hasTitle" : "Bird Man"
   }, {
     "@id" : "spice:artefact/poems-by-nick-nicholls",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/nicholls-nick",
     "author" : "spice:agent/nicholls-nick",
-    "schema:dateCreated" : "1942",
-    "schema:url" : "https://imma.ie/collection/poems-by-nick-nicholls/",
+    "dateCreated" : "1942",
+    "url" : "https://imma.ie/collection/poems-by-nick-nicholls/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/poems-by-nick-nicholls",
-    "arco-cd:hasTitle" : "‘Poems’ by Nick Nicholls"
+    "hasTitle" : "‘Poems’ by Nick Nicholls"
   }, {
     "@id" : "spice:artefact/portrait-of-ann",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/nicholls-nick",
     "author" : "spice:agent/nicholls-nick",
-    "schema:dateCreated" : "1935",
-    "schema:url" : "https://imma.ie/collection/portrait-of-ann/",
+    "dateCreated" : "1935",
+    "url" : "https://imma.ie/collection/portrait-of-ann/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/portrait-of-ann",
-    "arco-cd:hasTitle" : "Portrait of Ann"
+    "hasTitle" : "Portrait of Ann"
   }, {
     "@id" : "spice:artefact/stephens-green",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/nicholls-nick",
     "author" : "spice:agent/nicholls-nick",
-    "schema:dateCreated" : "1935",
-    "schema:url" : "https://imma.ie/collection/stephens-green/",
+    "dateCreated" : "1935",
+    "url" : "https://imma.ie/collection/stephens-green/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/stephens-green",
-    "arco-cd:hasTitle" : "Stephen’s Green"
+    "hasTitle" : "Stephen’s Green"
   }, {
     "@id" : "spice:artefact/untitled-140",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/nicholls-nick",
     "author" : "spice:agent/nicholls-nick",
-    "schema:dateCreated" : "1944",
-    "schema:url" : "https://imma.ie/collection/untitled-140/",
+    "dateCreated" : "1944",
+    "url" : "https://imma.ie/collection/untitled-140/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-140",
-    "arco-cd:hasTitle" : "Untitled"
+    "hasTitle" : "Untitled"
   }, {
     "@id" : "spice:attribution/bird-man",
     "@type" : "arco:AuthorshipAttribution",
@@ -87,44 +87,38 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

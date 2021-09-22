@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/holten-katie",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish artist Katie Holten studied at the National College of Art and Design, Dublin and the Hochschule der Kunst, Berlin. She works with drawing, installation, sculpture and ephemeral actions to explore cultural and environmental circumstances, the politics of place and the vulnerabilities implicit in everyday life. Holten has exhibited nationally and internationally since 2000. She represented Ireland at the Venice Biennale in 2003 and has had solo exhibitions at the New Orleans Museum of Art; Dublin City Gallery The Hugh Lane and the Bronx Museum, New York.",
-    "dc:source" : "https://imma.ie/artists/katie-holten/",
-    "schema:birthDate" : "b.1975",
-    "schema:url" : "https://imma.ie/artists/katie-holten/",
-    "rdfs:label" : "Katie Holten"
+    "description" : "Irish artist Katie Holten studied at the National College of Art and Design, Dublin and the Hochschule der Kunst, Berlin. She works with drawing, installation, sculpture and ephemeral actions to explore cultural and environmental circumstances, the politics of place and the vulnerabilities implicit in everyday life. Holten has exhibited nationally and internationally since 2000. She represented Ireland at the Venice Biennale in 2003 and has had solo exhibitions at the New Orleans Museum of Art; Dublin City Gallery The Hugh Lane and the Bronx Museum, New York.",
+    "source" : "https://imma.ie/artists/katie-holten/",
+    "birthDate" : "b.1975",
+    "url" : "https://imma.ie/artists/katie-holten/",
+    "label" : "Katie Holten"
   }, {
     "@id" : "spice:artefact/137-5-it-started-on-the-c-train",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/holten-katie",
     "author" : "spice:agent/holten-katie",
-    "schema:dateCreated" : "2002",
-    "schema:url" : "https://imma.ie/collection/137-5-it-started-on-the-c-train/",
+    "dateCreated" : "2002",
+    "url" : "https://imma.ie/collection/137-5-it-started-on-the-c-train/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/137-5-it-started-on-the-c-train",
-    "arco-cd:hasTitle" : "137.5 °/it started on the C-train"
+    "hasTitle" : "137.5 °/it started on the C-train"
   }, {
     "@id" : "spice:attribution/137-5-it-started-on-the-c-train",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,40 +28,33 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

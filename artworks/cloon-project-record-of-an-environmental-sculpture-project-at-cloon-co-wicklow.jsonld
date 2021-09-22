@@ -2,37 +2,33 @@
   "@graph" : [ {
     "@id" : "spice:artefact/cloon-project-record-of-an-environmental-sculpture-project-at-cloon-co-wicklow",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "above is an installation shot including Brian Kings “Cloon Project”, it is seen here on the wall, far right, in a grouping of works which were part of “Fragments between Modernisms / Fragments and Objects”, a section within IMMA’s exhibition Fragments which was curated in collaboration with artist Alan Phelan.",
-    "dc:source" : "https://imma.ie/collection/cloon-project-record-of-an-environmental-sculpture-project-at-cloon-co-wicklow/",
-    "schema:creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
+    "description" : "above is an installation shot including Brian Kings “Cloon Project”, it is seen here on the wall, far right, in a grouping of works which were part of “Fragments between Modernisms / Fragments and Objects”, a section within IMMA’s exhibition Fragments which was curated in collaboration with artist Alan Phelan.",
+    "source" : "https://imma.ie/collection/cloon-project-record-of-an-environmental-sculpture-project-at-cloon-co-wicklow/",
+    "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/cloon-project-record-of-an-environmental-sculpture-project-at-cloon-co-wicklow",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "14 photographs on card, tape, varnish",
-    "schema:size" : "63.3 x 110.4 cm",
-    "arco-cd:hasInventory" : "IMMA.270 GL"
+    "material" : "14 photographs on card, tape, varnish",
+    "size" : "63.3 x 110.4 cm",
+    "hasInventory" : "IMMA.270 GL"
   }, {
     "@id" : "spice:documentation/cloon-project-record-of-an-environmental-sculpture-project-at-cloon-co-wicklow",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Brian King, Cloon Project (record of an environmental sculpture project at Cloon, Co Wicklow), 1980, 14 photographs on card, tape, varnish, 63.3 x 110.4 cm, Collection Irish Museum of Modern Art, Gordon Lambert Trust, 1992 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Brian King, Cloon Project (record of an environmental sculpture project at Cloon, Co Wicklow), 1980, 14 photographs on card, tape, varnish, 63.3 x 110.4 cm, Collection Irish Museum of Modern Art, Gordon Lambert Trust, 1992 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -43,20 +39,16 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

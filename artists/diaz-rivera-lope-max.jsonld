@@ -2,19 +2,19 @@
   "@graph" : [ {
     "@id" : "spice:agent/diaz-rivera-lope-max",
     "@type" : "foaf:Person",
-    "dc:source" : "https://imma.ie/artists/lope-max-diaz-rivera/",
-    "schema:url" : "https://imma.ie/artists/lope-max-diaz-rivera/",
-    "rdfs:label" : "Lope Max Diaz Rivera"
+    "source" : "https://imma.ie/artists/lope-max-diaz-rivera/",
+    "url" : "https://imma.ie/artists/lope-max-diaz-rivera/",
+    "label" : "Lope Max Diaz Rivera"
   }, {
     "@id" : "spice:artefact/esopo",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/diaz-rivera-lope-max",
     "author" : "spice:agent/diaz-rivera-lope-max",
-    "schema:dateCreated" : "1976",
-    "schema:url" : "https://imma.ie/collection/esopo/",
+    "dateCreated" : "1976",
+    "url" : "https://imma.ie/collection/esopo/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/esopo",
-    "arco-cd:hasTitle" : "Esopo"
+    "hasTitle" : "Esopo"
   }, {
     "@id" : "spice:attribution/esopo",
     "@type" : "arco:AuthorshipAttribution",
@@ -30,40 +30,35 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

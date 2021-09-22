@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/fitzgerald-tom",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish sculptor Tom Fitzgerald studied at the Limerick School of Art and Design and later served as head of the sculpture department from 1976 to 2000. A founder member of Limerick's EV+a exhibition in 1977, Fitzgerald has exhibited extensively, including solo exhibitions at the RHA; Project Arts Centre, Dublin; Limerick City Gallery of Art and the Butler Gallery, Kilkenny. His work is represented in public collections including Dublin City Gallery The Hugh Lane and Limerick City Gallery of Art. Fitzgerald is a member of Aosdána.",
-    "dc:source" : "https://imma.ie/artists/tom-fitzgerald/",
-    "schema:birthDate" : "b.1939",
-    "schema:url" : "https://imma.ie/artists/tom-fitzgerald/",
-    "rdfs:label" : "Tom Fitzgerald"
+    "description" : "Irish sculptor Tom Fitzgerald studied at the Limerick School of Art and Design and later served as head of the sculpture department from 1976 to 2000. A founder member of Limerick's EV+a exhibition in 1977, Fitzgerald has exhibited extensively, including solo exhibitions at the RHA; Project Arts Centre, Dublin; Limerick City Gallery of Art and the Butler Gallery, Kilkenny. His work is represented in public collections including Dublin City Gallery The Hugh Lane and Limerick City Gallery of Art. Fitzgerald is a member of Aosdána.",
+    "source" : "https://imma.ie/artists/tom-fitzgerald/",
+    "birthDate" : "b.1939",
+    "url" : "https://imma.ie/artists/tom-fitzgerald/",
+    "label" : "Tom Fitzgerald"
   }, {
     "@id" : "spice:artefact/implement-no-7",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/fitzgerald-tom",
     "author" : "spice:agent/fitzgerald-tom",
-    "schema:dateCreated" : "1984",
-    "schema:url" : "https://imma.ie/collection/implement-no-7/",
+    "dateCreated" : "1984",
+    "url" : "https://imma.ie/collection/implement-no-7/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/implement-no-7",
-    "arco-cd:hasTitle" : "Implement No.7"
+    "hasTitle" : "Implement No.7"
   }, {
     "@id" : "spice:attribution/implement-no-7",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,40 +24,33 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

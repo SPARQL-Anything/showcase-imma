@@ -1,0 +1,71 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/afghan-tour",
+    "@type" : "schema:CreativeWork",
+    "description" : "Claire Halpin’s practice explores themes and concepts around contested territories and histories through painting, video and installation. Afghan Tour is part of a body of work called Jigmap Series, which attempts to navigate the complexity of the contemporary theatre of war, as battlefield expands to battlespace in the information age. The works in this series explore the covert machinations of the perpetual war that is arms deals, mercenaries, remote surveillance programmes and drone warfare that take place away from the lens of the media. ",
+    "source" : "https://imma.ie/collection/afghan-tour/",
+    "creditText" : "IMMA Collection: Purchase, 2020, 2020",
+    "image" : "spice:documentation/afghan-tour",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "material" : "Oil on canvas",
+    "size" : "diptych 60 x 150 cm",
+    "hasInventory" : "IMMA.4187"
+  }, {
+    "@id" : "spice:documentation/afghan-tour",
+    "@type" : "schema:ImageObject",
+    "caption" : "Claire Halpin, Afghan Tour, 2016, Oil on canvas, diptych 60 x 150 cm, Collection Irish Museum of Modern Art, Purchase, 2020, 2020 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "url" : "https://imma.ie/wp-content/uploads/2021/04/9481.jpg"
+  } ],
+  "@context" : {
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

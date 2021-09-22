@@ -1,0 +1,67 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/poverty-of-vision",
+    "@type" : "schema:CreativeWork",
+    "description" : "Poverty of Vision is a drag performance that knits together intersecting critiques of the 1980’s. Considering the 80’s as a regressive period when contemporary art discourse and institutional frameworks actively forgot the radical redefinitions, of what art could be and who it could be for, that had gone before in the 1970’s. The piece proposes that ‘looking into archives is all about looking at what isn’t there’.   ",
+    "source" : "https://imma.ie/collection/poverty-of-vision/",
+    "creditText" : "IMMA Collection: Purchase, 2017, 2021",
+    "image" : "spice:documentation/poverty-of-vision",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "material" : "performance with video projection, video documentation, script, two risograph double-sided posters (unlimited edition, given to audience during performance)",
+    "hasInventory" : "IMMA.4204"
+  }, {
+    "@id" : "spice:documentation/poverty-of-vision",
+    "@type" : "schema:ImageObject",
+    "caption" : "Emma Wolf-Haugh, Poverty of Vision, 2017, performance with video projection, video documentation, script, two risograph double-sided posters (unlimited edition, given to audience during performance), Duration: 39min.30 sec., Collection Irish Museum of Modern Art, Purchase, 2017, 2021 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "url" : "https://imma.ie/wp-content/uploads/2021/04/9498.jpg"
+  } ],
+  "@context" : {
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

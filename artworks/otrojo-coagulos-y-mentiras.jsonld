@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/otrojo-coagulos-y-mentiras",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "The intellectual and intuitive but also physical act of painting is a driving force for Juan Uslé, as is the environment in which he works. He places a strong emphasis on the handling of his medium – a combination of vinyl blended with dry pigments. During the early 1980s his work reflected the Spanish countryside where he lived – created through depictions of transient, atmospheric conditions. A move to New York in 1987 led to a more abstract imagery that reflects the chaos and flux of the city. The large scale of ‘OTROJO, coágulos y mentiras’, envelops the viewer, inviting us to enter the work and lose ourselves in its inner architecture. The work incorporates many of the elements that form the basic components of his current stylistic language, the utilisation of light, colour contrasts, complexity of line and the illusion of space activated via overlaps, forming the lyrical essence of the painting. Does this work reveal its inner structure to us or is it self-contained within its own private world?",
-    "dc:source" : "https://imma.ie/collection/otrojo-coagulos-y-mentiras/",
-    "schema:creditText" : "IMMA Collection: Purchase, 2004",
+    "description" : "The intellectual and intuitive but also physical act of painting is a driving force for Juan Uslé, as is the environment in which he works. He places a strong emphasis on the handling of his medium – a combination of vinyl blended with dry pigments. During the early 1980s his work reflected the Spanish countryside where he lived – created through depictions of transient, atmospheric conditions. A move to New York in 1987 led to a more abstract imagery that reflects the chaos and flux of the city. The large scale of ‘OTROJO, coágulos y mentiras’, envelops the viewer, inviting us to enter the work and lose ourselves in its inner architecture. The work incorporates many of the elements that form the basic components of his current stylistic language, the utilisation of light, colour contrasts, complexity of line and the illusion of space activated via overlaps, forming the lyrical essence of the painting. Does this work reveal its inner structure to us or is it self-contained within its own private world?",
+    "source" : "https://imma.ie/collection/otrojo-coagulos-y-mentiras/",
+    "creditText" : "IMMA Collection: Purchase, 2004",
     "image" : "spice:documentation/otrojo-coagulos-y-mentiras",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Vinyl, dispersion and dry pigment on linen",
-    "schema:size" : "275 x 203 cm",
-    "arco-cd:hasInventory" : "IMMA.1785"
+    "material" : "Vinyl, dispersion and dry pigment on linen",
+    "size" : "275 x 203 cm",
+    "hasInventory" : "IMMA.1785"
   }, {
     "@id" : "spice:documentation/otrojo-coagulos-y-mentiras",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Juan Uslé, OTROJO, Coágulos y Mentiras, 2003, Vinyl, dispersion and dry pigment on linen, 275 x 203 cm, Collection Irish Museum of Modern Art, Purchase, 2004 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Juan Uslé, OTROJO, Coágulos y Mentiras, 2003, Vinyl, dispersion and dry pigment on linen, 275 x 203 cm, Collection Irish Museum of Modern Art, Purchase, 2004 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2019/03/789.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2019/03/789.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

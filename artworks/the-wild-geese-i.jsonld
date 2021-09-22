@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/the-wild-geese-i",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Australia’s most famous twentieth century painter, Sidney Nolan is most frequently remembered for his paintings of the bush outlaw Ned Kelly and his gang. Kelly, like Nolan, was Irish-Australian and it was Nolan’s strong Irish connections that led him to visit this country several times and to paint the ‘Wild Geese’ series of paintings. ",
-    "dc:source" : "https://imma.ie/collection/the-wild-geese-i/",
-    "schema:creditText" : "IMMA Collection: Donated by the artist, 1991",
+    "description" : "Australia’s most famous twentieth century painter, Sidney Nolan is most frequently remembered for his paintings of the bush outlaw Ned Kelly and his gang. Kelly, like Nolan, was Irish-Australian and it was Nolan’s strong Irish connections that led him to visit this country several times and to paint the ‘Wild Geese’ series of paintings. ",
+    "source" : "https://imma.ie/collection/the-wild-geese-i/",
+    "creditText" : "IMMA Collection: Donated by the artist, 1991",
     "image" : "spice:documentation/the-wild-geese-i",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Oil on canvas",
-    "schema:size" : "152.4 x 121.92 cm",
-    "arco-cd:hasInventory" : "IMMA.24"
+    "material" : "Oil on canvas",
+    "size" : "152.4 x 121.92 cm",
+    "hasInventory" : "IMMA.24"
   }, {
     "@id" : "spice:documentation/the-wild-geese-i",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Sidney Nolan, The Wild Geese I, 1989, Oil on canvas, 152.4 x 121.92 cm, Collection Irish Museum of Modern Art, Donated by the artist, 1991 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Sidney Nolan, The Wild Geese I, 1989, Oil on canvas, 152.4 x 121.92 cm, Collection Irish Museum of Modern Art, Donated by the artist, 1991 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/1480.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/1480.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

@@ -2,37 +2,33 @@
   "@graph" : [ {
     "@id" : "spice:artefact/untitled-large-watercolour",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Untitled, Large Watercolour is a 1990 work by Shirazeh Houshiary. It is not currently on display in IMMA. ",
-    "dc:source" : "https://imma.ie/collection/untitled-large-watercolour/",
-    "schema:creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1994",
+    "description" : "Untitled, Large Watercolour is a 1990 work by Shirazeh Houshiary. It is not currently on display in IMMA. ",
+    "source" : "https://imma.ie/collection/untitled-large-watercolour/",
+    "creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1994",
     "image" : "spice:documentation/untitled-large-watercolour",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Watercolour",
-    "schema:size" : "Framed: 163 x 136 cm 112 x 140 cm",
-    "arco-cd:hasInventory" : "L.557 LW"
+    "material" : "Watercolour",
+    "size" : "Framed: 163 x 136 cm 112 x 140 cm",
+    "hasInventory" : "L.557 LW"
   }, {
     "@id" : "spice:documentation/untitled-large-watercolour",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Shirazeh Houshiary, Untitled, Large Watercolour, 1990, Watercolour, Framed: 163 x 136 cm 112 x 140 cm, Collection Irish Museum of Modern Art, Loan, Weltkunst Foundation, 1994 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Shirazeh Houshiary, Untitled, Large Watercolour, 1990, Watercolour, Framed: 163 x 136 cm 112 x 140 cm, Collection Irish Museum of Modern Art, Loan, Weltkunst Foundation, 1994 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -43,20 +39,16 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

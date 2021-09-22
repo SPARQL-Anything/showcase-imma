@@ -2,251 +2,251 @@
   "@graph" : [ {
     "@id" : "spice:agent/martyn-ferenc",
     "@type" : "foaf:Person",
-    "dc:description" : "Hungarian painter and sculptor Ferenc Martyn lived in Paris from the 1920s. In Paris Martyn associated with the Abstraction-Création group of artists who were actively promoting the principles of pure abstraction in art in the 1930s. Martyn’s spontaneous abstract paintings, sculpture and ceramic works from this time borrow from his personal experience, music and folk culture. Also working in literary illustration, in 1982 he produced 24 illustrations for James Joyce’s ‘Ulysses’ in celebration of the centenary of the writer’s birth.",
-    "dc:source" : "https://imma.ie/artists/ferenc-martyn/",
-    "schema:birthDate" : "1899–1986",
-    "schema:url" : "https://imma.ie/artists/ferenc-martyn/",
-    "rdfs:label" : "Ferenc Martyn"
+    "description" : "Hungarian painter and sculptor Ferenc Martyn lived in Paris from the 1920s. In Paris Martyn associated with the Abstraction-Création group of artists who were actively promoting the principles of pure abstraction in art in the 1930s. Martyn’s spontaneous abstract paintings, sculpture and ceramic works from this time borrow from his personal experience, music and folk culture. Also working in literary illustration, in 1982 he produced 24 illustrations for James Joyce’s ‘Ulysses’ in celebration of the centenary of the writer’s birth.",
+    "source" : "https://imma.ie/artists/ferenc-martyn/",
+    "birthDate" : "1899–1986",
+    "url" : "https://imma.ie/artists/ferenc-martyn/",
+    "label" : "Ferenc Martyn"
   }, {
     "@id" : "spice:artefact/a-new-messiah-for-ireland",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/martyn-ferenc",
     "author" : "spice:agent/martyn-ferenc",
-    "schema:dateCreated" : "1964",
-    "schema:url" : "https://imma.ie/collection/a-new-messiah-for-ireland/",
+    "dateCreated" : "1964",
+    "url" : "https://imma.ie/collection/a-new-messiah-for-ireland/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/a-new-messiah-for-ireland",
-    "arco-cd:hasTitle" : "A New Messiah for Ireland"
+    "hasTitle" : "A New Messiah for Ireland"
   }, {
     "@id" : "spice:artefact/afternoon-walk-of-leopold-bloom",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/martyn-ferenc",
     "author" : "spice:agent/martyn-ferenc",
-    "schema:dateCreated" : "1964",
-    "schema:url" : "https://imma.ie/collection/afternoon-walk-of-leopold-bloom/",
+    "dateCreated" : "1964",
+    "url" : "https://imma.ie/collection/afternoon-walk-of-leopold-bloom/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/afternoon-walk-of-leopold-bloom",
-    "arco-cd:hasTitle" : "Afternoon Walk of Leopold Bloom"
+    "hasTitle" : "Afternoon Walk of Leopold Bloom"
   }, {
     "@id" : "spice:artefact/afternoon-walk-of-leopold-bloom-on-the-beach",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/martyn-ferenc",
     "author" : "spice:agent/martyn-ferenc",
-    "schema:dateCreated" : "1964",
-    "schema:url" : "https://imma.ie/collection/afternoon-walk-of-leopold-bloom-on-the-beach/",
+    "dateCreated" : "1964",
+    "url" : "https://imma.ie/collection/afternoon-walk-of-leopold-bloom-on-the-beach/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/afternoon-walk-of-leopold-bloom-on-the-beach",
-    "arco-cd:hasTitle" : "Afternoon walk of Leopold Bloom on the beach"
+    "hasTitle" : "Afternoon walk of Leopold Bloom on the beach"
   }, {
     "@id" : "spice:artefact/bloom-dedalus",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/martyn-ferenc",
     "author" : "spice:agent/martyn-ferenc",
-    "schema:dateCreated" : "1964",
-    "schema:url" : "https://imma.ie/collection/bloom-dedalus/",
+    "dateCreated" : "1964",
+    "url" : "https://imma.ie/collection/bloom-dedalus/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/bloom-dedalus",
-    "arco-cd:hasTitle" : "Bloom-Dedalus"
+    "hasTitle" : "Bloom-Dedalus"
   }, {
     "@id" : "spice:artefact/bloom-dedalus-with-carriage",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/martyn-ferenc",
     "author" : "spice:agent/martyn-ferenc",
-    "schema:dateCreated" : "1964",
-    "schema:url" : "https://imma.ie/collection/bloom-dedalus-with-carriage/",
+    "dateCreated" : "1964",
+    "url" : "https://imma.ie/collection/bloom-dedalus-with-carriage/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/bloom-dedalus-with-carriage",
-    "arco-cd:hasTitle" : "Bloom-Dedalus with Carriage"
+    "hasTitle" : "Bloom-Dedalus with Carriage"
   }, {
     "@id" : "spice:artefact/breakfast",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/martyn-ferenc",
     "author" : "spice:agent/martyn-ferenc",
-    "schema:dateCreated" : "1964",
-    "schema:url" : "https://imma.ie/collection/breakfast/",
+    "dateCreated" : "1964",
+    "url" : "https://imma.ie/collection/breakfast/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/breakfast",
-    "arco-cd:hasTitle" : "Breakfast"
+    "hasTitle" : "Breakfast"
   }, {
     "@id" : "spice:artefact/dublin-bridge-harbour",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/martyn-ferenc",
     "author" : "spice:agent/martyn-ferenc",
-    "schema:dateCreated" : "1964",
-    "schema:url" : "https://imma.ie/collection/dublin-bridge-harbour/",
+    "dateCreated" : "1964",
+    "url" : "https://imma.ie/collection/dublin-bridge-harbour/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/dublin-bridge-harbour",
-    "arco-cd:hasTitle" : "Dublin Bridge-Harbour"
+    "hasTitle" : "Dublin Bridge-Harbour"
   }, {
     "@id" : "spice:artefact/during-wine-drinking",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/martyn-ferenc",
     "author" : "spice:agent/martyn-ferenc",
-    "schema:dateCreated" : "1964",
-    "schema:url" : "https://imma.ie/collection/during-wine-drinking/",
+    "dateCreated" : "1964",
+    "url" : "https://imma.ie/collection/during-wine-drinking/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/during-wine-drinking",
-    "arco-cd:hasTitle" : "During Wine Drinking"
+    "hasTitle" : "During Wine Drinking"
   }, {
     "@id" : "spice:artefact/england-and-ireland",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/martyn-ferenc",
     "author" : "spice:agent/martyn-ferenc",
-    "schema:dateCreated" : "1964",
-    "schema:url" : "https://imma.ie/collection/england-and-ireland/",
+    "dateCreated" : "1964",
+    "url" : "https://imma.ie/collection/england-and-ireland/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/england-and-ireland",
-    "arco-cd:hasTitle" : "England and Ireland"
+    "hasTitle" : "England and Ireland"
   }, {
     "@id" : "spice:artefact/female-nude-2",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/martyn-ferenc",
     "author" : "spice:agent/martyn-ferenc",
-    "schema:dateCreated" : "1964",
-    "schema:url" : "https://imma.ie/collection/female-nude-2/",
+    "dateCreated" : "1964",
+    "url" : "https://imma.ie/collection/female-nude-2/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/female-nude-2",
-    "arco-cd:hasTitle" : "Female Nude"
+    "hasTitle" : "Female Nude"
   }, {
     "@id" : "spice:artefact/figures-in-landscape",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/martyn-ferenc",
     "author" : "spice:agent/martyn-ferenc",
-    "schema:dateCreated" : "1964",
-    "schema:url" : "https://imma.ie/collection/figures-in-landscape/",
+    "dateCreated" : "1964",
+    "url" : "https://imma.ie/collection/figures-in-landscape/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/figures-in-landscape",
-    "arco-cd:hasTitle" : "Figures in Landscape"
+    "hasTitle" : "Figures in Landscape"
   }, {
     "@id" : "spice:artefact/funeral-of-dignam",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/martyn-ferenc",
     "author" : "spice:agent/martyn-ferenc",
-    "schema:dateCreated" : "1964",
-    "schema:url" : "https://imma.ie/collection/funeral-of-dignam/",
+    "dateCreated" : "1964",
+    "url" : "https://imma.ie/collection/funeral-of-dignam/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/funeral-of-dignam",
-    "arco-cd:hasTitle" : "Funeral of Dignam"
+    "hasTitle" : "Funeral of Dignam"
   }, {
     "@id" : "spice:artefact/head-with-crown",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/martyn-ferenc",
     "author" : "spice:agent/martyn-ferenc",
-    "schema:dateCreated" : "1964",
-    "schema:url" : "https://imma.ie/collection/head-with-crown/",
+    "dateCreated" : "1964",
+    "url" : "https://imma.ie/collection/head-with-crown/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/head-with-crown",
-    "arco-cd:hasTitle" : "Head With Crown"
+    "hasTitle" : "Head With Crown"
   }, {
     "@id" : "spice:artefact/horseman-and-birds",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/martyn-ferenc",
     "author" : "spice:agent/martyn-ferenc",
-    "schema:dateCreated" : "1964",
-    "schema:url" : "https://imma.ie/collection/horseman-and-birds/",
+    "dateCreated" : "1964",
+    "url" : "https://imma.ie/collection/horseman-and-birds/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/horseman-and-birds",
-    "arco-cd:hasTitle" : "Horseman and Birds"
+    "hasTitle" : "Horseman and Birds"
   }, {
     "@id" : "spice:artefact/in-the-brothel",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/martyn-ferenc",
     "author" : "spice:agent/martyn-ferenc",
-    "schema:dateCreated" : "1964",
-    "schema:url" : "https://imma.ie/collection/in-the-brothel/",
+    "dateCreated" : "1964",
+    "url" : "https://imma.ie/collection/in-the-brothel/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/in-the-brothel",
-    "arco-cd:hasTitle" : "In the Brothel"
+    "hasTitle" : "In the Brothel"
   }, {
     "@id" : "spice:artefact/leopold-bloom-does-his-needs-in-the-morning",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/martyn-ferenc",
     "author" : "spice:agent/martyn-ferenc",
-    "schema:dateCreated" : "1964",
-    "schema:url" : "https://imma.ie/collection/leopold-bloom-does-his-needs-in-the-morning/",
+    "dateCreated" : "1964",
+    "url" : "https://imma.ie/collection/leopold-bloom-does-his-needs-in-the-morning/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/leopold-bloom-does-his-needs-in-the-morning",
-    "arco-cd:hasTitle" : "Leopold Bloom Does his Needs in the Morning"
+    "hasTitle" : "Leopold Bloom Does his Needs in the Morning"
   }, {
     "@id" : "spice:artefact/masks",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/martyn-ferenc",
     "author" : "spice:agent/martyn-ferenc",
-    "schema:dateCreated" : "1964",
-    "schema:url" : "https://imma.ie/collection/masks/",
+    "dateCreated" : "1964",
+    "url" : "https://imma.ie/collection/masks/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/masks",
-    "arco-cd:hasTitle" : "Masks"
+    "hasTitle" : "Masks"
   }, {
     "@id" : "spice:artefact/monologue-of-molly",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/martyn-ferenc",
     "author" : "spice:agent/martyn-ferenc",
-    "schema:dateCreated" : "1964",
-    "schema:url" : "https://imma.ie/collection/monologue-of-molly/",
+    "dateCreated" : "1964",
+    "url" : "https://imma.ie/collection/monologue-of-molly/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/monologue-of-molly",
-    "arco-cd:hasTitle" : "Monologue of Molly"
+    "hasTitle" : "Monologue of Molly"
   }, {
     "@id" : "spice:artefact/riders",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/martyn-ferenc",
     "author" : "spice:agent/martyn-ferenc",
-    "schema:dateCreated" : "1964",
-    "schema:url" : "https://imma.ie/collection/riders/",
+    "dateCreated" : "1964",
+    "url" : "https://imma.ie/collection/riders/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/riders",
-    "arco-cd:hasTitle" : "Riders"
+    "hasTitle" : "Riders"
   }, {
     "@id" : "spice:artefact/shakespear",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/martyn-ferenc",
     "author" : "spice:agent/martyn-ferenc",
-    "schema:dateCreated" : "1964",
-    "schema:url" : "https://imma.ie/collection/shakespear/",
+    "dateCreated" : "1964",
+    "url" : "https://imma.ie/collection/shakespear/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/shakespear",
-    "arco-cd:hasTitle" : "Shakespear"
+    "hasTitle" : "Shakespear"
   }, {
     "@id" : "spice:artefact/three-figures",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/martyn-ferenc",
     "author" : "spice:agent/martyn-ferenc",
-    "schema:dateCreated" : "1964",
-    "schema:url" : "https://imma.ie/collection/three-figures/",
+    "dateCreated" : "1964",
+    "url" : "https://imma.ie/collection/three-figures/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/three-figures",
-    "arco-cd:hasTitle" : "Three Figures"
+    "hasTitle" : "Three Figures"
   }, {
     "@id" : "spice:artefact/three-heads",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/martyn-ferenc",
     "author" : "spice:agent/martyn-ferenc",
-    "schema:dateCreated" : "1964",
-    "schema:url" : "https://imma.ie/collection/three-heads/",
+    "dateCreated" : "1964",
+    "url" : "https://imma.ie/collection/three-heads/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/three-heads",
-    "arco-cd:hasTitle" : "Three Heads"
+    "hasTitle" : "Three Heads"
   }, {
     "@id" : "spice:artefact/two-heads",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/martyn-ferenc",
     "author" : "spice:agent/martyn-ferenc",
-    "schema:dateCreated" : "1964",
-    "schema:url" : "https://imma.ie/collection/two-heads/",
+    "dateCreated" : "1964",
+    "url" : "https://imma.ie/collection/two-heads/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/two-heads",
-    "arco-cd:hasTitle" : "Two Heads"
+    "hasTitle" : "Two Heads"
   }, {
     "@id" : "spice:artefact/visit-to-the-museum",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/martyn-ferenc",
     "author" : "spice:agent/martyn-ferenc",
-    "schema:dateCreated" : "1964",
-    "schema:url" : "https://imma.ie/collection/visit-to-the-museum/",
+    "dateCreated" : "1964",
+    "url" : "https://imma.ie/collection/visit-to-the-museum/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/visit-to-the-museum",
-    "arco-cd:hasTitle" : "Visit to the Museum"
+    "hasTitle" : "Visit to the Museum"
   }, {
     "@id" : "spice:attribution/a-new-messiah-for-ireland",
     "@type" : "arco:AuthorshipAttribution",
@@ -354,48 +354,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

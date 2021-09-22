@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/donis-roberto",
     "@type" : "foaf:Person",
-    "dc:description" : "Roberto Donís was born in Venado in the state of San Luis Potosí in Mexico. At the age of 16 he attended the Escuela Nacional de Pintura, Escultura y Grabado. Dissatisfied with the school, he abandoned his studies after leading a brief student revolt in 1951. Donís worked as a teacher in Michoacán before returning to Mexico city in 1956. He then lived in Paris between 1962 and 1963, where he studied art history at the École du Louvre. From 1966 to 1969 he relocated to New York and became influenced by abstract expressionism. He returned to Mexico in 1970. In 1972 he was made director of the Escuela de Bellas Artes at Universidad Autónoma Benito Juárez but resigned due to internal conflicts. From 1974 to 1984 he worked at the Taller de Artes Plásticas Rufino Tamayo. Donís gave up paining in the mid 1980’s. He died in 2008 aged 74.",
-    "dc:source" : "https://imma.ie/artists/roberto-donis/",
-    "schema:birthDate" : "1934–2008",
-    "schema:url" : "https://imma.ie/artists/roberto-donis/",
-    "rdfs:label" : "Roberto Donís"
+    "description" : "Roberto Donís was born in Venado in the state of San Luis Potosí in Mexico. At the age of 16 he attended the Escuela Nacional de Pintura, Escultura y Grabado. Dissatisfied with the school, he abandoned his studies after leading a brief student revolt in 1951. Donís worked as a teacher in Michoacán before returning to Mexico city in 1956. He then lived in Paris between 1962 and 1963, where he studied art history at the École du Louvre. From 1966 to 1969 he relocated to New York and became influenced by abstract expressionism. He returned to Mexico in 1970. In 1972 he was made director of the Escuela de Bellas Artes at Universidad Autónoma Benito Juárez but resigned due to internal conflicts. From 1974 to 1984 he worked at the Taller de Artes Plásticas Rufino Tamayo. Donís gave up paining in the mid 1980’s. He died in 2008 aged 74.",
+    "source" : "https://imma.ie/artists/roberto-donis/",
+    "birthDate" : "1934–2008",
+    "url" : "https://imma.ie/artists/roberto-donis/",
+    "label" : "Roberto Donís"
   }, {
     "@id" : "spice:artefact/azul-en-trayectoria",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/donis-roberto",
     "author" : "spice:agent/donis-roberto",
-    "schema:dateCreated" : "1972",
-    "schema:url" : "https://imma.ie/collection/azul-en-trayectoria/",
+    "dateCreated" : "1972",
+    "url" : "https://imma.ie/collection/azul-en-trayectoria/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/azul-en-trayectoria",
-    "arco-cd:hasTitle" : "Azul en Trayectoria"
+    "hasTitle" : "Azul en Trayectoria"
   }, {
     "@id" : "spice:attribution/azul-en-trayectoria",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,24 +28,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -56,24 +53,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

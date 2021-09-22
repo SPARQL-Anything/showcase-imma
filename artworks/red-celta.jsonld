@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/red-celta",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Red Celta is a 1980 work by Tony O'Malley. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/red-celta/",
-    "schema:creditText" : "IMMA Collection: Heritage Gift from the McClelland Collection by Noel and Anne Marie Smyth, 2004",
+    "description" : "Red Celta is a 1980 work by Tony O'Malley. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/red-celta/",
+    "creditText" : "IMMA Collection: Heritage Gift from the McClelland Collection by Noel and Anne Marie Smyth, 2004",
     "image" : "spice:documentation/red-celta",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Gouache and coloured chalks on paper",
-    "schema:size" : "37.5 x 27.5 cm",
-    "arco-cd:hasInventory" : "IMMA.1383 MCCL"
+    "material" : "Gouache and coloured chalks on paper",
+    "size" : "37.5 x 27.5 cm",
+    "hasInventory" : "IMMA.1383 MCCL"
   }, {
     "@id" : "spice:documentation/red-celta",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Tony O'Malley, Red Celta, 1980, Gouache and coloured chalks on paper, 37.5 x 27.5 cm, Collection Irish Museum of Modern Art, Heritage Gift from the McClelland Collection by Noel and Anne Marie Smyth, 2004 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Tony O'Malley, Red Celta, 1980, Gouache and coloured chalks on paper, 37.5 x 27.5 cm, Collection Irish Museum of Modern Art, Heritage Gift from the McClelland Collection by Noel and Anne Marie Smyth, 2004 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2020/02/1427.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2020/02/1427.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

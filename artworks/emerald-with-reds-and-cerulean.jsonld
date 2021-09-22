@@ -2,37 +2,33 @@
   "@graph" : [ {
     "@id" : "spice:artefact/emerald-with-reds-and-cerulean",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Emerald with Reds and Cerulean is a 1979 work by Patrick Heron. It is not currently on display in IMMA. ",
-    "dc:source" : "https://imma.ie/collection/emerald-with-reds-and-cerulean/",
-    "schema:creditText" : "IMMA Collection: Loan, George and Maura McClelland, 2005",
+    "description" : "Emerald with Reds and Cerulean is a 1979 work by Patrick Heron. It is not currently on display in IMMA. ",
+    "source" : "https://imma.ie/collection/emerald-with-reds-and-cerulean/",
+    "creditText" : "IMMA Collection: Loan, George and Maura McClelland, 2005",
     "image" : "spice:documentation/emerald-with-reds-and-cerulean",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Oil on canvas",
-    "schema:size" : "151 x 210 cm",
-    "arco-cd:hasInventory" : "L.1941"
+    "material" : "Oil on canvas",
+    "size" : "151 x 210 cm",
+    "hasInventory" : "L.1941"
   }, {
     "@id" : "spice:documentation/emerald-with-reds-and-cerulean",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Patrick Heron, Emerald with Reds and Cerulean, 1979, Oil on canvas, 151 x 210 cm, Collection Irish Museum of Modern Art, Loan, George and Maura McClelland, 2005 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Patrick Heron, Emerald with Reds and Cerulean, 1979, Oil on canvas, 151 x 210 cm, Collection Irish Museum of Modern Art, Loan, George and Maura McClelland, 2005 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -43,20 +39,16 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

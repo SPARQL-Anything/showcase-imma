@@ -2,71 +2,61 @@
   "@graph" : [ {
     "@id" : "spice:artefact/solicitors-head",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Solicitor’s Head is a 2003 work by Lucian Freud. It is not currently on display in IMMA. ",
-    "dc:source" : "https://imma.ie/collection/solicitors-head/",
-    "schema:creditText" : "IMMA Collection: On Loan, Private Collection, ",
+    "description" : "Solicitor’s Head is a 2003 work by Lucian Freud. It is not currently on display in IMMA. ",
+    "source" : "https://imma.ie/collection/solicitors-head/",
+    "creditText" : "IMMA Collection: On Loan, Private Collection, ",
     "image" : "spice:documentation/solicitors-head",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Etching",
-    "schema:size" : "Plate: 36.7 x 27.8 cm Sheet: 59.1 x 48.3 cm",
-    "schema:version" : "Edition A/P 3/12",
-    "arco-cd:hasInventory" : "EX.2016.1.11"
+    "material" : "Etching",
+    "size" : "Plate: 36.7 x 27.8 cm Sheet: 59.1 x 48.3 cm",
+    "version" : "Edition A/P 3/12",
+    "hasInventory" : "EX.2016.1.11"
   }, {
     "@id" : "spice:documentation/solicitors-head",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Lucian Freud, Solicitor’s Head, 2003, Etching, Plate: 36.7 x 27.8 cm Sheet: 59.1 x 48.3 cm, Collection Irish Museum of Modern Art, On Loan, Private Collection ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Lucian Freud, Solicitor’s Head, 2003, Etching, Plate: 36.7 x 27.8 cm Sheet: 59.1 x 48.3 cm, Collection Irish Museum of Modern Art, On Loan, Private Collection ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2020/08/7557.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2020/08/7557.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

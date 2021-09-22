@@ -2,31 +2,31 @@
   "@graph" : [ {
     "@id" : "spice:agent/picasso-pablo",
     "@type" : "foaf:Person",
-    "dc:description" : "Spanish artist Pablo Picasso (1881-1973) is now considered central to the development of modern art in the 20th century. He left Spain for Paris in 1904, where he met Georges Braque and together they were responsible for the evolution of Cubism. Though painting was his principal medium, Picasso’s prolific output also included print, sculpture, ceramics and theatre design. An exhibition at MoMA, New York in 1939 was the first of many significant exhibitions during his lifetime. ‘Picasso: Working on Paper’ was the inaugural show in IMMA’s New Galleries in 2000.",
-    "dc:source" : "https://imma.ie/artists/pablo-picasso/",
-    "schema:birthDate" : "1881–1973",
-    "schema:url" : "https://imma.ie/artists/pablo-picasso/",
-    "rdfs:label" : "Pablo Picasso"
+    "description" : "Spanish artist Pablo Picasso (1881-1973) is now considered central to the development of modern art in the 20th century. He left Spain for Paris in 1904, where he met Georges Braque and together they were responsible for the evolution of Cubism. Though painting was his principal medium, Picasso’s prolific output also included print, sculpture, ceramics and theatre design. An exhibition at MoMA, New York in 1939 was the first of many significant exhibitions during his lifetime. ‘Picasso: Working on Paper’ was the inaugural show in IMMA’s New Galleries in 2000.",
+    "source" : "https://imma.ie/artists/pablo-picasso/",
+    "birthDate" : "1881–1973",
+    "url" : "https://imma.ie/artists/pablo-picasso/",
+    "label" : "Pablo Picasso"
   }, {
     "@id" : "spice:artefact/sculptor-model-wearing-mask-and-a-statue-of-a-standing-nude",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/picasso-pablo",
     "author" : "spice:agent/picasso-pablo",
-    "schema:dateCreated" : "1933",
-    "schema:url" : "https://imma.ie/collection/sculptor-model-wearing-mask-and-a-statue-of-a-standing-nude/",
+    "dateCreated" : "1933",
+    "url" : "https://imma.ie/collection/sculptor-model-wearing-mask-and-a-statue-of-a-standing-nude/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/sculptor-model-wearing-mask-and-a-statue-of-a-standing-nude",
-    "arco-cd:hasTitle" : "Sculptor, Model Wearing Mask and a statue of a Standing Nude"
+    "hasTitle" : "Sculptor, Model Wearing Mask and a statue of a Standing Nude"
   }, {
     "@id" : "spice:artefact/sculptor-seated-reclining-model-statue",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/picasso-pablo",
     "author" : "spice:agent/picasso-pablo",
-    "schema:dateCreated" : "1933",
-    "schema:url" : "https://imma.ie/collection/sculptor-seated-reclining-model-statue/",
+    "dateCreated" : "1933",
+    "url" : "https://imma.ie/collection/sculptor-seated-reclining-model-statue/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/sculptor-seated-reclining-model-statue",
-    "arco-cd:hasTitle" : "Sculptor Seated, Reclining Model &amp; Statue"
+    "hasTitle" : "Sculptor Seated, Reclining Model &amp; Statue"
   }, {
     "@id" : "spice:attribution/sculptor-model-wearing-mask-and-a-statue-of-a-standing-nude",
     "@type" : "arco:AuthorshipAttribution",
@@ -42,24 +42,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -70,24 +67,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

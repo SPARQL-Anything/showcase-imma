@@ -2,71 +2,71 @@
   "@graph" : [ {
     "@id" : "spice:agent/nolan-isabel",
     "@type" : "foaf:Person",
-    "dc:description" : [ "Irish artist Isabel Nolan (born 1974) attended the National College of Art and Design and the Dun Laoghaire Institute of Art, Design &amp; Technology. She works in sculpture, painting, textiles and text and explores notions of reality and identity, and the human compulsion to understand and define our situations and relationships with others. Nolan has exhibited in Ireland and internationally since the late 1990s, including solo exhibitions at The Model, Sligo, in 2011 and the Musée d’Art Moderne de Saint Etienne Métropole in 2012.", "Irish artist Isabel Nolan (born 1974) attended the National College of Art and Design and the Dun Laoghaire Institute of Art, Design &amp; Technology. She works in sculpture, painting, textiles and text and explores notions of reality and identity, and the human compulsion to understand and define our situations and relationships with others. " ],
-    "dc:source" : "https://imma.ie/artists/isabel-nolan/",
-    "schema:birthDate" : "b.1974",
-    "schema:url" : "https://imma.ie/artists/isabel-nolan/",
-    "rdfs:label" : "Isabel Nolan"
+    "description" : [ "Irish artist Isabel Nolan (born 1974) attended the National College of Art and Design and the Dun Laoghaire Institute of Art, Design &amp; Technology. She works in sculpture, painting, textiles and text and explores notions of reality and identity, and the human compulsion to understand and define our situations and relationships with others. Nolan has exhibited in Ireland and internationally since the late 1990s, including solo exhibitions at The Model, Sligo, in 2011 and the Musée d’Art Moderne de Saint Etienne Métropole in 2012.", "Irish artist Isabel Nolan (born 1974) attended the National College of Art and Design and the Dun Laoghaire Institute of Art, Design &amp; Technology. She works in sculpture, painting, textiles and text and explores notions of reality and identity, and the human compulsion to understand and define our situations and relationships with others. " ],
+    "source" : "https://imma.ie/artists/isabel-nolan/",
+    "birthDate" : "b.1974",
+    "url" : "https://imma.ie/artists/isabel-nolan/",
+    "label" : "Isabel Nolan"
   }, {
     "@id" : "spice:artefact/dynamic-interdependent-unity",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/nolan-isabel",
     "author" : "spice:agent/nolan-isabel",
-    "schema:dateCreated" : "2009",
-    "schema:url" : "https://imma.ie/collection/dynamic-interdependent-unity/",
+    "dateCreated" : "2009",
+    "url" : "https://imma.ie/collection/dynamic-interdependent-unity/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/dynamic-interdependent-unity",
-    "arco-cd:hasTitle" : "Dynamic interdependent unity"
+    "hasTitle" : "Dynamic interdependent unity"
   }, {
     "@id" : "spice:artefact/heliosphere",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/nolan-isabel",
     "author" : "spice:agent/nolan-isabel",
-    "schema:dateCreated" : "2014",
-    "schema:url" : "https://imma.ie/collection/heliosphere/",
+    "dateCreated" : "2014",
+    "url" : "https://imma.ie/collection/heliosphere/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/heliosphere",
-    "arco-cd:hasTitle" : "Heliosphere"
+    "hasTitle" : "Heliosphere"
   }, {
     "@id" : "spice:artefact/pass-by-in-silence",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/nolan-isabel",
     "author" : "spice:agent/nolan-isabel",
-    "schema:dateCreated" : "2006",
-    "schema:url" : "https://imma.ie/collection/pass-by-in-silence/",
+    "dateCreated" : "2006",
+    "url" : "https://imma.ie/collection/pass-by-in-silence/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/pass-by-in-silence",
-    "arco-cd:hasTitle" : "Pass by in silence"
+    "hasTitle" : "Pass by in silence"
   }, {
     "@id" : "spice:artefact/sloganeering-1-4",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/nolan-isabel",
     "author" : "spice:agent/nolan-isabel",
-    "schema:dateCreated" : "2001",
-    "schema:url" : "https://imma.ie/collection/sloganeering-1-4/",
+    "dateCreated" : "2001",
+    "url" : "https://imma.ie/collection/sloganeering-1-4/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/sloganeering-1-4",
-    "arco-cd:hasTitle" : "Sloganeering 1-4"
+    "hasTitle" : "Sloganeering 1-4"
   }, {
     "@id" : "spice:artefact/the-condition-of-emptiness",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/nolan-isabel",
     "author" : "spice:agent/nolan-isabel",
-    "schema:dateCreated" : "2007",
-    "schema:url" : "https://imma.ie/collection/the-condition-of-emptiness/",
+    "dateCreated" : "2007",
+    "url" : "https://imma.ie/collection/the-condition-of-emptiness/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-condition-of-emptiness",
-    "arco-cd:hasTitle" : "The Condition of Emptiness"
+    "hasTitle" : "The Condition of Emptiness"
   }, {
     "@id" : "spice:artefact/the-weakening-eye-of-day",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/nolan-isabel",
     "author" : "spice:agent/nolan-isabel",
-    "schema:dateCreated" : "2014",
-    "schema:url" : "https://imma.ie/collection/the-weakening-eye-of-day/",
+    "dateCreated" : "2014",
+    "url" : "https://imma.ie/collection/the-weakening-eye-of-day/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-weakening-eye-of-day",
-    "arco-cd:hasTitle" : "The weakening eye of day"
+    "hasTitle" : "The weakening eye of day"
   }, {
     "@id" : "spice:attribution/dynamic-interdependent-unity",
     "@type" : "arco:AuthorshipAttribution",
@@ -102,48 +102,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/brooks-james",
     "@type" : "foaf:Person",
-    "dc:description" : "American artist James Brooks was one of the first generation of Abstract Expressionist painters. He developed a unique style based on the pouring of paint directly onto unprimed canvas and creating autonomous images that showed the influence of Pollock’s action painting methods. Throughout his career, Brooks held teaching posts at various art institutions in America. He was awarded a Guggenheim Fellowship in 1969.",
-    "dc:source" : "https://imma.ie/artists/james-brooks/",
-    "schema:birthDate" : "1906–1992",
-    "schema:url" : "https://imma.ie/artists/james-brooks/",
-    "rdfs:label" : "James Brooks"
+    "description" : "American artist James Brooks was one of the first generation of Abstract Expressionist painters. He developed a unique style based on the pouring of paint directly onto unprimed canvas and creating autonomous images that showed the influence of Pollock’s action painting methods. Throughout his career, Brooks held teaching posts at various art institutions in America. He was awarded a Guggenheim Fellowship in 1969.",
+    "source" : "https://imma.ie/artists/james-brooks/",
+    "birthDate" : "1906–1992",
+    "url" : "https://imma.ie/artists/james-brooks/",
+    "label" : "James Brooks"
   }, {
     "@id" : "spice:artefact/concord",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/brooks-james",
     "author" : "spice:agent/brooks-james",
-    "schema:dateCreated" : "1974",
-    "schema:url" : "https://imma.ie/collection/concord/",
+    "dateCreated" : "1974",
+    "url" : "https://imma.ie/collection/concord/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/concord",
-    "arco-cd:hasTitle" : "Concord"
+    "hasTitle" : "Concord"
   }, {
     "@id" : "spice:attribution/concord",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,24 +24,19 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -52,16 +47,14 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

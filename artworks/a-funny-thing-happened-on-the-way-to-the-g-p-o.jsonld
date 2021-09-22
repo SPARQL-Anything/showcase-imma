@@ -2,66 +2,57 @@
   "@graph" : [ {
     "@id" : "spice:artefact/a-funny-thing-happened-on-the-way-to-the-g-p-o",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "‘A Funny Thing Happened on the way to The G.P.O.’ is made from a mixture of regular wood pieces fixed together to represent two figures in a tableaux that may suggest a chance encounter on the street (“on the way to the G.P.O.”) or a captured moment in an unknown narrative between two people. The G.P.O. may suggest a more historically loaded event than simply a geographic location. Reminiscent of early Cubism, facial features and limbs are simplified and movement is suggested in the dynamic between parallel lines of wood, emphasised by painted sections.",
-    "dc:source" : "https://imma.ie/collection/a-funny-thing-happened-on-the-way-to-the-g-p-o/",
-    "schema:creditText" : "IMMA Collection: Purchase, 1993",
+    "description" : "‘A Funny Thing Happened on the way to The G.P.O.’ is made from a mixture of regular wood pieces fixed together to represent two figures in a tableaux that may suggest a chance encounter on the street (“on the way to the G.P.O.”) or a captured moment in an unknown narrative between two people. The G.P.O. may suggest a more historically loaded event than simply a geographic location. Reminiscent of early Cubism, facial features and limbs are simplified and movement is suggested in the dynamic between parallel lines of wood, emphasised by painted sections.",
+    "source" : "https://imma.ie/collection/a-funny-thing-happened-on-the-way-to-the-g-p-o/",
+    "creditText" : "IMMA Collection: Purchase, 1993",
     "image" : "spice:documentation/a-funny-thing-happened-on-the-way-to-the-g-p-o",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Painted wood",
-    "schema:size" : "35 x 35 x 35 cm",
-    "arco-cd:hasInventory" : "IMMA.431"
+    "material" : "Painted wood",
+    "size" : "35 x 35 x 35 cm",
+    "hasInventory" : "IMMA.431"
   }, {
     "@id" : "spice:documentation/a-funny-thing-happened-on-the-way-to-the-g-p-o",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "James McKenna, A Funny Thing Happened on the Way to the G.P.O., 1990, Painted wood, 35 x 35 x 35 cm, Collection Irish Museum of Modern Art, Purchase, 1993 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "James McKenna, A Funny Thing Happened on the Way to the G.P.O., 1990, Painted wood, 35 x 35 x 35 cm, Collection Irish Museum of Modern Art, Purchase, 1993 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/811.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/811.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/ballard-brian",
     "@type" : "foaf:Person",
-    "dc:description" : "Northern Irish painter Brian Ballard studied at the Belfast College of Art and the College of Art, Liverpool. Inspired by both domestic objects and the untamed coastal landscapes of Donegal and Kerry, Ballard often makes repeated studies of a particular subject. He has exhibited in Britain and Ireland since the late 1960s and his work is represented in public and private collections including the Ulster Museum, Belfast; Crawford Municipal Gallery, Cork; the Arts Council of Ireland and the Arts Council of Northern Ireland.",
-    "dc:source" : "https://imma.ie/artists/brian-ballard/",
-    "schema:birthDate" : "b.1943",
-    "schema:url" : "https://imma.ie/artists/brian-ballard/",
-    "rdfs:label" : "Brian Ballard"
+    "description" : "Northern Irish painter Brian Ballard studied at the Belfast College of Art and the College of Art, Liverpool. Inspired by both domestic objects and the untamed coastal landscapes of Donegal and Kerry, Ballard often makes repeated studies of a particular subject. He has exhibited in Britain and Ireland since the late 1960s and his work is represented in public and private collections including the Ulster Museum, Belfast; Crawford Municipal Gallery, Cork; the Arts Council of Ireland and the Arts Council of Northern Ireland.",
+    "source" : "https://imma.ie/artists/brian-ballard/",
+    "birthDate" : "b.1943",
+    "url" : "https://imma.ie/artists/brian-ballard/",
+    "label" : "Brian Ballard"
   }, {
     "@id" : "spice:artefact/merge",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ballard-brian",
     "author" : "spice:agent/ballard-brian",
-    "schema:dateCreated" : "1969",
-    "schema:url" : "https://imma.ie/collection/merge/",
+    "dateCreated" : "1969",
+    "url" : "https://imma.ie/collection/merge/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/merge",
-    "arco-cd:hasTitle" : "Merge"
+    "hasTitle" : "Merge"
   }, {
     "@id" : "spice:attribution/merge",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,24 +28,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -56,24 +53,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

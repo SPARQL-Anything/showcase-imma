@@ -1,35 +1,30 @@
 {
   "@id" : "spice:agent/dion-mark",
   "@type" : "foaf:Person",
-  "dc:description" : [ "Internationally renowned artist Mark Dion’s practice consistently questions the ways in which public and academic institutions shape our knowledge of the world, his work is often infused with humour and irony, but equally with an earnest concern for contemporary ecological issues. Dion’s work focuses on the politics of national history collections, preservation, and extinction.", "Internationally renowned artist Mark Dion's practice consistently questions the ways in which public and academic institutions shape our knowledge of the world, his work is often infused with humour and irony, but equally with an earnest concern for contemporary ecological issues. Dion's work focuses on the politics of national history collections, preservation, and extinction. " ],
-  "dc:source" : "https://imma.ie/artists/mark-dion/",
-  "schema:birthDate" : "b.1961",
-  "schema:url" : "https://imma.ie/artists/mark-dion/",
-  "rdfs:label" : "Mark Dion",
+  "description" : [ "Internationally renowned artist Mark Dion’s practice consistently questions the ways in which public and academic institutions shape our knowledge of the world, his work is often infused with humour and irony, but equally with an earnest concern for contemporary ecological issues. Dion’s work focuses on the politics of national history collections, preservation, and extinction.", "Internationally renowned artist Mark Dion's practice consistently questions the ways in which public and academic institutions shape our knowledge of the world, his work is often infused with humour and irony, but equally with an earnest concern for contemporary ecological issues. Dion's work focuses on the politics of national history collections, preservation, and extinction. " ],
+  "source" : "https://imma.ie/artists/mark-dion/",
+  "birthDate" : "b.1961",
+  "url" : "https://imma.ie/artists/mark-dion/",
+  "label" : "Mark Dion",
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/everything-disappears",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Everything Disappears revolves around four people from Taiwan who answered a call to participate in the film, which would explore ideas of self-image, performance and identity on screen. Portrayals of the four participants unravel across intimate scenes to surreal staged events, mediating an exchange between reality, reconstruction and mythological imagination.",
-    "dc:source" : "https://imma.ie/collection/everything-disappears/",
-    "schema:creditText" : "IMMA Collection: Donated by Frank X. Buckley &amp; Dr. Michael P. Burns through the Friends of the National Collections of Ireland (FNCI), 2015",
+    "description" : "Everything Disappears revolves around four people from Taiwan who answered a call to participate in the film, which would explore ideas of self-image, performance and identity on screen. Portrayals of the four participants unravel across intimate scenes to surreal staged events, mediating an exchange between reality, reconstruction and mythological imagination.",
+    "source" : "https://imma.ie/collection/everything-disappears/",
+    "creditText" : "IMMA Collection: Donated by Frank X. Buckley &amp; Dr. Michael P. Burns through the Friends of the National Collections of Ireland (FNCI), 2015",
     "image" : "spice:documentation/everything-disappears",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "High-definition video",
-    "schema:version" : "Edition 2/3 + 1 A/P",
-    "arco-cd:hasInventory" : "IMMA.3888"
+    "material" : "High-definition video",
+    "version" : "Edition 2/3 + 1 A/P",
+    "hasInventory" : "IMMA.3888"
   }, {
     "@id" : "spice:documentation/everything-disappears",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Kevin Gaffney, Everything Disappears, 2014, High-definition video, Duration: 15min.59 sec., Collection Irish Museum of Modern Art, Donated by Frank X. Buckley &amp; Dr. Michael P. Burns through the Friends of the National Collections of Ireland (FNCI), 2015 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Kevin Gaffney, Everything Disappears, 2014, High-definition video, Duration: 15min.59 sec., Collection Irish Museum of Modern Art, Donated by Frank X. Buckley &amp; Dr. Michael P. Burns through the Friends of the National Collections of Ireland (FNCI), 2015 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2020/07/7444.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2021/07/7444.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

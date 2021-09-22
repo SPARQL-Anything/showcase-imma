@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/bond-henry",
     "@type" : "foaf:Person",
-    "dc:description" : "English writer and artist Henry Bond graduated from Goldsmiths, University of London, in 1988. He completed an MA in Psychoanalysis in 2001 and a Ph.D on the interpretation of crime scene photography in 2007. In 1990, Bond co-curated the exhibition ‘East Country Yard Show’, which was influential in the development of the YBA art scene. Bond produces paparazzi-style photographic and video work referencing the consumerist values of London society. He has also worked collaboratively with artists including Sam Taylor Wood and Liam Gillick. Bond has published two books of street photography, ‘The Cult of the Street’ (1998) and ‘Point and Shoot’ (2000), and written two books on photography, ‘Lacan at the Scene’ (2009) and ‘The Gaze of the Lens’ (2011).",
-    "dc:source" : "https://imma.ie/artists/henry-bond/",
-    "schema:birthDate" : "b.1966",
-    "schema:url" : "https://imma.ie/artists/henry-bond/",
-    "rdfs:label" : "Henry Bond"
+    "description" : "English writer and artist Henry Bond graduated from Goldsmiths, University of London, in 1988. He completed an MA in Psychoanalysis in 2001 and a Ph.D on the interpretation of crime scene photography in 2007. In 1990, Bond co-curated the exhibition ‘East Country Yard Show’, which was influential in the development of the YBA art scene. Bond produces paparazzi-style photographic and video work referencing the consumerist values of London society. He has also worked collaboratively with artists including Sam Taylor Wood and Liam Gillick. Bond has published two books of street photography, ‘The Cult of the Street’ (1998) and ‘Point and Shoot’ (2000), and written two books on photography, ‘Lacan at the Scene’ (2009) and ‘The Gaze of the Lens’ (2011).",
+    "source" : "https://imma.ie/artists/henry-bond/",
+    "birthDate" : "b.1966",
+    "url" : "https://imma.ie/artists/henry-bond/",
+    "label" : "Henry Bond"
   }, {
     "@id" : "spice:artefact/untitled-54",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/bond-henry",
     "author" : "spice:agent/bond-henry",
-    "schema:dateCreated" : "1994",
-    "schema:url" : "https://imma.ie/collection/untitled-54/",
+    "dateCreated" : "1994",
+    "url" : "https://imma.ie/collection/untitled-54/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-54",
-    "arco-cd:hasTitle" : "Untitled"
+    "hasTitle" : "Untitled"
   }, {
     "@id" : "spice:attribution/untitled-54",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,24 +28,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -56,24 +53,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

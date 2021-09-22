@@ -2,20 +2,20 @@
   "@graph" : [ {
     "@id" : "spice:artefact/aenigma",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Aenigma is a 1992 work by Mimmo Paladino. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/aenigma/",
-    "schema:creditText" : "IMMA Collection: Purchase, 1992",
+    "description" : "Aenigma is a 1992 work by Mimmo Paladino. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/aenigma/",
+    "creditText" : "IMMA Collection: Purchase, 1992",
     "image" : "spice:documentation/aenigma",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Etching with screenprint, carbarondum and gold leaf, chine collé and marbling",
-    "schema:size" : "100 x 135 cm",
-    "schema:version" : "Edition 16/40",
-    "arco-cd:hasInventory" : "IMMA.415"
+    "material" : "Etching with screenprint, carbarondum and gold leaf, chine collé and marbling",
+    "size" : "100 x 135 cm",
+    "version" : "Edition 16/40",
+    "hasInventory" : "IMMA.415"
   }, {
     "@id" : "spice:documentation/aenigma",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Mimmo Paladino, Aenigma, 1992, Etching with screenprint, carbarondum and gold leaf, chine collé and marbling, 100 x 135 cm, Collection Irish Museum of Modern Art, Purchase, 1992 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Mimmo Paladino, Aenigma, 1992, Etching with screenprint, carbarondum and gold leaf, chine collé and marbling, 100 x 135 cm, Collection Irish Museum of Modern Art, Purchase, 1992 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
@@ -24,44 +24,35 @@
       "@type" : "@id"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

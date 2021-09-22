@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/gerzso-gunther",
     "@type" : "foaf:Person",
-    "dc:description" : "Mexican painter Gunther Gerzso spent many years as a teenager in Switzerland living with his Uncle, Hans Wendland, who was an influential art historian and dealer. Returning to Mexico, Gerzso worked as a set designer and during the 1940s and 50s he created sets for films winning a total of five Premios Ariel for Best Production Design. In 1984 he worked with John Huston on ‘Under the Volcano’. Gerzo was awarded a Guggenheim Fellowship in 1973 and in 1978 was presented with Mexico’s highest artistic honour, the National Award for Arts and Sciences.",
-    "dc:source" : "https://imma.ie/artists/gunther-gerzso/",
-    "schema:birthDate" : "1915–2000",
-    "schema:url" : "https://imma.ie/artists/gunther-gerzso/",
-    "rdfs:label" : "Gunther Gerzso"
+    "description" : "Mexican painter Gunther Gerzso spent many years as a teenager in Switzerland living with his Uncle, Hans Wendland, who was an influential art historian and dealer. Returning to Mexico, Gerzso worked as a set designer and during the 1940s and 50s he created sets for films winning a total of five Premios Ariel for Best Production Design. In 1984 he worked with John Huston on ‘Under the Volcano’. Gerzo was awarded a Guggenheim Fellowship in 1973 and in 1978 was presented with Mexico’s highest artistic honour, the National Award for Arts and Sciences.",
+    "source" : "https://imma.ie/artists/gunther-gerzso/",
+    "birthDate" : "1915–2000",
+    "url" : "https://imma.ie/artists/gunther-gerzso/",
+    "label" : "Gunther Gerzso"
   }, {
     "@id" : "spice:artefact/la-casa-de-tataniuh",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/gerzso-gunther",
     "author" : "spice:agent/gerzso-gunther",
-    "schema:dateCreated" : "1978",
-    "schema:url" : "https://imma.ie/collection/la-casa-de-tataniuh/",
+    "dateCreated" : "1978",
+    "url" : "https://imma.ie/collection/la-casa-de-tataniuh/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/la-casa-de-tataniuh",
-    "arco-cd:hasTitle" : "La Casa de Tataniúh"
+    "hasTitle" : "La Casa de Tataniúh"
   }, {
     "@id" : "spice:attribution/la-casa-de-tataniuh",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,40 +24,33 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

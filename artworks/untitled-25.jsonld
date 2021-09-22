@@ -2,71 +2,61 @@
   "@graph" : [ {
     "@id" : "spice:artefact/untitled-25",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Untitled is a 1999 work by John Graham. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/untitled-25/",
-    "schema:creditText" : "IMMA Collection: Purchase, 2002",
+    "description" : "Untitled is a 1999 work by John Graham. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/untitled-25/",
+    "creditText" : "IMMA Collection: Purchase, 2002",
     "image" : "spice:documentation/untitled-25",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Carborundum print",
-    "schema:size" : "67.5 x 67.5 cm",
-    "schema:version" : "Edition 20/20",
-    "arco-cd:hasInventory" : "IMMA.1492"
+    "material" : "Carborundum print",
+    "size" : "67.5 x 67.5 cm",
+    "version" : "Edition 20/20",
+    "hasInventory" : "IMMA.1492"
   }, {
     "@id" : "spice:documentation/untitled-25",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "John Graham, Untitled, 1999, Carborundum print, 67.5 x 67.5 cm, Collection Irish Museum of Modern Art, Purchase, 2002 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "John Graham, Untitled, 1999, Carborundum print, 67.5 x 67.5 cm, Collection Irish Museum of Modern Art, Purchase, 2002 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/1507.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/1507.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

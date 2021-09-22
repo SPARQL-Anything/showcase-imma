@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/ackermann-franz",
     "@type" : "foaf:Person",
-    "dc:description" : "German artist Franz Ackermann creates paintings and installations that explore the effects of tourism, globalisation and urbanism. Ackermann’s artistic practice derives from his extensive travels to cities including Tokyo, Manila, Hanoi, Bangkok, Rome and São Paolo. His works often incorporate ephemera such as tickets, postcards and newspapers. Ackermann has exhibited internationally. Solo exhibitions of his work have been held at the White Cube, London; Neugerriemschneider, Berlin; Domus Artium, Salamanca. He exhibited at IMMA in 2005.",
-    "dc:source" : "https://imma.ie/artists/franz-ackermann/",
-    "schema:birthDate" : "b.1963",
-    "schema:url" : "https://imma.ie/artists/franz-ackermann/",
-    "rdfs:label" : "Franz Ackermann"
+    "description" : "German artist Franz Ackermann creates paintings and installations that explore the effects of tourism, globalisation and urbanism. Ackermann’s artistic practice derives from his extensive travels to cities including Tokyo, Manila, Hanoi, Bangkok, Rome and São Paolo. His works often incorporate ephemera such as tickets, postcards and newspapers. Ackermann has exhibited internationally. Solo exhibitions of his work have been held at the White Cube, London; Neugerriemschneider, Berlin; Domus Artium, Salamanca. He exhibited at IMMA in 2005.",
+    "source" : "https://imma.ie/artists/franz-ackermann/",
+    "birthDate" : "b.1963",
+    "url" : "https://imma.ie/artists/franz-ackermann/",
+    "label" : "Franz Ackermann"
   }, {
     "@id" : "spice:artefact/crossing-center",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ackermann-franz",
     "author" : "spice:agent/ackermann-franz",
-    "schema:dateCreated" : "2005",
-    "schema:url" : "https://imma.ie/collection/crossing-center/",
+    "dateCreated" : "2005",
+    "url" : "https://imma.ie/collection/crossing-center/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/crossing-center",
-    "arco-cd:hasTitle" : "Crossing Center"
+    "hasTitle" : "Crossing Center"
   }, {
     "@id" : "spice:attribution/crossing-center",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,24 +28,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -56,24 +53,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

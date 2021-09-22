@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/intrusion",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "According to art critic Aidan Dunne, Gale’s work is characterised by the ‘mystery of a single moment that contains a bewildering wealth of impressions. The mystery of an action caught out of context and left undefined and ambiguous’.",
-    "dc:source" : "https://imma.ie/collection/intrusion/",
-    "schema:creditText" : "IMMA Collection: Heritage Gift, P.J. Carroll &amp; Co. Ltd. Art Collection, 2005",
+    "description" : "According to art critic Aidan Dunne, Gale’s work is characterised by the ‘mystery of a single moment that contains a bewildering wealth of impressions. The mystery of an action caught out of context and left undefined and ambiguous’.",
+    "source" : "https://imma.ie/collection/intrusion/",
+    "creditText" : "IMMA Collection: Heritage Gift, P.J. Carroll &amp; Co. Ltd. Art Collection, 2005",
     "image" : "spice:documentation/intrusion",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Oil on canvas",
-    "schema:size" : "91.4 x 182.9 cm",
-    "arco-cd:hasInventory" : "IMMA.1853"
+    "material" : "Oil on canvas",
+    "size" : "91.4 x 182.9 cm",
+    "hasInventory" : "IMMA.1853"
   }, {
     "@id" : "spice:documentation/intrusion",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Martin Gale, Intrusion, 1973, Oil on canvas, 91.4 x 182.9 cm, Collection Irish Museum of Modern Art, Heritage Gift, P.J. Carroll &amp; Co. Ltd. Art Collection, 2005 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Martin Gale, Intrusion, 1973, Oil on canvas, 91.4 x 182.9 cm, Collection Irish Museum of Modern Art, Heritage Gift, P.J. Carroll &amp; Co. Ltd. Art Collection, 2005 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/1778.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/1778.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

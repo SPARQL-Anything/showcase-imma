@@ -2,31 +2,31 @@
   "@graph" : [ {
     "@id" : "spice:agent/wilding-alison",
     "@type" : "foaf:Person",
-    "dc:description" : "English sculptor Alison Wilding (born 1948) attended Ravensbourne College of Art and the Royal College of Art. Since the 1970s Wilding has employed traditional sculptural processes to investigate the textural properties of different materials, their boundaries, and location in space and light. Wilding gained major recognition for her sculptural work from the 1980s. She has had significant solo exhibition at venues including the Serpentine Gallery, London; the Henry Moore Foundation Studio; and New Art Centre, Salisbury.",
-    "dc:source" : "https://imma.ie/artists/alison-wilding/",
-    "schema:birthDate" : "b.1948",
-    "schema:url" : "https://imma.ie/artists/alison-wilding/",
-    "rdfs:label" : "Alison Wilding"
+    "description" : "English sculptor Alison Wilding (born 1948) attended Ravensbourne College of Art and the Royal College of Art. Since the 1970s Wilding has employed traditional sculptural processes to investigate the textural properties of different materials, their boundaries, and location in space and light. Wilding gained major recognition for her sculptural work from the 1980s. She has had significant solo exhibition at venues including the Serpentine Gallery, London; the Henry Moore Foundation Studio; and New Art Centre, Salisbury.",
+    "source" : "https://imma.ie/artists/alison-wilding/",
+    "birthDate" : "b.1948",
+    "url" : "https://imma.ie/artists/alison-wilding/",
+    "label" : "Alison Wilding"
   }, {
     "@id" : "spice:artefact/untitled-63",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/wilding-alison",
     "author" : "spice:agent/wilding-alison",
-    "schema:dateCreated" : "1990",
-    "schema:url" : "https://imma.ie/collection/untitled-63/",
+    "dateCreated" : "1990",
+    "url" : "https://imma.ie/collection/untitled-63/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-63",
-    "arco-cd:hasTitle" : "Untitled"
+    "hasTitle" : "Untitled"
   }, {
     "@id" : "spice:artefact/untitled-68",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/wilding-alison",
     "author" : "spice:agent/wilding-alison",
-    "schema:dateCreated" : "1988",
-    "schema:url" : "https://imma.ie/collection/untitled-68/",
+    "dateCreated" : "1988",
+    "url" : "https://imma.ie/collection/untitled-68/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-68",
-    "arco-cd:hasTitle" : "Untitled"
+    "hasTitle" : "Untitled"
   }, {
     "@id" : "spice:attribution/untitled-63",
     "@type" : "arco:AuthorshipAttribution",
@@ -42,40 +42,33 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -87,7 +80,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

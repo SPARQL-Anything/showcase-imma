@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/escaped-animals",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "The urban environment represents a particular focus for the artist Julian Opie. Borrowing idioms and images from everyday life, he re-interprets and plays with our notions of the ordinary. In ‘Escaped Animals’, Opie produced a series of thirteen road signs, each depicting an individual animal. Each animal, (including a fox, squirrel, sheep and cat) has been represented as an outline shape against a different coloured background.",
-    "dc:source" : "https://imma.ie/collection/escaped-animals/",
-    "schema:creditText" : "IMMA Collection: Commissioned by BALTIC, Gateshead and presented by BALTIC, and the artist, 2002",
+    "description" : "The urban environment represents a particular focus for the artist Julian Opie. Borrowing idioms and images from everyday life, he re-interprets and plays with our notions of the ordinary. In ‘Escaped Animals’, Opie produced a series of thirteen road signs, each depicting an individual animal. Each animal, (including a fox, squirrel, sheep and cat) has been represented as an outline shape against a different coloured background.",
+    "source" : "https://imma.ie/collection/escaped-animals/",
+    "creditText" : "IMMA Collection: Commissioned by BALTIC, Gateshead and presented by BALTIC, and the artist, 2002",
     "image" : "spice:documentation/escaped-animals",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Vinyl, aluminium and steel",
-    "schema:size" : "Dimensions variable",
-    "arco-cd:hasInventory" : "IMMA.1517"
+    "material" : "Vinyl, aluminium and steel",
+    "size" : "Dimensions variable",
+    "hasInventory" : "IMMA.1517"
   }, {
     "@id" : "spice:documentation/escaped-animals",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Julian Opie, Escaped Animals, 2002, Vinyl, aluminium and steel, Dimensions variable, Collection Irish Museum of Modern Art, Commissioned by BALTIC, Gateshead and presented by BALTIC, and the artist, 2002 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Julian Opie, Escaped Animals, 2002, Vinyl, aluminium and steel, Dimensions variable, Collection Irish Museum of Modern Art, Commissioned by BALTIC, Gateshead and presented by BALTIC, and the artist, 2002 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2021/01/1556.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2021/01/1556.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

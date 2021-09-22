@@ -2,66 +2,57 @@
   "@graph" : [ {
     "@id" : "spice:artefact/innocence",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Innocence is a 1988 work by Geraldine O'Reilly. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/innocence/",
-    "schema:creditText" : "IMMA Collection: Donation, Maire and Maurice Foley, 2000",
+    "description" : "Innocence is a 1988 work by Geraldine O'Reilly. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/innocence/",
+    "creditText" : "IMMA Collection: Donation, Maire and Maurice Foley, 2000",
     "image" : "spice:documentation/innocence",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Collage",
-    "schema:size" : "57 x 92 cm",
-    "schema:version" : "Edition 2/15",
-    "arco-cd:hasInventory" : "IMMA.1490 FD"
+    "material" : "Collage",
+    "size" : "57 x 92 cm",
+    "version" : "Edition 2/15",
+    "hasInventory" : "IMMA.1490 FD"
   }, {
     "@id" : "spice:documentation/innocence",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Geraldine O'Reilly, Innocence, 1988, Collage, 57 x 92 cm, Collection Irish Museum of Modern Art, Donation, Maire and Maurice Foley, 2000 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Geraldine O'Reilly, Innocence, 1988, Collage, 57 x 92 cm, Collection Irish Museum of Modern Art, Donation, Maire and Maurice Foley, 2000 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

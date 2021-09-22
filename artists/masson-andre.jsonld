@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/masson-andre",
     "@type" : "foaf:Person",
-    "dc:description" : "French artist André Masson was invited to join the Surrealist group by André Breton in the early 1920s. From this time he experimented with automatic drawing, later adding coloured sands and glue to build complex poetic imagery. Leaving France for the US during World War II, Masson became involved with the development of abstract expressionism. He returned to France in 1946. Among Masson’s most important commissions was the painting of the ceiling of the Théâtre de l’Odéon in Paris in 1965.",
-    "dc:source" : "https://imma.ie/artists/andre-masson/",
-    "schema:birthDate" : "1896–1987",
-    "schema:url" : "https://imma.ie/artists/andre-masson/",
-    "rdfs:label" : "André Masson"
+    "description" : "French artist André Masson was invited to join the Surrealist group by André Breton in the early 1920s. From this time he experimented with automatic drawing, later adding coloured sands and glue to build complex poetic imagery. Leaving France for the US during World War II, Masson became involved with the development of abstract expressionism. He returned to France in 1946. Among Masson’s most important commissions was the painting of the ceiling of the Théâtre de l’Odéon in Paris in 1965.",
+    "source" : "https://imma.ie/artists/andre-masson/",
+    "birthDate" : "1896–1987",
+    "url" : "https://imma.ie/artists/andre-masson/",
+    "label" : "André Masson"
   }, {
     "@id" : "spice:artefact/drawing-for-salome",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/masson-andre",
     "author" : "spice:agent/masson-andre",
-    "schema:dateCreated" : "1962",
-    "schema:url" : "https://imma.ie/collection/drawing-for-salome/",
+    "dateCreated" : "1962",
+    "url" : "https://imma.ie/collection/drawing-for-salome/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/drawing-for-salome",
-    "arco-cd:hasTitle" : "Drawing for Salome"
+    "hasTitle" : "Drawing for Salome"
   }, {
     "@id" : "spice:attribution/drawing-for-salome",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,24 +28,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -56,24 +53,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

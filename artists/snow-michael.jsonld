@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/snow-michael",
     "@type" : "foaf:Person",
-    "dc:description" : "Canadian artist and film maker Michael Snow (born 1929) studied at Upper Canada College and the Ontario College of Art. Snow is a significant figure in the history of experimental film. He ia also a musician and sculptor. His award winning films have appeared at exhibitions across Europe, North America and South America. In 1993, a multi venue retrospective, ‘The Michael Snow Project’, was held across several public venues in Canada. A major retrospective was held at the Lucca Film Festival in 2007.",
-    "dc:source" : "https://imma.ie/artists/michael-snow/",
-    "schema:birthDate" : "b.1929",
-    "schema:url" : "https://imma.ie/artists/michael-snow/",
-    "rdfs:label" : "Michael Snow"
+    "description" : "Canadian artist and film maker Michael Snow (born 1929) studied at Upper Canada College and the Ontario College of Art. Snow is a significant figure in the history of experimental film. He ia also a musician and sculptor. His award winning films have appeared at exhibitions across Europe, North America and South America. In 1993, a multi venue retrospective, ‘The Michael Snow Project’, was held across several public venues in Canada. A major retrospective was held at the Lucca Film Festival in 2007.",
+    "source" : "https://imma.ie/artists/michael-snow/",
+    "birthDate" : "b.1929",
+    "url" : "https://imma.ie/artists/michael-snow/",
+    "label" : "Michael Snow"
   }, {
     "@id" : "spice:artefact/solar-breath-northern-caryatids",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/snow-michael",
     "author" : "spice:agent/snow-michael",
-    "schema:dateCreated" : "2005",
-    "schema:url" : "https://imma.ie/collection/solar-breath-northern-caryatids/",
+    "dateCreated" : "2005",
+    "url" : "https://imma.ie/collection/solar-breath-northern-caryatids/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/solar-breath-northern-caryatids",
-    "arco-cd:hasTitle" : "Solar Breath (Northern Caryatids)"
+    "hasTitle" : "Solar Breath (Northern Caryatids)"
   }, {
     "@id" : "spice:attribution/solar-breath-northern-caryatids",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,24 +24,19 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -52,16 +47,14 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

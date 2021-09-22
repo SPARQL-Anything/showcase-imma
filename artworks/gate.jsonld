@@ -2,66 +2,57 @@
   "@graph" : [ {
     "@id" : "spice:artefact/gate",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "‘Gate’ is part of a series of photographic works by Paul Seawright portraying symbols of boundary and barrier in urban Northern Ireland. The gates both protect and exclude, beyond there is unknown territory, both spatially and symbolically. The shape of the rusted gate also mirrors a powerful symbol of unionism, The Union Jack.",
-    "dc:source" : "https://imma.ie/collection/gate/",
-    "schema:creditText" : "IMMA Collection: Purchase, 1997",
+    "description" : "‘Gate’ is part of a series of photographic works by Paul Seawright portraying symbols of boundary and barrier in urban Northern Ireland. The gates both protect and exclude, beyond there is unknown territory, both spatially and symbolically. The shape of the rusted gate also mirrors a powerful symbol of unionism, The Union Jack.",
+    "source" : "https://imma.ie/collection/gate/",
+    "creditText" : "IMMA Collection: Purchase, 1997",
     "image" : "spice:documentation/gate",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "C-type photograph on aluminium",
-    "schema:size" : "160 x 160 cm",
-    "arco-cd:hasInventory" : "IMMA.804"
+    "material" : "C-type photograph on aluminium",
+    "size" : "160 x 160 cm",
+    "hasInventory" : "IMMA.804"
   }, {
     "@id" : "spice:documentation/gate",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Paul Seawright, Gate, 1997, C-type photograph on aluminium, 160 x 160 cm, Collection Irish Museum of Modern Art, Purchase, 1997 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Paul Seawright, Gate, 1997, C-type photograph on aluminium, 160 x 160 cm, Collection Irish Museum of Modern Art, Purchase, 1997 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/289.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/289.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

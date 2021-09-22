@@ -2,66 +2,57 @@
   "@graph" : [ {
     "@id" : "spice:artefact/serie-ayerim-no-4",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Serie Ayerim No 4 is a 1977 work by Saúl A. Huerta. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/serie-ayerim-no-4/",
-    "schema:creditText" : "IMMA Collection: Donation, Smurfit: Cartón y Papel de México, 2000",
+    "description" : "Serie Ayerim No 4 is a 1977 work by Saúl A. Huerta. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/serie-ayerim-no-4/",
+    "creditText" : "IMMA Collection: Donation, Smurfit: Cartón y Papel de México, 2000",
     "image" : "spice:documentation/serie-ayerim-no-4",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Screenprint",
-    "schema:size" : "56.0 x 75.9 cm",
-    "schema:version" : "Edition 77/150",
-    "arco-cd:hasInventory" : "IMMA.935 MP"
+    "material" : "Screenprint",
+    "size" : "56.0 x 75.9 cm",
+    "version" : "Edition 77/150",
+    "hasInventory" : "IMMA.935 MP"
   }, {
     "@id" : "spice:documentation/serie-ayerim-no-4",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Saúl A. Huerta, Serie Ayerim No 4, 1977, Screenprint, 56.0 x 75.9 cm, Collection Irish Museum of Modern Art, Donation, Smurfit: Cartón y Papel de México, 2000 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Saúl A. Huerta, Serie Ayerim No 4, 1977, Screenprint, 56.0 x 75.9 cm, Collection Irish Museum of Modern Art, Donation, Smurfit: Cartón y Papel de México, 2000 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/ul-mazowiecka-131-krakow-may-1973",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "The title of this work refers to the street in Krakow where the artist lived for seven years, and where the scissors were photographed. The work is given two dates, the date on which the photograph was taken and the date on which it was printed, some twenty years later, drawing attention to the passage of time but also the passage of understanding. Once printed, the negative was then destroyed, turning the endlessly reproducible photograph into a unique artwork.",
-    "dc:source" : "https://imma.ie/collection/ul-mazowiecka-131-krakow-may-1973/",
-    "schema:creditText" : "IMMA Collection: Purchase, 1993",
+    "description" : "The title of this work refers to the street in Krakow where the artist lived for seven years, and where the scissors were photographed. The work is given two dates, the date on which the photograph was taken and the date on which it was printed, some twenty years later, drawing attention to the passage of time but also the passage of understanding. Once printed, the negative was then destroyed, turning the endlessly reproducible photograph into a unique artwork.",
+    "source" : "https://imma.ie/collection/ul-mazowiecka-131-krakow-may-1973/",
+    "creditText" : "IMMA Collection: Purchase, 1993",
     "image" : "spice:documentation/ul-mazowiecka-131-krakow-may-1973",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Unique photograph",
-    "schema:size" : "140 x 125 cm",
-    "arco-cd:hasInventory" : "IMMA.427"
+    "material" : "Unique photograph",
+    "size" : "140 x 125 cm",
+    "hasInventory" : "IMMA.427"
   }, {
     "@id" : "spice:documentation/ul-mazowiecka-131-krakow-may-1973",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Craigie Horsfield, Ul. Mazowiecka 131, Krakow, May 1973, 1990, Unique photograph, 140 x 125 cm, Collection Irish Museum of Modern Art, Purchase, 1993 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Craigie Horsfield, Ul. Mazowiecka 131, Krakow, May 1973, 1990, Unique photograph, 140 x 125 cm, Collection Irish Museum of Modern Art, Purchase, 1993 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/626.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/626.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

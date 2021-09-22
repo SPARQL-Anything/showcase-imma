@@ -2,31 +2,31 @@
   "@graph" : [ {
     "@id" : "spice:agent/usle-juan",
     "@type" : "foaf:Person",
-    "dc:description" : "Spanish artist Juan Uslé (born 1954) studied fine art at Escuela Superior de Bellas Artes, San Carlos, Valencia. Influenced by his environment and the physical act of painting, Uslé’s abstract compositions seek to convey a personal vision of the world. Uslé moved from Spain to New York in 1987, which led to the adoption of increasingly chaotic imagery reflecting the vibrancy and flux of the city. Uslé has exhibited extensively, including at the MACBA, Barcelona; the Saatchi Gallery, London, and the Museum Moderner Kunst, Vienna. A solo exhibition of his work, ‘Juan Uslé: Open Rooms’, was held at IMMA in 2004.",
-    "dc:source" : "https://imma.ie/artists/juan-usle/",
-    "schema:birthDate" : "b.1954",
-    "schema:url" : "https://imma.ie/artists/juan-usle/",
-    "rdfs:label" : "Juan Uslé"
+    "description" : "Spanish artist Juan Uslé (born 1954) studied fine art at Escuela Superior de Bellas Artes, San Carlos, Valencia. Influenced by his environment and the physical act of painting, Uslé’s abstract compositions seek to convey a personal vision of the world. Uslé moved from Spain to New York in 1987, which led to the adoption of increasingly chaotic imagery reflecting the vibrancy and flux of the city. Uslé has exhibited extensively, including at the MACBA, Barcelona; the Saatchi Gallery, London, and the Museum Moderner Kunst, Vienna. A solo exhibition of his work, ‘Juan Uslé: Open Rooms’, was held at IMMA in 2004.",
+    "source" : "https://imma.ie/artists/juan-usle/",
+    "birthDate" : "b.1954",
+    "url" : "https://imma.ie/artists/juan-usle/",
+    "label" : "Juan Uslé"
   }, {
     "@id" : "spice:artefact/bocanegra-koln",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/usle-juan",
     "author" : "spice:agent/usle-juan",
-    "schema:dateCreated" : "2004",
-    "schema:url" : "https://imma.ie/collection/bocanegra-koln/",
+    "dateCreated" : "2004",
+    "url" : "https://imma.ie/collection/bocanegra-koln/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/bocanegra-koln",
-    "arco-cd:hasTitle" : "Bocanegra Köln"
+    "hasTitle" : "Bocanegra Köln"
   }, {
     "@id" : "spice:artefact/otrojo-coagulos-y-mentiras",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/usle-juan",
     "author" : "spice:agent/usle-juan",
-    "schema:dateCreated" : "2003",
-    "schema:url" : "https://imma.ie/collection/otrojo-coagulos-y-mentiras/",
+    "dateCreated" : "2003",
+    "url" : "https://imma.ie/collection/otrojo-coagulos-y-mentiras/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/otrojo-coagulos-y-mentiras",
-    "arco-cd:hasTitle" : "OTROJO, Coágulos y Mentiras"
+    "hasTitle" : "OTROJO, Coágulos y Mentiras"
   }, {
     "@id" : "spice:attribution/bocanegra-koln",
     "@type" : "arco:AuthorshipAttribution",
@@ -46,48 +46,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

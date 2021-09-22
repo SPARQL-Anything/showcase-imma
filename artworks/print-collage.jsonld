@@ -2,67 +2,57 @@
   "@graph" : [ {
     "@id" : "spice:artefact/print-collage",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Print Collage is a 1966 work by Charles Hinman. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/print-collage/",
-    "schema:creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
+    "description" : "Print Collage is a 1966 work by Charles Hinman. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/print-collage/",
+    "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/print-collage",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Mixed Media",
-    "schema:size" : "56 x 43.2 cm Framed: 71.5 x 57.5 cm",
-    "schema:version" : "Edition 177/225",
-    "arco-cd:hasInventory" : "IMMA.250 GL"
+    "material" : "Mixed Media",
+    "size" : "56 x 43.2 cm Framed: 71.5 x 57.5 cm",
+    "version" : "Edition 177/225",
+    "hasInventory" : "IMMA.250 GL"
   }, {
     "@id" : "spice:documentation/print-collage",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Charles Hinman, Print Collage, 1966, Mixed Media, 56 x 43.2 cm Framed: 71.5 x 57.5 cm, Collection Irish Museum of Modern Art, Gordon Lambert Trust, 1992 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Charles Hinman, Print Collage, 1966, Mixed Media, 56 x 43.2 cm Framed: 71.5 x 57.5 cm, Collection Irish Museum of Modern Art, Gordon Lambert Trust, 1992 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/1936.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/1936.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "image" : {
       "@id" : "http://schema.org/image",

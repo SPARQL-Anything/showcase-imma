@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/ocolmain-seamus",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish artist Seamus O’Colmain (1925 – 1990) attended the National College of Art and Design, Dublin, before going to study in Paris. He began exhibiting in the late 1950s and participated in numerous Royal Hibernian Academy Annual Exhibitions, Oireachtas exhibitions and the Irish Exhibition of Living Art. O’Colmain was vice-president of the United Arts Club and a committee member of the Irish Branch of the International Committee of Art for the Handicapped. His work is held in the collections of the Arts Council of Ireland; Queen’s University, Belfast; and Waterford Municipal Art Gallery.",
-    "dc:source" : "https://imma.ie/artists/seamus-ocolmain/",
-    "schema:birthDate" : "1925–1990",
-    "schema:url" : "https://imma.ie/artists/seamus-ocolmain/",
-    "rdfs:label" : "Seamus O’Colmain"
+    "description" : "Irish artist Seamus O’Colmain (1925 – 1990) attended the National College of Art and Design, Dublin, before going to study in Paris. He began exhibiting in the late 1950s and participated in numerous Royal Hibernian Academy Annual Exhibitions, Oireachtas exhibitions and the Irish Exhibition of Living Art. O’Colmain was vice-president of the United Arts Club and a committee member of the Irish Branch of the International Committee of Art for the Handicapped. His work is held in the collections of the Arts Council of Ireland; Queen’s University, Belfast; and Waterford Municipal Art Gallery.",
+    "source" : "https://imma.ie/artists/seamus-ocolmain/",
+    "birthDate" : "1925–1990",
+    "url" : "https://imma.ie/artists/seamus-ocolmain/",
+    "label" : "Seamus O’Colmain"
   }, {
     "@id" : "spice:artefact/coliemore-harbour",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ocolmain-seamus",
     "author" : "spice:agent/ocolmain-seamus",
-    "schema:dateCreated" : "1965",
-    "schema:url" : "https://imma.ie/collection/coliemore-harbour/",
+    "dateCreated" : "1965",
+    "url" : "https://imma.ie/collection/coliemore-harbour/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/coliemore-harbour",
-    "arco-cd:hasTitle" : "Coliemore Harbour"
+    "hasTitle" : "Coliemore Harbour"
   }, {
     "@id" : "spice:attribution/coliemore-harbour",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,40 +24,33 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

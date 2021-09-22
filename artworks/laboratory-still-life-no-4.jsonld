@@ -2,47 +2,41 @@
   "@graph" : [ {
     "@id" : "spice:artefact/laboratory-still-life-no-4",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Laboratory Still Life, No. 4 is a 1988 work by Tony Cragg. It is not currently on display in IMMA. ",
-    "dc:source" : "https://imma.ie/collection/laboratory-still-life-no-4/",
-    "schema:creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1994",
+    "description" : "Laboratory Still Life, No. 4 is a 1988 work by Tony Cragg. It is not currently on display in IMMA. ",
+    "source" : "https://imma.ie/collection/laboratory-still-life-no-4/",
+    "creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1994",
     "image" : "spice:documentation/laboratory-still-life-no-4",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Aquatint Etching",
-    "schema:size" : "Framed: 80.5 x 79.5 cm",
-    "schema:version" : "Edition 24/40",
-    "arco-cd:hasInventory" : "L.541 LW"
+    "material" : "Aquatint Etching",
+    "size" : "Framed: 80.5 x 79.5 cm",
+    "version" : "Edition 24/40",
+    "hasInventory" : "L.541 LW"
   }, {
     "@id" : "spice:documentation/laboratory-still-life-no-4",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Tony Cragg, Laboratory Still Life, No. 4, 1988, Aquatint Etching, Framed: 80.5 x 79.5 cm, Collection Irish Museum of Modern Art, Loan, Weltkunst Foundation, 1994 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Tony Cragg, Laboratory Still Life, No. 4, 1988, Aquatint Etching, Framed: 80.5 x 79.5 cm, Collection Irish Museum of Modern Art, Loan, Weltkunst Foundation, 1994 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2020/01/513.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2020/01/513.jpg"
   } ],
   "@context" : {
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
@@ -53,20 +47,16 @@
       "@type" : "@id"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

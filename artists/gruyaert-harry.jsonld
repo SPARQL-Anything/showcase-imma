@@ -2,31 +2,31 @@
   "@graph" : [ {
     "@id" : "spice:agent/gruyaert-harry",
     "@type" : "foaf:Person",
-    "dc:description" : "Belgian photographer Harry Gruyaert began his ‘TV Shots’ series when living in London in the late 1960s. He was awarded the Kodak Prize in 1976 and joined Magnum Photos in 1981. Gruyaert has photographed worldwide and exhibited extensively since 1974. He has published ten photographic books and his work can be found in numerous collections including Centre Georges Pompidou, Paris; Metropolitan Museum Tokyo, Japan and Bibliothèque Nationale de France, Paris.",
-    "dc:source" : "https://imma.ie/artists/harry-gruyaert/",
-    "schema:birthDate" : "b.1941",
-    "schema:url" : "https://imma.ie/artists/harry-gruyaert/",
-    "rdfs:label" : "Harry Gruyaert"
+    "description" : "Belgian photographer Harry Gruyaert began his ‘TV Shots’ series when living in London in the late 1960s. He was awarded the Kodak Prize in 1976 and joined Magnum Photos in 1981. Gruyaert has photographed worldwide and exhibited extensively since 1974. He has published ten photographic books and his work can be found in numerous collections including Centre Georges Pompidou, Paris; Metropolitan Museum Tokyo, Japan and Bibliothèque Nationale de France, Paris.",
+    "source" : "https://imma.ie/artists/harry-gruyaert/",
+    "birthDate" : "b.1941",
+    "url" : "https://imma.ie/artists/harry-gruyaert/",
+    "label" : "Harry Gruyaert"
   }, {
     "@id" : "spice:artefact/county-kerry",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/gruyaert-harry",
     "author" : "spice:agent/gruyaert-harry",
-    "schema:dateCreated" : "1988",
-    "schema:url" : "https://imma.ie/collection/county-kerry/",
+    "dateCreated" : "1988",
+    "url" : "https://imma.ie/collection/county-kerry/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/county-kerry",
-    "arco-cd:hasTitle" : "County Kerry"
+    "hasTitle" : "County Kerry"
   }, {
     "@id" : "spice:artefact/county-kerry-2",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/gruyaert-harry",
     "author" : "spice:agent/gruyaert-harry",
-    "schema:dateCreated" : "1983",
-    "schema:url" : "https://imma.ie/collection/county-kerry-2/",
+    "dateCreated" : "1983",
+    "url" : "https://imma.ie/collection/county-kerry-2/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/county-kerry-2",
-    "arco-cd:hasTitle" : "County Kerry"
+    "hasTitle" : "County Kerry"
   }, {
     "@id" : "spice:attribution/county-kerry",
     "@type" : "arco:AuthorshipAttribution",
@@ -42,24 +42,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -70,24 +67,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

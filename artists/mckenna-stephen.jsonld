@@ -2,141 +2,141 @@
   "@graph" : [ {
     "@id" : "spice:agent/mckenna-stephen",
     "@type" : "foaf:Person",
-    "dc:description" : "English artist Stephen McKenna studied at the Slade School of Fine Art, London. He first came to prominence as a painter in the 1980s. McKenna has travelled extensively and lived in Ireland since 1998. McKenna’s still life, landscape and interior compositions reference classical antiquity and explore the contemporary potential of those traditional genres. He has exhibited extensively, including major solo exhibitions at the Museum of Modern Art, Oxford; Stadtische Kunsthalle, Dusseldorf, and the Royal Hibernian Academy, Dublin. He is an elected member of Aosdána and the Royal Hibernian Academy.",
-    "dc:source" : "https://imma.ie/artists/stephen-mckenna/",
-    "schema:birthDate" : "b.1939",
-    "schema:url" : "https://imma.ie/artists/stephen-mckenna/",
-    "rdfs:label" : "Stephen McKenna"
+    "description" : "English artist Stephen McKenna studied at the Slade School of Fine Art, London. He first came to prominence as a painter in the 1980s. McKenna has travelled extensively and lived in Ireland since 1998. McKenna’s still life, landscape and interior compositions reference classical antiquity and explore the contemporary potential of those traditional genres. He has exhibited extensively, including major solo exhibitions at the Museum of Modern Art, Oxford; Stadtische Kunsthalle, Dusseldorf, and the Royal Hibernian Academy, Dublin. He is an elected member of Aosdána and the Royal Hibernian Academy.",
+    "source" : "https://imma.ie/artists/stephen-mckenna/",
+    "birthDate" : "b.1939",
+    "url" : "https://imma.ie/artists/stephen-mckenna/",
+    "label" : "Stephen McKenna"
   }, {
     "@id" : "spice:artefact/etruscan-cinerary-urn",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/mckenna-stephen",
     "author" : "spice:agent/mckenna-stephen",
-    "schema:dateCreated" : "1992",
-    "schema:url" : "https://imma.ie/collection/etruscan-cinerary-urn/",
+    "dateCreated" : "1992",
+    "url" : "https://imma.ie/collection/etruscan-cinerary-urn/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/etruscan-cinerary-urn",
-    "arco-cd:hasTitle" : "Etruscan Cinerary Urn"
+    "hasTitle" : "Etruscan Cinerary Urn"
   }, {
     "@id" : "spice:artefact/landscape-at-castiglion-fiorentino",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/mckenna-stephen",
     "author" : "spice:agent/mckenna-stephen",
-    "schema:dateCreated" : "1992",
-    "schema:url" : "https://imma.ie/collection/landscape-at-castiglion-fiorentino/",
+    "dateCreated" : "1992",
+    "url" : "https://imma.ie/collection/landscape-at-castiglion-fiorentino/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/landscape-at-castiglion-fiorentino",
-    "arco-cd:hasTitle" : "Landscape at Castiglion Fiorentino"
+    "hasTitle" : "Landscape at Castiglion Fiorentino"
   }, {
     "@id" : "spice:artefact/moonlight",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/mckenna-stephen",
     "author" : "spice:agent/mckenna-stephen",
-    "schema:dateCreated" : "2000",
-    "schema:url" : "https://imma.ie/collection/moonlight/",
+    "dateCreated" : "2000",
+    "url" : "https://imma.ie/collection/moonlight/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/moonlight",
-    "arco-cd:hasTitle" : "Moonlight"
+    "hasTitle" : "Moonlight"
   }, {
     "@id" : "spice:artefact/plans-and-ashes",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/mckenna-stephen",
     "author" : "spice:agent/mckenna-stephen",
-    "schema:dateCreated" : "1991",
-    "schema:url" : "https://imma.ie/collection/plans-and-ashes/",
+    "dateCreated" : "1991",
+    "url" : "https://imma.ie/collection/plans-and-ashes/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/plans-and-ashes",
-    "arco-cd:hasTitle" : "Plans and Ashes"
+    "hasTitle" : "Plans and Ashes"
   }, {
     "@id" : "spice:artefact/rossbeg-clouds",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/mckenna-stephen",
     "author" : "spice:agent/mckenna-stephen",
-    "schema:dateCreated" : "1999",
-    "schema:url" : "https://imma.ie/collection/rossbeg-clouds/",
+    "dateCreated" : "1999",
+    "url" : "https://imma.ie/collection/rossbeg-clouds/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/rossbeg-clouds",
-    "arco-cd:hasTitle" : "Rossbeg Clouds"
+    "hasTitle" : "Rossbeg Clouds"
   }, {
     "@id" : "spice:artefact/selinunte-temple-e",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/mckenna-stephen",
     "author" : "spice:agent/mckenna-stephen",
-    "schema:dateCreated" : "2002",
-    "schema:url" : "https://imma.ie/collection/selinunte-temple-e/",
+    "dateCreated" : "2002",
+    "url" : "https://imma.ie/collection/selinunte-temple-e/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/selinunte-temple-e",
-    "arco-cd:hasTitle" : "Selinunte Temple E"
+    "hasTitle" : "Selinunte Temple E"
   }, {
     "@id" : "spice:artefact/st-johns-point-lighthouse-evening",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/mckenna-stephen",
     "author" : "spice:agent/mckenna-stephen",
-    "schema:dateCreated" : "1993",
-    "schema:url" : "https://imma.ie/collection/st-johns-point-lighthouse-evening/",
+    "dateCreated" : "1993",
+    "url" : "https://imma.ie/collection/st-johns-point-lighthouse-evening/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/st-johns-point-lighthouse-evening",
-    "arco-cd:hasTitle" : "St John’s Point Lighthouse – Evening"
+    "hasTitle" : "St John’s Point Lighthouse – Evening"
   }, {
     "@id" : "spice:artefact/st-sebastian",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/mckenna-stephen",
     "author" : "spice:agent/mckenna-stephen",
-    "schema:dateCreated" : "1985",
-    "schema:url" : "https://imma.ie/collection/st-sebastian/",
+    "dateCreated" : "1985",
+    "url" : "https://imma.ie/collection/st-sebastian/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/st-sebastian",
-    "arco-cd:hasTitle" : "St. Sebastian"
+    "hasTitle" : "St. Sebastian"
   }, {
     "@id" : "spice:artefact/the-irish-coast",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/mckenna-stephen",
     "author" : "spice:agent/mckenna-stephen",
-    "schema:dateCreated" : "1981",
-    "schema:url" : "https://imma.ie/collection/the-irish-coast/",
+    "dateCreated" : "1981",
+    "url" : "https://imma.ie/collection/the-irish-coast/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-irish-coast",
-    "arco-cd:hasTitle" : "The Irish Coast"
+    "hasTitle" : "The Irish Coast"
   }, {
     "@id" : "spice:artefact/the-relics",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/mckenna-stephen",
     "author" : "spice:agent/mckenna-stephen",
-    "schema:dateCreated" : "1985",
-    "schema:url" : "https://imma.ie/collection/the-relics/",
+    "dateCreated" : "1985",
+    "url" : "https://imma.ie/collection/the-relics/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-relics",
-    "arco-cd:hasTitle" : "The Relics"
+    "hasTitle" : "The Relics"
   }, {
     "@id" : "spice:artefact/the-yellow-window",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/mckenna-stephen",
     "author" : "spice:agent/mckenna-stephen",
-    "schema:dateCreated" : "1990",
-    "schema:url" : "https://imma.ie/collection/the-yellow-window/",
+    "dateCreated" : "1990",
+    "url" : "https://imma.ie/collection/the-yellow-window/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-yellow-window",
-    "arco-cd:hasTitle" : "The Yellow Window"
+    "hasTitle" : "The Yellow Window"
   }, {
     "@id" : "spice:artefact/untitled-virgin-mary-statue",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/mckenna-stephen",
     "author" : "spice:agent/mckenna-stephen",
-    "schema:dateCreated" : "1985",
-    "schema:url" : "https://imma.ie/collection/untitled-virgin-mary-statue/",
+    "dateCreated" : "1985",
+    "url" : "https://imma.ie/collection/untitled-virgin-mary-statue/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-virgin-mary-statue",
-    "arco-cd:hasTitle" : "Untitled (Virgin Mary statue)"
+    "hasTitle" : "Untitled (Virgin Mary statue)"
   }, {
     "@id" : "spice:artefact/woman-with-hat",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/mckenna-stephen",
     "author" : "spice:agent/mckenna-stephen",
-    "schema:dateCreated" : "1991",
-    "schema:url" : "https://imma.ie/collection/woman-with-hat/",
+    "dateCreated" : "1991",
+    "url" : "https://imma.ie/collection/woman-with-hat/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/woman-with-hat",
-    "arco-cd:hasTitle" : "Woman with Hat"
+    "hasTitle" : "Woman with Hat"
   }, {
     "@id" : "spice:attribution/etruscan-cinerary-urn",
     "@type" : "arco:AuthorshipAttribution",
@@ -200,48 +200,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

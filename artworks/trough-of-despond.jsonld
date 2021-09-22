@@ -2,67 +2,57 @@
   "@graph" : [ {
     "@id" : "spice:artefact/trough-of-despond",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Trough of Despond is a 1986 work by John Bellany. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/trough-of-despond/",
-    "schema:creditText" : "IMMA Collection: Donated by the Department of Customs and Excise, 1994 (July)",
+    "description" : "Trough of Despond is a 1986 work by John Bellany. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/trough-of-despond/",
+    "creditText" : "IMMA Collection: Donated by the Department of Customs and Excise, 1994 (July)",
     "image" : "spice:documentation/trough-of-despond",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Screenprint",
-    "schema:size" : "55.9 x 76.2 cm",
-    "schema:version" : "Edition 3/60",
-    "arco-cd:hasInventory" : "IMMA.458.9"
+    "material" : "Screenprint",
+    "size" : "55.9 x 76.2 cm",
+    "version" : "Edition 3/60",
+    "hasInventory" : "IMMA.458.9"
   }, {
     "@id" : "spice:documentation/trough-of-despond",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "John Bellany, Trough of Despond, 1986, Screenprint, 55.9 x 76.2 cm, Collection Irish Museum of Modern Art, Donated by the Department of Customs and Excise, 1994 (July) ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "John Bellany, Trough of Despond, 1986, Screenprint, 55.9 x 76.2 cm, Collection Irish Museum of Modern Art, Donated by the Department of Customs and Excise, 1994 (July) ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2020/02/873.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2020/02/873.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "image" : {
       "@id" : "http://schema.org/image",

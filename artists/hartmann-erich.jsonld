@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/hartmann-erich",
     "@type" : "foaf:Person",
-    "dc:description" : "American photographer Erich Hartmann was born in Munich and in 1938 moved to Albany, New York with his family. In 1941 he enlisted in the US Army and served in England, Belgium and France. He moved to New York City in 1946 and worked as a photographer’s assistant and a freelance photographer. Hartmann was invited to join Magnum Photos in 1952 and became its President in 1985. Throughout his career, he pursued many long-term personal projects, and photographic interpretations with literary echoes, such as ‘Shakespeare’s England’, ‘Joyce’s Dublin’, and ‘Thomas Hardy’s Wessex’. In his later years he photographed the remains of the Nazi concentration camps, resulting in the book and exhibition ‘In the Camps’.",
-    "dc:source" : "https://imma.ie/artists/erich-hartmann/",
-    "schema:birthDate" : "1922–1999",
-    "schema:url" : "https://imma.ie/artists/erich-hartmann/",
-    "rdfs:label" : "Erich Hartmann"
+    "description" : "American photographer Erich Hartmann was born in Munich and in 1938 moved to Albany, New York with his family. In 1941 he enlisted in the US Army and served in England, Belgium and France. He moved to New York City in 1946 and worked as a photographer’s assistant and a freelance photographer. Hartmann was invited to join Magnum Photos in 1952 and became its President in 1985. Throughout his career, he pursued many long-term personal projects, and photographic interpretations with literary echoes, such as ‘Shakespeare’s England’, ‘Joyce’s Dublin’, and ‘Thomas Hardy’s Wessex’. In his later years he photographed the remains of the Nazi concentration camps, resulting in the book and exhibition ‘In the Camps’.",
+    "source" : "https://imma.ie/artists/erich-hartmann/",
+    "birthDate" : "1922–1999",
+    "url" : "https://imma.ie/artists/erich-hartmann/",
+    "label" : "Erich Hartmann"
   }, {
     "@id" : "spice:artefact/along-essex-and-wellington-quays-by-the-river-liffey-dublin",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/hartmann-erich",
     "author" : "spice:agent/hartmann-erich",
-    "schema:dateCreated" : "1964",
-    "schema:url" : "https://imma.ie/collection/along-essex-and-wellington-quays-by-the-river-liffey-dublin/",
+    "dateCreated" : "1964",
+    "url" : "https://imma.ie/collection/along-essex-and-wellington-quays-by-the-river-liffey-dublin/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/along-essex-and-wellington-quays-by-the-river-liffey-dublin",
-    "arco-cd:hasTitle" : "Along Essex and Wellington Quays by the River Liffey, Dublin"
+    "hasTitle" : "Along Essex and Wellington Quays by the River Liffey, Dublin"
   }, {
     "@id" : "spice:attribution/along-essex-and-wellington-quays-by-the-river-liffey-dublin",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,40 +28,33 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

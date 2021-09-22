@@ -2,71 +2,61 @@
   "@graph" : [ {
     "@id" : "spice:artefact/eli",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Eli is a 2002 work by Lucian Freud. It is not currently on display in IMMA. ",
-    "dc:source" : "https://imma.ie/collection/eli/",
-    "schema:creditText" : "IMMA Collection: On Loan, Private Collection, ",
+    "description" : "Eli is a 2002 work by Lucian Freud. It is not currently on display in IMMA. ",
+    "source" : "https://imma.ie/collection/eli/",
+    "creditText" : "IMMA Collection: On Loan, Private Collection, ",
     "image" : "spice:documentation/eli",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Etching",
-    "schema:size" : "Plate: 66 x 85.1 cm Sheet: 77.3 x 95.6 cm Framed: 82 x 100 cm",
-    "schema:version" : "Edition Proof",
-    "arco-cd:hasInventory" : "EX.2016.1.5"
+    "material" : "Etching",
+    "size" : "Plate: 66 x 85.1 cm Sheet: 77.3 x 95.6 cm Framed: 82 x 100 cm",
+    "version" : "Edition Proof",
+    "hasInventory" : "EX.2016.1.5"
   }, {
     "@id" : "spice:documentation/eli",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Lucian Freud, Eli, 2002, Etching, Plate: 66 x 85.1 cm Sheet: 77.3 x 95.6 cm Framed: 82 x 100 cm, Collection Irish Museum of Modern Art, On Loan, Private Collection ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Lucian Freud, Eli, 2002, Etching, Plate: 66 x 85.1 cm Sheet: 77.3 x 95.6 cm Framed: 82 x 100 cm, Collection Irish Museum of Modern Art, On Loan, Private Collection ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/7551.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/7551.jpg"
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

@@ -1,0 +1,71 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/my-sisters-coven",
+    "@type" : "schema:CreativeWork",
+    "description" : "My Sister’s Coven, 2019 consists of more than forty metres of fabric, twisted and wrung, pierced and supported by sterile steel hung from the ceiling like a hanging carcass in an abattoir above a tall ceramic plinth.  The artwork is a response to the artists big sister who died of cervical cancer, alone, a thousand miles away from the family in 2004. ",
+    "source" : "https://imma.ie/collection/my-sisters-coven/",
+    "creditText" : "IMMA Collection: Purchase, 2021, 2021",
+    "image" : "spice:documentation/my-sisters-coven",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "material" : "Fabric, metal ribbon, ceramic plinth, wool",
+    "size" : "200 x 70 x 70 cm",
+    "hasInventory" : "IMMA.4237"
+  }, {
+    "@id" : "spice:documentation/my-sisters-coven",
+    "@type" : "schema:ImageObject",
+    "caption" : "Rajinder Singh, My Sister’s Coven, 2019, Fabric, metal ribbon, ceramic plinth, wool, 200 x 70 x 70 cm, Collection Irish Museum of Modern Art, Purchase, 2021, 2021 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "url" : "https://imma.ie/wp-content/uploads/2021/07/9538.jpg"
+  } ],
+  "@context" : {
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

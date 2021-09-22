@@ -1,36 +1,30 @@
 {
   "@id" : "spice:agent/barry-aideen",
   "@type" : "foaf:Person",
-  "description" : "_:b0",
-  "dc:description" : "Aideen Barry is an artist whose means of expression are interchangeable, incorporating performance, moving image and sculptural manifestations. Employing visual trickery to create a heightened suspension of reality, the common denominator of Barry's work is an attempt to deal with anxiety.",
-  "dc:source" : "https://imma.ie/artists/aideen-barry/",
-  "schema:birthDate" : "b.1979",
-  "schema:url" : "https://imma.ie/artists/aideen-barry/",
-  "rdfs:label" : "Aideen Barry",
+  "description" : [ "Aideen Barry is an artist whose means of expression are interchangeable, incorporating performance, moving image and sculptural manifestations. Employing visual trickery to create a heightened suspension of reality, the common denominator of Barry’s work is an attempt to deal with anxiety.", "Aideen Barry is an artist whose means of expression are interchangeable, incorporating performance, moving image and sculptural manifestations. Employing visual trickery to create a heightened suspension of reality, the common denominator of Barry's work is an attempt to deal with anxiety." ],
+  "source" : "https://imma.ie/artists/aideen-barry/",
+  "birthDate" : "b.1979",
+  "url" : "https://imma.ie/artists/aideen-barry/",
+  "label" : "Aideen Barry",
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "@id"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

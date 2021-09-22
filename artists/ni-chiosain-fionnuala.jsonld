@@ -2,51 +2,51 @@
   "@graph" : [ {
     "@id" : "spice:agent/ni-chiosain-fionnuala",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish artist Fionnuala Ní Chiosáin (born 1965) studied at the National College of Art and Design, Dublin, and St. Martin’s School of Art, London. Ní Chiosáin has exhibited extensively since the 1990s, at venues including Itami City Museum of Art, Japan; l’Ecole de Beaux-Arts, Paris; and the Drawing Centre, New York. She received a Pollock Krasner Foundation Award in 1999. Her work is held in the collections of Dublin City Gallery, The Hugh Lane, the Office of Public Works; and Deutsche Morgan Grenfell, London as well as in many private collections in Europe and the US.",
-    "dc:source" : "https://imma.ie/artists/fionnuala-ni-chiosain/",
-    "schema:birthDate" : "b.1965",
-    "schema:url" : "https://imma.ie/artists/fionnuala-ni-chiosain/",
-    "rdfs:label" : "Fionnuala Ní Chiosain"
+    "description" : "Irish artist Fionnuala Ní Chiosáin (born 1965) studied at the National College of Art and Design, Dublin, and St. Martin’s School of Art, London. Ní Chiosáin has exhibited extensively since the 1990s, at venues including Itami City Museum of Art, Japan; l’Ecole de Beaux-Arts, Paris; and the Drawing Centre, New York. She received a Pollock Krasner Foundation Award in 1999. Her work is held in the collections of Dublin City Gallery, The Hugh Lane, the Office of Public Works; and Deutsche Morgan Grenfell, London as well as in many private collections in Europe and the US.",
+    "source" : "https://imma.ie/artists/fionnuala-ni-chiosain/",
+    "birthDate" : "b.1965",
+    "url" : "https://imma.ie/artists/fionnuala-ni-chiosain/",
+    "label" : "Fionnuala Ní Chiosain"
   }, {
     "@id" : "spice:artefact/chronicle",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ni-chiosain-fionnuala",
     "author" : "spice:agent/ni-chiosain-fionnuala",
-    "schema:dateCreated" : "1995",
-    "schema:url" : "https://imma.ie/collection/chronicle/",
+    "dateCreated" : "1995",
+    "url" : "https://imma.ie/collection/chronicle/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/chronicle",
-    "arco-cd:hasTitle" : "Chronicle"
+    "hasTitle" : "Chronicle"
   }, {
     "@id" : "spice:artefact/modern-nature-4",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ni-chiosain-fionnuala",
     "author" : "spice:agent/ni-chiosain-fionnuala",
-    "schema:dateCreated" : "1993",
-    "schema:url" : "https://imma.ie/collection/modern-nature-4/",
+    "dateCreated" : "1993",
+    "url" : "https://imma.ie/collection/modern-nature-4/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/modern-nature-4",
-    "arco-cd:hasTitle" : "Modern Nature # 4"
+    "hasTitle" : "Modern Nature # 4"
   }, {
     "@id" : "spice:artefact/untitled-26",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ni-chiosain-fionnuala",
     "author" : "spice:agent/ni-chiosain-fionnuala",
-    "schema:dateCreated" : "1999",
-    "schema:url" : "https://imma.ie/collection/untitled-26/",
+    "dateCreated" : "1999",
+    "url" : "https://imma.ie/collection/untitled-26/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-26",
-    "arco-cd:hasTitle" : "Untitled"
+    "hasTitle" : "Untitled"
   }, {
     "@id" : "spice:artefact/untitled-58",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ni-chiosain-fionnuala",
     "author" : "spice:agent/ni-chiosain-fionnuala",
-    "schema:dateCreated" : "1993",
-    "schema:url" : "https://imma.ie/collection/untitled-58/",
+    "dateCreated" : "1993",
+    "url" : "https://imma.ie/collection/untitled-58/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-58",
-    "arco-cd:hasTitle" : "Untitled"
+    "hasTitle" : "Untitled"
   }, {
     "@id" : "spice:attribution/chronicle",
     "@type" : "arco:AuthorshipAttribution",
@@ -70,24 +70,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -98,24 +95,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

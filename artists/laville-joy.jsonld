@@ -2,31 +2,31 @@
   "@graph" : [ {
     "@id" : "spice:agent/laville-joy",
     "@type" : "foaf:Person",
-    "dc:description" : "British painter Joy Laville attended art school in the south of England before joining the Observer Corps during World War II. In 1947 she moved to Canada and on to Mexico in 1956 where she studied at the Instituto Allende. Laville experimented with Cubism and Abstract Expressionism before establishing her own style and gaining gallery interest. In 2011 she was recieved by the Mexican senate as a candidate for the National Prize for Arts and Sciences. Laville was awarded the Bellas Artes Medal for her life’s work in 2012.",
-    "dc:source" : "https://imma.ie/artists/joy-laville/",
-    "schema:birthDate" : "b.1923",
-    "schema:url" : "https://imma.ie/artists/joy-laville/",
-    "rdfs:label" : "Joy Laville"
+    "description" : "British painter Joy Laville attended art school in the south of England before joining the Observer Corps during World War II. In 1947 she moved to Canada and on to Mexico in 1956 where she studied at the Instituto Allende. Laville experimented with Cubism and Abstract Expressionism before establishing her own style and gaining gallery interest. In 2011 she was recieved by the Mexican senate as a candidate for the National Prize for Arts and Sciences. Laville was awarded the Bellas Artes Medal for her life’s work in 2012.",
+    "source" : "https://imma.ie/artists/joy-laville/",
+    "birthDate" : "b.1923",
+    "url" : "https://imma.ie/artists/joy-laville/",
+    "label" : "Joy Laville"
   }, {
     "@id" : "spice:artefact/florero",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/laville-joy",
     "author" : "spice:agent/laville-joy",
-    "schema:dateCreated" : "2010",
-    "schema:url" : "https://imma.ie/collection/florero/",
+    "dateCreated" : "2010",
+    "url" : "https://imma.ie/collection/florero/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/florero",
-    "arco-cd:hasTitle" : "Florero"
+    "hasTitle" : "Florero"
   }, {
     "@id" : "spice:artefact/untitled-34",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/laville-joy",
     "author" : "spice:agent/laville-joy",
-    "schema:dateCreated" : "1996",
-    "schema:url" : "https://imma.ie/collection/untitled-34/",
+    "dateCreated" : "1996",
+    "url" : "https://imma.ie/collection/untitled-34/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-34",
-    "arco-cd:hasTitle" : "Untitled"
+    "hasTitle" : "Untitled"
   }, {
     "@id" : "spice:attribution/florero",
     "@type" : "arco:AuthorshipAttribution",
@@ -46,48 +46,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

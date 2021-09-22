@@ -3,29 +3,26 @@
   "@type" : "foaf:Person",
   "description" : "_:b0",
   "dc:description" : "Allan Hughes is an artist based in Belfast and working out of Orchid Studios. His practice explores psychological relationships and responses to the recorded voice. In particular the voice synchronised to image and its predisposition to conditions of deceit and duplicity.",
-  "dc:source" : "https://imma.ie/artists/allan-hughes/",
-  "schema:url" : "https://imma.ie/artists/allan-hughes/",
-  "rdfs:label" : "Allan Hughes",
+  "source" : "https://imma.ie/artists/allan-hughes/",
+  "url" : "https://imma.ie/artists/allan-hughes/",
+  "label" : "Allan Hughes",
   "@context" : {
     "description" : {
       "@id" : "http://purl.org/dc/elements/1.1/description",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

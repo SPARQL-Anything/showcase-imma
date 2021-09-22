@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/mullin-martin",
     "@type" : "foaf:Person",
-    "dc:description" : "American artist Martin Mullin (born 1951) was born in Leitrim, Ireland. Mullin relocated to the United States where he attended the Art Students League, New York and the National Academy of Design, New York. He became a US citizen in 1990. Mullin has exhibited extensively in America and Europe since the late 1970s. His work is held in a number of public and private collections including that of the Brooklyn Museum; the Fine Arts Museum of San Francisco; the United States Library of Congress and Biblioteque National, Paris.",
-    "dc:source" : "https://imma.ie/artists/martin-mullin/",
-    "schema:birthDate" : "b.1951",
-    "schema:url" : "https://imma.ie/artists/martin-mullin/",
-    "rdfs:label" : "Martin Mullin"
+    "description" : "American artist Martin Mullin (born 1951) was born in Leitrim, Ireland. Mullin relocated to the United States where he attended the Art Students League, New York and the National Academy of Design, New York. He became a US citizen in 1990. Mullin has exhibited extensively in America and Europe since the late 1970s. His work is held in a number of public and private collections including that of the Brooklyn Museum; the Fine Arts Museum of San Francisco; the United States Library of Congress and Biblioteque National, Paris.",
+    "source" : "https://imma.ie/artists/martin-mullin/",
+    "birthDate" : "b.1951",
+    "url" : "https://imma.ie/artists/martin-mullin/",
+    "label" : "Martin Mullin"
   }, {
     "@id" : "spice:artefact/six-pieces-for-veronica",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/mullin-martin",
     "author" : "spice:agent/mullin-martin",
-    "schema:dateCreated" : "1990",
-    "schema:url" : "https://imma.ie/collection/six-pieces-for-veronica/",
+    "dateCreated" : "1990",
+    "url" : "https://imma.ie/collection/six-pieces-for-veronica/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/six-pieces-for-veronica",
-    "arco-cd:hasTitle" : "Six Pieces for Veronica"
+    "hasTitle" : "Six Pieces for Veronica"
   }, {
     "@id" : "spice:attribution/six-pieces-for-veronica",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,24 +28,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -56,24 +53,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

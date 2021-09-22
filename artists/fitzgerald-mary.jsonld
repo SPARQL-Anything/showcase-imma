@@ -2,31 +2,31 @@
   "@graph" : [ {
     "@id" : "spice:agent/fitzgerald-mary",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish artist Mary Fitzgerald studied at the National College of Art and Design, Dublin. After graduating, she moved to Japan where she exhibited between 1979 and 1981. Fitzgerald has represented Ireland at ROSC, L’Imaginaire Irlandais and the XVIII Bienal de Sao Paulo. She was elected as a member of Aosdána in 1990.",
-    "dc:source" : "https://imma.ie/artists/mary-fitzgerald/",
-    "schema:birthDate" : "b.1956",
-    "schema:url" : "https://imma.ie/artists/mary-fitzgerald/",
-    "rdfs:label" : "Mary Fitzgerald"
+    "description" : "Irish artist Mary Fitzgerald studied at the National College of Art and Design, Dublin. After graduating, she moved to Japan where she exhibited between 1979 and 1981. Fitzgerald has represented Ireland at ROSC, L’Imaginaire Irlandais and the XVIII Bienal de Sao Paulo. She was elected as a member of Aosdána in 1990.",
+    "source" : "https://imma.ie/artists/mary-fitzgerald/",
+    "birthDate" : "b.1956",
+    "url" : "https://imma.ie/artists/mary-fitzgerald/",
+    "label" : "Mary Fitzgerald"
   }, {
     "@id" : "spice:artefact/grid-painting",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/fitzgerald-mary",
     "author" : "spice:agent/fitzgerald-mary",
-    "schema:dateCreated" : "1982",
-    "schema:url" : "https://imma.ie/collection/grid-painting/",
+    "dateCreated" : "1982",
+    "url" : "https://imma.ie/collection/grid-painting/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/grid-painting",
-    "arco-cd:hasTitle" : "Grid Painting"
+    "hasTitle" : "Grid Painting"
   }, {
     "@id" : "spice:artefact/orientation",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/fitzgerald-mary",
     "author" : "spice:agent/fitzgerald-mary",
-    "schema:dateCreated" : "1991",
-    "schema:url" : "https://imma.ie/collection/orientation/",
+    "dateCreated" : "1991",
+    "url" : "https://imma.ie/collection/orientation/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/orientation",
-    "arco-cd:hasTitle" : "Orientation"
+    "hasTitle" : "Orientation"
   }, {
     "@id" : "spice:attribution/grid-painting",
     "@type" : "arco:AuthorshipAttribution",
@@ -38,40 +38,33 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -87,7 +80,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

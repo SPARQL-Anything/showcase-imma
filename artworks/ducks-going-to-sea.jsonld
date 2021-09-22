@@ -2,66 +2,57 @@
   "@graph" : [ {
     "@id" : "spice:artefact/ducks-going-to-sea",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Ducks Going to Sea is a 1944 work by Patrick Scott. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/ducks-going-to-sea/",
-    "schema:creditText" : "IMMA Collection: Presented by Trevor Dannatt, Architect, London, 2015",
+    "description" : "Ducks Going to Sea is a 1944 work by Patrick Scott. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/ducks-going-to-sea/",
+    "creditText" : "IMMA Collection: Presented by Trevor Dannatt, Architect, London, 2015",
     "image" : "spice:documentation/ducks-going-to-sea",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Oil on canvas",
-    "schema:size" : "45 x 80 cm",
-    "arco-cd:hasInventory" : "IMMA.3998"
+    "material" : "Oil on canvas",
+    "size" : "45 x 80 cm",
+    "hasInventory" : "IMMA.3998"
   }, {
     "@id" : "spice:documentation/ducks-going-to-sea",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Patrick Scott, Ducks Going to Sea, 1944, Oil on canvas, 45 x 80 cm, Collection Irish Museum of Modern Art, Presented by Trevor Dannatt, Architect, London, 2015 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Patrick Scott, Ducks Going to Sea, 1944, Oil on canvas, 45 x 80 cm, Collection Irish Museum of Modern Art, Presented by Trevor Dannatt, Architect, London, 2015 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2019/10/7192.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2019/10/7192.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

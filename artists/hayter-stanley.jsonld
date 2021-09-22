@@ -2,41 +2,41 @@
   "@graph" : [ {
     "@id" : "spice:agent/hayter-stanley",
     "@type" : "foaf:Person",
-    "dc:description" : "English painter and printmaker Stanley William Hayter is regarded as one of the twentieth century’s most important printmakers. In 1927, in order to promote and develop new techniques in print, he founded the Atelier 17 studio in Paris, which attracted artists such as Pablo Picasso, Yves Tanguy, Marc Chagall and Salvador Dali. At the outbreak of World War II, Hayter moved Atelier 17 to New York. Hayter’s first book, 'New Ways of Gravure' (1949), became an indispensable text for printmakers. In 2005 the Tate Archive acquired Hayter's papers.",
-    "dc:source" : "https://imma.ie/artists/stanley-hayter/",
-    "schema:birthDate" : "1901–1988",
-    "schema:url" : "https://imma.ie/artists/stanley-hayter/",
-    "rdfs:label" : "Stanley Hayter"
+    "description" : "English painter and printmaker Stanley William Hayter is regarded as one of the twentieth century’s most important printmakers. In 1927, in order to promote and develop new techniques in print, he founded the Atelier 17 studio in Paris, which attracted artists such as Pablo Picasso, Yves Tanguy, Marc Chagall and Salvador Dali. At the outbreak of World War II, Hayter moved Atelier 17 to New York. Hayter’s first book, 'New Ways of Gravure' (1949), became an indispensable text for printmakers. In 2005 the Tate Archive acquired Hayter's papers.",
+    "source" : "https://imma.ie/artists/stanley-hayter/",
+    "birthDate" : "1901–1988",
+    "url" : "https://imma.ie/artists/stanley-hayter/",
+    "label" : "Stanley Hayter"
   }, {
     "@id" : "spice:artefact/still",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/hayter-stanley",
     "author" : "spice:agent/hayter-stanley",
-    "schema:dateCreated" : "1973",
-    "schema:url" : "https://imma.ie/collection/still/",
+    "dateCreated" : "1973",
+    "url" : "https://imma.ie/collection/still/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/still",
-    "arco-cd:hasTitle" : "Still"
+    "hasTitle" : "Still"
   }, {
     "@id" : "spice:artefact/still-2",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/hayter-stanley",
     "author" : "spice:agent/hayter-stanley",
-    "schema:dateCreated" : "1973",
-    "schema:url" : "https://imma.ie/collection/still-2/",
+    "dateCreated" : "1973",
+    "url" : "https://imma.ie/collection/still-2/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/still-2",
-    "arco-cd:hasTitle" : "Still"
+    "hasTitle" : "Still"
   }, {
     "@id" : "spice:artefact/still-3",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/hayter-stanley",
     "author" : "spice:agent/hayter-stanley",
-    "schema:dateCreated" : "1973",
-    "schema:url" : "https://imma.ie/collection/still-3/",
+    "dateCreated" : "1973",
+    "url" : "https://imma.ie/collection/still-3/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/still-3",
-    "arco-cd:hasTitle" : "Still"
+    "hasTitle" : "Still"
   }, {
     "@id" : "spice:attribution/still",
     "@type" : "arco:AuthorshipAttribution",
@@ -56,24 +56,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -84,24 +81,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

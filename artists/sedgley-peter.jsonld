@@ -2,41 +2,41 @@
   "@graph" : [ {
     "@id" : "spice:agent/sedgley-peter",
     "@type" : "foaf:Person",
-    "dc:description" : "English Op artist Peter Sedgley studied architecture at Brixton Technical School. He served as an architect’s apprentice before turning to art in the early 1960s. Initially investigating optical and spatial phenomena, Sedgley’s luminous circle paintings developed to incorporate video, light and sound elements. He took part in the Tokyo Biennale in 1966 and had solo exhibitions in London and Berlin. His work is represented in major public collections, including Tate Modern and the Victoria and Albert Museum, London.",
-    "dc:source" : "https://imma.ie/artists/peter-sedgley/",
-    "schema:birthDate" : "b.1930",
-    "schema:url" : "https://imma.ie/artists/peter-sedgley/",
-    "rdfs:label" : "Peter Sedgley"
+    "description" : "English Op artist Peter Sedgley studied architecture at Brixton Technical School. He served as an architect’s apprentice before turning to art in the early 1960s. Initially investigating optical and spatial phenomena, Sedgley’s luminous circle paintings developed to incorporate video, light and sound elements. He took part in the Tokyo Biennale in 1966 and had solo exhibitions in London and Berlin. His work is represented in major public collections, including Tate Modern and the Victoria and Albert Museum, London.",
+    "source" : "https://imma.ie/artists/peter-sedgley/",
+    "birthDate" : "b.1930",
+    "url" : "https://imma.ie/artists/peter-sedgley/",
+    "label" : "Peter Sedgley"
   }, {
     "@id" : "spice:artefact/light-rhythms",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/sedgley-peter",
     "author" : "spice:agent/sedgley-peter",
-    "schema:dateCreated" : "1981",
-    "schema:url" : "https://imma.ie/collection/light-rhythms/",
+    "dateCreated" : "1981",
+    "url" : "https://imma.ie/collection/light-rhythms/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/light-rhythms",
-    "arco-cd:hasTitle" : "Light Rhythms"
+    "hasTitle" : "Light Rhythms"
   }, {
     "@id" : "spice:artefact/red-rhythms",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/sedgley-peter",
     "author" : "spice:agent/sedgley-peter",
-    "schema:dateCreated" : "1981",
-    "schema:url" : "https://imma.ie/collection/red-rhythms/",
+    "dateCreated" : "1981",
+    "url" : "https://imma.ie/collection/red-rhythms/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/red-rhythms",
-    "arco-cd:hasTitle" : "Red Rhythms"
+    "hasTitle" : "Red Rhythms"
   }, {
     "@id" : "spice:artefact/study-coloured-circles",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/sedgley-peter",
     "author" : "spice:agent/sedgley-peter",
-    "schema:dateCreated" : "1970",
-    "schema:url" : "https://imma.ie/collection/study-coloured-circles/",
+    "dateCreated" : "1970",
+    "url" : "https://imma.ie/collection/study-coloured-circles/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/study-coloured-circles",
-    "arco-cd:hasTitle" : "Study (Coloured Circles)"
+    "hasTitle" : "Study (Coloured Circles)"
   }, {
     "@id" : "spice:attribution/light-rhythms",
     "@type" : "arco:AuthorshipAttribution",
@@ -52,24 +52,19 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -80,16 +75,14 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -101,7 +94,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

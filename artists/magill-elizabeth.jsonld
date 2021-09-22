@@ -2,61 +2,61 @@
   "@graph" : [ {
     "@id" : "spice:agent/magill-elizabeth",
     "@type" : "foaf:Person",
-    "dc:description" : "Born in Canada, Elizabeth Magill grew up in Northern Ireland, and now lives and works in London. She attended the Belfast College of Art and the Slade School of Art, University College London. She often integrates photographic materials and processes into her paintings. Her first major solo exhibition was at the Arnolfini Gallery, Bristol, in 1990. In the same year she was included in the seminal ‘British Art Show’. Group exhibitions at IMMA include the Glen Dimplex Artists Awards Exhibition, 2001 and ‘Time out of Mind’, 2012. Her work is held in collections including The Arts Council of Great Britain and Dublin City Gallery The Hugh Lane.",
-    "dc:source" : "https://imma.ie/artists/elizabeth-magill/",
-    "schema:birthDate" : "b.1959",
-    "schema:url" : "https://imma.ie/artists/elizabeth-magill/",
-    "rdfs:label" : "Elizabeth Magill"
+    "description" : "Born in Canada, Elizabeth Magill grew up in Northern Ireland, and now lives and works in London. She attended the Belfast College of Art and the Slade School of Art, University College London. She often integrates photographic materials and processes into her paintings. Her first major solo exhibition was at the Arnolfini Gallery, Bristol, in 1990. In the same year she was included in the seminal ‘British Art Show’. Group exhibitions at IMMA include the Glen Dimplex Artists Awards Exhibition, 2001 and ‘Time out of Mind’, 2012. Her work is held in collections including The Arts Council of Great Britain and Dublin City Gallery The Hugh Lane.",
+    "source" : "https://imma.ie/artists/elizabeth-magill/",
+    "birthDate" : "b.1959",
+    "url" : "https://imma.ie/artists/elizabeth-magill/",
+    "label" : "Elizabeth Magill"
   }, {
     "@id" : "spice:artefact/14-13-32",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/magill-elizabeth",
     "author" : "spice:agent/magill-elizabeth",
-    "schema:dateCreated" : "1991",
-    "schema:url" : "https://imma.ie/collection/14-13-32/",
+    "dateCreated" : "1991",
+    "url" : "https://imma.ie/collection/14-13-32/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/14-13-32",
-    "arco-cd:hasTitle" : "14.13.32"
+    "hasTitle" : "14.13.32"
   }, {
     "@id" : "spice:artefact/342-polka-dots",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/magill-elizabeth",
     "author" : "spice:agent/magill-elizabeth",
-    "schema:dateCreated" : "1989",
-    "schema:url" : "https://imma.ie/collection/342-polka-dots/",
+    "dateCreated" : "1989",
+    "url" : "https://imma.ie/collection/342-polka-dots/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/342-polka-dots",
-    "arco-cd:hasTitle" : "342 Polka Dots"
+    "hasTitle" : "342 Polka Dots"
   }, {
     "@id" : "spice:artefact/engine",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/magill-elizabeth",
     "author" : "spice:agent/magill-elizabeth",
-    "schema:dateCreated" : "1989",
-    "schema:url" : "https://imma.ie/collection/engine/",
+    "dateCreated" : "1989",
+    "url" : "https://imma.ie/collection/engine/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/engine",
-    "arco-cd:hasTitle" : "Engine"
+    "hasTitle" : "Engine"
   }, {
     "@id" : "spice:artefact/forest-edge-2",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/magill-elizabeth",
     "author" : "spice:agent/magill-elizabeth",
-    "schema:dateCreated" : "2000",
-    "schema:url" : "https://imma.ie/collection/forest-edge-2/",
+    "dateCreated" : "2000",
+    "url" : "https://imma.ie/collection/forest-edge-2/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/forest-edge-2",
-    "arco-cd:hasTitle" : "Forest Edge 2"
+    "hasTitle" : "Forest Edge 2"
   }, {
     "@id" : "spice:artefact/untitled-79",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/magill-elizabeth",
     "author" : "spice:agent/magill-elizabeth",
-    "schema:dateCreated" : "1984",
-    "schema:url" : "https://imma.ie/collection/untitled-79/",
+    "dateCreated" : "1984",
+    "url" : "https://imma.ie/collection/untitled-79/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-79",
-    "arco-cd:hasTitle" : "Untitled"
+    "hasTitle" : "Untitled"
   }, {
     "@id" : "spice:attribution/14-13-32",
     "@type" : "arco:AuthorshipAttribution",
@@ -88,48 +88,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

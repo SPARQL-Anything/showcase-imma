@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/mccrea-ronan",
     "@type" : "foaf:Person",
-    "dc:description" : "Ronan McCrea lives and works in Dublin. He studied at the National College of Art and Design between 1988 and 1991 and later received a PhD from the University of Ulster, Belfast. He has exhibited extensively in Ireland and internationally, including solo exhibitions in the Galway Arts Centre, Project Arts Centre, Dublin, and Glassbox, Paris. In 2005 McCrea was one of seven artists who represented Ireland at the Venice Biennale. He has also worked as a curator and was a guest curator at The Return, Goethe Institute, Dublin in 2003. He currently lectures in photography at Limerick School of Art &amp; Design.",
-    "dc:source" : "https://imma.ie/artists/ronan-mccrea/",
-    "schema:birthDate" : "b.1969",
-    "schema:url" : "https://imma.ie/artists/ronan-mccrea/",
-    "rdfs:label" : "Ronan McCrea"
+    "description" : "Ronan McCrea lives and works in Dublin. He studied at the National College of Art and Design between 1988 and 1991 and later received a PhD from the University of Ulster, Belfast. He has exhibited extensively in Ireland and internationally, including solo exhibitions in the Galway Arts Centre, Project Arts Centre, Dublin, and Glassbox, Paris. In 2005 McCrea was one of seven artists who represented Ireland at the Venice Biennale. He has also worked as a curator and was a guest curator at The Return, Goethe Institute, Dublin in 2003. He currently lectures in photography at Limerick School of Art &amp; Design.",
+    "source" : "https://imma.ie/artists/ronan-mccrea/",
+    "birthDate" : "b.1969",
+    "url" : "https://imma.ie/artists/ronan-mccrea/",
+    "label" : "Ronan McCrea"
   }, {
     "@id" : "spice:artefact/medium-corporate-entities-version-iii",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/mccrea-ronan",
     "author" : "spice:agent/mccrea-ronan",
-    "schema:dateCreated" : "2008",
-    "schema:url" : "https://imma.ie/collection/medium-corporate-entities-version-iii/",
+    "dateCreated" : "2008",
+    "url" : "https://imma.ie/collection/medium-corporate-entities-version-iii/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/medium-corporate-entities-version-iii",
-    "arco-cd:hasTitle" : "Medium (Corporate Entities) version III"
+    "hasTitle" : "Medium (Corporate Entities) version III"
   }, {
     "@id" : "spice:attribution/medium-corporate-entities-version-iii",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,24 +28,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -56,24 +53,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

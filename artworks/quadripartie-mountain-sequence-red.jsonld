@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/quadripartie-mountain-sequence-red",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Many of the ‘poured’ works Madden created in the 1960s are diptychs, triptychs or other multi-panel formats. The titles of the works, as in this one, refer to landscape but rather than copying from nature, Madden seems to explore how it was formed, outlining the capricious nature of geological formations, and considering the effect of light, time and experience on them.",
-    "dc:source" : "https://imma.ie/collection/quadripartie-mountain-sequence-red/",
-    "schema:creditText" : "IMMA Collection: Heritage Gift, P.J. Carroll &amp; Co. Ltd. Art Collection, 2005",
+    "description" : "Many of the ‘poured’ works Madden created in the 1960s are diptychs, triptychs or other multi-panel formats. The titles of the works, as in this one, refer to landscape but rather than copying from nature, Madden seems to explore how it was formed, outlining the capricious nature of geological formations, and considering the effect of light, time and experience on them.",
+    "source" : "https://imma.ie/collection/quadripartie-mountain-sequence-red/",
+    "creditText" : "IMMA Collection: Heritage Gift, P.J. Carroll &amp; Co. Ltd. Art Collection, 2005",
     "image" : "spice:documentation/quadripartie-mountain-sequence-red",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Oil on canvas",
-    "schema:size" : "144.8 x 182.9 cm",
-    "arco-cd:hasInventory" : "IMMA.1865"
+    "material" : "Oil on canvas",
+    "size" : "144.8 x 182.9 cm",
+    "hasInventory" : "IMMA.1865"
   }, {
     "@id" : "spice:documentation/quadripartie-mountain-sequence-red",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Anne Madden, Quadripartie Mountain Sequence Red, 1967, Oil on canvas, 144.8 x 182.9 cm, Collection Irish Museum of Modern Art, Heritage Gift, P.J. Carroll &amp; Co. Ltd. Art Collection, 2005 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Anne Madden, Quadripartie Mountain Sequence Red, 1967, Oil on canvas, 144.8 x 182.9 cm, Collection Irish Museum of Modern Art, Heritage Gift, P.J. Carroll &amp; Co. Ltd. Art Collection, 2005 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/1790.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/1790.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

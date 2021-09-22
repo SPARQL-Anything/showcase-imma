@@ -1,0 +1,71 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/billboard-iii",
+    "@type" : "schema:CreativeWork",
+    "description" : "This work is part of the Street series which follows Jordan’s interrogation of the urban, mainly focussing on European cities. This work shows a streetscape in Dublin. Although there are recognisable scenes in this work, there is nothing familiar or reassuring in the method of their capture. Whether it is the darkness of a February afternoon, the reflected light of a fresh snowfall, or the distinctive hue of Halogen Street lights, her paintings are charged with content that is either to come, or else is taking place just out of view.",
+    "source" : "https://imma.ie/collection/billboard-iii/",
+    "creditText" : "IMMA Collection: Purchase, 2021, 2021",
+    "image" : "spice:documentation/billboard-iii",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "material" : "Oil on linen",
+    "size" : "73 x 100 cm",
+    "hasInventory" : "IMMA.4208"
+  }, {
+    "@id" : "spice:documentation/billboard-iii",
+    "@type" : "schema:ImageObject",
+    "caption" : "Eithne Jordan, Billboard III, 2012, Oil on linen, 73 x 100 cm, Collection Irish Museum of Modern Art, Purchase, 2021, 2021 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "url" : "https://imma.ie/wp-content/uploads/2021/04/9502.jpg"
+  } ],
+  "@context" : {
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

@@ -2,19 +2,19 @@
   "@graph" : [ {
     "@id" : "spice:agent/rondon-francisco",
     "@type" : "foaf:Person",
-    "dc:source" : "https://imma.ie/artists/francisco-rondon/",
-    "schema:url" : "https://imma.ie/artists/francisco-rondon/",
-    "rdfs:label" : "Francisco Rondon"
+    "source" : "https://imma.ie/artists/francisco-rondon/",
+    "url" : "https://imma.ie/artists/francisco-rondon/",
+    "label" : "Francisco Rondon"
   }, {
     "@id" : "spice:artefact/borges-o-el-aleph",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/rondon-francisco",
     "author" : "spice:agent/rondon-francisco",
-    "schema:dateCreated" : "1982",
-    "schema:url" : "https://imma.ie/collection/borges-o-el-aleph/",
+    "dateCreated" : "1982",
+    "url" : "https://imma.ie/collection/borges-o-el-aleph/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/borges-o-el-aleph",
-    "arco-cd:hasTitle" : "Borges o El Aleph"
+    "hasTitle" : "Borges o El Aleph"
   }, {
     "@id" : "spice:attribution/borges-o-el-aleph",
     "@type" : "arco:AuthorshipAttribution",
@@ -30,40 +30,35 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

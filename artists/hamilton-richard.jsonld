@@ -2,51 +2,51 @@
   "@graph" : [ {
     "@id" : "spice:agent/hamilton-richard",
     "@type" : "foaf:Person",
-    "dc:description" : "British painter and collage artist Richard Hamilton studied painting at the Royal Academy School and the Slade School of Art. In 1952 he founded the ‘Independent Group’ which was instrumental in the development of English Pop Art. From the 1980s Hamilton became interested in the use of digital media in art. A major retrospective of Hamilton’s work was held in the Tate Gallery, London in 1992. He represented Britain at the Venice Biennale the following year. An exhibition of Hamilton’s illustrations of James Joyce’s 'Ulysses' took place at IMMA in 2002.",
-    "dc:source" : "https://imma.ie/artists/richard-hamilton/",
-    "schema:birthDate" : "1922–2011",
-    "schema:url" : "https://imma.ie/artists/richard-hamilton/",
-    "rdfs:label" : "Richard Hamilton"
+    "description" : "British painter and collage artist Richard Hamilton studied painting at the Royal Academy School and the Slade School of Art. In 1952 he founded the ‘Independent Group’ which was instrumental in the development of English Pop Art. From the 1980s Hamilton became interested in the use of digital media in art. A major retrospective of Hamilton’s work was held in the Tate Gallery, London in 1992. He represented Britain at the Venice Biennale the following year. An exhibition of Hamilton’s illustrations of James Joyce’s 'Ulysses' took place at IMMA in 2002.",
+    "source" : "https://imma.ie/artists/richard-hamilton/",
+    "birthDate" : "1922–2011",
+    "url" : "https://imma.ie/artists/richard-hamilton/",
+    "label" : "Richard Hamilton"
   }, {
     "@id" : "spice:artefact/bronze-by-gold",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/hamilton-richard",
     "author" : "spice:agent/hamilton-richard",
-    "schema:dateCreated" : "1987",
-    "schema:url" : "https://imma.ie/collection/bronze-by-gold/",
+    "dateCreated" : "1987",
+    "url" : "https://imma.ie/collection/bronze-by-gold/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/bronze-by-gold",
-    "arco-cd:hasTitle" : "Bronze by Gold"
+    "hasTitle" : "Bronze by Gold"
   }, {
     "@id" : "spice:artefact/finn-maccool",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/hamilton-richard",
     "author" : "spice:agent/hamilton-richard",
-    "schema:dateCreated" : "1983",
-    "schema:url" : "https://imma.ie/collection/finn-maccool/",
+    "dateCreated" : "1983",
+    "url" : "https://imma.ie/collection/finn-maccool/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/finn-maccool",
-    "arco-cd:hasTitle" : "Finn MacCool"
+    "hasTitle" : "Finn MacCool"
   }, {
     "@id" : "spice:artefact/he-foresaw-his-pale-body",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/hamilton-richard",
     "author" : "spice:agent/hamilton-richard",
-    "schema:dateCreated" : "1990",
-    "schema:url" : "https://imma.ie/collection/he-foresaw-his-pale-body/",
+    "dateCreated" : "1990",
+    "url" : "https://imma.ie/collection/he-foresaw-his-pale-body/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/he-foresaw-his-pale-body",
-    "arco-cd:hasTitle" : "He Foresaw his Pale Body"
+    "hasTitle" : "He Foresaw his Pale Body"
   }, {
     "@id" : "spice:artefact/the-transmogrifications-of-bloom",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/hamilton-richard",
     "author" : "spice:agent/hamilton-richard",
-    "schema:dateCreated" : "1985",
-    "schema:url" : "https://imma.ie/collection/the-transmogrifications-of-bloom/",
+    "dateCreated" : "1985",
+    "url" : "https://imma.ie/collection/the-transmogrifications-of-bloom/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-transmogrifications-of-bloom",
-    "arco-cd:hasTitle" : "The Transmogrifications of Bloom"
+    "hasTitle" : "The Transmogrifications of Bloom"
   }, {
     "@id" : "spice:attribution/bronze-by-gold",
     "@type" : "arco:AuthorshipAttribution",
@@ -70,24 +70,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -98,24 +95,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

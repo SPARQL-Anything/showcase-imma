@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/gallardo-jesus",
     "@type" : "foaf:Person",
-    "dc:description" : "Jesús Gallardo is a master engraver and landscape artist. Between 1972 and 1973 he painted the murals in the Municipal Palace (Casa de la Cultura), León, Guanajuato, Mexico.",
-    "dc:source" : "https://imma.ie/artists/jesus-gallardo/",
-    "schema:birthDate" : "b.1931",
-    "schema:url" : "https://imma.ie/artists/jesus-gallardo/",
-    "rdfs:label" : "Jesús Gallardo"
+    "description" : "Jesús Gallardo is a master engraver and landscape artist. Between 1972 and 1973 he painted the murals in the Municipal Palace (Casa de la Cultura), León, Guanajuato, Mexico.",
+    "source" : "https://imma.ie/artists/jesus-gallardo/",
+    "birthDate" : "b.1931",
+    "url" : "https://imma.ie/artists/jesus-gallardo/",
+    "label" : "Jesús Gallardo"
   }, {
     "@id" : "spice:artefact/barrio-del-cantador",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/gallardo-jesus",
     "author" : "spice:agent/gallardo-jesus",
-    "schema:dateCreated" : "1984",
-    "schema:url" : "https://imma.ie/collection/barrio-del-cantador/",
+    "dateCreated" : "1984",
+    "url" : "https://imma.ie/collection/barrio-del-cantador/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/barrio-del-cantador",
-    "arco-cd:hasTitle" : "Barrio del Cantador"
+    "hasTitle" : "Barrio del Cantador"
   }, {
     "@id" : "spice:attribution/barrio-del-cantador",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,24 +28,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -56,24 +53,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

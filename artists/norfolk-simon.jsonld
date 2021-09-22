@@ -2,20 +2,20 @@
   "@graph" : [ {
     "@id" : "spice:agent/norfolk-simon",
     "@type" : "foaf:Person",
-    "dc:source" : "https://imma.ie/artists/simon-norfolk/",
-    "schema:birthDate" : "b.1963",
-    "schema:url" : "https://imma.ie/artists/simon-norfolk/",
-    "rdfs:label" : "Simon Norfolk"
+    "source" : "https://imma.ie/artists/simon-norfolk/",
+    "birthDate" : "b.1963",
+    "url" : "https://imma.ie/artists/simon-norfolk/",
+    "label" : "Simon Norfolk"
   }, {
     "@id" : "spice:artefact/afghanistan",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/norfolk-simon",
     "author" : "spice:agent/norfolk-simon",
-    "schema:dateCreated" : "2001",
-    "schema:url" : "https://imma.ie/collection/afghanistan/",
+    "dateCreated" : "2001",
+    "url" : "https://imma.ie/collection/afghanistan/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/afghanistan",
-    "arco-cd:hasTitle" : "Afghanistan"
+    "hasTitle" : "Afghanistan"
   }, {
     "@id" : "spice:attribution/afghanistan",
     "@type" : "arco:AuthorshipAttribution",
@@ -31,44 +31,38 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

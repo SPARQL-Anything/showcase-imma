@@ -1,0 +1,71 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/blind-date",
+    "@type" : "schema:CreativeWork",
+    "description" : "Text became a prominent feature in Jarman’s large scale and later works, such as Blind Date, (1992). Helped by a team of assistants, these densely textured works were painted on a ground comprised of pages duplicated from tabloid newspapers. The defamatory headlines were obscured by layers of thickly worked paint, before being etched or finger painted with words and slogans. Often the statements scrawled into the works’ brightly coloured surfaces recycle slang and insults, a vocabulary deployed ironically with a view to highlight double meanings. The statements inscribed on the paintings’ surfaces create the effect of speaking out, engaging us in an energetic and open-ended dialogue.",
+    "source" : "https://imma.ie/collection/blind-date/",
+    "creditText" : "IMMA Collection: Purchase, 2020, 2020",
+    "image" : "spice:documentation/blind-date",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "material" : "Oil on Photocopy on canvas",
+    "size" : "251 x 149 cm",
+    "hasInventory" : "IMMA.4191"
+  }, {
+    "@id" : "spice:documentation/blind-date",
+    "@type" : "schema:ImageObject",
+    "caption" : "Derek Jarman, Blind Date, 1992, Oil on Photocopy on canvas, 251 x 149 cm, Collection Irish Museum of Modern Art, Purchase, 2020, 2020 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "url" : "https://imma.ie/wp-content/uploads/2021/07/9486.jpg"
+  } ],
+  "@context" : {
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

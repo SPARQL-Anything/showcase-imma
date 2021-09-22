@@ -2,23 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:agent/coogan-amanda",
     "@type" : "foaf:Person",
-    "dc:description" : [ "The basis of Amanda Coogan’s practice is the live event, followed directly by photography and video, either taken from the live performance or produced in and around an action. Her art communicates through the body and it often deals with the concept of ‘otherness’ or not belonging and the outward expression of the subconscious.", "Irish artist Amanda Coogan works largely in durational performance presented in the gallery as live exhibition. Coogan graduated from the National College of Art and Design in 1998. Born to deaf parents, Irish sign language was her first language and has continued to have a profound influence on her practice. Coogan has been included in major exhibitions including the Venice Biennale, 2003 and the Liverpool Biennial, 2004. She received the Allied Irish Bank’s Art prize in 2004." ],
-    "dc:source" : "https://imma.ie/artists/amanda-coogan/",
-    "schema:birthDate" : "b.1971",
-    "schema:url" : "https://imma.ie/artists/amanda-coogan/",
-    "rdfs:label" : "Amanda Coogan"
+    "description" : [ "The basis of Amanda Coogan’s practice is the live event, followed directly by photography and video, either taken from the live performance or produced in and around an action. Her art communicates through the body and it often deals with the concept of ‘otherness’ or not belonging and the outward expression of the subconscious.", "Irish artist Amanda Coogan works largely in durational performance presented in the gallery as live exhibition. Coogan graduated from the National College of Art and Design in 1998. Born to deaf parents, Irish sign language was her first language and has continued to have a profound influence on her practice. Coogan has been included in major exhibitions including the Venice Biennale, 2003 and the Liverpool Biennial, 2004. She received the Allied Irish Bank’s Art prize in 2004." ],
+    "source" : "https://imma.ie/artists/amanda-coogan/",
+    "birthDate" : "b.1971",
+    "url" : "https://imma.ie/artists/amanda-coogan/",
+    "label" : "Amanda Coogan"
   }, {
     "@id" : "spice:artefact/medea",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/coogan-amanda",
     "author" : "spice:agent/coogan-amanda",
-    "schema:dateCreated" : "2001",
-    "schema:url" : "https://imma.ie/collection/medea/",
+    "dateCreated" : "2001",
+    "url" : "https://imma.ie/collection/medea/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/medea",
-    "arco-cd:hasTitle" : "Medea"
+    "hasTitle" : "Medea"
+  }, {
+    "@id" : "spice:artefact/yellow",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/coogan-amanda",
+    "author" : "spice:agent/coogan-amanda",
+    "dateCreated" : "2008",
+    "url" : "https://imma.ie/collection/yellow/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/yellow",
+    "hasTitle" : "Yellow"
   }, {
     "@id" : "spice:attribution/medea",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/coogan-amanda"
+  }, {
+    "@id" : "spice:attribution/yellow",
     "@type" : "arco:AuthorshipAttribution",
     "hasAttributedAuthor" : "spice:agent/coogan-amanda"
   } ],
@@ -28,24 +42,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -56,24 +67,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/aiken-john",
     "@type" : "foaf:Person",
-    "dc:description" : "Northern Irish sculptor John Aiken studied at the Chelsea School of Art, London. Using a range of materials including sand, stone, steel and wood, Aiken’s sculptural practice is informed by military architecture and the aesthetics of geometry and rational construction. He has exhibited extensively since the 1980s and made a number of large-scale public sculptures and environmental works for public and private commissions including St Anne’s Square, Belfast; Newgate Bastion, Derry; University College Hospital, London and Paddington Central, London.",
-    "dc:source" : "https://imma.ie/artists/john-aiken/",
-    "schema:birthDate" : "b.1950",
-    "schema:url" : "https://imma.ie/artists/john-aiken/",
-    "rdfs:label" : "John Aiken"
+    "description" : "Northern Irish sculptor John Aiken studied at the Chelsea School of Art, London. Using a range of materials including sand, stone, steel and wood, Aiken’s sculptural practice is informed by military architecture and the aesthetics of geometry and rational construction. He has exhibited extensively since the 1980s and made a number of large-scale public sculptures and environmental works for public and private commissions including St Anne’s Square, Belfast; Newgate Bastion, Derry; University College Hospital, London and Paddington Central, London.",
+    "source" : "https://imma.ie/artists/john-aiken/",
+    "birthDate" : "b.1950",
+    "url" : "https://imma.ie/artists/john-aiken/",
+    "label" : "John Aiken"
   }, {
     "@id" : "spice:artefact/black-square",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/aiken-john",
     "author" : "spice:agent/aiken-john",
-    "schema:dateCreated" : "1975",
-    "schema:url" : "https://imma.ie/collection/black-square/",
+    "dateCreated" : "1975",
+    "url" : "https://imma.ie/collection/black-square/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/black-square",
-    "arco-cd:hasTitle" : "Black Square"
+    "hasTitle" : "Black Square"
   }, {
     "@id" : "spice:attribution/black-square",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,40 +24,33 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

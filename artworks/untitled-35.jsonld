@@ -2,71 +2,61 @@
   "@graph" : [ {
     "@id" : "spice:artefact/untitled-35",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Untitled is a 1996 work by Gabriel Macotela. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/untitled-35/",
-    "schema:creditText" : "IMMA Collection: Donation, Smurfit: Cartón y Papel de México, 2000",
+    "description" : "Untitled is a 1996 work by Gabriel Macotela. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/untitled-35/",
+    "creditText" : "IMMA Collection: Donation, Smurfit: Cartón y Papel de México, 2000",
     "image" : "spice:documentation/untitled-35",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Etching, aquatint and intaglio",
-    "schema:size" : "55.4 x 76.1 cm",
-    "schema:version" : "Edition 142/150",
-    "arco-cd:hasInventory" : "IMMA.1002 MP"
+    "material" : "Etching, aquatint and intaglio",
+    "size" : "55.4 x 76.1 cm",
+    "version" : "Edition 142/150",
+    "hasInventory" : "IMMA.1002 MP"
   }, {
     "@id" : "spice:documentation/untitled-35",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Gabriel Macotela, Untitled, 1996, Etching, aquatint and intaglio, 55.4 x 76.1 cm, Collection Irish Museum of Modern Art, Donation, Smurfit: Cartón y Papel de México, 2000 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Gabriel Macotela, Untitled, 1996, Etching, aquatint and intaglio, 55.4 x 76.1 cm, Collection Irish Museum of Modern Art, Donation, Smurfit: Cartón y Papel de México, 2000 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/1241.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/1241.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/moynihan-muiris",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish photographer Muiris Moynihan (born 1959) studied Fine Art at the National College of Art and Design. Moynihan worked as an advertising photographer with Irish International between 1998 and 2009. He is currently a freelance photographer servicing the communications and advertising sector. While working on many of Ireland’s largest brands he has also shot portraits of some of the country’s most prominent painters, including Camille Souter in 1990.",
-    "dc:source" : "https://imma.ie/artists/muiris-moynihan/",
-    "schema:birthDate" : "b.1959",
-    "schema:url" : "https://imma.ie/artists/muiris-moynihan/",
-    "rdfs:label" : "Muiris Moynihan"
+    "description" : "Irish photographer Muiris Moynihan (born 1959) studied Fine Art at the National College of Art and Design. Moynihan worked as an advertising photographer with Irish International between 1998 and 2009. He is currently a freelance photographer servicing the communications and advertising sector. While working on many of Ireland’s largest brands he has also shot portraits of some of the country’s most prominent painters, including Camille Souter in 1990.",
+    "source" : "https://imma.ie/artists/muiris-moynihan/",
+    "birthDate" : "b.1959",
+    "url" : "https://imma.ie/artists/muiris-moynihan/",
+    "label" : "Muiris Moynihan"
   }, {
     "@id" : "spice:artefact/camille-souter",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/moynihan-muiris",
     "author" : "spice:agent/moynihan-muiris",
-    "schema:dateCreated" : "1990",
-    "schema:url" : "https://imma.ie/collection/camille-souter/",
+    "dateCreated" : "1990",
+    "url" : "https://imma.ie/collection/camille-souter/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/camille-souter",
-    "arco-cd:hasTitle" : "Camille Souter"
+    "hasTitle" : "Camille Souter"
   }, {
     "@id" : "spice:attribution/camille-souter",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,24 +24,19 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -52,16 +47,14 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -2,66 +2,57 @@
   "@graph" : [ {
     "@id" : "spice:artefact/ark-of-dreaming",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "At the early age of sixteen Patrick Graham was awarded a scholarship to the National College of Art and Design in Dublin (NCAD). Frustrated by his ultimate inability to express feelings or to communicate through drawing in spite of his natural talent, he began a search for a visual language that could express inner consciousness and address issues of human experience. Graham’s paintings are large, gestural and expressive; the densely layered canvases are often ripped or slashed, revealing the workings of the canvas stretcher.",
-    "dc:source" : "https://imma.ie/collection/ark-of-dreaming/",
-    "schema:creditText" : "IMMA Collection: Purchase, 1991",
+    "description" : "At the early age of sixteen Patrick Graham was awarded a scholarship to the National College of Art and Design in Dublin (NCAD). Frustrated by his ultimate inability to express feelings or to communicate through drawing in spite of his natural talent, he began a search for a visual language that could express inner consciousness and address issues of human experience. Graham’s paintings are large, gestural and expressive; the densely layered canvases are often ripped or slashed, revealing the workings of the canvas stretcher.",
+    "source" : "https://imma.ie/collection/ark-of-dreaming/",
+    "creditText" : "IMMA Collection: Purchase, 1991",
     "image" : "spice:documentation/ark-of-dreaming",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Mixed media on canvas",
-    "schema:size" : "180 x 316 cm",
-    "arco-cd:hasInventory" : "IMMA.41"
+    "material" : "Mixed media on canvas",
+    "size" : "180 x 316 cm",
+    "hasInventory" : "IMMA.41"
   }, {
     "@id" : "spice:documentation/ark-of-dreaming",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Patrick Graham, Ark of Dreaming, 1990, Mixed media on canvas, 180 x 316 cm, Collection Irish Museum of Modern Art, Purchase, 1991 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Patrick Graham, Ark of Dreaming, 1990, Mixed media on canvas, 180 x 316 cm, Collection Irish Museum of Modern Art, Purchase, 1991 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/647.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/647.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

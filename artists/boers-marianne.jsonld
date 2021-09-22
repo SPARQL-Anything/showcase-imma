@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/boers-marianne",
     "@type" : "foaf:Person",
-    "dc:description" : "The American painter Marianne Boers (1945-1984) studied at the Immaculate Heart College, Los Angeles and at San Francisco State University. A student of the American Photorealist painter Robert Bechtle, she was one of the first Bay Area Photorealists to specialise in watercolour, and frequently depicted rows of packaged goods singly, or on supermarket shelves. Boers exhibited throughout the United States.",
-    "dc:source" : "https://imma.ie/artists/marianne-boers/",
-    "schema:birthDate" : "1945–1984",
-    "schema:url" : "https://imma.ie/artists/marianne-boers/",
-    "rdfs:label" : "Marianne Boers"
+    "description" : "The American painter Marianne Boers (1945-1984) studied at the Immaculate Heart College, Los Angeles and at San Francisco State University. A student of the American Photorealist painter Robert Bechtle, she was one of the first Bay Area Photorealists to specialise in watercolour, and frequently depicted rows of packaged goods singly, or on supermarket shelves. Boers exhibited throughout the United States.",
+    "source" : "https://imma.ie/artists/marianne-boers/",
+    "birthDate" : "1945–1984",
+    "url" : "https://imma.ie/artists/marianne-boers/",
+    "label" : "Marianne Boers"
   }, {
     "@id" : "spice:artefact/reynolds-wrap",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/boers-marianne",
     "author" : "spice:agent/boers-marianne",
-    "schema:dateCreated" : "1972",
-    "schema:url" : "https://imma.ie/collection/reynolds-wrap/",
+    "dateCreated" : "1972",
+    "url" : "https://imma.ie/collection/reynolds-wrap/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/reynolds-wrap",
-    "arco-cd:hasTitle" : "Reynold’s Wrap"
+    "hasTitle" : "Reynold’s Wrap"
   }, {
     "@id" : "spice:attribution/reynolds-wrap",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,40 +24,33 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

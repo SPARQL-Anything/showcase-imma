@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/appel-karel",
     "@type" : "foaf:Person",
-    "dc:description" : "Dutch painter and sculptor Karel Appel studied at the Rijksakademie, Amsterdam. In 1948 he co-founded the avant-garde movement Cobra, whose aesthetic was abstract, spontaneous and expressionistic. Appel moved to Paris in 1950 and later lived in New York and Italy before settling in Switzerland. He was awarded the Unesco Prize at the 1954 Venice Biennale. Appel’s work has been exhibited in major museums around the world, including MoMA, New York; the Museum of Fine Arts, Boston; and the Tate, London.",
-    "dc:source" : "https://imma.ie/artists/karel-appel/",
-    "schema:birthDate" : "1921–2006",
-    "schema:url" : "https://imma.ie/artists/karel-appel/",
-    "rdfs:label" : "Karel Appel"
+    "description" : "Dutch painter and sculptor Karel Appel studied at the Rijksakademie, Amsterdam. In 1948 he co-founded the avant-garde movement Cobra, whose aesthetic was abstract, spontaneous and expressionistic. Appel moved to Paris in 1950 and later lived in New York and Italy before settling in Switzerland. He was awarded the Unesco Prize at the 1954 Venice Biennale. Appel’s work has been exhibited in major museums around the world, including MoMA, New York; the Museum of Fine Arts, Boston; and the Tate, London.",
+    "source" : "https://imma.ie/artists/karel-appel/",
+    "birthDate" : "1921–2006",
+    "url" : "https://imma.ie/artists/karel-appel/",
+    "label" : "Karel Appel"
   }, {
     "@id" : "spice:artefact/untitled-104",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/appel-karel",
     "author" : "spice:agent/appel-karel",
-    "schema:dateCreated" : "1974",
-    "schema:url" : "https://imma.ie/collection/untitled-104/",
+    "dateCreated" : "1974",
+    "url" : "https://imma.ie/collection/untitled-104/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-104",
-    "arco-cd:hasTitle" : "Untitled"
+    "hasTitle" : "Untitled"
   }, {
     "@id" : "spice:attribution/untitled-104",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,44 +28,37 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

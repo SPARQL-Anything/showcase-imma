@@ -1,0 +1,35 @@
+{
+  "@id" : "spice:agent/hanrahan-sean",
+  "@type" : "foaf:Person",
+  "description" : [ "Sean Hanrahan’s work represents an ongoing interest in creating fine art print work, informed by photography with an emphasis on experimenting with the Halftone pixelated process to create fine art Print based portrait and abstract work. Hanrahan is a multidisciplinary artist who often works with the mediums of flag and banners on various curated public exhibitions and projects since 2014. It is a medium he has come to regard as ideal for outdoor public art installation and engagement.", "Sean Hanrahan is a multidisciplinary artist who often works with the mediums of flag and banners on various curated public exhibitions and projects since 2014." ],
+  "source" : "https://imma.ie/artists/sean-hanrahan/",
+  "url" : "https://imma.ie/artists/sean-hanrahan/",
+  "label" : "Sean Hanrahan",
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

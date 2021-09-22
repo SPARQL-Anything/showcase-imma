@@ -2,37 +2,33 @@
   "@graph" : [ {
     "@id" : "spice:artefact/copper-etching-plate-of-donegal-man",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Copper Etching Plate of ‘Donegal Man’ is a 2007 work by Lucian Freud. It is not currently on display in IMMA. ",
-    "dc:source" : "https://imma.ie/collection/copper-etching-plate-of-donegal-man/",
-    "schema:creditText" : "IMMA Collection: On Loan, Private Collection, ",
+    "description" : "Copper Etching Plate of ‘Donegal Man’ is a 2007 work by Lucian Freud. It is not currently on display in IMMA. ",
+    "source" : "https://imma.ie/collection/copper-etching-plate-of-donegal-man/",
+    "creditText" : "IMMA Collection: On Loan, Private Collection, ",
     "image" : "spice:documentation/copper-etching-plate-of-donegal-man",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Copper",
-    "schema:size" : "45.1 x 37.5 cm",
-    "arco-cd:hasInventory" : "EX.2016.1.56"
+    "material" : "Copper",
+    "size" : "45.1 x 37.5 cm",
+    "hasInventory" : "EX.2016.1.56"
   }, {
     "@id" : "spice:documentation/copper-etching-plate-of-donegal-man",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Lucian Freud, Copper Etching Plate of ‘Donegal Man’, 2007, Copper, 45.1 x 37.5 cm, Collection Irish Museum of Modern Art, On Loan, Private Collection ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Lucian Freud, Copper Etching Plate of ‘Donegal Man’, 2007, Copper, 45.1 x 37.5 cm, Collection Irish Museum of Modern Art, On Loan, Private Collection ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -43,20 +39,16 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

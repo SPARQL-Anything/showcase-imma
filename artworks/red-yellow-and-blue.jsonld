@@ -2,66 +2,57 @@
   "@graph" : [ {
     "@id" : "spice:artefact/red-yellow-and-blue",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Barbara Novak has painted flowers since childhood, long before her immersion in art history. She took watercolour classes at Parsons School of Design, the Art Students League, New York and the Brooklyn Museum. According to Novak:",
-    "dc:source" : "https://imma.ie/collection/red-yellow-and-blue/",
-    "schema:creditText" : "IMMA Collection: Donation, Novak/O'Doherty Collection, 2015",
+    "description" : "Barbara Novak has painted flowers since childhood, long before her immersion in art history. She took watercolour classes at Parsons School of Design, the Art Students League, New York and the Brooklyn Museum. According to Novak:",
+    "source" : "https://imma.ie/collection/red-yellow-and-blue/",
+    "creditText" : "IMMA Collection: Donation, Novak/O'Doherty Collection, 2015",
     "image" : "spice:documentation/red-yellow-and-blue",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Watercolour on paper",
-    "schema:size" : "49.7 x 45.6 cm Framed: 70.5 x 63.5 cm",
-    "arco-cd:hasInventory" : "IMMA.3932"
+    "material" : "Watercolour on paper",
+    "size" : "49.7 x 45.6 cm Framed: 70.5 x 63.5 cm",
+    "hasInventory" : "IMMA.3932"
   }, {
     "@id" : "spice:documentation/red-yellow-and-blue",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Barbara Novak, Red, Yellow and Blue, 2004, Watercolour on paper, 49.7 x 45.6 cm Framed: 70.5 x 63.5 cm, Collection Irish Museum of Modern Art, Donation, Novak/O'Doherty Collection, 2015 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Barbara Novak, Red, Yellow and Blue, 2004, Watercolour on paper, 49.7 x 45.6 cm Framed: 70.5 x 63.5 cm, Collection Irish Museum of Modern Art, Donation, Novak/O'Doherty Collection, 2015 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/5202.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/5202.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

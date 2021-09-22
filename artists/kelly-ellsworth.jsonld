@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/kelly-ellsworth",
     "@type" : "foaf:Person",
-    "dc:description" : "American painter, sculptor and printmaker Ellsworth Kelly studied at the Pratt Institute, Brooklyn, the School of the Museum of Fine Arts, Boston and the École des Beaux-Arts, Paris. He settled in New York from 1954 and had his first solo exhibition at the Betty Parsons Gallery in 1956. Kelly had exhibited extensively including major exhibitions at the Museum of Modern Art, New York, the Whitney Museum of American Art and the Guggenheim Museum, New York. His work is represented in major collections worldwide including that of the Centre Pompidou, Paris, the Museo Nacional Centro de Arte Reina Sofía, Madrid, and Tate Modern, London.",
-    "dc:source" : "https://imma.ie/artists/ellsworth-kelly/",
-    "schema:birthDate" : "b.1923",
-    "schema:url" : "https://imma.ie/artists/ellsworth-kelly/",
-    "rdfs:label" : "Ellsworth Kelly"
+    "description" : "American painter, sculptor and printmaker Ellsworth Kelly studied at the Pratt Institute, Brooklyn, the School of the Museum of Fine Arts, Boston and the École des Beaux-Arts, Paris. He settled in New York from 1954 and had his first solo exhibition at the Betty Parsons Gallery in 1956. Kelly had exhibited extensively including major exhibitions at the Museum of Modern Art, New York, the Whitney Museum of American Art and the Guggenheim Museum, New York. His work is represented in major collections worldwide including that of the Centre Pompidou, Paris, the Museo Nacional Centro de Arte Reina Sofía, Madrid, and Tate Modern, London.",
+    "source" : "https://imma.ie/artists/ellsworth-kelly/",
+    "birthDate" : "b.1923",
+    "url" : "https://imma.ie/artists/ellsworth-kelly/",
+    "label" : "Ellsworth Kelly"
   }, {
     "@id" : "spice:artefact/blue-curve",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/kelly-ellsworth",
     "author" : "spice:agent/kelly-ellsworth",
-    "schema:dateCreated" : "1999",
-    "schema:url" : "https://imma.ie/collection/blue-curve/",
+    "dateCreated" : "1999",
+    "url" : "https://imma.ie/collection/blue-curve/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/blue-curve",
-    "arco-cd:hasTitle" : "Blue Curve"
+    "hasTitle" : "Blue Curve"
   }, {
     "@id" : "spice:attribution/blue-curve",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,24 +28,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -56,24 +53,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

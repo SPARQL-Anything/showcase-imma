@@ -2,20 +2,20 @@
   "@graph" : [ {
     "@id" : "spice:agent/ilya-and-emilia-kabakov",
     "@type" : "foaf:Person",
-    "dc:description" : [ "Acclaimed Russian-born American based artists Ilya and Emilia Kabakov have been working collaboratively for nearly thirty years.&nbsp; Ilya Kabakov is one of the most influential artists to have emerged from the former Soviet Union. Since his move to the West in 1987 he has become a leading figure in installation art. Kabakov’s practice combines drawings, paintings and found objects to form complex installations which reflect the social, historical and political forces which have shaped his life and work. Working together with his wife Emilia, they have created installations in venues worldwide including MoMA, New York, the Hirshhorn Museum, Washington and the Pompidou Centre, Paris.", "Acclaimed Russian-born American based artists Ilya and Emilia Kabakov have been working collaboratively for nearly thirty years. " ],
-    "dc:source" : "https://imma.ie/artists/ilya-and-emilia-kabakov/",
-    "schema:url" : "https://imma.ie/artists/ilya-and-emilia-kabakov/",
-    "rdfs:label" : "Ilya and Emilia Kabakov"
+    "description" : [ "Acclaimed Russian-born American based artists Ilya and Emilia Kabakov have been working collaboratively for nearly thirty years.&nbsp; Ilya Kabakov is one of the most influential artists to have emerged from the former Soviet Union. Since his move to the West in 1987 he has become a leading figure in installation art. Kabakov’s practice combines drawings, paintings and found objects to form complex installations which reflect the social, historical and political forces which have shaped his life and work. Working together with his wife Emilia, they have created installations in venues worldwide including MoMA, New York, the Hirshhorn Museum, Washington and the Pompidou Centre, Paris.", "Acclaimed Russian-born American based artists Ilya and Emilia Kabakov have been working collaboratively for nearly thirty years. " ],
+    "source" : "https://imma.ie/artists/ilya-and-emilia-kabakov/",
+    "url" : "https://imma.ie/artists/ilya-and-emilia-kabakov/",
+    "label" : "Ilya and Emilia Kabakov"
   }, {
     "@id" : "spice:artefact/achilles-and-the-turtle-from-the-childrens-hospital",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ilya-and-emilia-kabakov",
     "author" : "spice:agent/ilya-and-emilia-kabakov",
-    "schema:dateCreated" : "1998",
-    "schema:url" : "https://imma.ie/collection/achilles-and-the-turtle-from-the-childrens-hospital/",
+    "dateCreated" : "1998",
+    "url" : "https://imma.ie/collection/achilles-and-the-turtle-from-the-childrens-hospital/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/achilles-and-the-turtle-from-the-childrens-hospital",
-    "arco-cd:hasTitle" : "Achilles and the Turtle From the Children’s Hospital"
+    "hasTitle" : "Achilles and the Turtle From the Children’s Hospital"
   }, {
     "@id" : "spice:attribution/achilles-and-the-turtle-from-the-childrens-hospital",
     "@type" : "arco:AuthorshipAttribution",
@@ -23,20 +23,16 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -47,16 +43,14 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -68,7 +62,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

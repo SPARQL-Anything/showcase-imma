@@ -2,81 +2,81 @@
   "@graph" : [ {
     "@id" : "spice:agent/nolan-sidney",
     "@type" : "foaf:Person",
-    "dc:description" : "Australia’s most famous 20th century painter Sidney Nolan (1917-1992) attended the National Gallery of Victoria School of Art. Nolan began his best known series of paintings on the theme of Ned Kelly in 1945. Based in London from 1953, he travelled extensively in Europe, Africa, China and Antarctica. Nolan also made several visits to Ireland. Six of his Wild Geese series, inspired by the flight of Irish Jacobite soldiers in the 1690s, were donated to the IMMA Collection on the foundation of the Museum in 1991. Nolan’s Ned Kelly series was exhibited at IMMA in 2012.",
-    "dc:source" : "https://imma.ie/artists/sidney-nolan/",
-    "schema:birthDate" : "1917–1992",
-    "schema:url" : "https://imma.ie/artists/sidney-nolan/",
-    "rdfs:label" : "Sidney Nolan"
+    "description" : "Australia’s most famous 20th century painter Sidney Nolan (1917-1992) attended the National Gallery of Victoria School of Art. Nolan began his best known series of paintings on the theme of Ned Kelly in 1945. Based in London from 1953, he travelled extensively in Europe, Africa, China and Antarctica. Nolan also made several visits to Ireland. Six of his Wild Geese series, inspired by the flight of Irish Jacobite soldiers in the 1690s, were donated to the IMMA Collection on the foundation of the Museum in 1991. Nolan’s Ned Kelly series was exhibited at IMMA in 2012.",
+    "source" : "https://imma.ie/artists/sidney-nolan/",
+    "birthDate" : "1917–1992",
+    "url" : "https://imma.ie/artists/sidney-nolan/",
+    "label" : "Sidney Nolan"
   }, {
     "@id" : "spice:artefact/captain-moses-wild-geese-series",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/nolan-sidney",
     "author" : "spice:agent/nolan-sidney",
-    "schema:dateCreated" : "1989",
-    "schema:url" : "https://imma.ie/collection/captain-moses-wild-geese-series/",
+    "dateCreated" : "1989",
+    "url" : "https://imma.ie/collection/captain-moses-wild-geese-series/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/captain-moses-wild-geese-series",
-    "arco-cd:hasTitle" : "Captain Moses (Wild Geese Series)"
+    "hasTitle" : "Captain Moses (Wild Geese Series)"
   }, {
     "@id" : "spice:artefact/gallipoli",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/nolan-sidney",
     "author" : "spice:agent/nolan-sidney",
-    "schema:dateCreated" : "1955",
-    "schema:url" : "https://imma.ie/collection/gallipoli/",
+    "dateCreated" : "1955",
+    "url" : "https://imma.ie/collection/gallipoli/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/gallipoli",
-    "arco-cd:hasTitle" : "Gallipoli"
+    "hasTitle" : "Gallipoli"
   }, {
     "@id" : "spice:artefact/the-wild-geese-i",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/nolan-sidney",
     "author" : "spice:agent/nolan-sidney",
-    "schema:dateCreated" : "1989",
-    "schema:url" : "https://imma.ie/collection/the-wild-geese-i/",
+    "dateCreated" : "1989",
+    "url" : "https://imma.ie/collection/the-wild-geese-i/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-wild-geese-i",
-    "arco-cd:hasTitle" : "The Wild Geese I"
+    "hasTitle" : "The Wild Geese I"
   }, {
     "@id" : "spice:artefact/the-wild-geese-ii",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/nolan-sidney",
     "author" : "spice:agent/nolan-sidney",
-    "schema:dateCreated" : "1989",
-    "schema:url" : "https://imma.ie/collection/the-wild-geese-ii/",
+    "dateCreated" : "1989",
+    "url" : "https://imma.ie/collection/the-wild-geese-ii/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-wild-geese-ii",
-    "arco-cd:hasTitle" : "The Wild Geese II"
+    "hasTitle" : "The Wild Geese II"
   }, {
     "@id" : "spice:artefact/the-wild-geese-iii",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/nolan-sidney",
     "author" : "spice:agent/nolan-sidney",
-    "schema:dateCreated" : "1989",
-    "schema:url" : "https://imma.ie/collection/the-wild-geese-iii/",
+    "dateCreated" : "1989",
+    "url" : "https://imma.ie/collection/the-wild-geese-iii/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-wild-geese-iii",
-    "arco-cd:hasTitle" : "The Wild Geese III"
+    "hasTitle" : "The Wild Geese III"
   }, {
     "@id" : "spice:artefact/the-wild-geese-iv",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/nolan-sidney",
     "author" : "spice:agent/nolan-sidney",
-    "schema:dateCreated" : "1989",
-    "schema:url" : "https://imma.ie/collection/the-wild-geese-iv/",
+    "dateCreated" : "1989",
+    "url" : "https://imma.ie/collection/the-wild-geese-iv/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-wild-geese-iv",
-    "arco-cd:hasTitle" : "The Wild Geese IV"
+    "hasTitle" : "The Wild Geese IV"
   }, {
     "@id" : "spice:artefact/the-wild-geese-v",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/nolan-sidney",
     "author" : "spice:agent/nolan-sidney",
-    "schema:dateCreated" : "1989",
-    "schema:url" : "https://imma.ie/collection/the-wild-geese-v/",
+    "dateCreated" : "1989",
+    "url" : "https://imma.ie/collection/the-wild-geese-v/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-wild-geese-v",
-    "arco-cd:hasTitle" : "The Wild Geese V"
+    "hasTitle" : "The Wild Geese V"
   }, {
     "@id" : "spice:attribution/captain-moses-wild-geese-series",
     "@type" : "arco:AuthorshipAttribution",
@@ -112,24 +112,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -140,24 +137,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

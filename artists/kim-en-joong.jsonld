@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/kim-en-joong",
     "@type" : "foaf:Person",
-    "dc:description" : "South Korean painter Kim En Joong studied at the School of Fine Arts in Seoul. He later became an art teacher in a Catholic seminary where he discovered Catholicism. En Joong was baptised in 1967 and ordained a bother of the Dominican Order in 1974. Based in Paris in 1989, he created his first stained glass window. His stained glass works now adorn religious and non-religious buildings worldwide. In 2010 En Joong received the insignia of d’Officier dans l’ordre des Arts et Lettres, for the realisation of 37 windows of the Basilica of Saint-Julien Brioude.",
-    "dc:source" : "https://imma.ie/artists/kim-en-joong/",
-    "schema:birthDate" : "b.1940",
-    "schema:url" : "https://imma.ie/artists/kim-en-joong/",
-    "rdfs:label" : "Kim En Joong"
+    "description" : "South Korean painter Kim En Joong studied at the School of Fine Arts in Seoul. He later became an art teacher in a Catholic seminary where he discovered Catholicism. En Joong was baptised in 1967 and ordained a bother of the Dominican Order in 1974. Based in Paris in 1989, he created his first stained glass window. His stained glass works now adorn religious and non-religious buildings worldwide. In 2010 En Joong received the insignia of d’Officier dans l’ordre des Arts et Lettres, for the realisation of 37 windows of the Basilica of Saint-Julien Brioude.",
+    "source" : "https://imma.ie/artists/kim-en-joong/",
+    "birthDate" : "b.1940",
+    "url" : "https://imma.ie/artists/kim-en-joong/",
+    "label" : "Kim En Joong"
   }, {
     "@id" : "spice:artefact/untitled-22",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/kim-en-joong",
     "author" : "spice:agent/kim-en-joong",
-    "schema:dateCreated" : "2000",
-    "schema:url" : "https://imma.ie/collection/untitled-22/",
+    "dateCreated" : "2000",
+    "url" : "https://imma.ie/collection/untitled-22/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-22",
-    "arco-cd:hasTitle" : "Untitled"
+    "hasTitle" : "Untitled"
   }, {
     "@id" : "spice:attribution/untitled-22",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,40 +28,33 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

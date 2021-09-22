@@ -2,20 +2,20 @@
   "@graph" : [ {
     "@id" : "spice:agent/okumara-lydia",
     "@type" : "foaf:Person",
-    "dc:source" : "https://imma.ie/artists/lydia-okumara/",
-    "schema:birthDate" : "b.1948",
-    "schema:url" : "https://imma.ie/artists/lydia-okumara/",
-    "rdfs:label" : "Lydia Okumara"
+    "source" : "https://imma.ie/artists/lydia-okumara/",
+    "birthDate" : "b.1948",
+    "url" : "https://imma.ie/artists/lydia-okumara/",
+    "label" : "Lydia Okumara"
   }, {
     "@id" : "spice:artefact/metamorfose-da-razao",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/okumara-lydia",
     "author" : "spice:agent/okumara-lydia",
-    "schema:dateCreated" : "1981",
-    "schema:url" : "https://imma.ie/collection/metamorfose-da-razao/",
+    "dateCreated" : "1981",
+    "url" : "https://imma.ie/collection/metamorfose-da-razao/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/metamorfose-da-razao",
-    "arco-cd:hasTitle" : "Metamorfose da Razão"
+    "hasTitle" : "Metamorfose da Razão"
   }, {
     "@id" : "spice:attribution/metamorfose-da-razao",
     "@type" : "arco:AuthorshipAttribution",
@@ -27,24 +27,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -55,20 +52,17 @@
       "@type" : "@id"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

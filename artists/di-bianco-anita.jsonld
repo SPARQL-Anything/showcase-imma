@@ -3,29 +3,26 @@
   "@type" : "foaf:Person",
   "description" : "_:b0",
   "dc:description" : "Anita Di Bianco’s films take up, modify and re-work existing and re-imagined characters from cinema and literature – excerpting and adapting the texts of Gertrude Stein, of Jean Gênet’s play The Maids, and several of the works of Marguerite Yourcenar.",
-  "dc:source" : "https://imma.ie/artists/anita-di-bianco/",
-  "schema:url" : "https://imma.ie/artists/anita-di-bianco/",
-  "rdfs:label" : "Anita Di Bianco",
+  "source" : "https://imma.ie/artists/anita-di-bianco/",
+  "url" : "https://imma.ie/artists/anita-di-bianco/",
+  "label" : "Anita Di Bianco",
   "@context" : {
     "description" : {
       "@id" : "http://purl.org/dc/elements/1.1/description",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

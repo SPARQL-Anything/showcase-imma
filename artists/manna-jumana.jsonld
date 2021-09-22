@@ -1,35 +1,30 @@
 {
   "@id" : "spice:agent/manna-jumana",
   "@type" : "foaf:Person",
-  "dc:description" : [ "Jumana Manna makes films and sculptures that explore the ways in which social, political and interpersonal forms of power interact with the human body. Her films weave together fact and fiction, biographical and archival materials, to investigate constructions of national and historical narratives. Her sculptures, more abstract by comparison, take interest in the calcifications of memory, as represented by the artefact real or forged.", "Nov – Dec 2018", "Jumana Manna makes films and sculptures that explore the ways in which social, political and interpersonal forms of power interact with the human body. Her films weave together fact and fiction, biographical and archival materials, to investigate constructions of national and historical narratives." ],
-  "dc:source" : "https://imma.ie/artists/jumana-manna/",
-  "schema:birthDate" : "b.1987",
-  "schema:url" : "https://imma.ie/artists/jumana-manna/",
-  "rdfs:label" : "Jumana Manna",
+  "description" : [ "Nov – Dec 2018", "Jumana Manna makes films and sculptures that explore the ways in which social, political and interpersonal forms of power interact with the human body. Her films weave together fact and fiction, biographical and archival materials, to investigate constructions of national and historical narratives. Her sculptures, more abstract by comparison, take interest in the calcifications of memory, as represented by the artefact real or forged.", "Jumana Manna makes films and sculptures that explore the ways in which social, political and interpersonal forms of power interact with the human body. Her films weave together fact and fiction, biographical and archival materials, to investigate constructions of national and historical narratives." ],
+  "source" : "https://imma.ie/artists/jumana-manna/",
+  "birthDate" : "b.1987",
+  "url" : "https://imma.ie/artists/jumana-manna/",
+  "label" : "Jumana Manna",
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

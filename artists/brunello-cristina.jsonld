@@ -1,30 +1,26 @@
 {
   "@id" : "spice:agent/brunello-cristina",
   "@type" : "foaf:Person",
-  "dc:description" : [ "The critic, Niall MacMonagle, has written of Cristina Bunello’s work that it ‘is immediately recognisable for its subject matter. She almost always paints girls — girls heading towards adulthood. She’s known and admired too for her brilliantly fine and delicate technique and for something not quite pin-pointable. Her portraits are small, jewel-like, beautiful and they also have a strange, intriguing, unsettling quality. Bunello’s young girls are sophisticated. They wear elaborate clothes, sunglasses, headgear; they wear elaborate hairstyles, are sometimes blindfolded. In some you are presented with the back of their heads and in some, like this one, they look you straight in the eye. That gaze. You gaze back.’", "The critic, Niall MacMonagle, has written of Cristina Bunello's work that it 'is immediately recognisable for its subject matter. She almost always paints girls -- girls heading towards adulthood. She's known and admired too for her brilliantly fine and delicate technique and for something not quite pin-pointable." ],
-  "dc:source" : "https://imma.ie/artists/cristina-bunello/",
-  "schema:url" : "https://imma.ie/artists/cristina-bunello/",
-  "rdfs:label" : "Cristina Bunello",
+  "description" : [ "The critic, Niall MacMonagle, has written of Cristina Bunello’s work that it ‘is immediately recognisable for its subject matter. She almost always paints girls — girls heading towards adulthood. She’s known and admired too for her brilliantly fine and delicate technique and for something not quite pin-pointable. Her portraits are small, jewel-like, beautiful and they also have a strange, intriguing, unsettling quality. Bunello’s young girls are sophisticated. They wear elaborate clothes, sunglasses, headgear; they wear elaborate hairstyles, are sometimes blindfolded. In some you are presented with the back of their heads and in some, like this one, they look you straight in the eye. That gaze. You gaze back.’", "The critic, Niall MacMonagle, has written of Cristina Bunello's work that it 'is immediately recognisable for its subject matter. She almost always paints girls -- girls heading towards adulthood. She's known and admired too for her brilliantly fine and delicate technique and for something not quite pin-pointable." ],
+  "source" : "https://imma.ie/artists/cristina-bunello/",
+  "url" : "https://imma.ie/artists/cristina-bunello/",
+  "label" : "Cristina Bunello",
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

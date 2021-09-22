@@ -2,19 +2,19 @@
   "@graph" : [ {
     "@id" : "spice:agent/porter-liliana",
     "@type" : "foaf:Person",
-    "dc:source" : "https://imma.ie/artists/liliana-porter/",
-    "schema:url" : "https://imma.ie/artists/liliana-porter/",
-    "rdfs:label" : "Liliana Porter"
+    "source" : "https://imma.ie/artists/liliana-porter/",
+    "url" : "https://imma.ie/artists/liliana-porter/",
+    "label" : "Liliana Porter"
   }, {
     "@id" : "spice:artefact/naturaleza-muerta",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/porter-liliana",
     "author" : "spice:agent/porter-liliana",
-    "schema:dateCreated" : "1981",
-    "schema:url" : "https://imma.ie/collection/naturaleza-muerta/",
+    "dateCreated" : "1981",
+    "url" : "https://imma.ie/collection/naturaleza-muerta/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/naturaleza-muerta",
-    "arco-cd:hasTitle" : "Naturaleza Muerta"
+    "hasTitle" : "Naturaleza Muerta"
   }, {
     "@id" : "spice:attribution/naturaleza-muerta",
     "@type" : "arco:AuthorshipAttribution",
@@ -26,24 +26,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -54,16 +51,14 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

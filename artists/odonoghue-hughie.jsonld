@@ -2,441 +2,441 @@
   "@graph" : [ {
     "@id" : "spice:agent/odonoghue-hughie",
     "@type" : "foaf:Person",
-    "dc:description" : "Born in Manchester in 1953 and now based in Co Kilkenny, Hughie O’Donoghue has been exhibiting internationally, in solo and group exhibitions, since 1982, gaining a reputation as one of the leading painters of his generation. ‘Hughie O’Donoghue: Recent Paintings and Selected Works from the American Ireland Fund Donation’ was held at IMMA in 2009. His paintings are included in important public collections, including the National Gallery, London; the Whitworth Art Gallery, Manchester; and the Arts Council of England. O’Donoghue was elected as a member of the Royal Academy in 2009.",
-    "dc:source" : "https://imma.ie/artists/hughie-odonoghue/",
-    "schema:birthDate" : "b.1953",
-    "schema:url" : "https://imma.ie/artists/hughie-odonoghue/",
-    "rdfs:label" : "Hughie O’Donoghue"
+    "description" : "Born in Manchester in 1953 and now based in Co Kilkenny, Hughie O’Donoghue has been exhibiting internationally, in solo and group exhibitions, since 1982, gaining a reputation as one of the leading painters of his generation. ‘Hughie O’Donoghue: Recent Paintings and Selected Works from the American Ireland Fund Donation’ was held at IMMA in 2009. His paintings are included in important public collections, including the National Gallery, London; the Whitworth Art Gallery, Manchester; and the Arts Council of England. O’Donoghue was elected as a member of the Royal Academy in 2009.",
+    "source" : "https://imma.ie/artists/hughie-odonoghue/",
+    "birthDate" : "b.1953",
+    "url" : "https://imma.ie/artists/hughie-odonoghue/",
+    "label" : "Hughie O’Donoghue"
   }, {
     "@id" : "spice:artefact/a-crown-of-thorns",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/odonoghue-hughie",
     "author" : "spice:agent/odonoghue-hughie",
-    "schema:dateCreated" : "1995",
-    "schema:url" : "https://imma.ie/collection/a-crown-of-thorns/",
+    "dateCreated" : "1995",
+    "url" : "https://imma.ie/collection/a-crown-of-thorns/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/a-crown-of-thorns",
-    "arco-cd:hasTitle" : "A Crown of Thorns"
+    "hasTitle" : "A Crown of Thorns"
   }, {
     "@id" : "spice:artefact/a-crown-of-thorns-i",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/odonoghue-hughie",
     "author" : "spice:agent/odonoghue-hughie",
-    "schema:dateCreated" : "1994",
-    "schema:url" : "https://imma.ie/collection/a-crown-of-thorns-i/",
+    "dateCreated" : "1994",
+    "url" : "https://imma.ie/collection/a-crown-of-thorns-i/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/a-crown-of-thorns-i",
-    "arco-cd:hasTitle" : "A Crown of Thorns I"
+    "hasTitle" : "A Crown of Thorns I"
   }, {
     "@id" : "spice:artefact/a-crown-of-thorns-ii",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/odonoghue-hughie",
     "author" : "spice:agent/odonoghue-hughie",
-    "schema:dateCreated" : "1994",
-    "schema:url" : "https://imma.ie/collection/a-crown-of-thorns-ii/",
+    "dateCreated" : "1994",
+    "url" : "https://imma.ie/collection/a-crown-of-thorns-ii/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/a-crown-of-thorns-ii",
-    "arco-cd:hasTitle" : "A Crown of Thorns II"
+    "hasTitle" : "A Crown of Thorns II"
   }, {
     "@id" : "spice:artefact/a-line-of-retreat",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/odonoghue-hughie",
     "author" : "spice:agent/odonoghue-hughie",
-    "schema:dateCreated" : "1998",
-    "schema:url" : "https://imma.ie/collection/a-line-of-retreat/",
+    "dateCreated" : "1998",
+    "url" : "https://imma.ie/collection/a-line-of-retreat/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/a-line-of-retreat",
-    "arco-cd:hasTitle" : "A Line of Retreat"
+    "hasTitle" : "A Line of Retreat"
   }, {
     "@id" : "spice:artefact/a-need-for-gardens",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/odonoghue-hughie",
     "author" : "spice:agent/odonoghue-hughie",
-    "schema:dateCreated" : "1991",
-    "schema:url" : "https://imma.ie/collection/a-need-for-gardens/",
+    "dateCreated" : "1991",
+    "url" : "https://imma.ie/collection/a-need-for-gardens/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/a-need-for-gardens",
-    "arco-cd:hasTitle" : "A Need for Gardens"
+    "hasTitle" : "A Need for Gardens"
   }, {
     "@id" : "spice:artefact/an-anatomy-of-melancholy-i",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/odonoghue-hughie",
     "author" : "spice:agent/odonoghue-hughie",
-    "schema:dateCreated" : "1987",
-    "schema:url" : "https://imma.ie/collection/an-anatomy-of-melancholy-i/",
+    "dateCreated" : "1987",
+    "url" : "https://imma.ie/collection/an-anatomy-of-melancholy-i/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/an-anatomy-of-melancholy-i",
-    "arco-cd:hasTitle" : "An Anatomy of Melancholy I"
+    "hasTitle" : "An Anatomy of Melancholy I"
   }, {
     "@id" : "spice:artefact/an-anatomy-of-melancholy-ii",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/odonoghue-hughie",
     "author" : "spice:agent/odonoghue-hughie",
-    "schema:dateCreated" : "1991",
-    "schema:url" : "https://imma.ie/collection/an-anatomy-of-melancholy-ii/",
+    "dateCreated" : "1991",
+    "url" : "https://imma.ie/collection/an-anatomy-of-melancholy-ii/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/an-anatomy-of-melancholy-ii",
-    "arco-cd:hasTitle" : "An Anatomy of Melancholy II"
+    "hasTitle" : "An Anatomy of Melancholy II"
   }, {
     "@id" : "spice:artefact/an-anatomy-of-melancholy-iii",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/odonoghue-hughie",
     "author" : "spice:agent/odonoghue-hughie",
-    "schema:dateCreated" : "1991",
-    "schema:url" : "https://imma.ie/collection/an-anatomy-of-melancholy-iii/",
+    "dateCreated" : "1991",
+    "url" : "https://imma.ie/collection/an-anatomy-of-melancholy-iii/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/an-anatomy-of-melancholy-iii",
-    "arco-cd:hasTitle" : "An Anatomy of Melancholy III"
+    "hasTitle" : "An Anatomy of Melancholy III"
   }, {
     "@id" : "spice:artefact/an-anatomy-of-melancholy-iv",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/odonoghue-hughie",
     "author" : "spice:agent/odonoghue-hughie",
-    "schema:dateCreated" : "1991",
-    "schema:url" : "https://imma.ie/collection/an-anatomy-of-melancholy-iv/",
+    "dateCreated" : "1991",
+    "url" : "https://imma.ie/collection/an-anatomy-of-melancholy-iv/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/an-anatomy-of-melancholy-iv",
-    "arco-cd:hasTitle" : "An Anatomy of Melancholy IV"
+    "hasTitle" : "An Anatomy of Melancholy IV"
   }, {
     "@id" : "spice:artefact/anabasis-a-work-in-twenty-four-parts",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/odonoghue-hughie",
     "author" : "spice:agent/odonoghue-hughie",
-    "schema:dateCreated" : "2003",
-    "schema:url" : "https://imma.ie/collection/anabasis-a-work-in-twenty-four-parts/",
+    "dateCreated" : "2003",
+    "url" : "https://imma.ie/collection/anabasis-a-work-in-twenty-four-parts/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/anabasis-a-work-in-twenty-four-parts",
-    "arco-cd:hasTitle" : "Anabasis, a work in twenty four parts"
+    "hasTitle" : "Anabasis, a work in twenty four parts"
   }, {
     "@id" : "spice:artefact/ancient-music",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/odonoghue-hughie",
     "author" : "spice:agent/odonoghue-hughie",
-    "schema:dateCreated" : "1998",
-    "schema:url" : "https://imma.ie/collection/ancient-music/",
+    "dateCreated" : "1998",
+    "url" : "https://imma.ie/collection/ancient-music/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/ancient-music",
-    "arco-cd:hasTitle" : "Ancient Music"
+    "hasTitle" : "Ancient Music"
   }, {
     "@id" : "spice:artefact/blue-crucifixion",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/odonoghue-hughie",
     "author" : "spice:agent/odonoghue-hughie",
-    "schema:dateCreated" : "1993",
-    "schema:url" : "https://imma.ie/collection/blue-crucifixion/",
+    "dateCreated" : "1993",
+    "url" : "https://imma.ie/collection/blue-crucifixion/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/blue-crucifixion",
-    "arco-cd:hasTitle" : "Blue Crucifixion"
+    "hasTitle" : "Blue Crucifixion"
   }, {
     "@id" : "spice:artefact/considered-cruelties-i",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/odonoghue-hughie",
     "author" : "spice:agent/odonoghue-hughie",
-    "schema:dateCreated" : "1992",
-    "schema:url" : "https://imma.ie/collection/considered-cruelties-i/",
+    "dateCreated" : "1992",
+    "url" : "https://imma.ie/collection/considered-cruelties-i/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/considered-cruelties-i",
-    "arco-cd:hasTitle" : "Considered Cruelties I"
+    "hasTitle" : "Considered Cruelties I"
   }, {
     "@id" : "spice:artefact/considered-cruelties-ii",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/odonoghue-hughie",
     "author" : "spice:agent/odonoghue-hughie",
-    "schema:dateCreated" : "1992",
-    "schema:url" : "https://imma.ie/collection/considered-cruelties-ii/",
+    "dateCreated" : "1992",
+    "url" : "https://imma.ie/collection/considered-cruelties-ii/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/considered-cruelties-ii",
-    "arco-cd:hasTitle" : "Considered Cruelties II"
+    "hasTitle" : "Considered Cruelties II"
   }, {
     "@id" : "spice:artefact/considered-cruelties-iii",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/odonoghue-hughie",
     "author" : "spice:agent/odonoghue-hughie",
-    "schema:dateCreated" : "1992",
-    "schema:url" : "https://imma.ie/collection/considered-cruelties-iii/",
+    "dateCreated" : "1992",
+    "url" : "https://imma.ie/collection/considered-cruelties-iii/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/considered-cruelties-iii",
-    "arco-cd:hasTitle" : "Considered Cruelties III"
+    "hasTitle" : "Considered Cruelties III"
   }, {
     "@id" : "spice:artefact/crossing-the-rapido",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/odonoghue-hughie",
     "author" : "spice:agent/odonoghue-hughie",
-    "schema:dateCreated" : "1998",
-    "schema:url" : "https://imma.ie/collection/crossing-the-rapido/",
+    "dateCreated" : "1998",
+    "url" : "https://imma.ie/collection/crossing-the-rapido/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/crossing-the-rapido",
-    "arco-cd:hasTitle" : "Crossing the Rapido"
+    "hasTitle" : "Crossing the Rapido"
   }, {
     "@id" : "spice:artefact/crossing-the-rapido-iv",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/odonoghue-hughie",
     "author" : "spice:agent/odonoghue-hughie",
-    "schema:dateCreated" : "1999",
-    "schema:url" : "https://imma.ie/collection/crossing-the-rapido-iv/",
+    "dateCreated" : "1999",
+    "url" : "https://imma.ie/collection/crossing-the-rapido-iv/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/crossing-the-rapido-iv",
-    "arco-cd:hasTitle" : "Crossing the Rapido IV"
+    "hasTitle" : "Crossing the Rapido IV"
   }, {
     "@id" : "spice:artefact/crossing-the-rapido-vi-painting-caserta-red",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/odonoghue-hughie",
     "author" : "spice:agent/odonoghue-hughie",
-    "schema:dateCreated" : "2003",
-    "schema:url" : "https://imma.ie/collection/crossing-the-rapido-vi-painting-caserta-red/",
+    "dateCreated" : "2003",
+    "url" : "https://imma.ie/collection/crossing-the-rapido-vi-painting-caserta-red/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/crossing-the-rapido-vi-painting-caserta-red",
-    "arco-cd:hasTitle" : "Crossing the Rapido VI: Painting Caserta Red"
+    "hasTitle" : "Crossing the Rapido VI: Painting Caserta Red"
   }, {
     "@id" : "spice:artefact/crossing-the-rapido-vii",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/odonoghue-hughie",
     "author" : "spice:agent/odonoghue-hughie",
-    "schema:dateCreated" : "2003",
-    "schema:url" : "https://imma.ie/collection/crossing-the-rapido-vii/",
+    "dateCreated" : "2003",
+    "url" : "https://imma.ie/collection/crossing-the-rapido-vii/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/crossing-the-rapido-vii",
-    "arco-cd:hasTitle" : "Crossing the Rapido VII"
+    "hasTitle" : "Crossing the Rapido VII"
   }, {
     "@id" : "spice:artefact/crucifixion",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/odonoghue-hughie",
     "author" : "spice:agent/odonoghue-hughie",
-    "schema:dateCreated" : "1995",
-    "schema:url" : "https://imma.ie/collection/crucifixion/",
+    "dateCreated" : "1995",
+    "url" : "https://imma.ie/collection/crucifixion/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/crucifixion",
-    "arco-cd:hasTitle" : "Crucifixion"
+    "hasTitle" : "Crucifixion"
   }, {
     "@id" : "spice:artefact/crucifixion-2",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/odonoghue-hughie",
     "author" : "spice:agent/odonoghue-hughie",
-    "schema:dateCreated" : "1993",
-    "schema:url" : "https://imma.ie/collection/crucifixion-2/",
+    "dateCreated" : "1993",
+    "url" : "https://imma.ie/collection/crucifixion-2/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/crucifixion-2",
-    "arco-cd:hasTitle" : "Crucifixion"
+    "hasTitle" : "Crucifixion"
   }, {
     "@id" : "spice:artefact/crucifixion-study",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/odonoghue-hughie",
     "author" : "spice:agent/odonoghue-hughie",
-    "schema:dateCreated" : "1994",
-    "schema:url" : "https://imma.ie/collection/crucifixion-study/",
+    "dateCreated" : "1994",
+    "url" : "https://imma.ie/collection/crucifixion-study/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/crucifixion-study",
-    "arco-cd:hasTitle" : "Crucifixion Study"
+    "hasTitle" : "Crucifixion Study"
   }, {
     "@id" : "spice:artefact/crucifixion-study-i",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/odonoghue-hughie",
     "author" : "spice:agent/odonoghue-hughie",
-    "schema:dateCreated" : "1993",
-    "schema:url" : "https://imma.ie/collection/crucifixion-study-i/",
+    "dateCreated" : "1993",
+    "url" : "https://imma.ie/collection/crucifixion-study-i/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/crucifixion-study-i",
-    "arco-cd:hasTitle" : "Crucifixion Study I"
+    "hasTitle" : "Crucifixion Study I"
   }, {
     "@id" : "spice:artefact/crucifixion-study-ii",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/odonoghue-hughie",
     "author" : "spice:agent/odonoghue-hughie",
-    "schema:dateCreated" : "1993",
-    "schema:url" : "https://imma.ie/collection/crucifixion-study-ii/",
+    "dateCreated" : "1993",
+    "url" : "https://imma.ie/collection/crucifixion-study-ii/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/crucifixion-study-ii",
-    "arco-cd:hasTitle" : "Crucifixion Study II"
+    "hasTitle" : "Crucifixion Study II"
   }, {
     "@id" : "spice:artefact/entering-jerusalem",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/odonoghue-hughie",
     "author" : "spice:agent/odonoghue-hughie",
-    "schema:dateCreated" : "1995",
-    "schema:url" : "https://imma.ie/collection/entering-jerusalem/",
+    "dateCreated" : "1995",
+    "url" : "https://imma.ie/collection/entering-jerusalem/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/entering-jerusalem",
-    "arco-cd:hasTitle" : "Entering Jerusalem"
+    "hasTitle" : "Entering Jerusalem"
   }, {
     "@id" : "spice:artefact/entering-jerusalem-i",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/odonoghue-hughie",
     "author" : "spice:agent/odonoghue-hughie",
-    "schema:dateCreated" : "1994",
-    "schema:url" : "https://imma.ie/collection/entering-jerusalem-i/",
+    "dateCreated" : "1994",
+    "url" : "https://imma.ie/collection/entering-jerusalem-i/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/entering-jerusalem-i",
-    "arco-cd:hasTitle" : "Entering Jerusalem I"
+    "hasTitle" : "Entering Jerusalem I"
   }, {
     "@id" : "spice:artefact/entering-jerusalem-ii",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/odonoghue-hughie",
     "author" : "spice:agent/odonoghue-hughie",
-    "schema:dateCreated" : "1994",
-    "schema:url" : "https://imma.ie/collection/entering-jerusalem-ii/",
+    "dateCreated" : "1994",
+    "url" : "https://imma.ie/collection/entering-jerusalem-ii/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/entering-jerusalem-ii",
-    "arco-cd:hasTitle" : "Entering Jerusalem II"
+    "hasTitle" : "Entering Jerusalem II"
   }, {
     "@id" : "spice:artefact/entering-jerusalem-iii",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/odonoghue-hughie",
     "author" : "spice:agent/odonoghue-hughie",
-    "schema:dateCreated" : "1994",
-    "schema:url" : "https://imma.ie/collection/entering-jerusalem-iii/",
+    "dateCreated" : "1994",
+    "url" : "https://imma.ie/collection/entering-jerusalem-iii/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/entering-jerusalem-iii",
-    "arco-cd:hasTitle" : "Entering Jerusalem III"
+    "hasTitle" : "Entering Jerusalem III"
   }, {
     "@id" : "spice:artefact/laocoon",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/odonoghue-hughie",
     "author" : "spice:agent/odonoghue-hughie",
-    "schema:dateCreated" : "2003",
-    "schema:url" : "https://imma.ie/collection/laocoon/",
+    "dateCreated" : "2003",
+    "url" : "https://imma.ie/collection/laocoon/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/laocoon",
-    "arco-cd:hasTitle" : "Laocoon"
+    "hasTitle" : "Laocoon"
   }, {
     "@id" : "spice:artefact/line-of-retreat",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/odonoghue-hughie",
     "author" : "spice:agent/odonoghue-hughie",
-    "schema:dateCreated" : "2000",
-    "schema:url" : "https://imma.ie/collection/line-of-retreat/",
+    "dateCreated" : "2000",
+    "url" : "https://imma.ie/collection/line-of-retreat/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/line-of-retreat",
-    "arco-cd:hasTitle" : "Line of retreat"
+    "hasTitle" : "Line of retreat"
   }, {
     "@id" : "spice:artefact/oxygen",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/odonoghue-hughie",
     "author" : "spice:agent/odonoghue-hughie",
-    "schema:dateCreated" : "1993",
-    "schema:url" : "https://imma.ie/collection/oxygen/",
+    "dateCreated" : "1993",
+    "url" : "https://imma.ie/collection/oxygen/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/oxygen",
-    "arco-cd:hasTitle" : "Oxygen"
+    "hasTitle" : "Oxygen"
   }, {
     "@id" : "spice:artefact/porces-and-chariboea-laocoon-2",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/odonoghue-hughie",
     "author" : "spice:agent/odonoghue-hughie",
-    "schema:dateCreated" : "1986",
-    "schema:url" : "https://imma.ie/collection/porces-and-chariboea-laocoon-2/",
+    "dateCreated" : "1986",
+    "url" : "https://imma.ie/collection/porces-and-chariboea-laocoon-2/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/porces-and-chariboea-laocoon-2",
-    "arco-cd:hasTitle" : "Porces and Chariboea (Laocoon 2)"
+    "hasTitle" : "Porces and Chariboea (Laocoon 2)"
   }, {
     "@id" : "spice:artefact/red-earth-iv",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/odonoghue-hughie",
     "author" : "spice:agent/odonoghue-hughie",
-    "schema:dateCreated" : "1992",
-    "schema:url" : "https://imma.ie/collection/red-earth-iv/",
+    "dateCreated" : "1992",
+    "url" : "https://imma.ie/collection/red-earth-iv/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/red-earth-iv",
-    "arco-cd:hasTitle" : "Red Earth IV"
+    "hasTitle" : "Red Earth IV"
   }, {
     "@id" : "spice:artefact/sleeper-iii",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/odonoghue-hughie",
     "author" : "spice:agent/odonoghue-hughie",
-    "schema:dateCreated" : "1985",
-    "schema:url" : "https://imma.ie/collection/sleeper-iii/",
+    "dateCreated" : "1985",
+    "url" : "https://imma.ie/collection/sleeper-iii/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/sleeper-iii",
-    "arco-cd:hasTitle" : "Sleeper III"
+    "hasTitle" : "Sleeper III"
   }, {
     "@id" : "spice:artefact/sleeper-viii",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/odonoghue-hughie",
     "author" : "spice:agent/odonoghue-hughie",
-    "schema:dateCreated" : "1988",
-    "schema:url" : "https://imma.ie/collection/sleeper-viii/",
+    "dateCreated" : "1988",
+    "url" : "https://imma.ie/collection/sleeper-viii/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/sleeper-viii",
-    "arco-cd:hasTitle" : "Sleeper VIII"
+    "hasTitle" : "Sleeper VIII"
   }, {
     "@id" : "spice:artefact/tawnanasool-field-of-the-eyes",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/odonoghue-hughie",
     "author" : "spice:agent/odonoghue-hughie",
-    "schema:dateCreated" : "2001",
-    "schema:url" : "https://imma.ie/collection/tawnanasool-field-of-the-eyes/",
+    "dateCreated" : "2001",
+    "url" : "https://imma.ie/collection/tawnanasool-field-of-the-eyes/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/tawnanasool-field-of-the-eyes",
-    "arco-cd:hasTitle" : "Tawnanasool (Field of the Eyes)"
+    "hasTitle" : "Tawnanasool (Field of the Eyes)"
   }, {
     "@id" : "spice:artefact/the-feel-of-air-starting-to-burn",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/odonoghue-hughie",
     "author" : "spice:agent/odonoghue-hughie",
-    "schema:dateCreated" : "1986",
-    "schema:url" : "https://imma.ie/collection/the-feel-of-air-starting-to-burn/",
+    "dateCreated" : "1986",
+    "url" : "https://imma.ie/collection/the-feel-of-air-starting-to-burn/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-feel-of-air-starting-to-burn",
-    "arco-cd:hasTitle" : "The Feel of Air / Starting to Burn"
+    "hasTitle" : "The Feel of Air / Starting to Burn"
   }, {
     "@id" : "spice:artefact/the-testament-of-cresseid",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/odonoghue-hughie",
     "author" : "spice:agent/odonoghue-hughie",
-    "schema:dateCreated" : "2004",
-    "schema:url" : "https://imma.ie/collection/the-testament-of-cresseid/",
+    "dateCreated" : "2004",
+    "url" : "https://imma.ie/collection/the-testament-of-cresseid/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-testament-of-cresseid",
-    "arco-cd:hasTitle" : "The Testament of Cresseid"
+    "hasTitle" : "The Testament of Cresseid"
   }, {
     "@id" : "spice:artefact/three-studies-for-a-crucifixion",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/odonoghue-hughie",
     "author" : "spice:agent/odonoghue-hughie",
-    "schema:dateCreated" : "1996",
-    "schema:url" : "https://imma.ie/collection/three-studies-for-a-crucifixion/",
+    "dateCreated" : "1996",
+    "url" : "https://imma.ie/collection/three-studies-for-a-crucifixion/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/three-studies-for-a-crucifixion",
-    "arco-cd:hasTitle" : "Three Studies for A Crucifixion"
+    "hasTitle" : "Three Studies for A Crucifixion"
   }, {
     "@id" : "spice:artefact/three-studies-for-a-crucifixion-i",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/odonoghue-hughie",
     "author" : "spice:agent/odonoghue-hughie",
-    "schema:dateCreated" : "1996",
-    "schema:url" : "https://imma.ie/collection/three-studies-for-a-crucifixion-i/",
+    "dateCreated" : "1996",
+    "url" : "https://imma.ie/collection/three-studies-for-a-crucifixion-i/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/three-studies-for-a-crucifixion-i",
-    "arco-cd:hasTitle" : "Three Studies for a Crucifixion I"
+    "hasTitle" : "Three Studies for a Crucifixion I"
   }, {
     "@id" : "spice:artefact/three-studies-for-a-crucifixion-ii",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/odonoghue-hughie",
     "author" : "spice:agent/odonoghue-hughie",
-    "schema:dateCreated" : "2000",
-    "schema:url" : "https://imma.ie/collection/three-studies-for-a-crucifixion-ii/",
+    "dateCreated" : "2000",
+    "url" : "https://imma.ie/collection/three-studies-for-a-crucifixion-ii/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/three-studies-for-a-crucifixion-ii",
-    "arco-cd:hasTitle" : "Three Studies for A Crucifixion II"
+    "hasTitle" : "Three Studies for A Crucifixion II"
   }, {
     "@id" : "spice:artefact/three-studies-for-a-crucifixion-ii-2",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/odonoghue-hughie",
     "author" : "spice:agent/odonoghue-hughie",
-    "schema:dateCreated" : "2000",
-    "schema:url" : "https://imma.ie/collection/three-studies-for-a-crucifixion-ii-2/",
+    "dateCreated" : "2000",
+    "url" : "https://imma.ie/collection/three-studies-for-a-crucifixion-ii-2/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/three-studies-for-a-crucifixion-ii-2",
-    "arco-cd:hasTitle" : "Three Studies for A Crucifixion II"
+    "hasTitle" : "Three Studies for A Crucifixion II"
   }, {
     "@id" : "spice:artefact/yellow-man",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/odonoghue-hughie",
     "author" : "spice:agent/odonoghue-hughie",
-    "schema:dateCreated" : "2009",
-    "schema:url" : "https://imma.ie/collection/yellow-man/",
+    "dateCreated" : "2009",
+    "url" : "https://imma.ie/collection/yellow-man/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/yellow-man",
-    "arco-cd:hasTitle" : "Yellow Man"
+    "hasTitle" : "Yellow Man"
   }, {
     "@id" : "spice:attribution/a-crown-of-thorns",
     "@type" : "arco:AuthorshipAttribution",
@@ -620,48 +620,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -2,29 +2,29 @@
   "@graph" : [ {
     "@id" : "spice:agent/schwontkowski-nobert",
     "@type" : "foaf:Person",
-    "dc:source" : "https://imma.ie/artists/nobert-schwontkowski/",
-    "schema:url" : "https://imma.ie/artists/nobert-schwontkowski/",
-    "rdfs:label" : "Nobert Schwontkowski"
+    "source" : "https://imma.ie/artists/nobert-schwontkowski/",
+    "url" : "https://imma.ie/artists/nobert-schwontkowski/",
+    "label" : "Nobert Schwontkowski"
   }, {
     "@id" : "spice:artefact/bass",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/schwontkowski-nobert",
     "author" : "spice:agent/schwontkowski-nobert",
-    "schema:dateCreated" : "2006",
-    "schema:url" : "https://imma.ie/collection/bass/",
+    "dateCreated" : "2006",
+    "url" : "https://imma.ie/collection/bass/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/bass",
-    "arco-cd:hasTitle" : "Bass"
+    "hasTitle" : "Bass"
   }, {
     "@id" : "spice:artefact/besuch-von-weit-draussen",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/schwontkowski-nobert",
     "author" : "spice:agent/schwontkowski-nobert",
-    "schema:dateCreated" : "2007",
-    "schema:url" : "https://imma.ie/collection/besuch-von-weit-draussen/",
+    "dateCreated" : "2007",
+    "url" : "https://imma.ie/collection/besuch-von-weit-draussen/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/besuch-von-weit-draussen",
-    "arco-cd:hasTitle" : "BESUCH VON WEIT DRAUSSEN"
+    "hasTitle" : "BESUCH VON WEIT DRAUSSEN"
   }, {
     "@id" : "spice:attribution/bass",
     "@type" : "arco:AuthorshipAttribution",
@@ -44,40 +44,35 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

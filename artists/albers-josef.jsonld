@@ -2,31 +2,31 @@
   "@graph" : [ {
     "@id" : "spice:agent/albers-josef",
     "@type" : "foaf:Person",
-    "dc:description" : "Born in Westphalia, Germany, the painter, printmaker and designer Josef Albers studied and taught at the Weimer Bauhaus. In 1933, Albers moved to America to teach art at Black Mountain College and in 1950 became chairman of the Department of Design at Yale. His 1963 book ‘Interaction of Color’, is considered one of the major treatises on the subject. In 1971 Albers became the first living artist to be the subject of a solo exhibition at the Metropolitan Museum of Art, New York.",
-    "dc:source" : "https://imma.ie/artists/josef-albers/",
-    "schema:birthDate" : "1888–1976",
-    "schema:url" : "https://imma.ie/artists/josef-albers/",
-    "rdfs:label" : "Josef Albers"
+    "description" : "Born in Westphalia, Germany, the painter, printmaker and designer Josef Albers studied and taught at the Weimer Bauhaus. In 1933, Albers moved to America to teach art at Black Mountain College and in 1950 became chairman of the Department of Design at Yale. His 1963 book ‘Interaction of Color’, is considered one of the major treatises on the subject. In 1971 Albers became the first living artist to be the subject of a solo exhibition at the Metropolitan Museum of Art, New York.",
+    "source" : "https://imma.ie/artists/josef-albers/",
+    "birthDate" : "1888–1976",
+    "url" : "https://imma.ie/artists/josef-albers/",
+    "label" : "Josef Albers"
   }, {
     "@id" : "spice:artefact/4-carres-4-couleurs",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/albers-josef",
     "author" : "spice:agent/albers-josef",
-    "schema:dateCreated" : "1969",
-    "schema:url" : "https://imma.ie/collection/4-carres-4-couleurs/",
+    "dateCreated" : "1969",
+    "url" : "https://imma.ie/collection/4-carres-4-couleurs/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/4-carres-4-couleurs",
-    "arco-cd:hasTitle" : "4 Carrés 4 Couleurs"
+    "hasTitle" : "4 Carrés 4 Couleurs"
   }, {
     "@id" : "spice:artefact/homage-to-the-square",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/albers-josef",
     "author" : "spice:agent/albers-josef",
-    "schema:dateCreated" : "1966",
-    "schema:url" : "https://imma.ie/collection/homage-to-the-square/",
+    "dateCreated" : "1966",
+    "url" : "https://imma.ie/collection/homage-to-the-square/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/homage-to-the-square",
-    "arco-cd:hasTitle" : "Homage to the Square"
+    "hasTitle" : "Homage to the Square"
   }, {
     "@id" : "spice:attribution/4-carres-4-couleurs",
     "@type" : "arco:AuthorshipAttribution",
@@ -46,48 +46,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

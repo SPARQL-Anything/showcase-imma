@@ -2,31 +2,31 @@
   "@graph" : [ {
     "@id" : "spice:agent/cotter-maud",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish Artist Maud Cotter studied at the National College of Art and Design. Establishing her early reputation as a stained-glass artist, Cotter sought to redress the decorative and religious stereotypes associated with this medium. A visit to Iceland in 1991 precipitated a renewed interest in sculpture and the employment of materials such as steel, glass, perspex, cardboard, wax and latex. Cotter was co-founder of the National Sculpture Factory, Cork. She was elected as a member of Aosdána in 2000.",
-    "dc:source" : "https://imma.ie/artists/maud-cotter/",
-    "schema:birthDate" : "b.1954",
-    "schema:url" : "https://imma.ie/artists/maud-cotter/",
-    "rdfs:label" : "Maud Cotter"
+    "description" : "Irish Artist Maud Cotter studied at the National College of Art and Design. Establishing her early reputation as a stained-glass artist, Cotter sought to redress the decorative and religious stereotypes associated with this medium. A visit to Iceland in 1991 precipitated a renewed interest in sculpture and the employment of materials such as steel, glass, perspex, cardboard, wax and latex. Cotter was co-founder of the National Sculpture Factory, Cork. She was elected as a member of Aosdána in 2000.",
+    "source" : "https://imma.ie/artists/maud-cotter/",
+    "birthDate" : "b.1954",
+    "url" : "https://imma.ie/artists/maud-cotter/",
+    "label" : "Maud Cotter"
   }, {
     "@id" : "spice:artefact/in-the-grace-of-its-own-shadow",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/cotter-maud",
     "author" : "spice:agent/cotter-maud",
-    "schema:dateCreated" : "1995",
-    "schema:url" : "https://imma.ie/collection/in-the-grace-of-its-own-shadow/",
+    "dateCreated" : "1995",
+    "url" : "https://imma.ie/collection/in-the-grace-of-its-own-shadow/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/in-the-grace-of-its-own-shadow",
-    "arco-cd:hasTitle" : "In the Grace of its own Shadow"
+    "hasTitle" : "In the Grace of its own Shadow"
   }, {
     "@id" : "spice:artefact/one-way-of-containing-air",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/cotter-maud",
     "author" : "spice:agent/cotter-maud",
-    "schema:dateCreated" : "1998",
-    "schema:url" : "https://imma.ie/collection/one-way-of-containing-air/",
+    "dateCreated" : "1998",
+    "url" : "https://imma.ie/collection/one-way-of-containing-air/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/one-way-of-containing-air",
-    "arco-cd:hasTitle" : "One Way of Containing Air"
+    "hasTitle" : "One Way of Containing Air"
   }, {
     "@id" : "spice:attribution/in-the-grace-of-its-own-shadow",
     "@type" : "arco:AuthorshipAttribution",
@@ -42,24 +42,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -70,24 +67,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

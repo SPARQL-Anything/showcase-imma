@@ -1,31 +1,82 @@
 {
-  "@id" : "spice:agent/al-sabah-bassam",
-  "@type" : "foaf:Person",
-  "description" : "_:b0",
-  "dc:description" : "Bassam Al-Sabah's work aims to convey visions of war, resistance and perseverance. He utilizes multi-media installation comprising of video, painting, sculpture and printed matter. His work is concerned with how the past is continually revised to meet the present, when the juvenile fantasy breaks down into the reality of adulthood.",
-  "dc:source" : "https://imma.ie/artists/bassam-al-sabah/",
-  "schema:url" : "https://imma.ie/artists/bassam-al-sabah/",
-  "rdfs:label" : "Bassam Al-Sabah",
+  "@graph" : [ {
+    "@id" : "spice:agent/al-sabah-bassam",
+    "@type" : "foaf:Person",
+    "description" : [ "Bassam Al-Sabah’s work aims to convey visions of war, resistance and perseverance. He utilizes multi-media installation comprising of video, painting, sculpture and printed matter. His work is concerned with how the past is continually revised to meet the present, when the juvenile fantasy breaks down into the reality of adulthood. Themes such as displacement, nostalgia and personal mythology are explored through reference to Japanese anime cartoons, which were dubbed into Arabic and broadcast throughout the Middle East from the 1980s to today.", "Bassam Al-Sabah works across digital animation, painting, sculpture and textiles to convey intricate visions of war, resistance and perseverance. Themes such as displacement, nostalgia and personal mythology are explored through reference to Japanese anime cartoons, which were dubbed into Arabic and broadcast throughout the Middle East from the 1980s to today. Bassam Al-Sabah lives and works in Belfast and Dublin. " ],
+    "source" : "https://imma.ie/artists/bassam-al-sabah/",
+    "url" : "https://imma.ie/artists/bassam-al-sabah/",
+    "label" : "Bassam Al-Sabah"
+  }, {
+    "@id" : "spice:artefact/dissolving-beyond-the-worm-moon",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/al-sabah-bassam",
+    "author" : "spice:agent/al-sabah-bassam",
+    "dateCreated" : "2019",
+    "url" : "https://imma.ie/collection/dissolving-beyond-the-worm-moon/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/dissolving-beyond-the-worm-moon",
+    "hasTitle" : "Dissolving Beyond the Worm Moon"
+  }, {
+    "@id" : "spice:artefact/still-in-the-darkness",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/al-sabah-bassam",
+    "author" : "spice:agent/al-sabah-bassam",
+    "dateCreated" : "2019",
+    "url" : "https://imma.ie/collection/still-in-the-darkness/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/still-in-the-darkness",
+    "hasTitle" : "Still, In The Darkness"
+  }, {
+    "@id" : "spice:attribution/dissolving-beyond-the-worm-moon",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/al-sabah-bassam"
+  }, {
+    "@id" : "spice:attribution/still-in-the-darkness",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/al-sabah-bassam"
+  } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "@id"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

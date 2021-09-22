@@ -3,29 +3,26 @@
   "@type" : "foaf:Person",
   "description" : "_:b0",
   "dc:description" : "Louise Bertelsen and Po Shu Wang’s common interest in site-specific work led them to collaborate and found LIVING LENSES in 1999.&nbsp; Bertelsen is from a performance and multi-media art background, while Wang is from a visual and public art background. ",
-  "dc:source" : "https://imma.ie/artists/living-lenses/",
-  "schema:url" : "https://imma.ie/artists/living-lenses/",
-  "rdfs:label" : "Living Lenses",
+  "source" : "https://imma.ie/artists/living-lenses/",
+  "url" : "https://imma.ie/artists/living-lenses/",
+  "label" : "Living Lenses",
   "@context" : {
     "description" : {
       "@id" : "http://purl.org/dc/elements/1.1/description",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

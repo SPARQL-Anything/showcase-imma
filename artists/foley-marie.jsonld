@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/foley-marie",
     "@type" : "foaf:Person",
-    "dc:description" : "IIrish sculptor Marie Foley studied fine art at the Crawford College of Art, Cork, Goldsmiths College, London and Cardiff College of Art. Her sculptural works combine wood, metal, stone, glass, porcelain and salvaged materials. They explore ideas of past and present and the material and metaphysical world. Foley was the first artist to have a solo exhibition at IMMA in 1991. Her work has been included in numerous group and solo exhibitions nationally and internationally. She has received various Arts Council awards and became a member of Aosdána in 1996.",
-    "dc:source" : "https://imma.ie/artists/marie-foley/",
-    "schema:birthDate" : "b.1959",
-    "schema:url" : "https://imma.ie/artists/marie-foley/",
-    "rdfs:label" : "Marie Foley"
+    "description" : "IIrish sculptor Marie Foley studied fine art at the Crawford College of Art, Cork, Goldsmiths College, London and Cardiff College of Art. Her sculptural works combine wood, metal, stone, glass, porcelain and salvaged materials. They explore ideas of past and present and the material and metaphysical world. Foley was the first artist to have a solo exhibition at IMMA in 1991. Her work has been included in numerous group and solo exhibitions nationally and internationally. She has received various Arts Council awards and became a member of Aosdána in 1996.",
+    "source" : "https://imma.ie/artists/marie-foley/",
+    "birthDate" : "b.1959",
+    "url" : "https://imma.ie/artists/marie-foley/",
+    "label" : "Marie Foley"
   }, {
     "@id" : "spice:artefact/the-last-judgement",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/foley-marie",
     "author" : "spice:agent/foley-marie",
-    "schema:dateCreated" : "1991",
-    "schema:url" : "https://imma.ie/collection/the-last-judgement/",
+    "dateCreated" : "1991",
+    "url" : "https://imma.ie/collection/the-last-judgement/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-last-judgement",
-    "arco-cd:hasTitle" : "The Last Judgement"
+    "hasTitle" : "The Last Judgement"
   }, {
     "@id" : "spice:attribution/the-last-judgement",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,24 +28,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -56,24 +53,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -2,37 +2,33 @@
   "@graph" : [ {
     "@id" : "spice:artefact/untitled-20",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "‘Untitled’, 2001, is one of a suite of seven heads, each unique, made from a soft pink material, originally one of the artist’s jackets. Autobiography and identity have been important influences on the artist’s practice, as have her family connections with furniture and tapestry making. The steel and glass vitrine is an integral part of the sculpture, which Bourgeois described as a cell. It mimics a Museum display case, acting as support to the disembodied head.",
-    "dc:source" : "https://imma.ie/collection/untitled-20/",
-    "schema:creditText" : "IMMA Collection: Donation, 2005",
+    "description" : "‘Untitled’, 2001, is one of a suite of seven heads, each unique, made from a soft pink material, originally one of the artist’s jackets. Autobiography and identity have been important influences on the artist’s practice, as have her family connections with furniture and tapestry making. The steel and glass vitrine is an integral part of the sculpture, which Bourgeois described as a cell. It mimics a Museum display case, acting as support to the disembodied head.",
+    "source" : "https://imma.ie/collection/untitled-20/",
+    "creditText" : "IMMA Collection: Donation, 2005",
     "image" : "spice:documentation/untitled-20",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Pink fabric and aluminum, stainless steel, glass and wood vitrine",
-    "arco-cd:hasInventory" : "IMMA.1832"
+    "material" : "Pink fabric and aluminum, stainless steel, glass and wood vitrine",
+    "hasInventory" : "IMMA.1832"
   }, {
     "@id" : "spice:documentation/untitled-20",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Louise Bourgeois, Untitled, 2001, Pink fabric and aluminum, stainless steel, glass and wood vitrine, Collection Irish Museum of Modern Art, Donation, 2005 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Louise Bourgeois, Untitled, 2001, Pink fabric and aluminum, stainless steel, glass and wood vitrine, Collection Irish Museum of Modern Art, Donation, 2005 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2019/10/1752.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2019/10/1752.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -43,20 +39,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

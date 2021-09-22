@@ -2,71 +2,61 @@
   "@graph" : [ {
     "@id" : "spice:artefact/america-whistles",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "America Whistles is a 1975 work by Ed Ruscha. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/america-whistles/",
-    "schema:creditText" : "IMMA Collection: The Novak/O'Doherty Collection at IMMA Gift, The American Ireland Fund, 2014",
+    "description" : "America Whistles is a 1975 work by Ed Ruscha. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/america-whistles/",
+    "creditText" : "IMMA Collection: The Novak/O'Doherty Collection at IMMA Gift, The American Ireland Fund, 2014",
     "image" : "spice:documentation/america-whistles",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Lithograph",
-    "schema:size" : "76.3 x 57 cm Framed: 88 x 67.5 cm",
-    "schema:version" : "106/200",
-    "arco-cd:hasInventory" : "IMMA.3862"
+    "material" : "Lithograph",
+    "size" : "76.3 x 57 cm Framed: 88 x 67.5 cm",
+    "version" : "106/200",
+    "hasInventory" : "IMMA.3862"
   }, {
     "@id" : "spice:documentation/america-whistles",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Ed Ruscha, America Whistles, 1975, Lithograph, 76.3 x 57 cm Framed: 88 x 67.5 cm, Collection Irish Museum of Modern Art, The Novak/O'Doherty Collection at IMMA Gift, The American Ireland Fund, 2014 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Ed Ruscha, America Whistles, 1975, Lithograph, 76.3 x 57 cm Framed: 88 x 67.5 cm, Collection Irish Museum of Modern Art, The Novak/O'Doherty Collection at IMMA Gift, The American Ireland Fund, 2014 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/5089.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/5089.jpg"
   } ],
   "@context" : {
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

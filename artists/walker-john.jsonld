@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/walker-john",
     "@type" : "foaf:Person",
-    "dc:description" : "English painter John Walker (born 1939) studied at Birmingham College of Art and the Académie de la Grande Chaumière in France. He completed a residency in Australia from 1979 to 1980 and in 1982 was appointed Dean of Melbourne’s Victoria College of Arts. Walker was nominated for the Turner Prize in 1985. His works features in numerous collections worldwide including that of Tate Gallery, the British Museum, the Australian National Gallery, the Art Institute of Chicago and the Museum of Modern Art, New York. Walker is head of the graduate programme at Boston University School of Visual Arts.",
-    "dc:source" : "https://imma.ie/artists/john-walker/",
-    "schema:birthDate" : "b.1939",
-    "schema:url" : "https://imma.ie/artists/john-walker/",
-    "rdfs:label" : "John Walker"
+    "description" : "English painter John Walker (born 1939) studied at Birmingham College of Art and the Académie de la Grande Chaumière in France. He completed a residency in Australia from 1979 to 1980 and in 1982 was appointed Dean of Melbourne’s Victoria College of Arts. Walker was nominated for the Turner Prize in 1985. His works features in numerous collections worldwide including that of Tate Gallery, the British Museum, the Australian National Gallery, the Art Institute of Chicago and the Museum of Modern Art, New York. Walker is head of the graduate programme at Boston University School of Visual Arts.",
+    "source" : "https://imma.ie/artists/john-walker/",
+    "birthDate" : "b.1939",
+    "url" : "https://imma.ie/artists/john-walker/",
+    "label" : "John Walker"
   }, {
     "@id" : "spice:artefact/gold-drawing",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/walker-john",
     "author" : "spice:agent/walker-john",
-    "schema:dateCreated" : "1974",
-    "schema:url" : "https://imma.ie/collection/gold-drawing/",
+    "dateCreated" : "1974",
+    "url" : "https://imma.ie/collection/gold-drawing/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/gold-drawing",
-    "arco-cd:hasTitle" : "Gold Drawing"
+    "hasTitle" : "Gold Drawing"
   }, {
     "@id" : "spice:attribution/gold-drawing",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,44 +28,37 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

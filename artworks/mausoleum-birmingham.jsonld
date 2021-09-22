@@ -2,22 +2,22 @@
   "@graph" : [ {
     "@id" : "spice:artefact/mausoleum-birmingham",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "The sepia tones of ‘Mausoleum, Birmingham, England’ and the imperial authority of the building have all the hallmarks of the real thing. The photograph is real but the architecture it portrays is artificial, shot from a maquette, meticulously created by the artist and digitally enhanced to place it in a setting as convincing as Piranesi’s megalomaniacal prison drawings. Totalitarian aspirations, as embodied in public buildings, are mocked as the viewer is sucked into the fiction, only to find that they have been deceived and that the authority of image and ideology has been undermined. The classical simplicity of the composition and the high production values assert an aesthetic authority in its place.",
-    "dc:source" : "https://imma.ie/collection/mausoleum-birmingham/",
-    "schema:creditText" : "IMMA Collection: Donated by the artist, 2001",
+    "description" : "The sepia tones of ‘Mausoleum, Birmingham, England’ and the imperial authority of the building have all the hallmarks of the real thing. The photograph is real but the architecture it portrays is artificial, shot from a maquette, meticulously created by the artist and digitally enhanced to place it in a setting as convincing as Piranesi’s megalomaniacal prison drawings. Totalitarian aspirations, as embodied in public buildings, are mocked as the viewer is sucked into the fiction, only to find that they have been deceived and that the authority of image and ideology has been undermined. The classical simplicity of the composition and the high production values assert an aesthetic authority in its place.",
+    "source" : "https://imma.ie/collection/mausoleum-birmingham/",
+    "creditText" : "IMMA Collection: Donated by the artist, 2001",
     "image" : "spice:documentation/mausoleum-birmingham",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Archival inkjet print on watercolour paper",
-    "schema:size" : "81 x 183 cm Framed: 84 x 186.2 cm",
-    "schema:version" : "Edition 5/15",
-    "arco-cd:hasInventory" : "IMMA.1504"
+    "material" : "Archival inkjet print on watercolour paper",
+    "size" : "81 x 183 cm Framed: 84 x 186.2 cm",
+    "version" : "Edition 5/15",
+    "hasInventory" : "IMMA.1504"
   }, {
     "@id" : "spice:documentation/mausoleum-birmingham",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Carl Zimmerman, Mausoleum, Birmingham, 2001, Archival inkjet print on watercolour paper, 81 x 183 cm Framed: 84 x 186.2 cm, Collection Irish Museum of Modern Art, Donated by the artist, 2001 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Carl Zimmerman, Mausoleum, Birmingham, 2001, Archival inkjet print on watercolour paper, 81 x 183 cm Framed: 84 x 186.2 cm, Collection Irish Museum of Modern Art, Donated by the artist, 2001 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/1542.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/1542.jpg"
   } ],
   "@context" : {
     "maintainer" : {
@@ -25,48 +25,38 @@
       "@type" : "@id"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

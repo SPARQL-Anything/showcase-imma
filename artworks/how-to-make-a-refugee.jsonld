@@ -2,66 +2,57 @@
   "@graph" : [ {
     "@id" : "spice:artefact/how-to-make-a-refugee",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "‘how to make a refugee’ was filmed during the Kosovo conflict in May 1999 on a trip to Skopje, Macedonia and the refugee camps at Stenkovec and Čegrane.The Kosovo War (1998-99) was fought by the forces of the Federal Republic of Yugoslavia (Serbia and Montenegro), which had constitutional jurisdiction over the region prior to the war, and the Kosovo Albanian rebel group known as the Kosovo Liberation Army (KLA), with air support from the North Atlantic Treaty Organisation (NATO). ",
-    "dc:source" : "https://imma.ie/collection/how-to-make-a-refugee/",
-    "schema:creditText" : "IMMA Collection: Purchase, 2004, 2004",
+    "description" : "‘how to make a refugee’ was filmed during the Kosovo conflict in May 1999 on a trip to Skopje, Macedonia and the refugee camps at Stenkovec and Čegrane.The Kosovo War (1998-99) was fought by the forces of the Federal Republic of Yugoslavia (Serbia and Montenegro), which had constitutional jurisdiction over the region prior to the war, and the Kosovo Albanian rebel group known as the Kosovo Liberation Army (KLA), with air support from the North Atlantic Treaty Organisation (NATO). ",
+    "source" : "https://imma.ie/collection/how-to-make-a-refugee/",
+    "creditText" : "IMMA Collection: Purchase, 2004, 2004",
     "image" : "spice:documentation/how-to-make-a-refugee",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Single-channel video projection: colour, sound",
-    "schema:version" : "Edition 2/3",
-    "arco-cd:hasInventory" : "IMMA.1656"
+    "material" : "Single-channel video projection: colour, sound",
+    "version" : "Edition 2/3",
+    "hasInventory" : "IMMA.1656"
   }, {
     "@id" : "spice:documentation/how-to-make-a-refugee",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Phil Collins, how to make a refugee, 1999, Single-channel video projection: colour, sound, Duration: 12 min loop, Collection Irish Museum of Modern Art, Purchase, 2004, 2004 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Phil Collins, how to make a refugee, 1999, Single-channel video projection: colour, sound, Duration: 12 min loop, Collection Irish Museum of Modern Art, Purchase, 2004, 2004 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2020/10/1635.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2020/10/1635.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

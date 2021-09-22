@@ -3,29 +3,26 @@
   "@type" : "foaf:Person",
   "description" : "_:b0",
   "dc:description" : "Often finding herself in locations as diverse as state of the art archives, to shipping yards, to examining the dimensions and cost of empty space above key development sites in cities, Ariane Pauls’ installations explore spatial parameters in relation to principles of ordering and storing, thereby focusing on the phenomenological reading of architectural spaces.",
-  "dc:source" : "https://imma.ie/artists/ariane-pauls/",
-  "schema:url" : "https://imma.ie/artists/ariane-pauls/",
-  "rdfs:label" : "Ariane Pauls",
+  "source" : "https://imma.ie/artists/ariane-pauls/",
+  "url" : "https://imma.ie/artists/ariane-pauls/",
+  "label" : "Ariane Pauls",
   "@context" : {
     "description" : {
       "@id" : "http://purl.org/dc/elements/1.1/description",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

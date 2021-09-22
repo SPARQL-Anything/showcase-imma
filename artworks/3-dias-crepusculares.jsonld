@@ -2,67 +2,57 @@
   "@graph" : [ {
     "@id" : "spice:artefact/3-dias-crepusculares",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "3 Dias Crepusculares is a 1983 work by Raymundo Sesma. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/3-dias-crepusculares/",
-    "schema:creditText" : "IMMA Collection: Donation, Smurfit: Cartón y Papel de México, 2000",
+    "description" : "3 Dias Crepusculares is a 1983 work by Raymundo Sesma. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/3-dias-crepusculares/",
+    "creditText" : "IMMA Collection: Donation, Smurfit: Cartón y Papel de México, 2000",
     "image" : "spice:documentation/3-dias-crepusculares",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Etching",
-    "schema:size" : "71 x 49.5 cm",
-    "schema:version" : "Edition 3/20",
-    "arco-cd:hasInventory" : "IMMA.994 MP"
+    "material" : "Etching",
+    "size" : "71 x 49.5 cm",
+    "version" : "Edition 3/20",
+    "hasInventory" : "IMMA.994 MP"
   }, {
     "@id" : "spice:documentation/3-dias-crepusculares",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Raymundo Sesma, 3 Dias Crepusculares, 1983, Etching, 71 x 49.5 cm, Collection Irish Museum of Modern Art, Donation, Smurfit: Cartón y Papel de México, 2000 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Raymundo Sesma, 3 Dias Crepusculares, 1983, Etching, 71 x 49.5 cm, Collection Irish Museum of Modern Art, Donation, Smurfit: Cartón y Papel de México, 2000 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2020/03/1234.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2020/03/1234.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "image" : {
       "@id" : "http://schema.org/image",

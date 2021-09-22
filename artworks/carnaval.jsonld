@@ -2,67 +2,57 @@
   "@graph" : [ {
     "@id" : "spice:artefact/carnaval",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Carnaval is a 1974 work by Norman Lewis. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/carnaval/",
-    "schema:creditText" : "IMMA Collection: Donation, Novak/O'Doherty Collection, 2015",
+    "description" : "Carnaval is a 1974 work by Norman Lewis. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/carnaval/",
+    "creditText" : "IMMA Collection: Donation, Novak/O'Doherty Collection, 2015",
     "image" : "spice:documentation/carnaval",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Etching with aquatint",
-    "schema:size" : "57 x 76 cm",
-    "schema:version" : "Portfolio No: A/P X",
-    "arco-cd:hasInventory" : "IMMA.3923"
+    "material" : "Etching with aquatint",
+    "size" : "57 x 76 cm",
+    "version" : "Portfolio No: A/P X",
+    "hasInventory" : "IMMA.3923"
   }, {
     "@id" : "spice:documentation/carnaval",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Norman Lewis, Carnaval, 1974, Etching with aquatint, 57 x 76 cm, Collection Irish Museum of Modern Art, Donation, Novak/O'Doherty Collection, 2015 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Norman Lewis, Carnaval, 1974, Etching with aquatint, 57 x 76 cm, Collection Irish Museum of Modern Art, Donation, Novak/O'Doherty Collection, 2015 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/5216.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/5216.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",

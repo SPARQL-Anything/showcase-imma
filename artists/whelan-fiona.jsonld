@@ -1,30 +1,26 @@
 {
   "@id" : "spice:agent/whelan-fiona",
   "@type" : "foaf:Person",
-  "dc:description" : [ "Fiona Whelan is a Dublin based artist and writer. Her collaborative art practice, in partnership with Rialto Youth Project, explores and responds to systemic inequality through durational intergenerational projects examining complex power relations at a personal, community and societal level. Staged in community sites and contemporary art venues, public manifestations are typically polyvocal and dialogical in nature, intending to expose, challenge and reconfigure systemic power relations while coproducing another form of relational power through collaboration.", "Fiona Whelan is a Dublin based artist and writer. Her collaborative art practice, in partnership with Rialto Youth Project, explores and responds to systemic inequality through durational inter-generational projects examining complex power relations at a personal, community and societal level. " ],
-  "dc:source" : "https://imma.ie/artists/fiona-whelan/",
-  "schema:url" : "https://imma.ie/artists/fiona-whelan/",
-  "rdfs:label" : "Fiona Whelan",
+  "description" : [ "Since 2018, Fiona Whelan, Feidlim Cannon and Gary Keegan, in collaboration with Rialto Youth Project have been leading a long-term transdisciplinary project What Does He Need? , which explores how men and boys are shaped by and influence the world they live in.", "Fiona Whelan is a Dublin based artist and writer. Her collaborative art practice, in partnership with Rialto Youth Project, explores and responds to systemic inequality through durational inter-generational projects examining complex power relations at a personal, community and societal level. " ],
+  "source" : "https://imma.ie/artists/fiona-whelan/",
+  "url" : "https://imma.ie/artists/fiona-whelan/",
+  "label" : "Fiona Whelan &amp; Brokentalkers",
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

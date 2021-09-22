@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/a-21st-century-arrangement-of-mount-purgatory",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "A 21st Century Arrangement of Mount Purgatory is a 2008 work by Bea McMahon. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/a-21st-century-arrangement-of-mount-purgatory/",
-    "schema:creditText" : "IMMA Collection: Assisted Purchase Fund:it, 2011",
+    "description" : "A 21st Century Arrangement of Mount Purgatory is a 2008 work by Bea McMahon. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/a-21st-century-arrangement-of-mount-purgatory/",
+    "creditText" : "IMMA Collection: Assisted Purchase Fund:it, 2011",
     "image" : "spice:documentation/a-21st-century-arrangement-of-mount-purgatory",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Mixed Media",
-    "schema:size" : "32 x 28 cm",
-    "arco-cd:hasInventory" : "IMMA.3322"
+    "material" : "Mixed Media",
+    "size" : "32 x 28 cm",
+    "hasInventory" : "IMMA.3322"
   }, {
     "@id" : "spice:documentation/a-21st-century-arrangement-of-mount-purgatory",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Bea McMahon, A 21st Century Arrangement of Mount Purgatory, 2008, Mixed Media, 32 x 28 cm, Collection Irish Museum of Modern Art, Assisted Purchase Fund:it, 2011 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Bea McMahon, A 21st Century Arrangement of Mount Purgatory, 2008, Mixed Media, 32 x 28 cm, Collection Irish Museum of Modern Art, Assisted Purchase Fund:it, 2011 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2020/03/5988.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2020/03/5988.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

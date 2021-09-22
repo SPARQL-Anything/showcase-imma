@@ -2,66 +2,57 @@
   "@graph" : [ {
     "@id" : "spice:artefact/madonna-irlanda",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Madonna Irlanda is a 1978 work by Micheal Farrell. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/madonna-irlanda/",
-    "schema:creditText" : "IMMA Collection: Acquired with the assistance of the Friends of the National Collections of Ireland, 2002",
+    "description" : "Madonna Irlanda is a 1978 work by Micheal Farrell. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/madonna-irlanda/",
+    "creditText" : "IMMA Collection: Acquired with the assistance of the Friends of the National Collections of Ireland, 2002",
     "image" : "spice:documentation/madonna-irlanda",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Mixed Media",
-    "schema:size" : "56.2 x 76.5 cm",
-    "arco-cd:hasInventory" : "IMMA.2870"
+    "material" : "Mixed Media",
+    "size" : "56.2 x 76.5 cm",
+    "hasInventory" : "IMMA.2870"
   }, {
     "@id" : "spice:documentation/madonna-irlanda",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Micheal Farrell, Madonna Irlanda, 1978, Mixed Media, 56.2 x 76.5 cm, Collection Irish Museum of Modern Art, Acquired with the assistance of the Friends of the National Collections of Ireland, 2002 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Micheal Farrell, Madonna Irlanda, 1978, Mixed Media, 56.2 x 76.5 cm, Collection Irish Museum of Modern Art, Acquired with the assistance of the Friends of the National Collections of Ireland, 2002 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/4009.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/4009.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

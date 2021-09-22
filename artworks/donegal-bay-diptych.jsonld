@@ -2,66 +2,57 @@
   "@graph" : [ {
     "@id" : "spice:artefact/donegal-bay-diptych",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "The sea is a central element in Mary Lohan’s paintings for its constantly changing character which reflects both sky and the surrounding land. Her work represents the restlessness of the seasons, the changing play of light and shade, that constant flux that we experience in front of nature. Yet the work does not evoke a sentimental or mythical reading of nature. of her work she has stated: ‘I start from the realization that it’s impossible to paint a landscape. You just can’t do it, because you experience a place on so many levels and in such a complex way. So you have to paint what you see, which isn’t the same thing. And you hope that something of the feeling of the place will come across’.*",
-    "dc:source" : "https://imma.ie/collection/donegal-bay-diptych/",
-    "schema:creditText" : "IMMA Collection: Purchase, 1998",
+    "description" : "The sea is a central element in Mary Lohan’s paintings for its constantly changing character which reflects both sky and the surrounding land. Her work represents the restlessness of the seasons, the changing play of light and shade, that constant flux that we experience in front of nature. Yet the work does not evoke a sentimental or mythical reading of nature. of her work she has stated: ‘I start from the realization that it’s impossible to paint a landscape. You just can’t do it, because you experience a place on so many levels and in such a complex way. So you have to paint what you see, which isn’t the same thing. And you hope that something of the feeling of the place will come across’.*",
+    "source" : "https://imma.ie/collection/donegal-bay-diptych/",
+    "creditText" : "IMMA Collection: Purchase, 1998",
     "image" : "spice:documentation/donegal-bay-diptych",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Oil on panel",
-    "schema:size" : "61 x 61 cm each",
-    "arco-cd:hasInventory" : "IMMA.808"
+    "material" : "Oil on panel",
+    "size" : "61 x 61 cm each",
+    "hasInventory" : "IMMA.808"
   }, {
     "@id" : "spice:documentation/donegal-bay-diptych",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Mary Lohan, Donegal Bay (diptych), 1997, Oil on panel, 61 x 61 cm each, Collection Irish Museum of Modern Art, Purchase, 1998 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Mary Lohan, Donegal Bay (diptych), 1997, Oil on panel, 61 x 61 cm each, Collection Irish Museum of Modern Art, Purchase, 1998 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/111.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/111.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

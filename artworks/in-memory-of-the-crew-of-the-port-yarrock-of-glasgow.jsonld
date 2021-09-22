@@ -2,37 +2,33 @@
   "@graph" : [ {
     "@id" : "spice:artefact/in-memory-of-the-crew-of-the-port-yarrock-of-glasgow",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "In Memory of the Crew of the Port Yarrock of Glasgow is a 1925 work by Jack Butler Yeats. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/in-memory-of-the-crew-of-the-port-yarrock-of-glasgow/",
-    "schema:creditText" : "IMMA Collection: Heritage Gift from the McClelland Collection by Noel and Anne Marie Smyth, 2003",
+    "description" : "In Memory of the Crew of the Port Yarrock of Glasgow is a 1925 work by Jack Butler Yeats. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/in-memory-of-the-crew-of-the-port-yarrock-of-glasgow/",
+    "creditText" : "IMMA Collection: Heritage Gift from the McClelland Collection by Noel and Anne Marie Smyth, 2003",
     "image" : "spice:documentation/in-memory-of-the-crew-of-the-port-yarrock-of-glasgow",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Oil on board",
-    "schema:size" : "23 x 35.5 cm",
-    "arco-cd:hasInventory" : "IMMA.1183 MCCL"
+    "material" : "Oil on board",
+    "size" : "23 x 35.5 cm",
+    "hasInventory" : "IMMA.1183 MCCL"
   }, {
     "@id" : "spice:documentation/in-memory-of-the-crew-of-the-port-yarrock-of-glasgow",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Jack Butler Yeats, In Memory of the Crew of the Port Yarrock of Glasgow, 1925, Oil on board, 23 x 35.5 cm, Collection Irish Museum of Modern Art, Heritage Gift from the McClelland Collection by Noel and Anne Marie Smyth, 2003 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Jack Butler Yeats, In Memory of the Crew of the Port Yarrock of Glasgow, 1925, Oil on board, 23 x 35.5 cm, Collection Irish Museum of Modern Art, Heritage Gift from the McClelland Collection by Noel and Anne Marie Smyth, 2003 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -43,20 +39,16 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

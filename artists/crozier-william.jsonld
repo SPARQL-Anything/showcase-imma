@@ -2,61 +2,61 @@
   "@graph" : [ {
     "@id" : "spice:agent/crozier-william",
     "@type" : "foaf:Person",
-    "dc:description" : [ "William Crozier was born in Glasgow where he would later attend the Glasgow School of Art. His paternal family were Irish, from Co. Antrim and as a child he often visited his grandparents at their home in Ballinderry. As a teenager he hitchhiked all around the country and developed a love of Ireland that would remain with him throughout his life. Immediately on leaving art college he travelled to post-war Paris where he absorbed the Existential writings of Sartre and de Beauvoir that became central to his practice as an artist. London was Crozier’s main base where he moved in the same circles in Soho as Lucian Freud and Francis Bacon.", "This Scottish-born, Irish artist (b. Glasgow 1930, d. Cork 2011) is best-known in Ireland for the lyrical landscapes he made close to his home in West Cork from the mid-1980s. Indeed he has created some of the most iconic works of the Irish landscape made in the latter half of the twentieth century. An elected member of Aosdána as well as honorary member of the Royal Hibernian Academy, William Crozier represented both Ireland and the UK internationally in numerous museum collections." ],
-    "dc:source" : "https://imma.ie/artists/william-crozier/",
-    "schema:birthDate" : "1930–2011",
-    "schema:url" : "https://imma.ie/artists/william-crozier/",
-    "rdfs:label" : "William Crozier"
+    "description" : [ "William Crozier was born in Glasgow where he would later attend the Glasgow School of Art. His paternal family were Irish, from Co. Antrim and as a child he often visited his grandparents at their home in Ballinderry. As a teenager he hitchhiked all around the country and developed a love of Ireland that would remain with him throughout his life. Immediately on leaving art college he travelled to post-war Paris where he absorbed the Existential writings of Sartre and de Beauvoir that became central to his practice as an artist. London was Crozier’s main base where he moved in the same circles in Soho as Lucian Freud and Francis Bacon.", "This Scottish-born, Irish artist (b. Glasgow 1930, d. Cork 2011) is best-known in Ireland for the lyrical landscapes he made close to his home in West Cork from the mid-1980s. Indeed he has created some of the most iconic works of the Irish landscape made in the latter half of the twentieth century. An elected member of Aosdána as well as honorary member of the Royal Hibernian Academy, William Crozier represented both Ireland and the UK internationally in numerous museum collections." ],
+    "source" : "https://imma.ie/artists/william-crozier/",
+    "birthDate" : "1930–2011",
+    "url" : "https://imma.ie/artists/william-crozier/",
+    "label" : "William Crozier"
   }, {
     "@id" : "spice:artefact/larios",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/crozier-william",
     "author" : "spice:agent/crozier-william",
-    "schema:dateCreated" : "2010",
-    "schema:url" : "https://imma.ie/collection/larios/",
+    "dateCreated" : "2010",
+    "url" : "https://imma.ie/collection/larios/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/larios",
-    "arco-cd:hasTitle" : "Larios"
+    "hasTitle" : "Larios"
   }, {
     "@id" : "spice:artefact/mediterranean-night",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/crozier-william",
     "author" : "spice:agent/crozier-william",
-    "schema:dateCreated" : "1990",
-    "schema:url" : "https://imma.ie/collection/mediterranean-night/",
+    "dateCreated" : "1990",
+    "url" : "https://imma.ie/collection/mediterranean-night/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/mediterranean-night",
-    "arco-cd:hasTitle" : "Mediterranean Night"
+    "hasTitle" : "Mediterranean Night"
   }, {
     "@id" : "spice:artefact/north-star-venus",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/crozier-william",
     "author" : "spice:agent/crozier-william",
-    "schema:dateCreated" : "1997",
-    "schema:url" : "https://imma.ie/collection/north-star-venus/",
+    "dateCreated" : "1997",
+    "url" : "https://imma.ie/collection/north-star-venus/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/north-star-venus",
-    "arco-cd:hasTitle" : "North Star Venus"
+    "hasTitle" : "North Star Venus"
   }, {
     "@id" : "spice:artefact/spring-cutting",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/crozier-william",
     "author" : "spice:agent/crozier-william",
-    "schema:dateCreated" : "2009",
-    "schema:url" : "https://imma.ie/collection/spring-cutting/",
+    "dateCreated" : "2009",
+    "url" : "https://imma.ie/collection/spring-cutting/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/spring-cutting",
-    "arco-cd:hasTitle" : "Spring Cutting"
+    "hasTitle" : "Spring Cutting"
   }, {
     "@id" : "spice:artefact/sunset-journey",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/crozier-william",
     "author" : "spice:agent/crozier-william",
-    "schema:dateCreated" : "1994",
-    "schema:url" : "https://imma.ie/collection/sunset-journey/",
+    "dateCreated" : "1994",
+    "url" : "https://imma.ie/collection/sunset-journey/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/sunset-journey",
-    "arco-cd:hasTitle" : "Sunset Journey"
+    "hasTitle" : "Sunset Journey"
   }, {
     "@id" : "spice:attribution/larios",
     "@type" : "arco:AuthorshipAttribution",
@@ -88,48 +88,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

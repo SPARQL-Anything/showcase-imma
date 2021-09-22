@@ -2,66 +2,57 @@
   "@graph" : [ {
     "@id" : "spice:artefact/lips-of-thomas-star-on-stomach",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Lips of Thomas (Star on Stomach) is a 1975 work by Marina Abramović. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/lips-of-thomas-star-on-stomach/",
-    "schema:creditText" : "IMMA Collection: Purchase, 1995",
+    "description" : "Lips of Thomas (Star on Stomach) is a 1975 work by Marina Abramović. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/lips-of-thomas-star-on-stomach/",
+    "creditText" : "IMMA Collection: Purchase, 1995",
     "image" : "spice:documentation/lips-of-thomas-star-on-stomach",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Framed black and white photograph with framed letter press text panel",
-    "schema:size" : "Image framed 49.5 x 59.7 cm Text framed 26 x 18.4 cm",
-    "schema:version" : "Edition 1/16, 3 AP's",
-    "arco-cd:hasInventory" : "IMMA.479"
+    "material" : "Framed black and white photograph with framed letter press text panel",
+    "size" : "Image framed 49.5 x 59.7 cm Text framed 26 x 18.4 cm",
+    "version" : "Edition 1/16, 3 AP's",
+    "hasInventory" : "IMMA.479"
   }, {
     "@id" : "spice:documentation/lips-of-thomas-star-on-stomach",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Marina Abramović, Lips of Thomas (Star on Stomach), 1975, Framed black and white photograph with framed letter press text panel, Image framed 49.5 x 59.7 cm Text framed 26 x 18.4 cm, Collection Irish Museum of Modern Art, Purchase, 1995 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Marina Abramović, Lips of Thomas (Star on Stomach), 1975, Framed black and white photograph with framed letter press text panel, Image framed 49.5 x 59.7 cm Text framed 26 x 18.4 cm, Collection Irish Museum of Modern Art, Purchase, 1995 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

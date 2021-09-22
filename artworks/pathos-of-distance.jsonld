@@ -1,0 +1,67 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/pathos-of-distance",
+    "@type" : "schema:CreativeWork",
+    "description" : " Pathos of Distance. In 2015, the National Gallery of Ireland invited Sarah Pierce to engage with the ESB CSIA in the ongoing research project: Visualising the Irish Diaspora. The result of this collaboration was the creation of a new artwork by Pierce exploring the concept, themes and subject of the Irish Diaspora as viewed among the communities in which they settled around the world.  ",
+    "source" : "https://imma.ie/collection/pathos-of-distance/",
+    "creditText" : "IMMA Collection: Purchase, 2021, 2021",
+    "image" : "spice:documentation/pathos-of-distance",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "material" : "used furniture, plinths, digital photographs and texts",
+    "hasInventory" : "IMMA.4201"
+  }, {
+    "@id" : "spice:documentation/pathos-of-distance",
+    "@type" : "schema:ImageObject",
+    "caption" : "Sarah Pierce, Pathos of Distance, 2015, used furniture, plinths, digital photographs and texts, Collection Irish Museum of Modern Art, Purchase, 2021, 2021 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "url" : "https://imma.ie/wp-content/uploads/2021/04/9496.jpg"
+  } ],
+  "@context" : {
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

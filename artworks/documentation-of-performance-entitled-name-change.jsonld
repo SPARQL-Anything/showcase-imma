@@ -2,40 +2,35 @@
   "@graph" : [ {
     "@id" : "spice:artefact/documentation-of-performance-entitled-name-change",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Documentation of Performance Entitled Name Change is a 1972 work by Brian O'Doherty and Patrick Ireland. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/documentation-of-performance-entitled-name-change/",
-    "schema:creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
+    "description" : "Documentation of Performance Entitled Name Change is a 1972 work by Brian O'Doherty and Patrick Ireland. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/documentation-of-performance-entitled-name-change/",
+    "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/documentation-of-performance-entitled-name-change",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "5 photographs, painted coat and certificate",
-    "schema:size" : "Variable",
-    "arco-cd:hasInventory" : "IMMA.259 GL"
+    "material" : "5 photographs, painted coat and certificate",
+    "size" : "Variable",
+    "hasInventory" : "IMMA.259 GL"
   }, {
     "@id" : "spice:documentation/documentation-of-performance-entitled-name-change",
     "@type" : "schema:ImageObject",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/1940.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/1940.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -46,12 +41,10 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

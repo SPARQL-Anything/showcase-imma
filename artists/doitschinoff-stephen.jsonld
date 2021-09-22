@@ -2,19 +2,19 @@
   "@graph" : [ {
     "@id" : "spice:agent/doitschinoff-stephen",
     "@type" : "foaf:Person",
-    "dc:source" : "https://imma.ie/artists/stephen-doitschinoff/",
-    "schema:url" : "https://imma.ie/artists/stephen-doitschinoff/",
-    "rdfs:label" : "Stephen Doitschinoff"
+    "source" : "https://imma.ie/artists/stephen-doitschinoff/",
+    "url" : "https://imma.ie/artists/stephen-doitschinoff/",
+    "label" : "Stephen Doitschinoff"
   }, {
     "@id" : "spice:artefact/coracao-retissimo-straightest-heart",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/doitschinoff-stephen",
     "author" : "spice:agent/doitschinoff-stephen",
-    "schema:dateCreated" : "2011",
-    "schema:url" : "https://imma.ie/collection/coracao-retissimo-straightest-heart/",
+    "dateCreated" : "2011",
+    "url" : "https://imma.ie/collection/coracao-retissimo-straightest-heart/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/coracao-retissimo-straightest-heart",
-    "arco-cd:hasTitle" : "Coracao Retissimo (Straightest Heart)"
+    "hasTitle" : "Coracao Retissimo (Straightest Heart)"
   }, {
     "@id" : "spice:attribution/coracao-retissimo-straightest-heart",
     "@type" : "arco:AuthorshipAttribution",
@@ -26,24 +26,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -54,16 +51,14 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

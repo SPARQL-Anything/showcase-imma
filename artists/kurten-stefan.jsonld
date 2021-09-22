@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/kurten-stefan",
     "@type" : "foaf:Person",
-    "dc:description" : "German painter Stefan Kürten studied at Heinrich Heine University and Düsseldorf Arts Academy. He went on to study and also taught at the Art Institute of San Francisco. Kürten’s paintings are concerned with architecture and his subtle use of metallic gold paint causes them to shimmer with an interior radiance. In 2007, 'Shadowtime', a survey of his paintings since 2001 was shown at the Royal Hibernian Academy, Dublin. His work is represented in the collections of MoMA, New York, the San Francisco Museum of Modern Art and the Montreal Museum of Art.",
-    "dc:source" : "https://imma.ie/artists/stefan-kurten/",
-    "schema:birthDate" : "b.1963",
-    "schema:url" : "https://imma.ie/artists/stefan-kurten/",
-    "rdfs:label" : "Stefan Kürten"
+    "description" : "German painter Stefan Kürten studied at Heinrich Heine University and Düsseldorf Arts Academy. He went on to study and also taught at the Art Institute of San Francisco. Kürten’s paintings are concerned with architecture and his subtle use of metallic gold paint causes them to shimmer with an interior radiance. In 2007, 'Shadowtime', a survey of his paintings since 2001 was shown at the Royal Hibernian Academy, Dublin. His work is represented in the collections of MoMA, New York, the San Francisco Museum of Modern Art and the Montreal Museum of Art.",
+    "source" : "https://imma.ie/artists/stefan-kurten/",
+    "birthDate" : "b.1963",
+    "url" : "https://imma.ie/artists/stefan-kurten/",
+    "label" : "Stefan Kürten"
   }, {
     "@id" : "spice:artefact/golden-world",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/kurten-stefan",
     "author" : "spice:agent/kurten-stefan",
-    "schema:dateCreated" : "1997",
-    "schema:url" : "https://imma.ie/collection/golden-world/",
+    "dateCreated" : "1997",
+    "url" : "https://imma.ie/collection/golden-world/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/golden-world",
-    "arco-cd:hasTitle" : "Golden World"
+    "hasTitle" : "Golden World"
   }, {
     "@id" : "spice:attribution/golden-world",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,24 +28,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -56,24 +53,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

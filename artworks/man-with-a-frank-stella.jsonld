@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/man-with-a-frank-stella",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "In 1972 Ballagh began his ‘People at an Exhibition’ series, an extensive body of paintings of people looking at paintings by international artists such as Mondrian, Warhol, Jasper Johns and many others, as well as Irish artists such as Michael Farrell, Patrick Scott and Cecil King. The collector Gordon Lambert appears in this work, whose garish colour juxtapositions suggest one of Stella’s ‘Irregular Polygon’ series (1965-66).",
-    "dc:source" : "https://imma.ie/collection/man-with-a-frank-stella/",
-    "schema:creditText" : "IMMA Collection: Heritage Gift by Bank of Ireland, 1999",
+    "description" : "In 1972 Ballagh began his ‘People at an Exhibition’ series, an extensive body of paintings of people looking at paintings by international artists such as Mondrian, Warhol, Jasper Johns and many others, as well as Irish artists such as Michael Farrell, Patrick Scott and Cecil King. The collector Gordon Lambert appears in this work, whose garish colour juxtapositions suggest one of Stella’s ‘Irregular Polygon’ series (1965-66).",
+    "source" : "https://imma.ie/collection/man-with-a-frank-stella/",
+    "creditText" : "IMMA Collection: Heritage Gift by Bank of Ireland, 1999",
     "image" : "spice:documentation/man-with-a-frank-stella",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Acrylic on 16 canvases",
-    "schema:size" : "244 x 234 cm",
-    "arco-cd:hasInventory" : "IMMA.1261"
+    "material" : "Acrylic on 16 canvases",
+    "size" : "244 x 234 cm",
+    "hasInventory" : "IMMA.1261"
   }, {
     "@id" : "spice:documentation/man-with-a-frank-stella",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Robert Ballagh, Man with a Frank Stella, 1974, Acrylic on 16 canvases, 244 x 234 cm, Collection Irish Museum of Modern Art, Heritage Gift by Bank of Ireland, 1999 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Robert Ballagh, Man with a Frank Stella, 1974, Acrylic on 16 canvases, 244 x 234 cm, Collection Irish Museum of Modern Art, Heritage Gift by Bank of Ireland, 1999 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/819.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/819.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

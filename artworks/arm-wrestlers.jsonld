@@ -2,71 +2,61 @@
   "@graph" : [ {
     "@id" : "spice:artefact/arm-wrestlers",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Arm Wrestlers is a 1986 work by John Bellany. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/arm-wrestlers/",
-    "schema:creditText" : "IMMA Collection: Donated by the Department of Customs and Excise, 1994 (July)",
+    "description" : "Arm Wrestlers is a 1986 work by John Bellany. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/arm-wrestlers/",
+    "creditText" : "IMMA Collection: Donated by the Department of Customs and Excise, 1994 (July)",
     "image" : "spice:documentation/arm-wrestlers",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Etching",
-    "schema:size" : "55.9 x 76.2 cm",
-    "schema:version" : "Edition 3/60",
-    "arco-cd:hasInventory" : "IMMA.458.2"
+    "material" : "Etching",
+    "size" : "55.9 x 76.2 cm",
+    "version" : "Edition 3/60",
+    "hasInventory" : "IMMA.458.2"
   }, {
     "@id" : "spice:documentation/arm-wrestlers",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "John Bellany, Arm Wrestlers, 1986, Etching, 55.9 x 76.2 cm, Collection Irish Museum of Modern Art, Donated by the Department of Customs and Excise, 1994 (July) ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "John Bellany, Arm Wrestlers, 1986, Etching, 55.9 x 76.2 cm, Collection Irish Museum of Modern Art, Donated by the Department of Customs and Excise, 1994 (July) ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2020/02/866.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2020/02/866.jpg"
   } ],
   "@context" : {
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

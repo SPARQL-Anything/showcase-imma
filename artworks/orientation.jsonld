@@ -2,37 +2,33 @@
   "@graph" : [ {
     "@id" : "spice:artefact/orientation",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Orientation is a 1991 work by Mary Fitzgerald. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/orientation/",
-    "schema:creditText" : "IMMA Collection: Purchase, 1992",
+    "description" : "Orientation is a 1991 work by Mary Fitzgerald. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/orientation/",
+    "creditText" : "IMMA Collection: Purchase, 1992",
     "image" : "spice:documentation/orientation",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Canvas, steel, glass, thread, pigment",
-    "schema:size" : "Variable",
-    "arco-cd:hasInventory" : "IMMA.97"
+    "material" : "Canvas, steel, glass, thread, pigment",
+    "size" : "Variable",
+    "hasInventory" : "IMMA.97"
   }, {
     "@id" : "spice:documentation/orientation",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Mary Fitzgerald, Orientation, 1991, Canvas, steel, glass, thread, pigment, Variable, Collection Irish Museum of Modern Art, Purchase, 1992 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Mary Fitzgerald, Orientation, 1991, Canvas, steel, glass, thread, pigment, Variable, Collection Irish Museum of Modern Art, Purchase, 1992 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -43,20 +39,16 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

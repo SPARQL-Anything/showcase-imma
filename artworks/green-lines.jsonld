@@ -2,66 +2,57 @@
   "@graph" : [ {
     "@id" : "spice:artefact/green-lines",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Wejchert’s large-scale sculptural works in innovative materials including coloured perspex, plexiglass and neon became emblematic of the new spirit of progress in 1970s Ireland. Wejchert received many major commissions from businesses and institutions including, Irish Life; the Bank of Ireland; University College Dublin, and Trinity College Dublin.",
-    "dc:source" : "https://imma.ie/collection/green-lines/",
-    "schema:creditText" : "IMMA Collection: Donation 2010, Bank of Ireland Art Collection, 2010",
+    "description" : "Wejchert’s large-scale sculptural works in innovative materials including coloured perspex, plexiglass and neon became emblematic of the new spirit of progress in 1970s Ireland. Wejchert received many major commissions from businesses and institutions including, Irish Life; the Bank of Ireland; University College Dublin, and Trinity College Dublin.",
+    "source" : "https://imma.ie/collection/green-lines/",
+    "creditText" : "IMMA Collection: Donation 2010, Bank of Ireland Art Collection, 2010",
     "image" : "spice:documentation/green-lines",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Perspex, raised on a black painted timber base and stand",
-    "schema:size" : "80 x 111.5 x 105 cm",
-    "arco-cd:hasInventory" : "IMMA.3280"
+    "material" : "Perspex, raised on a black painted timber base and stand",
+    "size" : "80 x 111.5 x 105 cm",
+    "hasInventory" : "IMMA.3280"
   }, {
     "@id" : "spice:documentation/green-lines",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Alexandra Wejchert, Green Lines, 1974, Perspex, raised on a black painted timber base and stand, 80 x 111.5 x 105 cm, Collection Irish Museum of Modern Art, Donation 2010, Bank of Ireland Art Collection, 2010 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Alexandra Wejchert, Green Lines, 1974, Perspex, raised on a black painted timber base and stand, 80 x 111.5 x 105 cm, Collection Irish Museum of Modern Art, Donation 2010, Bank of Ireland Art Collection, 2010 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/5579.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/5579.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

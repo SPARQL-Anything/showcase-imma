@@ -2,71 +2,61 @@
   "@graph" : [ {
     "@id" : "spice:artefact/red-on-green",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Red on Green is a 1975 work by Mary Farl Powers. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/red-on-green/",
-    "schema:creditText" : "IMMA Collection: Donation, Powers Family, 2009",
+    "description" : "Red on Green is a 1975 work by Mary Farl Powers. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/red-on-green/",
+    "creditText" : "IMMA Collection: Donation, Powers Family, 2009",
     "image" : "spice:documentation/red-on-green",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Colour etching",
-    "schema:size" : "43 x 30 cm",
-    "schema:version" : "Edition 3/15",
-    "arco-cd:hasInventory" : "IMMA.660"
+    "material" : "Colour etching",
+    "size" : "43 x 30 cm",
+    "version" : "Edition 3/15",
+    "hasInventory" : "IMMA.660"
   }, {
     "@id" : "spice:documentation/red-on-green",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Mary Farl Powers, Red on Green, 1975, Colour etching, 43 x 30 cm, Collection Irish Museum of Modern Art, Donation, Powers Family, 2009 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Mary Farl Powers, Red on Green, 1975, Colour etching, 43 x 30 cm, Collection Irish Museum of Modern Art, Donation, Powers Family, 2009 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2019/10/994.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2019/10/994.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

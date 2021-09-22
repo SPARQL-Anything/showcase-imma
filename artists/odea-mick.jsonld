@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/odea-mick",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish artist Mick O’Dea (born 1958) studied at the National College of Art and Design, Dublin, the University of Massachusetts and Winchester School of Art. O’Dea taught at NCAD between 1981 and 1999 and has also taught at a number of universities in the U.K. and the U.S. He has received numerous awards and is an elected member of the Royal Hibernian Academy and of Aosdána. O’Dea’s work is held in many public and private collections including that of The Arts Council of Ireland; the Royal Hibernian Academy; the National Gallery of Ireland; and the National Drawing Collection.",
-    "dc:source" : "https://imma.ie/artists/mick-odea/",
-    "schema:birthDate" : "b.1958",
-    "schema:url" : "https://imma.ie/artists/mick-odea/",
-    "rdfs:label" : "Mick O’Dea"
+    "description" : "Irish artist Mick O’Dea (born 1958) studied at the National College of Art and Design, Dublin, the University of Massachusetts and Winchester School of Art. O’Dea taught at NCAD between 1981 and 1999 and has also taught at a number of universities in the U.K. and the U.S. He has received numerous awards and is an elected member of the Royal Hibernian Academy and of Aosdána. O’Dea’s work is held in many public and private collections including that of The Arts Council of Ireland; the Royal Hibernian Academy; the National Gallery of Ireland; and the National Drawing Collection.",
+    "source" : "https://imma.ie/artists/mick-odea/",
+    "birthDate" : "b.1958",
+    "url" : "https://imma.ie/artists/mick-odea/",
+    "label" : "Mick O’Dea"
   }, {
     "@id" : "spice:artefact/three-painters-and-the-poet",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/odea-mick",
     "author" : "spice:agent/odea-mick",
-    "schema:dateCreated" : "2005",
-    "schema:url" : "https://imma.ie/collection/three-painters-and-the-poet/",
+    "dateCreated" : "2005",
+    "url" : "https://imma.ie/collection/three-painters-and-the-poet/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/three-painters-and-the-poet",
-    "arco-cd:hasTitle" : "Three Painters and the Poet"
+    "hasTitle" : "Three Painters and the Poet"
   }, {
     "@id" : "spice:attribution/three-painters-and-the-poet",
     "@type" : "arco:AuthorshipAttribution",
@@ -32,48 +32,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

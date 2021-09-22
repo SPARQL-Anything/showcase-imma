@@ -2,31 +2,31 @@
   "@graph" : [ {
     "@id" : "spice:agent/zimmerman-carl",
     "@type" : "foaf:Person",
-    "dc:description" : "Canadian artist Carl Zimmerman attended McMaster University and the Nova Scotia College of Art and Design. Zimmerman has exhibited in Canada and abroad since the 1990s. His usual process includes the construction of architectural models that are then photographed and digitally combined with real backgrounds. He participated in IMMA’s Artists’ Residency Programme in 2001. His work is represented in public collections including the Art Gallery of Hamilton, Ontario, and the Art Gallery of Nova Scotia.",
-    "dc:source" : "https://imma.ie/artists/carl-zimmerman/",
-    "schema:birthDate" : "b.1954",
-    "schema:url" : "https://imma.ie/artists/carl-zimmerman/",
-    "rdfs:label" : "Carl Zimmerman"
+    "description" : "Canadian artist Carl Zimmerman attended McMaster University and the Nova Scotia College of Art and Design. Zimmerman has exhibited in Canada and abroad since the 1990s. His usual process includes the construction of architectural models that are then photographed and digitally combined with real backgrounds. He participated in IMMA’s Artists’ Residency Programme in 2001. His work is represented in public collections including the Art Gallery of Hamilton, Ontario, and the Art Gallery of Nova Scotia.",
+    "source" : "https://imma.ie/artists/carl-zimmerman/",
+    "birthDate" : "b.1954",
+    "url" : "https://imma.ie/artists/carl-zimmerman/",
+    "label" : "Carl Zimmerman"
   }, {
     "@id" : "spice:artefact/landmarks-of-industrial-britain",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/zimmerman-carl",
     "author" : "spice:agent/zimmerman-carl",
-    "schema:dateCreated" : "2007",
-    "schema:url" : "https://imma.ie/collection/landmarks-of-industrial-britain/",
+    "dateCreated" : "2007",
+    "url" : "https://imma.ie/collection/landmarks-of-industrial-britain/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/landmarks-of-industrial-britain",
-    "arco-cd:hasTitle" : "Landmarks of Industrial Britain"
+    "hasTitle" : "Landmarks of Industrial Britain"
   }, {
     "@id" : "spice:artefact/mausoleum-birmingham",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/zimmerman-carl",
     "author" : "spice:agent/zimmerman-carl",
-    "schema:dateCreated" : "2001",
-    "schema:url" : "https://imma.ie/collection/mausoleum-birmingham/",
+    "dateCreated" : "2001",
+    "url" : "https://imma.ie/collection/mausoleum-birmingham/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/mausoleum-birmingham",
-    "arco-cd:hasTitle" : "Mausoleum, Birmingham"
+    "hasTitle" : "Mausoleum, Birmingham"
   }, {
     "@id" : "spice:attribution/landmarks-of-industrial-britain",
     "@type" : "arco:AuthorshipAttribution",
@@ -46,48 +46,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -2,31 +2,31 @@
   "@graph" : [ {
     "@id" : "spice:agent/lynch-catherine",
     "@type" : "foaf:Person",
-    "dc:description" : "Born in Co. Cork, Catherine Lynch studied painting and printmaking at Crawford College of Art, Cork and the Royal College of Art, London. She went on to participate in the print training programme at Tamarind Institute, University of New Mexico, where she specialized in lithography. Lynch joined the Black Church Print Studio in 1996 and worked mainly in the area of screenprint. She is a lecturer in Fine Art Printmaking at the National College of Art and Design.",
-    "dc:source" : "https://imma.ie/artists/catherine-lynch/",
-    "schema:birthDate" : "b.1967",
-    "schema:url" : "https://imma.ie/artists/catherine-lynch/",
-    "rdfs:label" : "Catherine Lynch"
+    "description" : "Born in Co. Cork, Catherine Lynch studied painting and printmaking at Crawford College of Art, Cork and the Royal College of Art, London. She went on to participate in the print training programme at Tamarind Institute, University of New Mexico, where she specialized in lithography. Lynch joined the Black Church Print Studio in 1996 and worked mainly in the area of screenprint. She is a lecturer in Fine Art Printmaking at the National College of Art and Design.",
+    "source" : "https://imma.ie/artists/catherine-lynch/",
+    "birthDate" : "b.1967",
+    "url" : "https://imma.ie/artists/catherine-lynch/",
+    "label" : "Catherine Lynch"
   }, {
     "@id" : "spice:artefact/untitled-32",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lynch-catherine",
     "author" : "spice:agent/lynch-catherine",
-    "schema:dateCreated" : "1996",
-    "schema:url" : "https://imma.ie/collection/untitled-32/",
+    "dateCreated" : "1996",
+    "url" : "https://imma.ie/collection/untitled-32/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-32",
-    "arco-cd:hasTitle" : "Untitled"
+    "hasTitle" : "Untitled"
   }, {
     "@id" : "spice:artefact/untitled-33",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lynch-catherine",
     "author" : "spice:agent/lynch-catherine",
-    "schema:dateCreated" : "1996",
-    "schema:url" : "https://imma.ie/collection/untitled-33/",
+    "dateCreated" : "1996",
+    "url" : "https://imma.ie/collection/untitled-33/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-33",
-    "arco-cd:hasTitle" : "Untitled"
+    "hasTitle" : "Untitled"
   }, {
     "@id" : "spice:attribution/untitled-32",
     "@type" : "arco:AuthorshipAttribution",
@@ -38,40 +38,33 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -87,7 +80,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

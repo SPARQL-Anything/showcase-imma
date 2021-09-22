@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/ward-velox",
     "@type" : "foaf:Person",
-    "dc:description" : "American painter Velox Ward (1901 – 1994) was born in East Texas. He worked at a variety of jobs before he began to paint in 1960. In 1972 Ward had a major travelling solo exhibition at the Amon Carter Museum, Texas, the Wichita Falls Museum, Texas, and the Dallas Museum of Fine Arts. His work is represented in the collections of major institutions including that of the Museum of Modern Art, New York; the Contemporary Arts Museum, Houston; and the Amon Carter Museum, Texas.",
-    "dc:source" : "https://imma.ie/artists/velox-ward/",
-    "schema:birthDate" : "1901–1994",
-    "schema:url" : "https://imma.ie/artists/velox-ward/",
-    "rdfs:label" : "Velox Ward"
+    "description" : "American painter Velox Ward (1901 – 1994) was born in East Texas. He worked at a variety of jobs before he began to paint in 1960. In 1972 Ward had a major travelling solo exhibition at the Amon Carter Museum, Texas, the Wichita Falls Museum, Texas, and the Dallas Museum of Fine Arts. His work is represented in the collections of major institutions including that of the Museum of Modern Art, New York; the Contemporary Arts Museum, Houston; and the Amon Carter Museum, Texas.",
+    "source" : "https://imma.ie/artists/velox-ward/",
+    "birthDate" : "1901–1994",
+    "url" : "https://imma.ie/artists/velox-ward/",
+    "label" : "Velox Ward"
   }, {
     "@id" : "spice:artefact/the-home-my-daddy-built",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ward-velox",
     "author" : "spice:agent/ward-velox",
-    "schema:dateCreated" : "1975",
-    "schema:url" : "https://imma.ie/collection/the-home-my-daddy-built/",
+    "dateCreated" : "1975",
+    "url" : "https://imma.ie/collection/the-home-my-daddy-built/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-home-my-daddy-built",
-    "arco-cd:hasTitle" : "The Home My Daddy Built"
+    "hasTitle" : "The Home My Daddy Built"
   }, {
     "@id" : "spice:attribution/the-home-my-daddy-built",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,40 +24,33 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

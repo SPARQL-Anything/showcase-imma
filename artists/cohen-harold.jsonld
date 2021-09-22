@@ -2,31 +2,31 @@
   "@graph" : [ {
     "@id" : "spice:agent/cohen-harold",
     "@type" : "foaf:Person",
-    "dc:description" : "Born in London, Harold Cohen studied at the Slade School from 1948 to 1952, returning to teach there in 1961. He went on to lecture at the Visual Art Department, University of California, San Diego, for more than three decades. At Stanford University in 1973, he authored the AARON software programme which allows for the production of art using autonomous machine intelligence. Using AARON, Cohen produces abstract and representational drawings.",
-    "dc:source" : "https://imma.ie/artists/harold-cohen/",
-    "schema:birthDate" : "b.1928",
-    "schema:url" : "https://imma.ie/artists/harold-cohen/",
-    "rdfs:label" : "Harold Cohen"
+    "description" : "Born in London, Harold Cohen studied at the Slade School from 1948 to 1952, returning to teach there in 1961. He went on to lecture at the Visual Art Department, University of California, San Diego, for more than three decades. At Stanford University in 1973, he authored the AARON software programme which allows for the production of art using autonomous machine intelligence. Using AARON, Cohen produces abstract and representational drawings.",
+    "source" : "https://imma.ie/artists/harold-cohen/",
+    "birthDate" : "b.1928",
+    "url" : "https://imma.ie/artists/harold-cohen/",
+    "label" : "Harold Cohen"
   }, {
     "@id" : "spice:artefact/computer-drawing",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/cohen-harold",
     "author" : "spice:agent/cohen-harold",
-    "schema:dateCreated" : "1986",
-    "schema:url" : "https://imma.ie/collection/computer-drawing/",
+    "dateCreated" : "1986",
+    "url" : "https://imma.ie/collection/computer-drawing/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/computer-drawing",
-    "arco-cd:hasTitle" : "Computer Drawing"
+    "hasTitle" : "Computer Drawing"
   }, {
     "@id" : "spice:artefact/computer-drawing-2",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/cohen-harold",
     "author" : "spice:agent/cohen-harold",
-    "schema:dateCreated" : "1983",
-    "schema:url" : "https://imma.ie/collection/computer-drawing-2/",
+    "dateCreated" : "1983",
+    "url" : "https://imma.ie/collection/computer-drawing-2/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/computer-drawing-2",
-    "arco-cd:hasTitle" : "Computer Drawing"
+    "hasTitle" : "Computer Drawing"
   }, {
     "@id" : "spice:attribution/computer-drawing",
     "@type" : "arco:AuthorshipAttribution",
@@ -42,44 +42,37 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -87,7 +80,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

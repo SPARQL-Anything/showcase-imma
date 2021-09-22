@@ -2,31 +2,31 @@
   "@graph" : [ {
     "@id" : "spice:agent/erwitt-elliott",
     "@type" : "foaf:Person",
-    "dc:description" : "Photographer Elliott Erwitt was born in France to Russian parents, the family then immigrated to the US in 1939. Erwitt studied photography at Los Angeles City College and film at the New School for Social Research, New York. His observational photographic work captures moments of the sublime in ordinary life. He also created intimate portraits of such iconic figures as Marilyn Monroe, Che Guevara and Jackie Kennedy. Erwitt became a member of Magnum Photos in 1953 and served as president of the agency for three years in the late 1960s. From the 1970s, he also produced a number of documentaries and comedy films.",
-    "dc:source" : "https://imma.ie/artists/elliott-erwitt/",
-    "schema:birthDate" : "b.1928",
-    "schema:url" : "https://imma.ie/artists/elliott-erwitt/",
-    "rdfs:label" : "Elliott Erwitt"
+    "description" : "Photographer Elliott Erwitt was born in France to Russian parents, the family then immigrated to the US in 1939. Erwitt studied photography at Los Angeles City College and film at the New School for Social Research, New York. His observational photographic work captures moments of the sublime in ordinary life. He also created intimate portraits of such iconic figures as Marilyn Monroe, Che Guevara and Jackie Kennedy. Erwitt became a member of Magnum Photos in 1953 and served as president of the agency for three years in the late 1960s. From the 1970s, he also produced a number of documentaries and comedy films.",
+    "source" : "https://imma.ie/artists/elliott-erwitt/",
+    "birthDate" : "b.1928",
+    "url" : "https://imma.ie/artists/elliott-erwitt/",
+    "label" : "Elliott Erwitt"
   }, {
     "@id" : "spice:artefact/dublin",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/erwitt-elliott",
     "author" : "spice:agent/erwitt-elliott",
-    "schema:dateCreated" : "1962",
-    "schema:url" : "https://imma.ie/collection/dublin/",
+    "dateCreated" : "1962",
+    "url" : "https://imma.ie/collection/dublin/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/dublin",
-    "arco-cd:hasTitle" : "Dublin"
+    "hasTitle" : "Dublin"
   }, {
     "@id" : "spice:artefact/horse-show",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/erwitt-elliott",
     "author" : "spice:agent/erwitt-elliott",
-    "schema:dateCreated" : "1962",
-    "schema:url" : "https://imma.ie/collection/horse-show/",
+    "dateCreated" : "1962",
+    "url" : "https://imma.ie/collection/horse-show/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/horse-show",
-    "arco-cd:hasTitle" : "Horse Show"
+    "hasTitle" : "Horse Show"
   }, {
     "@id" : "spice:attribution/dublin",
     "@type" : "arco:AuthorshipAttribution",
@@ -42,40 +42,33 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -87,7 +80,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/taylor-johnson-sam",
     "@type" : "foaf:Person",
-    "dc:description" : "English artist Sam Taylor-Johnson (formerly Taylor-Wood, born 1967) graduated from Goldsmiths College, London, in 1990. Taylor-Johnson’s emotionally charged film and photographic works consider ideas of the isolated individual and our shared physical and physiological experiences. Taylor-Johnson was nominated for the Turner Prize in 1998. She has exhibited extensively, including solo exhibitions at the Museo Nacional Centro de Arte Reina Sofia, Madrid; the Hayward Gallery, London; the State Russian Museum, St Petersburg; BALTIC, Gateshead, and the Contemporary Art Museum, Houston.",
-    "dc:source" : "https://imma.ie/artists/sam-taylor-johnson/",
-    "schema:birthDate" : "b.1967",
-    "schema:url" : "https://imma.ie/artists/sam-taylor-johnson/",
-    "rdfs:label" : "Sam Taylor-Johnson"
+    "description" : "English artist Sam Taylor-Johnson (formerly Taylor-Wood, born 1967) graduated from Goldsmiths College, London, in 1990. Taylor-Johnson’s emotionally charged film and photographic works consider ideas of the isolated individual and our shared physical and physiological experiences. Taylor-Johnson was nominated for the Turner Prize in 1998. She has exhibited extensively, including solo exhibitions at the Museo Nacional Centro de Arte Reina Sofia, Madrid; the Hayward Gallery, London; the State Russian Museum, St Petersburg; BALTIC, Gateshead, and the Contemporary Art Museum, Houston.",
+    "source" : "https://imma.ie/artists/sam-taylor-johnson/",
+    "birthDate" : "b.1967",
+    "url" : "https://imma.ie/artists/sam-taylor-johnson/",
+    "label" : "Sam Taylor-Johnson"
   }, {
     "@id" : "spice:artefact/untitled-51",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/taylor-johnson-sam",
     "author" : "spice:agent/taylor-johnson-sam",
-    "schema:dateCreated" : "1994",
-    "schema:url" : "https://imma.ie/collection/untitled-51/",
+    "dateCreated" : "1994",
+    "url" : "https://imma.ie/collection/untitled-51/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-51",
-    "arco-cd:hasTitle" : "Untitled"
+    "hasTitle" : "Untitled"
   }, {
     "@id" : "spice:attribution/untitled-51",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,44 +28,37 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

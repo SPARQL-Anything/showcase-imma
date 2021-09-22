@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/schonzeit-ben",
     "@type" : "foaf:Person",
-    "dc:description" : "American painter Ben Schonzeit (born 1942) received his BFA from Cooper Union, New York in 1964 and he lives and works in New York City. He has exhibited extensively since 1970 including at Documenta V (1972) and Documenta VI (1977) and has been featured in numerous Photorealism exhibitions including at the Guggenheim Museum, Berlin in 2009. His work can be found in many collections including the Brooklyn Museum of Art, New York; the Metropolitan Museum of Art, New York; Kunsthalle, Basel; and the Ulster Museum, Belfast.",
-    "dc:source" : "https://imma.ie/artists/ben-schonzeit/",
-    "schema:birthDate" : "b.1942",
-    "schema:url" : "https://imma.ie/artists/ben-schonzeit/",
-    "rdfs:label" : "Ben Schonzeit"
+    "description" : "American painter Ben Schonzeit (born 1942) received his BFA from Cooper Union, New York in 1964 and he lives and works in New York City. He has exhibited extensively since 1970 including at Documenta V (1972) and Documenta VI (1977) and has been featured in numerous Photorealism exhibitions including at the Guggenheim Museum, Berlin in 2009. His work can be found in many collections including the Brooklyn Museum of Art, New York; the Metropolitan Museum of Art, New York; Kunsthalle, Basel; and the Ulster Museum, Belfast.",
+    "source" : "https://imma.ie/artists/ben-schonzeit/",
+    "birthDate" : "b.1942",
+    "url" : "https://imma.ie/artists/ben-schonzeit/",
+    "label" : "Ben Schonzeit"
   }, {
     "@id" : "spice:artefact/yankee-flame",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/schonzeit-ben",
     "author" : "spice:agent/schonzeit-ben",
-    "schema:dateCreated" : "1975",
-    "schema:url" : "https://imma.ie/collection/yankee-flame/",
+    "dateCreated" : "1975",
+    "url" : "https://imma.ie/collection/yankee-flame/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/yankee-flame",
-    "arco-cd:hasTitle" : "Yankee Flame"
+    "hasTitle" : "Yankee Flame"
   }, {
     "@id" : "spice:attribution/yankee-flame",
     "@type" : "arco:AuthorshipAttribution",
@@ -32,48 +32,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

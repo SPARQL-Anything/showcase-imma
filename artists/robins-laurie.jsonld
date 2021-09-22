@@ -1,35 +1,30 @@
 {
   "@id" : "spice:agent/robins-laurie",
   "@type" : "foaf:Person",
-  "dc:description" : "Laurie Robins is an artist and filmmaker whose work has used landscapes, texts and institutions as material to approach contemporary political questions. His films have focused on managerial practice, the challenges of representing ecological crisis, and the historical and environmental conditions of capitalism.",
-  "dc:source" : "https://imma.ie/artists/laurie-robins/",
-  "schema:birthDate" : "b.1988",
-  "schema:url" : "https://imma.ie/artists/laurie-robins/",
-  "rdfs:label" : "Laurie Robins",
+  "description" : "Laurie Robins is an artist and filmmaker whose work has used landscapes, texts and institutions as material to approach contemporary political questions. His films have focused on managerial practice, the challenges of representing ecological crisis, and the historical and environmental conditions of capitalism.",
+  "source" : "https://imma.ie/artists/laurie-robins/",
+  "birthDate" : "b.1988",
+  "url" : "https://imma.ie/artists/laurie-robins/",
+  "label" : "Laurie Robins",
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

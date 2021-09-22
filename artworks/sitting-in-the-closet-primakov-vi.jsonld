@@ -2,37 +2,33 @@
   "@graph" : [ {
     "@id" : "spice:artefact/sitting-in-the-closet-primakov-vi",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Sitting-in-the-Closet Primakov, VI is a 1972 work by Ilya Kabakov. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/sitting-in-the-closet-primakov-vi/",
-    "schema:creditText" : "IMMA Collection: Purchase, 1999",
+    "description" : "Sitting-in-the-Closet Primakov, VI is a 1972 work by Ilya Kabakov. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/sitting-in-the-closet-primakov-vi/",
+    "creditText" : "IMMA Collection: Purchase, 1999",
     "image" : "spice:documentation/sitting-in-the-closet-primakov-vi",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Boxed portfolio of 47 offset prints mounted on cardboard",
-    "schema:size" : "51.5 x 35 cm (each page)",
-    "arco-cd:hasInventory" : "IMMA.2463"
+    "material" : "Boxed portfolio of 47 offset prints mounted on cardboard",
+    "size" : "51.5 x 35 cm (each page)",
+    "hasInventory" : "IMMA.2463"
   }, {
     "@id" : "spice:documentation/sitting-in-the-closet-primakov-vi",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Ilya Kabakov, Sitting-in-the-Closet Primakov, VI, 1972, Boxed portfolio of 47 offset prints mounted on cardboard, 51.5 x 35 cm (each page), Collection Irish Museum of Modern Art, Purchase, 1999 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Ilya Kabakov, Sitting-in-the-Closet Primakov, VI, 1972, Boxed portfolio of 47 offset prints mounted on cardboard, 51.5 x 35 cm (each page), Collection Irish Museum of Modern Art, Purchase, 1999 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -43,20 +39,16 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

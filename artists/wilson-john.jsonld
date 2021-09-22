@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/wilson-john",
     "@type" : "foaf:Person",
-    "dc:description" : "John Wilson was a prominent African-American artist known for his monumental busts of Martin Luther King Jr. and anonymous symbolic heads of black men. Although celebrated for large-scale sculptures, the artist initially favoured drawing, painting and printmaking. Born in Massachusetts, Wilson graduated from Tufts University in 1947 and pursued further artistic studies in Paris, and then Mexico. During his five year residence in Mexico City, the artist was drawn to the socially engaged work of muralists Siqueiros and Orozco. Wilson returned to the United States in 1956, living in Chicago, New York and then Boston, where he took a teaching position at Tufts University, serving from 1964-1986. A gifted draftsman, the artist was active in printmaking studios including the Taller de Gráfica Popular in Mexico and the Center Street Studio in Boston.",
-    "dc:source" : "https://imma.ie/artists/john-wilson/",
-    "schema:birthDate" : "b.1922",
-    "schema:url" : "https://imma.ie/artists/john-wilson/",
-    "rdfs:label" : "John Wilson"
+    "description" : "John Wilson was a prominent African-American artist known for his monumental busts of Martin Luther King Jr. and anonymous symbolic heads of black men. Although celebrated for large-scale sculptures, the artist initially favoured drawing, painting and printmaking. Born in Massachusetts, Wilson graduated from Tufts University in 1947 and pursued further artistic studies in Paris, and then Mexico. During his five year residence in Mexico City, the artist was drawn to the socially engaged work of muralists Siqueiros and Orozco. Wilson returned to the United States in 1956, living in Chicago, New York and then Boston, where he took a teaching position at Tufts University, serving from 1964-1986. A gifted draftsman, the artist was active in printmaking studios including the Taller de Gráfica Popular in Mexico and the Center Street Studio in Boston.",
+    "source" : "https://imma.ie/artists/john-wilson/",
+    "birthDate" : "b.1922",
+    "url" : "https://imma.ie/artists/john-wilson/",
+    "label" : "John Wilson"
   }, {
     "@id" : "spice:artefact/dialogue",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/wilson-john",
     "author" : "spice:agent/wilson-john",
-    "schema:dateCreated" : "1973",
-    "schema:url" : "https://imma.ie/collection/dialogue/",
+    "dateCreated" : "1973",
+    "url" : "https://imma.ie/collection/dialogue/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/dialogue",
-    "arco-cd:hasTitle" : "Dialogue"
+    "hasTitle" : "Dialogue"
   }, {
     "@id" : "spice:attribution/dialogue",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,24 +28,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -56,24 +53,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

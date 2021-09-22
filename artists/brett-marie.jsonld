@@ -1,30 +1,68 @@
 {
-  "@id" : "spice:agent/brett-marie",
-  "@type" : "foaf:Person",
-  "dc:description" : [ "Marie Brett produces artwork in response to culturally shunned human behaviours with particular interests in lived experience of loss and trauma. She makes filmic, audio-sculptural, and event based works, for gallery and flux-off-site locations. Her practice develops through socially engaged methods, particularly exploring an ethic and aesthetic relation to the politics of cultural production.", "Marie Brett produces artwork in response to culturally shunned human behaviours with particular interests in lived experience of loss and trauma. She makes filmic, audio-sculptural, and event based works, for gallery and flux-off-site locations." ],
-  "dc:source" : "https://imma.ie/artists/marie-brett/",
-  "schema:url" : "https://imma.ie/artists/marie-brett/",
-  "rdfs:label" : "Marie Brett",
+  "@graph" : [ {
+    "@id" : "spice:agent/brett-marie",
+    "@type" : "foaf:Person",
+    "description" : [ "Marie Brett produces artwork in response to culturally shunned human behaviours with particular interests in lived experience of loss and trauma. She makes filmic, audio-sculptural, and event based works, for gallery and flux-off-site locations. Her practice develops through socially engaged methods, particularly exploring an ethic and aesthetic relation to the politics of cultural production.", "Marie Brett is a visual artist working in digital, sculptural and live events. Her practice often involves gathering people who’ve never been involved in art making before as central contributors. Recurrently she makes work exploring peoples’ significant lived-life experience, including trauma and issues of vulnerability, loss and social isolation; and her practice re-positions what can be socially hidden and is culturally shunned. Considered by many to be one of Ireland’s leading exponents in the field of inter-disciplinary and collaborative arts practice, she is a graduate of London University Goldsmiths College, and holds a 1st class Bachelors BA and a Masters MA visual arts degree, and has work held in national and international public art collections." ],
+    "source" : "https://imma.ie/artists/marie-brett/",
+    "url" : "https://imma.ie/artists/marie-brett/",
+    "label" : "Marie Brett"
+  }, {
+    "@id" : "spice:artefact/yes-but-do-you-care",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/brett-marie",
+    "author" : "spice:agent/brett-marie",
+    "dateCreated" : "2021",
+    "url" : "https://imma.ie/collection/yes-but-do-you-care/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/yes-but-do-you-care",
+    "hasTitle" : "Yes, But Do You Care?"
+  }, {
+    "@id" : "spice:attribution/yes-but-do-you-care",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/brett-marie"
+  } ],
   "@context" : {
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

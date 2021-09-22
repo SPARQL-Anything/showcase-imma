@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/butler-alan",
     "@type" : "foaf:Person",
-    "dc:description" : [ "Alan Butler’s work explores material and philosophical ideas about how imagery and meaning function in technologically mediated realities. His subject often ties together the cultural dogma that underpins visual languages, with algorithmic modes of being in western capitalist societies. He received his MFA from LaSalle College of the Arts, Singapore (2009). and BA in Fine Art from the National College of Art and Design, Dublin (2004).", "Alan Butler's work explores material and philosophical ideas about how imagery and meaning function in technologically mediated realities. His subject often ties together the cultural dogma that underpins visual languages, with algorithmic modes of being in western capitalist societies." ],
-    "dc:source" : "https://imma.ie/artists/alan-butler/",
-    "schema:birthDate" : "b.1981",
-    "schema:url" : "https://imma.ie/artists/alan-butler/",
-    "rdfs:label" : "Alan Butler"
+    "description" : [ "Alan Butler’s work explores material and philosophical ideas about how imagery and meaning function in technologically mediated realities. His subject often ties together the cultural dogma that underpins visual languages, with algorithmic modes of being in western capitalist societies. He received his MFA from LaSalle College of the Arts, Singapore (2009). and BA in Fine Art from the National College of Art and Design, Dublin (2004).", "Alan Butler's work explores material and philosophical ideas about how imagery and meaning function in technologically mediated realities. His subject often ties together the cultural dogma that underpins visual languages, with algorithmic modes of being in western capitalist societies." ],
+    "source" : "https://imma.ie/artists/alan-butler/",
+    "birthDate" : "b.1981",
+    "url" : "https://imma.ie/artists/alan-butler/",
+    "label" : "Alan Butler"
   }, {
     "@id" : "spice:artefact/on-exactitude-in-science",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/butler-alan",
     "author" : "spice:agent/butler-alan",
-    "schema:dateCreated" : "2017",
-    "schema:url" : "https://imma.ie/collection/on-exactitude-in-science/",
+    "dateCreated" : "2017",
+    "url" : "https://imma.ie/collection/on-exactitude-in-science/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/on-exactitude-in-science",
-    "arco-cd:hasTitle" : "On Exactitude in Science"
+    "hasTitle" : "On Exactitude in Science"
   }, {
     "@id" : "spice:attribution/on-exactitude-in-science",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,40 +24,33 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

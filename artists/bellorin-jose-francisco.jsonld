@@ -2,20 +2,20 @@
   "@graph" : [ {
     "@id" : "spice:agent/bellorin-jose-francisco",
     "@type" : "foaf:Person",
-    "dc:source" : "https://imma.ie/artists/jose-francisco-bellorin/",
-    "schema:birthDate" : "b.1941",
-    "schema:url" : "https://imma.ie/artists/jose-francisco-bellorin/",
-    "rdfs:label" : "Jose Francisco Bellorín"
+    "source" : "https://imma.ie/artists/jose-francisco-bellorin/",
+    "birthDate" : "b.1941",
+    "url" : "https://imma.ie/artists/jose-francisco-bellorin/",
+    "label" : "Jose Francisco Bellorín"
   }, {
     "@id" : "spice:artefact/metamorfosis",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/bellorin-jose-francisco",
     "author" : "spice:agent/bellorin-jose-francisco",
-    "schema:dateCreated" : "1976",
-    "schema:url" : "https://imma.ie/collection/metamorfosis/",
+    "dateCreated" : "1976",
+    "url" : "https://imma.ie/collection/metamorfosis/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/metamorfosis",
-    "arco-cd:hasTitle" : "Metamorfosis"
+    "hasTitle" : "Metamorfosis"
   }, {
     "@id" : "spice:attribution/metamorfosis",
     "@type" : "arco:AuthorshipAttribution",
@@ -27,36 +27,30 @@
       "@type" : "@id"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -68,7 +62,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

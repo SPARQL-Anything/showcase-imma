@@ -2,19 +2,19 @@
   "@graph" : [ {
     "@id" : "spice:agent/blue-angel-films",
     "@type" : "foaf:Person",
-    "dc:source" : "https://imma.ie/artists/blue-angel-films/",
-    "schema:url" : "https://imma.ie/artists/blue-angel-films/",
-    "rdfs:label" : "Blue Angel Films"
+    "source" : "https://imma.ie/artists/blue-angel-films/",
+    "url" : "https://imma.ie/artists/blue-angel-films/",
+    "label" : "Blue Angel Films"
   }, {
     "@id" : "spice:artefact/not-i-an-adaptation-of-the-1972-play",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/blue-angel-films",
     "author" : "spice:agent/blue-angel-films",
-    "schema:dateCreated" : "2000",
-    "schema:url" : "https://imma.ie/collection/not-i-an-adaptation-of-the-1972-play/",
+    "dateCreated" : "2000",
+    "url" : "https://imma.ie/collection/not-i-an-adaptation-of-the-1972-play/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/not-i-an-adaptation-of-the-1972-play",
-    "arco-cd:hasTitle" : "Not I, an adaptation of the 1972 play"
+    "hasTitle" : "Not I, an adaptation of the 1972 play"
   }, {
     "@id" : "spice:attribution/not-i-an-adaptation-of-the-1972-play",
     "@type" : "arco:AuthorshipAttribution",
@@ -22,16 +22,13 @@
   } ],
   "@context" : {
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -42,16 +39,14 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -63,7 +58,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

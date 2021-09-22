@@ -2,71 +2,71 @@
   "@graph" : [ {
     "@id" : "spice:agent/goldin-nan",
     "@type" : "foaf:Person",
-    "dc:description" : "As a teenager in Boston in the 1960s, then in New York starting in the 1970s, Nan Goldin has taken intensely personal, spontaneous, sexual, and transgressive photographs of her family, friends, and lovers. In 1979 she presented her first slideshow in a New York nightclub, and her richly coloured, snapshot like photographs were soon heralded as a groundbreaking contribution to fine art photography. ",
-    "dc:source" : "https://imma.ie/artists/nan-goldin/",
-    "schema:birthDate" : "b.1953",
-    "schema:url" : "https://imma.ie/artists/nan-goldin/",
-    "rdfs:label" : "Nan Goldin"
+    "description" : "As a teenager in Boston in the 1960s, then in New York starting in the 1970s, Nan Goldin has taken intensely personal, spontaneous, sexual, and transgressive photographs of her family, friends, and lovers. In 1979 she presented her first slideshow in a New York nightclub, and her richly coloured, snapshot like photographs were soon heralded as a groundbreaking contribution to fine art photography. ",
+    "source" : "https://imma.ie/artists/nan-goldin/",
+    "birthDate" : "b.1953",
+    "url" : "https://imma.ie/artists/nan-goldin/",
+    "label" : "Nan Goldin"
   }, {
     "@id" : "spice:artefact/jesse-on-the-couch-london-1991",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/goldin-nan",
     "author" : "spice:agent/goldin-nan",
-    "schema:dateCreated" : "1991",
-    "schema:url" : "https://imma.ie/collection/jesse-on-the-couch-london-1991/",
+    "dateCreated" : "1991",
+    "url" : "https://imma.ie/collection/jesse-on-the-couch-london-1991/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/jesse-on-the-couch-london-1991",
-    "arco-cd:hasTitle" : "Jesse on the couch, London, 1991"
+    "hasTitle" : "Jesse on the couch, London, 1991"
   }, {
     "@id" : "spice:artefact/sunset-in-the-storm-galway-ireland-2002",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/goldin-nan",
     "author" : "spice:agent/goldin-nan",
-    "schema:dateCreated" : "2002",
-    "schema:url" : "https://imma.ie/collection/sunset-in-the-storm-galway-ireland-2002/",
+    "dateCreated" : "2002",
+    "url" : "https://imma.ie/collection/sunset-in-the-storm-galway-ireland-2002/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/sunset-in-the-storm-galway-ireland-2002",
-    "arco-cd:hasTitle" : "Sunset in the storm, Galway, Ireland, 2002"
+    "hasTitle" : "Sunset in the storm, Galway, Ireland, 2002"
   }, {
     "@id" : "spice:artefact/the-singing-pub",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/goldin-nan",
     "author" : "spice:agent/goldin-nan",
-    "schema:dateCreated" : "2002",
-    "schema:url" : "https://imma.ie/collection/the-singing-pub/",
+    "dateCreated" : "2002",
+    "url" : "https://imma.ie/collection/the-singing-pub/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-singing-pub",
-    "arco-cd:hasTitle" : "The Singing Pub"
+    "hasTitle" : "The Singing Pub"
   }, {
     "@id" : "spice:artefact/vivienne-at-her-mothers-grave-killybegs-ireland-1979",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/goldin-nan",
     "author" : "spice:agent/goldin-nan",
-    "schema:dateCreated" : "1979",
-    "schema:url" : "https://imma.ie/collection/vivienne-at-her-mothers-grave-killybegs-ireland-1979/",
+    "dateCreated" : "1979",
+    "url" : "https://imma.ie/collection/vivienne-at-her-mothers-grave-killybegs-ireland-1979/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/vivienne-at-her-mothers-grave-killybegs-ireland-1979",
-    "arco-cd:hasTitle" : "Vivienne at her mother’s grave, Killybegs, Ireland, 1979"
+    "hasTitle" : "Vivienne at her mother’s grave, Killybegs, Ireland, 1979"
   }, {
     "@id" : "spice:artefact/vivienne-in-the-green-dress-new-york-city-1980",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/goldin-nan",
     "author" : "spice:agent/goldin-nan",
-    "schema:dateCreated" : "1980",
-    "schema:url" : "https://imma.ie/collection/vivienne-in-the-green-dress-new-york-city-1980/",
+    "dateCreated" : "1980",
+    "url" : "https://imma.ie/collection/vivienne-in-the-green-dress-new-york-city-1980/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/vivienne-in-the-green-dress-new-york-city-1980",
-    "arco-cd:hasTitle" : "Vivienne in the green dress, New york City, 1980"
+    "hasTitle" : "Vivienne in the green dress, New york City, 1980"
   }, {
     "@id" : "spice:artefact/viviennes-father-killybegs-1979",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/goldin-nan",
     "author" : "spice:agent/goldin-nan",
-    "schema:dateCreated" : "1979",
-    "schema:url" : "https://imma.ie/collection/viviennes-father-killybegs-1979/",
+    "dateCreated" : "1979",
+    "url" : "https://imma.ie/collection/viviennes-father-killybegs-1979/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/viviennes-father-killybegs-1979",
-    "arco-cd:hasTitle" : "Vivienne’s Father, Killybegs, 1979"
+    "hasTitle" : "Vivienne’s Father, Killybegs, 1979"
   }, {
     "@id" : "spice:attribution/jesse-on-the-couch-london-1991",
     "@type" : "arco:AuthorshipAttribution",
@@ -98,40 +98,33 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -143,7 +136,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

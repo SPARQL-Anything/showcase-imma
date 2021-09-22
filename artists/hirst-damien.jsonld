@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/hirst-damien",
     "@type" : "foaf:Person",
-    "dc:description" : "British artist Damien Hirst studied Fine Art at Goldsmiths College, London. In 1988 he curated ‘Freeze’, a group exhibition of Goldsmiths students, a significant milestone in the subsequent development of the Young British Artists (YBA’s). Hirst has had over 80 solo exhibitions worldwide and in 1995 was awarded the Turner Prize. A major retrospective of his work was held at Tate Modern, London in 2012.",
-    "dc:source" : "https://imma.ie/artists/damien-hirst/",
-    "schema:birthDate" : "b.1965",
-    "schema:url" : "https://imma.ie/artists/damien-hirst/",
-    "rdfs:label" : "Damien Hirst"
+    "description" : "British artist Damien Hirst studied Fine Art at Goldsmiths College, London. In 1988 he curated ‘Freeze’, a group exhibition of Goldsmiths students, a significant milestone in the subsequent development of the Young British Artists (YBA’s). Hirst has had over 80 solo exhibitions worldwide and in 1995 was awarded the Turner Prize. A major retrospective of his work was held at Tate Modern, London in 2012.",
+    "source" : "https://imma.ie/artists/damien-hirst/",
+    "birthDate" : "b.1965",
+    "url" : "https://imma.ie/artists/damien-hirst/",
+    "label" : "Damien Hirst"
   }, {
     "@id" : "spice:artefact/untitled-from-london-portfolio",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/hirst-damien",
     "author" : "spice:agent/hirst-damien",
-    "schema:dateCreated" : "1992",
-    "schema:url" : "https://imma.ie/collection/untitled-from-london-portfolio/",
+    "dateCreated" : "1992",
+    "url" : "https://imma.ie/collection/untitled-from-london-portfolio/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-from-london-portfolio",
-    "arco-cd:hasTitle" : "Untitled from ‘London Portfolio’"
+    "hasTitle" : "Untitled from ‘London Portfolio’"
   }, {
     "@id" : "spice:attribution/untitled-from-london-portfolio",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,40 +24,33 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

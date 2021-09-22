@@ -2,66 +2,57 @@
   "@graph" : [ {
     "@id" : "spice:artefact/still-falling-i",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "British artist Antony Gormley is known for his sculptures in elemental materials such as lead, iron, clay or steel that frequently use a cast of his own body as the starting point for a phenomenological or ‘psycho-spatial’ experience. ‘Still Falling I’ engages with the motion of the figure, and has at its core an empty body space: the space around the figure during movement. The artist has described his work as an ‘attempt to materialise uncertainty’:the uncertainty of things that we know to exist but don’t have the language to describe. The piece is suspended in space so that the base hovers slightly above ground level – always approaching; always falling; always moving: yet the ambiguous word ‘still’ in the title could also be read as calm, or static, and for Gormley the stillness of an object as confronted by the movement of the viewer is key.",
-    "dc:source" : "https://imma.ie/collection/still-falling-i/",
-    "schema:creditText" : "IMMA Collection: Purchase, 1991",
+    "description" : "British artist Antony Gormley is known for his sculptures in elemental materials such as lead, iron, clay or steel that frequently use a cast of his own body as the starting point for a phenomenological or ‘psycho-spatial’ experience. ‘Still Falling I’ engages with the motion of the figure, and has at its core an empty body space: the space around the figure during movement. The artist has described his work as an ‘attempt to materialise uncertainty’:the uncertainty of things that we know to exist but don’t have the language to describe. The piece is suspended in space so that the base hovers slightly above ground level – always approaching; always falling; always moving: yet the ambiguous word ‘still’ in the title could also be read as calm, or static, and for Gormley the stillness of an object as confronted by the movement of the viewer is key.",
+    "source" : "https://imma.ie/collection/still-falling-i/",
+    "creditText" : "IMMA Collection: Purchase, 1991",
     "image" : "spice:documentation/still-falling-i",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Cast iron, air",
-    "schema:size" : "334 x 115 x 85 cm",
-    "arco-cd:hasInventory" : "IMMA.12"
+    "material" : "Cast iron, air",
+    "size" : "334 x 115 x 85 cm",
+    "hasInventory" : "IMMA.12"
   }, {
     "@id" : "spice:documentation/still-falling-i",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Antony Gormley, Still Falling I, 1991, Cast iron, air, 334 x 115 x 85 cm, Collection Irish Museum of Modern Art, Purchase, 1991 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Antony Gormley, Still Falling I, 1991, Cast iron, air, 334 x 115 x 85 cm, Collection Irish Museum of Modern Art, Purchase, 1991 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2019/10/672.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2019/10/672.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

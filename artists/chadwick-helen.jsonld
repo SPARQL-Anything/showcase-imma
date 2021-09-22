@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/chadwick-helen",
     "@type" : "foaf:Person",
-    "dc:description" : "British artist Helen Chadwick studied at Brighton Polytechnic and Chelsea School of Art, London. Employing a variety of media including bronze casting, photography and digital technology, Chadwick drew on sources that ranged across science and anatomy. Her subject matter encompassed edible body casts, flowers floating in domestic fluids, the patterns of male and female urine in snow and raw meat. Chadwick was nominated for the Turner Prize in 1987. She exhibited world-wide and her work is represented in major public collections including the Tate, London; the Victoria and Albert Museum, London, and MoMA, New York.",
-    "dc:source" : "https://imma.ie/artists/helen-chadwick/",
-    "schema:birthDate" : "1953–1996",
-    "schema:url" : "https://imma.ie/artists/helen-chadwick/",
-    "rdfs:label" : "Helen Chadwick"
+    "description" : "British artist Helen Chadwick studied at Brighton Polytechnic and Chelsea School of Art, London. Employing a variety of media including bronze casting, photography and digital technology, Chadwick drew on sources that ranged across science and anatomy. Her subject matter encompassed edible body casts, flowers floating in domestic fluids, the patterns of male and female urine in snow and raw meat. Chadwick was nominated for the Turner Prize in 1987. She exhibited world-wide and her work is represented in major public collections including the Tate, London; the Victoria and Albert Museum, London, and MoMA, New York.",
+    "source" : "https://imma.ie/artists/helen-chadwick/",
+    "birthDate" : "1953–1996",
+    "url" : "https://imma.ie/artists/helen-chadwick/",
+    "label" : "Helen Chadwick"
   }, {
     "@id" : "spice:artefact/untitled-52",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/chadwick-helen",
     "author" : "spice:agent/chadwick-helen",
-    "schema:dateCreated" : "1994",
-    "schema:url" : "https://imma.ie/collection/untitled-52/",
+    "dateCreated" : "1994",
+    "url" : "https://imma.ie/collection/untitled-52/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-52",
-    "arco-cd:hasTitle" : "Untitled"
+    "hasTitle" : "Untitled"
   }, {
     "@id" : "spice:attribution/untitled-52",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,40 +28,33 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/venard-claude",
     "@type" : "foaf:Person",
-    "dc:description" : "French artist Claude Venard (1913-1999) studied painting at the École des Arts Appliqués, Paris. Between 1936 and 1939 Venard was part of a group of artists committed to a new form of figuration marked by the rejection of Impressionism, Cubism and Surrealism. From the 1940s, Venard gained independent recognition for his chromatic compositions in thick impasto. He exhibited in Europe and America. His work is represented in major public collections, including the Tate; the São Paulo Museum of Art and the Musée d'Art Moderne de la Ville de Paris.",
-    "dc:source" : "https://imma.ie/artists/claude-venard/",
-    "schema:birthDate" : "1913–1999",
-    "schema:url" : "https://imma.ie/artists/claude-venard/",
-    "rdfs:label" : "Claude Venard"
+    "description" : "French artist Claude Venard (1913-1999) studied painting at the École des Arts Appliqués, Paris. Between 1936 and 1939 Venard was part of a group of artists committed to a new form of figuration marked by the rejection of Impressionism, Cubism and Surrealism. From the 1940s, Venard gained independent recognition for his chromatic compositions in thick impasto. He exhibited in Europe and America. His work is represented in major public collections, including the Tate; the São Paulo Museum of Art and the Musée d'Art Moderne de la Ville de Paris.",
+    "source" : "https://imma.ie/artists/claude-venard/",
+    "birthDate" : "1913–1999",
+    "url" : "https://imma.ie/artists/claude-venard/",
+    "label" : "Claude Venard"
   }, {
     "@id" : "spice:artefact/beach-scene",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/venard-claude",
     "author" : "spice:agent/venard-claude",
-    "schema:dateCreated" : "1958",
-    "schema:url" : "https://imma.ie/collection/beach-scene/",
+    "dateCreated" : "1958",
+    "url" : "https://imma.ie/collection/beach-scene/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/beach-scene",
-    "arco-cd:hasTitle" : "Beach Scene"
+    "hasTitle" : "Beach Scene"
   }, {
     "@id" : "spice:attribution/beach-scene",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,24 +28,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -56,24 +53,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -2,51 +2,44 @@
   "@graph" : [ {
     "@id" : "spice:artefact/cross-on-a-distant-hill",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Cross on a Distant Hill is a 2005 work by Patrick Hall. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/cross-on-a-distant-hill/",
-    "schema:creditText" : "IMMA Collection: Donation, 2008",
+    "description" : "Cross on a Distant Hill is a 2005 work by Patrick Hall. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/cross-on-a-distant-hill/",
+    "creditText" : "IMMA Collection: Donation, 2008",
     "image" : "spice:documentation/cross-on-a-distant-hill",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Ink and watercolour on paper",
-    "schema:size" : "14 x 13 cm",
-    "schema:version" : "Plate 29",
-    "arco-cd:hasInventory" : "IMMA.2133"
+    "material" : "Ink and watercolour on paper",
+    "size" : "14 x 13 cm",
+    "version" : "Plate 29",
+    "hasInventory" : "IMMA.2133"
   }, {
     "@id" : "spice:documentation/cross-on-a-distant-hill",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Patrick Hall, Cross on a Distant Hill, 2005, Ink and watercolour on paper, 14 x 13 cm, Collection Irish Museum of Modern Art, Donation, 2008 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Patrick Hall, Cross on a Distant Hill, 2005, Ink and watercolour on paper, 14 x 13 cm, Collection Irish Museum of Modern Art, Donation, 2008 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/27.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/27.jpg"
   } ],
   "@context" : {
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
@@ -57,16 +50,13 @@
       "@type" : "@id"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

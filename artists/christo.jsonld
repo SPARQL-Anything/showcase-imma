@@ -2,41 +2,41 @@
   "@graph" : [ {
     "@id" : "spice:agent/christo",
     "@type" : "foaf:Person",
-    "dc:description" : "Bulgarian artist Christo Javacheff, later known as Christo, trained at the Academy of Fine Arts in Sofia from 1953 to 1956. During that time he developed an interest in art directed towards social purposes. Together with his partner and collaborator Jeanne-Claude Denat de Guillebon, Christo sought to provoke new insights into ordinary objects by wrapping them. Initially modest in scale, these temporary wrappings evolved to become monumental projects undertaken across American and Europe. In 1976 Christo proposed a project for wrapping the walkways in St Stephen’s Green, Dublin.",
-    "dc:source" : "https://imma.ie/artists/christo/",
-    "schema:birthDate" : "b.1935",
-    "schema:url" : "https://imma.ie/artists/christo/",
-    "rdfs:label" : "Christo"
+    "description" : "Bulgarian artist Christo Javacheff, later known as Christo, trained at the Academy of Fine Arts in Sofia from 1953 to 1956. During that time he developed an interest in art directed towards social purposes. Together with his partner and collaborator Jeanne-Claude Denat de Guillebon, Christo sought to provoke new insights into ordinary objects by wrapping them. Initially modest in scale, these temporary wrappings evolved to become monumental projects undertaken across American and Europe. In 1976 Christo proposed a project for wrapping the walkways in St Stephen’s Green, Dublin.",
+    "source" : "https://imma.ie/artists/christo/",
+    "birthDate" : "b.1935",
+    "url" : "https://imma.ie/artists/christo/",
+    "label" : "Christo"
   }, {
     "@id" : "spice:artefact/pink-store-front-project",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/christo",
     "author" : "spice:agent/christo",
-    "schema:dateCreated" : "1980",
-    "schema:url" : "https://imma.ie/collection/pink-store-front-project/",
+    "dateCreated" : "1980",
+    "url" : "https://imma.ie/collection/pink-store-front-project/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/pink-store-front-project",
-    "arco-cd:hasTitle" : "Pink Store Front (project)"
+    "hasTitle" : "Pink Store Front (project)"
   }, {
     "@id" : "spice:artefact/texas-mastaba-project-for-500000-stacked-oil-drums",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/christo",
     "author" : "spice:agent/christo",
-    "schema:dateCreated" : "1975",
-    "schema:url" : "https://imma.ie/collection/texas-mastaba-project-for-500000-stacked-oil-drums/",
+    "dateCreated" : "1975",
+    "url" : "https://imma.ie/collection/texas-mastaba-project-for-500000-stacked-oil-drums/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/texas-mastaba-project-for-500000-stacked-oil-drums",
-    "arco-cd:hasTitle" : "Texas Mastaba, (Project for 500,000 Stacked Oil Drums)"
+    "hasTitle" : "Texas Mastaba, (Project for 500,000 Stacked Oil Drums)"
   }, {
     "@id" : "spice:artefact/wrapped-monument-to-vittorio-emanuele-project-for-piazza-del-duomo-milan",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/christo",
     "author" : "spice:agent/christo",
-    "schema:dateCreated" : "1975",
-    "schema:url" : "https://imma.ie/collection/wrapped-monument-to-vittorio-emanuele-project-for-piazza-del-duomo-milan/",
+    "dateCreated" : "1975",
+    "url" : "https://imma.ie/collection/wrapped-monument-to-vittorio-emanuele-project-for-piazza-del-duomo-milan/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/wrapped-monument-to-vittorio-emanuele-project-for-piazza-del-duomo-milan",
-    "arco-cd:hasTitle" : "Wrapped Monument to Vittorio Emanuele, Project for Piazza del Duomo, Milan"
+    "hasTitle" : "Wrapped Monument to Vittorio Emanuele, Project for Piazza del Duomo, Milan"
   }, {
     "@id" : "spice:attribution/pink-store-front-project",
     "@type" : "arco:AuthorshipAttribution",
@@ -60,48 +60,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -2,51 +2,51 @@
   "@graph" : [ {
     "@id" : "spice:agent/crone-david",
     "@type" : "foaf:Person",
-    "dc:description" : "Northern Irish artist David Crone studied sculpture at the Belfast College of Art and turned to painting in the early 1960s. His landscapes and townscapes convey the observed world as something ambiguous and provisional. Crone has exhibited nationally and internationally and his work is represented in major public collections, including the Arts Council of Northern Ireland; the Arts Council of Ireland and the Ulster Museum, Belfast. Crone was elected a member of the RHA in 2005.",
-    "dc:source" : "https://imma.ie/artists/david-crone/",
-    "schema:birthDate" : "b.1937",
-    "schema:url" : "https://imma.ie/artists/david-crone/",
-    "rdfs:label" : "David Crone"
+    "description" : "Northern Irish artist David Crone studied sculpture at the Belfast College of Art and turned to painting in the early 1960s. His landscapes and townscapes convey the observed world as something ambiguous and provisional. Crone has exhibited nationally and internationally and his work is represented in major public collections, including the Arts Council of Northern Ireland; the Arts Council of Ireland and the Ulster Museum, Belfast. Crone was elected a member of the RHA in 2005.",
+    "source" : "https://imma.ie/artists/david-crone/",
+    "birthDate" : "b.1937",
+    "url" : "https://imma.ie/artists/david-crone/",
+    "label" : "David Crone"
   }, {
     "@id" : "spice:artefact/journey",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/crone-david",
     "author" : "spice:agent/crone-david",
-    "schema:dateCreated" : "1996",
-    "schema:url" : "https://imma.ie/collection/journey/",
+    "dateCreated" : "1996",
+    "url" : "https://imma.ie/collection/journey/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/journey",
-    "arco-cd:hasTitle" : "Journey"
+    "hasTitle" : "Journey"
   }, {
     "@id" : "spice:artefact/secret-people",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/crone-david",
     "author" : "spice:agent/crone-david",
-    "schema:dateCreated" : "1992",
-    "schema:url" : "https://imma.ie/collection/secret-people/",
+    "dateCreated" : "1992",
+    "url" : "https://imma.ie/collection/secret-people/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/secret-people",
-    "arco-cd:hasTitle" : "Secret People"
+    "hasTitle" : "Secret People"
   }, {
     "@id" : "spice:artefact/three-dimensional-piece",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/crone-david",
     "author" : "spice:agent/crone-david",
-    "schema:dateCreated" : "1977",
-    "schema:url" : "https://imma.ie/collection/three-dimensional-piece/",
+    "dateCreated" : "1977",
+    "url" : "https://imma.ie/collection/three-dimensional-piece/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/three-dimensional-piece",
-    "arco-cd:hasTitle" : "Three Dimensional Piece"
+    "hasTitle" : "Three Dimensional Piece"
   }, {
     "@id" : "spice:artefact/untitled-80",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/crone-david",
     "author" : "spice:agent/crone-david",
-    "schema:dateCreated" : "1983",
-    "schema:url" : "https://imma.ie/collection/untitled-80/",
+    "dateCreated" : "1983",
+    "url" : "https://imma.ie/collection/untitled-80/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-80",
-    "arco-cd:hasTitle" : "Untitled"
+    "hasTitle" : "Untitled"
   }, {
     "@id" : "spice:attribution/journey",
     "@type" : "arco:AuthorshipAttribution",
@@ -74,48 +74,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

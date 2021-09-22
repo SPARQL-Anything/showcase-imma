@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/ruckriem-ulrich",
     "@type" : "foaf:Person",
-    "dc:description" : "Ulrich Rückriem (born 1938) is a German sculptor noted for his monumental works. He trained as a stonemason and began to work as a free lance artist from 1963. Strongly influenced by minimalism, Rückriem’s sculptural works celebrate geometric form, while retaining marks of the artist’s tools and the natural structural lines of the stone. Rückriem lived in Clonegal, Co. Clare, for thirteen years from 1988 to 2001. His work has been exhibited internationally, including solo exhibitions at the Museum Ludwig, Köln; the Sprengel Museum, Hanover, and the Neue Nationalgalerie, Berlin.",
-    "dc:source" : "https://imma.ie/artists/ulrich-ruckriem/",
-    "schema:birthDate" : "b.1938",
-    "schema:url" : "https://imma.ie/artists/ulrich-ruckriem/",
-    "rdfs:label" : "Ulrich Rückriem"
+    "description" : "Ulrich Rückriem (born 1938) is a German sculptor noted for his monumental works. He trained as a stonemason and began to work as a free lance artist from 1963. Strongly influenced by minimalism, Rückriem’s sculptural works celebrate geometric form, while retaining marks of the artist’s tools and the natural structural lines of the stone. Rückriem lived in Clonegal, Co. Clare, for thirteen years from 1988 to 2001. His work has been exhibited internationally, including solo exhibitions at the Museum Ludwig, Köln; the Sprengel Museum, Hanover, and the Neue Nationalgalerie, Berlin.",
+    "source" : "https://imma.ie/artists/ulrich-ruckriem/",
+    "birthDate" : "b.1938",
+    "url" : "https://imma.ie/artists/ulrich-ruckriem/",
+    "label" : "Ulrich Rückriem"
   }, {
     "@id" : "spice:artefact/8-limestones-cut-to-a-specific-size-from-rough-blocks-150-x-50-x-50cm-split-into-parts-and-reassembled-into-their-original-form",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ruckriem-ulrich",
     "author" : "spice:agent/ruckriem-ulrich",
-    "schema:dateCreated" : "1988",
-    "schema:url" : "https://imma.ie/collection/8-limestones-cut-to-a-specific-size-from-rough-blocks-150-x-50-x-50cm-split-into-parts-and-reassembled-into-their-original-form/",
+    "dateCreated" : "1988",
+    "url" : "https://imma.ie/collection/8-limestones-cut-to-a-specific-size-from-rough-blocks-150-x-50-x-50cm-split-into-parts-and-reassembled-into-their-original-form/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/8-limestones-cut-to-a-specific-size-from-rough-blocks-150-x-50-x-50cm-split-into-parts-and-reassembled-into-their-original-form",
-    "arco-cd:hasTitle" : "8 Limestones cut to a specific size from rough blocks 150 x 50 x 50cm split into parts and reassembled into their original form"
+    "hasTitle" : "8 Limestones cut to a specific size from rough blocks 150 x 50 x 50cm split into parts and reassembled into their original form"
   }, {
     "@id" : "spice:attribution/8-limestones-cut-to-a-specific-size-from-rough-blocks-150-x-50-x-50cm-split-into-parts-and-reassembled-into-their-original-form",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,24 +24,19 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -52,16 +47,14 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

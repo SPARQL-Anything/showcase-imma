@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/all-things-being-equal",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "All Things Being Equal is a seamlessly looped video that forms part of a larger body of work exploring the notion of suspended trauma; the idea that dramatic/traumatic incidents from the past are continually repeated and replayed, no longer just as personal memories but also vicariously through the ever expanding shared experience of mass media depiction. In both, the document is detached from its original time and place. It perpetually hangs in the conscience, seemingly without conclusion. ",
-    "dc:source" : "https://imma.ie/collection/all-things-being-equal/",
-    "schema:creditText" : "IMMA Collection: Donation, 2010",
+    "description" : "All Things Being Equal is a seamlessly looped video that forms part of a larger body of work exploring the notion of suspended trauma; the idea that dramatic/traumatic incidents from the past are continually repeated and replayed, no longer just as personal memories but also vicariously through the ever expanding shared experience of mass media depiction. In both, the document is detached from its original time and place. It perpetually hangs in the conscience, seemingly without conclusion. ",
+    "source" : "https://imma.ie/collection/all-things-being-equal/",
+    "creditText" : "IMMA Collection: Donation, 2010",
     "image" : "spice:documentation/all-things-being-equal",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Video, silent",
-    "schema:version" : "Edition 2/5 + A/P",
-    "arco-cd:hasInventory" : "IMMA.3296"
+    "material" : "Video, silent",
+    "version" : "Edition 2/5 + A/P",
+    "hasInventory" : "IMMA.3296"
   }, {
     "@id" : "spice:documentation/all-things-being-equal",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Sam Jury, All Things Being Equal, 2009, Video, silent, Duration: 11min.58 sec. loop, Collection Irish Museum of Modern Art, Donation, 2010 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Sam Jury, All Things Being Equal, 2009, Video, silent, Duration: 11min.58 sec. loop, Collection Irish Museum of Modern Art, Donation, 2010 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/5572.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/5572.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

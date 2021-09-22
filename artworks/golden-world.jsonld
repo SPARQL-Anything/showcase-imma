@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/golden-world",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Golden World is a 1997 work by Stefan Kürten. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/golden-world/",
-    "schema:creditText" : "IMMA Collection: Donation, In honour of Denis, Bridget, Will and Madeline Twomey, 2008",
+    "description" : "Golden World is a 1997 work by Stefan Kürten. It is not currently on display in IMMA. It is currently out on loan. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/golden-world/",
+    "creditText" : "IMMA Collection: Donation, In honour of Denis, Bridget, Will and Madeline Twomey, 2008",
     "image" : "spice:documentation/golden-world",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Oil on Canvas",
-    "schema:size" : "180 x 252",
-    "arco-cd:hasInventory" : "IMMA.2865"
+    "material" : "Oil on Canvas",
+    "size" : "180 x 252",
+    "hasInventory" : "IMMA.2865"
   }, {
     "@id" : "spice:documentation/golden-world",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Stefan Kürten, Golden World, 1997, Oil on Canvas, 180 x 252, Collection Irish Museum of Modern Art, Donation, In honour of Denis, Bridget, Will and Madeline Twomey, 2008 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Stefan Kürten, Golden World, 1997, Oil on Canvas, 180 x 252, Collection Irish Museum of Modern Art, Donation, In honour of Denis, Bridget, Will and Madeline Twomey, 2008 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2019/10/3862.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2021/09/3862-scaled.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

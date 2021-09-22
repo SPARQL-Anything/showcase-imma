@@ -2,62 +2,53 @@
   "@graph" : [ {
     "@id" : "spice:artefact/finn-maccool",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Richard Hamilton, the father of British Pop, is best known for his famous collage ‘Just what is it that makes today’s homes so different, so appealing?’, (1956). Hamilton is also recognised as an innovative and experimental printmaker. What is not so well known is that for nearly sixty years he read and re-read James Joyce’s ‘Ulysses’ with an eye to the complexities of contemporary life. Thus his ‘Finn McCool’, the Citizen in ‘Ulysses’, refers to traditional representations of Jesus Christ and also a Republican prisoner taking part in the so-called dirty protest in the Maze prison in Northern Ireland in 1981. In other prints from this series Hamilton reveals his personal identification with the character of Leopold Bloom.",
-    "dc:source" : "https://imma.ie/collection/finn-maccool/",
-    "schema:creditText" : "IMMA Collection: Purchase, 2003",
+    "description" : "Richard Hamilton, the father of British Pop, is best known for his famous collage ‘Just what is it that makes today’s homes so different, so appealing?’, (1956). Hamilton is also recognised as an innovative and experimental printmaker. What is not so well known is that for nearly sixty years he read and re-read James Joyce’s ‘Ulysses’ with an eye to the complexities of contemporary life. Thus his ‘Finn McCool’, the Citizen in ‘Ulysses’, refers to traditional representations of Jesus Christ and also a Republican prisoner taking part in the so-called dirty protest in the Maze prison in Northern Ireland in 1981. In other prints from this series Hamilton reveals his personal identification with the character of Leopold Bloom.",
+    "source" : "https://imma.ie/collection/finn-maccool/",
+    "creditText" : "IMMA Collection: Purchase, 2003",
     "image" : "spice:documentation/finn-maccool",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Heliogravure, lift-ground spit-bite aquatint and engraving",
-    "schema:size" : "53.7 x 40.3 cm (plate), 76 x 56 cm (sheet)",
-    "schema:version" : "Edition 86/120",
-    "arco-cd:hasInventory" : "IMMA.1661"
+    "material" : "Heliogravure, lift-ground spit-bite aquatint and engraving",
+    "size" : "53.7 x 40.3 cm (plate), 76 x 56 cm (sheet)",
+    "version" : "Edition 86/120",
+    "hasInventory" : "IMMA.1661"
   }, {
     "@id" : "spice:documentation/finn-maccool",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Richard Hamilton, Finn MacCool, 1983, Heliogravure, lift-ground spit-bite aquatint and engraving, 53.7 x 40.3 cm (plate), 76 x 56 cm (sheet), Collection Irish Museum of Modern Art, Purchase, 2003 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Richard Hamilton, Finn MacCool, 1983, Heliogravure, lift-ground spit-bite aquatint and engraving, 53.7 x 40.3 cm (plate), 76 x 56 cm (sheet), Collection Irish Museum of Modern Art, Purchase, 2003 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "image" : {
       "@id" : "http://schema.org/image",

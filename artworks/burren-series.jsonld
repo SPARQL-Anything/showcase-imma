@@ -2,61 +2,53 @@
   "@graph" : [ {
     "@id" : "spice:artefact/burren-series",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Burren Series is a 1986 work by Helen Comerford. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/burren-series/",
-    "schema:creditText" : "IMMA Collection: Donation, Maire and Maurice Foley, 2000",
+    "description" : "Burren Series is a 1986 work by Helen Comerford. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/burren-series/",
+    "creditText" : "IMMA Collection: Donation, Maire and Maurice Foley, 2000",
     "image" : "spice:documentation/burren-series",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Collage mixed media on paper",
-    "schema:size" : "66 x 55 cm",
-    "arco-cd:hasInventory" : "IMMA.1456 FD"
+    "material" : "Collage mixed media on paper",
+    "size" : "66 x 55 cm",
+    "hasInventory" : "IMMA.1456 FD"
   }, {
     "@id" : "spice:documentation/burren-series",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Helen Comerford, Burren Series, 1986, Collage mixed media on paper, 66 x 55 cm, Collection Irish Museum of Modern Art, Donation, Maire and Maurice Foley, 2000 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Helen Comerford, Burren Series, 1986, Collage mixed media on paper, 66 x 55 cm, Collection Irish Museum of Modern Art, Donation, Maire and Maurice Foley, 2000 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

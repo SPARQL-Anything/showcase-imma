@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/small-rosc-symbol",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Scott played a central role in the design of the first Rosc exhibition, held in 1967. His graphic designs often adapted indigenous cultural forms into modernist motifs. ‘Small Rosc Symbol’ created a syntax between Ireland’s ancient past and present. It not only encapsulated the various literary and cultural interpretations of the ancient Irish word Rosc, (meaning both ‘poetry of vision’ and ‘battle-cry’ suggesting, as it does, both an eye and an open mouth), but also conveyed the essence and timelessness of the stylised and near-abstract forms found on the carved stones and metalwork of ancient Ireland in a positive and progressive manner. As a graphic identity ‘Small Rosc Symbol’ appeared on the catalogue cover of Rosc 67, headed the press release, appeared on the invitation, as well as on other promotional material.",
-    "dc:source" : "https://imma.ie/collection/small-rosc-symbol/",
-    "schema:creditText" : "IMMA Collection: Heritage Gift, P.J. Carroll &amp; Co. Ltd. Art Collection, 2005",
+    "description" : "Scott played a central role in the design of the first Rosc exhibition, held in 1967. His graphic designs often adapted indigenous cultural forms into modernist motifs. ‘Small Rosc Symbol’ created a syntax between Ireland’s ancient past and present. It not only encapsulated the various literary and cultural interpretations of the ancient Irish word Rosc, (meaning both ‘poetry of vision’ and ‘battle-cry’ suggesting, as it does, both an eye and an open mouth), but also conveyed the essence and timelessness of the stylised and near-abstract forms found on the carved stones and metalwork of ancient Ireland in a positive and progressive manner. As a graphic identity ‘Small Rosc Symbol’ appeared on the catalogue cover of Rosc 67, headed the press release, appeared on the invitation, as well as on other promotional material.",
+    "source" : "https://imma.ie/collection/small-rosc-symbol/",
+    "creditText" : "IMMA Collection: Heritage Gift, P.J. Carroll &amp; Co. Ltd. Art Collection, 2005",
     "image" : "spice:documentation/small-rosc-symbol",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Oil on panel",
-    "schema:size" : "152.4 x 152.4 cm",
-    "arco-cd:hasInventory" : "IMMA.1873"
+    "material" : "Oil on panel",
+    "size" : "152.4 x 152.4 cm",
+    "hasInventory" : "IMMA.1873"
   }, {
     "@id" : "spice:documentation/small-rosc-symbol",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Patrick Scott, Small Rosc Symbol, 1967, Oil on panel, 152.4 x 152.4 cm, Collection Irish Museum of Modern Art, Heritage Gift, P.J. Carroll &amp; Co. Ltd. Art Collection, 2005 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Patrick Scott, Small Rosc Symbol, 1967, Oil on panel, 152.4 x 152.4 cm, Collection Irish Museum of Modern Art, Heritage Gift, P.J. Carroll &amp; Co. Ltd. Art Collection, 2005 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/1798.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/1798.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

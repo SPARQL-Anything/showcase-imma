@@ -1,30 +1,26 @@
 {
   "@id" : "spice:agent/obrien-margaret",
   "@type" : "foaf:Person",
-  "dc:description" : [ "Margaret O’Brien’s work explores the nature of the in-between, and our individual negotiations of time and space within the everyday. Using particular practices of repetition- non-linear concepts of time and space are presented in the work as past, present and future dimensions, which occur almost simultaneously through the consistency of the repeat. Here, the critical nature of repetition is not attached to a superficial rendering of a multiple or series work, but to a mechanism of repeat that manifests as an internal fundamental structure. O’Brien works with a variety of materials including electrical currents, live sound, light, and kinetics.", "Margaret O’Brien’s work explores the nature of the in-between, and our individual negotiations of time and space within the everyday. Using particular practices of repetition- non-linear concepts of time and space are presented in the work as past, present and future dimensions, which occur almost simultaneously through the consistency of the repeat. " ],
-  "dc:source" : "https://imma.ie/artists/margaret-obrien/",
-  "schema:url" : "https://imma.ie/artists/margaret-obrien/",
-  "rdfs:label" : "Margaret O’Brien",
+  "description" : [ "Margaret O’Brien’s work explores the nature of the in-between, and our individual negotiations of time and space within the everyday. Using particular practices of repetition- non-linear concepts of time and space are presented in the work as past, present and future dimensions, which occur almost simultaneously through the consistency of the repeat. Here, the critical nature of repetition is not attached to a superficial rendering of a multiple or series work, but to a mechanism of repeat that manifests as an internal fundamental structure. O’Brien works with a variety of materials including electrical currents, live sound, light, and kinetics.", "Margaret O’Brien’s work explores the nature of the in-between, and our individual negotiations of time and space within the everyday. Using particular practices of repetition- non-linear concepts of time and space are presented in the work as past, present and future dimensions, which occur almost simultaneously through the consistency of the repeat. " ],
+  "source" : "https://imma.ie/artists/margaret-obrien/",
+  "url" : "https://imma.ie/artists/margaret-obrien/",
+  "label" : "Margaret O’Brien",
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

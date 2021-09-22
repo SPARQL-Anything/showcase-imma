@@ -2,66 +2,57 @@
   "@graph" : [ {
     "@id" : "spice:artefact/homenaje-a-rembrant",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Homenaje a Rembrant is a 1977 work by Norberto Onofrio. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/homenaje-a-rembrant/",
-    "schema:creditText" : "IMMA Collection: Donation, Smurfit: Cartón y Papel de México, 2000",
+    "description" : "Homenaje a Rembrant is a 1977 work by Norberto Onofrio. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/homenaje-a-rembrant/",
+    "creditText" : "IMMA Collection: Donation, Smurfit: Cartón y Papel de México, 2000",
     "image" : "spice:documentation/homenaje-a-rembrant",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Etching",
-    "schema:size" : "55.6 x 76.5 cm",
-    "schema:version" : "Edition 22/150",
-    "arco-cd:hasInventory" : "IMMA.949 MP"
+    "material" : "Etching",
+    "size" : "55.6 x 76.5 cm",
+    "version" : "Edition 22/150",
+    "hasInventory" : "IMMA.949 MP"
   }, {
     "@id" : "spice:documentation/homenaje-a-rembrant",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Norberto Onofrio, Homenaje a Rembrant, 1977, Etching, 55.6 x 76.5 cm, Collection Irish Museum of Modern Art, Donation, Smurfit: Cartón y Papel de México, 2000 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Norberto Onofrio, Homenaje a Rembrant, 1977, Etching, 55.6 x 76.5 cm, Collection Irish Museum of Modern Art, Donation, Smurfit: Cartón y Papel de México, 2000 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

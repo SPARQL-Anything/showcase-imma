@@ -2,111 +2,111 @@
   "@graph" : [ {
     "@id" : "spice:agent/collins-phil",
     "@type" : "foaf:Person",
-    "dc:description" : "Born in 1970, Collins grew up in the North of England. He studied Drama and English Literature at the University of Manchester, before moving to Belfast to complete an MA in Fine Art at the University of Ulster. He received the Paul Hamlyn Award for Visual Arts in 2001, and was nominated for the Turner Prize in 2006 and Artes Mundi Prize in 2012. Over the last twenty years Collins has gained recognition for ambitious projects which are rooted in a close relationship with place, people and communities. Manifesting as films, installations, performative situations or live events, his work foregrounds the aspects of lived experience, the radical potential of empathy and connection, and voices that have often been disregarded or suppressed. Across different geographies, ethnicities, class, and language – from Europe and the Middle East to South East Asia to North and South Americas – Collins’ approach is guided by an ethos of exchange, exemplified by a commitment to long-term process and engagement with the local context. Over the years his collaborators have included, amongst others, the youth of Baghdad, Palestinian disco dancers, friends and lovers in Belgrade, protagonists of Turkish and British reality TV, the stars of Mexican telenovelas, anti-fascist skinheads in Malaysia, teachers of Marxism-Leninism from the former German Democratic Republic, and men incarcerated in one of the United States' largest maximum security prisons. Reflecting disarming immediacy, while remaining critical of uneven power dynamics and the political economy of culture, Collins’ diverse practice underlines everyday hardships, a shared sense of solidarity, and what it means to relate to one another. Collins is currently based in Berlin and Wuppertal, Germany. He is Professor of Video and Performance at the Academy of Media Arts Cologne.",
-    "dc:source" : "https://imma.ie/artists/phil-collins/",
-    "schema:birthDate" : "b.1970",
-    "schema:url" : "https://imma.ie/artists/phil-collins/",
-    "rdfs:label" : "Phil Collins"
+    "description" : "Born in 1970, Collins grew up in the North of England. He studied Drama and English Literature at the University of Manchester, before moving to Belfast to complete an MA in Fine Art at the University of Ulster. He received the Paul Hamlyn Award for Visual Arts in 2001, and was nominated for the Turner Prize in 2006 and Artes Mundi Prize in 2012. Over the last twenty years Collins has gained recognition for ambitious projects which are rooted in a close relationship with place, people and communities. Manifesting as films, installations, performative situations or live events, his work foregrounds the aspects of lived experience, the radical potential of empathy and connection, and voices that have often been disregarded or suppressed. Across different geographies, ethnicities, class, and language – from Europe and the Middle East to South East Asia to North and South Americas – Collins’ approach is guided by an ethos of exchange, exemplified by a commitment to long-term process and engagement with the local context. Over the years his collaborators have included, amongst others, the youth of Baghdad, Palestinian disco dancers, friends and lovers in Belgrade, protagonists of Turkish and British reality TV, the stars of Mexican telenovelas, anti-fascist skinheads in Malaysia, teachers of Marxism-Leninism from the former German Democratic Republic, and men incarcerated in one of the United States' largest maximum security prisons. Reflecting disarming immediacy, while remaining critical of uneven power dynamics and the political economy of culture, Collins’ diverse practice underlines everyday hardships, a shared sense of solidarity, and what it means to relate to one another. Collins is currently based in Berlin and Wuppertal, Germany. He is Professor of Video and Performance at the Academy of Media Arts Cologne.",
+    "source" : "https://imma.ie/artists/phil-collins/",
+    "birthDate" : "b.1970",
+    "url" : "https://imma.ie/artists/phil-collins/",
+    "label" : "Phil Collins"
   }, {
     "@id" : "spice:artefact/baghdad-wedding",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/collins-phil",
     "author" : "spice:agent/collins-phil",
-    "schema:dateCreated" : "2002",
-    "schema:url" : "https://imma.ie/collection/baghdad-wedding/",
+    "dateCreated" : "2002",
+    "url" : "https://imma.ie/collection/baghdad-wedding/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/baghdad-wedding",
-    "arco-cd:hasTitle" : "baghdad wedding"
+    "hasTitle" : "baghdad wedding"
   }, {
     "@id" : "spice:artefact/how-to-make-a-refugee",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/collins-phil",
     "author" : "spice:agent/collins-phil",
-    "schema:dateCreated" : "1999",
-    "schema:url" : "https://imma.ie/collection/how-to-make-a-refugee/",
+    "dateCreated" : "1999",
+    "url" : "https://imma.ie/collection/how-to-make-a-refugee/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/how-to-make-a-refugee",
-    "arco-cd:hasTitle" : "how to make a refugee"
+    "hasTitle" : "how to make a refugee"
   }, {
     "@id" : "spice:artefact/i-only-want-you-to-love-me-bujar-and-megi",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/collins-phil",
     "author" : "spice:agent/collins-phil",
-    "schema:dateCreated" : "2003",
-    "schema:url" : "https://imma.ie/collection/i-only-want-you-to-love-me-bujar-and-megi/",
+    "dateCreated" : "2003",
+    "url" : "https://imma.ie/collection/i-only-want-you-to-love-me-bujar-and-megi/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/i-only-want-you-to-love-me-bujar-and-megi",
-    "arco-cd:hasTitle" : "i only want you to love me (bujar and megi)"
+    "hasTitle" : "i only want you to love me (bujar and megi)"
   }, {
     "@id" : "spice:artefact/sinisa-and-sanja-after-the-funeral",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/collins-phil",
     "author" : "spice:agent/collins-phil",
-    "schema:dateCreated" : "2002",
-    "schema:url" : "https://imma.ie/collection/sinisa-and-sanja-after-the-funeral/",
+    "dateCreated" : "2002",
+    "url" : "https://imma.ie/collection/sinisa-and-sanja-after-the-funeral/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/sinisa-and-sanja-after-the-funeral",
-    "arco-cd:hasTitle" : "siniša and sanja (after the funeral)"
+    "hasTitle" : "siniša and sanja (after the funeral)"
   }, {
     "@id" : "spice:artefact/untitled-pershing-square",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/collins-phil",
     "author" : "spice:agent/collins-phil",
-    "schema:dateCreated" : "2000",
-    "schema:url" : "https://imma.ie/collection/untitled-pershing-square/",
+    "dateCreated" : "2000",
+    "url" : "https://imma.ie/collection/untitled-pershing-square/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-pershing-square",
-    "arco-cd:hasTitle" : "untitled (pershing square)"
+    "hasTitle" : "untitled (pershing square)"
   }, {
     "@id" : "spice:artefact/young-serbs-bojan",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/collins-phil",
     "author" : "spice:agent/collins-phil",
-    "schema:dateCreated" : "2001",
-    "schema:url" : "https://imma.ie/collection/young-serbs-bojan/",
+    "dateCreated" : "2001",
+    "url" : "https://imma.ie/collection/young-serbs-bojan/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/young-serbs-bojan",
-    "arco-cd:hasTitle" : "young serbs (bojan)"
+    "hasTitle" : "young serbs (bojan)"
   }, {
     "@id" : "spice:artefact/young-serbs-caca",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/collins-phil",
     "author" : "spice:agent/collins-phil",
-    "schema:dateCreated" : "2001",
-    "schema:url" : "https://imma.ie/collection/young-serbs-caca/",
+    "dateCreated" : "2001",
+    "url" : "https://imma.ie/collection/young-serbs-caca/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/young-serbs-caca",
-    "arco-cd:hasTitle" : "young serbs (caca)"
+    "hasTitle" : "young serbs (caca)"
   }, {
     "@id" : "spice:artefact/young-serbs-milan",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/collins-phil",
     "author" : "spice:agent/collins-phil",
-    "schema:dateCreated" : "2001",
-    "schema:url" : "https://imma.ie/collection/young-serbs-milan/",
+    "dateCreated" : "2001",
+    "url" : "https://imma.ie/collection/young-serbs-milan/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/young-serbs-milan",
-    "arco-cd:hasTitle" : "young serbs (milan)"
+    "hasTitle" : "young serbs (milan)"
   }, {
     "@id" : "spice:artefact/young-serbs-sinisa",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/collins-phil",
     "author" : "spice:agent/collins-phil",
-    "schema:dateCreated" : "2001",
-    "schema:url" : "https://imma.ie/collection/young-serbs-sinisa/",
+    "dateCreated" : "2001",
+    "url" : "https://imma.ie/collection/young-serbs-sinisa/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/young-serbs-sinisa",
-    "arco-cd:hasTitle" : "young serbs (siniša)"
+    "hasTitle" : "young serbs (siniša)"
   }, {
     "@id" : "spice:artefact/young-serbs-vesna",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/collins-phil",
     "author" : "spice:agent/collins-phil",
-    "schema:dateCreated" : "2001",
-    "schema:url" : "https://imma.ie/collection/young-serbs-vesna/",
+    "dateCreated" : "2001",
+    "url" : "https://imma.ie/collection/young-serbs-vesna/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/young-serbs-vesna",
-    "arco-cd:hasTitle" : "young serbs (vesna)"
+    "hasTitle" : "young serbs (vesna)"
   }, {
     "@id" : "spice:attribution/baghdad-wedding",
     "@type" : "arco:AuthorshipAttribution",
@@ -158,48 +158,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

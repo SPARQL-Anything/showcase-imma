@@ -2,61 +2,53 @@
   "@graph" : [ {
     "@id" : "spice:artefact/untitled-ii",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Untitled II is a 1988 work by Anish Kapoor. It is not currently on display in IMMA. ",
-    "dc:source" : "https://imma.ie/collection/untitled-ii/",
-    "schema:creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1994",
+    "description" : "Untitled II is a 1988 work by Anish Kapoor. It is not currently on display in IMMA. ",
+    "source" : "https://imma.ie/collection/untitled-ii/",
+    "creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1994",
     "image" : "spice:documentation/untitled-ii",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Colour spitbite and aquatint (edition of 20)",
-    "schema:size" : "113 x 89 cm",
-    "arco-cd:hasInventory" : "L.563 LW"
+    "material" : "Colour spitbite and aquatint (edition of 20)",
+    "size" : "113 x 89 cm",
+    "hasInventory" : "L.563 LW"
   }, {
     "@id" : "spice:documentation/untitled-ii",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Anish Kapoor, Untitled II, 1988, Colour spitbite and aquatint (edition of 20), 113 x 89 cm, Collection Irish Museum of Modern Art, Loan, Weltkunst Foundation, 1994 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Anish Kapoor, Untitled II, 1988, Colour spitbite and aquatint (edition of 20), 113 x 89 cm, Collection Irish Museum of Modern Art, Loan, Weltkunst Foundation, 1994 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

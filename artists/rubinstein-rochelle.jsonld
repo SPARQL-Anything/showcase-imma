@@ -2,20 +2,20 @@
   "@graph" : [ {
     "@id" : "spice:agent/rubinstein-rochelle",
     "@type" : "foaf:Person",
-    "dc:description" : "Canadian artist Rochelle Rubinstein works in a range of media including painting, print, textiles and book art to examine social issues such as domestic violence, old age and mental illness. Collaborating with community and professional groups, she employs techniques traditionally associated with female domesticity. Rubinstein has been exhibiting widely since the mid 1980s. She has completed artist residencies at the Stern College for Women, New York; The Women's Studio Workshop, New York; Áras Éanna Art Centre, Inis Oírr, and IMMA.",
-    "dc:source" : "https://imma.ie/artists/rochelle-rubinstein/",
-    "schema:url" : "https://imma.ie/artists/rochelle-rubinstein/",
-    "rdfs:label" : "Rochelle Rubinstein"
+    "description" : "Canadian artist Rochelle Rubinstein works in a range of media including painting, print, textiles and book art to examine social issues such as domestic violence, old age and mental illness. Collaborating with community and professional groups, she employs techniques traditionally associated with female domesticity. Rubinstein has been exhibiting widely since the mid 1980s. She has completed artist residencies at the Stern College for Women, New York; The Women's Studio Workshop, New York; Áras Éanna Art Centre, Inis Oírr, and IMMA.",
+    "source" : "https://imma.ie/artists/rochelle-rubinstein/",
+    "url" : "https://imma.ie/artists/rochelle-rubinstein/",
+    "label" : "Rochelle Rubinstein"
   }, {
     "@id" : "spice:artefact/shelter-no-30",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/rubinstein-rochelle",
     "author" : "spice:agent/rubinstein-rochelle",
-    "schema:dateCreated" : "1995",
-    "schema:url" : "https://imma.ie/collection/shelter-no-30/",
+    "dateCreated" : "1995",
+    "url" : "https://imma.ie/collection/shelter-no-30/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/shelter-no-30",
-    "arco-cd:hasTitle" : "Shelter, no. 30"
+    "hasTitle" : "Shelter, no. 30"
   }, {
     "@id" : "spice:attribution/shelter-no-30",
     "@type" : "arco:AuthorshipAttribution",
@@ -27,24 +27,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -55,20 +52,17 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

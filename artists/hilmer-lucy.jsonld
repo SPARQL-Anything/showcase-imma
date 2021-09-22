@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/hilmer-lucy",
     "@type" : "foaf:Person",
-    "dc:description" : "Born in Washington DC, photographer, poet, and documentary filmmaker Lucy Hilmer is based in San Francisco. For 40 years, Hilmer has photographed herself, her family and friends, creating multiple, autobiographical, black and white ’series-in-time’, which she is funnelling into a series of book &amp; film companion pieces entitled ‘The Recording Rites Trilogy’. Her photographic work is in the permanent collections of the Bibliotheque Nationale, Paris; The Oakland Museum, Oakland and numerous private collections.",
-    "dc:source" : "https://imma.ie/artists/lucy-hilmer/",
-    "schema:birthDate" : "b.1945",
-    "schema:url" : "https://imma.ie/artists/lucy-hilmer/",
-    "rdfs:label" : "Lucy Hilmer"
+    "description" : "Born in Washington DC, photographer, poet, and documentary filmmaker Lucy Hilmer is based in San Francisco. For 40 years, Hilmer has photographed herself, her family and friends, creating multiple, autobiographical, black and white ’series-in-time’, which she is funnelling into a series of book &amp; film companion pieces entitled ‘The Recording Rites Trilogy’. Her photographic work is in the permanent collections of the Bibliotheque Nationale, Paris; The Oakland Museum, Oakland and numerous private collections.",
+    "source" : "https://imma.ie/artists/lucy-hilmer/",
+    "birthDate" : "b.1945",
+    "url" : "https://imma.ie/artists/lucy-hilmer/",
+    "label" : "Lucy Hilmer"
   }, {
     "@id" : "spice:artefact/john-clancy-rehn-gallery-brian-odoherty-barbara-novakand-lloyd-goodrich-former-director-of-the-whitney-museum",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/hilmer-lucy",
     "author" : "spice:agent/hilmer-lucy",
-    "schema:dateCreated" : "1980",
-    "schema:url" : "https://imma.ie/collection/john-clancy-rehn-gallery-brian-odoherty-barbara-novakand-lloyd-goodrich-former-director-of-the-whitney-museum/",
+    "dateCreated" : "1980",
+    "url" : "https://imma.ie/collection/john-clancy-rehn-gallery-brian-odoherty-barbara-novakand-lloyd-goodrich-former-director-of-the-whitney-museum/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/john-clancy-rehn-gallery-brian-odoherty-barbara-novakand-lloyd-goodrich-former-director-of-the-whitney-museum",
-    "arco-cd:hasTitle" : "John Clancy (Rehn Gallery), Brian O’Doherty, Barbara Novak and Lloyd Goodrich (former Director of the Whitney Museum)"
+    "hasTitle" : "John Clancy (Rehn Gallery), Brian O’Doherty, Barbara Novak and Lloyd Goodrich (former Director of the Whitney Museum)"
   }, {
     "@id" : "spice:attribution/john-clancy-rehn-gallery-brian-odoherty-barbara-novakand-lloyd-goodrich-former-director-of-the-whitney-museum",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,40 +28,33 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

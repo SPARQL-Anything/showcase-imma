@@ -2,62 +2,53 @@
   "@graph" : [ {
     "@id" : "spice:artefact/samuel-invoque-a-yahveh-en-mi-augustia-y-a-sus-oidos-llego-mi-grito",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Samuel… Invoqué a Yahvéh en mi augustia…. y a sus oídos llegó mi grito is a 1976 work by Marietta Berman. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/samuel-invoque-a-yahveh-en-mi-augustia-y-a-sus-oidos-llego-mi-grito/",
-    "schema:creditText" : "IMMA Collection: Donation, Smurfit: Cartón y Papel de México, 2000",
+    "description" : "Samuel… Invoqué a Yahvéh en mi augustia…. y a sus oídos llegó mi grito is a 1976 work by Marietta Berman. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/samuel-invoque-a-yahveh-en-mi-augustia-y-a-sus-oidos-llego-mi-grito/",
+    "creditText" : "IMMA Collection: Donation, Smurfit: Cartón y Papel de México, 2000",
     "image" : "spice:documentation/samuel-invoque-a-yahveh-en-mi-augustia-y-a-sus-oidos-llego-mi-grito",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Lithograph",
-    "schema:size" : "76 x 56 cm",
-    "schema:version" : "Edition 82/150",
-    "arco-cd:hasInventory" : "IMMA.919 MP"
+    "material" : "Lithograph",
+    "size" : "76 x 56 cm",
+    "version" : "Edition 82/150",
+    "hasInventory" : "IMMA.919 MP"
   }, {
     "@id" : "spice:documentation/samuel-invoque-a-yahveh-en-mi-augustia-y-a-sus-oidos-llego-mi-grito",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Marietta Berman, Samuel… Invoqué a Yahvéh en mi augustia…. y a sus oídos llegó mi grito, 1976, Lithograph, 76 x 56 cm, Collection Irish Museum of Modern Art, Donation, Smurfit: Cartón y Papel de México, 2000 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Marietta Berman, Samuel… Invoqué a Yahvéh en mi augustia…. y a sus oídos llegó mi grito, 1976, Lithograph, 76 x 56 cm, Collection Irish Museum of Modern Art, Donation, Smurfit: Cartón y Papel de México, 2000 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",

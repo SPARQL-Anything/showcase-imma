@@ -1,0 +1,71 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/mirage",
+    "@type" : "schema:CreativeWork",
+    "description" : "Mirage evokes a desert landscape but it is the cinematic image itself that is the mirage. Working with the material textures of Super-8 film, Mirage presents two visual planes: the captured image and the surface of the film strip itself. The relationship between these is as much one of conflict as mutual support.  Featuring locations in Ireland and Iran, the film draws links between the landscapes of both countries, blurring the divisions between the two and collapsing these further into a more cosmic, hallucinogenic visual. Mirage then uses rhythm and beats to denote time and movement, evoking the experience of a journey and the transition between these two cultures and lands. ",
+    "source" : "https://imma.ie/collection/mirage/",
+    "creditText" : "IMMA Collection: Purchase, 2021, 2021",
+    "image" : "spice:documentation/mirage",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "material" : "Super 8 mm",
+    "size" : "Duration: 3min.30 min",
+    "hasInventory" : "IMMA.4254"
+  }, {
+    "@id" : "spice:documentation/mirage",
+    "@type" : "schema:ImageObject",
+    "caption" : "Atoosa Pour Hosseini, Mirage, 2015, Super 8 mm, Duration: 3min.30 min, Collection Irish Museum of Modern Art, Purchase, 2021, 2021 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "url" : "https://imma.ie/wp-content/uploads/2021/04/9539.jpg"
+  } ],
+  "@context" : {
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

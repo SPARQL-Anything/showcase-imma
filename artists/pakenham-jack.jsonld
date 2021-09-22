@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/pakenham-jack",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish artist Jack Pakenham studied French, Spanish and Philosophy at Queen’s University Belfast and taught at Ashfield’s Boy’s Secondary School, Belfast from 1961. In 1990 he retired from teaching and turned to painting full time. Pakenham was elected an Academician of the Royal Ulster Academy of Arts in 1987. He has exhibited extensively since the early 1960s and his work can be found in numerous collections including the Arts Council of Northern Ireland; the Office of Public Works and The Model, Sligo.",
-    "dc:source" : "https://imma.ie/artists/jack-pakenham/",
-    "schema:birthDate" : "b.1938",
-    "schema:url" : "https://imma.ie/artists/jack-pakenham/",
-    "rdfs:label" : "Jack Pakenham"
+    "description" : "Irish artist Jack Pakenham studied French, Spanish and Philosophy at Queen’s University Belfast and taught at Ashfield’s Boy’s Secondary School, Belfast from 1961. In 1990 he retired from teaching and turned to painting full time. Pakenham was elected an Academician of the Royal Ulster Academy of Arts in 1987. He has exhibited extensively since the early 1960s and his work can be found in numerous collections including the Arts Council of Northern Ireland; the Office of Public Works and The Model, Sligo.",
+    "source" : "https://imma.ie/artists/jack-pakenham/",
+    "birthDate" : "b.1938",
+    "url" : "https://imma.ie/artists/jack-pakenham/",
+    "label" : "Jack Pakenham"
   }, {
     "@id" : "spice:artefact/national-identity-crisis-1",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/pakenham-jack",
     "author" : "spice:agent/pakenham-jack",
-    "schema:dateCreated" : "1995",
-    "schema:url" : "https://imma.ie/collection/national-identity-crisis-1/",
+    "dateCreated" : "1995",
+    "url" : "https://imma.ie/collection/national-identity-crisis-1/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/national-identity-crisis-1",
-    "arco-cd:hasTitle" : "National Identity Crisis 1"
+    "hasTitle" : "National Identity Crisis 1"
   }, {
     "@id" : "spice:attribution/national-identity-crisis-1",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,40 +24,33 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

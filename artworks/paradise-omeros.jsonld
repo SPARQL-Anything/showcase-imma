@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/paradise-omeros",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Paradise Omeros is a 2002 work by Isaac Julien. It has a duration of 20min.29 sec loop. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/paradise-omeros/",
-    "schema:creditText" : "IMMA Collection: Purchase, 2006",
+    "description" : "Paradise Omeros is a 2002 work by Isaac Julien. It has a duration of 20min.29 sec loop. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/paradise-omeros/",
+    "creditText" : "IMMA Collection: Purchase, 2006",
     "image" : "spice:documentation/paradise-omeros",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "16 mm film transferred to three-channel video",
-    "schema:version" : "Edition A/P 1/4",
-    "arco-cd:hasInventory" : "IMMA.1972"
+    "material" : "16 mm film transferred to three-channel video",
+    "version" : "Edition A/P 1/4",
+    "hasInventory" : "IMMA.1972"
   }, {
     "@id" : "spice:documentation/paradise-omeros",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Isaac Julien, Paradise Omeros, 2002, 16 mm film transferred to three-channel video, Duration: 20min.29 sec loop, Collection Irish Museum of Modern Art, Purchase, 2006 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Isaac Julien, Paradise Omeros, 2002, 16 mm film transferred to three-channel video, Duration: 20min.29 sec loop, Collection Irish Museum of Modern Art, Purchase, 2006 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2021/03/745.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2021/03/745.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

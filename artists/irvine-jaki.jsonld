@@ -2,61 +2,61 @@
   "@graph" : [ {
     "@id" : "spice:agent/irvine-jaki",
     "@type" : "foaf:Person",
-    "dc:description" : "Jaki Irvine is an Irish artist who lives and works in Dublin and Mexico City. She is concerned with how we come to imagine and understand ourselves from within our privacy and often uses video installation as a way to reflect on moments where this process, awkwardly and unavoidably, comes spilling into the public spaces of our lives.",
-    "dc:source" : "https://imma.ie/artists/jaki-irvine/",
-    "schema:birthDate" : "b.1966",
-    "schema:url" : "https://imma.ie/artists/jaki-irvine/",
-    "rdfs:label" : "Jaki Irvine"
+    "description" : "Jaki Irvine is an Irish artist who lives and works in Dublin and Mexico City. She is concerned with how we come to imagine and understand ourselves from within our privacy and often uses video installation as a way to reflect on moments where this process, awkwardly and unavoidably, comes spilling into the public spaces of our lives.",
+    "source" : "https://imma.ie/artists/jaki-irvine/",
+    "birthDate" : "b.1966",
+    "url" : "https://imma.ie/artists/jaki-irvine/",
+    "label" : "Jaki Irvine"
   }, {
     "@id" : "spice:artefact/desert-vultures",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/irvine-jaki",
     "author" : "spice:agent/irvine-jaki",
-    "schema:dateCreated" : "2008",
-    "schema:url" : "https://imma.ie/collection/desert-vultures/",
+    "dateCreated" : "2008",
+    "url" : "https://imma.ie/collection/desert-vultures/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/desert-vultures",
-    "arco-cd:hasTitle" : "Desert Vultures"
+    "hasTitle" : "Desert Vultures"
   }, {
     "@id" : "spice:artefact/if-the-ground-should-open",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/irvine-jaki",
     "author" : "spice:agent/irvine-jaki",
-    "schema:dateCreated" : "2016",
-    "schema:url" : "https://imma.ie/collection/if-the-ground-should-open/",
+    "dateCreated" : "2016",
+    "url" : "https://imma.ie/collection/if-the-ground-should-open/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/if-the-ground-should-open",
-    "arco-cd:hasTitle" : "If The Ground Should Open"
+    "hasTitle" : "If The Ground Should Open"
   }, {
     "@id" : "spice:artefact/margaret-again",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/irvine-jaki",
     "author" : "spice:agent/irvine-jaki",
-    "schema:dateCreated" : "1995",
-    "schema:url" : "https://imma.ie/collection/margaret-again/",
+    "dateCreated" : "1995",
+    "url" : "https://imma.ie/collection/margaret-again/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/margaret-again",
-    "arco-cd:hasTitle" : "Margaret Again"
+    "hasTitle" : "Margaret Again"
   }, {
     "@id" : "spice:artefact/old-conditions-for-new-love",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/irvine-jaki",
     "author" : "spice:agent/irvine-jaki",
-    "schema:dateCreated" : "2008",
-    "schema:url" : "https://imma.ie/collection/old-conditions-for-new-love/",
+    "dateCreated" : "2008",
+    "url" : "https://imma.ie/collection/old-conditions-for-new-love/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/old-conditions-for-new-love",
-    "arco-cd:hasTitle" : "Old conditions for new love"
+    "hasTitle" : "Old conditions for new love"
   }, {
     "@id" : "spice:artefact/the-silver-bridge",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/irvine-jaki",
     "author" : "spice:agent/irvine-jaki",
-    "schema:dateCreated" : "2003",
-    "schema:url" : "https://imma.ie/collection/the-silver-bridge/",
+    "dateCreated" : "2003",
+    "url" : "https://imma.ie/collection/the-silver-bridge/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-silver-bridge",
-    "arco-cd:hasTitle" : "The Silver Bridge"
+    "hasTitle" : "The Silver Bridge"
   }, {
     "@id" : "spice:attribution/desert-vultures",
     "@type" : "arco:AuthorshipAttribution",
@@ -84,24 +84,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -112,24 +109,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -2,221 +2,221 @@
   "@graph" : [ {
     "@id" : "spice:agent/ballagh-robert",
     "@type" : "foaf:Person",
-    "dc:description" : "Robert Ballagh is an Irish painter and designer credited with the introduction of Pop Art to Ireland. His milieu encompasses set design, the final series of Irish Punt banknotes, commemorative stamps and portraits of Irish literary, historical and establishment figures. He represented Ireland at the 1969 Paris Biennale and his paintings are held in several public collections. Ballagh is a member of Aosdána and the president of the Ireland Institute for Historical and Cultural Studies.",
-    "dc:source" : "https://imma.ie/artists/robert-ballagh/",
-    "schema:birthDate" : "b.1943",
-    "schema:url" : "https://imma.ie/artists/robert-ballagh/",
-    "rdfs:label" : "Robert Ballagh"
+    "description" : "Robert Ballagh is an Irish painter and designer credited with the introduction of Pop Art to Ireland. His milieu encompasses set design, the final series of Irish Punt banknotes, commemorative stamps and portraits of Irish literary, historical and establishment figures. He represented Ireland at the 1969 Paris Biennale and his paintings are held in several public collections. Ballagh is a member of Aosdána and the president of the Ireland Institute for Historical and Cultural Studies.",
+    "source" : "https://imma.ie/artists/robert-ballagh/",
+    "birthDate" : "b.1943",
+    "url" : "https://imma.ie/artists/robert-ballagh/",
+    "label" : "Robert Ballagh"
   }, {
     "@id" : "spice:artefact/family-winter-in-ronda",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ballagh-robert",
     "author" : "spice:agent/ballagh-robert",
-    "schema:dateCreated" : "1974",
-    "schema:url" : "https://imma.ie/collection/family-winter-in-ronda/",
+    "dateCreated" : "1974",
+    "url" : "https://imma.ie/collection/family-winter-in-ronda/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/family-winter-in-ronda",
-    "arco-cd:hasTitle" : "Family (Winter in Ronda)"
+    "hasTitle" : "Family (Winter in Ronda)"
   }, {
     "@id" : "spice:artefact/homage-a-david-tribute-to-jacques-louis-david",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ballagh-robert",
     "author" : "spice:agent/ballagh-robert",
-    "schema:dateCreated" : "1970",
-    "schema:url" : "https://imma.ie/collection/homage-a-david-tribute-to-jacques-louis-david/",
+    "dateCreated" : "1970",
+    "url" : "https://imma.ie/collection/homage-a-david-tribute-to-jacques-louis-david/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/homage-a-david-tribute-to-jacques-louis-david",
-    "arco-cd:hasTitle" : "Homage à David/ Tribute to Jacques Louis David"
+    "hasTitle" : "Homage à David/ Tribute to Jacques Louis David"
   }, {
     "@id" : "spice:artefact/homage-to-bernadette-greevy-commissioned-by-g-lambert-1977",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ballagh-robert",
     "author" : "spice:agent/ballagh-robert",
-    "schema:dateCreated" : "1978",
-    "schema:url" : "https://imma.ie/collection/homage-to-bernadette-greevy-commissioned-by-g-lambert-1977/",
+    "dateCreated" : "1978",
+    "url" : "https://imma.ie/collection/homage-to-bernadette-greevy-commissioned-by-g-lambert-1977/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/homage-to-bernadette-greevy-commissioned-by-g-lambert-1977",
-    "arco-cd:hasTitle" : "Homage to Bernadette Greevy (commissioned by G. Lambert, 1977)"
+    "hasTitle" : "Homage to Bernadette Greevy (commissioned by G. Lambert, 1977)"
   }, {
     "@id" : "spice:artefact/liberty-on-the-barricades-after-delacroix",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ballagh-robert",
     "author" : "spice:agent/ballagh-robert",
-    "schema:dateCreated" : "1969",
-    "schema:url" : "https://imma.ie/collection/liberty-on-the-barricades-after-delacroix/",
+    "dateCreated" : "1969",
+    "url" : "https://imma.ie/collection/liberty-on-the-barricades-after-delacroix/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/liberty-on-the-barricades-after-delacroix",
-    "arco-cd:hasTitle" : "Liberty on the Barricades (After Delacroix)"
+    "hasTitle" : "Liberty on the Barricades (After Delacroix)"
   }, {
     "@id" : "spice:artefact/liquorice-allsorts",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ballagh-robert",
     "author" : "spice:agent/ballagh-robert",
-    "schema:dateCreated" : "1971",
-    "schema:url" : "https://imma.ie/collection/liquorice-allsorts/",
+    "dateCreated" : "1971",
+    "url" : "https://imma.ie/collection/liquorice-allsorts/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/liquorice-allsorts",
-    "arco-cd:hasTitle" : "Liquorice Allsorts"
+    "hasTitle" : "Liquorice Allsorts"
   }, {
     "@id" : "spice:artefact/man-looking-at-a-fontana",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ballagh-robert",
     "author" : "spice:agent/ballagh-robert",
-    "schema:dateCreated" : "1971",
-    "schema:url" : "https://imma.ie/collection/man-looking-at-a-fontana/",
+    "dateCreated" : "1971",
+    "url" : "https://imma.ie/collection/man-looking-at-a-fontana/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/man-looking-at-a-fontana",
-    "arco-cd:hasTitle" : "Man Looking at a Fontana"
+    "hasTitle" : "Man Looking at a Fontana"
   }, {
     "@id" : "spice:artefact/man-with-a-frank-stella",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ballagh-robert",
     "author" : "spice:agent/ballagh-robert",
-    "schema:dateCreated" : "1974",
-    "schema:url" : "https://imma.ie/collection/man-with-a-frank-stella/",
+    "dateCreated" : "1974",
+    "url" : "https://imma.ie/collection/man-with-a-frank-stella/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/man-with-a-frank-stella",
-    "arco-cd:hasTitle" : "Man with a Frank Stella"
+    "hasTitle" : "Man with a Frank Stella"
   }, {
     "@id" : "spice:artefact/marchers",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ballagh-robert",
     "author" : "spice:agent/ballagh-robert",
-    "schema:dateCreated" : "1968",
-    "schema:url" : "https://imma.ie/collection/marchers/",
+    "dateCreated" : "1968",
+    "url" : "https://imma.ie/collection/marchers/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/marchers",
-    "arco-cd:hasTitle" : "Marchers"
+    "hasTitle" : "Marchers"
   }, {
     "@id" : "spice:artefact/northern-ireland-the-1500th-victim",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ballagh-robert",
     "author" : "spice:agent/ballagh-robert",
-    "schema:dateCreated" : "1976",
-    "schema:url" : "https://imma.ie/collection/northern-ireland-the-1500th-victim/",
+    "dateCreated" : "1976",
+    "url" : "https://imma.ie/collection/northern-ireland-the-1500th-victim/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/northern-ireland-the-1500th-victim",
-    "arco-cd:hasTitle" : "Northern Ireland, the 1,500th Victim"
+    "hasTitle" : "Northern Ireland, the 1,500th Victim"
   }, {
     "@id" : "spice:artefact/not-again",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ballagh-robert",
     "author" : "spice:agent/ballagh-robert",
-    "schema:dateCreated" : "1979",
-    "schema:url" : "https://imma.ie/collection/not-again/",
+    "dateCreated" : "1979",
+    "url" : "https://imma.ie/collection/not-again/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/not-again",
-    "arco-cd:hasTitle" : "Not Again"
+    "hasTitle" : "Not Again"
   }, {
     "@id" : "spice:artefact/oh-mona",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ballagh-robert",
     "author" : "spice:agent/ballagh-robert",
-    "schema:dateCreated" : "1977",
-    "schema:url" : "https://imma.ie/collection/oh-mona/",
+    "dateCreated" : "1977",
+    "url" : "https://imma.ie/collection/oh-mona/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/oh-mona",
-    "arco-cd:hasTitle" : "Oh Mona!"
+    "hasTitle" : "Oh Mona!"
   }, {
     "@id" : "spice:artefact/pei-architecture",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ballagh-robert",
     "author" : "spice:agent/ballagh-robert",
-    "schema:dateCreated" : "1980",
-    "schema:url" : "https://imma.ie/collection/pei-architecture/",
+    "dateCreated" : "1980",
+    "url" : "https://imma.ie/collection/pei-architecture/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/pei-architecture",
-    "arco-cd:hasTitle" : "Pei Architecture"
+    "hasTitle" : "Pei Architecture"
   }, {
     "@id" : "spice:artefact/people-and-a-morris-louis",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ballagh-robert",
     "author" : "spice:agent/ballagh-robert",
-    "schema:dateCreated" : "1975",
-    "schema:url" : "https://imma.ie/collection/people-and-a-morris-louis/",
+    "dateCreated" : "1975",
+    "url" : "https://imma.ie/collection/people-and-a-morris-louis/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/people-and-a-morris-louis",
-    "arco-cd:hasTitle" : "People and a Morris Louis"
+    "hasTitle" : "People and a Morris Louis"
   }, {
     "@id" : "spice:artefact/portrait-of-david-hendriks",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ballagh-robert",
     "author" : "spice:agent/ballagh-robert",
-    "schema:dateCreated" : "1972",
-    "schema:url" : "https://imma.ie/collection/portrait-of-david-hendriks/",
+    "dateCreated" : "1972",
+    "url" : "https://imma.ie/collection/portrait-of-david-hendriks/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/portrait-of-david-hendriks",
-    "arco-cd:hasTitle" : "Portrait of David Hendriks"
+    "hasTitle" : "Portrait of David Hendriks"
   }, {
     "@id" : "spice:artefact/portrait-of-gordon-lambertcommissioned-by-gordon-lambert",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ballagh-robert",
     "author" : "spice:agent/ballagh-robert",
-    "schema:dateCreated" : "1972",
-    "schema:url" : "https://imma.ie/collection/portrait-of-gordon-lambertcommissioned-by-gordon-lambert/",
+    "dateCreated" : "1972",
+    "url" : "https://imma.ie/collection/portrait-of-gordon-lambertcommissioned-by-gordon-lambert/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/portrait-of-gordon-lambertcommissioned-by-gordon-lambert",
-    "arco-cd:hasTitle" : "Portrait of Gordon Lambert (commissioned by Gordon Lambert)"
+    "hasTitle" : "Portrait of Gordon Lambert (commissioned by Gordon Lambert)"
   }, {
     "@id" : "spice:artefact/portrait-of-ian-baird-holding-a-drawing-of-his-wife-beatrice",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ballagh-robert",
     "author" : "spice:agent/ballagh-robert",
-    "schema:dateCreated" : "1977",
-    "schema:url" : "https://imma.ie/collection/portrait-of-ian-baird-holding-a-drawing-of-his-wife-beatrice/",
+    "dateCreated" : "1977",
+    "url" : "https://imma.ie/collection/portrait-of-ian-baird-holding-a-drawing-of-his-wife-beatrice/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/portrait-of-ian-baird-holding-a-drawing-of-his-wife-beatrice",
-    "arco-cd:hasTitle" : "Portrait of Ian Baird holding a drawing of his wife Beatrice"
+    "hasTitle" : "Portrait of Ian Baird holding a drawing of his wife Beatrice"
   }, {
     "@id" : "spice:artefact/screen-for-gordon-lambertcommissioned-by-gordon-lambert",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ballagh-robert",
     "author" : "spice:agent/ballagh-robert",
-    "schema:dateCreated" : "1976",
-    "schema:url" : "https://imma.ie/collection/screen-for-gordon-lambertcommissioned-by-gordon-lambert/",
+    "dateCreated" : "1976",
+    "url" : "https://imma.ie/collection/screen-for-gordon-lambertcommissioned-by-gordon-lambert/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/screen-for-gordon-lambertcommissioned-by-gordon-lambert",
-    "arco-cd:hasTitle" : "Screen for Gordon Lambert (commissioned by Gordon Lambert)"
+    "hasTitle" : "Screen for Gordon Lambert (commissioned by Gordon Lambert)"
   }, {
     "@id" : "spice:artefact/stamps-to-celebrate-50th-anniversary-of-the-founding-of-the-esb",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ballagh-robert",
     "author" : "spice:agent/ballagh-robert",
-    "schema:dateCreated" : "1977",
-    "schema:url" : "https://imma.ie/collection/stamps-to-celebrate-50th-anniversary-of-the-founding-of-the-esb/",
+    "dateCreated" : "1977",
+    "url" : "https://imma.ie/collection/stamps-to-celebrate-50th-anniversary-of-the-founding-of-the-esb/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/stamps-to-celebrate-50th-anniversary-of-the-founding-of-the-esb",
-    "arco-cd:hasTitle" : "Stamps (to celebrate 50th anniversary of the founding of the ESB)"
+    "hasTitle" : "Stamps (to celebrate 50th anniversary of the founding of the ESB)"
   }, {
     "@id" : "spice:artefact/the-rape-of-the-sabines-study-for",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ballagh-robert",
     "author" : "spice:agent/ballagh-robert",
-    "schema:dateCreated" : "1970",
-    "schema:url" : "https://imma.ie/collection/the-rape-of-the-sabines-study-for/",
+    "dateCreated" : "1970",
+    "url" : "https://imma.ie/collection/the-rape-of-the-sabines-study-for/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-rape-of-the-sabines-study-for",
-    "arco-cd:hasTitle" : "The Rape of the Sabines (study for)"
+    "hasTitle" : "The Rape of the Sabines (study for)"
   }, {
     "@id" : "spice:artefact/the-robert-ballagh-monograph",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ballagh-robert",
     "author" : "spice:agent/ballagh-robert",
-    "schema:dateCreated" : "2010",
-    "schema:url" : "https://imma.ie/collection/the-robert-ballagh-monograph/",
+    "dateCreated" : "2010",
+    "url" : "https://imma.ie/collection/the-robert-ballagh-monograph/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-robert-ballagh-monograph",
-    "arco-cd:hasTitle" : "The Robert Ballagh Monograph"
+    "hasTitle" : "The Robert Ballagh Monograph"
   }, {
     "@id" : "spice:artefact/two-men-and-a-lichtenstein",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ballagh-robert",
     "author" : "spice:agent/ballagh-robert",
-    "schema:dateCreated" : "1974",
-    "schema:url" : "https://imma.ie/collection/two-men-and-a-lichtenstein/",
+    "dateCreated" : "1974",
+    "url" : "https://imma.ie/collection/two-men-and-a-lichtenstein/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/two-men-and-a-lichtenstein",
-    "arco-cd:hasTitle" : "Two Men and a Lichtenstein"
+    "hasTitle" : "Two Men and a Lichtenstein"
   }, {
     "@id" : "spice:attribution/family-winter-in-ronda",
     "@type" : "arco:AuthorshipAttribution",
@@ -308,24 +308,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -336,24 +333,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

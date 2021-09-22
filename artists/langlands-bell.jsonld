@@ -2,20 +2,20 @@
   "@graph" : [ {
     "@id" : "spice:agent/langlands-bell",
     "@type" : "foaf:Person",
-    "dc:description" : "British artists Ben Langlands (born 1955) and Nikki Bell (born 1959) were both raised in London. They studied at Middlesex Polytechnic in North London from 1977 to 1980 and have been collaborating together since 1978. In 2004 Langlands &amp; Bell won the BAFTA Award for Interactive Art Installation and were short-listed for the Turner Prize for their trilogy, ‘The House of Osama Bin Laden', created after a visit to Afghanistan in 2002. Their work is held in a large number of international museum collections including Tate, London and the MoMA, New York.",
-    "dc:source" : "https://imma.ie/artists/langlands-bell/",
-    "schema:url" : "https://imma.ie/artists/langlands-bell/",
-    "rdfs:label" : "Langlands &amp; Bell"
+    "description" : "British artists Ben Langlands (born 1955) and Nikki Bell (born 1959) were both raised in London. They studied at Middlesex Polytechnic in North London from 1977 to 1980 and have been collaborating together since 1978. In 2004 Langlands &amp; Bell won the BAFTA Award for Interactive Art Installation and were short-listed for the Turner Prize for their trilogy, ‘The House of Osama Bin Laden', created after a visit to Afghanistan in 2002. Their work is held in a large number of international museum collections including Tate, London and the MoMA, New York.",
+    "source" : "https://imma.ie/artists/langlands-bell/",
+    "url" : "https://imma.ie/artists/langlands-bell/",
+    "label" : "Langlands &amp; Bell"
   }, {
     "@id" : "spice:artefact/uno-city",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/langlands-bell",
     "author" : "spice:agent/langlands-bell",
-    "schema:dateCreated" : "1992",
-    "schema:url" : "https://imma.ie/collection/uno-city/",
+    "dateCreated" : "1992",
+    "url" : "https://imma.ie/collection/uno-city/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/uno-city",
-    "arco-cd:hasTitle" : "UNO City"
+    "hasTitle" : "UNO City"
   }, {
     "@id" : "spice:attribution/uno-city",
     "@type" : "arco:AuthorshipAttribution",
@@ -27,24 +27,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -55,20 +52,17 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

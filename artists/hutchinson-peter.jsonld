@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/hutchinson-peter",
     "@type" : "foaf:Person",
-    "dc:description" : "Peter Hutchinson was raised near Margate in rural England. Growing up in the country, he developed a love and knowledge of plants. Hutchinson received his BFA from the University of Illinois in 1960 and moved to New York the following year. Hutchinson has received numerous awards including a Walter Guttman Foundation Grant (1966), a National Endowment for the Arts Grant (1975-76) and a Pollock-Krasner Foundation Grant (1989). He is a keen gardener and his garden in Provincetown MA is registered as a wildlife habitat.",
-    "dc:source" : "https://imma.ie/artists/peter-hutchinson/",
-    "schema:birthDate" : "b.1930",
-    "schema:url" : "https://imma.ie/artists/peter-hutchinson/",
-    "rdfs:label" : "Peter Hutchinson"
+    "description" : "Peter Hutchinson was raised near Margate in rural England. Growing up in the country, he developed a love and knowledge of plants. Hutchinson received his BFA from the University of Illinois in 1960 and moved to New York the following year. Hutchinson has received numerous awards including a Walter Guttman Foundation Grant (1966), a National Endowment for the Arts Grant (1975-76) and a Pollock-Krasner Foundation Grant (1989). He is a keen gardener and his garden in Provincetown MA is registered as a wildlife habitat.",
+    "source" : "https://imma.ie/artists/peter-hutchinson/",
+    "birthDate" : "b.1930",
+    "url" : "https://imma.ie/artists/peter-hutchinson/",
+    "label" : "Peter Hutchinson"
   }, {
     "@id" : "spice:artefact/botanical-gardens",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/hutchinson-peter",
     "author" : "spice:agent/hutchinson-peter",
-    "schema:dateCreated" : "1994",
-    "schema:url" : "https://imma.ie/collection/botanical-gardens/",
+    "dateCreated" : "1994",
+    "url" : "https://imma.ie/collection/botanical-gardens/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/botanical-gardens",
-    "arco-cd:hasTitle" : "Botanical Gardens"
+    "hasTitle" : "Botanical Gardens"
   }, {
     "@id" : "spice:attribution/botanical-gardens",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,24 +28,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -56,24 +53,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

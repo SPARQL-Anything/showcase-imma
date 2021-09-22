@@ -1,35 +1,30 @@
 {
   "@id" : "spice:agent/jaffe-lee",
   "@type" : "foaf:Person",
-  "dc:description" : "American artist, photographer, filmmaker, musician, and producer Lee Jaffe studied American history and literature, history of art and modern philosophy at Penn State University. He played music with various New York groups, and then moved to Brazil where he began to make experimental films. When he returned to New York in 1971, he continued to make films. He moved to Jamaica in 1972 to manage Bob Marley and the Wailers. He took up painting in the 1980s. Jaffe’s artistic practice is marked by his commitment to social change, particularly in the denunciation of racism in relation to African-Americans. He has exhibited worldwide.",
-  "dc:source" : "https://imma.ie/artists/lee-jaffe/",
-  "schema:birthDate" : "b.1950",
-  "schema:url" : "https://imma.ie/artists/lee-jaffe/",
-  "rdfs:label" : "Lee Jaffe",
+  "description" : "American artist, photographer, filmmaker, musician, and producer Lee Jaffe studied American history and literature, history of art and modern philosophy at Penn State University. He played music with various New York groups, and then moved to Brazil where he began to make experimental films. When he returned to New York in 1971, he continued to make films. He moved to Jamaica in 1972 to manage Bob Marley and the Wailers. He took up painting in the 1980s. Jaffe’s artistic practice is marked by his commitment to social change, particularly in the denunciation of racism in relation to African-Americans. He has exhibited worldwide.",
+  "source" : "https://imma.ie/artists/lee-jaffe/",
+  "birthDate" : "b.1950",
+  "url" : "https://imma.ie/artists/lee-jaffe/",
+  "label" : "Lee Jaffe",
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

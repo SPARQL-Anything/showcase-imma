@@ -2,31 +2,31 @@
   "@graph" : [ {
     "@id" : "spice:agent/atherton-kevin",
     "@type" : "foaf:Person",
-    "dc:description" : [ "Kevin Atherton was selected for the Hennessy Art for IMMA Collection 2016.", "Kevin Atherton is an artist who works with performance and new media in sculptural contexts. A fine art educator, his is a time-based practice with an ongoing interest in the relationship between the real and the fictional. Since 1980s he has created many large scale public sculptural commissions. He was Head of the Department of Postgraduate Pathways in the Faculty of Fine Art in NCAD, Dublin and as such has influenced a whole generation of young artists." ],
-    "dc:source" : "https://imma.ie/artists/kevin-atherton/",
-    "schema:birthDate" : "b.1950",
-    "schema:url" : "https://imma.ie/artists/kevin-atherton/",
-    "rdfs:label" : "Kevin Atherton"
+    "description" : [ "Kevin Atherton was selected for the Hennessy Art for IMMA Collection 2016.", "Kevin Atherton is an artist who works with performance and new media in sculptural contexts. A fine art educator, his is a time-based practice with an ongoing interest in the relationship between the real and the fictional. Since 1980s he has created many large scale public sculptural commissions. He was Head of the Department of Postgraduate Pathways in the Faculty of Fine Art in NCAD, Dublin and as such has influenced a whole generation of young artists." ],
+    "source" : "https://imma.ie/artists/kevin-atherton/",
+    "birthDate" : "b.1950",
+    "url" : "https://imma.ie/artists/kevin-atherton/",
+    "label" : "Kevin Atherton"
   }, {
     "@id" : "spice:artefact/in-two-minds",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/atherton-kevin",
     "author" : "spice:agent/atherton-kevin",
-    "schema:dateCreated" : "1978",
-    "schema:url" : "https://imma.ie/collection/in-two-minds/",
+    "dateCreated" : "1978",
+    "url" : "https://imma.ie/collection/in-two-minds/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/in-two-minds",
-    "arco-cd:hasTitle" : "In Two Minds"
+    "hasTitle" : "In Two Minds"
   }, {
     "@id" : "spice:artefact/time-piece",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/atherton-kevin",
     "author" : "spice:agent/atherton-kevin",
-    "schema:dateCreated" : "1974",
-    "schema:url" : "https://imma.ie/collection/time-piece/",
+    "dateCreated" : "1974",
+    "url" : "https://imma.ie/collection/time-piece/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/time-piece",
-    "arco-cd:hasTitle" : "Time Piece"
+    "hasTitle" : "Time Piece"
   }, {
     "@id" : "spice:attribution/in-two-minds",
     "@type" : "arco:AuthorshipAttribution",
@@ -42,40 +42,33 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -87,7 +80,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -1,0 +1,77 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/nunes-maia",
+    "@type" : "foaf:Person",
+    "description" : [ "Maïa Nunes (they/them) is a performance artist of Trinidadian descent. Their interdisciplinary work is deeply concerned with their own ancestry, and their research explores legacies of colonial violence, performance as a site of transformative potential, and the possibilities for practicing and thereby accessing liberation.", "Maïa Nunes (they/them) is a performance artist of Trinidadian descent. Their interdisciplinary work is deeply concerned with their own ancestry, and their research explores legacies of colonial violence, performance as a site of transformative potential, and the possibilities for practicing and thereby accessing liberation. Maïa spent the beginning of 2020 as artist in residence at The Alice Yard in Trinidad and Tobago, and is recent recipient of the Wicklow Arts Office Artist Support Award and the Irish Arts Council’s Visual Arts Bursary Award. Maïa is also co-founder of Origins Eile, a grassroots organisation, centring the safety and experiences of QTIBPOC in Ireland. In 2020 Origins Eile ran a small program of events entitled DESTINY: A Constellation of Queer Afro Futurist Visions as part of Dublin Fringe Festival 2020, and launched a new Black Queer publication called TONGUES in association with Black Pride Ireland." ],
+    "source" : "https://imma.ie/artists/maia-nunes/",
+    "url" : "https://imma.ie/artists/maia-nunes/",
+    "label" : "Maïa Nunes"
+  }, {
+    "@id" : "spice:artefact/arima",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/nunes-maia",
+    "author" : "spice:agent/nunes-maia",
+    "dateCreated" : "2020",
+    "url" : "https://imma.ie/collection/arima/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/arima",
+    "hasTitle" : "ARIMA"
+  }, {
+    "@id" : "spice:attribution/arima",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/nunes-maia"
+  } ],
+  "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

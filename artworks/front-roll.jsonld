@@ -2,71 +2,61 @@
   "@graph" : [ {
     "@id" : "spice:artefact/front-roll",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Front Roll is a 1964 work by Robert Rauschenberg. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/front-roll/",
-    "schema:creditText" : "IMMA Collection: The Novak/O'Doherty Collection at IMMA Gift, The American Ireland Fund, 2014",
+    "description" : "Front Roll is a 1964 work by Robert Rauschenberg. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/front-roll/",
+    "creditText" : "IMMA Collection: The Novak/O'Doherty Collection at IMMA Gift, The American Ireland Fund, 2014",
     "image" : "spice:documentation/front-roll",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Lithograph in colors",
-    "schema:size" : "104.5 x 75.4 cm Framed: 111.5 x 85.5 cm",
-    "schema:version" : "H.C. 7/8 (aside from the edition of 39)",
-    "arco-cd:hasInventory" : "IMMA.3861"
+    "material" : "Lithograph in colors",
+    "size" : "104.5 x 75.4 cm Framed: 111.5 x 85.5 cm",
+    "version" : "H.C. 7/8 (aside from the edition of 39)",
+    "hasInventory" : "IMMA.3861"
   }, {
     "@id" : "spice:documentation/front-roll",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Robert Rauschenberg, Front Roll, 1964, Lithograph in colors, 104.5 x 75.4 cm Framed: 111.5 x 85.5 cm, Collection Irish Museum of Modern Art, The Novak/O'Doherty Collection at IMMA Gift, The American Ireland Fund, 2014 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Robert Rauschenberg, Front Roll, 1964, Lithograph in colors, 104.5 x 75.4 cm Framed: 111.5 x 85.5 cm, Collection Irish Museum of Modern Art, The Novak/O'Doherty Collection at IMMA Gift, The American Ireland Fund, 2014 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/5108.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/5108.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

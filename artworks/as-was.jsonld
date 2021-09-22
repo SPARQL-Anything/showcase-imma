@@ -2,37 +2,33 @@
   "@graph" : [ {
     "@id" : "spice:artefact/as-was",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "‘As Was’, which was painted in 1993, is reminiscent of an early Renaissance diptych in which a dialogue is set up between the canvas panel with its bold, horizontal stripes and the matt blue/brown of the metal one. Continuity and repetition are suggested through the use of similar insets of vertical stripes but their meaning is made subtly different by virtue of their contrasting surroundings. Light bounces off the painted metal but is quietly absorbed by the canvas panel. The crisp machine edge of the metal is challenged by the soft and often uneven edges of the painted stripes. The suggestion of a closed ‘frame’ of metal around the inset on the right is neutralized by the openness of the striped ground on the left. In line with the artist’s dislike for ‘closure’, nothing here is fixed.",
-    "dc:source" : "https://imma.ie/collection/as-was/",
-    "schema:creditText" : "IMMA Collection: Purchase, 1993",
+    "description" : "‘As Was’, which was painted in 1993, is reminiscent of an early Renaissance diptych in which a dialogue is set up between the canvas panel with its bold, horizontal stripes and the matt blue/brown of the metal one. Continuity and repetition are suggested through the use of similar insets of vertical stripes but their meaning is made subtly different by virtue of their contrasting surroundings. Light bounces off the painted metal but is quietly absorbed by the canvas panel. The crisp machine edge of the metal is challenged by the soft and often uneven edges of the painted stripes. The suggestion of a closed ‘frame’ of metal around the inset on the right is neutralized by the openness of the striped ground on the left. In line with the artist’s dislike for ‘closure’, nothing here is fixed.",
+    "source" : "https://imma.ie/collection/as-was/",
+    "creditText" : "IMMA Collection: Purchase, 1993",
     "image" : "spice:documentation/as-was",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Oil on canvas and steel",
-    "schema:size" : "212 x 305 cm",
-    "arco-cd:hasInventory" : "IMMA.441"
+    "material" : "Oil on canvas and steel",
+    "size" : "212 x 305 cm",
+    "hasInventory" : "IMMA.441"
   }, {
     "@id" : "spice:documentation/as-was",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Sean Scully, As Was, 1993, Oil on canvas and steel, 212 x 305 cm, Collection Irish Museum of Modern Art, Purchase, 1993 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Sean Scully, As Was, 1993, Oil on canvas and steel, 212 x 305 cm, Collection Irish Museum of Modern Art, Purchase, 1993 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -43,20 +39,16 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

@@ -2,71 +2,71 @@
   "@graph" : [ {
     "@id" : "spice:agent/coleman-michael",
     "@type" : "foaf:Person",
-    "dc:description" : "Michael Coleman is a self-taught artist and has worked in a variety of styles. In his earlier works, he frequently cut and stitched his canvases, or combined canvas, plastic and leather. He now mostly creates monochromatic abstracts. Coleman has received a number of awards including the Carroll Award, Irish exhibition of Living Art, 1977; the Patrons Award for painting, EV+A, Limerick 1979 and 1980. He exhibits regularly in Ireland and abroad, and his work is included in many public collections.",
-    "dc:source" : "https://imma.ie/artists/michael-coleman/",
-    "schema:birthDate" : "b.1951",
-    "schema:url" : "https://imma.ie/artists/michael-coleman/",
-    "rdfs:label" : "Michael Coleman"
+    "description" : "Michael Coleman is a self-taught artist and has worked in a variety of styles. In his earlier works, he frequently cut and stitched his canvases, or combined canvas, plastic and leather. He now mostly creates monochromatic abstracts. Coleman has received a number of awards including the Carroll Award, Irish exhibition of Living Art, 1977; the Patrons Award for painting, EV+A, Limerick 1979 and 1980. He exhibits regularly in Ireland and abroad, and his work is included in many public collections.",
+    "source" : "https://imma.ie/artists/michael-coleman/",
+    "birthDate" : "b.1951",
+    "url" : "https://imma.ie/artists/michael-coleman/",
+    "label" : "Michael Coleman"
   }, {
     "@id" : "spice:artefact/divides",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/coleman-michael",
     "author" : "spice:agent/coleman-michael",
-    "schema:dateCreated" : "1973",
-    "schema:url" : "https://imma.ie/collection/divides/",
+    "dateCreated" : "1973",
+    "url" : "https://imma.ie/collection/divides/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/divides",
-    "arco-cd:hasTitle" : "Divides"
+    "hasTitle" : "Divides"
   }, {
     "@id" : "spice:artefact/red-blues",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/coleman-michael",
     "author" : "spice:agent/coleman-michael",
-    "schema:dateCreated" : "1986",
-    "schema:url" : "https://imma.ie/collection/red-blues/",
+    "dateCreated" : "1986",
+    "url" : "https://imma.ie/collection/red-blues/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/red-blues",
-    "arco-cd:hasTitle" : "Red Blues"
+    "hasTitle" : "Red Blues"
   }, {
     "@id" : "spice:artefact/terrain",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/coleman-michael",
     "author" : "spice:agent/coleman-michael",
-    "schema:dateCreated" : "1989",
-    "schema:url" : "https://imma.ie/collection/terrain/",
+    "dateCreated" : "1989",
+    "url" : "https://imma.ie/collection/terrain/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/terrain",
-    "arco-cd:hasTitle" : "Terrain"
+    "hasTitle" : "Terrain"
   }, {
     "@id" : "spice:artefact/through-black",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/coleman-michael",
     "author" : "spice:agent/coleman-michael",
-    "schema:dateCreated" : "1979",
-    "schema:url" : "https://imma.ie/collection/through-black/",
+    "dateCreated" : "1979",
+    "url" : "https://imma.ie/collection/through-black/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/through-black",
-    "arco-cd:hasTitle" : "Through Black"
+    "hasTitle" : "Through Black"
   }, {
     "@id" : "spice:artefact/untitled-96",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/coleman-michael",
     "author" : "spice:agent/coleman-michael",
-    "schema:dateCreated" : "1976",
-    "schema:url" : "https://imma.ie/collection/untitled-96/",
+    "dateCreated" : "1976",
+    "url" : "https://imma.ie/collection/untitled-96/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-96",
-    "arco-cd:hasTitle" : "Untitled"
+    "hasTitle" : "Untitled"
   }, {
     "@id" : "spice:artefact/verge",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/coleman-michael",
     "author" : "spice:agent/coleman-michael",
-    "schema:dateCreated" : "1991",
-    "schema:url" : "https://imma.ie/collection/verge/",
+    "dateCreated" : "1991",
+    "url" : "https://imma.ie/collection/verge/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/verge",
-    "arco-cd:hasTitle" : "Verge"
+    "hasTitle" : "Verge"
   }, {
     "@id" : "spice:attribution/divides",
     "@type" : "arco:AuthorshipAttribution",
@@ -98,24 +98,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -126,24 +123,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

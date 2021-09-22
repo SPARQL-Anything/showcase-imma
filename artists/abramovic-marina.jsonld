@@ -2,131 +2,131 @@
   "@graph" : [ {
     "@id" : "spice:agent/abramovic-marina",
     "@type" : "foaf:Person",
-    "dc:description" : "Marina Abramović is widely recognised as one of the world's foremost performance artists. Born in Yugoslavia, she has travelled and worked throughout Europe, the United States, China and Latin America. Following a solo exhibition at IMMA in 1996, Abramović was invited to curate ‘Marking the Territory’ in 2001, which drew together some 30 international performance artists at the Museum.",
-    "dc:source" : "https://imma.ie/artists/marina-abramovic/",
-    "schema:birthDate" : "b.1946",
-    "schema:url" : "https://imma.ie/artists/marina-abramovic/",
-    "rdfs:label" : "Marina Abramović"
+    "description" : "Marina Abramović is widely recognised as one of the world's foremost performance artists. Born in Yugoslavia, she has travelled and worked throughout Europe, the United States, China and Latin America. Following a solo exhibition at IMMA in 1996, Abramović was invited to curate ‘Marking the Territory’ in 2001, which drew together some 30 international performance artists at the Museum.",
+    "source" : "https://imma.ie/artists/marina-abramovic/",
+    "birthDate" : "b.1946",
+    "url" : "https://imma.ie/artists/marina-abramovic/",
+    "label" : "Marina Abramović"
   }, {
     "@id" : "spice:artefact/art-must-be-beautiful-artist-must-be-beautiful",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/abramovic-marina",
     "author" : "spice:agent/abramovic-marina",
-    "schema:dateCreated" : "1975",
-    "schema:url" : "https://imma.ie/collection/art-must-be-beautiful-artist-must-be-beautiful/",
+    "dateCreated" : "1975",
+    "url" : "https://imma.ie/collection/art-must-be-beautiful-artist-must-be-beautiful/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/art-must-be-beautiful-artist-must-be-beautiful",
-    "arco-cd:hasTitle" : "Art Must Be Beautiful, Artist Must Be Beautiful"
+    "hasTitle" : "Art Must Be Beautiful, Artist Must Be Beautiful"
   }, {
     "@id" : "spice:artefact/freeing-the-body",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/abramovic-marina",
     "author" : "spice:agent/abramovic-marina",
-    "schema:dateCreated" : "1975",
-    "schema:url" : "https://imma.ie/collection/freeing-the-body/",
+    "dateCreated" : "1975",
+    "url" : "https://imma.ie/collection/freeing-the-body/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/freeing-the-body",
-    "arco-cd:hasTitle" : "Freeing the Body"
+    "hasTitle" : "Freeing the Body"
   }, {
     "@id" : "spice:artefact/freeing-the-memory",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/abramovic-marina",
     "author" : "spice:agent/abramovic-marina",
-    "schema:dateCreated" : "1975",
-    "schema:url" : "https://imma.ie/collection/freeing-the-memory/",
+    "dateCreated" : "1975",
+    "url" : "https://imma.ie/collection/freeing-the-memory/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/freeing-the-memory",
-    "arco-cd:hasTitle" : "Freeing the Memory"
+    "hasTitle" : "Freeing the Memory"
   }, {
     "@id" : "spice:artefact/freeing-the-voice",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/abramovic-marina",
     "author" : "spice:agent/abramovic-marina",
-    "schema:dateCreated" : "1975",
-    "schema:url" : "https://imma.ie/collection/freeing-the-voice/",
+    "dateCreated" : "1975",
+    "url" : "https://imma.ie/collection/freeing-the-voice/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/freeing-the-voice",
-    "arco-cd:hasTitle" : "Freeing the Voice"
+    "hasTitle" : "Freeing the Voice"
   }, {
     "@id" : "spice:artefact/lips-of-thomas",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/abramovic-marina",
     "author" : "spice:agent/abramovic-marina",
-    "schema:dateCreated" : "1975",
-    "schema:url" : "https://imma.ie/collection/lips-of-thomas/",
+    "dateCreated" : "1975",
+    "url" : "https://imma.ie/collection/lips-of-thomas/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/lips-of-thomas",
-    "arco-cd:hasTitle" : "Lips of Thomas"
+    "hasTitle" : "Lips of Thomas"
   }, {
     "@id" : "spice:artefact/lips-of-thomas-star-on-stomach",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/abramovic-marina",
     "author" : "spice:agent/abramovic-marina",
-    "schema:dateCreated" : "1975",
-    "schema:url" : "https://imma.ie/collection/lips-of-thomas-star-on-stomach/",
+    "dateCreated" : "1975",
+    "url" : "https://imma.ie/collection/lips-of-thomas-star-on-stomach/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/lips-of-thomas-star-on-stomach",
-    "arco-cd:hasTitle" : "Lips of Thomas (Star on Stomach)"
+    "hasTitle" : "Lips of Thomas (Star on Stomach)"
   }, {
     "@id" : "spice:artefact/rhythm-0",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/abramovic-marina",
     "author" : "spice:agent/abramovic-marina",
-    "schema:dateCreated" : "1974",
-    "schema:url" : "https://imma.ie/collection/rhythm-0/",
+    "dateCreated" : "1974",
+    "url" : "https://imma.ie/collection/rhythm-0/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/rhythm-0",
-    "arco-cd:hasTitle" : "Rhythm 0"
+    "hasTitle" : "Rhythm 0"
   }, {
     "@id" : "spice:artefact/rhythm-10",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/abramovic-marina",
     "author" : "spice:agent/abramovic-marina",
-    "schema:dateCreated" : "1973",
-    "schema:url" : "https://imma.ie/collection/rhythm-10/",
+    "dateCreated" : "1973",
+    "url" : "https://imma.ie/collection/rhythm-10/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/rhythm-10",
-    "arco-cd:hasTitle" : "Rhythm 10"
+    "hasTitle" : "Rhythm 10"
   }, {
     "@id" : "spice:artefact/rhythm-2",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/abramovic-marina",
     "author" : "spice:agent/abramovic-marina",
-    "schema:dateCreated" : "1974",
-    "schema:url" : "https://imma.ie/collection/rhythm-2/",
+    "dateCreated" : "1974",
+    "url" : "https://imma.ie/collection/rhythm-2/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/rhythm-2",
-    "arco-cd:hasTitle" : "Rhythm 2"
+    "hasTitle" : "Rhythm 2"
   }, {
     "@id" : "spice:artefact/rhythm-4",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/abramovic-marina",
     "author" : "spice:agent/abramovic-marina",
-    "schema:dateCreated" : "1974",
-    "schema:url" : "https://imma.ie/collection/rhythm-4/",
+    "dateCreated" : "1974",
+    "url" : "https://imma.ie/collection/rhythm-4/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/rhythm-4",
-    "arco-cd:hasTitle" : "Rhythm 4"
+    "hasTitle" : "Rhythm 4"
   }, {
     "@id" : "spice:artefact/rhythm-5",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/abramovic-marina",
     "author" : "spice:agent/abramovic-marina",
-    "schema:dateCreated" : "1974",
-    "schema:url" : "https://imma.ie/collection/rhythm-5/",
+    "dateCreated" : "1974",
+    "url" : "https://imma.ie/collection/rhythm-5/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/rhythm-5",
-    "arco-cd:hasTitle" : "Rhythm 5"
+    "hasTitle" : "Rhythm 5"
   }, {
     "@id" : "spice:artefact/role-exchange",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/abramovic-marina",
     "author" : "spice:agent/abramovic-marina",
-    "schema:dateCreated" : "1975",
-    "schema:url" : "https://imma.ie/collection/role-exchange/",
+    "dateCreated" : "1975",
+    "url" : "https://imma.ie/collection/role-exchange/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/role-exchange",
-    "arco-cd:hasTitle" : "Role Exchange"
+    "hasTitle" : "Role Exchange"
   }, {
     "@id" : "spice:attribution/art-must-be-beautiful-artist-must-be-beautiful",
     "@type" : "arco:AuthorshipAttribution",
@@ -182,24 +182,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -210,24 +207,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

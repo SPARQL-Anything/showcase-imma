@@ -2,31 +2,31 @@
   "@graph" : [ {
     "@id" : "spice:agent/rosenquist-james",
     "@type" : "foaf:Person",
-    "dc:description" : "American artist James Rosenquist worked as a billboard painter before attending the Art Students League in New York. Influenced by his commercial training, Rosenquist’s paintings and prints draw on the iconography of advertising and American consumerist culture of the 1950s and 1960s. Rosenquist exhibited widely from the 1960s. His work is represented in major public collections including that Tate Modern; The Whitney Museum of American Art and MoMA, New York.",
-    "dc:source" : "https://imma.ie/artists/james-rosenquist/",
-    "schema:birthDate" : "b.1933",
-    "schema:url" : "https://imma.ie/artists/james-rosenquist/",
-    "rdfs:label" : "James Rosenquist"
+    "description" : "American artist James Rosenquist worked as a billboard painter before attending the Art Students League in New York. Influenced by his commercial training, Rosenquist’s paintings and prints draw on the iconography of advertising and American consumerist culture of the 1950s and 1960s. Rosenquist exhibited widely from the 1960s. His work is represented in major public collections including that Tate Modern; The Whitney Museum of American Art and MoMA, New York.",
+    "source" : "https://imma.ie/artists/james-rosenquist/",
+    "birthDate" : "b.1933",
+    "url" : "https://imma.ie/artists/james-rosenquist/",
+    "label" : "James Rosenquist"
   }, {
     "@id" : "spice:artefact/miles",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/rosenquist-james",
     "author" : "spice:agent/rosenquist-james",
-    "schema:dateCreated" : "1975",
-    "schema:url" : "https://imma.ie/collection/miles/",
+    "dateCreated" : "1975",
+    "url" : "https://imma.ie/collection/miles/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/miles",
-    "arco-cd:hasTitle" : "Miles"
+    "hasTitle" : "Miles"
   }, {
     "@id" : "spice:artefact/somewhere-to-light",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/rosenquist-james",
     "author" : "spice:agent/rosenquist-james",
-    "schema:dateCreated" : "1966",
-    "schema:url" : "https://imma.ie/collection/somewhere-to-light/",
+    "dateCreated" : "1966",
+    "url" : "https://imma.ie/collection/somewhere-to-light/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/somewhere-to-light",
-    "arco-cd:hasTitle" : "Somewhere to Light"
+    "hasTitle" : "Somewhere to Light"
   }, {
     "@id" : "spice:attribution/miles",
     "@type" : "arco:AuthorshipAttribution",
@@ -46,48 +46,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

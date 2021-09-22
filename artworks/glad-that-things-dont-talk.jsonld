@@ -2,37 +2,33 @@
   "@graph" : [ {
     "@id" : "spice:artefact/glad-that-things-dont-talk",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "In ‘Glad that Things Don’t Talk’, a rubber over-shoe sits on an oval rubber mat. A lead ball is tethered to the back of the shoe. A small wedge sits under the toe of the shoe and another under the mat. ‘The lead ball has got plenty of gravity in it and in some way most of the things I do enjoy gravity or use it in some way’. Wentworth recalls someone aptly describing the work as ‘the shoe being extrovert and the ball holding it back’ adding, ‘it’s as if it does not quite have the courage to do something, which is a common human condition, where you think of doing something but didn’t quite make the move’. The title ‘Glad That Things Don’t Talk’ relates to the works possible narrative interpretation, which Wentworth is keen to avoid.",
-    "dc:source" : "https://imma.ie/collection/glad-that-things-dont-talk/",
-    "schema:creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1994",
+    "description" : "In ‘Glad that Things Don’t Talk’, a rubber over-shoe sits on an oval rubber mat. A lead ball is tethered to the back of the shoe. A small wedge sits under the toe of the shoe and another under the mat. ‘The lead ball has got plenty of gravity in it and in some way most of the things I do enjoy gravity or use it in some way’. Wentworth recalls someone aptly describing the work as ‘the shoe being extrovert and the ball holding it back’ adding, ‘it’s as if it does not quite have the courage to do something, which is a common human condition, where you think of doing something but didn’t quite make the move’. The title ‘Glad That Things Don’t Talk’ relates to the works possible narrative interpretation, which Wentworth is keen to avoid.",
+    "source" : "https://imma.ie/collection/glad-that-things-dont-talk/",
+    "creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1994",
     "image" : "spice:documentation/glad-that-things-dont-talk",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Zinc, rubber, cable, lead",
-    "schema:size" : "34 x 68 x 33 cm",
-    "arco-cd:hasInventory" : "L.573 LW"
+    "material" : "Zinc, rubber, cable, lead",
+    "size" : "34 x 68 x 33 cm",
+    "hasInventory" : "L.573 LW"
   }, {
     "@id" : "spice:documentation/glad-that-things-dont-talk",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Richard Wentworth, Glad That Things Don’t Talk, 1982, Zinc, rubber, cable, lead, 34 x 68 x 33 cm, Collection Irish Museum of Modern Art, Loan, Weltkunst Foundation, 1994 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Richard Wentworth, Glad That Things Don’t Talk, 1982, Zinc, rubber, cable, lead, 34 x 68 x 33 cm, Collection Irish Museum of Modern Art, Loan, Weltkunst Foundation, 1994 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -43,20 +39,16 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

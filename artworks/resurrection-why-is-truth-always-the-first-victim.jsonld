@@ -2,20 +2,20 @@
   "@graph" : [ {
     "@id" : "spice:artefact/resurrection-why-is-truth-always-the-first-victim",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Resurrection. Why is Truth Always the First Victim? is a 1972 work by Les Levine. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/resurrection-why-is-truth-always-the-first-victim/",
-    "schema:creditText" : "IMMA Collection: Donated by Amy Plumb Oppenheim in honor of Dennis Oppenheim, 2018",
+    "description" : "Resurrection. Why is Truth Always the First Victim? is a 1972 work by Les Levine. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/resurrection-why-is-truth-always-the-first-victim/",
+    "creditText" : "IMMA Collection: Donated by Amy Plumb Oppenheim in honor of Dennis Oppenheim, 2018",
     "image" : "spice:documentation/resurrection-why-is-truth-always-the-first-victim",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Photograph (Fuji Crystal)",
-    "schema:size" : "25 x 33 in",
-    "schema:version" : "Edition 2/3",
-    "arco-cd:hasInventory" : "IMMA.4132.1"
+    "material" : "Photograph (Fuji Crystal)",
+    "size" : "25 x 33 in",
+    "version" : "Edition 2/3",
+    "hasInventory" : "IMMA.4132.1"
   }, {
     "@id" : "spice:documentation/resurrection-why-is-truth-always-the-first-victim",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Les Levine, Resurrection. Why is Truth Always the First Victim?, 1972, Photograph (Fuji Crystal), 25 x 33 in, Collection Irish Museum of Modern Art, Donated by Amy Plumb Oppenheim in honor of Dennis Oppenheim, 2018 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Les Levine, Resurrection. Why is Truth Always the First Victim?, 1972, Photograph (Fuji Crystal), 25 x 33 in, Collection Irish Museum of Modern Art, Donated by Amy Plumb Oppenheim in honor of Dennis Oppenheim, 2018 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
@@ -24,44 +24,35 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

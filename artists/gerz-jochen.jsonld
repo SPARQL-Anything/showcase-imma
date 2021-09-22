@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/gerz-jochen",
     "@type" : "foaf:Person",
-    "dc:description" : "German artist Jochen Gerz was born in Berlin and studied literature and archaeology in Cologne, Basel and London. He began his career as a writer and moved to Paris in 1966 where he began to work in photographs, texts, installations, videos and performance. Since the 1980s he has created ‘anti-monuments’ in Germany, France, Italy, England, Austria and Ireland, that subvert the idea of commemoration and involve the public and media in the process of creating and defining artwork. Gerz has received numerous awards, including the 1988 Grand Prix National des Arts Visuels, and he is a member of the Art Academy, Berlin and Honorary Chair at the Braunschweig Art Academy. Gerz is now based in Ireland.",
-    "dc:source" : "https://imma.ie/artists/jochen-gerz/",
-    "schema:birthDate" : "b.1940",
-    "schema:url" : "https://imma.ie/artists/jochen-gerz/",
-    "rdfs:label" : "Jochen Gerz"
+    "description" : "German artist Jochen Gerz was born in Berlin and studied literature and archaeology in Cologne, Basel and London. He began his career as a writer and moved to Paris in 1966 where he began to work in photographs, texts, installations, videos and performance. Since the 1980s he has created ‘anti-monuments’ in Germany, France, Italy, England, Austria and Ireland, that subvert the idea of commemoration and involve the public and media in the process of creating and defining artwork. Gerz has received numerous awards, including the 1988 Grand Prix National des Arts Visuels, and he is a member of the Art Academy, Berlin and Honorary Chair at the Braunschweig Art Academy. Gerz is now based in Ireland.",
+    "source" : "https://imma.ie/artists/jochen-gerz/",
+    "birthDate" : "b.1940",
+    "url" : "https://imma.ie/artists/jochen-gerz/",
+    "label" : "Jochen Gerz"
   }, {
     "@id" : "spice:artefact/there-were-so-many-doors-too",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/gerz-jochen",
     "author" : "spice:agent/gerz-jochen",
-    "schema:dateCreated" : "1973",
-    "schema:url" : "https://imma.ie/collection/there-were-so-many-doors-too/",
+    "dateCreated" : "1973",
+    "url" : "https://imma.ie/collection/there-were-so-many-doors-too/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/there-were-so-many-doors-too",
-    "arco-cd:hasTitle" : "There were so many doors too, . . ."
+    "hasTitle" : "There were so many doors too, . . ."
   }, {
     "@id" : "spice:attribution/there-were-so-many-doors-too",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,40 +24,33 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

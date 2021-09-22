@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/derouin-rene",
     "@type" : "foaf:Person",
-    "dc:description" : "René Derouin, born in Montreal, Canada in 1936, is a multidisciplinary artist and activist for north-south artistic exchange within the Americas. His prints and sculpture bear the imprint of a life-long interest in pre-Columbian culture and Mexican mural art. Derouin invites Mexican artists to the Fondation Derouin in Val-David, Quebec every year; in turn he was awarded the Order of the Aztec Eagle in 2006 by the Mexican government, and contributed a grand graphic diptych to the 2010 print project ‘Estampas, Independencia y Revolución’ commemorating the bicentenary of Mexican independence and the centenary of the Mexican revolution.",
-    "dc:source" : "https://imma.ie/artists/rene-derouin/",
-    "schema:birthDate" : "b.1936",
-    "schema:url" : "https://imma.ie/artists/rene-derouin/",
-    "rdfs:label" : "René Derouin"
+    "description" : "René Derouin, born in Montreal, Canada in 1936, is a multidisciplinary artist and activist for north-south artistic exchange within the Americas. His prints and sculpture bear the imprint of a life-long interest in pre-Columbian culture and Mexican mural art. Derouin invites Mexican artists to the Fondation Derouin in Val-David, Quebec every year; in turn he was awarded the Order of the Aztec Eagle in 2006 by the Mexican government, and contributed a grand graphic diptych to the 2010 print project ‘Estampas, Independencia y Revolución’ commemorating the bicentenary of Mexican independence and the centenary of the Mexican revolution.",
+    "source" : "https://imma.ie/artists/rene-derouin/",
+    "birthDate" : "b.1936",
+    "url" : "https://imma.ie/artists/rene-derouin/",
+    "label" : "René Derouin"
   }, {
     "@id" : "spice:artefact/la-vida-y-la-muerte-life-and-death",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/derouin-rene",
     "author" : "spice:agent/derouin-rene",
-    "schema:dateCreated" : "2010",
-    "schema:url" : "https://imma.ie/collection/la-vida-y-la-muerte-life-and-death/",
+    "dateCreated" : "2010",
+    "url" : "https://imma.ie/collection/la-vida-y-la-muerte-life-and-death/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/la-vida-y-la-muerte-life-and-death",
-    "arco-cd:hasTitle" : "“La Vida” y “La Muerte” (Life and Death)"
+    "hasTitle" : "“La Vida” y “La Muerte” (Life and Death)"
   }, {
     "@id" : "spice:attribution/la-vida-y-la-muerte-life-and-death",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,24 +24,19 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -52,16 +47,14 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

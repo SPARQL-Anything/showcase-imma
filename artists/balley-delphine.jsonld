@@ -3,29 +3,26 @@
   "@type" : "foaf:Person",
   "description" : "_:b0",
   "dc:description" : "For French photographer Delphine Balley the camera is a tool, which allows her to see through reality and have access to fantasy.&nbsp; The alterations she imprints on the world around her are the result of uneasiness; feelings and ideas one may experience when trapped in the familiar setting of humdrum life.&nbsp;",
-  "dc:source" : "https://imma.ie/artists/delphine-balley/",
-  "schema:url" : "https://imma.ie/artists/delphine-balley/",
-  "rdfs:label" : "Delphine Balley",
+  "source" : "https://imma.ie/artists/delphine-balley/",
+  "url" : "https://imma.ie/artists/delphine-balley/",
+  "label" : "Delphine Balley",
   "@context" : {
     "description" : {
       "@id" : "http://purl.org/dc/elements/1.1/description",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

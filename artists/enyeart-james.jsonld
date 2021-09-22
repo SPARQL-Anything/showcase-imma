@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/enyeart-james",
     "@type" : "foaf:Person",
-    "dc:description" : "American photographer and museum director James Enyeart began his career as Curator of Photography at the Spencer Museum of Art, the University of Kansas in the late 1960s. He then served as Director of the Center for Creative Photography, the University of Arizona and as Director of George Eastman House between 1989 and 1995. Enyeart has received numerous awards including a John Simon Guggenheim Memorial Fellowship. His photographic work is represented in public and private collections including the Smithsonian American Art Museum, Washington, and the Bibliothèque Nationale, Paris.",
-    "dc:source" : "https://imma.ie/artists/james-enyeart/",
-    "schema:birthDate" : "b.1943",
-    "schema:url" : "https://imma.ie/artists/james-enyeart/",
-    "rdfs:label" : "James Enyeart"
+    "description" : "American photographer and museum director James Enyeart began his career as Curator of Photography at the Spencer Museum of Art, the University of Kansas in the late 1960s. He then served as Director of the Center for Creative Photography, the University of Arizona and as Director of George Eastman House between 1989 and 1995. Enyeart has received numerous awards including a John Simon Guggenheim Memorial Fellowship. His photographic work is represented in public and private collections including the Smithsonian American Art Museum, Washington, and the Bibliothèque Nationale, Paris.",
+    "source" : "https://imma.ie/artists/james-enyeart/",
+    "birthDate" : "b.1943",
+    "url" : "https://imma.ie/artists/james-enyeart/",
+    "label" : "James Enyeart"
   }, {
     "@id" : "spice:artefact/the-church",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/enyeart-james",
     "author" : "spice:agent/enyeart-james",
-    "schema:dateCreated" : "1973",
-    "schema:url" : "https://imma.ie/collection/the-church/",
+    "dateCreated" : "1973",
+    "url" : "https://imma.ie/collection/the-church/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-church",
-    "arco-cd:hasTitle" : "The Church"
+    "hasTitle" : "The Church"
   }, {
     "@id" : "spice:attribution/the-church",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,40 +24,33 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

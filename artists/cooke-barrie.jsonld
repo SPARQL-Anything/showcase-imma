@@ -2,291 +2,291 @@
   "@graph" : [ {
     "@id" : "spice:agent/cooke-barrie",
     "@type" : "foaf:Person",
-    "dc:description" : "Born in Cheshire, Barrie Cooke studied Art History at Harvard University and moved to Ireland in 1954. He held his first solo exhibition in Dublin the following year. Cooke has exhibited widely throughout Europe, the US and Canada. Major retrospectives of his work were held at the Douglas Hyde Gallery, Dublin in 1986 and at the RHA in 1995. Cooke exhibited at IMMA in 2008. His work is represented in public and private collections worldwide.",
-    "dc:source" : "https://imma.ie/artists/barrie-cooke/",
-    "schema:birthDate" : "1931–2014",
-    "schema:url" : "https://imma.ie/artists/barrie-cooke/",
-    "rdfs:label" : "Barrie Cooke"
+    "description" : "Born in Cheshire, Barrie Cooke studied Art History at Harvard University and moved to Ireland in 1954. He held his first solo exhibition in Dublin the following year. Cooke has exhibited widely throughout Europe, the US and Canada. Major retrospectives of his work were held at the Douglas Hyde Gallery, Dublin in 1986 and at the RHA in 1995. Cooke exhibited at IMMA in 2008. His work is represented in public and private collections worldwide.",
+    "source" : "https://imma.ie/artists/barrie-cooke/",
+    "birthDate" : "1931–2014",
+    "url" : "https://imma.ie/artists/barrie-cooke/",
+    "label" : "Barrie Cooke"
   }, {
     "@id" : "spice:artefact/below-thomastown",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/cooke-barrie",
     "author" : "spice:agent/cooke-barrie",
-    "schema:dateCreated" : "1965",
-    "schema:url" : "https://imma.ie/collection/below-thomastown/",
+    "dateCreated" : "1965",
+    "url" : "https://imma.ie/collection/below-thomastown/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/below-thomastown",
-    "arco-cd:hasTitle" : "Below Thomastown"
+    "hasTitle" : "Below Thomastown"
   }, {
     "@id" : "spice:artefact/blue-and-white-figure",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/cooke-barrie",
     "author" : "spice:agent/cooke-barrie",
-    "schema:dateCreated" : "1963",
-    "schema:url" : "https://imma.ie/collection/blue-and-white-figure/",
+    "dateCreated" : "1963",
+    "url" : "https://imma.ie/collection/blue-and-white-figure/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/blue-and-white-figure",
-    "arco-cd:hasTitle" : "Blue and White Figure"
+    "hasTitle" : "Blue and White Figure"
   }, {
     "@id" : "spice:artefact/bone-box-41",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/cooke-barrie",
     "author" : "spice:agent/cooke-barrie",
-    "schema:dateCreated" : "1967",
-    "schema:url" : "https://imma.ie/collection/bone-box-41/",
+    "dateCreated" : "1967",
+    "url" : "https://imma.ie/collection/bone-box-41/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/bone-box-41",
-    "arco-cd:hasTitle" : "Bone Box 41"
+    "hasTitle" : "Bone Box 41"
   }, {
     "@id" : "spice:artefact/bone-box-water-etc",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/cooke-barrie",
     "author" : "spice:agent/cooke-barrie",
-    "schema:dateCreated" : "1972",
-    "schema:url" : "https://imma.ie/collection/bone-box-water-etc/",
+    "dateCreated" : "1972",
+    "url" : "https://imma.ie/collection/bone-box-water-etc/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/bone-box-water-etc",
-    "arco-cd:hasTitle" : "Bone Box (Water etc.)"
+    "hasTitle" : "Bone Box (Water etc.)"
   }, {
     "@id" : "spice:artefact/cliffs-of-moher-1962",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/cooke-barrie",
     "author" : "spice:agent/cooke-barrie",
-    "schema:dateCreated" : "1962",
-    "schema:url" : "https://imma.ie/collection/cliffs-of-moher-1962/",
+    "dateCreated" : "1962",
+    "url" : "https://imma.ie/collection/cliffs-of-moher-1962/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/cliffs-of-moher-1962",
-    "arco-cd:hasTitle" : "Cliffs of Moher, 1962"
+    "hasTitle" : "Cliffs of Moher, 1962"
   }, {
     "@id" : "spice:artefact/couple",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/cooke-barrie",
     "author" : "spice:agent/cooke-barrie",
-    "schema:dateCreated" : "1967",
-    "schema:url" : "https://imma.ie/collection/couple/",
+    "dateCreated" : "1967",
+    "url" : "https://imma.ie/collection/couple/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/couple",
-    "arco-cd:hasTitle" : "Couple"
+    "hasTitle" : "Couple"
   }, {
     "@id" : "spice:artefact/double-knot-knot-painting",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/cooke-barrie",
     "author" : "spice:agent/cooke-barrie",
-    "schema:dateCreated" : "1985",
-    "schema:url" : "https://imma.ie/collection/double-knot-knot-painting/",
+    "dateCreated" : "1985",
+    "url" : "https://imma.ie/collection/double-knot-knot-painting/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/double-knot-knot-painting",
-    "arco-cd:hasTitle" : "Double Knot/ Knot Painting"
+    "hasTitle" : "Double Knot/ Knot Painting"
   }, {
     "@id" : "spice:artefact/electric-elk",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/cooke-barrie",
     "author" : "spice:agent/cooke-barrie",
-    "schema:dateCreated" : "1996",
-    "schema:url" : "https://imma.ie/collection/electric-elk/",
+    "dateCreated" : "1996",
+    "url" : "https://imma.ie/collection/electric-elk/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/electric-elk",
-    "arco-cd:hasTitle" : "Electric Elk"
+    "hasTitle" : "Electric Elk"
   }, {
     "@id" : "spice:artefact/forestry-box",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/cooke-barrie",
     "author" : "spice:agent/cooke-barrie",
-    "schema:dateCreated" : "1976",
-    "schema:url" : "https://imma.ie/collection/forestry-box/",
+    "dateCreated" : "1976",
+    "url" : "https://imma.ie/collection/forestry-box/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/forestry-box",
-    "arco-cd:hasTitle" : "Forestry Box"
+    "hasTitle" : "Forestry Box"
   }, {
     "@id" : "spice:artefact/gutteral-muse",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/cooke-barrie",
     "author" : "spice:agent/cooke-barrie",
-    "schema:dateCreated" : "2009",
-    "schema:url" : "https://imma.ie/collection/gutteral-muse/",
+    "dateCreated" : "2009",
+    "url" : "https://imma.ie/collection/gutteral-muse/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/gutteral-muse",
-    "arco-cd:hasTitle" : "Gutteral Muse"
+    "hasTitle" : "Gutteral Muse"
   }, {
     "@id" : "spice:artefact/in-the-boathouse",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/cooke-barrie",
     "author" : "spice:agent/cooke-barrie",
-    "schema:dateCreated" : "2009",
-    "schema:url" : "https://imma.ie/collection/in-the-boathouse/",
+    "dateCreated" : "2009",
+    "url" : "https://imma.ie/collection/in-the-boathouse/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/in-the-boathouse",
-    "arco-cd:hasTitle" : "In the Boathouse"
+    "hasTitle" : "In the Boathouse"
   }, {
     "@id" : "spice:artefact/interior-diptych",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/cooke-barrie",
     "author" : "spice:agent/cooke-barrie",
-    "schema:dateCreated" : "1969",
-    "schema:url" : "https://imma.ie/collection/interior-diptych/",
+    "dateCreated" : "1969",
+    "url" : "https://imma.ie/collection/interior-diptych/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/interior-diptych",
-    "arco-cd:hasTitle" : "Interior Diptych"
+    "hasTitle" : "Interior Diptych"
   }, {
     "@id" : "spice:artefact/large-green-box",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/cooke-barrie",
     "author" : "spice:agent/cooke-barrie",
-    "schema:dateCreated" : "1981",
-    "schema:url" : "https://imma.ie/collection/large-green-box/",
+    "dateCreated" : "1981",
+    "url" : "https://imma.ie/collection/large-green-box/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/large-green-box",
-    "arco-cd:hasTitle" : "Large Green Box"
+    "hasTitle" : "Large Green Box"
   }, {
     "@id" : "spice:artefact/little-wanganui-river-viii",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/cooke-barrie",
     "author" : "spice:agent/cooke-barrie",
-    "schema:dateCreated" : "1998",
-    "schema:url" : "https://imma.ie/collection/little-wanganui-river-viii/",
+    "dateCreated" : "1998",
+    "url" : "https://imma.ie/collection/little-wanganui-river-viii/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/little-wanganui-river-viii",
-    "arco-cd:hasTitle" : "Little Wanganui River VIII"
+    "hasTitle" : "Little Wanganui River VIII"
   }, {
     "@id" : "spice:artefact/lough-arrow",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/cooke-barrie",
     "author" : "spice:agent/cooke-barrie",
-    "schema:dateCreated" : "1999",
-    "schema:url" : "https://imma.ie/collection/lough-arrow/",
+    "dateCreated" : "1999",
+    "url" : "https://imma.ie/collection/lough-arrow/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/lough-arrow",
-    "arco-cd:hasTitle" : "Lough Arrow"
+    "hasTitle" : "Lough Arrow"
   }, {
     "@id" : "spice:artefact/lough-arrow-algae-iii",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/cooke-barrie",
     "author" : "spice:agent/cooke-barrie",
-    "schema:dateCreated" : "1995",
-    "schema:url" : "https://imma.ie/collection/lough-arrow-algae-iii/",
+    "dateCreated" : "1995",
+    "url" : "https://imma.ie/collection/lough-arrow-algae-iii/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/lough-arrow-algae-iii",
-    "arco-cd:hasTitle" : "Lough Arrow Algae III"
+    "hasTitle" : "Lough Arrow Algae III"
   }, {
     "@id" : "spice:artefact/megaceros-hibernicus",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/cooke-barrie",
     "author" : "spice:agent/cooke-barrie",
-    "schema:dateCreated" : "1983",
-    "schema:url" : "https://imma.ie/collection/megaceros-hibernicus/",
+    "dateCreated" : "1983",
+    "url" : "https://imma.ie/collection/megaceros-hibernicus/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/megaceros-hibernicus",
-    "arco-cd:hasTitle" : "Megaceros Hibernicus"
+    "hasTitle" : "Megaceros Hibernicus"
   }, {
     "@id" : "spice:artefact/mine-tailings-clutha-valley-ii",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/cooke-barrie",
     "author" : "spice:agent/cooke-barrie",
-    "schema:dateCreated" : "1988",
-    "schema:url" : "https://imma.ie/collection/mine-tailings-clutha-valley-ii/",
+    "dateCreated" : "1988",
+    "url" : "https://imma.ie/collection/mine-tailings-clutha-valley-ii/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/mine-tailings-clutha-valley-ii",
-    "arco-cd:hasTitle" : "Mine Tailings Clutha Valley II"
+    "hasTitle" : "Mine Tailings Clutha Valley II"
   }, {
     "@id" : "spice:artefact/night-lake-orange",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/cooke-barrie",
     "author" : "spice:agent/cooke-barrie",
-    "schema:dateCreated" : "1984",
-    "schema:url" : "https://imma.ie/collection/night-lake-orange/",
+    "dateCreated" : "1984",
+    "url" : "https://imma.ie/collection/night-lake-orange/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/night-lake-orange",
-    "arco-cd:hasTitle" : "Night Lake Orange"
+    "hasTitle" : "Night Lake Orange"
   }, {
     "@id" : "spice:artefact/night-trench-lake",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/cooke-barrie",
     "author" : "spice:agent/cooke-barrie",
-    "schema:dateCreated" : "1981",
-    "schema:url" : "https://imma.ie/collection/night-trench-lake/",
+    "dateCreated" : "1981",
+    "url" : "https://imma.ie/collection/night-trench-lake/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/night-trench-lake",
-    "arco-cd:hasTitle" : "Night, Trench Lake"
+    "hasTitle" : "Night, Trench Lake"
   }, {
     "@id" : "spice:artefact/nude",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/cooke-barrie",
     "author" : "spice:agent/cooke-barrie",
-    "schema:dateCreated" : "1961",
-    "schema:url" : "https://imma.ie/collection/nude/",
+    "dateCreated" : "1961",
+    "url" : "https://imma.ie/collection/nude/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/nude",
-    "arco-cd:hasTitle" : "Nude"
+    "hasTitle" : "Nude"
   }, {
     "@id" : "spice:artefact/nude-on-a-brown-armchair",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/cooke-barrie",
     "author" : "spice:agent/cooke-barrie",
-    "schema:dateCreated" : "1985",
-    "schema:url" : "https://imma.ie/collection/nude-on-a-brown-armchair/",
+    "dateCreated" : "1985",
+    "url" : "https://imma.ie/collection/nude-on-a-brown-armchair/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/nude-on-a-brown-armchair",
-    "arco-cd:hasTitle" : "Nude on a Brown Armchair"
+    "hasTitle" : "Nude on a Brown Armchair"
   }, {
     "@id" : "spice:artefact/red-forrestry-knot",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/cooke-barrie",
     "author" : "spice:agent/cooke-barrie",
-    "schema:dateCreated" : "1984",
-    "schema:url" : "https://imma.ie/collection/red-forrestry-knot/",
+    "dateCreated" : "1984",
+    "url" : "https://imma.ie/collection/red-forrestry-knot/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/red-forrestry-knot",
-    "arco-cd:hasTitle" : "Red Forrestry Knot"
+    "hasTitle" : "Red Forrestry Knot"
   }, {
     "@id" : "spice:artefact/slow-dance-forest-floor",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/cooke-barrie",
     "author" : "spice:agent/cooke-barrie",
-    "schema:dateCreated" : "1976",
-    "schema:url" : "https://imma.ie/collection/slow-dance-forest-floor/",
+    "dateCreated" : "1976",
+    "url" : "https://imma.ie/collection/slow-dance-forest-floor/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/slow-dance-forest-floor",
-    "arco-cd:hasTitle" : "Slow Dance Forest Floor"
+    "hasTitle" : "Slow Dance Forest Floor"
   }, {
     "@id" : "spice:artefact/sunset-over-amsterdam",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/cooke-barrie",
     "author" : "spice:agent/cooke-barrie",
-    "schema:dateCreated" : "1965",
-    "schema:url" : "https://imma.ie/collection/sunset-over-amsterdam/",
+    "dateCreated" : "1965",
+    "url" : "https://imma.ie/collection/sunset-over-amsterdam/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/sunset-over-amsterdam",
-    "arco-cd:hasTitle" : "Sunset over Amsterdam"
+    "hasTitle" : "Sunset over Amsterdam"
   }, {
     "@id" : "spice:artefact/two-clouds-and-knocknarea",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/cooke-barrie",
     "author" : "spice:agent/cooke-barrie",
-    "schema:dateCreated" : "2001",
-    "schema:url" : "https://imma.ie/collection/two-clouds-and-knocknarea/",
+    "dateCreated" : "2001",
+    "url" : "https://imma.ie/collection/two-clouds-and-knocknarea/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/two-clouds-and-knocknarea",
-    "arco-cd:hasTitle" : "Two Clouds and Knocknarea"
+    "hasTitle" : "Two Clouds and Knocknarea"
   }, {
     "@id" : "spice:artefact/water-and-rocks",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/cooke-barrie",
     "author" : "spice:agent/cooke-barrie",
-    "schema:dateCreated" : "1962",
-    "schema:url" : "https://imma.ie/collection/water-and-rocks/",
+    "dateCreated" : "1962",
+    "url" : "https://imma.ie/collection/water-and-rocks/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/water-and-rocks",
-    "arco-cd:hasTitle" : "Water and Rocks"
+    "hasTitle" : "Water and Rocks"
   }, {
     "@id" : "spice:artefact/woman-of-the-burren-woman-in-burren",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/cooke-barrie",
     "author" : "spice:agent/cooke-barrie",
-    "schema:dateCreated" : "1996",
-    "schema:url" : "https://imma.ie/collection/woman-of-the-burren-woman-in-burren/",
+    "dateCreated" : "1996",
+    "url" : "https://imma.ie/collection/woman-of-the-burren-woman-in-burren/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/woman-of-the-burren-woman-in-burren",
-    "arco-cd:hasTitle" : "Woman of the Burren/ Woman in Burren"
+    "hasTitle" : "Woman of the Burren/ Woman in Burren"
   }, {
     "@id" : "spice:attribution/below-thomastown",
     "@type" : "arco:AuthorshipAttribution",
@@ -410,48 +410,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

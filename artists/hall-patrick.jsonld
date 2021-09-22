@@ -2,181 +2,181 @@
   "@graph" : [ {
     "@id" : "spice:agent/hall-patrick",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish artist Patrick Hall studied at the Chelsea School of Art in London. He moved to Spain in 1966, returning to live in Dublin in 1974. Through his paintings Hall attempts to explore the tension between the spiritual and material aspects of life, the vanity and futility of man's aspirations and the desire for peace. His works are included in many private and public collections. Hall was elected as a member of Aosdána in 1982. An exhibition of his drawings took place at IMMA in 2007.",
-    "dc:source" : "https://imma.ie/artists/patrick-hall/",
-    "schema:birthDate" : "b.1935",
-    "schema:url" : "https://imma.ie/artists/patrick-hall/",
-    "rdfs:label" : "Patrick Hall"
+    "description" : "Irish artist Patrick Hall studied at the Chelsea School of Art in London. He moved to Spain in 1966, returning to live in Dublin in 1974. Through his paintings Hall attempts to explore the tension between the spiritual and material aspects of life, the vanity and futility of man's aspirations and the desire for peace. His works are included in many private and public collections. Hall was elected as a member of Aosdána in 1982. An exhibition of his drawings took place at IMMA in 2007.",
+    "source" : "https://imma.ie/artists/patrick-hall/",
+    "birthDate" : "b.1935",
+    "url" : "https://imma.ie/artists/patrick-hall/",
+    "label" : "Patrick Hall"
   }, {
     "@id" : "spice:artefact/ancestors",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/hall-patrick",
     "author" : "spice:agent/hall-patrick",
-    "schema:dateCreated" : "1991",
-    "schema:url" : "https://imma.ie/collection/ancestors/",
+    "dateCreated" : "1991",
+    "url" : "https://imma.ie/collection/ancestors/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/ancestors",
-    "arco-cd:hasTitle" : "Ancestors"
+    "hasTitle" : "Ancestors"
   }, {
     "@id" : "spice:artefact/approaching-the-yellow-mountain",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/hall-patrick",
     "author" : "spice:agent/hall-patrick",
-    "schema:dateCreated" : "2007",
-    "schema:url" : "https://imma.ie/collection/approaching-the-yellow-mountain/",
+    "dateCreated" : "2007",
+    "url" : "https://imma.ie/collection/approaching-the-yellow-mountain/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/approaching-the-yellow-mountain",
-    "arco-cd:hasTitle" : "Approaching the Yellow Mountain"
+    "hasTitle" : "Approaching the Yellow Mountain"
   }, {
     "@id" : "spice:artefact/black-stone-being-lifted-by-angels",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/hall-patrick",
     "author" : "spice:agent/hall-patrick",
-    "schema:dateCreated" : "2004",
-    "schema:url" : "https://imma.ie/collection/black-stone-being-lifted-by-angels/",
+    "dateCreated" : "2004",
+    "url" : "https://imma.ie/collection/black-stone-being-lifted-by-angels/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/black-stone-being-lifted-by-angels",
-    "arco-cd:hasTitle" : "Black Stone Being Lifted by Angels"
+    "hasTitle" : "Black Stone Being Lifted by Angels"
   }, {
     "@id" : "spice:artefact/burning-mountains",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/hall-patrick",
     "author" : "spice:agent/hall-patrick",
-    "schema:dateCreated" : "1993",
-    "schema:url" : "https://imma.ie/collection/burning-mountains/",
+    "dateCreated" : "1993",
+    "url" : "https://imma.ie/collection/burning-mountains/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/burning-mountains",
-    "arco-cd:hasTitle" : "Burning Mountains"
+    "hasTitle" : "Burning Mountains"
   }, {
     "@id" : "spice:artefact/burning-tree",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/hall-patrick",
     "author" : "spice:agent/hall-patrick",
-    "schema:dateCreated" : "2006",
-    "schema:url" : "https://imma.ie/collection/burning-tree/",
+    "dateCreated" : "2006",
+    "url" : "https://imma.ie/collection/burning-tree/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/burning-tree",
-    "arco-cd:hasTitle" : "Burning Tree"
+    "hasTitle" : "Burning Tree"
   }, {
     "@id" : "spice:artefact/cross-on-a-distant-hill",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/hall-patrick",
     "author" : "spice:agent/hall-patrick",
-    "schema:dateCreated" : "2005",
-    "schema:url" : "https://imma.ie/collection/cross-on-a-distant-hill/",
+    "dateCreated" : "2005",
+    "url" : "https://imma.ie/collection/cross-on-a-distant-hill/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/cross-on-a-distant-hill",
-    "arco-cd:hasTitle" : "Cross on a Distant Hill"
+    "hasTitle" : "Cross on a Distant Hill"
   }, {
     "@id" : "spice:artefact/cry-of-faust",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/hall-patrick",
     "author" : "spice:agent/hall-patrick",
-    "schema:dateCreated" : "1984",
-    "schema:url" : "https://imma.ie/collection/cry-of-faust/",
+    "dateCreated" : "1984",
+    "url" : "https://imma.ie/collection/cry-of-faust/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/cry-of-faust",
-    "arco-cd:hasTitle" : "Cry of Faust"
+    "hasTitle" : "Cry of Faust"
   }, {
     "@id" : "spice:artefact/flowers-at-the-foot-of-a-wall",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/hall-patrick",
     "author" : "spice:agent/hall-patrick",
-    "schema:dateCreated" : "2005",
-    "schema:url" : "https://imma.ie/collection/flowers-at-the-foot-of-a-wall/",
+    "dateCreated" : "2005",
+    "url" : "https://imma.ie/collection/flowers-at-the-foot-of-a-wall/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/flowers-at-the-foot-of-a-wall",
-    "arco-cd:hasTitle" : "Flowers at the Foot of a Wall"
+    "hasTitle" : "Flowers at the Foot of a Wall"
   }, {
     "@id" : "spice:artefact/jacobs-dream",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/hall-patrick",
     "author" : "spice:agent/hall-patrick",
-    "schema:dateCreated" : "2002",
-    "schema:url" : "https://imma.ie/collection/jacobs-dream/",
+    "dateCreated" : "2002",
+    "url" : "https://imma.ie/collection/jacobs-dream/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/jacobs-dream",
-    "arco-cd:hasTitle" : "Jacob’s Dream"
+    "hasTitle" : "Jacob’s Dream"
   }, {
     "@id" : "spice:artefact/moses-at-the-burning-bush",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/hall-patrick",
     "author" : "spice:agent/hall-patrick",
-    "schema:dateCreated" : "2003",
-    "schema:url" : "https://imma.ie/collection/moses-at-the-burning-bush/",
+    "dateCreated" : "2003",
+    "url" : "https://imma.ie/collection/moses-at-the-burning-bush/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/moses-at-the-burning-bush",
-    "arco-cd:hasTitle" : "Moses at the Burning Bush"
+    "hasTitle" : "Moses at the Burning Bush"
   }, {
     "@id" : "spice:artefact/red-cloud-after-mondrian",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/hall-patrick",
     "author" : "spice:agent/hall-patrick",
-    "schema:dateCreated" : "2007",
-    "schema:url" : "https://imma.ie/collection/red-cloud-after-mondrian/",
+    "dateCreated" : "2007",
+    "url" : "https://imma.ie/collection/red-cloud-after-mondrian/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/red-cloud-after-mondrian",
-    "arco-cd:hasTitle" : "Red Cloud (After Mondrian)"
+    "hasTitle" : "Red Cloud (After Mondrian)"
   }, {
     "@id" : "spice:artefact/rising-of-faust",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/hall-patrick",
     "author" : "spice:agent/hall-patrick",
-    "schema:dateCreated" : "1996",
-    "schema:url" : "https://imma.ie/collection/rising-of-faust/",
+    "dateCreated" : "1996",
+    "url" : "https://imma.ie/collection/rising-of-faust/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/rising-of-faust",
-    "arco-cd:hasTitle" : "Rising of Faust"
+    "hasTitle" : "Rising of Faust"
   }, {
     "@id" : "spice:artefact/shrine",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/hall-patrick",
     "author" : "spice:agent/hall-patrick",
-    "schema:dateCreated" : "2004",
-    "schema:url" : "https://imma.ie/collection/shrine/",
+    "dateCreated" : "2004",
+    "url" : "https://imma.ie/collection/shrine/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/shrine",
-    "arco-cd:hasTitle" : "Shrine"
+    "hasTitle" : "Shrine"
   }, {
     "@id" : "spice:artefact/sprinkle-ochre-into-my-eyes",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/hall-patrick",
     "author" : "spice:agent/hall-patrick",
-    "schema:dateCreated" : "2004",
-    "schema:url" : "https://imma.ie/collection/sprinkle-ochre-into-my-eyes/",
+    "dateCreated" : "2004",
+    "url" : "https://imma.ie/collection/sprinkle-ochre-into-my-eyes/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/sprinkle-ochre-into-my-eyes",
-    "arco-cd:hasTitle" : "Sprinkle Ochre into my Eyes"
+    "hasTitle" : "Sprinkle Ochre into my Eyes"
   }, {
     "@id" : "spice:artefact/vase-of-primroses",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/hall-patrick",
     "author" : "spice:agent/hall-patrick",
-    "schema:dateCreated" : "2006",
-    "schema:url" : "https://imma.ie/collection/vase-of-primroses/",
+    "dateCreated" : "2006",
+    "url" : "https://imma.ie/collection/vase-of-primroses/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/vase-of-primroses",
-    "arco-cd:hasTitle" : "Vase of Primroses"
+    "hasTitle" : "Vase of Primroses"
   }, {
     "@id" : "spice:artefact/weeping-stones",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/hall-patrick",
     "author" : "spice:agent/hall-patrick",
-    "schema:dateCreated" : "2007",
-    "schema:url" : "https://imma.ie/collection/weeping-stones/",
+    "dateCreated" : "2007",
+    "url" : "https://imma.ie/collection/weeping-stones/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/weeping-stones",
-    "arco-cd:hasTitle" : "Weeping Stones"
+    "hasTitle" : "Weeping Stones"
   }, {
     "@id" : "spice:artefact/yellow-cloud",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/hall-patrick",
     "author" : "spice:agent/hall-patrick",
-    "schema:dateCreated" : "2006",
-    "schema:url" : "https://imma.ie/collection/yellow-cloud/",
+    "dateCreated" : "2006",
+    "url" : "https://imma.ie/collection/yellow-cloud/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/yellow-cloud",
-    "arco-cd:hasTitle" : "Yellow Cloud"
+    "hasTitle" : "Yellow Cloud"
   }, {
     "@id" : "spice:attribution/ancestors",
     "@type" : "arco:AuthorshipAttribution",
@@ -256,48 +256,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

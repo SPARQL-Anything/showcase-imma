@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/swanzy-mary",
     "@type" : "foaf:Person",
-    "dc:description" : [ "Mary Swanzy (1882-1978) is a unique Irish artist. Her level of achievement, world travel and original thinking is unmatched in Irish art, yet this is the first retrospective of her work in 50 years. Born in the late Victorian era, by her early twenties Swanzy had mastered the academic style of painting. She witnessed the birth of Modern art in Paris before the First World War and her work rapidly evolved through the different styles of the day, each of them interpreted and transformed by her in a highly personal way.", "Mary Swanzy (1882-1978) is a unique Irish artist. Her level of achievement, world travel and original thinking is unmatched in Irish art, yet this is the first retrospective of her work in 50 years. She witnessed the birth of Modern art in Paris before the First World War and her work rapidly evolved through the different styles of the day, each of them interpreted and transformed by her in a highly personal way." ],
-    "dc:source" : "https://imma.ie/artists/mary-swanzy/",
-    "schema:birthDate" : "1882–1978",
-    "schema:url" : "https://imma.ie/artists/mary-swanzy/",
-    "rdfs:label" : "Mary Swanzy"
+    "description" : [ "Mary Swanzy (1882-1978) is a unique Irish artist. Her level of achievement, world travel and original thinking is unmatched in Irish art, yet this is the first retrospective of her work in 50 years. Born in the late Victorian era, by her early twenties Swanzy had mastered the academic style of painting. She witnessed the birth of Modern art in Paris before the First World War and her work rapidly evolved through the different styles of the day, each of them interpreted and transformed by her in a highly personal way.", "Mary Swanzy (1882-1978) is a unique Irish artist. Her level of achievement, world travel and original thinking is unmatched in Irish art, yet this is the first retrospective of her work in 50 years. She witnessed the birth of Modern art in Paris before the First World War and her work rapidly evolved through the different styles of the day, each of them interpreted and transformed by her in a highly personal way." ],
+    "source" : "https://imma.ie/artists/mary-swanzy/",
+    "birthDate" : "1882–1978",
+    "url" : "https://imma.ie/artists/mary-swanzy/",
+    "label" : "Mary Swanzy"
   }, {
     "@id" : "spice:artefact/the-opera-singer",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/swanzy-mary",
     "author" : "spice:agent/swanzy-mary",
-    "schema:dateCreated" : "1944",
-    "schema:url" : "https://imma.ie/collection/the-opera-singer/",
+    "dateCreated" : "1944",
+    "url" : "https://imma.ie/collection/the-opera-singer/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-opera-singer",
-    "arco-cd:hasTitle" : "The Opera Singer"
+    "hasTitle" : "The Opera Singer"
   }, {
     "@id" : "spice:attribution/the-opera-singer",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,40 +28,33 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

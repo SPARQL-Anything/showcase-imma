@@ -2,31 +2,31 @@
   "@graph" : [ {
     "@id" : "spice:agent/scharf-william",
     "@type" : "foaf:Person",
-    "dc:description" : "American artist William Scharf (born 1927) studied painting at the Pennsylvania Academy of Fine Arts before serving in the Army Air Corps during World War II. Returning to his studies in 1948 he won a scholarship from the Pennsylvania Academy of Fine Arts to go to Paris, where he studied at the Académie de la Grande Chaumière. In 1952 he moved to New York and in 1953 became a studio assistant of Mark Rothko. Scharf has taught at many art schools throughout the U.S. since the 1960s. His work is represented in numerous museum collections including the Brooklyn Museum of Art; the Museum of Modern Art, New York; the Philadelphia Museum of Art and the Weisman Museum of Art, Malibu, California.",
-    "dc:source" : "https://imma.ie/artists/william-scharf/",
-    "schema:birthDate" : "b.1927",
-    "schema:url" : "https://imma.ie/artists/william-scharf/",
-    "rdfs:label" : "William Scharf"
+    "description" : "American artist William Scharf (born 1927) studied painting at the Pennsylvania Academy of Fine Arts before serving in the Army Air Corps during World War II. Returning to his studies in 1948 he won a scholarship from the Pennsylvania Academy of Fine Arts to go to Paris, where he studied at the Académie de la Grande Chaumière. In 1952 he moved to New York and in 1953 became a studio assistant of Mark Rothko. Scharf has taught at many art schools throughout the U.S. since the 1960s. His work is represented in numerous museum collections including the Brooklyn Museum of Art; the Museum of Modern Art, New York; the Philadelphia Museum of Art and the Weisman Museum of Art, Malibu, California.",
+    "source" : "https://imma.ie/artists/william-scharf/",
+    "birthDate" : "b.1927",
+    "url" : "https://imma.ie/artists/william-scharf/",
+    "label" : "William Scharf"
   }, {
     "@id" : "spice:artefact/a-wagina-of-smiles",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/scharf-william",
     "author" : "spice:agent/scharf-william",
-    "schema:dateCreated" : "1963",
-    "schema:url" : "https://imma.ie/collection/a-wagina-of-smiles/",
+    "dateCreated" : "1963",
+    "url" : "https://imma.ie/collection/a-wagina-of-smiles/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/a-wagina-of-smiles",
-    "arco-cd:hasTitle" : "A Wagina of Smiles"
+    "hasTitle" : "A Wagina of Smiles"
   }, {
     "@id" : "spice:artefact/the-tablet-was-touched",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/scharf-william",
     "author" : "spice:agent/scharf-william",
-    "schema:dateCreated" : "1993",
-    "schema:url" : "https://imma.ie/collection/the-tablet-was-touched/",
+    "dateCreated" : "1993",
+    "url" : "https://imma.ie/collection/the-tablet-was-touched/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-tablet-was-touched",
-    "arco-cd:hasTitle" : "The tablet was touched"
+    "hasTitle" : "The tablet was touched"
   }, {
     "@id" : "spice:attribution/a-wagina-of-smiles",
     "@type" : "arco:AuthorshipAttribution",
@@ -38,40 +38,33 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -87,7 +80,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

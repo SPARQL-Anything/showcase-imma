@@ -1,0 +1,71 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/clogged-channels",
+    "@type" : "schema:CreativeWork",
+    "description" : "Accommodate vs. Assimilate by Leanne McDonagh investigates the devastating housing crises and human rights violations endured by the Irish Travelling Community in contemporary Ireland. Commissioned for Triskel, Cork. For this body of work Leanne visited Traveller families all over Ireland and photographed their living conditions. She was shocked by what she found. “Government policy says that the Traveller way of life is being supported by the provision of a variety of different types of housing: this isn’t true,” Leanne says.",
+    "source" : "https://imma.ie/collection/clogged-channels/",
+    "creditText" : "IMMA Collection: Purchase, 2020, 2020",
+    "image" : "spice:documentation/clogged-channels",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "material" : "Mixed Media om Arches Oil Paper",
+    "size" : "59.4 x 42 cm",
+    "hasInventory" : "IMMA.4180"
+  }, {
+    "@id" : "spice:documentation/clogged-channels",
+    "@type" : "schema:ImageObject",
+    "caption" : "Leanne McDonagh, Clogged Channels, 2016, Mixed Media om Arches Oil Paper, 59.4 x 42 cm, Collection Irish Museum of Modern Art, Purchase, 2020, 2020 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "url" : "https://imma.ie/wp-content/uploads/2021/07/9473.jpg"
+  } ],
+  "@context" : {
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

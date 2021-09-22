@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/untitled-69",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "‘Untitled’ is one of a series of large to medium scale bronze sculptures by Tony Cragg, the forms of which are derived from scientific laboratory vessels. The work has a singular element taking the form of a glass bottle or flask and reveals Cragg’s ongoing interest in science and technology and the world of manufacturing. This is expressed by the use of a diversity of materials with a conventional commitment to sculptures as objects complete in themselves.",
-    "dc:source" : "https://imma.ie/collection/untitled-69/",
-    "schema:creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1994",
+    "description" : "‘Untitled’ is one of a series of large to medium scale bronze sculptures by Tony Cragg, the forms of which are derived from scientific laboratory vessels. The work has a singular element taking the form of a glass bottle or flask and reveals Cragg’s ongoing interest in science and technology and the world of manufacturing. This is expressed by the use of a diversity of materials with a conventional commitment to sculptures as objects complete in themselves.",
+    "source" : "https://imma.ie/collection/untitled-69/",
+    "creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1994",
     "image" : "spice:documentation/untitled-69",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Bronze",
-    "schema:size" : "210 x 210 x 285 cm",
-    "arco-cd:hasInventory" : "L.535 LW"
+    "material" : "Bronze",
+    "size" : "210 x 210 x 285 cm",
+    "hasInventory" : "L.535 LW"
   }, {
     "@id" : "spice:documentation/untitled-69",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Tony Cragg, Untitled, 1988, Bronze, 210 x 210 x 285 cm, Collection Irish Museum of Modern Art, Loan, Weltkunst Foundation, 1994 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Tony Cragg, Untitled, 1988, Bronze, 210 x 210 x 285 cm, Collection Irish Museum of Modern Art, Loan, Weltkunst Foundation, 1994 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2021/01/507.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2021/01/507.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

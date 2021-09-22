@@ -1,0 +1,81 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/ arakawa-shusaku",
+    "@type" : "foaf:Person",
+    "description" : "Shusaku Arakawa was born in Nagoya, Japan. He studied mathematics and medicine before attending the Musashino Art University in Tokyo. Arakawa was one of the founders of the Neo-Dada Organisers Group in Tokyo. On moving to New York in 1960, Arakawa met Marcel Duchamp, John Cage, Jasper Johns and Robert Rauschenberg and began working on diagrammatic paintings which employed words, arrows and signs to make philosophical propositions.",
+    "source" : "https://imma.ie/artists/shusaku-arakawa/",
+    "birthDate" : "1936–2010",
+    "url" : "https://imma.ie/artists/shusaku-arakawa/",
+    "label" : "Shusaku Arakawa"
+  }, {
+    "@id" : "spice:artefact/from-mechanism-of-meaning",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/ arakawa-shusaku",
+    "author" : "spice:agent/ arakawa-shusaku",
+    "dateCreated" : "1971",
+    "url" : "https://imma.ie/collection/from-mechanism-of-meaning/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/from-mechanism-of-meaning",
+    "hasTitle" : "from Mechanism of Meaning"
+  }, {
+    "@id" : "spice:attribution/from-mechanism-of-meaning",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/ arakawa-shusaku"
+  } ],
+  "@context" : {
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

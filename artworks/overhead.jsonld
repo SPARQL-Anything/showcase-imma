@@ -2,66 +2,57 @@
   "@graph" : [ {
     "@id" : "spice:artefact/overhead",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "‘Overhead’ , 2004 is in many ways a simple painting, consisting of",
-    "dc:source" : "https://imma.ie/collection/overhead/",
-    "schema:creditText" : "IMMA Collection: Purchase, 2005",
+    "description" : "‘Overhead’ , 2004 is in many ways a simple painting, consisting of",
+    "source" : "https://imma.ie/collection/overhead/",
+    "creditText" : "IMMA Collection: Purchase, 2005",
     "image" : "spice:documentation/overhead",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Oil on mdf",
-    "schema:size" : "25 x 20 x 1.5 cm",
-    "arco-cd:hasInventory" : "IMMA.1915"
+    "material" : "Oil on mdf",
+    "size" : "25 x 20 x 1.5 cm",
+    "hasInventory" : "IMMA.1915"
   }, {
     "@id" : "spice:documentation/overhead",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Fergus Feehily, Overhead, 2004, Oil on mdf, 25 x 20 x 1.5 cm, Collection Irish Museum of Modern Art, Purchase, 2005 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Fergus Feehily, Overhead, 2004, Oil on mdf, 25 x 20 x 1.5 cm, Collection Irish Museum of Modern Art, Purchase, 2005 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/1817.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/1817.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

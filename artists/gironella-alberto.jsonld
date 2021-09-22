@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/gironella-alberto",
     "@type" : "foaf:Person",
-    "dc:description" : "Alberto Gironella was a Mexican surrealist painter and promoter of literature and the arts. He began his career as a poet and in the late 1940s and early 50s founded two literary magazines, ‘Clavileno’ and ‘Segrel’, before turning to painting. In 1960 Gironella was awarded a prize at the Paris Biennial for Young Painters.",
-    "dc:source" : "https://imma.ie/artists/alberto-gironella/",
-    "schema:birthDate" : "1929–1999",
-    "schema:url" : "https://imma.ie/artists/alberto-gironella/",
-    "rdfs:label" : "Alberto Gironella"
+    "description" : "Alberto Gironella was a Mexican surrealist painter and promoter of literature and the arts. He began his career as a poet and in the late 1940s and early 50s founded two literary magazines, ‘Clavileno’ and ‘Segrel’, before turning to painting. In 1960 Gironella was awarded a prize at the Paris Biennial for Young Painters.",
+    "source" : "https://imma.ie/artists/alberto-gironella/",
+    "birthDate" : "1929–1999",
+    "url" : "https://imma.ie/artists/alberto-gironella/",
+    "label" : "Alberto Gironella"
   }, {
     "@id" : "spice:artefact/la-reina-de-los-yugos",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/gironella-alberto",
     "author" : "spice:agent/gironella-alberto",
-    "schema:dateCreated" : "1976",
-    "schema:url" : "https://imma.ie/collection/la-reina-de-los-yugos/",
+    "dateCreated" : "1976",
+    "url" : "https://imma.ie/collection/la-reina-de-los-yugos/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/la-reina-de-los-yugos",
-    "arco-cd:hasTitle" : "La Reina de Los Yugos"
+    "hasTitle" : "La Reina de Los Yugos"
   }, {
     "@id" : "spice:attribution/la-reina-de-los-yugos",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,40 +24,33 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

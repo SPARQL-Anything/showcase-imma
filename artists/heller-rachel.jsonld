@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/heller-rachel",
     "@type" : "foaf:Person",
-    "dc:description" : "British artist Rachel Heller received a Diploma from the Byam Shaw School of Art and attended summer schools in Figurative Painting at the Slade School of Art. She went on to study at The Prince’s Drawing School in London and in 2006 was awarded the Hugh Casson Drawing Prize at the Royal Academy of Arts Summer Exhibition.",
-    "dc:source" : "https://imma.ie/artists/rachel-heller/",
-    "schema:birthDate" : "b.1973",
-    "schema:url" : "https://imma.ie/artists/rachel-heller/",
-    "rdfs:label" : "Rachel Heller"
+    "description" : "British artist Rachel Heller received a Diploma from the Byam Shaw School of Art and attended summer schools in Figurative Painting at the Slade School of Art. She went on to study at The Prince’s Drawing School in London and in 2006 was awarded the Hugh Casson Drawing Prize at the Royal Academy of Arts Summer Exhibition.",
+    "source" : "https://imma.ie/artists/rachel-heller/",
+    "birthDate" : "b.1973",
+    "url" : "https://imma.ie/artists/rachel-heller/",
+    "label" : "Rachel Heller"
   }, {
     "@id" : "spice:artefact/windows-2",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/heller-rachel",
     "author" : "spice:agent/heller-rachel",
-    "schema:dateCreated" : "2001",
-    "schema:url" : "https://imma.ie/collection/windows-2/",
+    "dateCreated" : "2001",
+    "url" : "https://imma.ie/collection/windows-2/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/windows-2",
-    "arco-cd:hasTitle" : "Windows 2"
+    "hasTitle" : "Windows 2"
   }, {
     "@id" : "spice:attribution/windows-2",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,40 +24,33 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

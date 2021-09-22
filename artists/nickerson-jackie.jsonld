@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/nickerson-jackie",
     "@type" : "foaf:Person",
-    "dc:description" : "American artist Jackie Nickerson (born 1960) has worked in both fashion and fine art photography. Her practice involves the examination of personal identity and the physical and psychological condition of working in specific environments. She has documented such diverse groups as farm workers in Southern Africa and religious communities in Ireland. Nickerson’s work is held in many international public collections. She is the recipient of a Culture Ireland award and several Visual Art Bursaries from the Irish Arts Council.",
-    "dc:source" : "https://imma.ie/artists/jackie-nickerson/",
-    "schema:birthDate" : "b.1960",
-    "schema:url" : "https://imma.ie/artists/jackie-nickerson/",
-    "rdfs:label" : "Jackie Nickerson"
+    "description" : "American artist Jackie Nickerson (born 1960) has worked in both fashion and fine art photography. Her practice involves the examination of personal identity and the physical and psychological condition of working in specific environments. She has documented such diverse groups as farm workers in Southern Africa and religious communities in Ireland. Nickerson’s work is held in many international public collections. She is the recipient of a Culture Ireland award and several Visual Art Bursaries from the Irish Arts Council.",
+    "source" : "https://imma.ie/artists/jackie-nickerson/",
+    "birthDate" : "b.1960",
+    "url" : "https://imma.ie/artists/jackie-nickerson/",
+    "label" : "Jackie Nickerson"
   }, {
     "@id" : "spice:artefact/green-room",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/nickerson-jackie",
     "author" : "spice:agent/nickerson-jackie",
-    "schema:dateCreated" : "2005",
-    "schema:url" : "https://imma.ie/collection/green-room/",
+    "dateCreated" : "2005",
+    "url" : "https://imma.ie/collection/green-room/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/green-room",
-    "arco-cd:hasTitle" : "Green Room"
+    "hasTitle" : "Green Room"
   }, {
     "@id" : "spice:attribution/green-room",
     "@type" : "arco:AuthorshipAttribution",
@@ -32,48 +32,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/parker-robert-andrew",
     "@type" : "foaf:Person",
-    "dc:description" : "American illustrator Robert Andrew Parker (born 1927) attended the School of the Art Institute of Chicago. Since the 1950s, as well as illustrating books, Parker has exhibited his prints and paintings extensively. He has been endowed with numerous grants and awards including a Guggenheim Fellowship, a Rosenthal Foundation Grant and the Ranger Fund Purchase Prize. Parker’s work is represented in the collections of many major museums including MoMA, New York; the Metropolitan Museum of Art; the Whitney Museum of American Art and the Smithsonian American Art Museum.",
-    "dc:source" : "https://imma.ie/artists/robert-andrew-parker/",
-    "schema:birthDate" : "b.1927",
-    "schema:url" : "https://imma.ie/artists/robert-andrew-parker/",
-    "rdfs:label" : "Robert Andrew Parker"
+    "description" : "American illustrator Robert Andrew Parker (born 1927) attended the School of the Art Institute of Chicago. Since the 1950s, as well as illustrating books, Parker has exhibited his prints and paintings extensively. He has been endowed with numerous grants and awards including a Guggenheim Fellowship, a Rosenthal Foundation Grant and the Ranger Fund Purchase Prize. Parker’s work is represented in the collections of many major museums including MoMA, New York; the Metropolitan Museum of Art; the Whitney Museum of American Art and the Smithsonian American Art Museum.",
+    "source" : "https://imma.ie/artists/robert-andrew-parker/",
+    "birthDate" : "b.1927",
+    "url" : "https://imma.ie/artists/robert-andrew-parker/",
+    "label" : "Robert Andrew Parker"
   }, {
     "@id" : "spice:artefact/sunrise",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/parker-robert-andrew",
     "author" : "spice:agent/parker-robert-andrew",
-    "schema:dateCreated" : "1975",
-    "schema:url" : "https://imma.ie/collection/sunrise/",
+    "dateCreated" : "1975",
+    "url" : "https://imma.ie/collection/sunrise/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/sunrise",
-    "arco-cd:hasTitle" : "Sunrise"
+    "hasTitle" : "Sunrise"
   }, {
     "@id" : "spice:attribution/sunrise",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,40 +24,33 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

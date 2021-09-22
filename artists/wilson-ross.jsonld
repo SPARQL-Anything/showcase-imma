@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/wilson-ross",
     "@type" : "foaf:Person",
-    "dc:description" : "Ross Wilson (born 1958) studied Fine Art at the University of Ulster, Belfast, and Chelsea School of Art, London. Wilson has exhibited extensively since 1980. In 1998 he helped to set up ‘New Art of the Irish’ open exhibition as a showcase for a new generation of Irish artists. Wilson’s many portrait commissions have included several Nobel Laureates. His study of Seamus Heaney hangs in the National Portrait Gallery, London. Wilson’s work is included in significant public and private collections including that of Tate Gallery, London; the British Museum; the James Joyce Museum, Dublin and Queen’s University, Belfast.",
-    "dc:source" : "https://imma.ie/artists/ross-wilson/",
-    "schema:birthDate" : "b.1958",
-    "schema:url" : "https://imma.ie/artists/ross-wilson/",
-    "rdfs:label" : "Ross Wilson"
+    "description" : "Ross Wilson (born 1958) studied Fine Art at the University of Ulster, Belfast, and Chelsea School of Art, London. Wilson has exhibited extensively since 1980. In 1998 he helped to set up ‘New Art of the Irish’ open exhibition as a showcase for a new generation of Irish artists. Wilson’s many portrait commissions have included several Nobel Laureates. His study of Seamus Heaney hangs in the National Portrait Gallery, London. Wilson’s work is included in significant public and private collections including that of Tate Gallery, London; the British Museum; the James Joyce Museum, Dublin and Queen’s University, Belfast.",
+    "source" : "https://imma.ie/artists/ross-wilson/",
+    "birthDate" : "b.1958",
+    "url" : "https://imma.ie/artists/ross-wilson/",
+    "label" : "Ross Wilson"
   }, {
     "@id" : "spice:artefact/brush-as-torch",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/wilson-ross",
     "author" : "spice:agent/wilson-ross",
-    "schema:dateCreated" : "1991",
-    "schema:url" : "https://imma.ie/collection/brush-as-torch/",
+    "dateCreated" : "1991",
+    "url" : "https://imma.ie/collection/brush-as-torch/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/brush-as-torch",
-    "arco-cd:hasTitle" : "Brush as Torch"
+    "hasTitle" : "Brush as Torch"
   }, {
     "@id" : "spice:attribution/brush-as-torch",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,40 +24,33 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

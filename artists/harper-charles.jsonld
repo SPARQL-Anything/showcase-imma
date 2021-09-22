@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/harper-charles",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish painter Charles Harper was born on Valencia Island, Co. Kerry. He attended the National College of Art and Design, the Limerick School of Art, the Dublin Graphic Studio and also studied filmmaking in Bonn, Germany. Harper has represented Ireland at numerous Biennials, received eight National Awards for his painting and was awarded the BulBulia Award at the RHA in 2008. He is a lecturer at Limerick School of Art and Design. Harper is a member of Aosdána and the RHA.",
-    "dc:source" : "https://imma.ie/artists/charles-harper/",
-    "schema:birthDate" : "b.1943",
-    "schema:url" : "https://imma.ie/artists/charles-harper/",
-    "rdfs:label" : "Charles Harper"
+    "description" : "Irish painter Charles Harper was born on Valencia Island, Co. Kerry. He attended the National College of Art and Design, the Limerick School of Art, the Dublin Graphic Studio and also studied filmmaking in Bonn, Germany. Harper has represented Ireland at numerous Biennials, received eight National Awards for his painting and was awarded the BulBulia Award at the RHA in 2008. He is a lecturer at Limerick School of Art and Design. Harper is a member of Aosdána and the RHA.",
+    "source" : "https://imma.ie/artists/charles-harper/",
+    "birthDate" : "b.1943",
+    "url" : "https://imma.ie/artists/charles-harper/",
+    "label" : "Charles Harper"
   }, {
     "@id" : "spice:artefact/transcience",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/harper-charles",
     "author" : "spice:agent/harper-charles",
-    "schema:dateCreated" : "1975",
-    "schema:url" : "https://imma.ie/collection/transcience/",
+    "dateCreated" : "1975",
+    "url" : "https://imma.ie/collection/transcience/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/transcience",
-    "arco-cd:hasTitle" : "Transcience"
+    "hasTitle" : "Transcience"
   }, {
     "@id" : "spice:attribution/transcience",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,40 +24,33 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

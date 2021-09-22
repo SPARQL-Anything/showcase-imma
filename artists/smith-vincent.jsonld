@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/smith-vincent",
     "@type" : "foaf:Person",
-    "dc:description" : "American painter Vincent Smith (1929 – 2004) was born in Brooklyn, New York. Smith served in the army and was a railroad and postal worker before quitting his job in 1953 in order to paint full time. From 1954 to 1956 he studied at the Brooklyn Museum Art School and later at the Skowhagen School of Painting in Maine. In 1959 Smith was awarded a John Hay Whitney Fellowship and in the 1970s received travel fellowships to study and paint in both Europe and Africa. A prominent member of the Black Arts movement of the 1960s and 1970s, Smith exhibited extensively with over 25 solo shows and more than 30 group exhibitions.",
-    "dc:source" : "https://imma.ie/artists/vincent-smith/",
-    "schema:birthDate" : "1929–2004",
-    "schema:url" : "https://imma.ie/artists/vincent-smith/",
-    "rdfs:label" : "Vincent Smith"
+    "description" : "American painter Vincent Smith (1929 – 2004) was born in Brooklyn, New York. Smith served in the army and was a railroad and postal worker before quitting his job in 1953 in order to paint full time. From 1954 to 1956 he studied at the Brooklyn Museum Art School and later at the Skowhagen School of Painting in Maine. In 1959 Smith was awarded a John Hay Whitney Fellowship and in the 1970s received travel fellowships to study and paint in both Europe and Africa. A prominent member of the Black Arts movement of the 1960s and 1970s, Smith exhibited extensively with over 25 solo shows and more than 30 group exhibitions.",
+    "source" : "https://imma.ie/artists/vincent-smith/",
+    "birthDate" : "1929–2004",
+    "url" : "https://imma.ie/artists/vincent-smith/",
+    "label" : "Vincent Smith"
   }, {
     "@id" : "spice:artefact/the-triumph-of-b-l-s",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/smith-vincent",
     "author" : "spice:agent/smith-vincent",
-    "schema:dateCreated" : "1974",
-    "schema:url" : "https://imma.ie/collection/the-triumph-of-b-l-s/",
+    "dateCreated" : "1974",
+    "url" : "https://imma.ie/collection/the-triumph-of-b-l-s/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-triumph-of-b-l-s",
-    "arco-cd:hasTitle" : "The Triumph of B.L.S."
+    "hasTitle" : "The Triumph of B.L.S."
   }, {
     "@id" : "spice:attribution/the-triumph-of-b-l-s",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,24 +28,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -56,24 +53,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

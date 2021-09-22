@@ -2,71 +2,61 @@
   "@graph" : [ {
     "@id" : "spice:artefact/green-room",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Green Room is a 2005 work by Jackie Nickerson. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/green-room/",
-    "schema:creditText" : "IMMA Collection: Purchase, 2006",
+    "description" : "Green Room is a 2005 work by Jackie Nickerson. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/green-room/",
+    "creditText" : "IMMA Collection: Purchase, 2006",
     "image" : "spice:documentation/green-room",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Media wise - lightjet print on Fuji Crystal archive paper",
-    "schema:size" : "139.7 x 109.2 cm",
-    "schema:version" : "Edition of 6",
-    "arco-cd:hasInventory" : "IMMA.1986"
+    "material" : "Media wise - lightjet print on Fuji Crystal archive paper",
+    "size" : "139.7 x 109.2 cm",
+    "version" : "Edition of 6",
+    "hasInventory" : "IMMA.1986"
   }, {
     "@id" : "spice:documentation/green-room",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Jackie Nickerson, Green Room, 2005, Media wise - lightjet print on Fuji Crystal archive paper, 139.7 x 109.2 cm, Collection Irish Museum of Modern Art, Purchase, 2006 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Jackie Nickerson, Green Room, 2005, Media wise - lightjet print on Fuji Crystal archive paper, 139.7 x 109.2 cm, Collection Irish Museum of Modern Art, Purchase, 2006 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/239.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/239.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

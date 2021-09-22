@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/frasconi-antonio",
     "@type" : "foaf:Person",
-    "dc:description" : "Antonio Frasconi was a printmaker, illustrator and woodcut master born in Argentina and raised in Uruguay. He first exhibited drawings in 1939 at the Ateneo in Montevideo and studied printmaking with various artists. In 1945 he went to New York on a one-year scholarship to the Art Students League. Frasconi represented Uruguay at the 1968 Venice Biennale. A citizen of both Uruguay and the United States, Frasconi was the Distinguished Teaching Professor of Visual Arts and the State University of New York at Purchase. In 1952 he received a Guggenheim Foundation Award and in 1969 he was named a National Academician by the New York Academy of Design.",
-    "dc:source" : "https://imma.ie/artists/antonio-frasconi/",
-    "schema:birthDate" : "1919–2013",
-    "schema:url" : "https://imma.ie/artists/antonio-frasconi/",
-    "rdfs:label" : "Antonio Frasconi"
+    "description" : "Antonio Frasconi was a printmaker, illustrator and woodcut master born in Argentina and raised in Uruguay. He first exhibited drawings in 1939 at the Ateneo in Montevideo and studied printmaking with various artists. In 1945 he went to New York on a one-year scholarship to the Art Students League. Frasconi represented Uruguay at the 1968 Venice Biennale. A citizen of both Uruguay and the United States, Frasconi was the Distinguished Teaching Professor of Visual Arts and the State University of New York at Purchase. In 1952 he received a Guggenheim Foundation Award and in 1969 he was named a National Academician by the New York Academy of Design.",
+    "source" : "https://imma.ie/artists/antonio-frasconi/",
+    "birthDate" : "1919–2013",
+    "url" : "https://imma.ie/artists/antonio-frasconi/",
+    "label" : "Antonio Frasconi"
   }, {
     "@id" : "spice:artefact/garcia-lorca-en-la-alhambra",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/frasconi-antonio",
     "author" : "spice:agent/frasconi-antonio",
-    "schema:dateCreated" : "1977",
-    "schema:url" : "https://imma.ie/collection/garcia-lorca-en-la-alhambra/",
+    "dateCreated" : "1977",
+    "url" : "https://imma.ie/collection/garcia-lorca-en-la-alhambra/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/garcia-lorca-en-la-alhambra",
-    "arco-cd:hasTitle" : "García Lorca en la Alhambra"
+    "hasTitle" : "García Lorca en la Alhambra"
   }, {
     "@id" : "spice:attribution/garcia-lorca-en-la-alhambra",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,44 +28,37 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

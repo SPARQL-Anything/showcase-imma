@@ -2,61 +2,61 @@
   "@graph" : [ {
     "@id" : "spice:agent/lewitt-sol",
     "@type" : "foaf:Person",
-    "dc:description" : "A founding figure of both Minimal and Conceptual art, Sol LeWitt was born in Hartford, Conneticut. He completed a BFA at Syracuse University in 1949 then served in the United States Army in Korea and Japan. He moved to New York in 1953 where he took classes at the Cartoonists and Illustrators School and worked as a draughtsman.LeWitt had his first solo exhibition in 1965 and during the late 1960s and early 1970s participated in several significant group exhibitions of Minimalist and Conceptual art. ‘Sol LeWitt: New Wall Drawings’ was shown at IMMA in 2001.",
-    "dc:source" : "https://imma.ie/artists/sol-lewitt/",
-    "schema:birthDate" : "1928–2007",
-    "schema:url" : "https://imma.ie/artists/sol-lewitt/",
-    "rdfs:label" : "Sol LeWitt"
+    "description" : "A founding figure of both Minimal and Conceptual art, Sol LeWitt was born in Hartford, Conneticut. He completed a BFA at Syracuse University in 1949 then served in the United States Army in Korea and Japan. He moved to New York in 1953 where he took classes at the Cartoonists and Illustrators School and worked as a draughtsman.LeWitt had his first solo exhibition in 1965 and during the late 1960s and early 1970s participated in several significant group exhibitions of Minimalist and Conceptual art. ‘Sol LeWitt: New Wall Drawings’ was shown at IMMA in 2001.",
+    "source" : "https://imma.ie/artists/sol-lewitt/",
+    "birthDate" : "1928–2007",
+    "url" : "https://imma.ie/artists/sol-lewitt/",
+    "label" : "Sol LeWitt"
   }, {
     "@id" : "spice:artefact/52-12-31-02-dear-b-b-happy-days-in-03",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lewitt-sol",
     "author" : "spice:agent/lewitt-sol",
-    "schema:dateCreated" : "2003",
-    "schema:url" : "https://imma.ie/collection/52-12-31-02-dear-b-b-happy-days-in-03/",
+    "dateCreated" : "2003",
+    "url" : "https://imma.ie/collection/52-12-31-02-dear-b-b-happy-days-in-03/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/52-12-31-02-dear-b-b-happy-days-in-03",
-    "arco-cd:hasTitle" : "52-12-31-02 Dear B &amp; B -Happy days in ’03"
+    "hasTitle" : "52-12-31-02 Dear B &amp; B -Happy days in ’03"
   }, {
     "@id" : "spice:artefact/brushstrokes-in-all-directions",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lewitt-sol",
     "author" : "spice:agent/lewitt-sol",
-    "schema:dateCreated" : "1994",
-    "schema:url" : "https://imma.ie/collection/brushstrokes-in-all-directions/",
+    "dateCreated" : "1994",
+    "url" : "https://imma.ie/collection/brushstrokes-in-all-directions/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/brushstrokes-in-all-directions",
-    "arco-cd:hasTitle" : "Brushstrokes in All Directions"
+    "hasTitle" : "Brushstrokes in All Directions"
   }, {
     "@id" : "spice:artefact/happy-days-in-2004-sol-carol",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lewitt-sol",
     "author" : "spice:agent/lewitt-sol",
-    "schema:dateCreated" : "2004",
-    "schema:url" : "https://imma.ie/collection/happy-days-in-2004-sol-carol/",
+    "dateCreated" : "2004",
+    "url" : "https://imma.ie/collection/happy-days-in-2004-sol-carol/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/happy-days-in-2004-sol-carol",
-    "arco-cd:hasTitle" : "Happy Days in 2004 Sol &amp; Carol"
+    "hasTitle" : "Happy Days in 2004 Sol &amp; Carol"
   }, {
     "@id" : "spice:artefact/oakland",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lewitt-sol",
     "author" : "spice:agent/lewitt-sol",
-    "schema:dateCreated" : "1983",
-    "schema:url" : "https://imma.ie/collection/oakland/",
+    "dateCreated" : "1983",
+    "url" : "https://imma.ie/collection/oakland/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/oakland",
-    "arco-cd:hasTitle" : "Oakland"
+    "hasTitle" : "Oakland"
   }, {
     "@id" : "spice:artefact/proposal",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lewitt-sol",
     "author" : "spice:agent/lewitt-sol",
-    "schema:dateCreated" : "1994",
-    "schema:url" : "https://imma.ie/collection/proposal/",
+    "dateCreated" : "1994",
+    "url" : "https://imma.ie/collection/proposal/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/proposal",
-    "arco-cd:hasTitle" : "Proposal"
+    "hasTitle" : "Proposal"
   }, {
     "@id" : "spice:attribution/52-12-31-02-dear-b-b-happy-days-in-03",
     "@type" : "arco:AuthorshipAttribution",
@@ -88,48 +88,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -1,0 +1,71 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/spring-inspiration-of-the-poet",
+    "@type" : "schema:CreativeWork",
+    "description" : "Spring – Inspiration of the Poet (1965) is a work by Jarman that was highly selective about the references that he would draw from his source materials. Based on the Nicholas Poussin’s work of the same title (1629), Jarman retains the main compositional features but then abandons the source, in order to use the borrowed composition as a frame within which to conduct his own painterly exploration. ",
+    "source" : "https://imma.ie/collection/spring-inspiration-of-the-poet/",
+    "creditText" : "IMMA Collection: Purchase, 2020, 2020",
+    "image" : "spice:documentation/spring-inspiration-of-the-poet",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "material" : "Oil on canvas",
+    "size" : "152 x 152 cm",
+    "hasInventory" : "IMMA.4189"
+  }, {
+    "@id" : "spice:documentation/spring-inspiration-of-the-poet",
+    "@type" : "schema:ImageObject",
+    "caption" : "Derek Jarman, Spring – Inspiration of the Poet, 1965, Oil on canvas, 152 x 152 cm, Collection Irish Museum of Modern Art, Purchase, 2020, 2020 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "url" : "https://imma.ie/wp-content/uploads/2021/04/9483.jpg"
+  } ],
+  "@context" : {
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

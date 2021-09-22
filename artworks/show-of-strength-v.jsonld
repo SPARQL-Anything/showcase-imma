@@ -2,66 +2,61 @@
   "@graph" : [ {
     "@id" : "spice:artefact/show-of-strength-v",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "show of strength V is a 2006 work by Willie Doherty. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/show-of-strength-v/",
+    "description" : "Show of Strength V is a 2006 work by Willie Doherty. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/show-of-strength-v/",
+    "creditText" : "IMMA Collection: Heritage Gift, Kerlin Gallery Collection, 2018, 2018",
     "image" : "spice:documentation/show-of-strength-v",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "c-print on aluminum with Plexiglas",
-    "schema:size" : "121.9 x 152.4 cm",
-    "schema:version" : "Edition 2/3",
-    "arco-cd:hasInventory" : "IMMA.4129"
+    "material" : "c-print on aluminum with Plexiglas",
+    "size" : "121.9 x 152.4 cm",
+    "version" : "Edition 2/3",
+    "hasInventory" : "IMMA.4129"
   }, {
     "@id" : "spice:documentation/show-of-strength-v",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Willie Doherty, show of strength V, 2006, c-print on aluminum with Plexiglas, 121.9 x 152.4 cm, Collection Irish Museum of Modern Art, 2018 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Willie Doherty, Show of Strength V, 2006, c-print on aluminum with Plexiglas, 121.9 x 152.4 cm, Collection Irish Museum of Modern Art, Heritage Gift, Kerlin Gallery Collection, 2018, 2018 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2019/10/9155.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2021/05/9155.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
-    },
-    "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
-    },
-    "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
-    "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
-    },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
-    "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    "version" : {
+      "@id" : "http://schema.org/version"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

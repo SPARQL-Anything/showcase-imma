@@ -2,30 +2,30 @@
   "@graph" : [ {
     "@id" : "spice:agent/oleary-helen",
     "@type" : "foaf:Person",
-    "dc:description" : [ "Helen O’Leary was selected for the Hennessy Art Fund for IMMA Collection 2018.", "Helen O’Leary attended the National College of Art and Design, Dublin (BA) and the School of the Art Institute of Chicago (BFA, MFA). She has been honoured with la Prix de Rome, American Academy in Rome, John Simon Guggenheim Fellowship; two PollockKrasner awards; and the Joan Mitchell Award for painting and sculpture. Solo exhibitions include Lesley Heller Gallery, New York; The MAC, Belfast; Limerick City Gallery of Art. O’Leary is represented by Lesley Heller Gallery, New York. She lives in Jersey City, New Jersey and Leitrim." ],
-    "dc:source" : "https://imma.ie/artists/helen-oleary/",
-    "schema:url" : "https://imma.ie/artists/helen-oleary/",
-    "rdfs:label" : "Helen O’Leary"
+    "description" : [ "Helen O’Leary was selected for the Hennessy Art Fund for IMMA Collection 2018.", "Helen O’Leary attended the National College of Art and Design, Dublin (BA) and the School of the Art Institute of Chicago (BFA, MFA). She has been honoured with la Prix de Rome, American Academy in Rome, John Simon Guggenheim Fellowship; two PollockKrasner awards; and the Joan Mitchell Award for painting and sculpture. Solo exhibitions include Lesley Heller Gallery, New York; The MAC, Belfast; Limerick City Gallery of Art. O’Leary is represented by Lesley Heller Gallery, New York. She lives in Jersey City, New Jersey and Leitrim." ],
+    "source" : "https://imma.ie/artists/helen-oleary/",
+    "url" : "https://imma.ie/artists/helen-oleary/",
+    "label" : "Helen O’Leary"
   }, {
     "@id" : "spice:artefact/refusal",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/oleary-helen",
     "author" : "spice:agent/oleary-helen",
-    "schema:dateCreated" : "2014",
-    "schema:url" : "https://imma.ie/collection/refusal/",
+    "dateCreated" : "2014",
+    "url" : "https://imma.ie/collection/refusal/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/refusal",
-    "arco-cd:hasTitle" : "Refusal"
+    "hasTitle" : "Refusal"
   }, {
     "@id" : "spice:artefact/the-problem-with-adjectives",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/oleary-helen",
     "author" : "spice:agent/oleary-helen",
-    "schema:dateCreated" : "2017",
-    "schema:url" : "https://imma.ie/collection/the-problem-with-adjectives/",
+    "dateCreated" : "2017",
+    "url" : "https://imma.ie/collection/the-problem-with-adjectives/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-problem-with-adjectives",
-    "arco-cd:hasTitle" : "The Problem with Adjectives"
+    "hasTitle" : "The Problem with Adjectives"
   }, {
     "@id" : "spice:attribution/refusal",
     "@type" : "arco:AuthorshipAttribution",
@@ -37,36 +37,30 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -82,7 +76,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

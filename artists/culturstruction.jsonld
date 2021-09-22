@@ -1,30 +1,26 @@
 {
   "@id" : "spice:agent/culturstruction",
   "@type" : "foaf:Person",
-  "dc:description" : [ "CULTURSTRUCTION is a collaborative practice of Jo Anne Butler and Tara Kennedy. Positioned at the intersection of art and architecture their work addresses the embedded social, spatial and economic infra¬structure of the public realm. Based in Ireland, Culturstruction is driven by an ambition to provide a platform for the critique of the culture of ‘Architecture’, architectural education and the industry that creates our built environment. They believe that the way that decisions are made is intrinsic to the outcome. Underpinning their creative process is an urgency and desire to prise open accepted boundaries of practice, for ideas to be made accessible and for an expanded dialogue to begin.", "CULTURSTRUCTION is a collaborative practice of Jo Anne Butler and Tara Kennedy. Positioned at the intersection of art and architecture their work addresses the embedded social, spatial and economic infra¬structure of the public realm. " ],
-  "dc:source" : "https://imma.ie/artists/culturstruction/",
-  "schema:url" : "https://imma.ie/artists/culturstruction/",
-  "rdfs:label" : "Culturstruction",
+  "description" : [ "CULTURSTRUCTION is a collaborative practice of Jo Anne Butler and Tara Kennedy. Positioned at the intersection of art and architecture their work addresses the embedded social, spatial and economic infra¬structure of the public realm. Based in Ireland, Culturstruction is driven by an ambition to provide a platform for the critique of the culture of ‘Architecture’, architectural education and the industry that creates our built environment. They believe that the way that decisions are made is intrinsic to the outcome. Underpinning their creative process is an urgency and desire to prise open accepted boundaries of practice, for ideas to be made accessible and for an expanded dialogue to begin.", "CULTURSTRUCTION is a collaborative practice of Jo Anne Butler and Tara Kennedy. Positioned at the intersection of art and architecture their work addresses the embedded social, spatial and economic infra¬structure of the public realm. " ],
+  "source" : "https://imma.ie/artists/culturstruction/",
+  "url" : "https://imma.ie/artists/culturstruction/",
+  "label" : "Culturstruction",
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -2,22 +2,22 @@
   "@graph" : [ {
     "@id" : "spice:artefact/there",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "There is a 2010 work by Anne Tallentire. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/there/",
-    "schema:creditText" : "IMMA Collection: IMMA Editions, Donated by the artist, 2010",
+    "description" : "There is a 2010 work by Anne Tallentire. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/there/",
+    "creditText" : "IMMA Collection: IMMA Editions, Donated by the artist, 2010",
     "image" : "spice:documentation/there",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Laser print on uncoated 100gsm white paper (typeface Calvert Bold) and aluminium metal tape",
-    "schema:size" : "29 x 26 cm",
-    "schema:version" : "Edition 10/30. Published by Print Services, Chelsea College of Art and Design",
-    "arco-cd:hasInventory" : "IMMA.3213"
+    "material" : "Laser print on uncoated 100gsm white paper (typeface Calvert Bold) and aluminium metal tape",
+    "size" : "29 x 26 cm",
+    "version" : "Edition 10/30. Published by Print Services, Chelsea College of Art and Design",
+    "hasInventory" : "IMMA.3213"
   }, {
     "@id" : "spice:documentation/there",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Anne Tallentire, There, 2010, Laser print on uncoated 100gsm white paper (typeface Calvert Bold) and aluminium metal tape, 29 x 26 cm, Collection Irish Museum of Modern Art, IMMA Editions, Donated by the artist, 2010 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Anne Tallentire, There, 2010, Laser print on uncoated 100gsm white paper (typeface Calvert Bold) and aluminium metal tape, 29 x 26 cm, Collection Irish Museum of Modern Art, IMMA Editions, Donated by the artist, 2010 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/4924.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/4924.jpg"
   } ],
   "@context" : {
     "maintainer" : {
@@ -25,48 +25,38 @@
       "@type" : "@id"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

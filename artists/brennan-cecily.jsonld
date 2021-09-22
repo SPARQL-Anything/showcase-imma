@@ -2,101 +2,101 @@
   "@graph" : [ {
     "@id" : "spice:agent/brennan-cecily",
     "@type" : "foaf:Person",
-    "dc:description" : "IIrish artist Cecily Brennan attended the National College of Art and Design, Dublin. She was a founder member of Dublin's Visual Arts Centre in 1979 and served as director of the Project Arts Centre from 1983 to 1986. In her painting, sculpture and film works Brennan has explored the human body and how emotional stress is manifested within. Following a trip to Iceland this interest was extended to consider landscape. Brennan lives in Dublin.",
-    "dc:source" : "https://imma.ie/artists/cecily-brennan/",
-    "schema:birthDate" : "b.1955",
-    "schema:url" : "https://imma.ie/artists/cecily-brennan/",
-    "rdfs:label" : "Cecily Brennan"
+    "description" : "IIrish artist Cecily Brennan attended the National College of Art and Design, Dublin. She was a founder member of Dublin's Visual Arts Centre in 1979 and served as director of the Project Arts Centre from 1983 to 1986. In her painting, sculpture and film works Brennan has explored the human body and how emotional stress is manifested within. Following a trip to Iceland this interest was extended to consider landscape. Brennan lives in Dublin.",
+    "source" : "https://imma.ie/artists/cecily-brennan/",
+    "birthDate" : "b.1955",
+    "url" : "https://imma.ie/artists/cecily-brennan/",
+    "label" : "Cecily Brennan"
   }, {
     "@id" : "spice:artefact/bandaging",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/brennan-cecily",
     "author" : "spice:agent/brennan-cecily",
-    "schema:dateCreated" : "2005",
-    "schema:url" : "https://imma.ie/collection/bandaging/",
+    "dateCreated" : "2005",
+    "url" : "https://imma.ie/collection/bandaging/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/bandaging",
-    "arco-cd:hasTitle" : "Bandaging"
+    "hasTitle" : "Bandaging"
   }, {
     "@id" : "spice:artefact/curtain",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/brennan-cecily",
     "author" : "spice:agent/brennan-cecily",
-    "schema:dateCreated" : "2005",
-    "schema:url" : "https://imma.ie/collection/curtain/",
+    "dateCreated" : "2005",
+    "url" : "https://imma.ie/collection/curtain/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/curtain",
-    "arco-cd:hasTitle" : "Curtain"
+    "hasTitle" : "Curtain"
   }, {
     "@id" : "spice:artefact/ditch",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/brennan-cecily",
     "author" : "spice:agent/brennan-cecily",
-    "schema:dateCreated" : "1984",
-    "schema:url" : "https://imma.ie/collection/ditch/",
+    "dateCreated" : "1984",
+    "url" : "https://imma.ie/collection/ditch/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/ditch",
-    "arco-cd:hasTitle" : "Ditch"
+    "hasTitle" : "Ditch"
   }, {
     "@id" : "spice:artefact/end-morraine",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/brennan-cecily",
     "author" : "spice:agent/brennan-cecily",
-    "schema:dateCreated" : "1992",
-    "schema:url" : "https://imma.ie/collection/end-morraine/",
+    "dateCreated" : "1992",
+    "url" : "https://imma.ie/collection/end-morraine/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/end-morraine",
-    "arco-cd:hasTitle" : "End Morraine"
+    "hasTitle" : "End Morraine"
   }, {
     "@id" : "spice:artefact/garden-painting",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/brennan-cecily",
     "author" : "spice:agent/brennan-cecily",
-    "schema:dateCreated" : "1980",
-    "schema:url" : "https://imma.ie/collection/garden-painting/",
+    "dateCreated" : "1980",
+    "url" : "https://imma.ie/collection/garden-painting/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/garden-painting",
-    "arco-cd:hasTitle" : "Garden Painting"
+    "hasTitle" : "Garden Painting"
   }, {
     "@id" : "spice:artefact/gorget",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/brennan-cecily",
     "author" : "spice:agent/brennan-cecily",
-    "schema:dateCreated" : "2005",
-    "schema:url" : "https://imma.ie/collection/gorget/",
+    "dateCreated" : "2005",
+    "url" : "https://imma.ie/collection/gorget/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/gorget",
-    "arco-cd:hasTitle" : "Gorget"
+    "hasTitle" : "Gorget"
   }, {
     "@id" : "spice:artefact/melancholia",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/brennan-cecily",
     "author" : "spice:agent/brennan-cecily",
-    "schema:dateCreated" : "2005",
-    "schema:url" : "https://imma.ie/collection/melancholia/",
+    "dateCreated" : "2005",
+    "url" : "https://imma.ie/collection/melancholia/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/melancholia",
-    "arco-cd:hasTitle" : "Melancholia"
+    "hasTitle" : "Melancholia"
   }, {
     "@id" : "spice:artefact/melancholia-1",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/brennan-cecily",
     "author" : "spice:agent/brennan-cecily",
-    "schema:dateCreated" : "2005",
-    "schema:url" : "https://imma.ie/collection/melancholia-1/",
+    "dateCreated" : "2005",
+    "url" : "https://imma.ie/collection/melancholia-1/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/melancholia-1",
-    "arco-cd:hasTitle" : "Melancholia 1"
+    "hasTitle" : "Melancholia 1"
   }, {
     "@id" : "spice:artefact/melancholia-2",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/brennan-cecily",
     "author" : "spice:agent/brennan-cecily",
-    "schema:dateCreated" : "2005",
-    "schema:url" : "https://imma.ie/collection/melancholia-2/",
+    "dateCreated" : "2005",
+    "url" : "https://imma.ie/collection/melancholia-2/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/melancholia-2",
-    "arco-cd:hasTitle" : "Melancholia"
+    "hasTitle" : "Melancholia"
   }, {
     "@id" : "spice:attribution/bandaging",
     "@type" : "arco:AuthorshipAttribution",
@@ -140,24 +140,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -168,24 +165,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

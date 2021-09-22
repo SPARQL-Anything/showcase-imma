@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/antoni-janine",
     "@type" : "foaf:Person",
-    "dc:description" : "Janine Antoni was born in the Bahamas. She holds a BA from Sarah Lawrence College and an MFA from Rhode Island School of Design. She received the MacArthur Fellowship in 1998 and the Larry Aldrich Foundation Award in 1999 and was a 2011 Guggenheim Fellow. Antoni has exhibited extensively in the United States and teaches at Columbia University School of the Arts.",
-    "dc:source" : "https://imma.ie/artists/janine-antoni/",
-    "schema:birthDate" : "b.1964",
-    "schema:url" : "https://imma.ie/artists/janine-antoni/",
-    "rdfs:label" : "Janine Antoni"
+    "description" : "Janine Antoni was born in the Bahamas. She holds a BA from Sarah Lawrence College and an MFA from Rhode Island School of Design. She received the MacArthur Fellowship in 1998 and the Larry Aldrich Foundation Award in 1999 and was a 2011 Guggenheim Fellow. Antoni has exhibited extensively in the United States and teaches at Columbia University School of the Arts.",
+    "source" : "https://imma.ie/artists/janine-antoni/",
+    "birthDate" : "b.1964",
+    "url" : "https://imma.ie/artists/janine-antoni/",
+    "label" : "Janine Antoni"
   }, {
     "@id" : "spice:artefact/unveiling",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/antoni-janine",
     "author" : "spice:agent/antoni-janine",
-    "schema:dateCreated" : "1994",
-    "schema:url" : "https://imma.ie/collection/unveiling/",
+    "dateCreated" : "1994",
+    "url" : "https://imma.ie/collection/unveiling/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/unveiling",
-    "arco-cd:hasTitle" : "Unveiling"
+    "hasTitle" : "Unveiling"
   }, {
     "@id" : "spice:attribution/unveiling",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,44 +28,37 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

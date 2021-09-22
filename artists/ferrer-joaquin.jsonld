@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/ferrer-joaquin",
     "@type" : "foaf:Person",
-    "dc:description" : "Cuban painter Joaquín Ferrer was born in Manzanilla and studied at the School of Fine Arts in Havana. In 1958 he restored and installed a Roman mosaic in the Museo Nacional in Havana and founded an engraving school. Ferrer won a government scholarship in 1960 that allowed him to continue his art education in Paris and he became a French citizen in 1979.",
-    "dc:source" : "https://imma.ie/artists/joaquin-ferrer/",
-    "schema:birthDate" : "b.1929",
-    "schema:url" : "https://imma.ie/artists/joaquin-ferrer/",
-    "rdfs:label" : "Joaquín Ferrer"
+    "description" : "Cuban painter Joaquín Ferrer was born in Manzanilla and studied at the School of Fine Arts in Havana. In 1958 he restored and installed a Roman mosaic in the Museo Nacional in Havana and founded an engraving school. Ferrer won a government scholarship in 1960 that allowed him to continue his art education in Paris and he became a French citizen in 1979.",
+    "source" : "https://imma.ie/artists/joaquin-ferrer/",
+    "birthDate" : "b.1929",
+    "url" : "https://imma.ie/artists/joaquin-ferrer/",
+    "label" : "Joaquín Ferrer"
   }, {
     "@id" : "spice:artefact/resurgence",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ferrer-joaquin",
     "author" : "spice:agent/ferrer-joaquin",
-    "schema:dateCreated" : "1976",
-    "schema:url" : "https://imma.ie/collection/resurgence/",
+    "dateCreated" : "1976",
+    "url" : "https://imma.ie/collection/resurgence/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/resurgence",
-    "arco-cd:hasTitle" : "Resurgence"
+    "hasTitle" : "Resurgence"
   }, {
     "@id" : "spice:attribution/resurgence",
     "@type" : "arco:AuthorshipAttribution",
@@ -32,48 +32,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

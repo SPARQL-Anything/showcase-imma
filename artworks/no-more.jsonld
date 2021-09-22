@@ -2,37 +2,33 @@
   "@graph" : [ {
     "@id" : "spice:artefact/no-more",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "No More (2013) deals with the subject of internment in the context of Northern Irish",
-    "dc:source" : "https://imma.ie/collection/no-more/",
+    "description" : "No More (2013) deals with the subject of internment in the context of Northern Irish",
+    "source" : "https://imma.ie/collection/no-more/",
     "image" : "spice:documentation/no-more",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Found footage, vhs, digital video and sound",
-    "schema:version" : "Edition 2/5",
-    "arco-cd:hasInventory" : "IMMA.4027"
+    "material" : "Found footage, vhs, digital video and sound",
+    "version" : "Edition 2/5",
+    "hasInventory" : "IMMA.4027"
   }, {
     "@id" : "spice:documentation/no-more",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Mairéad McClean, No More, 2013, Found footage, vhs, digital video and sound, Duration: 16 min, Collection Irish Museum of Modern Art, 2017 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Mairéad McClean, No More, 2013, Found footage, vhs, digital video and sound, Duration: 16 min, Collection Irish Museum of Modern Art, 2017 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2019/10/8913.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2019/10/8913.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -43,20 +39,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

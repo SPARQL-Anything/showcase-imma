@@ -2,37 +2,33 @@
   "@graph" : [ {
     "@id" : "spice:artefact/caelum",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Caelum is a 1986 work by Lynda Benglis. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/caelum/",
-    "schema:creditText" : "IMMA Collection: Gift, Bank of America, 2011",
+    "description" : "Caelum is a 1986 work by Lynda Benglis. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/caelum/",
+    "creditText" : "IMMA Collection: Gift, Bank of America, 2011",
     "image" : "spice:documentation/caelum",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Aluminium",
-    "arco-cd:hasInventory" : "IMMA.3337"
+    "material" : "Aluminium",
+    "hasInventory" : "IMMA.3337"
   }, {
     "@id" : "spice:documentation/caelum",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Lynda Benglis, Caelum, 1986, Aluminium, Collection Irish Museum of Modern Art, Gift, Bank of America, 2011 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Lynda Benglis, Caelum, 1986, Aluminium, Collection Irish Museum of Modern Art, Gift, Bank of America, 2011 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2019/10/4298.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2021/04/4298.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -43,20 +39,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

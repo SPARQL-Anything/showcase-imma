@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/wood-craig",
     "@type" : "foaf:Person",
-    "dc:description" : "British artist Craig Wood (born 1960) was born in Edinburgh, Scotland. He studied at Dyfed College of Art and Goldsmiths, University of London. Wilson’s awards include a Faber Castell Fellowship, Kunsthalle Nuernberg, Germany (1993); PACA/University of Warwick Residency in Venice (1994); DAAD Residency, Berlin (1996); Gregory Fellowship in Sculpture, University of Leeds (1997 – 2000); and the Wakelin Award, Swansea (2003).",
-    "dc:source" : "https://imma.ie/artists/craig-wood/",
-    "schema:birthDate" : "b.1960",
-    "schema:url" : "https://imma.ie/artists/craig-wood/",
-    "rdfs:label" : "Craig Wood"
+    "description" : "British artist Craig Wood (born 1960) was born in Edinburgh, Scotland. He studied at Dyfed College of Art and Goldsmiths, University of London. Wilson’s awards include a Faber Castell Fellowship, Kunsthalle Nuernberg, Germany (1993); PACA/University of Warwick Residency in Venice (1994); DAAD Residency, Berlin (1996); Gregory Fellowship in Sculpture, University of Leeds (1997 – 2000); and the Wakelin Award, Swansea (2003).",
+    "source" : "https://imma.ie/artists/craig-wood/",
+    "birthDate" : "b.1960",
+    "url" : "https://imma.ie/artists/craig-wood/",
+    "label" : "Craig Wood"
   }, {
     "@id" : "spice:artefact/safeway-gel-air-freshner-alpine-garden-detail",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/wood-craig",
     "author" : "spice:agent/wood-craig",
-    "schema:dateCreated" : "1992",
-    "schema:url" : "https://imma.ie/collection/safeway-gel-air-freshner-alpine-garden-detail/",
+    "dateCreated" : "1992",
+    "url" : "https://imma.ie/collection/safeway-gel-air-freshner-alpine-garden-detail/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/safeway-gel-air-freshner-alpine-garden-detail",
-    "arco-cd:hasTitle" : "Safeway Gel Air Freshner, Alpine Garden (Detail)"
+    "hasTitle" : "Safeway Gel Air Freshner, Alpine Garden (Detail)"
   }, {
     "@id" : "spice:attribution/safeway-gel-air-freshner-alpine-garden-detail",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,24 +28,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -56,24 +53,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

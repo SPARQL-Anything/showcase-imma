@@ -2,30 +2,28 @@
   "@graph" : [ {
     "@id" : "spice:artefact/el-nido-de-las-posibilidades-nocturnas",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "El Nido de las Posibilidades Nocturnas is a 1978 work by Humberto Pasos. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/el-nido-de-las-posibilidades-nocturnas/",
-    "schema:creditText" : "IMMA Collection: Donation, Smurfit: Cartón y Papel de México, 2000",
+    "description" : "El Nido de las Posibilidades Nocturnas is a 1978 work by Humberto Pasos. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/el-nido-de-las-posibilidades-nocturnas/",
+    "creditText" : "IMMA Collection: Donation, Smurfit: Cartón y Papel de México, 2000",
     "image" : "spice:documentation/el-nido-de-las-posibilidades-nocturnas",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Etching and embossing",
-    "schema:size" : "55.8 x 75.2 cm",
-    "schema:version" : "Edition 110/150",
-    "arco-cd:hasInventory" : "IMMA.950 MP"
+    "material" : "Etching and embossing",
+    "size" : "55.8 x 75.2 cm",
+    "version" : "Edition 110/150",
+    "hasInventory" : "IMMA.950 MP"
   }, {
     "@id" : "spice:documentation/el-nido-de-las-posibilidades-nocturnas",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Humberto Pasos, El Nido de las Posibilidades Nocturnas, 1978, Etching and embossing, 55.8 x 75.2 cm, Collection Irish Museum of Modern Art, Donation, Smurfit: Cartón y Papel de México, 2000 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Humberto Pasos, El Nido de las Posibilidades Nocturnas, 1978, Etching and embossing, 55.8 x 75.2 cm, Collection Irish Museum of Modern Art, Donation, Smurfit: Cartón y Papel de México, 2000 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
@@ -36,32 +34,25 @@
       "@type" : "@id"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

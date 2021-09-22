@@ -2,20 +2,20 @@
   "@graph" : [ {
     "@id" : "spice:agent/byrne-rhona",
     "@type" : "foaf:Person",
-    "dc:description" : [ "Often responding to a place or situation, Rhona Byrne makes objects, site-specific, gallery and context-based installations, films, publications and collaborative event-based projects that focus on the interplay between human beings and their surrounding environment at both macro and micro levels. Site specificity is usually the point of departure for her creative process, involving research into a place and everyday relations. Byrne’s works explore and engage with multilayered surfaces and workings of the built environment and navigates the intangible and transient layers of physical and psychological space.", "Often responding to a place or situation, Rhona Byrne makes objects, site-specific, gallery and context-based installations, films, publications and collaborative event-based projects that focus on the interplay between human beings and their surrounding environment at both macro and micro levels." ],
-    "dc:source" : "https://imma.ie/artists/rhona-byrne/",
-    "schema:url" : "https://imma.ie/artists/rhona-byrne/",
-    "rdfs:label" : "Rhona Byrne"
+    "description" : [ "Often responding to a place or situation, Rhona Byrne makes objects, site-specific, gallery and context-based installations, films, publications and collaborative event-based projects that focus on the interplay between human beings and their surrounding environment at both macro and micro levels. Site specificity is usually the point of departure for her creative process, involving research into a place and everyday relations. Byrne’s works explore and engage with multilayered surfaces and workings of the built environment and navigates the intangible and transient layers of physical and psychological space.", "Often responding to a place or situation, Rhona Byrne makes objects, site-specific, gallery and context-based installations, films, publications and collaborative event-based projects that focus on the interplay between human beings and their surrounding environment at both macro and micro levels." ],
+    "source" : "https://imma.ie/artists/rhona-byrne/",
+    "url" : "https://imma.ie/artists/rhona-byrne/",
+    "label" : "Rhona Byrne"
   }, {
     "@id" : "spice:artefact/bolthole",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/byrne-rhona",
     "author" : "spice:agent/byrne-rhona",
-    "schema:dateCreated" : "2012",
-    "schema:url" : "https://imma.ie/collection/bolthole/",
+    "dateCreated" : "2012",
+    "url" : "https://imma.ie/collection/bolthole/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/bolthole",
-    "arco-cd:hasTitle" : "Bolthole"
+    "hasTitle" : "Bolthole"
   }, {
     "@id" : "spice:attribution/bolthole",
     "@type" : "arco:AuthorshipAttribution",
@@ -23,36 +23,30 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -68,7 +62,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -2,37 +2,33 @@
   "@graph" : [ {
     "@id" : "spice:artefact/can-this-boy-save-the-monarchy-time",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Can This Boy Save the Monarchy?/Time is a 1996 work by Tom Molloy. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/can-this-boy-save-the-monarchy-time/",
-    "schema:creditText" : "IMMA Collection: Donation, Maire and Maurice Foley, 2000",
+    "description" : "Can This Boy Save the Monarchy?/Time is a 1996 work by Tom Molloy. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/can-this-boy-save-the-monarchy-time/",
+    "creditText" : "IMMA Collection: Donation, Maire and Maurice Foley, 2000",
     "image" : "spice:documentation/can-this-boy-save-the-monarchy-time",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Oil on board",
-    "schema:size" : "40 x 54.4 cm Framed: 45.8 x 59.9 cm",
-    "arco-cd:hasInventory" : "IMMA.1475 FD"
+    "material" : "Oil on board",
+    "size" : "40 x 54.4 cm Framed: 45.8 x 59.9 cm",
+    "hasInventory" : "IMMA.1475 FD"
   }, {
     "@id" : "spice:documentation/can-this-boy-save-the-monarchy-time",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Tom Molloy, Can This Boy Save the Monarchy?/Time, 1996, Oil on board, 40 x 54.4 cm Framed: 45.8 x 59.9 cm, Collection Irish Museum of Modern Art, Donation, Maire and Maurice Foley, 2000 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Tom Molloy, Can This Boy Save the Monarchy?/Time, 1996, Oil on board, 40 x 54.4 cm Framed: 45.8 x 59.9 cm, Collection Irish Museum of Modern Art, Donation, Maire and Maurice Foley, 2000 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -43,20 +39,16 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

@@ -1,0 +1,67 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/european-dream",
+    "@type" : "schema:CreativeWork",
+    "description" : "European Dream was developed from a performance in London in 2009 and is the starting point and title for a body of work by Rolfe. This is a significant performance of Rolfe’s not just in terms of the scale and ambition of the installation that accompanies the performance, but also because of the directness and the weight of the artist’s subject. In this work the artist recalls a previously all-embracing and terrifying vision for Europe which in 2021, the year the work was purchased by IMMA, may be seen as prophetic as we experience a European reality in which cohesion and unity are ever more challenged and global forces are unpredictable in this new pandemic world.",
+    "source" : "https://imma.ie/collection/european-dream/",
+    "creditText" : "IMMA Collection: Purchase, 2021, 2021",
+    "image" : "spice:documentation/european-dream",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "material" : "Prussian Blue Pigment/ 24 Carat Gold Leaf/ Steel Table.",
+    "hasInventory" : "IMMA.4330"
+  }, {
+    "@id" : "spice:documentation/european-dream",
+    "@type" : "schema:ImageObject",
+    "caption" : "Nigel Rolfe, European Dream, 2009, Prussian Blue Pigment/ 24 Carat Gold Leaf/ Steel Table., Collection Irish Museum of Modern Art, Purchase, 2021, 2021 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "url" : "https://imma.ie/wp-content/uploads/2021/04/9630.jpg"
+  } ],
+  "@context" : {
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

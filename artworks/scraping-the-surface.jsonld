@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/scraping-the-surface",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "‘Scraping the Surface’ was part of a series which Kindness made during his residency at PS1 in New York in 1991. Kindness has said that he is interested in the detritus of human life. In this work he has etched a familiar New York taxicab door that he found abandoned in the street. The yellow paint of the door was scraped away and then darkened with a metal oxide resulting in a black image on a yellow background – deliberately reminiscent of classical Greek vases. The work parodies contemporary values and notions of the hero.",
-    "dc:source" : "https://imma.ie/collection/scraping-the-surface/",
-    "schema:creditText" : "IMMA Collection: Purchase, 1991",
+    "description" : "‘Scraping the Surface’ was part of a series which Kindness made during his residency at PS1 in New York in 1991. Kindness has said that he is interested in the detritus of human life. In this work he has etched a familiar New York taxicab door that he found abandoned in the street. The yellow paint of the door was scraped away and then darkened with a metal oxide resulting in a black image on a yellow background – deliberately reminiscent of classical Greek vases. The work parodies contemporary values and notions of the hero.",
+    "source" : "https://imma.ie/collection/scraping-the-surface/",
+    "creditText" : "IMMA Collection: Purchase, 1991",
     "image" : "spice:documentation/scraping-the-surface",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Etched painted steel",
-    "schema:size" : "112.5 x 87.5 cm",
-    "arco-cd:hasInventory" : "IMMA.14"
+    "material" : "Etched painted steel",
+    "size" : "112.5 x 87.5 cm",
+    "hasInventory" : "IMMA.14"
   }, {
     "@id" : "spice:documentation/scraping-the-surface",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "John Kindness, Scraping the Surface, 1990, Etched painted steel, 112.5 x 87.5 cm, Collection Irish Museum of Modern Art, Purchase, 1991 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "John Kindness, Scraping the Surface, 1990, Etched painted steel, 112.5 x 87.5 cm, Collection Irish Museum of Modern Art, Purchase, 1991 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/302.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2021/09/302.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

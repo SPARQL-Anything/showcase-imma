@@ -2,31 +2,31 @@
   "@graph" : [ {
     "@id" : "spice:agent/julien-isaac",
     "@type" : "foaf:Person",
-    "dc:description" : "British artist and filmmaker Isaac Julien studied painting and fine art film at St Martin’s School of Art, London. Drawing on film, dance, photography, music, theatre, painting and sculpture in his art practice, Julien breaks down the barriers that exist between the different disciplines to construct powerful visual narratives. Julien was nominated for the Turner Prize in 2001. He has exhibited worldwide, including solo exhibitions at the Centre Georges Pompidou, Paris, the Museum of Contemporary Art, Miami, the Museum Brandhorst, Munich, and at IMMA in 2005.",
-    "dc:source" : "https://imma.ie/artists/isaac-julien/",
-    "schema:birthDate" : "b.1960",
-    "schema:url" : "https://imma.ie/artists/isaac-julien/",
-    "rdfs:label" : "Isaac Julien"
+    "description" : [ "British artist and filmmaker Isaac Julien studied painting and fine art film at St Martin’s School of Art, London. Drawing on film, dance, photography, music, theatre, painting and sculpture in his art practice, Julien breaks down the barriers that exist between the different disciplines to construct powerful visual narratives.", "British artist and filmmaker Isaac Julien studied painting and fine art film at St Martin’s School of Art, London. Drawing on film, dance, photography, music, theatre, painting and sculpture in his art practice, Julien breaks down the barriers that exist between the different disciplines to construct powerful visual narratives. " ],
+    "source" : "https://imma.ie/artists/isaac-julien/",
+    "birthDate" : "b.1960",
+    "url" : "https://imma.ie/artists/isaac-julien/",
+    "label" : "Isaac Julien"
   }, {
     "@id" : "spice:artefact/hate-love",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/julien-isaac",
     "author" : "spice:agent/julien-isaac",
-    "schema:dateCreated" : "2006",
-    "schema:url" : "https://imma.ie/collection/hate-love/",
+    "dateCreated" : "2006",
+    "url" : "https://imma.ie/collection/hate-love/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/hate-love",
-    "arco-cd:hasTitle" : "Hate/Love"
+    "hasTitle" : "Hate/Love"
   }, {
     "@id" : "spice:artefact/paradise-omeros",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/julien-isaac",
     "author" : "spice:agent/julien-isaac",
-    "schema:dateCreated" : "2002",
-    "schema:url" : "https://imma.ie/collection/paradise-omeros/",
+    "dateCreated" : "2002",
+    "url" : "https://imma.ie/collection/paradise-omeros/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/paradise-omeros",
-    "arco-cd:hasTitle" : "Paradise Omeros"
+    "hasTitle" : "Paradise Omeros"
   }, {
     "@id" : "spice:attribution/hate-love",
     "@type" : "arco:AuthorshipAttribution",
@@ -42,44 +42,37 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -87,7 +80,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

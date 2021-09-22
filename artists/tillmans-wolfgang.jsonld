@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/tillmans-wolfgang",
     "@type" : "foaf:Person",
-    "dc:description" : [ "Wolfgang Tillmans (b. Remscheid, Germany,1968) lives and works in Berlin and London. He graduated from Bournemouth and Poole College of Art and Design in 1992. He has won numerous awards including the Turner Prize, UK (2000), the Cultural award of the German Society for Photography (2009), the Hasselblad Foundation International Award in Photography, Sweden (2015) and the Goslar Kaiserring Award, Germany (2018). From 2009-2014 he was an Artists Trustee on the Board of Tate, London. From 2003 to 2009 he was Professor for Interdisciplinary Art at the Städelschule in Frankfurt am Main. In 2006 he opened Between Bridges, a not-for-profit exhibition space in London that now operates in Berlin.", "Wolfgang Tillmans (b. Remscheid, Germany,1968) lives and works in Berlin and London. He graduated from Bournemouth and Poole College of Art and Design in 1992. He has won numerous awards including the Turner Prize, UK (2000), the Cultural award of the German Society for Photography (2009), the Hasselblad Foundation International Award in Photography, Sweden (2015) and the Goslar Kaiserring Award, Germany (2018). " ],
-    "dc:source" : "https://imma.ie/artists/wolfgang-tillmans/",
-    "schema:birthDate" : "b.1968",
-    "schema:url" : "https://imma.ie/artists/wolfgang-tillmans/",
-    "rdfs:label" : "Wolfgang Tillmans"
+    "description" : [ "Wolfgang Tillmans (b. Remscheid, Germany,1968) lives and works in Berlin and London. He graduated from Bournemouth and Poole College of Art and Design in 1992. He has won numerous awards including the Turner Prize, UK (2000), the Cultural award of the German Society for Photography (2009), the Hasselblad Foundation International Award in Photography, Sweden (2015) and the Goslar Kaiserring Award, Germany (2018). From 2009-2014 he was an Artists Trustee on the Board of Tate, London. From 2003 to 2009 he was Professor for Interdisciplinary Art at the Städelschule in Frankfurt am Main. In 2006 he opened Between Bridges, a not-for-profit exhibition space in London that now operates in Berlin.", "Wolfgang Tillmans (b. Remscheid, Germany,1968) lives and works in Berlin and London. He graduated from Bournemouth and Poole College of Art and Design in 1992. He has won numerous awards including the Turner Prize, UK (2000), the Cultural award of the German Society for Photography (2009), the Hasselblad Foundation International Award in Photography, Sweden (2015) and the Goslar Kaiserring Award, Germany (2018). " ],
+    "source" : "https://imma.ie/artists/wolfgang-tillmans/",
+    "birthDate" : "b.1968",
+    "url" : "https://imma.ie/artists/wolfgang-tillmans/",
+    "label" : "Wolfgang Tillmans"
   }, {
     "@id" : "spice:artefact/gedser",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/tillmans-wolfgang",
     "author" : "spice:agent/tillmans-wolfgang",
-    "schema:dateCreated" : "2004",
-    "schema:url" : "https://imma.ie/collection/gedser/",
+    "dateCreated" : "2004",
+    "url" : "https://imma.ie/collection/gedser/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/gedser",
-    "arco-cd:hasTitle" : "Gedser"
+    "hasTitle" : "Gedser"
   }, {
     "@id" : "spice:attribution/gedser",
     "@type" : "arco:AuthorshipAttribution",
@@ -32,48 +32,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

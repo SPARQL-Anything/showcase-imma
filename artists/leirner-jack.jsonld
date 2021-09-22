@@ -1,35 +1,30 @@
 {
   "@id" : "spice:agent/leirner-jack",
   "@type" : "foaf:Person",
-  "dc:description" : "Jac Leirner is considered one of Brazil’s most important contemporary artists.&nbsp;Leirner is best known for the sculptures and installations she creates from mundane objects and ephemera, including devalued bank notes, used envelopes, promotional tickets, empty cigarette packets and plastic shopping bags.",
-  "dc:source" : "https://imma.ie/artists/jac-leirner/",
-  "schema:birthDate" : "b.1961",
-  "schema:url" : "https://imma.ie/artists/jac-leirner/",
-  "rdfs:label" : "Jac Leirner",
+  "description" : "Jac Leirner is considered one of Brazil’s most important contemporary artists.&nbsp;Leirner is best known for the sculptures and installations she creates from mundane objects and ephemera, including devalued bank notes, used envelopes, promotional tickets, empty cigarette packets and plastic shopping bags.",
+  "source" : "https://imma.ie/artists/jac-leirner/",
+  "birthDate" : "b.1961",
+  "url" : "https://imma.ie/artists/jac-leirner/",
+  "label" : "Jac Leirner",
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

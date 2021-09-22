@@ -1,35 +1,72 @@
 {
-  "@id" : "spice:agent/cammock-helen",
-  "@type" : "foaf:Person",
-  "dc:description" : [ "Helen Cammock works across moving image, photography, writing, poetry, spoken word, song, performance, printmaking and installation. An interest in histories, authorship, storytelling and the excavation of lost, unheard and buried voices lead Cammock to map her own creative processes on to&nbsp;social and political situations. Cammock’s work draws on material from Nina Simone, Philip Larkin, James Baldwin, The Housemartins, Walter Benjamin, Franz Fanon and others to reveal the way in which we construct our own personal collage of influences and reference points to establish a sense of self, context and history.", "Helen Cammock works across moving image, photography, writing, poetry, spoken word, song, performance, printmaking and installation. She is interested in histories, storytelling and the excavation, re-interpretation and re-presentation of lost, unheard and buried voices." ],
-  "dc:source" : "https://imma.ie/artists/helen-cammock/",
-  "schema:birthDate" : "b.1970s",
-  "schema:url" : "https://imma.ie/artists/helen-cammock/",
-  "rdfs:label" : "Helen Cammock",
+  "@graph" : [ {
+    "@id" : "spice:agent/cammock-helen",
+    "@type" : "foaf:Person",
+    "description" : [ "Helen Cammock works across moving image, photography, writing, poetry, spoken word, song, performance, printmaking and installation. An interest in histories, authorship, storytelling and the excavation of lost, unheard and buried voices lead Cammock to map her own creative processes on to&nbsp;social and political situations. Cammock’s work draws on material from Nina Simone, Philip Larkin, James Baldwin, The Housemartins, Walter Benjamin, Franz Fanon and others to reveal the way in which we construct our own personal collage of influences and reference points to establish a sense of self, context and history.", "Helen Cammock works across moving image, photography, writing, poetry, spoken word, song, performance, printmaking and installation. She is interested in histories, storytelling and the excavation, re-interpretation and re-presentation of lost, unheard and buried voices." ],
+    "source" : "https://imma.ie/artists/helen-cammock/",
+    "birthDate" : "b.1970s",
+    "url" : "https://imma.ie/artists/helen-cammock/",
+    "label" : "Helen Cammock"
+  }, {
+    "@id" : "spice:artefact/the-long-note",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/cammock-helen",
+    "author" : "spice:agent/cammock-helen",
+    "dateCreated" : "2018",
+    "url" : "https://imma.ie/collection/the-long-note/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-long-note",
+    "hasTitle" : "The Long Note"
+  }, {
+    "@id" : "spice:attribution/the-long-note",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/cammock-helen"
+  } ],
   "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

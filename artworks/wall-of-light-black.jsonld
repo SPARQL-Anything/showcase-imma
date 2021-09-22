@@ -2,61 +2,53 @@
   "@graph" : [ {
     "@id" : "spice:artefact/wall-of-light-black",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Wall of Light, Black is a 2000 work by Sean Scully. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/wall-of-light-black/",
-    "schema:creditText" : "IMMA Collection: Donation, IBRC, 2011",
+    "description" : "Wall of Light, Black is a 2000 work by Sean Scully. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/wall-of-light-black/",
+    "creditText" : "IMMA Collection: Donation, IBRC, 2011",
     "image" : "spice:documentation/wall-of-light-black",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:size" : "Framed: 87 x 81.5 cm Sheet: 82.5x77 cm Plate: 44.5x54.5 cm",
-    "schema:version" : "Edition 30/40",
-    "arco-cd:hasInventory" : "IMMA.3424"
+    "size" : "Framed: 87 x 81.5 cm Sheet: 82.5x77 cm Plate: 44.5x54.5 cm",
+    "version" : "Edition 30/40",
+    "hasInventory" : "IMMA.3424"
   }, {
     "@id" : "spice:documentation/wall-of-light-black",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Sean Scully, Wall of Light, Black, 2000, Framed: 87 x 81.5 cm Sheet: 82.5x77 cm Plate: 44.5x54.5 cm, Collection Irish Museum of Modern Art, Donation, IBRC, 2011 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Sean Scully, Wall of Light, Black, 2000, Framed: 87 x 81.5 cm Sheet: 82.5x77 cm Plate: 44.5x54.5 cm, Collection Irish Museum of Modern Art, Donation, IBRC, 2011 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

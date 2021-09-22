@@ -2,41 +2,41 @@
   "@graph" : [ {
     "@id" : "spice:agent/penalva-joao",
     "@type" : "foaf:Person",
-    "dc:description" : "Portuguese artist João Penalva studied ballet at the London Contemporary Dance School in the early 1970s. In 1976 he turned from dance to study painting at the Chelsea School of Art, London. From the early 1990s the use of texts and narratives became increasingly fundamental to his art, which explores the way in which culture is categorised and presented. Penalva represented Portugal at the Sydney Biennial in 2002, the Berlin Biennial and the Venice Biennale in 2001 and the São Paula Biennial in 1996. His work was the subject of a solo exhibition at IMMA in 2006.",
-    "dc:source" : "https://imma.ie/artists/joao-penalva/",
-    "schema:birthDate" : "b.1949",
-    "schema:url" : "https://imma.ie/artists/joao-penalva/",
-    "rdfs:label" : "João Penalva"
+    "description" : "Portuguese artist João Penalva studied ballet at the London Contemporary Dance School in the early 1970s. In 1976 he turned from dance to study painting at the Chelsea School of Art, London. From the early 1990s the use of texts and narratives became increasingly fundamental to his art, which explores the way in which culture is categorised and presented. Penalva represented Portugal at the Sydney Biennial in 2002, the Berlin Biennial and the Venice Biennale in 2001 and the São Paula Biennial in 1996. His work was the subject of a solo exhibition at IMMA in 2006.",
+    "source" : "https://imma.ie/artists/joao-penalva/",
+    "birthDate" : "b.1949",
+    "url" : "https://imma.ie/artists/joao-penalva/",
+    "label" : "João Penalva"
   }, {
     "@id" : "spice:artefact/davids-mothers-white-bowl",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/penalva-joao",
     "author" : "spice:agent/penalva-joao",
-    "schema:dateCreated" : "2004",
-    "schema:url" : "https://imma.ie/collection/davids-mothers-white-bowl/",
+    "dateCreated" : "2004",
+    "url" : "https://imma.ie/collection/davids-mothers-white-bowl/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/davids-mothers-white-bowl",
-    "arco-cd:hasTitle" : "David’s Mother’s White Bowl"
+    "hasTitle" : "David’s Mother’s White Bowl"
   }, {
     "@id" : "spice:artefact/master-nanyos-evening-shadow",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/penalva-joao",
     "author" : "spice:agent/penalva-joao",
-    "schema:dateCreated" : "2006",
-    "schema:url" : "https://imma.ie/collection/master-nanyos-evening-shadow/",
+    "dateCreated" : "2006",
+    "url" : "https://imma.ie/collection/master-nanyos-evening-shadow/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/master-nanyos-evening-shadow",
-    "arco-cd:hasTitle" : "Master Nanyo’s Evening Shadow"
+    "hasTitle" : "Master Nanyo’s Evening Shadow"
   }, {
     "@id" : "spice:artefact/the-great-wallenda",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/penalva-joao",
     "author" : "spice:agent/penalva-joao",
-    "schema:dateCreated" : "1997",
-    "schema:url" : "https://imma.ie/collection/the-great-wallenda/",
+    "dateCreated" : "1997",
+    "url" : "https://imma.ie/collection/the-great-wallenda/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-great-wallenda",
-    "arco-cd:hasTitle" : "The Great Wallenda"
+    "hasTitle" : "The Great Wallenda"
   }, {
     "@id" : "spice:attribution/davids-mothers-white-bowl",
     "@type" : "arco:AuthorshipAttribution",
@@ -52,24 +52,19 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -80,16 +75,14 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -101,7 +94,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

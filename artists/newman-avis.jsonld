@@ -2,101 +2,101 @@
   "@graph" : [ {
     "@id" : "spice:agent/newman-avis",
     "@type" : "foaf:Person",
-    "dc:description" : "English painter, sculptor and curator Avis Newman (born 1946) had her first important exhibition at Matt’s Gallery, London, in 1982. She has since exhibited worldwide including at the Saatchi Gallery, London, The National Gallery, Prague, The Drawing Centre, New York, and the Museum of Contemporary Art, Sydney. Her work is held in numerous collections including that of Tate Collection, London, and the Collection of Modern and Contemporary Art, Lisbon. Newman is represented by the Lisson Gallery, London. She is Professor at Wimbledon School of Art and Lecturer at the Rijks Academy, Amsterdam.",
-    "dc:source" : "https://imma.ie/artists/avis-newman/",
-    "schema:birthDate" : "b.1946",
-    "schema:url" : "https://imma.ie/artists/avis-newman/",
-    "rdfs:label" : "Avis Newman"
+    "description" : "English painter, sculptor and curator Avis Newman (born 1946) had her first important exhibition at Matt’s Gallery, London, in 1982. She has since exhibited worldwide including at the Saatchi Gallery, London, The National Gallery, Prague, The Drawing Centre, New York, and the Museum of Contemporary Art, Sydney. Her work is held in numerous collections including that of Tate Collection, London, and the Collection of Modern and Contemporary Art, Lisbon. Newman is represented by the Lisson Gallery, London. She is Professor at Wimbledon School of Art and Lecturer at the Rijks Academy, Amsterdam.",
+    "source" : "https://imma.ie/artists/avis-newman/",
+    "birthDate" : "b.1946",
+    "url" : "https://imma.ie/artists/avis-newman/",
+    "label" : "Avis Newman"
   }, {
     "@id" : "spice:artefact/studies-for-webs-backlight-series-i",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/newman-avis",
     "author" : "spice:agent/newman-avis",
-    "schema:dateCreated" : "1994",
-    "schema:url" : "https://imma.ie/collection/studies-for-webs-backlight-series-i/",
+    "dateCreated" : "1994",
+    "url" : "https://imma.ie/collection/studies-for-webs-backlight-series-i/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/studies-for-webs-backlight-series-i",
-    "arco-cd:hasTitle" : "Studies for Webs (Backlight Series) I"
+    "hasTitle" : "Studies for Webs (Backlight Series) I"
   }, {
     "@id" : "spice:artefact/studies-for-webs-backlight-series-ii",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/newman-avis",
     "author" : "spice:agent/newman-avis",
-    "schema:dateCreated" : "1994",
-    "schema:url" : "https://imma.ie/collection/studies-for-webs-backlight-series-ii/",
+    "dateCreated" : "1994",
+    "url" : "https://imma.ie/collection/studies-for-webs-backlight-series-ii/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/studies-for-webs-backlight-series-ii",
-    "arco-cd:hasTitle" : "Studies for Webs (Backlight Series) II"
+    "hasTitle" : "Studies for Webs (Backlight Series) II"
   }, {
     "@id" : "spice:artefact/studies-for-webs-backlight-series-iv",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/newman-avis",
     "author" : "spice:agent/newman-avis",
-    "schema:dateCreated" : "1994",
-    "schema:url" : "https://imma.ie/collection/studies-for-webs-backlight-series-iv/",
+    "dateCreated" : "1994",
+    "url" : "https://imma.ie/collection/studies-for-webs-backlight-series-iv/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/studies-for-webs-backlight-series-iv",
-    "arco-cd:hasTitle" : "Studies for Webs (Backlight Series) IV"
+    "hasTitle" : "Studies for Webs (Backlight Series) IV"
   }, {
     "@id" : "spice:artefact/studies-for-webs-backlight-series-ix",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/newman-avis",
     "author" : "spice:agent/newman-avis",
-    "schema:dateCreated" : "1994",
-    "schema:url" : "https://imma.ie/collection/studies-for-webs-backlight-series-ix/",
+    "dateCreated" : "1994",
+    "url" : "https://imma.ie/collection/studies-for-webs-backlight-series-ix/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/studies-for-webs-backlight-series-ix",
-    "arco-cd:hasTitle" : "Studies for Webs (Backlight Series) IX"
+    "hasTitle" : "Studies for Webs (Backlight Series) IX"
   }, {
     "@id" : "spice:artefact/studies-for-webs-backlight-series-v",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/newman-avis",
     "author" : "spice:agent/newman-avis",
-    "schema:dateCreated" : "1994",
-    "schema:url" : "https://imma.ie/collection/studies-for-webs-backlight-series-v/",
+    "dateCreated" : "1994",
+    "url" : "https://imma.ie/collection/studies-for-webs-backlight-series-v/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/studies-for-webs-backlight-series-v",
-    "arco-cd:hasTitle" : "Studies for Webs (Backlight Series) V"
+    "hasTitle" : "Studies for Webs (Backlight Series) V"
   }, {
     "@id" : "spice:artefact/studies-for-webs-backlight-series-vi",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/newman-avis",
     "author" : "spice:agent/newman-avis",
-    "schema:dateCreated" : "1994",
-    "schema:url" : "https://imma.ie/collection/studies-for-webs-backlight-series-vi/",
+    "dateCreated" : "1994",
+    "url" : "https://imma.ie/collection/studies-for-webs-backlight-series-vi/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/studies-for-webs-backlight-series-vi",
-    "arco-cd:hasTitle" : "Studies for Webs (Backlight Series) VI"
+    "hasTitle" : "Studies for Webs (Backlight Series) VI"
   }, {
     "@id" : "spice:artefact/studies-for-webs-backlight-series-vii",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/newman-avis",
     "author" : "spice:agent/newman-avis",
-    "schema:dateCreated" : "1994",
-    "schema:url" : "https://imma.ie/collection/studies-for-webs-backlight-series-vii/",
+    "dateCreated" : "1994",
+    "url" : "https://imma.ie/collection/studies-for-webs-backlight-series-vii/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/studies-for-webs-backlight-series-vii",
-    "arco-cd:hasTitle" : "Studies for Webs (Backlight Series) VII"
+    "hasTitle" : "Studies for Webs (Backlight Series) VII"
   }, {
     "@id" : "spice:artefact/studies-for-webs-backlight-series-viii",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/newman-avis",
     "author" : "spice:agent/newman-avis",
-    "schema:dateCreated" : "1994",
-    "schema:url" : "https://imma.ie/collection/studies-for-webs-backlight-series-viii/",
+    "dateCreated" : "1994",
+    "url" : "https://imma.ie/collection/studies-for-webs-backlight-series-viii/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/studies-for-webs-backlight-series-viii",
-    "arco-cd:hasTitle" : "Studies for Webs (Backlight Series) VIII"
+    "hasTitle" : "Studies for Webs (Backlight Series) VIII"
   }, {
     "@id" : "spice:artefact/studies-for-webs-backlight-seris-iii",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/newman-avis",
     "author" : "spice:agent/newman-avis",
-    "schema:dateCreated" : "1994",
-    "schema:url" : "https://imma.ie/collection/studies-for-webs-backlight-seris-iii/",
+    "dateCreated" : "1994",
+    "url" : "https://imma.ie/collection/studies-for-webs-backlight-seris-iii/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/studies-for-webs-backlight-seris-iii",
-    "arco-cd:hasTitle" : "Studies for Webs (Backlight Seris) III"
+    "hasTitle" : "Studies for Webs (Backlight Seris) III"
   }, {
     "@id" : "spice:attribution/studies-for-webs-backlight-series-i",
     "@type" : "arco:AuthorshipAttribution",
@@ -140,24 +140,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -168,24 +165,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

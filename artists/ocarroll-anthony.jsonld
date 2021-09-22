@@ -2,31 +2,31 @@
   "@graph" : [ {
     "@id" : "spice:agent/ocarroll-anthony",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish artist Anthony O’Carroll (born 1942) studied at the National College of Art and Design, Dublin. He later attended the Academy of Fine Art in Helsinki and the Royal Swedish Academy of Fine Art, Stockholm. O’Carroll gained recognition from the 1970s. He received awards including a Prix Jorge Paez Villaro at the International Exhibition of Original Drawings, Rijeka, in 1972 and a Waterford Glass Award at the Oireachtas Exhibition in 1977. O’Carroll’s work is held in the collections of the Arts Council of Ireland; the Arts Council of Northern Ireland; the Swedish Arts Council; and the National Museum in Stockholm.",
-    "dc:source" : "https://imma.ie/artists/anthony-ocarroll/",
-    "schema:birthDate" : "b.1942",
-    "schema:url" : "https://imma.ie/artists/anthony-ocarroll/",
-    "rdfs:label" : "Anthony O’Carroll"
+    "description" : "Irish artist Anthony O’Carroll (born 1942) studied at the National College of Art and Design, Dublin. He later attended the Academy of Fine Art in Helsinki and the Royal Swedish Academy of Fine Art, Stockholm. O’Carroll gained recognition from the 1970s. He received awards including a Prix Jorge Paez Villaro at the International Exhibition of Original Drawings, Rijeka, in 1972 and a Waterford Glass Award at the Oireachtas Exhibition in 1977. O’Carroll’s work is held in the collections of the Arts Council of Ireland; the Arts Council of Northern Ireland; the Swedish Arts Council; and the National Museum in Stockholm.",
+    "source" : "https://imma.ie/artists/anthony-ocarroll/",
+    "birthDate" : "b.1942",
+    "url" : "https://imma.ie/artists/anthony-ocarroll/",
+    "label" : "Anthony O’Carroll"
   }, {
     "@id" : "spice:artefact/incantation-7",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ocarroll-anthony",
     "author" : "spice:agent/ocarroll-anthony",
-    "schema:dateCreated" : "1977",
-    "schema:url" : "https://imma.ie/collection/incantation-7/",
+    "dateCreated" : "1977",
+    "url" : "https://imma.ie/collection/incantation-7/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/incantation-7",
-    "arco-cd:hasTitle" : "Incantation 7"
+    "hasTitle" : "Incantation 7"
   }, {
     "@id" : "spice:artefact/untitled-ii-2",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ocarroll-anthony",
     "author" : "spice:agent/ocarroll-anthony",
-    "schema:dateCreated" : "1979",
-    "schema:url" : "https://imma.ie/collection/untitled-ii-2/",
+    "dateCreated" : "1979",
+    "url" : "https://imma.ie/collection/untitled-ii-2/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-ii-2",
-    "arco-cd:hasTitle" : "Untitled II"
+    "hasTitle" : "Untitled II"
   }, {
     "@id" : "spice:attribution/incantation-7",
     "@type" : "arco:AuthorshipAttribution",
@@ -46,48 +46,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

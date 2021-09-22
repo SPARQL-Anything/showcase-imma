@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/bauermeister-mary",
     "@type" : "foaf:Person",
-    "dc:description" : "German artist Mary Bauermeister studied at Hochschule in Ulm under Max Bill. In 1960 Bauermeister came to prominence as the host of concerts, exhibitions and happenings involving many of the artists and composers of the European and American avant-garde in her Cologne studio. She had a major solo show in Amsterdam in 1962 and moved to New York in the same year. Since 1964 she has exhibited regularly at the Galeria Bonino, New York. She now lives in Cologne.",
-    "dc:source" : "https://imma.ie/artists/mary-bauermeister/",
-    "schema:birthDate" : "b.1934",
-    "schema:url" : "https://imma.ie/artists/mary-bauermeister/",
-    "rdfs:label" : "Mary Bauermeister"
+    "description" : "German artist Mary Bauermeister studied at Hochschule in Ulm under Max Bill. In 1960 Bauermeister came to prominence as the host of concerts, exhibitions and happenings involving many of the artists and composers of the European and American avant-garde in her Cologne studio. She had a major solo show in Amsterdam in 1962 and moved to New York in the same year. Since 1964 she has exhibited regularly at the Galeria Bonino, New York. She now lives in Cologne.",
+    "source" : "https://imma.ie/artists/mary-bauermeister/",
+    "birthDate" : "b.1934",
+    "url" : "https://imma.ie/artists/mary-bauermeister/",
+    "label" : "Mary Bauermeister"
   }, {
     "@id" : "spice:artefact/sketch-for-tanglewood-press",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/bauermeister-mary",
     "author" : "spice:agent/bauermeister-mary",
-    "schema:dateCreated" : "1966",
-    "schema:url" : "https://imma.ie/collection/sketch-for-tanglewood-press/",
+    "dateCreated" : "1966",
+    "url" : "https://imma.ie/collection/sketch-for-tanglewood-press/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/sketch-for-tanglewood-press",
-    "arco-cd:hasTitle" : "Sketch for Tanglewood Press"
+    "hasTitle" : "Sketch for Tanglewood Press"
   }, {
     "@id" : "spice:attribution/sketch-for-tanglewood-press",
     "@type" : "arco:AuthorshipAttribution",
@@ -32,48 +32,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

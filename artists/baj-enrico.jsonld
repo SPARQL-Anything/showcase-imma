@@ -2,51 +2,51 @@
   "@graph" : [ {
     "@id" : "spice:agent/baj-enrico",
     "@type" : "foaf:Person",
-    "dc:description" : "IItalian artist and writer Enrico Baj studied law at Milan University and art at the Accademia di Brera. In his figurative paintings and collages, and outspoken writings, Baj challenged artistic and political orthodoxies. In 1951 he co-founded, with Sergio Dangelo, the ‘arte nucleare’ movement. In 1953 with Pierre Alechinsky he founded and promoted the ‘International Movement for the Imagist Bauhaus’, and in 1963 with Man Ray and others founded the Pataphysic Institute of Milan. His publications included Automitobiogafia (1983) and Kiss Me, I'm Italian (1997).",
-    "dc:source" : "https://imma.ie/artists/enrico-baj/",
-    "schema:birthDate" : "1924–2003",
-    "schema:url" : "https://imma.ie/artists/enrico-baj/",
-    "rdfs:label" : "Enrico Baj"
+    "description" : "IItalian artist and writer Enrico Baj studied law at Milan University and art at the Accademia di Brera. In his figurative paintings and collages, and outspoken writings, Baj challenged artistic and political orthodoxies. In 1951 he co-founded, with Sergio Dangelo, the ‘arte nucleare’ movement. In 1953 with Pierre Alechinsky he founded and promoted the ‘International Movement for the Imagist Bauhaus’, and in 1963 with Man Ray and others founded the Pataphysic Institute of Milan. His publications included Automitobiogafia (1983) and Kiss Me, I'm Italian (1997).",
+    "source" : "https://imma.ie/artists/enrico-baj/",
+    "birthDate" : "1924–2003",
+    "url" : "https://imma.ie/artists/enrico-baj/",
+    "label" : "Enrico Baj"
   }, {
     "@id" : "spice:artefact/head",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/baj-enrico",
     "author" : "spice:agent/baj-enrico",
-    "schema:dateCreated" : "1970",
-    "schema:url" : "https://imma.ie/collection/head/",
+    "dateCreated" : "1970",
+    "url" : "https://imma.ie/collection/head/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/head",
-    "arco-cd:hasTitle" : "Head"
+    "hasTitle" : "Head"
   }, {
     "@id" : "spice:artefact/head-2",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/baj-enrico",
     "author" : "spice:agent/baj-enrico",
-    "schema:dateCreated" : "1970",
-    "schema:url" : "https://imma.ie/collection/head-2/",
+    "dateCreated" : "1970",
+    "url" : "https://imma.ie/collection/head-2/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/head-2",
-    "arco-cd:hasTitle" : "Head"
+    "hasTitle" : "Head"
   }, {
     "@id" : "spice:artefact/head-3",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/baj-enrico",
     "author" : "spice:agent/baj-enrico",
-    "schema:dateCreated" : "1970",
-    "schema:url" : "https://imma.ie/collection/head-3/",
+    "dateCreated" : "1970",
+    "url" : "https://imma.ie/collection/head-3/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/head-3",
-    "arco-cd:hasTitle" : "Head"
+    "hasTitle" : "Head"
   }, {
     "@id" : "spice:artefact/head-4",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/baj-enrico",
     "author" : "spice:agent/baj-enrico",
-    "schema:dateCreated" : "1970",
-    "schema:url" : "https://imma.ie/collection/head-4/",
+    "dateCreated" : "1970",
+    "url" : "https://imma.ie/collection/head-4/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/head-4",
-    "arco-cd:hasTitle" : "Head"
+    "hasTitle" : "Head"
   }, {
     "@id" : "spice:attribution/head",
     "@type" : "arco:AuthorshipAttribution",
@@ -70,40 +70,33 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -115,7 +108,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

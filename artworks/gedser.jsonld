@@ -2,66 +2,57 @@
   "@graph" : [ {
     "@id" : "spice:artefact/gedser",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Gedser is a 2004 work by Wolfgang Tillmans. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/gedser/",
-    "schema:creditText" : "IMMA Collection: Purchase, 2019, 2019",
+    "description" : "Gedser is a 2004 work by Wolfgang Tillmans. It is not currently on display in IMMA. It is currently out on loan. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/gedser/",
+    "creditText" : "IMMA Collection: Purchase, 2019, 2019",
     "image" : "spice:documentation/gedser",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "unframed inkjet print",
-    "schema:size" : "203 x 138 cm",
-    "schema:version" : "Edition AP of (Edition 1 + 1 AP)",
-    "arco-cd:hasInventory" : "IMMA.4133"
+    "material" : "unframed inkjet print",
+    "size" : "203 x 138 cm",
+    "version" : "Edition AP of (Edition 1 + 1 AP)",
+    "hasInventory" : "IMMA.4133"
   }, {
     "@id" : "spice:documentation/gedser",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Wolfgang Tillmans, Gedser, 2004, unframed inkjet print, 203 x 138 cm, Collection Irish Museum of Modern Art, Purchase, 2019, 2019 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Wolfgang Tillmans, Gedser, 2004, unframed inkjet print, 203 x 138 cm, Collection Irish Museum of Modern Art, Purchase, 2019, 2019 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

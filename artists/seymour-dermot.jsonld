@@ -1,0 +1,123 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/seymour-dermot",
+    "@type" : "foaf:Person",
+    "description" : [ "Dermot Seymour’s work has been included in many exhibitions such as ‘On the Balcony of the Nation’, which toured the U.S.A during the 1980’s, ‘The Fifth Province; some New Art from Ireland’ which toured Canada from 1991 to 1993. He was selected by Lucy Lippard for an international show called ‘Divisions, Crossroads, Turns of Mind’ which toured Canada, the U.S.A and the Amos Anderson Museum, Helsinki. In 1997 he exhibited in ‘When Time Began to Rant and Rage’ touring the U.S.A and the Walker Gallery Liverpool. ‘Collected Histories of Northern Irish Art’ was another important show in which he participated at the Golden Thread Gallery Belfast. He has had solo shows in Belfast, Dublin, New York, Berlin, Galway, Sligo and Derry. His works hang in public and private collections throughout Ireland, the UK, the U.S.A and Germany. He is a member of the R.U.A and Aosdána. He lives and works in County Mayo Ireland", "Dermot Seymour was born in 1956 in Belfast. He attended the University of Ulster where he received a BA in Art and Design in 1978 and an Advanced Diploma in Art and Design in 1981. " ],
+    "source" : "https://imma.ie/artists/dermot-seymour/",
+    "birthDate" : "b.1956",
+    "url" : "https://imma.ie/artists/dermot-seymour/",
+    "label" : "Dermot Seymour"
+  }, {
+    "@id" : "spice:artefact/border-of-vicissitude-of-brexitaria",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/seymour-dermot",
+    "author" : "spice:agent/seymour-dermot",
+    "dateCreated" : "2017",
+    "url" : "https://imma.ie/collection/border-of-vicissitude-of-brexitaria/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/border-of-vicissitude-of-brexitaria",
+    "hasTitle" : "Border of Vicissitude of Brexitaria"
+  }, {
+    "@id" : "spice:artefact/orange-field",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/seymour-dermot",
+    "author" : "spice:agent/seymour-dermot",
+    "dateCreated" : "2014",
+    "url" : "https://imma.ie/collection/orange-field/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/orange-field",
+    "hasTitle" : "Orange Field"
+  }, {
+    "@id" : "spice:artefact/the-settlement",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/seymour-dermot",
+    "author" : "spice:agent/seymour-dermot",
+    "dateCreated" : "2014",
+    "url" : "https://imma.ie/collection/the-settlement/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-settlement",
+    "hasTitle" : "The Settlement"
+  }, {
+    "@id" : "spice:artefact/the-sheep-that-are-dyed-blue-belong-to-hammy-sloan",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/seymour-dermot",
+    "author" : "spice:agent/seymour-dermot",
+    "dateCreated" : "1987",
+    "url" : "https://imma.ie/collection/the-sheep-that-are-dyed-blue-belong-to-hammy-sloan/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-sheep-that-are-dyed-blue-belong-to-hammy-sloan",
+    "hasTitle" : "The Sheep that are Dyed Blue Belong to Hammy Sloan,"
+  }, {
+    "@id" : "spice:attribution/border-of-vicissitude-of-brexitaria",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/seymour-dermot"
+  }, {
+    "@id" : "spice:attribution/orange-field",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/seymour-dermot"
+  }, {
+    "@id" : "spice:attribution/the-settlement",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/seymour-dermot"
+  }, {
+    "@id" : "spice:attribution/the-sheep-that-are-dyed-blue-belong-to-hammy-sloan",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/seymour-dermot"
+  } ],
+  "@context" : {
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

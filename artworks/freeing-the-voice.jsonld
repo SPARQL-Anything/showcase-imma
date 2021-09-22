@@ -2,71 +2,61 @@
   "@graph" : [ {
     "@id" : "spice:artefact/freeing-the-voice",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "‘Freeing the Voice’ is one of three significant performances enacted in 1976 in which Abramović attempted to achieve a mental cleaning through the exhaustion of the three main faculties of expression, voice, language and body. In ‘Freeing the Voice’ the artist lay on her back and screamed continuously until she completely lost her voice. The process took 3 hours.",
-    "dc:source" : "https://imma.ie/collection/freeing-the-voice/",
-    "schema:creditText" : "IMMA Collection: Purchase, 1995",
+    "description" : "‘Freeing the Voice’ is one of three significant performances enacted in 1976 in which Abramović attempted to achieve a mental cleaning through the exhaustion of the three main faculties of expression, voice, language and body. In ‘Freeing the Voice’ the artist lay on her back and screamed continuously until she completely lost her voice. The process took 3 hours.",
+    "source" : "https://imma.ie/collection/freeing-the-voice/",
+    "creditText" : "IMMA Collection: Purchase, 1995",
     "image" : "spice:documentation/freeing-the-voice",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Framed black and white photograph with framed letter press text panel",
-    "schema:size" : "Image framed 75.6 x 100.3 cm Text framed 26 x 18.4 cm",
-    "schema:version" : "Edition 1/16, 3 AP's",
-    "arco-cd:hasInventory" : "IMMA.483"
+    "material" : "Framed black and white photograph with framed letter press text panel",
+    "size" : "Image framed 75.6 x 100.3 cm Text framed 26 x 18.4 cm",
+    "version" : "Edition 1/16, 3 AP's",
+    "hasInventory" : "IMMA.483"
   }, {
     "@id" : "spice:documentation/freeing-the-voice",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Marina Abramović, Freeing the Voice, 1975, Framed black and white photograph with framed letter press text panel, Image framed 75.6 x 100.3 cm Text framed 26 x 18.4 cm, Collection Irish Museum of Modern Art, Purchase, 1995 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Marina Abramović, Freeing the Voice, 1975, Framed black and white photograph with framed letter press text panel, Image framed 75.6 x 100.3 cm Text framed 26 x 18.4 cm, Collection Irish Museum of Modern Art, Purchase, 1995 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/851.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/851.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

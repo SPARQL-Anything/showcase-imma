@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/undulation-indian-yellow",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Winner of the 1993 Grand Prize at the Tokyo International Print Exhibition, Mark Francis’s work lies poised between abstraction and representation, nature and culture. His paintings and prints derive from his interest in biological and cellular forms and refer to man’s internal environment or biology. The forms derive from microbiological photography and medical pictures of bacteria, cells and chromosomes, which for Francis refer to earlier beginnings in nature that are revealed to us through technology.",
-    "dc:source" : "https://imma.ie/collection/undulation-indian-yellow/",
-    "schema:creditText" : "IMMA Collection: Purchase, assisted by funding from Maire and Maurice Foley, 1996",
+    "description" : "Winner of the 1993 Grand Prize at the Tokyo International Print Exhibition, Mark Francis’s work lies poised between abstraction and representation, nature and culture. His paintings and prints derive from his interest in biological and cellular forms and refer to man’s internal environment or biology. The forms derive from microbiological photography and medical pictures of bacteria, cells and chromosomes, which for Francis refer to earlier beginnings in nature that are revealed to us through technology.",
+    "source" : "https://imma.ie/collection/undulation-indian-yellow/",
+    "creditText" : "IMMA Collection: Purchase, assisted by funding from Maire and Maurice Foley, 1996",
     "image" : "spice:documentation/undulation-indian-yellow",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Oil on canvas",
-    "schema:size" : "213 x 183 cm",
-    "arco-cd:hasInventory" : "IMMA.752"
+    "material" : "Oil on canvas",
+    "size" : "213 x 183 cm",
+    "hasInventory" : "IMMA.752"
   }, {
     "@id" : "spice:documentation/undulation-indian-yellow",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Mark Francis, Undulation (Indian Yellow), 1996, Oil on canvas, 213 x 183 cm, Collection Irish Museum of Modern Art, Purchase, assisted by funding from Maire and Maurice Foley, 1996 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Mark Francis, Undulation (Indian Yellow), 1996, Oil on canvas, 213 x 183 cm, Collection Irish Museum of Modern Art, Purchase, assisted by funding from Maire and Maurice Foley, 1996 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/1053.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/1053.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

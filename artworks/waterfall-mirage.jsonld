@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/waterfall-mirage",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Pat Steir’s works are meditations on nature, time and the nature of art. Adopting the technique of earlier Chinese landscape painting, Steir flings pots of paint at the canvas so that the paint pours down in the same manner as water. This gestural technique is also seen by the artist as a kind of “dialogue” with the New York Abstract Expressionists such as Jackson Pollock.",
-    "dc:source" : "https://imma.ie/collection/waterfall-mirage/",
-    "schema:creditText" : "IMMA Collection: Donated by the artist, 1994",
+    "description" : "Pat Steir’s works are meditations on nature, time and the nature of art. Adopting the technique of earlier Chinese landscape painting, Steir flings pots of paint at the canvas so that the paint pours down in the same manner as water. This gestural technique is also seen by the artist as a kind of “dialogue” with the New York Abstract Expressionists such as Jackson Pollock.",
+    "source" : "https://imma.ie/collection/waterfall-mirage/",
+    "creditText" : "IMMA Collection: Donated by the artist, 1994",
     "image" : "spice:documentation/waterfall-mirage",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Acrylic on scrim",
-    "schema:size" : "386 x 386 cm",
-    "arco-cd:hasInventory" : "IMMA.459"
+    "material" : "Acrylic on scrim",
+    "size" : "386 x 386 cm",
+    "hasInventory" : "IMMA.459"
   }, {
     "@id" : "spice:documentation/waterfall-mirage",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Pat Steir, Waterfall Mirage, 1994, Acrylic on scrim, 386 x 386 cm, Collection Irish Museum of Modern Art, Donated by the artist, 1994 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Pat Steir, Waterfall Mirage, 1994, Acrylic on scrim, 386 x 386 cm, Collection Irish Museum of Modern Art, Donated by the artist, 1994 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/840.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/840.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

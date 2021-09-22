@@ -2,61 +2,61 @@
   "@graph" : [ {
     "@id" : "spice:agent/rivers-elizabeth",
     "@type" : "foaf:Person",
-    "dc:description" : "British artist Elizabeth Rivers (1903-1964) attended Goldsmith’s College, London, and the Royal Academy Schools before going on to study under André Lhote at the École de Fresque, Paris. She travelled to the Aran Islands in 1935, intending to visit for three months; she remained there for over seven years. In 1946 her book 'Stranger in Aran' was the last work to be published by the Cuala Press. Rivers assisted stained glass artist Evie Hone between 1946 and 1955 and was a founding member of the Graphic Studio Dublin. A memorial exhibition of her work was held at the Municipal Gallery of Modern Art, Dublin, in 1966.",
-    "dc:source" : "https://imma.ie/artists/elizabeth-rivers/",
-    "schema:birthDate" : "1903–1964",
-    "schema:url" : "https://imma.ie/artists/elizabeth-rivers/",
-    "rdfs:label" : "Elizabeth Rivers"
+    "description" : "British artist Elizabeth Rivers (1903-1964) attended Goldsmith’s College, London, and the Royal Academy Schools before going on to study under André Lhote at the École de Fresque, Paris. She travelled to the Aran Islands in 1935, intending to visit for three months; she remained there for over seven years. In 1946 her book 'Stranger in Aran' was the last work to be published by the Cuala Press. Rivers assisted stained glass artist Evie Hone between 1946 and 1955 and was a founding member of the Graphic Studio Dublin. A memorial exhibition of her work was held at the Municipal Gallery of Modern Art, Dublin, in 1966.",
+    "source" : "https://imma.ie/artists/elizabeth-rivers/",
+    "birthDate" : "1903–1964",
+    "url" : "https://imma.ie/artists/elizabeth-rivers/",
+    "label" : "Elizabeth Rivers"
   }, {
     "@id" : "spice:artefact/aran-landscape",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/rivers-elizabeth",
     "author" : "spice:agent/rivers-elizabeth",
-    "schema:dateCreated" : "1945",
-    "schema:url" : "https://imma.ie/collection/aran-landscape/",
+    "dateCreated" : "1945",
+    "url" : "https://imma.ie/collection/aran-landscape/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/aran-landscape",
-    "arco-cd:hasTitle" : "Aran Landscape"
+    "hasTitle" : "Aran Landscape"
   }, {
     "@id" : "spice:artefact/man-with-scythe-aran-islands",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/rivers-elizabeth",
     "author" : "spice:agent/rivers-elizabeth",
-    "schema:dateCreated" : "1935",
-    "schema:url" : "https://imma.ie/collection/man-with-scythe-aran-islands/",
+    "dateCreated" : "1935",
+    "url" : "https://imma.ie/collection/man-with-scythe-aran-islands/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/man-with-scythe-aran-islands",
-    "arco-cd:hasTitle" : "Man with Scythe, Aran Islands"
+    "hasTitle" : "Man with Scythe, Aran Islands"
   }, {
     "@id" : "spice:artefact/nevinson",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/rivers-elizabeth",
     "author" : "spice:agent/rivers-elizabeth",
-    "schema:dateCreated" : "1930",
-    "schema:url" : "https://imma.ie/collection/nevinson/",
+    "dateCreated" : "1930",
+    "url" : "https://imma.ie/collection/nevinson/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/nevinson",
-    "arco-cd:hasTitle" : "Nevinson"
+    "hasTitle" : "Nevinson"
   }, {
     "@id" : "spice:artefact/potato-spraying-aran",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/rivers-elizabeth",
     "author" : "spice:agent/rivers-elizabeth",
-    "schema:dateCreated" : "1935",
-    "schema:url" : "https://imma.ie/collection/potato-spraying-aran/",
+    "dateCreated" : "1935",
+    "url" : "https://imma.ie/collection/potato-spraying-aran/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/potato-spraying-aran",
-    "arco-cd:hasTitle" : "Potato Spraying Aran"
+    "hasTitle" : "Potato Spraying Aran"
   }, {
     "@id" : "spice:artefact/seabird-on-the-shore-1962",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/rivers-elizabeth",
     "author" : "spice:agent/rivers-elizabeth",
-    "schema:dateCreated" : "1962",
-    "schema:url" : "https://imma.ie/collection/seabird-on-the-shore-1962/",
+    "dateCreated" : "1962",
+    "url" : "https://imma.ie/collection/seabird-on-the-shore-1962/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/seabird-on-the-shore-1962",
-    "arco-cd:hasTitle" : "Seabird on the Shore, 1962"
+    "hasTitle" : "Seabird on the Shore, 1962"
   }, {
     "@id" : "spice:attribution/aran-landscape",
     "@type" : "arco:AuthorshipAttribution",
@@ -88,48 +88,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

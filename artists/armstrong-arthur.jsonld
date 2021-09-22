@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/armstrong-arthur",
     "@type" : "foaf:Person",
-    "dc:description" : "Northern Irish painter Arthur Armstrong studied architecture at Queen’s University, Belfast, and art at the Belfast College of Art. Influenced by Cubism, Armstrong considered himself an abstract artist and painted landscapes as texture and shape. He exhibited widely in Europe and the United States from the 1960s, including solo exhibitions in Dublin, Gibraltar and Madrid. He was elected a member of the RHA in 1972 and joined Aosdána in 1981. His work is represented in public and private collections worldwide.",
-    "dc:source" : "https://imma.ie/artists/arthur-armstrong/",
-    "schema:birthDate" : "1924–1996",
-    "schema:url" : "https://imma.ie/artists/arthur-armstrong/",
-    "rdfs:label" : "Arthur Armstrong"
+    "description" : "Northern Irish painter Arthur Armstrong studied architecture at Queen’s University, Belfast, and art at the Belfast College of Art. Influenced by Cubism, Armstrong considered himself an abstract artist and painted landscapes as texture and shape. He exhibited widely in Europe and the United States from the 1960s, including solo exhibitions in Dublin, Gibraltar and Madrid. He was elected a member of the RHA in 1972 and joined Aosdána in 1981. His work is represented in public and private collections worldwide.",
+    "source" : "https://imma.ie/artists/arthur-armstrong/",
+    "birthDate" : "1924–1996",
+    "url" : "https://imma.ie/artists/arthur-armstrong/",
+    "label" : "Arthur Armstrong"
   }, {
     "@id" : "spice:artefact/rocky-landscape",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/armstrong-arthur",
     "author" : "spice:agent/armstrong-arthur",
-    "schema:dateCreated" : "1957",
-    "schema:url" : "https://imma.ie/collection/rocky-landscape/",
+    "dateCreated" : "1957",
+    "url" : "https://imma.ie/collection/rocky-landscape/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/rocky-landscape",
-    "arco-cd:hasTitle" : "Rocky Landscape"
+    "hasTitle" : "Rocky Landscape"
   }, {
     "@id" : "spice:attribution/rocky-landscape",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,40 +24,33 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

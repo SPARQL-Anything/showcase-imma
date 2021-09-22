@@ -2,41 +2,41 @@
   "@graph" : [ {
     "@id" : "spice:agent/burke-john",
     "@type" : "foaf:Person",
-    "dc:description" : "John Burke was instrumental in defining sculptural practice in Ireland during the 1970s. He studied sculpture at the Crawford School of Art in Cork and the Royal Academy, London. He went on to travel for a year in North Africa and Europe before returning to Ireland where he set up a studio and workshop in Blarney, near Cork city. Burke supported himself by teaching two days a week at the Crawford School of Art and counted among his pupils Eilis O’Connell, Vivienne Roche, Maud Cotter and Jim Buckley. Working in welded steel, Burke juxtaposed simple geometric shapes to form abstract compositions, and employed colour to soften and disguise unwanted elements of the metal. Though best known for his large hard-edged thin plates of steel, Burke also made box constructions and smaller intimate pieces. A member of Aosdána since 1981, his work is included in numerous public and private collections.",
-    "dc:source" : "https://imma.ie/artists/john-burke/",
-    "schema:birthDate" : "1946–2006",
-    "schema:url" : "https://imma.ie/artists/john-burke/",
-    "rdfs:label" : "John Burke"
+    "description" : "John Burke was instrumental in defining sculptural practice in Ireland during the 1970s. He studied sculpture at the Crawford School of Art in Cork and the Royal Academy, London. He went on to travel for a year in North Africa and Europe before returning to Ireland where he set up a studio and workshop in Blarney, near Cork city. Burke supported himself by teaching two days a week at the Crawford School of Art and counted among his pupils Eilis O’Connell, Vivienne Roche, Maud Cotter and Jim Buckley. Working in welded steel, Burke juxtaposed simple geometric shapes to form abstract compositions, and employed colour to soften and disguise unwanted elements of the metal. Though best known for his large hard-edged thin plates of steel, Burke also made box constructions and smaller intimate pieces. A member of Aosdána since 1981, his work is included in numerous public and private collections.",
+    "source" : "https://imma.ie/artists/john-burke/",
+    "birthDate" : "1946–2006",
+    "url" : "https://imma.ie/artists/john-burke/",
+    "label" : "John Burke"
   }, {
     "@id" : "spice:artefact/and-if-because",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/burke-john",
     "author" : "spice:agent/burke-john",
-    "schema:dateCreated" : "1969",
-    "schema:url" : "https://imma.ie/collection/and-if-because/",
+    "dateCreated" : "1969",
+    "url" : "https://imma.ie/collection/and-if-because/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/and-if-because",
-    "arco-cd:hasTitle" : "And if Because"
+    "hasTitle" : "And if Because"
   }, {
     "@id" : "spice:artefact/cardinal-worm",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/burke-john",
     "author" : "spice:agent/burke-john",
-    "schema:dateCreated" : "1975",
-    "schema:url" : "https://imma.ie/collection/cardinal-worm/",
+    "dateCreated" : "1975",
+    "url" : "https://imma.ie/collection/cardinal-worm/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/cardinal-worm",
-    "arco-cd:hasTitle" : "Cardinal Worm"
+    "hasTitle" : "Cardinal Worm"
   }, {
     "@id" : "spice:artefact/midnight",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/burke-john",
     "author" : "spice:agent/burke-john",
-    "schema:dateCreated" : "1976",
-    "schema:url" : "https://imma.ie/collection/midnight/",
+    "dateCreated" : "1976",
+    "url" : "https://imma.ie/collection/midnight/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/midnight",
-    "arco-cd:hasTitle" : "Midnight"
+    "hasTitle" : "Midnight"
   }, {
     "@id" : "spice:attribution/and-if-because",
     "@type" : "arco:AuthorshipAttribution",
@@ -60,48 +60,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

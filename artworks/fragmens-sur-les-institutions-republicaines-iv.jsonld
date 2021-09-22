@@ -2,66 +2,57 @@
   "@graph" : [ {
     "@id" : "spice:artefact/fragmens-sur-les-institutions-republicaines-iv",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Shane Cullen is an Irish artist whose largely text-based work deals with political issues, often specifically with official documents and symbols. ‘Fragmens Sur Les Institutions Republicaines IV’ was made over a period of four years and consists of 96 large styrofoam panels, each carrying transcriptions of the secret messages smuggled out of the H-Blocks in the Maze Prison in Northern Ireland during the period of the 1981 hunger strike by Republican prisoners. The subject matter is controversial and subversive but presented in a highly disciplined fashion that suggests historical, sculptural monuments. Each painted word is straight-jacketed into a typeface, which mimics official government documents. The piece has been widely shown – both as a work in progress, in various contexts, not least at the Irish exhibition at the Venice Biennale in 1995; and as a completed installation. More recently the artist was commissioned to create an artwork on the subject of the Good Friday Agreement, signed in Belfast in 1998.",
-    "dc:source" : "https://imma.ie/collection/fragmens-sur-les-institutions-republicaines-iv/",
-    "schema:creditText" : "IMMA Collection: Purchase, 2000",
+    "description" : "Shane Cullen is an Irish artist whose largely text-based work deals with political issues, often specifically with official documents and symbols. ‘Fragmens Sur Les Institutions Republicaines IV’ was made over a period of four years and consists of 96 large styrofoam panels, each carrying transcriptions of the secret messages smuggled out of the H-Blocks in the Maze Prison in Northern Ireland during the period of the 1981 hunger strike by Republican prisoners. The subject matter is controversial and subversive but presented in a highly disciplined fashion that suggests historical, sculptural monuments. Each painted word is straight-jacketed into a typeface, which mimics official government documents. The piece has been widely shown – both as a work in progress, in various contexts, not least at the Irish exhibition at the Venice Biennale in 1995; and as a completed installation. More recently the artist was commissioned to create an artwork on the subject of the Good Friday Agreement, signed in Belfast in 1998.",
+    "source" : "https://imma.ie/collection/fragmens-sur-les-institutions-republicaines-iv/",
+    "creditText" : "IMMA Collection: Purchase, 2000",
     "image" : "spice:documentation/fragmens-sur-les-institutions-republicaines-iv",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Painted text; acyrlic on 96 styrofoam panels",
-    "schema:size" : "12 blocks of 8 panels, each block 251 x 480 x 6 cm",
-    "arco-cd:hasInventory" : "IMMA.846"
+    "material" : "Painted text; acyrlic on 96 styrofoam panels",
+    "size" : "12 blocks of 8 panels, each block 251 x 480 x 6 cm",
+    "hasInventory" : "IMMA.846"
   }, {
     "@id" : "spice:documentation/fragmens-sur-les-institutions-republicaines-iv",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Shane Cullen, Fragmens sur les Institutions Républicaines IV, 1993, Painted text; acyrlic on 96 styrofoam panels, 12 blocks of 8 panels, each block 251 x 480 x 6 cm, Collection Irish Museum of Modern Art, Purchase, 2000 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Shane Cullen, Fragmens sur les Institutions Républicaines IV, 1993, Painted text; acyrlic on 96 styrofoam panels, 12 blocks of 8 panels, each block 251 x 480 x 6 cm, Collection Irish Museum of Modern Art, Purchase, 2000 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2019/10/1750.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2021/08/1750.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

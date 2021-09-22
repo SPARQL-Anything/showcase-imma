@@ -2,66 +2,57 @@
   "@graph" : [ {
     "@id" : "spice:artefact/rhythm-5",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Marina Abramović’s series of performances, known as Rhythms, undertaken in 1973 and 1974, use the artist’s body to examine the tensions between abandonment and control. In Rhythm 5, Abramović created a burning wooden star. She first cut her hair and toenails into the flames and then lay inside the structure. The performance lasted until audience members realised she had lost consciousness and had to be rescued.",
-    "dc:source" : "https://imma.ie/collection/rhythm-5/",
-    "schema:creditText" : "IMMA Collection: Purchase, 1995",
+    "description" : "Marina Abramović’s series of performances, known as Rhythms, undertaken in 1973 and 1974, use the artist’s body to examine the tensions between abandonment and control. In Rhythm 5, Abramović created a burning wooden star. She first cut her hair and toenails into the flames and then lay inside the structure. The performance lasted until audience members realised she had lost consciousness and had to be rescued.",
+    "source" : "https://imma.ie/collection/rhythm-5/",
+    "creditText" : "IMMA Collection: Purchase, 1995",
     "image" : "spice:documentation/rhythm-5",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Framed black and white photograph",
-    "schema:size" : "Image framed 75.6 x 100.3 cm",
-    "schema:version" : "Edition 1/16, 3 AP's",
-    "arco-cd:hasInventory" : "IMMA.474"
+    "material" : "Framed black and white photograph",
+    "size" : "Image framed 75.6 x 100.3 cm",
+    "version" : "Edition 1/16, 3 AP's",
+    "hasInventory" : "IMMA.474"
   }, {
     "@id" : "spice:documentation/rhythm-5",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Marina Abramović, Rhythm 5, 1974, Framed black and white photograph, Image framed 75.6 x 100.3 cm, Collection Irish Museum of Modern Art, Purchase, 1995 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Marina Abramović, Rhythm 5, 1974, Framed black and white photograph, Image framed 75.6 x 100.3 cm, Collection Irish Museum of Modern Art, Purchase, 1995 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

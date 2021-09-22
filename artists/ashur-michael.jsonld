@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/ashur-michael",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish painter Michael Ashur studied at the National College of Art and Design. Influenced by scientific research and discovery, his paintings are dynamic, hard edged and executed with precision. Ashur has exhibited at the Irish Exhibition of Living Art, at the RHA, and has had a number of solo exhibitions at the David Hendriks Gallery, Dublin. His work is represented in many private collections in Ireland, England, Sweden and the US, as well as public collections such as Dublin City Gallery The Hugh Lane; the Arts Council and University College Dublin.",
-    "dc:source" : "https://imma.ie/artists/michael-ashur/",
-    "schema:birthDate" : "b.1950",
-    "schema:url" : "https://imma.ie/artists/michael-ashur/",
-    "rdfs:label" : "Michael Ashur"
+    "description" : "Irish painter Michael Ashur studied at the National College of Art and Design. Influenced by scientific research and discovery, his paintings are dynamic, hard edged and executed with precision. Ashur has exhibited at the Irish Exhibition of Living Art, at the RHA, and has had a number of solo exhibitions at the David Hendriks Gallery, Dublin. His work is represented in many private collections in Ireland, England, Sweden and the US, as well as public collections such as Dublin City Gallery The Hugh Lane; the Arts Council and University College Dublin.",
+    "source" : "https://imma.ie/artists/michael-ashur/",
+    "birthDate" : "b.1950",
+    "url" : "https://imma.ie/artists/michael-ashur/",
+    "label" : "Michael Ashur"
   }, {
     "@id" : "spice:artefact/from-centarus-to-argos",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ashur-michael",
     "author" : "spice:agent/ashur-michael",
-    "schema:dateCreated" : "1974",
-    "schema:url" : "https://imma.ie/collection/from-centarus-to-argos/",
+    "dateCreated" : "1974",
+    "url" : "https://imma.ie/collection/from-centarus-to-argos/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/from-centarus-to-argos",
-    "arco-cd:hasTitle" : "From Centarus to Argos"
+    "hasTitle" : "From Centarus to Argos"
   }, {
     "@id" : "spice:attribution/from-centarus-to-argos",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,40 +28,33 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

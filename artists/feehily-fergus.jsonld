@@ -2,31 +2,31 @@
   "@graph" : [ {
     "@id" : "spice:agent/feehily-fergus",
     "@type" : "foaf:Person",
-    "dc:description" : "Born in Dublin, Fergus Feehily studied at the Dún Laoghaire Institute of Art, Design and Technology. In the late 1990s Feehily received the Monbusho Scholarship to attend Tokyo National University of Fine Arts and Music. Through sometimes influenced by elements of the real world he does not like to define what particular paintings reference or refer to. Feehily has exhibited nationally and internationally. He currently lives and works in Berlin.",
-    "dc:source" : "https://imma.ie/artists/fergus-feehily/",
-    "schema:birthDate" : "b.1968",
-    "schema:url" : "https://imma.ie/artists/fergus-feehily/",
-    "rdfs:label" : "Fergus Feehily"
+    "description" : "Born in Dublin, Fergus Feehily studied at the Dún Laoghaire Institute of Art, Design and Technology. In the late 1990s Feehily received the Monbusho Scholarship to attend Tokyo National University of Fine Arts and Music. Through sometimes influenced by elements of the real world he does not like to define what particular paintings reference or refer to. Feehily has exhibited nationally and internationally. He currently lives and works in Berlin.",
+    "source" : "https://imma.ie/artists/fergus-feehily/",
+    "birthDate" : "b.1968",
+    "url" : "https://imma.ie/artists/fergus-feehily/",
+    "label" : "Fergus Feehily"
   }, {
     "@id" : "spice:artefact/cartoon",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/feehily-fergus",
     "author" : "spice:agent/feehily-fergus",
-    "schema:dateCreated" : "2005",
-    "schema:url" : "https://imma.ie/collection/cartoon/",
+    "dateCreated" : "2005",
+    "url" : "https://imma.ie/collection/cartoon/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/cartoon",
-    "arco-cd:hasTitle" : "Cartoon"
+    "hasTitle" : "Cartoon"
   }, {
     "@id" : "spice:artefact/overhead",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/feehily-fergus",
     "author" : "spice:agent/feehily-fergus",
-    "schema:dateCreated" : "2004",
-    "schema:url" : "https://imma.ie/collection/overhead/",
+    "dateCreated" : "2004",
+    "url" : "https://imma.ie/collection/overhead/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/overhead",
-    "arco-cd:hasTitle" : "Overhead"
+    "hasTitle" : "Overhead"
   }, {
     "@id" : "spice:attribution/cartoon",
     "@type" : "arco:AuthorshipAttribution",
@@ -42,44 +42,37 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -87,7 +80,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

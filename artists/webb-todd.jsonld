@@ -2,41 +2,41 @@
   "@graph" : [ {
     "@id" : "spice:agent/webb-todd",
     "@type" : "foaf:Person",
-    "dc:description" : [ "Todd Webb was an American photographer notable for documenting everyday life and architecture in cities such as New York City, Paris as well as from the American west.", "Todd Webb was an American photographer notable for documenting everyday life and architecture in cities such as New York City, Paris as well as from the American west. " ],
-    "dc:source" : "https://imma.ie/artists/todd-webb/",
-    "schema:birthDate" : "1905–2000",
-    "schema:url" : "https://imma.ie/artists/todd-webb/",
-    "rdfs:label" : "Todd Webb"
+    "description" : [ "Todd Webb was an American photographer notable for documenting everyday life and architecture in cities such as New York City, Paris as well as from the American west.", "Todd Webb was an American photographer notable for documenting everyday life and architecture in cities such as New York City, Paris as well as from the American west. " ],
+    "source" : "https://imma.ie/artists/todd-webb/",
+    "birthDate" : "1905–2000",
+    "url" : "https://imma.ie/artists/todd-webb/",
+    "label" : "Todd Webb"
   }, {
     "@id" : "spice:artefact/baton-rouge",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/webb-todd",
     "author" : "spice:agent/webb-todd",
-    "schema:dateCreated" : "1947",
-    "schema:url" : "https://imma.ie/collection/baton-rouge/",
+    "dateCreated" : "1947",
+    "url" : "https://imma.ie/collection/baton-rouge/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/baton-rouge",
-    "arco-cd:hasTitle" : "Baton Rouge"
+    "hasTitle" : "Baton Rouge"
   }, {
     "@id" : "spice:artefact/vintage-rural-california-town",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/webb-todd",
     "author" : "spice:agent/webb-todd",
-    "schema:dateCreated" : "1955",
-    "schema:url" : "https://imma.ie/collection/vintage-rural-california-town/",
+    "dateCreated" : "1955",
+    "url" : "https://imma.ie/collection/vintage-rural-california-town/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/vintage-rural-california-town",
-    "arco-cd:hasTitle" : "Vintage Rural California Town"
+    "hasTitle" : "Vintage Rural California Town"
   }, {
     "@id" : "spice:artefact/vintage-view-mcdonalds-portland",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/webb-todd",
     "author" : "spice:agent/webb-todd",
-    "schema:dateCreated" : "1976",
-    "schema:url" : "https://imma.ie/collection/vintage-view-mcdonalds-portland/",
+    "dateCreated" : "1976",
+    "url" : "https://imma.ie/collection/vintage-view-mcdonalds-portland/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/vintage-view-mcdonalds-portland",
-    "arco-cd:hasTitle" : "Vintage View McDonald’s Portland"
+    "hasTitle" : "Vintage View McDonald’s Portland"
   }, {
     "@id" : "spice:attribution/baton-rouge",
     "@type" : "arco:AuthorshipAttribution",
@@ -56,24 +56,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -84,24 +81,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

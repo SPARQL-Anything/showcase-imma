@@ -2,20 +2,20 @@
   "@graph" : [ {
     "@id" : "spice:agent/lugo-juan-manuel",
     "@type" : "foaf:Person",
-    "dc:source" : "https://imma.ie/artists/juan-manuel-lugo/",
-    "schema:birthDate" : "b.1945",
-    "schema:url" : "https://imma.ie/artists/juan-manuel-lugo/",
-    "rdfs:label" : "Juan Manuel Lugo"
+    "source" : "https://imma.ie/artists/juan-manuel-lugo/",
+    "birthDate" : "b.1945",
+    "url" : "https://imma.ie/artists/juan-manuel-lugo/",
+    "label" : "Juan Manuel Lugo"
   }, {
     "@id" : "spice:artefact/almuerzo-de-medianoche",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lugo-juan-manuel",
     "author" : "spice:agent/lugo-juan-manuel",
-    "schema:dateCreated" : "1976",
-    "schema:url" : "https://imma.ie/collection/almuerzo-de-medianoche/",
+    "dateCreated" : "1976",
+    "url" : "https://imma.ie/collection/almuerzo-de-medianoche/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/almuerzo-de-medianoche",
-    "arco-cd:hasTitle" : "Almuerzo de Medianoche"
+    "hasTitle" : "Almuerzo de Medianoche"
   }, {
     "@id" : "spice:attribution/almuerzo-de-medianoche",
     "@type" : "arco:AuthorshipAttribution",
@@ -27,40 +27,34 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -68,7 +62,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/feeney-jacinta",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish painter Jacinta Feeney studied at the University of Central Lancashire, the Royal College of Art, London, and Goldsmiths College, London. She has received many prizes including the Claremorris Open Exhibition Student prize, a Prince of Wales Scholarship from the Royal College of Art, a Royal College of Art Travel Scholarship and several Arts Council awards. Feeney has exhibited extensively since 1980 and her work is held in the collections of the Office of Public Works, Arts Council England; and the Ireland Fund of Great Britain.",
-    "dc:source" : "https://imma.ie/artists/jacinta-feeney/",
-    "schema:birthDate" : "b.1954",
-    "schema:url" : "https://imma.ie/artists/jacinta-feeney/",
-    "rdfs:label" : "Jacinta Feeney"
+    "description" : "Irish painter Jacinta Feeney studied at the University of Central Lancashire, the Royal College of Art, London, and Goldsmiths College, London. She has received many prizes including the Claremorris Open Exhibition Student prize, a Prince of Wales Scholarship from the Royal College of Art, a Royal College of Art Travel Scholarship and several Arts Council awards. Feeney has exhibited extensively since 1980 and her work is held in the collections of the Office of Public Works, Arts Council England; and the Ireland Fund of Great Britain.",
+    "source" : "https://imma.ie/artists/jacinta-feeney/",
+    "birthDate" : "b.1954",
+    "url" : "https://imma.ie/artists/jacinta-feeney/",
+    "label" : "Jacinta Feeney"
   }, {
     "@id" : "spice:artefact/now-at-last-you-wear-a-human-face",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/feeney-jacinta",
     "author" : "spice:agent/feeney-jacinta",
-    "schema:dateCreated" : "1984",
-    "schema:url" : "https://imma.ie/collection/now-at-last-you-wear-a-human-face/",
+    "dateCreated" : "1984",
+    "url" : "https://imma.ie/collection/now-at-last-you-wear-a-human-face/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/now-at-last-you-wear-a-human-face",
-    "arco-cd:hasTitle" : "Now at last you wear a human face"
+    "hasTitle" : "Now at last you wear a human face"
   }, {
     "@id" : "spice:attribution/now-at-last-you-wear-a-human-face",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,40 +28,33 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -1,35 +1,30 @@
 {
   "@id" : "spice:agent/leech-william",
   "@type" : "foaf:Person",
-  "dc:description" : "Irish painter William Leech studied at the Metropolitan School of Art and the Royal Hibernian Academy where he was apprenticed to Walter Osborne. Leech moved to Paris in 1901 and enrolled at the Académie Julian. In 1903 he first travelled to Brittany, where he painted the people in their traditional costumes and the rugged landscapes around the region of Concarneau. Leech moved to England in 1910 but continued to visit France until the outbreak of World War II. Leech is regarded as one of the finest Irish Impressionists.",
-  "dc:source" : "https://imma.ie/artists/william-leech/",
-  "schema:birthDate" : "1881–1968",
-  "schema:url" : "https://imma.ie/artists/william-leech/",
-  "rdfs:label" : "William Leech",
+  "description" : "Irish painter William Leech studied at the Metropolitan School of Art and the Royal Hibernian Academy where he was apprenticed to Walter Osborne. Leech moved to Paris in 1901 and enrolled at the Académie Julian. In 1903 he first travelled to Brittany, where he painted the people in their traditional costumes and the rugged landscapes around the region of Concarneau. Leech moved to England in 1910 but continued to visit France until the outbreak of World War II. Leech is regarded as one of the finest Irish Impressionists.",
+  "source" : "https://imma.ie/artists/william-leech/",
+  "birthDate" : "1881–1968",
+  "url" : "https://imma.ie/artists/william-leech/",
+  "label" : "William Leech",
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

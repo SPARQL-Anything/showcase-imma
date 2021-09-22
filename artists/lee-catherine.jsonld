@@ -2,122 +2,121 @@
   "@graph" : [ {
     "@id" : "spice:agent/lee-catherine",
     "@type" : "foaf:Person",
-    "description" : "_:b0",
-    "dc:description" : "American artist Catherine Lee first exhibited in New York at PS1 in 1980. A hybrid of painting, sculpture and installation, Lee’s work juxtaposes the simplicity of repeated forms with a wide variety of materials. Fabricated in clay, concrete, fibreglass and metal, her work is frequently presented in groups. Lee has exhibited internationally from the 1980s. Her work is included in the collections of SFMOMA; MoMA, New York; Tate, London, and the Carnegie Institute, Pittsburgh.",
-    "dc:source" : "https://imma.ie/artists/catherine-lee/",
-    "schema:birthDate" : "b.1950",
-    "schema:url" : "https://imma.ie/artists/catherine-lee/",
-    "rdfs:label" : "Catherine Lee"
+    "description" : [ "Born in Texas in 1950, Catherine Lee’s works are a hybrid of painting, sculpture and installation, in which she juxtaposes the simplicity of a repeated form with a richness of materials, such as wax, bronze, glass and fibreglass. She first exhibited in New York at P.S.1 in 1980, and since then has participated in numerous exhibitions internationally. Lee has exhibited internationally from the 1980s. Her work is included in the collections of SFMOMA; MoMA, New York; Tate, London, and the Carnegie Institute, Pittsburgh.", "A hybrid of painting, sculpture and installation, Catherine Lee’s work juxtaposes the simplicity of repeated forms with a wide variety of materials. Fabricated in clay, concrete, fibreglass and metal, her work is frequently presented in groups. " ],
+    "source" : "https://imma.ie/artists/catherine-lee/",
+    "birthDate" : "b.1950",
+    "url" : "https://imma.ie/artists/catherine-lee/",
+    "label" : "Catherine Lee"
   }, {
     "@id" : "spice:artefact/antrim",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lee-catherine",
     "author" : "spice:agent/lee-catherine",
-    "schema:dateCreated" : "1993",
-    "schema:url" : "https://imma.ie/collection/antrim/",
+    "dateCreated" : "1993",
+    "url" : "https://imma.ie/collection/antrim/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/antrim",
-    "arco-cd:hasTitle" : "Antrim"
+    "hasTitle" : "Antrim"
   }, {
     "@id" : "spice:artefact/armagh",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lee-catherine",
     "author" : "spice:agent/lee-catherine",
-    "schema:dateCreated" : "1993",
-    "schema:url" : "https://imma.ie/collection/armagh/",
+    "dateCreated" : "1993",
+    "url" : "https://imma.ie/collection/armagh/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/armagh",
-    "arco-cd:hasTitle" : "Armagh"
+    "hasTitle" : "Armagh"
   }, {
     "@id" : "spice:artefact/derry",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lee-catherine",
     "author" : "spice:agent/lee-catherine",
-    "schema:dateCreated" : "1993",
-    "schema:url" : "https://imma.ie/collection/derry/",
+    "dateCreated" : "1993",
+    "url" : "https://imma.ie/collection/derry/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/derry",
-    "arco-cd:hasTitle" : "Derry"
+    "hasTitle" : "Derry"
   }, {
     "@id" : "spice:artefact/donegal",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lee-catherine",
     "author" : "spice:agent/lee-catherine",
-    "schema:dateCreated" : "1993",
-    "schema:url" : "https://imma.ie/collection/donegal/",
+    "dateCreated" : "1993",
+    "url" : "https://imma.ie/collection/donegal/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/donegal",
-    "arco-cd:hasTitle" : "Donegal"
+    "hasTitle" : "Donegal"
   }, {
     "@id" : "spice:artefact/down",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lee-catherine",
     "author" : "spice:agent/lee-catherine",
-    "schema:dateCreated" : "1993",
-    "schema:url" : "https://imma.ie/collection/down/",
+    "dateCreated" : "1993",
+    "url" : "https://imma.ie/collection/down/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/down",
-    "arco-cd:hasTitle" : "Down"
+    "hasTitle" : "Down"
   }, {
     "@id" : "spice:artefact/drawing",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lee-catherine",
     "author" : "spice:agent/lee-catherine",
-    "schema:dateCreated" : "1980",
-    "schema:url" : "https://imma.ie/collection/drawing/",
+    "dateCreated" : "1980",
+    "url" : "https://imma.ie/collection/drawing/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/drawing",
-    "arco-cd:hasTitle" : "Drawing"
+    "hasTitle" : "Drawing"
   }, {
     "@id" : "spice:artefact/fermanagh",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lee-catherine",
     "author" : "spice:agent/lee-catherine",
-    "schema:dateCreated" : "1993",
-    "schema:url" : "https://imma.ie/collection/fermanagh/",
+    "dateCreated" : "1993",
+    "url" : "https://imma.ie/collection/fermanagh/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/fermanagh",
-    "arco-cd:hasTitle" : "Fermanagh"
+    "hasTitle" : "Fermanagh"
   }, {
     "@id" : "spice:artefact/other-voices",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lee-catherine",
     "author" : "spice:agent/lee-catherine",
-    "schema:dateCreated" : "1993",
-    "schema:url" : "https://imma.ie/collection/other-voices/",
+    "dateCreated" : "1993",
+    "url" : "https://imma.ie/collection/other-voices/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/other-voices",
-    "arco-cd:hasTitle" : "Other Voices"
+    "hasTitle" : "Other Voices"
   }, {
     "@id" : "spice:artefact/sentinel-viii",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lee-catherine",
     "author" : "spice:agent/lee-catherine",
-    "schema:dateCreated" : "1999",
-    "schema:url" : "https://imma.ie/collection/sentinel-viii/",
+    "dateCreated" : "1999",
+    "url" : "https://imma.ie/collection/sentinel-viii/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/sentinel-viii",
-    "arco-cd:hasTitle" : "SENTINEL VIII"
+    "hasTitle" : "SENTINEL VIII"
   }, {
     "@id" : "spice:artefact/tyrone",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lee-catherine",
     "author" : "spice:agent/lee-catherine",
-    "schema:dateCreated" : "1993",
-    "schema:url" : "https://imma.ie/collection/tyrone/",
+    "dateCreated" : "1993",
+    "url" : "https://imma.ie/collection/tyrone/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/tyrone",
-    "arco-cd:hasTitle" : "Tyrone"
+    "hasTitle" : "Tyrone"
   }, {
     "@id" : "spice:artefact/ulster",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lee-catherine",
     "author" : "spice:agent/lee-catherine",
-    "schema:dateCreated" : "1993",
-    "schema:url" : "https://imma.ie/collection/ulster/",
+    "dateCreated" : "1993",
+    "url" : "https://imma.ie/collection/ulster/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/ulster",
-    "arco-cd:hasTitle" : "Ulster"
+    "hasTitle" : "Ulster"
   }, {
     "@id" : "spice:attribution/antrim",
     "@type" : "arco:AuthorshipAttribution",
@@ -169,24 +168,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -197,24 +193,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "@id"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

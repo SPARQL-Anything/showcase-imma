@@ -1,35 +1,30 @@
 {
   "@id" : "spice:agent/wawra-susanne",
   "@type" : "foaf:Person",
-  "dc:description" : "Susanne Wawra (b. 1980) is a German artist based in Dublin. Upon graduating in Fine Art Painting at NCAD, she has been awarded the Talbot Gallery and Studios Most Promising Graduate Award 2016. Wawra has been listed in “50 People To Watch in 2017” in The Irish Times.",
-  "dc:source" : "https://imma.ie/artists/susanne-wawra/",
-  "schema:birthDate" : "b.1980",
-  "schema:url" : "https://imma.ie/artists/susanne-wawra/",
-  "rdfs:label" : "Susanne Wawra",
+  "description" : "Susanne Wawra (b. 1980) is a German artist based in Dublin. Upon graduating in Fine Art Painting at NCAD, she has been awarded the Talbot Gallery and Studios Most Promising Graduate Award 2016. Wawra has been listed in “50 People To Watch in 2017” in The Irish Times.",
+  "source" : "https://imma.ie/artists/susanne-wawra/",
+  "birthDate" : "b.1980",
+  "url" : "https://imma.ie/artists/susanne-wawra/",
+  "label" : "Susanne Wawra",
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

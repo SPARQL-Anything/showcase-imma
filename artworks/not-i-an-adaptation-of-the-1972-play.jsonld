@@ -2,18 +2,18 @@
   "@graph" : [ {
     "@id" : "spice:artefact/not-i-an-adaptation-of-the-1972-play",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "An adaptation of the play by Samuel Beckett, Jordan’s ‘Not I’ was originally made for display on a single screen via video and cinema. Starring actress Julianne Moore, it had its world premiere at the Cannes Film Festival in 2000. It formed part of the ‘Beckett On Film Project’, sponsored by Dublin’s Gate Theatre, where nineteen contemporary artists and film-makers were commissioned to interpret Beckett’s dramatic work on film.",
-    "dc:source" : "https://imma.ie/collection/not-i-an-adaptation-of-the-1972-play/",
-    "schema:creditText" : "IMMA Collection: Gift, the artist, 2000",
+    "description" : "An adaptation of the play by Samuel Beckett, Jordan’s ‘Not I’ was originally made for display on a single screen via video and cinema. Starring actress Julianne Moore, it had its world premiere at the Cannes Film Festival in 2000. It formed part of the ‘Beckett On Film Project’, sponsored by Dublin’s Gate Theatre, where nineteen contemporary artists and film-makers were commissioned to interpret Beckett’s dramatic work on film.",
+    "source" : "https://imma.ie/collection/not-i-an-adaptation-of-the-1972-play/",
+    "creditText" : "IMMA Collection: Gift, the artist, 2000",
     "image" : "spice:documentation/not-i-an-adaptation-of-the-1972-play",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Six-channel video (colour, sound)",
-    "arco-cd:hasInventory" : "IMMA.1345"
+    "material" : "Six-channel video (colour, sound)",
+    "hasInventory" : "IMMA.1345"
   }, {
     "@id" : "spice:documentation/not-i-an-adaptation-of-the-1972-play",
     "@type" : "schema:ImageObject",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/1171.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/1171.jpg"
   } ],
   "@context" : {
     "maintainer" : {
@@ -21,32 +21,26 @@
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

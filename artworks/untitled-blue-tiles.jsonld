@@ -2,61 +2,57 @@
   "@graph" : [ {
     "@id" : "spice:artefact/untitled-blue-tiles",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Untitled (Blue Tiles) is a 1999 work by Paul Seawright. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/untitled-blue-tiles/",
+    "description" : "Untitled (Blue Tiles) is a 1999 work by Paul Seawright. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/untitled-blue-tiles/",
+    "creditText" : "IMMA Collection: Heritage Gift, Kerlin Gallery Collection, 2018, 2018",
     "image" : "spice:documentation/untitled-blue-tiles",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "colour type C print on aluminium",
-    "schema:size" : "100 x 124 cm",
-    "schema:version" : "Edition 3/6",
-    "arco-cd:hasInventory" : "IMMA.4047"
+    "material" : "colour type C print on aluminium",
+    "size" : "100 x 124 cm",
+    "version" : "Edition 3/6",
+    "hasInventory" : "IMMA.4047"
   }, {
     "@id" : "spice:documentation/untitled-blue-tiles",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Paul Seawright, Untitled (Blue Tiles), 1999, colour type C print on aluminium, 100 x 124 cm, Collection Irish Museum of Modern Art, 2018 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Paul Seawright, Untitled (Blue Tiles), 1999, colour type C print on aluminium, 100 x 124 cm, Collection Irish Museum of Modern Art, Heritage Gift, Kerlin Gallery Collection, 2018, 2018 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
-    "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
-    },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
-    "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
-    },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
-    },
-    "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

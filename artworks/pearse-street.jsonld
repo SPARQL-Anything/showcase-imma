@@ -2,71 +2,61 @@
   "@graph" : [ {
     "@id" : "spice:artefact/pearse-street",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Pearse Street is a 1952 work by Nevill Johnson. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/pearse-street/",
-    "schema:creditText" : "IMMA Collection: Acquired with the assistance of the Friends of the National Collections of Ireland, 2010",
+    "description" : "Pearse Street is a 1952 work by Nevill Johnson. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/pearse-street/",
+    "creditText" : "IMMA Collection: Acquired with the assistance of the Friends of the National Collections of Ireland, 2010",
     "image" : "spice:documentation/pearse-street",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Selenium toned gelatin silver prints",
-    "schema:size" : "34 x 27 cm",
-    "schema:version" : "14/20. The edition is of twenty numbered sets of which this is no. 14 plus five artist's proofs. 50th anniversary edition",
-    "arco-cd:hasInventory" : "IMMA.3226"
+    "material" : "Selenium toned gelatin silver prints",
+    "size" : "34 x 27 cm",
+    "version" : "14/20. The edition is of twenty numbered sets of which this is no. 14 plus five artist's proofs. 50th anniversary edition",
+    "hasInventory" : "IMMA.3226"
   }, {
     "@id" : "spice:documentation/pearse-street",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Nevill Johnson, Pearse Street, 1952, Selenium toned gelatin silver prints, 34 x 27 cm, Collection Irish Museum of Modern Art, Acquired with the assistance of the Friends of the National Collections of Ireland, 2010 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Nevill Johnson, Pearse Street, 1952, Selenium toned gelatin silver prints, 34 x 27 cm, Collection Irish Museum of Modern Art, Acquired with the assistance of the Friends of the National Collections of Ireland, 2010 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2020/02/5358.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2020/02/5358.jpg"
   } ],
   "@context" : {
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

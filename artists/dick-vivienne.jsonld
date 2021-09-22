@@ -2,20 +2,35 @@
   "@graph" : [ {
     "@id" : "spice:agent/dick-vivienne",
     "@type" : "foaf:Person",
-    "dc:description" : "Vivienne Dick is an internationally celebrated filmmaker and artist. Born in Donegal in 1950 she began making Super 8 films while living in New York in the late seventies. Dick was a key figure within ‘No Wave’, a short-lived avant-garde scene in the late 1970s in New York led by a collective of musicians, filmmakers and artists including Nan Goldin, Lydia Lunch, Arto Lindsay, James Chance and many others. Her work is marked by an interest in urban street life, social and sexual politics, and the history of ideas. Retrospectives of her work include Seville European Film Festival (2016,) Tate Modern (2010), Crawford Art Gallery (2009), and Berlin Film Festival (1988). Group shows include Big as Life, MoMA, New York, The Whitney Biennial, Golden Thread Gallery and The Untold Want, RHA. Her work has shown at Oberhausen, Courtisane, BFI London, Lisbon Estoril, CPH: DOX Copenhagen and New York Film Festivals, amongst others. A DVD of three of her films was published by LUX and a collection was published by Crawford Art Gallery in collaboration with LUX in 2009. Dick has work is in the collections of MoMA, New York, Anthology Archives and the Irish Film Archives, and her films are distributed by LUX London and The Film Maker’s Cooperative, New York. In 2017 IMMA presented 93% STARDUST, a survey exhibition of Dick’s work.",
-    "dc:source" : "https://imma.ie/artists/vivienne-dick/",
-    "schema:url" : "https://imma.ie/artists/vivienne-dick/",
-    "rdfs:label" : "Vivienne Dick"
+    "description" : "Vivienne Dick is a celebrated filmmaker and artist. She began making Super 8 films while living in New York in the late seventies. Dick was a key figure within ‘No Wave’, a short-lived avant-garde scene in the late 1970s in New York led by a collective of musicians, filmmakers and artists including Nan Goldin, Lydia Lunch, Arto Lindsay, James Chance and many others. Her work is marked by an interest in urban street life, social and sexual politics, and the history of ideas.",
+    "source" : "https://imma.ie/artists/vivienne-dick/",
+    "birthDate" : "b.1950",
+    "url" : "https://imma.ie/artists/vivienne-dick/",
+    "label" : "Vivienne Dick"
+  }, {
+    "@id" : "spice:artefact/libertys-booty",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/dick-vivienne",
+    "author" : "spice:agent/dick-vivienne",
+    "dateCreated" : "1980",
+    "url" : "https://imma.ie/collection/libertys-booty/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/libertys-booty",
+    "hasTitle" : "Liberty’s Booty"
   }, {
     "@id" : "spice:artefact/visibility-moderate",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/dick-vivienne",
     "author" : "spice:agent/dick-vivienne",
-    "schema:dateCreated" : "1981",
-    "schema:url" : "https://imma.ie/collection/visibility-moderate/",
+    "dateCreated" : "1981",
+    "url" : "https://imma.ie/collection/visibility-moderate/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/visibility-moderate",
-    "arco-cd:hasTitle" : "Visibility: Moderate"
+    "hasTitle" : "Visibility: Moderate"
+  }, {
+    "@id" : "spice:attribution/libertys-booty",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/dick-vivienne"
   }, {
     "@id" : "spice:attribution/visibility-moderate",
     "@type" : "arco:AuthorshipAttribution",
@@ -27,48 +42,45 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
       "@type" : "@id"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
-    },
-    "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
-    },
-    "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
-    },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

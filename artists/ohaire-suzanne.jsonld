@@ -1,35 +1,30 @@
 {
   "@id" : "spice:agent/ohaire-suzanne",
   "@type" : "foaf:Person",
-  "dc:description" : [ "Suzanne O’Haire makes small sculptural assemblages from found objects, junk and castings from discarded packaging. Arrangements of acrobatically stacked, bundled or tentatively balanced forms emerge from impermanent matter, reactivated through re-configuring and assimilating until something holds, suggesting architectural playgrounds, utopian visions or magical portals to an other world. She says that this habitual urge to collect and re-imagine matter ‘filters an external, over-stimulated and saturated world internally, trying to make sense of the chaos – these days increasingly so.", "Suzanne O’Haire makes small sculptural assemblages from found objects, junk and castings from discarded packaging. Arrangements of acrobatically stacked, bundled or tentatively balanced forms emerge from impermanent matter, reactivated through re-configuring and assimilating until something holds, suggesting architectural playgrounds, utopian visions or magical portals to an other world." ],
-  "dc:source" : "https://imma.ie/artists/suzanne-ohaire/",
-  "schema:birthDate" : "b.1968",
-  "schema:url" : "https://imma.ie/artists/suzanne-ohaire/",
-  "rdfs:label" : "Suzanne O’Haire",
+  "description" : [ "Suzanne O’Haire makes small sculptural assemblages from found objects, junk and castings from discarded packaging. Arrangements of acrobatically stacked, bundled or tentatively balanced forms emerge from impermanent matter, reactivated through re-configuring and assimilating until something holds, suggesting architectural playgrounds, utopian visions or magical portals to an other world. She says that this habitual urge to collect and re-imagine matter ‘filters an external, over-stimulated and saturated world internally, trying to make sense of the chaos – these days increasingly so.", "Suzanne O’Haire makes small sculptural assemblages from found objects, junk and castings from discarded packaging. Arrangements of acrobatically stacked, bundled or tentatively balanced forms emerge from impermanent matter, reactivated through re-configuring and assimilating until something holds, suggesting architectural playgrounds, utopian visions or magical portals to an other world." ],
+  "source" : "https://imma.ie/artists/suzanne-ohaire/",
+  "birthDate" : "b.1968",
+  "url" : "https://imma.ie/artists/suzanne-ohaire/",
+  "label" : "Suzanne O’Haire",
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

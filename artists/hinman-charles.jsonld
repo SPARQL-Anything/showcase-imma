@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/hinman-charles",
     "@type" : "foaf:Person",
-    "dc:description" : "American artist Charles Hinman played professional baseball and travelled extensively before turning to painting and printmaking in the 1960s. Hinman's abstract prints and three dimensional canvases explore the optical properties of shape and colour. From the 1960s Hinman exhibited with Richard L. Feigen. He went on to show at Galerie Denise Rene in New York and produced editions of prints with Denise Rene in Paris. His work is represented in private and public collections in the USA and Europe.",
-    "dc:source" : "https://imma.ie/artists/charles-hinman/",
-    "schema:birthDate" : "b.1932",
-    "schema:url" : "https://imma.ie/artists/charles-hinman/",
-    "rdfs:label" : "Charles Hinman"
+    "description" : "American artist Charles Hinman played professional baseball and travelled extensively before turning to painting and printmaking in the 1960s. Hinman's abstract prints and three dimensional canvases explore the optical properties of shape and colour. From the 1960s Hinman exhibited with Richard L. Feigen. He went on to show at Galerie Denise Rene in New York and produced editions of prints with Denise Rene in Paris. His work is represented in private and public collections in the USA and Europe.",
+    "source" : "https://imma.ie/artists/charles-hinman/",
+    "birthDate" : "b.1932",
+    "url" : "https://imma.ie/artists/charles-hinman/",
+    "label" : "Charles Hinman"
   }, {
     "@id" : "spice:artefact/print-collage",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/hinman-charles",
     "author" : "spice:agent/hinman-charles",
-    "schema:dateCreated" : "1966",
-    "schema:url" : "https://imma.ie/collection/print-collage/",
+    "dateCreated" : "1966",
+    "url" : "https://imma.ie/collection/print-collage/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/print-collage",
-    "arco-cd:hasTitle" : "Print Collage"
+    "hasTitle" : "Print Collage"
   }, {
     "@id" : "spice:attribution/print-collage",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,40 +28,33 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

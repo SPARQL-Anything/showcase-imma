@@ -1,0 +1,71 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/the-five-orders-of-perriwigs",
+    "@type" : "schema:CreativeWork",
+    "description" : "Categorizing perriwigs in orders similar to the five orders of classical columns, Hogarth satirizes the aristocracy who wore them. At the time, during the 18th century, it was popularly believed that laws of composition and models of beauty could be constructed by measuring classical statues and architecture. A scale on the left hand side shows the ‘Athenian Measure’ used to measure the wigs; component parts of each wig are labeled with letters A to I, each denoting a mock architectural term.",
+    "source" : "https://imma.ie/collection/the-five-orders-of-perriwigs/",
+    "creditText" : "IMMA Collection: Donation, Madden / Arnholz Collection, 1989",
+    "image" : "spice:documentation/the-five-orders-of-perriwigs",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "material" : "Engraving",
+    "size" : "36.3 x 24 cm",
+    "hasInventory" : "IMMA.2086"
+  }, {
+    "@id" : "spice:documentation/the-five-orders-of-perriwigs",
+    "@type" : "schema:ImageObject",
+    "caption" : "William Hogarth, The Five Orders of Perriwigs, Engraving, 36.3 x 24 cm, Collection Irish Museum of Modern Art, Donation, Madden / Arnholz Collection, 1989 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "url" : "https://imma.ie/wp-content/uploads/2021/09/2151.jpg"
+  } ],
+  "@context" : {
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

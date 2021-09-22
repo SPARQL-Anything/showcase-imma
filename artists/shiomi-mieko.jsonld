@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/shiomi-mieko",
     "@type" : "foaf:Person",
-    "dc:description" : "Japanese musician and visual artist Mieko Shiomi (born 1938), also known as Chieko, studied musical theory and music at the Tokyo National University of Fine Arts and Music. In 1960, together with Takehisa Kosugi and others, she founded the group Ongaku (Music) and began to extend the radius of her own music to include improvisation and action. In 1964, on the invitation of George Maciunas, Shiomi went to New York and participated in the Fluxus events taking place there. Her musical releases include ‘Requiem For George Maciunas’, 1990, which formed part of a Fluxus retrospective at the Venice Biennale; and ‘Fluxus Suite: a Musical Dictionary Of 80 People Around Fluxus’, made to mark the 40th anniversary of Fluxus in 2002. Shiomi’s work is included in many private collections, in the Museum of Modern Art, New York; and in the Musée d'Art Contemporain de Lyon, France.",
-    "dc:source" : "https://imma.ie/artists/mieko-shiomi/",
-    "schema:birthDate" : "b.1938",
-    "schema:url" : "https://imma.ie/artists/mieko-shiomi/",
-    "rdfs:label" : "Mieko Shiomi"
+    "description" : "Japanese musician and visual artist Mieko Shiomi (born 1938), also known as Chieko, studied musical theory and music at the Tokyo National University of Fine Arts and Music. In 1960, together with Takehisa Kosugi and others, she founded the group Ongaku (Music) and began to extend the radius of her own music to include improvisation and action. In 1964, on the invitation of George Maciunas, Shiomi went to New York and participated in the Fluxus events taking place there. Her musical releases include ‘Requiem For George Maciunas’, 1990, which formed part of a Fluxus retrospective at the Venice Biennale; and ‘Fluxus Suite: a Musical Dictionary Of 80 People Around Fluxus’, made to mark the 40th anniversary of Fluxus in 2002. Shiomi’s work is included in many private collections, in the Museum of Modern Art, New York; and in the Musée d'Art Contemporain de Lyon, France.",
+    "source" : "https://imma.ie/artists/mieko-shiomi/",
+    "birthDate" : "b.1938",
+    "url" : "https://imma.ie/artists/mieko-shiomi/",
+    "label" : "Mieko Shiomi"
   }, {
     "@id" : "spice:artefact/print-folded-map-of-the-world-with-contributions-by-artists-from-all-continents",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/shiomi-mieko",
     "author" : "spice:agent/shiomi-mieko",
-    "schema:dateCreated" : "1965",
-    "schema:url" : "https://imma.ie/collection/print-folded-map-of-the-world-with-contributions-by-artists-from-all-continents/",
+    "dateCreated" : "1965",
+    "url" : "https://imma.ie/collection/print-folded-map-of-the-world-with-contributions-by-artists-from-all-continents/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/print-folded-map-of-the-world-with-contributions-by-artists-from-all-continents",
-    "arco-cd:hasTitle" : "Print (folded map of the world with Contributions by artists from all continents)"
+    "hasTitle" : "Print (folded map of the world with Contributions by artists from all continents)"
   }, {
     "@id" : "spice:attribution/print-folded-map-of-the-world-with-contributions-by-artists-from-all-continents",
     "@type" : "arco:AuthorshipAttribution",
@@ -32,48 +32,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

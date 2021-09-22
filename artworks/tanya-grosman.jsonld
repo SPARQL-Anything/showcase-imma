@@ -2,22 +2,22 @@
   "@graph" : [ {
     "@id" : "spice:artefact/tanya-grosman",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Tanya Grosman is a 1974 work by Robert Rauschenberg. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/tanya-grosman/",
-    "schema:creditText" : "IMMA Collection: Donation, Novak/O'Doherty Collection, 2015",
+    "description" : "Tanya Grosman is a 1974 work by Robert Rauschenberg. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/tanya-grosman/",
+    "creditText" : "IMMA Collection: Donation, Novak/O'Doherty Collection, 2015",
     "image" : "spice:documentation/tanya-grosman",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Lithograph",
-    "schema:size" : "Framed: 68.2 x 56.1 cm 57.5 x 39 cm sheet",
-    "schema:version" : "H.C. 3/18",
-    "arco-cd:hasInventory" : "IMMA.3935"
+    "material" : "Lithograph",
+    "size" : "Framed: 68.2 x 56.1 cm 57.5 x 39 cm sheet",
+    "version" : "H.C. 3/18",
+    "hasInventory" : "IMMA.3935"
   }, {
     "@id" : "spice:documentation/tanya-grosman",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Robert Rauschenberg, Tanya Grosman, 1974, Lithograph, Framed: 68.2 x 56.1 cm 57.5 x 39 cm sheet, Collection Irish Museum of Modern Art, Donation, Novak/O'Doherty Collection, 2015 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Robert Rauschenberg, Tanya Grosman, 1974, Lithograph, Framed: 68.2 x 56.1 cm 57.5 x 39 cm sheet, Collection Irish Museum of Modern Art, Donation, Novak/O'Doherty Collection, 2015 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/5106.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/5106.jpg"
   } ],
   "@context" : {
     "image" : {
@@ -25,48 +25,38 @@
       "@type" : "@id"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

@@ -1,35 +1,30 @@
 {
   "@id" : "spice:agent/barham-anna",
   "@type" : "foaf:Person",
-  "dc:description" : [ "Wrapping and unravelling, Anna Barham is drawn to using local/vernacular materials, not specialist or ‘separate’ materials but things that are common to our everyday experience – bought from a builders’ merchant, on a market stall or just found on the street. Her practice exchanges time with objects and materials, sometimes through repetitive and labour intensive ways of making. Time is somehow contained in the work, recalling handcrafts such as lace-making where stories, memories, daydreams and mundane thoughts are caught within the intricate pieces made.", "Wrapping and unravelling, Anna Barham is drawn to using local/vernacular materials, not specialist or ‘separate’ materials but things that are common to our everyday experience – bought from a builders’ merchant, on a market stall or just found on the street." ],
-  "dc:source" : "https://imma.ie/artists/anna-barham/",
-  "schema:birthDate" : "b.1974",
-  "schema:url" : "https://imma.ie/artists/anna-barham/",
-  "rdfs:label" : "Anna Barham",
+  "description" : [ "Wrapping and unravelling, Anna Barham is drawn to using local/vernacular materials, not specialist or ‘separate’ materials but things that are common to our everyday experience – bought from a builders’ merchant, on a market stall or just found on the street. Her practice exchanges time with objects and materials, sometimes through repetitive and labour intensive ways of making. Time is somehow contained in the work, recalling handcrafts such as lace-making where stories, memories, daydreams and mundane thoughts are caught within the intricate pieces made.", "Wrapping and unravelling, Anna Barham is drawn to using local/vernacular materials, not specialist or ‘separate’ materials but things that are common to our everyday experience – bought from a builders’ merchant, on a market stall or just found on the street." ],
+  "source" : "https://imma.ie/artists/anna-barham/",
+  "birthDate" : "b.1974",
+  "url" : "https://imma.ie/artists/anna-barham/",
+  "label" : "Anna Barham",
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -1,30 +1,96 @@
 {
-  "@id" : "spice:agent/montague-sibyl",
-  "@type" : "foaf:Person",
-  "dc:description" : [ "Sibyl Montague’s practice foregrounds the primacy of material and its ability to perform. Working with a range of sources; vegetable and digital matter and engaging strategies of appropriation, or the (dis)assemblage and hacking of commodity goods. Her work focuses on locating generative, dissident terms from which to approach material and democratise form.", "Sibyl Montague’s practice foregrounds the primacy of material and its ability to perform. Working with a range of sources; vegetable and digital matter and engaging strategies of appropriation, or the (dis)assemblage and hacking of commodity goods. Her work focuses on locating generative, dissident terms from which to approach material and democratise form. " ],
-  "dc:source" : "https://imma.ie/artists/sibyl-montague/",
-  "schema:url" : "https://imma.ie/artists/sibyl-montague/",
-  "rdfs:label" : "Sibyl Montague",
+  "@graph" : [ {
+    "@id" : "spice:agent/montague-sibyl",
+    "@type" : "foaf:Person",
+    "description" : [ "Sibyl Montague’s practice foregrounds the primacy of material and its ability to perform. Working with a range of sources; vegetable and digital matter and engaging strategies of appropriation, or the (dis)assemblage and hacking of commodity goods. Her work focuses on locating generative, dissident terms from which to approach material and democratise form.", "Sibyl Montague's (Dublin, Ireland) practice includes sculpture, video and installation. A graduate of Chelsea College of Art and Design, London, Montague was artist in residence at Visual Contemporary, Carlow (2020) and recipient of the IMMA 1000 residency award at the Irish Museum of Modern Art, Dublin (2019). Recent solo presentations include SELF SOOTHERS, Visual Contemporary, Carlow (2020); Practice curated by Alice Butler, New Spaces, Derry (2018); Saplings, Pallas Projects, Dublin (2018); My Fears of Tomorrow are Melting Away, Cité Internationale des Arts, Paris (2018). Montague is co-founder of PLASTIK Festival of Artists’ Moving Image. Montague's practice explores concerns of form, usability, and the handheld, making work that considers how we regard, hold, and consume objects and experiences. Her work uses a wide range of sources that combine vegetable, used or ‘poor’ material, with the hacking and (dis)assemblage of commodity goods. Presented as 'tools' or series of sculptural objects of use, her work foregrounds the handheld and handmade as generative, dissident terms from which to approach material, making work that seeks to understand our relationship to objects as physical, but flawed representations of inner experience." ],
+    "source" : "https://imma.ie/artists/sibyl-montague/",
+    "url" : "https://imma.ie/artists/sibyl-montague/",
+    "label" : "Sibyl Montague"
+  }, {
+    "@id" : "spice:artefact/abundance-blanket-01",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/montague-sibyl",
+    "author" : "spice:agent/montague-sibyl",
+    "dateCreated" : "2020",
+    "url" : "https://imma.ie/collection/abundance-blanket-01/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/abundance-blanket-01",
+    "hasTitle" : "Abundance Blanket 01"
+  }, {
+    "@id" : "spice:artefact/self-soothers-snake",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/montague-sibyl",
+    "author" : "spice:agent/montague-sibyl",
+    "dateCreated" : "2020",
+    "url" : "https://imma.ie/collection/self-soothers-snake/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/self-soothers-snake",
+    "hasTitle" : "SELF SOOTHERS (Snake)"
+  }, {
+    "@id" : "spice:artefact/super-critical-liquid",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/montague-sibyl",
+    "author" : "spice:agent/montague-sibyl",
+    "dateCreated" : "2017",
+    "url" : "https://imma.ie/collection/super-critical-liquid/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/super-critical-liquid",
+    "hasTitle" : "Super Critical Liquid"
+  }, {
+    "@id" : "spice:attribution/abundance-blanket-01",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/montague-sibyl"
+  }, {
+    "@id" : "spice:attribution/self-soothers-snake",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/montague-sibyl"
+  }, {
+    "@id" : "spice:attribution/super-critical-liquid",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/montague-sibyl"
+  } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

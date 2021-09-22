@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/kenna-michael",
     "@type" : "foaf:Person",
-    "dc:description" : [ "Michael Kenna is best known for his unusual black &amp; white landscapes featuring ethereal light achieved by photographing at dawn or at night with exposures of up to 10 hours. His photos concentrate on the interaction between ephemeral atmospheric condition of the natural landscape, and human-made structures and sculptural mass.", "Born 1953 in Widnes, Lancashire, England, photographer McKenna currently lives in Seattle, Washington, USA. " ],
-    "dc:source" : "https://imma.ie/artists/michael-kenna/",
-    "schema:birthDate" : "b.1953",
-    "schema:url" : "https://imma.ie/artists/michael-kenna/",
-    "rdfs:label" : "Michael Kenna"
+    "description" : [ "Michael Kenna is best known for his unusual black &amp; white landscapes featuring ethereal light achieved by photographing at dawn or at night with exposures of up to 10 hours. His photos concentrate on the interaction between ephemeral atmospheric condition of the natural landscape, and human-made structures and sculptural mass.", "Born 1953 in Widnes, Lancashire, England, photographer McKenna currently lives in Seattle, Washington, USA. " ],
+    "source" : "https://imma.ie/artists/michael-kenna/",
+    "birthDate" : "b.1953",
+    "url" : "https://imma.ie/artists/michael-kenna/",
+    "label" : "Michael Kenna"
   }, {
     "@id" : "spice:artefact/sunday-morning-burnley-lancashire-england",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/kenna-michael",
     "author" : "spice:agent/kenna-michael",
-    "schema:dateCreated" : "1984",
-    "schema:url" : "https://imma.ie/collection/sunday-morning-burnley-lancashire-england/",
+    "dateCreated" : "1984",
+    "url" : "https://imma.ie/collection/sunday-morning-burnley-lancashire-england/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/sunday-morning-burnley-lancashire-england",
-    "arco-cd:hasTitle" : "Sunday Morning, Burnley, Lancashire, England"
+    "hasTitle" : "Sunday Morning, Burnley, Lancashire, England"
   }, {
     "@id" : "spice:attribution/sunday-morning-burnley-lancashire-england",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,24 +28,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -56,24 +53,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -2,131 +2,131 @@
   "@graph" : [ {
     "@id" : "spice:agent/whiteread-rachel",
     "@type" : "foaf:Person",
-    "dc:description" : "English artist Rachel Whiteread (born 1963) studied painting at Brighton Polytechnic and sculpture at the Slade School of Fine Art. Working with traditional casting methods and materials such as plaster, resin and rubber, Whiteread is best known for her evocative sculptures of the negative space defined by a building or domestic object. Whiteread received the Turner Prize in 1993. She has exhibited extensively at venues including Tate Modern; the Serpentine Gallery, London; Deutsche Guggenheim, Berlin; the Solomon R. Guggenheim Museum, New York, and the Museum of Fine Arts, Boston.",
-    "dc:source" : "https://imma.ie/artists/rachel-whiteread/",
-    "schema:birthDate" : "b.1963",
-    "schema:url" : "https://imma.ie/artists/rachel-whiteread/",
-    "rdfs:label" : "Rachel Whiteread"
+    "description" : [ "English artist Rachel Whiteread (born 1963) studied painting at Brighton Polytechnic and sculpture at the Slade School of Fine Art. Working with traditional casting methods and materials such as plaster, resin and rubber, Whiteread is best known for her evocative sculptures of the negative space defined by a building or domestic object.", "English artist Rachel Whiteread is best known for her evocative sculptures of the negative space defined by a building or domestic object. Whiteread received the Turner Prize in 1993." ],
+    "source" : "https://imma.ie/artists/rachel-whiteread/",
+    "birthDate" : "b.1963",
+    "url" : "https://imma.ie/artists/rachel-whiteread/",
+    "label" : "Rachel Whiteread"
   }, {
     "@id" : "spice:artefact/demolished-printportfolio",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/whiteread-rachel",
     "author" : "spice:agent/whiteread-rachel",
-    "schema:dateCreated" : "1996",
-    "schema:url" : "https://imma.ie/collection/demolished-printportfolio/",
+    "dateCreated" : "1996",
+    "url" : "https://imma.ie/collection/demolished-printportfolio/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/demolished-printportfolio",
-    "arco-cd:hasTitle" : "Demolished printportfolio"
+    "hasTitle" : "Demolished printportfolio"
   }, {
     "@id" : "spice:artefact/floor",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/whiteread-rachel",
     "author" : "spice:agent/whiteread-rachel",
-    "schema:dateCreated" : "1993",
-    "schema:url" : "https://imma.ie/collection/floor/",
+    "dateCreated" : "1993",
+    "url" : "https://imma.ie/collection/floor/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/floor",
-    "arco-cd:hasTitle" : "Floor"
+    "hasTitle" : "Floor"
   }, {
     "@id" : "spice:artefact/mausoleum-under-construction-after-a-photograph-by-camilo-jose-vergara",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/whiteread-rachel",
     "author" : "spice:agent/whiteread-rachel",
-    "schema:dateCreated" : "1992",
-    "schema:url" : "https://imma.ie/collection/mausoleum-under-construction-after-a-photograph-by-camilo-jose-vergara/",
+    "dateCreated" : "1992",
+    "url" : "https://imma.ie/collection/mausoleum-under-construction-after-a-photograph-by-camilo-jose-vergara/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/mausoleum-under-construction-after-a-photograph-by-camilo-jose-vergara",
-    "arco-cd:hasTitle" : "Mausoleum Under Construction (after a photograph by Camilo José Vergara)"
+    "hasTitle" : "Mausoleum Under Construction (after a photograph by Camilo José Vergara)"
   }, {
     "@id" : "spice:artefact/study-for-floor-ceiling-piece",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/whiteread-rachel",
     "author" : "spice:agent/whiteread-rachel",
-    "schema:dateCreated" : "1993",
-    "schema:url" : "https://imma.ie/collection/study-for-floor-ceiling-piece/",
+    "dateCreated" : "1993",
+    "url" : "https://imma.ie/collection/study-for-floor-ceiling-piece/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/study-for-floor-ceiling-piece",
-    "arco-cd:hasTitle" : "Study for Floor Ceiling Piece"
+    "hasTitle" : "Study for Floor Ceiling Piece"
   }, {
     "@id" : "spice:artefact/study-for-floor-ceiling-piece-2",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/whiteread-rachel",
     "author" : "spice:agent/whiteread-rachel",
-    "schema:dateCreated" : "1993",
-    "schema:url" : "https://imma.ie/collection/study-for-floor-ceiling-piece-2/",
+    "dateCreated" : "1993",
+    "url" : "https://imma.ie/collection/study-for-floor-ceiling-piece-2/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/study-for-floor-ceiling-piece-2",
-    "arco-cd:hasTitle" : "Study for Floor Ceiling Piece"
+    "hasTitle" : "Study for Floor Ceiling Piece"
   }, {
     "@id" : "spice:artefact/study-for-room",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/whiteread-rachel",
     "author" : "spice:agent/whiteread-rachel",
-    "schema:dateCreated" : "1993",
-    "schema:url" : "https://imma.ie/collection/study-for-room/",
+    "dateCreated" : "1993",
+    "url" : "https://imma.ie/collection/study-for-room/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/study-for-room",
-    "arco-cd:hasTitle" : "Study for Room"
+    "hasTitle" : "Study for Room"
   }, {
     "@id" : "spice:artefact/study-for-room-2",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/whiteread-rachel",
     "author" : "spice:agent/whiteread-rachel",
-    "schema:dateCreated" : "1993",
-    "schema:url" : "https://imma.ie/collection/study-for-room-2/",
+    "dateCreated" : "1993",
+    "url" : "https://imma.ie/collection/study-for-room-2/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/study-for-room-2",
-    "arco-cd:hasTitle" : "Study for Room"
+    "hasTitle" : "Study for Room"
   }, {
     "@id" : "spice:artefact/study-for-room-3",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/whiteread-rachel",
     "author" : "spice:agent/whiteread-rachel",
-    "schema:dateCreated" : "1993",
-    "schema:url" : "https://imma.ie/collection/study-for-room-3/",
+    "dateCreated" : "1993",
+    "url" : "https://imma.ie/collection/study-for-room-3/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/study-for-room-3",
-    "arco-cd:hasTitle" : "Study for Room"
+    "hasTitle" : "Study for Room"
   }, {
     "@id" : "spice:artefact/study-of-floor-ceiling-piece",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/whiteread-rachel",
     "author" : "spice:agent/whiteread-rachel",
-    "schema:dateCreated" : "1993",
-    "schema:url" : "https://imma.ie/collection/study-of-floor-ceiling-piece/",
+    "dateCreated" : "1993",
+    "url" : "https://imma.ie/collection/study-of-floor-ceiling-piece/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/study-of-floor-ceiling-piece",
-    "arco-cd:hasTitle" : "Study of Floor Ceiling Piece"
+    "hasTitle" : "Study of Floor Ceiling Piece"
   }, {
     "@id" : "spice:artefact/untitled-60",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/whiteread-rachel",
     "author" : "spice:agent/whiteread-rachel",
-    "schema:dateCreated" : "1993",
-    "schema:url" : "https://imma.ie/collection/untitled-60/",
+    "dateCreated" : "1993",
+    "url" : "https://imma.ie/collection/untitled-60/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-60",
-    "arco-cd:hasTitle" : "Untitled"
+    "hasTitle" : "Untitled"
   }, {
     "@id" : "spice:artefact/untitled-doorknob",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/whiteread-rachel",
     "author" : "spice:agent/whiteread-rachel",
-    "schema:dateCreated" : "1993",
-    "schema:url" : "https://imma.ie/collection/untitled-doorknob/",
+    "dateCreated" : "1993",
+    "url" : "https://imma.ie/collection/untitled-doorknob/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-doorknob",
-    "arco-cd:hasTitle" : "Untitled (Doorknob)"
+    "hasTitle" : "Untitled (Doorknob)"
   }, {
     "@id" : "spice:artefact/untitled-floor",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/whiteread-rachel",
     "author" : "spice:agent/whiteread-rachel",
-    "schema:dateCreated" : "1993",
-    "schema:url" : "https://imma.ie/collection/untitled-floor/",
+    "dateCreated" : "1993",
+    "url" : "https://imma.ie/collection/untitled-floor/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-floor",
-    "arco-cd:hasTitle" : "Untitled (Floor)"
+    "hasTitle" : "Untitled (Floor)"
   }, {
     "@id" : "spice:attribution/demolished-printportfolio",
     "@type" : "arco:AuthorshipAttribution",
@@ -186,48 +186,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

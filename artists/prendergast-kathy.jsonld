@@ -2,101 +2,101 @@
   "@graph" : [ {
     "@id" : "spice:agent/prendergast-kathy",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish artist Kathy Prendergast studied at the National College of Art and Design and the Royal College of Art, London. Incorporating materials including wool, fabric, human hair and found objects, her drawing and sculptural works consider issues of sexuality, identity, mapping and power. Prendergast has exhibited widely nationally and internationally, including a solo exhibition at IMMA in 2000. Her work is represented in public collections worldwide including Dublin City Gallery The Hugh Lane; Tate Gallery, London; the Albright-Knox Museum, Buffalo, New York, and the Contemporary Museum, Honolulu.",
-    "dc:source" : "https://imma.ie/artists/kathy-prendergast/",
-    "schema:birthDate" : "b.1958",
-    "schema:url" : "https://imma.ie/artists/kathy-prendergast/",
-    "rdfs:label" : "Kathy Prendergast"
+    "description" : [ "Irish artist Kathy Prendergast studied at the National College of Art and Design and the Royal College of Art, London. Incorporating materials including wool, fabric, human hair and found objects, her drawing and sculptural works consider issues of sexuality, identity, mapping and power.", "Irish artist Kathy Prendergast studied at the National College of Art and Design and the Royal College of Art, London. Incorporating materials including wool, fabric, human hair and found objects, her drawing and sculptural works consider issues of sexuality, identity, mapping and power. " ],
+    "source" : "https://imma.ie/artists/kathy-prendergast/",
+    "birthDate" : "b.1958",
+    "url" : "https://imma.ie/artists/kathy-prendergast/",
+    "label" : "Kathy Prendergast"
   }, {
     "@id" : "spice:artefact/black-map-series-ukraine",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/prendergast-kathy",
     "author" : "spice:agent/prendergast-kathy",
-    "schema:dateCreated" : "2010",
-    "schema:url" : "https://imma.ie/collection/black-map-series-ukraine/",
+    "dateCreated" : "2010",
+    "url" : "https://imma.ie/collection/black-map-series-ukraine/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/black-map-series-ukraine",
-    "arco-cd:hasTitle" : "BLACK MAP SERIES (Ukraine)"
+    "hasTitle" : "BLACK MAP SERIES (Ukraine)"
   }, {
     "@id" : "spice:artefact/body-maps-series",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/prendergast-kathy",
     "author" : "spice:agent/prendergast-kathy",
-    "schema:dateCreated" : "1983",
-    "schema:url" : "https://imma.ie/collection/body-maps-series/",
+    "dateCreated" : "1983",
+    "url" : "https://imma.ie/collection/body-maps-series/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/body-maps-series",
-    "arco-cd:hasTitle" : "Body Maps Series"
+    "hasTitle" : "Body Maps Series"
   }, {
     "@id" : "spice:artefact/city-drawings",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/prendergast-kathy",
     "author" : "spice:agent/prendergast-kathy",
-    "schema:dateCreated" : "1992",
-    "schema:url" : "https://imma.ie/collection/city-drawings/",
+    "dateCreated" : "1992",
+    "url" : "https://imma.ie/collection/city-drawings/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/city-drawings",
-    "arco-cd:hasTitle" : "City Drawings"
+    "hasTitle" : "City Drawings"
   }, {
     "@id" : "spice:artefact/grave-blanket-version-1",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/prendergast-kathy",
     "author" : "spice:agent/prendergast-kathy",
-    "schema:dateCreated" : "1997",
-    "schema:url" : "https://imma.ie/collection/grave-blanket-version-1/",
+    "dateCreated" : "1997",
+    "url" : "https://imma.ie/collection/grave-blanket-version-1/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/grave-blanket-version-1",
-    "arco-cd:hasTitle" : "Grave Blanket (Version 1)"
+    "hasTitle" : "Grave Blanket (Version 1)"
   }, {
     "@id" : "spice:artefact/melt",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/prendergast-kathy",
     "author" : "spice:agent/prendergast-kathy",
-    "schema:dateCreated" : "2002",
-    "schema:url" : "https://imma.ie/collection/melt/",
+    "dateCreated" : "2002",
+    "url" : "https://imma.ie/collection/melt/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/melt",
-    "arco-cd:hasTitle" : "Melt"
+    "hasTitle" : "Melt"
   }, {
     "@id" : "spice:artefact/minnesota-road-atlas-viii",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/prendergast-kathy",
     "author" : "spice:agent/prendergast-kathy",
-    "schema:dateCreated" : "2005",
-    "schema:url" : "https://imma.ie/collection/minnesota-road-atlas-viii/",
+    "dateCreated" : "2005",
+    "url" : "https://imma.ie/collection/minnesota-road-atlas-viii/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/minnesota-road-atlas-viii",
-    "arco-cd:hasTitle" : "Minnesota Road Atlas VIII"
+    "hasTitle" : "Minnesota Road Atlas VIII"
   }, {
     "@id" : "spice:artefact/smiling-girl-and-sombre-boy",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/prendergast-kathy",
     "author" : "spice:agent/prendergast-kathy",
-    "schema:dateCreated" : "2007",
-    "schema:url" : "https://imma.ie/collection/smiling-girl-and-sombre-boy/",
+    "dateCreated" : "2007",
+    "url" : "https://imma.ie/collection/smiling-girl-and-sombre-boy/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/smiling-girl-and-sombre-boy",
-    "arco-cd:hasTitle" : "Smiling Girl and Sombre Boy"
+    "hasTitle" : "Smiling Girl and Sombre Boy"
   }, {
     "@id" : "spice:artefact/stack",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/prendergast-kathy",
     "author" : "spice:agent/prendergast-kathy",
-    "schema:dateCreated" : "1989",
-    "schema:url" : "https://imma.ie/collection/stack/",
+    "dateCreated" : "1989",
+    "url" : "https://imma.ie/collection/stack/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/stack",
-    "arco-cd:hasTitle" : "Stack"
+    "hasTitle" : "Stack"
   }, {
     "@id" : "spice:artefact/with-brother-with-husband-with-father",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/prendergast-kathy",
     "author" : "spice:agent/prendergast-kathy",
-    "schema:dateCreated" : "2006",
-    "schema:url" : "https://imma.ie/collection/with-brother-with-husband-with-father/",
+    "dateCreated" : "2006",
+    "url" : "https://imma.ie/collection/with-brother-with-husband-with-father/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/with-brother-with-husband-with-father",
-    "arco-cd:hasTitle" : "With brother, with husband, with father"
+    "hasTitle" : "With brother, with husband, with father"
   }, {
     "@id" : "spice:attribution/black-map-series-ukraine",
     "@type" : "arco:AuthorshipAttribution",
@@ -144,48 +144,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

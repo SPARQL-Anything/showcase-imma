@@ -2,37 +2,33 @@
   "@graph" : [ {
     "@id" : "spice:artefact/untitled-141",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Self taught as an artist, Hall was particularly influenced by Paul Klee and Alfred Wallis and Irish artist Patrick Scott. Hall defined the subjective element in art as ‘that which is contributed by the artist from the depths of his own nature’. Untitled is among the largest of his known oeuvre. Anthropomorphized cloud forms appear to stroll and loll about the landscape. Its dreamlike quality and simple clear composition also vaguely recall Belgian artist René Magritte’s form of surrealism.",
-    "dc:source" : "https://imma.ie/collection/untitled-141/",
-    "schema:creditText" : "IMMA Collection: Donation, Patrick Scott, 2013",
+    "description" : "Self taught as an artist, Hall was particularly influenced by Paul Klee and Alfred Wallis and Irish artist Patrick Scott. Hall defined the subjective element in art as ‘that which is contributed by the artist from the depths of his own nature’. Untitled is among the largest of his known oeuvre. Anthropomorphized cloud forms appear to stroll and loll about the landscape. Its dreamlike quality and simple clear composition also vaguely recall Belgian artist René Magritte’s form of surrealism.",
+    "source" : "https://imma.ie/collection/untitled-141/",
+    "creditText" : "IMMA Collection: Donation, Patrick Scott, 2013",
     "image" : "spice:documentation/untitled-141",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Oil on canvas",
-    "schema:size" : "75.8 x 102.4 x 2.2 cm",
-    "arco-cd:hasInventory" : "IMMA.3844"
+    "material" : "Oil on canvas",
+    "size" : "75.8 x 102.4 x 2.2 cm",
+    "hasInventory" : "IMMA.3844"
   }, {
     "@id" : "spice:documentation/untitled-141",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Kenneth Hall, Untitled, 1935, Oil on canvas, 75.8 x 102.4 x 2.2 cm, Collection Irish Museum of Modern Art, Donation, Patrick Scott, 2013 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Kenneth Hall, Untitled, 1935, Oil on canvas, 75.8 x 102.4 x 2.2 cm, Collection Irish Museum of Modern Art, Donation, Patrick Scott, 2013 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -43,20 +39,16 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/the-painters-mother-reading",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "The Painter’s Mother Reading is a 1975 work by Lucian Freud. It is not currently on display in IMMA. ",
-    "dc:source" : "https://imma.ie/collection/the-painters-mother-reading/",
-    "schema:creditText" : "IMMA Collection: On Loan, Private Collection, ",
+    "description" : "The Painter’s Mother Reading is a 1975 work by Lucian Freud. It is not currently on display in IMMA. ",
+    "source" : "https://imma.ie/collection/the-painters-mother-reading/",
+    "creditText" : "IMMA Collection: On Loan, Private Collection, ",
     "image" : "spice:documentation/the-painters-mother-reading",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Oil on canvas",
-    "schema:size" : "65.4 x 50.2 cm Framed: 78.4 x 63 x 4.5 cm",
-    "arco-cd:hasInventory" : "EX.2016.1.33"
+    "material" : "Oil on canvas",
+    "size" : "65.4 x 50.2 cm Framed: 78.4 x 63 x 4.5 cm",
+    "hasInventory" : "EX.2016.1.33"
   }, {
     "@id" : "spice:documentation/the-painters-mother-reading",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Lucian Freud, The Painter’s Mother Reading, 1975, Oil on canvas, 65.4 x 50.2 cm Framed: 78.4 x 63 x 4.5 cm, Collection Irish Museum of Modern Art, On Loan, Private Collection ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Lucian Freud, The Painter’s Mother Reading, 1975, Oil on canvas, 65.4 x 50.2 cm Framed: 78.4 x 63 x 4.5 cm, Collection Irish Museum of Modern Art, On Loan, Private Collection ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2020/12/7579.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2020/12/7579.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/richter-hans",
     "@type" : "foaf:Person",
-    "dc:description" : "German artist and experimental filmmaker Hans Richter (1888-1976) studied at the Academy of Art, Berlin. Richter moved to Zurich in 1916 where he became involved with the Dada movement. From 1918, he collaborated with Viking Eggeling to produce his first experimental films. Richter moved to New York in 1941. A member of the American Abstract Artists Group, he also taught at the City College of New York. Richter’s work is represented in major public collections, including The National Gallery, Berlin; Musée National d’Art Moderne, Paris, and MoMA, New York.",
-    "dc:source" : "https://imma.ie/artists/hans-richter/",
-    "schema:birthDate" : "1888–1976",
-    "schema:url" : "https://imma.ie/artists/hans-richter/",
-    "rdfs:label" : "Hans Richter"
+    "description" : "German artist and experimental filmmaker Hans Richter (1888-1976) studied at the Academy of Art, Berlin. Richter moved to Zurich in 1916 where he became involved with the Dada movement. From 1918, he collaborated with Viking Eggeling to produce his first experimental films. Richter moved to New York in 1941. A member of the American Abstract Artists Group, he also taught at the City College of New York. Richter’s work is represented in major public collections, including The National Gallery, Berlin; Musée National d’Art Moderne, Paris, and MoMA, New York.",
+    "source" : "https://imma.ie/artists/hans-richter/",
+    "birthDate" : "1888–1976",
+    "url" : "https://imma.ie/artists/hans-richter/",
+    "label" : "Hans Richter"
   }, {
     "@id" : "spice:artefact/simple-gestures",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/richter-hans",
     "author" : "spice:agent/richter-hans",
-    "schema:dateCreated" : "1957",
-    "schema:url" : "https://imma.ie/collection/simple-gestures/",
+    "dateCreated" : "1957",
+    "url" : "https://imma.ie/collection/simple-gestures/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/simple-gestures",
-    "arco-cd:hasTitle" : "Simple Gestures"
+    "hasTitle" : "Simple Gestures"
   }, {
     "@id" : "spice:attribution/simple-gestures",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,44 +28,37 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

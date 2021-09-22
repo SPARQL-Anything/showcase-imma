@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/boghosian-varujan",
     "@type" : "foaf:Person",
-    "dc:description" : "American sculptor Varujan Boghosian served in World War II before attending the Vesper George School of Art in Boston. He went on to study under Joseph Albers at Yale School of Art and Architecture. Boghosian is known for his assemblages and reliefs using a variety of objects such as old barn doors, dolls’ heads, tools, boxes, old leather, marbles, photographs and ephemera. His work is in many public collections throughout the United States.",
-    "dc:source" : "https://imma.ie/artists/varujan-boghosian/",
-    "schema:birthDate" : "b.1926",
-    "schema:url" : "https://imma.ie/artists/varujan-boghosian/",
-    "rdfs:label" : "Varujan Boghosian"
+    "description" : "American sculptor Varujan Boghosian served in World War II before attending the Vesper George School of Art in Boston. He went on to study under Joseph Albers at Yale School of Art and Architecture. Boghosian is known for his assemblages and reliefs using a variety of objects such as old barn doors, dolls’ heads, tools, boxes, old leather, marbles, photographs and ephemera. His work is in many public collections throughout the United States.",
+    "source" : "https://imma.ie/artists/varujan-boghosian/",
+    "birthDate" : "b.1926",
+    "url" : "https://imma.ie/artists/varujan-boghosian/",
+    "label" : "Varujan Boghosian"
   }, {
     "@id" : "spice:artefact/4-p-i",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/boghosian-varujan",
     "author" : "spice:agent/boghosian-varujan",
-    "schema:dateCreated" : "1975",
-    "schema:url" : "https://imma.ie/collection/4-p-i/",
+    "dateCreated" : "1975",
+    "url" : "https://imma.ie/collection/4-p-i/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/4-p-i",
-    "arco-cd:hasTitle" : "4 P.I."
+    "hasTitle" : "4 P.I."
   }, {
     "@id" : "spice:attribution/4-p-i",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,40 +28,33 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

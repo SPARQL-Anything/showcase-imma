@@ -2,66 +2,57 @@
   "@graph" : [ {
     "@id" : "spice:artefact/the-robert-ballagh-monograph",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "The Robert Ballagh Monograph is a 2010 work by Robert Ballagh. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/the-robert-ballagh-monograph/",
-    "schema:creditText" : "IMMA Collection: Gift, 2010",
+    "description" : "The Robert Ballagh Monograph is a 2010 work by Robert Ballagh. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/the-robert-ballagh-monograph/",
+    "creditText" : "IMMA Collection: Gift, 2010",
     "image" : "spice:documentation/the-robert-ballagh-monograph",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Limited Edition Monograph with 24 original Giclee prints, archival inks on acid free museum quality paper with each print individually embossed with the artist's own monogram. Hand made solander case. It is protected in a custom made canvas slip which is embroidered with the artist monogram",
-    "schema:version" : "Edition 179/350",
-    "arco-cd:hasInventory" : "IMMA.3294"
+    "material" : "Limited Edition Monograph with 24 original Giclee prints, archival inks on acid free museum quality paper with each print individually embossed with the artist's own monogram. Hand made solander case. It is protected in a custom made canvas slip which is embroidered with the artist monogram",
+    "version" : "Edition 179/350",
+    "hasInventory" : "IMMA.3294"
   }, {
     "@id" : "spice:documentation/the-robert-ballagh-monograph",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Robert Ballagh, The Robert Ballagh Monograph, 2010, Limited Edition Monograph with 24 original Giclee prints, archival inks on acid free museum quality paper with each print individually embossed with the artist's own monogram. Hand made solander case. It is protected in a custom made canvas slip which is embroidered with the artist monogram, Collection Irish Museum of Modern Art, Gift, 2010 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Robert Ballagh, The Robert Ballagh Monograph, 2010, Limited Edition Monograph with 24 original Giclee prints, archival inks on acid free museum quality paper with each print individually embossed with the artist's own monogram. Hand made solander case. It is protected in a custom made canvas slip which is embroidered with the artist monogram, Collection Irish Museum of Modern Art, Gift, 2010 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/5101.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/5101.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

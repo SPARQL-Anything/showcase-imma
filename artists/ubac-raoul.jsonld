@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/ubac-raoul",
     "@type" : "foaf:Person",
-    "dc:description" : "Belgian artist Raoul Ubac (1910-1985) trained as an artist while travelling in Europe between 1928 and 1934. Ubac joined the Surrealist group in Paris in the mid-1930s and contributed photographic works to the Surrealist art journal ‘Minotaure’. His long and varied practice incorporated painting, sculpture, printmaking, tapestry and stained glass. Ubac’s work is represented in major public collections including the Fine Arts Museum of San Francisco; the Art Institute of Chicago; the Minneapolis Institute of Art, and the National Gallery of Art, Washington.",
-    "dc:source" : "https://imma.ie/artists/raoul-ubac/",
-    "schema:birthDate" : "1910–1985",
-    "schema:url" : "https://imma.ie/artists/raoul-ubac/",
-    "rdfs:label" : "Raoul Ubac"
+    "description" : "Belgian artist Raoul Ubac (1910-1985) trained as an artist while travelling in Europe between 1928 and 1934. Ubac joined the Surrealist group in Paris in the mid-1930s and contributed photographic works to the Surrealist art journal ‘Minotaure’. His long and varied practice incorporated painting, sculpture, printmaking, tapestry and stained glass. Ubac’s work is represented in major public collections including the Fine Arts Museum of San Francisco; the Art Institute of Chicago; the Minneapolis Institute of Art, and the National Gallery of Art, Washington.",
+    "source" : "https://imma.ie/artists/raoul-ubac/",
+    "birthDate" : "1910–1985",
+    "url" : "https://imma.ie/artists/raoul-ubac/",
+    "label" : "Raoul Ubac"
   }, {
     "@id" : "spice:artefact/homage-a-braque-2",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ubac-raoul",
     "author" : "spice:agent/ubac-raoul",
-    "schema:dateCreated" : "1962",
-    "schema:url" : "https://imma.ie/collection/homage-a-braque-2/",
+    "dateCreated" : "1962",
+    "url" : "https://imma.ie/collection/homage-a-braque-2/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/homage-a-braque-2",
-    "arco-cd:hasTitle" : "Homage a Braque"
+    "hasTitle" : "Homage a Braque"
   }, {
     "@id" : "spice:attribution/homage-a-braque-2",
     "@type" : "arco:AuthorshipAttribution",
@@ -32,48 +32,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -2,41 +2,41 @@
   "@graph" : [ {
     "@id" : "spice:agent/gingles-graham",
     "@type" : "foaf:Person",
-    "dc:description" : "Graham Gingles studied at Belfast College of Art where he specialised in painting and silver-smithing. He went on to study at Hornsey College of Art and at the British School at Rome. Gingles was appointed an Academician of the Royal Ulster Academy in 1986 and a Member of the Council in 2005. He was awarded the De Veres Award by the RHA in 2010.",
-    "dc:source" : "https://imma.ie/artists/graham-gingles/",
-    "schema:birthDate" : "b.1943",
-    "schema:url" : "https://imma.ie/artists/graham-gingles/",
-    "rdfs:label" : "Graham Gingles"
+    "description" : "Graham Gingles studied at Belfast College of Art where he specialised in painting and silver-smithing. He went on to study at Hornsey College of Art and at the British School at Rome. Gingles was appointed an Academician of the Royal Ulster Academy in 1986 and a Member of the Council in 2005. He was awarded the De Veres Award by the RHA in 2010.",
+    "source" : "https://imma.ie/artists/graham-gingles/",
+    "birthDate" : "b.1943",
+    "url" : "https://imma.ie/artists/graham-gingles/",
+    "label" : "Graham Gingles"
   }, {
     "@id" : "spice:artefact/scene-ii",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/gingles-graham",
     "author" : "spice:agent/gingles-graham",
-    "schema:dateCreated" : "1979",
-    "schema:url" : "https://imma.ie/collection/scene-ii/",
+    "dateCreated" : "1979",
+    "url" : "https://imma.ie/collection/scene-ii/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/scene-ii",
-    "arco-cd:hasTitle" : "Scene II"
+    "hasTitle" : "Scene II"
   }, {
     "@id" : "spice:artefact/symbol-for-a-year-time-place-situation",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/gingles-graham",
     "author" : "spice:agent/gingles-graham",
-    "schema:dateCreated" : "1979",
-    "schema:url" : "https://imma.ie/collection/symbol-for-a-year-time-place-situation/",
+    "dateCreated" : "1979",
+    "url" : "https://imma.ie/collection/symbol-for-a-year-time-place-situation/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/symbol-for-a-year-time-place-situation",
-    "arco-cd:hasTitle" : "Symbol for a Year (Time, Place, Situation)"
+    "hasTitle" : "Symbol for a Year (Time, Place, Situation)"
   }, {
     "@id" : "spice:artefact/tomb-for-g",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/gingles-graham",
     "author" : "spice:agent/gingles-graham",
-    "schema:dateCreated" : "1981",
-    "schema:url" : "https://imma.ie/collection/tomb-for-g/",
+    "dateCreated" : "1981",
+    "url" : "https://imma.ie/collection/tomb-for-g/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/tomb-for-g",
-    "arco-cd:hasTitle" : "Tomb for G"
+    "hasTitle" : "Tomb for G"
   }, {
     "@id" : "spice:attribution/scene-ii",
     "@type" : "arco:AuthorshipAttribution",
@@ -56,24 +56,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -84,24 +81,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

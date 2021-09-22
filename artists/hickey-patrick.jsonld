@@ -2,31 +2,31 @@
   "@graph" : [ {
     "@id" : "spice:agent/hickey-patrick",
     "@type" : "foaf:Person",
-    "dc:description" : "Patrick Hickey was born in India. He moved to Dublin in 1948 and studied Architecture, History of Art and Italian at University College Dublin. Hickey began painting in 1954 and in 1957 he travelled to Urbino, Italy, to study etching and lithography. He was one of the founders of the Graphic Studio Dublin in 1962. Hickey exhibited regularly in Ireland, and retrospectives of his work were held at the Royal Institute of Architects of Ireland and the Graphic Studio Gallery. He taught at University College Dublin and was head of painting at the National College of Art and Design.",
-    "dc:source" : "https://imma.ie/artists/patrick-hickey/",
-    "schema:birthDate" : "1927–1998",
-    "schema:url" : "https://imma.ie/artists/patrick-hickey/",
-    "rdfs:label" : "Patrick Hickey"
+    "description" : "Patrick Hickey was born in India. He moved to Dublin in 1948 and studied Architecture, History of Art and Italian at University College Dublin. Hickey began painting in 1954 and in 1957 he travelled to Urbino, Italy, to study etching and lithography. He was one of the founders of the Graphic Studio Dublin in 1962. Hickey exhibited regularly in Ireland, and retrospectives of his work were held at the Royal Institute of Architects of Ireland and the Graphic Studio Gallery. He taught at University College Dublin and was head of painting at the National College of Art and Design.",
+    "source" : "https://imma.ie/artists/patrick-hickey/",
+    "birthDate" : "1927–1998",
+    "url" : "https://imma.ie/artists/patrick-hickey/",
+    "label" : "Patrick Hickey"
   }, {
     "@id" : "spice:artefact/big-bowl-with-persimmons",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/hickey-patrick",
     "author" : "spice:agent/hickey-patrick",
-    "schema:dateCreated" : "1985",
-    "schema:url" : "https://imma.ie/collection/big-bowl-with-persimmons/",
+    "dateCreated" : "1985",
+    "url" : "https://imma.ie/collection/big-bowl-with-persimmons/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/big-bowl-with-persimmons",
-    "arco-cd:hasTitle" : "Big Bowl with Persimmons"
+    "hasTitle" : "Big Bowl with Persimmons"
   }, {
     "@id" : "spice:artefact/brittas-bay",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/hickey-patrick",
     "author" : "spice:agent/hickey-patrick",
-    "schema:dateCreated" : "1966",
-    "schema:url" : "https://imma.ie/collection/brittas-bay/",
+    "dateCreated" : "1966",
+    "url" : "https://imma.ie/collection/brittas-bay/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/brittas-bay",
-    "arco-cd:hasTitle" : "Brittas Bay"
+    "hasTitle" : "Brittas Bay"
   }, {
     "@id" : "spice:attribution/big-bowl-with-persimmons",
     "@type" : "arco:AuthorshipAttribution",
@@ -42,40 +42,33 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -87,7 +80,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

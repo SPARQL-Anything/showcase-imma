@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/south-africa-memory-series-no-1",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Nick Miller’s ‘South Africa Memory Series’ is based on an intense one month trip to South Africa which the artist undertook in 1991. The series explores the complex nature of a personal encounter with a country in the flux of major political and social change. At the time, the euphoria of Nelson Mandela’s release was subsiding. The African National Congress (ANC) was in the process of transformation from an organisation at war with the ruling apartheid government to a political party negotiating with the government towards accommodation, power sharing and eventual majority rule. These works document a very personal encounter with this country in transition. Travelling through communities in Johannesburg, Cape Town and Durban, Miller visited for the first time the country his parents lift in the 1950s. While there he also visited Kader Asmal, former professor of law at Trinity College Dublin, who had returned from many years of exile in Ireland to serve on the ANC’s constitutional committee. Connections such as this allowed much greater access to aspects of South African Life than would have been possible as an independent visitor.",
-    "dc:source" : "https://imma.ie/collection/south-africa-memory-series-no-1/",
-    "schema:creditText" : "IMMA Collection: Purchase, 1994",
+    "description" : "Nick Miller’s ‘South Africa Memory Series’ is based on an intense one month trip to South Africa which the artist undertook in 1991. The series explores the complex nature of a personal encounter with a country in the flux of major political and social change. At the time, the euphoria of Nelson Mandela’s release was subsiding. The African National Congress (ANC) was in the process of transformation from an organisation at war with the ruling apartheid government to a political party negotiating with the government towards accommodation, power sharing and eventual majority rule. These works document a very personal encounter with this country in transition. Travelling through communities in Johannesburg, Cape Town and Durban, Miller visited for the first time the country his parents lift in the 1950s. While there he also visited Kader Asmal, former professor of law at Trinity College Dublin, who had returned from many years of exile in Ireland to serve on the ANC’s constitutional committee. Connections such as this allowed much greater access to aspects of South African Life than would have been possible as an independent visitor.",
+    "source" : "https://imma.ie/collection/south-africa-memory-series-no-1/",
+    "creditText" : "IMMA Collection: Purchase, 1994",
     "image" : "spice:documentation/south-africa-memory-series-no-1",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Watercolour and wax crayon on paper",
-    "schema:size" : "90 x 91 cm",
-    "arco-cd:hasInventory" : "IMMA.446"
+    "material" : "Watercolour and wax crayon on paper",
+    "size" : "90 x 91 cm",
+    "hasInventory" : "IMMA.446"
   }, {
     "@id" : "spice:documentation/south-africa-memory-series-no-1",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Nick Miller, South Africa Memory Series, no. 1, 1991, Watercolour and wax crayon on paper, 90 x 91 cm, Collection Irish Museum of Modern Art, Purchase, 1994 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Nick Miller, South Africa Memory Series, no. 1, 1991, Watercolour and wax crayon on paper, 90 x 91 cm, Collection Irish Museum of Modern Art, Purchase, 1994 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/482.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/482.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

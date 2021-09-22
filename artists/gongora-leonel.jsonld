@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/gongora-leonel",
     "@type" : "foaf:Person",
-    "dc:description" : "Colombian painter Leonel Góngora studied at the National School of Fine Arts in Bogota. He later studied with Max Beckman at Washington University, St. Louis, before travelling to Europe in 1959, where he lived in Italy for one year. He returned to Mexico City in the early 1960s and was a founding member of Nueva Presencia and Salon Independiente. He moved to the U.S. in 1963 and was a Professor of Painting at the University of Massachusetts for thirty years. In 1986 he won first prize in the National Salon of Artists of Colombia at the National Museum of Bogota.",
-    "dc:source" : "https://imma.ie/artists/leonel-gongora/",
-    "schema:birthDate" : "1932–1999",
-    "schema:url" : "https://imma.ie/artists/leonel-gongora/",
-    "rdfs:label" : "Leonel Góngora"
+    "description" : "Colombian painter Leonel Góngora studied at the National School of Fine Arts in Bogota. He later studied with Max Beckman at Washington University, St. Louis, before travelling to Europe in 1959, where he lived in Italy for one year. He returned to Mexico City in the early 1960s and was a founding member of Nueva Presencia and Salon Independiente. He moved to the U.S. in 1963 and was a Professor of Painting at the University of Massachusetts for thirty years. In 1986 he won first prize in the National Salon of Artists of Colombia at the National Museum of Bogota.",
+    "source" : "https://imma.ie/artists/leonel-gongora/",
+    "birthDate" : "1932–1999",
+    "url" : "https://imma.ie/artists/leonel-gongora/",
+    "label" : "Leonel Góngora"
   }, {
     "@id" : "spice:artefact/diana-etrusca",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/gongora-leonel",
     "author" : "spice:agent/gongora-leonel",
-    "schema:dateCreated" : "1981",
-    "schema:url" : "https://imma.ie/collection/diana-etrusca/",
+    "dateCreated" : "1981",
+    "url" : "https://imma.ie/collection/diana-etrusca/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/diana-etrusca",
-    "arco-cd:hasTitle" : "Diana Etrusca"
+    "hasTitle" : "Diana Etrusca"
   }, {
     "@id" : "spice:attribution/diana-etrusca",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,24 +24,19 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -52,16 +47,14 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

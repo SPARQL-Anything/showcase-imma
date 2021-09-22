@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/untitled-54",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Henry Bond’s print takes the form of a travel review of the resort of Monaco, it outlines the social landscape emphasising exclusivity and luxury, highlighting dress codes, pastimes and fine dining – all hinged on the natural amenity of views of the sea. A witty linguistic trick results when the artist’s surname and ‘Monte Carlo’ are combined to result in ‘Monte Carlo Bond’; a reference to a multiple of the same title produced in 1924 by Marcel Duchamp (1887–1968) with which Duchamp hoped to raise funds to break the bank of Monte Carlo. ",
-    "dc:source" : "https://imma.ie/collection/untitled-54/",
-    "schema:creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1994",
+    "description" : "Henry Bond’s print takes the form of a travel review of the resort of Monaco, it outlines the social landscape emphasising exclusivity and luxury, highlighting dress codes, pastimes and fine dining – all hinged on the natural amenity of views of the sea. A witty linguistic trick results when the artist’s surname and ‘Monte Carlo’ are combined to result in ‘Monte Carlo Bond’; a reference to a multiple of the same title produced in 1924 by Marcel Duchamp (1887–1968) with which Duchamp hoped to raise funds to break the bank of Monte Carlo. ",
+    "source" : "https://imma.ie/collection/untitled-54/",
+    "creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1994",
     "image" : "spice:documentation/untitled-54",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Letterpress printed in black on white art paper",
-    "schema:size" : "47 x 61 cm",
-    "arco-cd:hasInventory" : "L.1244.16 LW"
+    "material" : "Letterpress printed in black on white art paper",
+    "size" : "47 x 61 cm",
+    "hasInventory" : "L.1244.16 LW"
   }, {
     "@id" : "spice:documentation/untitled-54",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Henry Bond, Untitled, 1994, Letterpress printed in black on white art paper, 47 x 61 cm, Collection Irish Museum of Modern Art, Loan, Weltkunst Foundation, 1994 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Henry Bond, Untitled, 1994, Letterpress printed in black on white art paper, 47 x 61 cm, Collection Irish Museum of Modern Art, Loan, Weltkunst Foundation, 1994 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2020/01/1567.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2020/01/1567.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

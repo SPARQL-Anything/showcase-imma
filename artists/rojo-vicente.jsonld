@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/rojo-vicente",
     "@type" : "foaf:Person",
-    "dc:description" : "Originally from Barcelona, Spain, Vincente Rojo studied Ceramics and Sculpture as a young teenager. In 1949 he moved with his father, a political refugee from the Franco Regieme, to Mexico. From then he continued his studies at “La Esmeralda”, the Escuela Nacional de Pintura, Escultura y Grabado. He went on to become a designer for Bellas Artes Magazine from the Universidad Nacional Autónoma de México (UNAM), and Artes de México. In 1991 Rojo was awarded the Golden Medal for the Mérito de Bellas Artes in Spain and the Premio BNacional de Arte and the Mexico Prize for design. He was also awarded an honorary doctorate by UNAM in 1998 in recognition of his contribution to the arts in Mexico.",
-    "dc:source" : "https://imma.ie/artists/vicente-rojo/",
-    "schema:birthDate" : "b.1932",
-    "schema:url" : "https://imma.ie/artists/vicente-rojo/",
-    "rdfs:label" : "Vicente Rojo"
+    "description" : "Originally from Barcelona, Spain, Vincente Rojo studied Ceramics and Sculpture as a young teenager. In 1949 he moved with his father, a political refugee from the Franco Regieme, to Mexico. From then he continued his studies at “La Esmeralda”, the Escuela Nacional de Pintura, Escultura y Grabado. He went on to become a designer for Bellas Artes Magazine from the Universidad Nacional Autónoma de México (UNAM), and Artes de México. In 1991 Rojo was awarded the Golden Medal for the Mérito de Bellas Artes in Spain and the Premio BNacional de Arte and the Mexico Prize for design. He was also awarded an honorary doctorate by UNAM in 1998 in recognition of his contribution to the arts in Mexico.",
+    "source" : "https://imma.ie/artists/vicente-rojo/",
+    "birthDate" : "b.1932",
+    "url" : "https://imma.ie/artists/vicente-rojo/",
+    "label" : "Vicente Rojo"
   }, {
     "@id" : "spice:artefact/senal-t",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/rojo-vicente",
     "author" : "spice:agent/rojo-vicente",
-    "schema:dateCreated" : "1972",
-    "schema:url" : "https://imma.ie/collection/senal-t/",
+    "dateCreated" : "1972",
+    "url" : "https://imma.ie/collection/senal-t/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/senal-t",
-    "arco-cd:hasTitle" : "Señal T"
+    "hasTitle" : "Señal T"
   }, {
     "@id" : "spice:attribution/senal-t",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,24 +24,19 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -52,16 +47,14 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

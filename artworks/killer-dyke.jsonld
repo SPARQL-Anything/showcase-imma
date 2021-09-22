@@ -1,0 +1,71 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/killer-dyke",
+    "@type" : "schema:CreativeWork",
+    "description" : "This work is part of a series called Pulp Fiction (2016-2020), which focuses on the representation of otherness and queer, lesbian identities as presented through the retro genre of lesbian under-the-counter ‘Pulp’ fiction. These pocket paperbacks mushroomed in production in the early 40’s to late 60’s after the introduction and enforcement of the Hays production code in the American film industry in 1930 and parallel to the publishing of the Kinsey Report in the 40’s. Before the 60’s sexual revolution such paperbacks provided a peak into perceived scandalous, erotic encounters of the same sex. Often the featured female characters were depicted as sexual predators into Satanism, witchcraft, BDSM, or even more fantastical grotesques that even came from another planet.",
+    "source" : "https://imma.ie/collection/killer-dyke/",
+    "creditText" : "IMMA Collection: Purchase, 2021, 2021",
+    "image" : "spice:documentation/killer-dyke",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "material" : "black and white colouring pencil on rose pink tinted Canson paper",
+    "size" : "65 x 50 cm",
+    "hasInventory" : "IMMA.4251"
+  }, {
+    "@id" : "spice:documentation/killer-dyke",
+    "@type" : "schema:ImageObject",
+    "caption" : "Breda Lynch, Killer Dyke&nbsp;, 2016, black and white colouring pencil on rose pink tinted Canson paper, 65 x 50 cm, Collection Irish Museum of Modern Art, Purchase, 2021, 2021 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "url" : "https://imma.ie/wp-content/uploads/2021/07/9552.jpg"
+  } ],
+  "@context" : {
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

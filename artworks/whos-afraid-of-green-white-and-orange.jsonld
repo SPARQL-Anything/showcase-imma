@@ -2,71 +2,61 @@
   "@graph" : [ {
     "@id" : "spice:artefact/whos-afraid-of-green-white-and-orange",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "”Who’s afraid of Green White and Orange” is a 2011 work by Les Levine. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/whos-afraid-of-green-white-and-orange/",
-    "schema:creditText" : "IMMA Collection: Donated by Barbara and Donald Seligman, 2014",
+    "description" : "”Who’s afraid of Green White and Orange” is a 2011 work by Les Levine. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/whos-afraid-of-green-white-and-orange/",
+    "creditText" : "IMMA Collection: Donated by Barbara and Donald Seligman, 2014",
     "image" : "spice:documentation/whos-afraid-of-green-white-and-orange",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Fuji crystal metallic print",
-    "schema:size" : "60.96 x 91.44 cm",
-    "schema:version" : "Edition AP1",
-    "arco-cd:hasInventory" : "IMMA.3830"
+    "material" : "Fuji crystal metallic print",
+    "size" : "60.96 x 91.44 cm",
+    "version" : "Edition AP1",
+    "hasInventory" : "IMMA.3830"
   }, {
     "@id" : "spice:documentation/whos-afraid-of-green-white-and-orange",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Les Levine, ”Who’s afraid of Green White and Orange”, 2011, Fuji crystal metallic print, 60.96 x 91.44 cm, Collection Irish Museum of Modern Art, Donated by Barbara and Donald Seligman, 2014 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Les Levine, ”Who’s afraid of Green White and Orange”, 2011, Fuji crystal metallic print, 60.96 x 91.44 cm, Collection Irish Museum of Modern Art, Donated by Barbara and Donald Seligman, 2014 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2020/02/7229.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2020/02/7229.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

@@ -2,20 +2,20 @@
   "@graph" : [ {
     "@id" : "spice:agent/carucci-elinor",
     "@type" : "foaf:Person",
-    "dc:source" : "https://imma.ie/artists/elinor-carucci/",
-    "schema:birthDate" : "b.1971",
-    "schema:url" : "https://imma.ie/artists/elinor-carucci/",
-    "rdfs:label" : "Elinor Carucci"
+    "source" : "https://imma.ie/artists/elinor-carucci/",
+    "birthDate" : "b.1971",
+    "url" : "https://imma.ie/artists/elinor-carucci/",
+    "label" : "Elinor Carucci"
   }, {
     "@id" : "spice:artefact/grandma-nataly",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/carucci-elinor",
     "author" : "spice:agent/carucci-elinor",
-    "schema:dateCreated" : "1999",
-    "schema:url" : "https://imma.ie/collection/grandma-nataly/",
+    "dateCreated" : "1999",
+    "url" : "https://imma.ie/collection/grandma-nataly/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/grandma-nataly",
-    "arco-cd:hasTitle" : "Grandma &amp; Nataly"
+    "hasTitle" : "Grandma &amp; Nataly"
   }, {
     "@id" : "spice:attribution/grandma-nataly",
     "@type" : "arco:AuthorshipAttribution",
@@ -27,36 +27,30 @@
       "@type" : "@id"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -68,7 +62,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

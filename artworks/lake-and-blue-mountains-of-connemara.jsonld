@@ -1,0 +1,71 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/lake-and-blue-mountains-of-connemara",
+    "@type" : "schema:CreativeWork",
+    "description" : "Lake and Blue Mountains of Connemara is a work by Paul Henry. It is not currently on display in IMMA. It is currently out on loan. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/lake-and-blue-mountains-of-connemara/",
+    "creditText" : "IMMA Collection: Heritage Gift from the McClelland Collection by Noel and Anne Marie Smyth, 2004",
+    "image" : "spice:documentation/lake-and-blue-mountains-of-connemara",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "material" : "Oil on canvas",
+    "size" : "40 x 60 cm",
+    "hasInventory" : "IMMA.1178 MCCL"
+  }, {
+    "@id" : "spice:documentation/lake-and-blue-mountains-of-connemara",
+    "@type" : "schema:ImageObject",
+    "caption" : "Paul Henry, Lake and Blue Mountains of Connemara, Oil on canvas, 40 x 60 cm, Collection Irish Museum of Modern Art, Heritage Gift from the McClelland Collection by Noel and Anne Marie Smyth, 2004 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "url" : "https://imma.ie/wp-content/uploads/2021/05/1352.jpg"
+  } ],
+  "@context" : {
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

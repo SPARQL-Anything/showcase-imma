@@ -2,71 +2,61 @@
   "@graph" : [ {
     "@id" : "spice:artefact/yagul-light-of-the-leaves-5",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Yagul – Light of the Leaves is a 1999 work by Jan Hendrix. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/yagul-light-of-the-leaves-5/",
-    "schema:creditText" : "IMMA Collection: Purchase, 1999",
+    "description" : "Yagul – Light of the Leaves is a 1999 work by Jan Hendrix. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/yagul-light-of-the-leaves-5/",
+    "creditText" : "IMMA Collection: Purchase, 1999",
     "image" : "spice:documentation/yagul-light-of-the-leaves-5",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Screenprint",
-    "schema:size" : "37.1 x 25.4 cm",
-    "schema:version" : "Edition 1/15",
-    "arco-cd:hasInventory" : "IMMA.1111.5"
+    "material" : "Screenprint",
+    "size" : "37.1 x 25.4 cm",
+    "version" : "Edition 1/15",
+    "hasInventory" : "IMMA.1111.5"
   }, {
     "@id" : "spice:documentation/yagul-light-of-the-leaves-5",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Jan Hendrix, Yagul – Light of the Leaves, 1999, Screenprint, 37.1 x 25.4 cm, Collection Irish Museum of Modern Art, Purchase, 1999 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Jan Hendrix, Yagul – Light of the Leaves, 1999, Screenprint, 37.1 x 25.4 cm, Collection Irish Museum of Modern Art, Purchase, 1999 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/758.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/758.jpg"
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

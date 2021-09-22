@@ -2,66 +2,61 @@
   "@graph" : [ {
     "@id" : "spice:artefact/black-sea-inebolu",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Black Sea, Inebolu is a 1991 work by Hiroshi Sugimoto. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/black-sea-inebolu/",
+    "description" : "Black Sea, Inebolu is a 1991 work by Hiroshi Sugimoto. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/black-sea-inebolu/",
+    "creditText" : "IMMA Collection: Heritage Gift, Kerlin Gallery Collection, 2018, 2018",
     "image" : "spice:documentation/black-sea-inebolu",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "black and white photograph",
-    "schema:size" : "Framed: 65.7 x 83.5 x 3.4 cm",
-    "schema:version" : "Edition 11/25",
-    "arco-cd:hasInventory" : "IMMA.4077"
+    "material" : "black and white photograph",
+    "size" : "Framed: 65.7 x 83.5 x 3.4 cm",
+    "version" : "Edition 11/25",
+    "hasInventory" : "IMMA.4077"
   }, {
     "@id" : "spice:documentation/black-sea-inebolu",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Hiroshi Sugimoto, Black Sea, Inebolu, 1991, black and white photograph, Framed: 65.7 x 83.5 x 3.4 cm, Collection Irish Museum of Modern Art, 2018 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Hiroshi Sugimoto, Black Sea, Inebolu, 1991, black and white photograph, Framed: 65.7 x 83.5 x 3.4 cm, Collection Irish Museum of Modern Art, Heritage Gift, Kerlin Gallery Collection, 2018, 2018 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2021/03/9099.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2021/05/9099.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
-    "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
-    },
-    "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    "creditText" : {
+      "@id" : "http://schema.org/creditText"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
-    },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "version" : {
+      "@id" : "http://schema.org/version"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
-    "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    "size" : {
+      "@id" : "http://schema.org/size"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

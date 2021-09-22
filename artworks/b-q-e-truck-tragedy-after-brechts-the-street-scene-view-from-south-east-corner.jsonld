@@ -2,66 +2,61 @@
   "@graph" : [ {
     "@id" : "spice:artefact/b-q-e-truck-tragedy-after-brechts-the-street-scene-view-from-south-east-corner",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "“B.Q.E. Truck Tragedy” after Brecht’s “The street scene”. View from south east corner”. is a 2003 work by Gerard Byrne. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/b-q-e-truck-tragedy-after-brechts-the-street-scene-view-from-south-east-corner/",
+    "description" : "“B.Q.E. Truck Tragedy” after Brecht’s “The street scene”. View from south east corner”. is a 2003 work by Gerard Byrne. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/b-q-e-truck-tragedy-after-brechts-the-street-scene-view-from-south-east-corner/",
+    "creditText" : "IMMA Collection: Heritage Gift, Kerlin Gallery Collection, 2018, 2018",
     "image" : "spice:documentation/b-q-e-truck-tragedy-after-brechts-the-street-scene-view-from-south-east-corner",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Fuji crystal archive print",
-    "schema:size" : "53 x 63 cm Framed: 53.4 x 63.2 x 3.4 cm",
-    "schema:version" : "Edition 1/4",
-    "arco-cd:hasInventory" : "IMMA.4067"
+    "material" : "Fuji crystal archive print",
+    "size" : "53 x 63 cm Framed: 53.4 x 63.2 x 3.4 cm",
+    "version" : "Edition 1/4",
+    "hasInventory" : "IMMA.4067"
   }, {
     "@id" : "spice:documentation/b-q-e-truck-tragedy-after-brechts-the-street-scene-view-from-south-east-corner",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Gerard Byrne, “B.Q.E. Truck Tragedy” after Brecht’s “The street scene”. View from south east corner”., 2003, Fuji crystal archive print, 53 x 63 cm Framed: 53.4 x 63.2 x 3.4 cm, Collection Irish Museum of Modern Art, 2018 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Gerard Byrne, “B.Q.E. Truck Tragedy” after Brecht’s “The street scene”. View from south east corner”., 2003, Fuji crystal archive print, 53 x 63 cm Framed: 53.4 x 63.2 x 3.4 cm, Collection Irish Museum of Modern Art, Heritage Gift, Kerlin Gallery Collection, 2018, 2018 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2021/03/9086.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2021/05/9086.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
-    "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
-    },
-    "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
-    },
-    "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
-    },
-    "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
-    "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
+    },
+    "version" : {
+      "@id" : "http://schema.org/version"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

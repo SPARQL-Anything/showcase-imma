@@ -1,0 +1,77 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/van-der-grijn-clea",
+    "@type" : "foaf:Person",
+    "description" : [ "Cléa van der Grijn studied Fine Art in the National College of Ireland and now lives and works in Sligo. In 2015, Cléa had a 4 month residency in Mexico which marked major turning point in her practice. She created a large scale experimental installation called Reconstructing Memory, which was exhibited in The Model Sligo (2015), Limerick City Gallery of Art, Limerick, Rochester Arts Centre USA and The Solomon, Dublin. (2016).  The process of her studio practice is multifaceted. This is demonstrated through painting, film, installation, sculpture, audio and writing, Fact and fiction. Her work becoming a construct rather than a deconstruct.", "Cléa van der Grijn’s practice deals with unraveling the complexities associated around the culture of death and reconstructed memory, researching the myth of repressed memory. Re-imagining and process all become part her narrative, understanding the rational, social and emotional circumstances that become constructed around memory and time. " ],
+    "source" : "https://imma.ie/artists/clea-van-der-grijn/",
+    "url" : "https://imma.ie/artists/clea-van-der-grijn/",
+    "label" : "Cléa van der Grijn"
+  }, {
+    "@id" : "spice:artefact/jump",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/van-der-grijn-clea",
+    "author" : "spice:agent/van-der-grijn-clea",
+    "dateCreated" : "2018",
+    "url" : "https://imma.ie/collection/jump/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/jump",
+    "hasTitle" : "Jump"
+  }, {
+    "@id" : "spice:attribution/jump",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/van-der-grijn-clea"
+  } ],
+  "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

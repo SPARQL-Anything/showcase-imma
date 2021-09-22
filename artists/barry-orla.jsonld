@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/barry-orla",
     "@type" : "foaf:Person",
-    "dc:description" : "Born in Wexford, Orla Barry creates written, photographic, film and performance work driven by the tension between visual and literary representation. From 1995 Barry was based in Belgium for an extended period but still gets the inspiration for and creates most of her work in Ireland. She has exhibited internationally and nationally including a solo exhibition in IMMA in 2006.",
-    "dc:source" : "https://imma.ie/artists/orla-barry/",
-    "schema:birthDate" : "b.1969",
-    "schema:url" : "https://imma.ie/artists/orla-barry/",
-    "rdfs:label" : "Orla Barry"
+    "description" : "Born in Wexford, Orla Barry creates written, photographic, film and performance work driven by the tension between visual and literary representation. From 1995 Barry was based in Belgium for an extended period but still gets the inspiration for and creates most of her work in Ireland. She has exhibited internationally and nationally including a solo exhibition in IMMA in 2006.",
+    "source" : "https://imma.ie/artists/orla-barry/",
+    "birthDate" : "b.1969",
+    "url" : "https://imma.ie/artists/orla-barry/",
+    "label" : "Orla Barry"
   }, {
     "@id" : "spice:artefact/portable-stones",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/barry-orla",
     "author" : "spice:agent/barry-orla",
-    "schema:dateCreated" : "2005",
-    "schema:url" : "https://imma.ie/collection/portable-stones/",
+    "dateCreated" : "2005",
+    "url" : "https://imma.ie/collection/portable-stones/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/portable-stones",
-    "arco-cd:hasTitle" : "Portable Stones"
+    "hasTitle" : "Portable Stones"
   }, {
     "@id" : "spice:attribution/portable-stones",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,24 +28,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -56,24 +53,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

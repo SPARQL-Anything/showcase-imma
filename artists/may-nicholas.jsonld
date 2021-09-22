@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/may-nicholas",
     "@type" : "foaf:Person",
-    "dc:description" : "Northern Irish artist Nicholas May attended Bath Academy of Art and Goldsmiths College, London. May’s work was included in the ICA New Contemporaries Exhibition in London in 1989. He held his first solo show the following year at U7 Contemporary Art, London, and has exhibited worldwide since the early 1990s. His work is represented in major collections including that of Tate Gallery, London; Saatchi Collection, London; E&amp;Y, Tokyo; and the Arts Council of Great Britain.",
-    "dc:source" : "https://imma.ie/artists/nicholas-may/",
-    "schema:birthDate" : "b.1962",
-    "schema:url" : "https://imma.ie/artists/nicholas-may/",
-    "rdfs:label" : "Nicholas May"
+    "description" : "Northern Irish artist Nicholas May attended Bath Academy of Art and Goldsmiths College, London. May’s work was included in the ICA New Contemporaries Exhibition in London in 1989. He held his first solo show the following year at U7 Contemporary Art, London, and has exhibited worldwide since the early 1990s. His work is represented in major collections including that of Tate Gallery, London; Saatchi Collection, London; E&amp;Y, Tokyo; and the Arts Council of Great Britain.",
+    "source" : "https://imma.ie/artists/nicholas-may/",
+    "birthDate" : "b.1962",
+    "url" : "https://imma.ie/artists/nicholas-may/",
+    "label" : "Nicholas May"
   }, {
     "@id" : "spice:artefact/anabatic-print-from-london-portfolio",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/may-nicholas",
     "author" : "spice:agent/may-nicholas",
-    "schema:dateCreated" : "1992",
-    "schema:url" : "https://imma.ie/collection/anabatic-print-from-london-portfolio/",
+    "dateCreated" : "1992",
+    "url" : "https://imma.ie/collection/anabatic-print-from-london-portfolio/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/anabatic-print-from-london-portfolio",
-    "arco-cd:hasTitle" : "Anabatic Print from ‘London Portfolio’"
+    "hasTitle" : "Anabatic Print from ‘London Portfolio’"
   }, {
     "@id" : "spice:attribution/anabatic-print-from-london-portfolio",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,24 +24,19 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -52,16 +47,14 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

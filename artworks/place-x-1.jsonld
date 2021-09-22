@@ -2,20 +2,20 @@
   "@graph" : [ {
     "@id" : "spice:artefact/place-x-1",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Place X 1 is a 2001 work by Daphne Wright. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/place-x-1/",
-    "schema:creditText" : "IMMA Collection: Purchased, Art for Amnesty, 2004",
+    "description" : "Place X 1 is a 2001 work by Daphne Wright. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/place-x-1/",
+    "creditText" : "IMMA Collection: Purchased, Art for Amnesty, 2004",
     "image" : "spice:documentation/place-x-1",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Photopolymer intaglio print",
-    "schema:size" : "54 x 72 cm",
-    "schema:version" : "Edition Artist's proof",
-    "arco-cd:hasInventory" : "IMMA.4015"
+    "material" : "Photopolymer intaglio print",
+    "size" : "54 x 72 cm",
+    "version" : "Edition Artist's proof",
+    "hasInventory" : "IMMA.4015"
   }, {
     "@id" : "spice:documentation/place-x-1",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Daphne Wright, Place X 1, 2001, Photopolymer intaglio print, 54 x 72 cm, Collection Irish Museum of Modern Art, Purchased, Art for Amnesty, 2004 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Daphne Wright, Place X 1, 2001, Photopolymer intaglio print, 54 x 72 cm, Collection Irish Museum of Modern Art, Purchased, Art for Amnesty, 2004 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
@@ -24,44 +24,35 @@
       "@type" : "@id"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

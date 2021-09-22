@@ -2,37 +2,33 @@
   "@graph" : [ {
     "@id" : "spice:artefact/untitled-60",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Untitled is a 1993 work by Rachel Whiteread. It is not currently on display in IMMA. ",
-    "dc:source" : "https://imma.ie/collection/untitled-60/",
-    "schema:creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1994",
+    "description" : "Untitled is a 1993 work by Rachel Whiteread. It is not currently on display in IMMA. ",
+    "source" : "https://imma.ie/collection/untitled-60/",
+    "creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1994",
     "image" : "spice:documentation/untitled-60",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Correction fluid and ink on tracing paper mounted on graph paper",
-    "schema:size" : "46 x 61 cm",
-    "arco-cd:hasInventory" : "L.1253.1 LW"
+    "material" : "Correction fluid and ink on tracing paper mounted on graph paper",
+    "size" : "46 x 61 cm",
+    "hasInventory" : "L.1253.1 LW"
   }, {
     "@id" : "spice:documentation/untitled-60",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Rachel Whiteread, Untitled, 1993, Correction fluid and ink on tracing paper mounted on graph paper, 46 x 61 cm, Collection Irish Museum of Modern Art, Loan, Weltkunst Foundation, 1994 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Rachel Whiteread, Untitled, 1993, Correction fluid and ink on tracing paper mounted on graph paper, 46 x 61 cm, Collection Irish Museum of Modern Art, Loan, Weltkunst Foundation, 1994 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -43,20 +39,16 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

@@ -1,30 +1,26 @@
 {
   "@id" : "spice:agent/banai-nuit",
   "@type" : "foaf:Person",
-  "dc:description" : "Nuit Banai is an art historian and critic who received her PhD in Art History from Columbia University before joining the Department of Visual and Critical Studies at Tufts University/School of the Museum of Fine Arts, Boston, in 2007. Her research interests focus on the post-war and contemporary constructions of new publics through the visual arts, especially in Europe and the Middle East. She has published widely, including commissioned essays for the Schirn Kunshalle in Frankfurt, Centre Georges Pompidou and Musee d’Art Moderne in Paris, Barbican Art Gallery in London, Artists Space, Bronx Museum for the Arts, the American Society in New York City and Documenta in Kassel. She served as Assistant Editor of the journal RES: Anthropology and Aesthetics (2002-2005), is a regular contributor to Artforum International and a Contributing Editor to Art Papers. Her book on Yves Klein is forthcoming in the Critical Lives series published by Reaktion Books and she is currently developing a book project titled Imagining Europe: From Nation State to Border State.",
-  "dc:source" : "https://imma.ie/artists/nuit-banai/",
-  "schema:url" : "https://imma.ie/artists/nuit-banai/",
-  "rdfs:label" : "Nuit Banai",
+  "description" : "Nuit Banai is an art historian and critic who received her PhD in Art History from Columbia University before joining the Department of Visual and Critical Studies at Tufts University/School of the Museum of Fine Arts, Boston, in 2007. Her research interests focus on the post-war and contemporary constructions of new publics through the visual arts, especially in Europe and the Middle East. She has published widely, including commissioned essays for the Schirn Kunshalle in Frankfurt, Centre Georges Pompidou and Musee d’Art Moderne in Paris, Barbican Art Gallery in London, Artists Space, Bronx Museum for the Arts, the American Society in New York City and Documenta in Kassel. She served as Assistant Editor of the journal RES: Anthropology and Aesthetics (2002-2005), is a regular contributor to Artforum International and a Contributing Editor to Art Papers. Her book on Yves Klein is forthcoming in the Critical Lives series published by Reaktion Books and she is currently developing a book project titled Imagining Europe: From Nation State to Border State.",
+  "source" : "https://imma.ie/artists/nuit-banai/",
+  "url" : "https://imma.ie/artists/nuit-banai/",
+  "label" : "Nuit Banai",
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

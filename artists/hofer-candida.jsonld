@@ -2,31 +2,31 @@
   "@graph" : [ {
     "@id" : "spice:agent/hofer-candida",
     "@type" : "foaf:Person",
-    "dc:description" : "German artist Candida Höfer is a leading figure in conceptual art photography. She attended the Kunstakademie Düsseldorf, where she studied under Bernd and Hilla Becher. Höfer specialises in large format photographs of empty interiors and social spaces, particularly museums and libraries. She represented Germany at the 2003 Venice Biennale. Höfer’s photographs of the Long Room in the Old Library of Trinity College, the Central Catholic Library, the National Library of Ireland and the Chapel and Great Hall of the Royal Hospital Kilmainham were exhibited at IMMA in 2006.",
-    "dc:source" : "https://imma.ie/artists/candida-hofer/",
-    "schema:birthDate" : "b.1944",
-    "schema:url" : "https://imma.ie/artists/candida-hofer/",
-    "rdfs:label" : "Candida Höfer"
+    "description" : "German artist Candida Höfer is a leading figure in conceptual art photography. She attended the Kunstakademie Düsseldorf, where she studied under Bernd and Hilla Becher. Höfer specialises in large format photographs of empty interiors and social spaces, particularly museums and libraries. She represented Germany at the 2003 Venice Biennale. Höfer’s photographs of the Long Room in the Old Library of Trinity College, the Central Catholic Library, the National Library of Ireland and the Chapel and Great Hall of the Royal Hospital Kilmainham were exhibited at IMMA in 2006.",
+    "source" : "https://imma.ie/artists/candida-hofer/",
+    "birthDate" : "b.1944",
+    "url" : "https://imma.ie/artists/candida-hofer/",
+    "label" : "Candida Höfer"
   }, {
     "@id" : "spice:artefact/irish-museum-of-modern-art-dublin-iii-2004",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/hofer-candida",
     "author" : "spice:agent/hofer-candida",
-    "schema:dateCreated" : "2004",
-    "schema:url" : "https://imma.ie/collection/irish-museum-of-modern-art-dublin-iii-2004/",
+    "dateCreated" : "2004",
+    "url" : "https://imma.ie/collection/irish-museum-of-modern-art-dublin-iii-2004/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/irish-museum-of-modern-art-dublin-iii-2004",
-    "arco-cd:hasTitle" : "Irish Museum of Modern Art Dublin III 2004"
+    "hasTitle" : "Irish Museum of Modern Art Dublin III 2004"
   }, {
     "@id" : "spice:artefact/trinity-college-library-i",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/hofer-candida",
     "author" : "spice:agent/hofer-candida",
-    "schema:dateCreated" : "2004",
-    "schema:url" : "https://imma.ie/collection/trinity-college-library-i/",
+    "dateCreated" : "2004",
+    "url" : "https://imma.ie/collection/trinity-college-library-i/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/trinity-college-library-i",
-    "arco-cd:hasTitle" : "Trinity College Library I"
+    "hasTitle" : "Trinity College Library I"
   }, {
     "@id" : "spice:attribution/irish-museum-of-modern-art-dublin-iii-2004",
     "@type" : "arco:AuthorshipAttribution",
@@ -42,24 +42,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -70,24 +67,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -2,37 +2,33 @@
   "@graph" : [ {
     "@id" : "spice:artefact/homage-a-david-tribute-to-jacques-louis-david",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Homage à David/ Tribute to Jacques Louis David is a 1970 work by Robert Ballagh. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/homage-a-david-tribute-to-jacques-louis-david/",
-    "schema:creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
+    "description" : "Homage à David/ Tribute to Jacques Louis David is a 1970 work by Robert Ballagh. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/homage-a-david-tribute-to-jacques-louis-david/",
+    "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/homage-a-david-tribute-to-jacques-louis-david",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Acrylic on canvas",
-    "schema:size" : "167.8 x 111.8 cm",
-    "arco-cd:hasInventory" : "IMMA.130 GL"
+    "material" : "Acrylic on canvas",
+    "size" : "167.8 x 111.8 cm",
+    "hasInventory" : "IMMA.130 GL"
   }, {
     "@id" : "spice:documentation/homage-a-david-tribute-to-jacques-louis-david",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Robert Ballagh, Homage à David/ Tribute to Jacques Louis David, 1970, Acrylic on canvas, 167.8 x 111.8 cm, Collection Irish Museum of Modern Art, Gordon Lambert Trust, 1992 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Robert Ballagh, Homage à David/ Tribute to Jacques Louis David, 1970, Acrylic on canvas, 167.8 x 111.8 cm, Collection Irish Museum of Modern Art, Gordon Lambert Trust, 1992 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -43,20 +39,16 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

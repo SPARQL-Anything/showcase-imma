@@ -1,35 +1,72 @@
 {
-  "@id" : "spice:agent/group-the-otolith",
-  "@type" : "foaf:Person",
-  "dc:description" : [ "The Otolith Group was established in London in 2002. Anjalika Sagar (London, 1968) and Kodwo Eshun (London, 1966) have been leading experimentalists in the fields of documentary and filmic essays, known both for their own work and for their support and exploration of other filmic practices by programming and organizing discursive events, much of which is done under the name The Otolith Collective. Through these projects, The Otolith Group challenges a white modernist mode of artistic production and expands the global view of art.", "The Otolith Group was established in London in 2002. Kodwo Eshun (London, 1966) and Anjalika Sagar (London, 1968) have been leading experimentalists in the fields of documentary and filmic essays, known both for their own work and for their support and exploration of other filmic practices by programming and organizing discursive events, much of which is done under the name the Otolith Collective. " ],
-  "dc:source" : "https://imma.ie/artists/the-otolith-group/",
-  "schema:birthDate" : "b.2002",
-  "schema:url" : "https://imma.ie/artists/the-otolith-group/",
-  "rdfs:label" : "The Otolith Group",
+  "@graph" : [ {
+    "@id" : "spice:agent/group-the-otolith",
+    "@type" : "foaf:Person",
+    "description" : [ "The Otolith Group was established in London in 2002. Anjalika Sagar (London, 1968) and Kodwo Eshun (London, 1966) have been leading experimentalists in the fields of documentary and filmic essays, known both for their own work and for their support and exploration of other filmic practices by programming and organizing discursive events, much of which is done under the name The Otolith Collective. Through these projects, The Otolith Group challenges a white modernist mode of artistic production and expands the global view of art.", "The Otolith Group was established in London in 2002. Kodwo Eshun (London, 1966) and Anjalika Sagar (London, 1968) have been leading experimentalists in the fields of documentary and filmic essays, known both for their own work and for their support and exploration of other filmic practices by programming and organizing discursive events, much of which is done under the name the Otolith Collective. " ],
+    "source" : "https://imma.ie/artists/the-otolith-group/",
+    "birthDate" : "b.2002",
+    "url" : "https://imma.ie/artists/the-otolith-group/",
+    "label" : "The Otolith Group"
+  }, {
+    "@id" : "spice:artefact/infinity-minus-infinity",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/group-the-otolith",
+    "author" : "spice:agent/group-the-otolith",
+    "dateCreated" : "2019",
+    "url" : "https://imma.ie/collection/infinity-minus-infinity/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/infinity-minus-infinity",
+    "hasTitle" : "INFINITY Minus Infinity"
+  }, {
+    "@id" : "spice:attribution/infinity-minus-infinity",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/group-the-otolith"
+  } ],
   "@context" : {
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
     },
-    "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

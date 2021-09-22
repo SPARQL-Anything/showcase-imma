@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/golding-john",
     "@type" : "foaf:Person",
-    "dc:description" : "British painter, art historian and curator John Golding was born in Hastings, England and raised in Mexico. He received his BA in Art and Classical Archaeology at the University of Toronto before returning to England where he received his Masters and Doctorate in Art History at the Courtauld Institute, London. Golding was an international specialist on Cubism and was widely published on the subject. He was senior curator for two ground-breaking Picasso exhibitions at Tate Modern in 1994 and 2002. He also taught at the Courtauld Institute and the Royal College of Art.",
-    "dc:source" : "https://imma.ie/artists/john-golding/",
-    "schema:birthDate" : "1929–2012",
-    "schema:url" : "https://imma.ie/artists/john-golding/",
-    "rdfs:label" : "John Golding"
+    "description" : "British painter, art historian and curator John Golding was born in Hastings, England and raised in Mexico. He received his BA in Art and Classical Archaeology at the University of Toronto before returning to England where he received his Masters and Doctorate in Art History at the Courtauld Institute, London. Golding was an international specialist on Cubism and was widely published on the subject. He was senior curator for two ground-breaking Picasso exhibitions at Tate Modern in 1994 and 2002. He also taught at the Courtauld Institute and the Royal College of Art.",
+    "source" : "https://imma.ie/artists/john-golding/",
+    "birthDate" : "1929–2012",
+    "url" : "https://imma.ie/artists/john-golding/",
+    "label" : "John Golding"
   }, {
     "@id" : "spice:artefact/drawing-7917",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/golding-john",
     "author" : "spice:agent/golding-john",
-    "schema:dateCreated" : "1979",
-    "schema:url" : "https://imma.ie/collection/drawing-7917/",
+    "dateCreated" : "1979",
+    "url" : "https://imma.ie/collection/drawing-7917/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/drawing-7917",
-    "arco-cd:hasTitle" : "Drawing 7917"
+    "hasTitle" : "Drawing 7917"
   }, {
     "@id" : "spice:attribution/drawing-7917",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,24 +28,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -56,24 +53,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

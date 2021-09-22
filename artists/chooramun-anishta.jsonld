@@ -1,0 +1,91 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/chooramun-anishta",
+    "@type" : "foaf:Person",
+    "description" : [ "Born in Mauritius, Anishta Chooramun currently lives, works and studies in Dublin. A recent graduate from IADT Dún Laoghaire with a BA (Hons) in Art, Chooramun is currently completing a MA in Art Research and collaboration (ARC).  Chooramun was awarded the RHA Graduate Studio Award, at the RDS Visual Arts Awards, 2018.", "Anishta Chooramun’s work is informed by the diverse components that create our society and her work explores themes of culture, perception and identity through materiality. Chooramun examines how people co-exist and how one completes the other. The artist’s sculptures create an abstract jigsaw puzzle. Audiences are invited to move through the installed work and visually piece together the fragments of the puzzle. Born in Mauritius, Anishta Chooramun currently lives, works and studies in Dublin. A recent graduate from IADT Dún Laoghaire with a BA (Hons) in Art, Chooramun is currently completing an MA in Art Research and collaboration (ARC).  Chooramun was awarded the RHA Graduate Studio Award, at the RDS Visual Arts Awards, 2018.  " ],
+    "source" : "https://imma.ie/artists/anishta-chooramun/",
+    "url" : "https://imma.ie/artists/anishta-chooramun/",
+    "label" : "Anishta Chooramun"
+  }, {
+    "@id" : "spice:artefact/kathakers-take-a-bow-i",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/chooramun-anishta",
+    "author" : "spice:agent/chooramun-anishta",
+    "dateCreated" : "2019",
+    "url" : "https://imma.ie/collection/kathakers-take-a-bow-i/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/kathakers-take-a-bow-i",
+    "hasTitle" : "Kathakers: Take a Bow I&nbsp;"
+  }, {
+    "@id" : "spice:artefact/the-kathakers-038-011-storytellers",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/chooramun-anishta",
+    "author" : "spice:agent/chooramun-anishta",
+    "dateCreated" : "2019",
+    "url" : "https://imma.ie/collection/the-kathakers-038-011-storytellers/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-kathakers-038-011-storytellers",
+    "hasTitle" : "The Kathakers 0:38 – 0:11 (storytellers),"
+  }, {
+    "@id" : "spice:attribution/kathakers-take-a-bow-i",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/chooramun-anishta"
+  }, {
+    "@id" : "spice:attribution/the-kathakers-038-011-storytellers",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/chooramun-anishta"
+  } ],
+  "@context" : {
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

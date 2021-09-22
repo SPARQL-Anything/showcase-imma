@@ -2,30 +2,30 @@
   "@graph" : [ {
     "@id" : "spice:agent/thall-bob",
     "@type" : "foaf:Person",
-    "dc:source" : "https://imma.ie/artists/bob-thall/",
-    "schema:birthDate" : "b.1948",
-    "schema:url" : "https://imma.ie/artists/bob-thall/",
-    "rdfs:label" : "Bob Thall"
+    "source" : "https://imma.ie/artists/bob-thall/",
+    "birthDate" : "b.1948",
+    "url" : "https://imma.ie/artists/bob-thall/",
+    "label" : "Bob Thall"
   }, {
     "@id" : "spice:artefact/chicago",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/thall-bob",
     "author" : "spice:agent/thall-bob",
-    "schema:dateCreated" : "1979",
-    "schema:url" : "https://imma.ie/collection/chicago/",
+    "dateCreated" : "1979",
+    "url" : "https://imma.ie/collection/chicago/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/chicago",
-    "arco-cd:hasTitle" : "Chicago"
+    "hasTitle" : "Chicago"
   }, {
     "@id" : "spice:artefact/roof-of-35-e-wacker-chicago",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/thall-bob",
     "author" : "spice:agent/thall-bob",
-    "schema:dateCreated" : "1987",
-    "schema:url" : "https://imma.ie/collection/roof-of-35-e-wacker-chicago/",
+    "dateCreated" : "1987",
+    "url" : "https://imma.ie/collection/roof-of-35-e-wacker-chicago/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/roof-of-35-e-wacker-chicago",
-    "arco-cd:hasTitle" : "Roof of 35 E. Wacker, Chicago"
+    "hasTitle" : "Roof of 35 E. Wacker, Chicago"
   }, {
     "@id" : "spice:attribution/chicago",
     "@type" : "arco:AuthorshipAttribution",
@@ -45,44 +45,38 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

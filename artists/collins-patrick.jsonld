@@ -2,81 +2,81 @@
   "@graph" : [ {
     "@id" : "spice:agent/collins-patrick",
     "@type" : "foaf:Person",
-    "dc:description" : "Sligo born Patrick Collins attended the National College of Art and first exhibited at the 1950 Irish Exhibition of Living Art. His style developed out of a connection with the landscape, dominated by misty hues that captured the romantic notion of a poetic Ireland. Collins was elected to the Honorary Council of the Royal Hibernian Academy in 1980. He became a member of Aosdána in 1981 and was elected Saoi in 1987.",
-    "dc:source" : "https://imma.ie/artists/patrick-collins/",
-    "schema:birthDate" : "1910–1994",
-    "schema:url" : "https://imma.ie/artists/patrick-collins/",
-    "rdfs:label" : "Patrick Collins"
+    "description" : "Sligo born Patrick Collins attended the National College of Art and first exhibited at the 1950 Irish Exhibition of Living Art. His style developed out of a connection with the landscape, dominated by misty hues that captured the romantic notion of a poetic Ireland. Collins was elected to the Honorary Council of the Royal Hibernian Academy in 1980. He became a member of Aosdána in 1981 and was elected Saoi in 1987.",
+    "source" : "https://imma.ie/artists/patrick-collins/",
+    "birthDate" : "1910–1994",
+    "url" : "https://imma.ie/artists/patrick-collins/",
+    "label" : "Patrick Collins"
   }, {
     "@id" : "spice:artefact/bird-against-the-window",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/collins-patrick",
     "author" : "spice:agent/collins-patrick",
-    "schema:dateCreated" : "1963",
-    "schema:url" : "https://imma.ie/collection/bird-against-the-window/",
+    "dateCreated" : "1963",
+    "url" : "https://imma.ie/collection/bird-against-the-window/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/bird-against-the-window",
-    "arco-cd:hasTitle" : "Bird Against the Window"
+    "hasTitle" : "Bird Against the Window"
   }, {
     "@id" : "spice:artefact/field-of-old-stones",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/collins-patrick",
     "author" : "spice:agent/collins-patrick",
-    "schema:dateCreated" : "1978",
-    "schema:url" : "https://imma.ie/collection/field-of-old-stones/",
+    "dateCreated" : "1978",
+    "url" : "https://imma.ie/collection/field-of-old-stones/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/field-of-old-stones",
-    "arco-cd:hasTitle" : "Field of Old Stones"
+    "hasTitle" : "Field of Old Stones"
   }, {
     "@id" : "spice:artefact/headland",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/collins-patrick",
     "author" : "spice:agent/collins-patrick",
-    "schema:dateCreated" : "1980",
-    "schema:url" : "https://imma.ie/collection/headland/",
+    "dateCreated" : "1980",
+    "url" : "https://imma.ie/collection/headland/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/headland",
-    "arco-cd:hasTitle" : "Headland"
+    "hasTitle" : "Headland"
   }, {
     "@id" : "spice:artefact/landscape-with-church",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/collins-patrick",
     "author" : "spice:agent/collins-patrick",
-    "schema:dateCreated" : "1956",
-    "schema:url" : "https://imma.ie/collection/landscape-with-church/",
+    "dateCreated" : "1956",
+    "url" : "https://imma.ie/collection/landscape-with-church/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/landscape-with-church",
-    "arco-cd:hasTitle" : "Landscape with Church"
+    "hasTitle" : "Landscape with Church"
   }, {
     "@id" : "spice:artefact/landscape-with-declining-sun",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/collins-patrick",
     "author" : "spice:agent/collins-patrick",
-    "schema:dateCreated" : "1984",
-    "schema:url" : "https://imma.ie/collection/landscape-with-declining-sun/",
+    "dateCreated" : "1984",
+    "url" : "https://imma.ie/collection/landscape-with-declining-sun/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/landscape-with-declining-sun",
-    "arco-cd:hasTitle" : "Landscape with Declining Sun"
+    "hasTitle" : "Landscape with Declining Sun"
   }, {
     "@id" : "spice:artefact/the-wood-pigeons-nest",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/collins-patrick",
     "author" : "spice:agent/collins-patrick",
-    "schema:dateCreated" : "1974",
-    "schema:url" : "https://imma.ie/collection/the-wood-pigeons-nest/",
+    "dateCreated" : "1974",
+    "url" : "https://imma.ie/collection/the-wood-pigeons-nest/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-wood-pigeons-nest",
-    "arco-cd:hasTitle" : "The Wood Pigeon’s Nest"
+    "hasTitle" : "The Wood Pigeon’s Nest"
   }, {
     "@id" : "spice:artefact/untitled-65",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/collins-patrick",
     "author" : "spice:agent/collins-patrick",
-    "schema:dateCreated" : "1990",
-    "schema:url" : "https://imma.ie/collection/untitled-65/",
+    "dateCreated" : "1990",
+    "url" : "https://imma.ie/collection/untitled-65/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-65",
-    "arco-cd:hasTitle" : "Untitled"
+    "hasTitle" : "Untitled"
   }, {
     "@id" : "spice:attribution/bird-against-the-window",
     "@type" : "arco:AuthorshipAttribution",
@@ -112,24 +112,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -140,24 +137,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

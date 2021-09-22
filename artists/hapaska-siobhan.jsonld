@@ -2,41 +2,41 @@
   "@graph" : [ {
     "@id" : "spice:agent/hapaska-siobhan",
     "@type" : "foaf:Person",
-    "dc:description" : "Northern Irish artist Siobhán Hapaska studied at Middlesex Polytechnic and Goldsmiths College, London. Her wall and floor based sculptural works combine a range of synthetic and organic materials to consider ideas of speed, displacement, communication and our relationship with the environment. Hapaska has exhibition nationally and internationally since the 1990s. She received the IMMA Glen Dimplex Award in 1998 and represented Ireland at the Venice Biennale in 2001. Her work is held in many public collections, including Tate Modern and the British Council.",
-    "dc:source" : "https://imma.ie/artists/siobhan-hapaska/",
-    "schema:birthDate" : "b.1963",
-    "schema:url" : "https://imma.ie/artists/siobhan-hapaska/",
-    "rdfs:label" : "Siobhán Hapaska"
+    "description" : [ "Northern Irish artist Siobhán Hapaska studied at Middlesex Polytechnic and Goldsmiths College, London. Her wall and floor based sculptural works combine a range of synthetic and organic materials to consider ideas of speed, displacement, communication and our relationship with the environment.", " Siobhán Hapaska's wall and floor based sculptural works combine a range of synthetic and organic materials to consider ideas of speed, displacement, communication and our relationship with the environment. " ],
+    "source" : "https://imma.ie/artists/siobhan-hapaska/",
+    "birthDate" : "b.1963",
+    "url" : "https://imma.ie/artists/siobhan-hapaska/",
+    "label" : "Siobhán Hapaska"
   }, {
     "@id" : "spice:artefact/bond",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/hapaska-siobhan",
     "author" : "spice:agent/hapaska-siobhan",
-    "schema:dateCreated" : "1999",
-    "schema:url" : "https://imma.ie/collection/bond/",
+    "dateCreated" : "1999",
+    "url" : "https://imma.ie/collection/bond/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/bond",
-    "arco-cd:hasTitle" : "Bond"
+    "hasTitle" : "Bond"
   }, {
     "@id" : "spice:artefact/heart",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/hapaska-siobhan",
     "author" : "spice:agent/hapaska-siobhan",
-    "schema:dateCreated" : "1993",
-    "schema:url" : "https://imma.ie/collection/heart/",
+    "dateCreated" : "1993",
+    "url" : "https://imma.ie/collection/heart/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/heart",
-    "arco-cd:hasTitle" : "Heart"
+    "hasTitle" : "Heart"
   }, {
     "@id" : "spice:artefact/old-sub",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/hapaska-siobhan",
     "author" : "spice:agent/hapaska-siobhan",
-    "schema:dateCreated" : "1996",
-    "schema:url" : "https://imma.ie/collection/old-sub/",
+    "dateCreated" : "1996",
+    "url" : "https://imma.ie/collection/old-sub/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/old-sub",
-    "arco-cd:hasTitle" : "Old Sub"
+    "hasTitle" : "Old Sub"
   }, {
     "@id" : "spice:attribution/bond",
     "@type" : "arco:AuthorshipAttribution",
@@ -52,40 +52,33 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -101,7 +94,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

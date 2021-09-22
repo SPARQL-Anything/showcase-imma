@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/ambition",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "To be able to put all of your heart and soul into a sculpture you need not only to design and conceive it, but also to process it yourself. This is a very strong conviction of Rowan Gillespie’s. He does all the casting himself, even the extremely heavy bronzes, which carries a degree of risk. “The moment I have to stop casting, I have to stop working with bronze”, he says.",
-    "dc:source" : "https://imma.ie/collection/ambition/",
-    "schema:creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
+    "description" : "To be able to put all of your heart and soul into a sculpture you need not only to design and conceive it, but also to process it yourself. This is a very strong conviction of Rowan Gillespie’s. He does all the casting himself, even the extremely heavy bronzes, which carries a degree of risk. “The moment I have to stop casting, I have to stop working with bronze”, he says.",
+    "source" : "https://imma.ie/collection/ambition/",
+    "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/ambition",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Silvered cast metal figure in perspex cylinder",
-    "schema:size" : "90.1 x 17.2 x 17.3 cm",
-    "arco-cd:hasInventory" : "IMMA.216 GL"
+    "material" : "Silvered cast metal figure in perspex cylinder",
+    "size" : "90.1 x 17.2 x 17.3 cm",
+    "hasInventory" : "IMMA.216 GL"
   }, {
     "@id" : "spice:documentation/ambition",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Rowan Gillespie, Ambition, 1969, Silvered cast metal figure in perspex cylinder, 90.1 x 17.2 x 17.3 cm, Collection Irish Museum of Modern Art, Gordon Lambert Trust, 1992 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Rowan Gillespie, Ambition, 1969, Silvered cast metal figure in perspex cylinder, 90.1 x 17.2 x 17.3 cm, Collection Irish Museum of Modern Art, Gordon Lambert Trust, 1992 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/858.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/858.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

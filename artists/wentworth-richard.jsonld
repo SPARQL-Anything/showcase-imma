@@ -2,41 +2,41 @@
   "@graph" : [ {
     "@id" : "spice:agent/wentworth-richard",
     "@type" : "foaf:Person",
-    "dc:description" : "British sculptor Richard Wentworth attended Hornsey College of Art and the Royal College of Art. Experimenting with a diverse range of materials and procedures, Wentworth manipulates and juxtaposes every-day, often disregarded objects to create sculptures that play with scale, gravity, ordinariness and language. Wentworth has exhibited extensively since the 1970s. He taught at Goldsmith’s College, London, from 1971 to 1987. His work was the subject of a major solo exhibition at Tate Liverpool in 2005.",
-    "dc:source" : "https://imma.ie/artists/richard-wentworth/",
-    "schema:birthDate" : "b.1947",
-    "schema:url" : "https://imma.ie/artists/richard-wentworth/",
-    "rdfs:label" : "Richard Wentworth"
+    "description" : "British sculptor Richard Wentworth attended Hornsey College of Art and the Royal College of Art. Experimenting with a diverse range of materials and procedures, Wentworth manipulates and juxtaposes every-day, often disregarded objects to create sculptures that play with scale, gravity, ordinariness and language. Wentworth has exhibited extensively since the 1970s. He taught at Goldsmith’s College, London, from 1971 to 1987. His work was the subject of a major solo exhibition at Tate Liverpool in 2005.",
+    "source" : "https://imma.ie/artists/richard-wentworth/",
+    "birthDate" : "b.1947",
+    "url" : "https://imma.ie/artists/richard-wentworth/",
+    "label" : "Richard Wentworth"
   }, {
     "@id" : "spice:artefact/glad-that-things-dont-talk",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/wentworth-richard",
     "author" : "spice:agent/wentworth-richard",
-    "schema:dateCreated" : "1982",
-    "schema:url" : "https://imma.ie/collection/glad-that-things-dont-talk/",
+    "dateCreated" : "1982",
+    "url" : "https://imma.ie/collection/glad-that-things-dont-talk/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/glad-that-things-dont-talk",
-    "arco-cd:hasTitle" : "Glad That Things Don’t Talk"
+    "hasTitle" : "Glad That Things Don’t Talk"
   }, {
     "@id" : "spice:artefact/logo",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/wentworth-richard",
     "author" : "spice:agent/wentworth-richard",
-    "schema:dateCreated" : "1986",
-    "schema:url" : "https://imma.ie/collection/logo/",
+    "dateCreated" : "1986",
+    "url" : "https://imma.ie/collection/logo/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/logo",
-    "arco-cd:hasTitle" : "Logo"
+    "hasTitle" : "Logo"
   }, {
     "@id" : "spice:artefact/preserve",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/wentworth-richard",
     "author" : "spice:agent/wentworth-richard",
-    "schema:dateCreated" : "1987",
-    "schema:url" : "https://imma.ie/collection/preserve/",
+    "dateCreated" : "1987",
+    "url" : "https://imma.ie/collection/preserve/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/preserve",
-    "arco-cd:hasTitle" : "Preserve"
+    "hasTitle" : "Preserve"
   }, {
     "@id" : "spice:attribution/glad-that-things-dont-talk",
     "@type" : "arco:AuthorshipAttribution",
@@ -56,24 +56,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -84,24 +81,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

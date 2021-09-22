@@ -2,41 +2,41 @@
   "@graph" : [ {
     "@id" : "spice:agent/robinson-tim",
     "@type" : "foaf:Person",
-    "dc:description" : "Artist, writer and cartographer Tim Robinson was born in Yorkshire, England in 1935. He studied mathematics at Cambridge and worked as a visual artist in Istanbul, Vienna and London among other places. In 1972 he moved to Aran Islands, Ireland and began writing and making maps. He is the author of ‘Stones of Aran’ and the acclaimed trilogy published by Penguin ‘Connemara: Listening to the Wind’, ‘Connemara: A Little Gaelic Kingdom’ and ‘Connemara: The Last Pool of Darkness’. His maps of the Aran Islands, Connemara and Burren in Co. Clare are printed by Folding Landscapes, a publishing house set up by him and his wife Máiréad in 1984 in Roundstone, Connemara where they both lived until 2015.",
-    "dc:source" : "https://imma.ie/artists/tim-robinson/",
-    "schema:birthDate" : "b.1935",
-    "schema:url" : "https://imma.ie/artists/tim-robinson/",
-    "rdfs:label" : "Tim Robinson"
+    "description" : "Artist, writer and cartographer Tim Robinson was born in Yorkshire, England in 1935. He studied mathematics at Cambridge and worked as a visual artist in Istanbul, Vienna and London among other places. In 1972 he moved to Aran Islands, Ireland and began writing and making maps. He is the author of ‘Stones of Aran’ and the acclaimed trilogy published by Penguin ‘Connemara: Listening to the Wind’, ‘Connemara: A Little Gaelic Kingdom’ and ‘Connemara: The Last Pool of Darkness’. His maps of the Aran Islands, Connemara and Burren in Co. Clare are printed by Folding Landscapes, a publishing house set up by him and his wife Máiréad in 1984 in Roundstone, Connemara where they both lived until 2015.",
+    "source" : "https://imma.ie/artists/tim-robinson/",
+    "birthDate" : "b.1935",
+    "url" : "https://imma.ie/artists/tim-robinson/",
+    "label" : "Tim Robinson"
   }, {
     "@id" : "spice:artefact/untitled-113",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/robinson-tim",
     "author" : "spice:agent/robinson-tim",
-    "schema:dateCreated" : "1968",
-    "schema:url" : "https://imma.ie/collection/untitled-113/",
+    "dateCreated" : "1968",
+    "url" : "https://imma.ie/collection/untitled-113/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-113",
-    "arco-cd:hasTitle" : "Untitled"
+    "hasTitle" : "Untitled"
   }, {
     "@id" : "spice:artefact/untitled-115",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/robinson-tim",
     "author" : "spice:agent/robinson-tim",
-    "schema:dateCreated" : "1967",
-    "schema:url" : "https://imma.ie/collection/untitled-115/",
+    "dateCreated" : "1967",
+    "url" : "https://imma.ie/collection/untitled-115/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-115",
-    "arco-cd:hasTitle" : "Untitled"
+    "hasTitle" : "Untitled"
   }, {
     "@id" : "spice:artefact/windward",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/robinson-tim",
     "author" : "spice:agent/robinson-tim",
-    "schema:dateCreated" : "1968",
-    "schema:url" : "https://imma.ie/collection/windward/",
+    "dateCreated" : "1968",
+    "url" : "https://imma.ie/collection/windward/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/windward",
-    "arco-cd:hasTitle" : "Windward"
+    "hasTitle" : "Windward"
   }, {
     "@id" : "spice:attribution/untitled-113",
     "@type" : "arco:AuthorshipAttribution",
@@ -56,40 +56,33 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -101,7 +94,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -2,37 +2,33 @@
   "@graph" : [ {
     "@id" : "spice:artefact/chuksoam-1-do-gong-series-18",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Ch’uksoam 1 Do-Gong Series 18 is a 1988 work by Michael Mulcahy. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/chuksoam-1-do-gong-series-18/",
-    "schema:creditText" : "IMMA Collection: Donation, Maire and Maurice Foley, 2000",
+    "description" : "Ch’uksoam 1 Do-Gong Series 18 is a 1988 work by Michael Mulcahy. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/chuksoam-1-do-gong-series-18/",
+    "creditText" : "IMMA Collection: Donation, Maire and Maurice Foley, 2000",
     "image" : "spice:documentation/chuksoam-1-do-gong-series-18",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Oil and acrylic on canvas",
-    "schema:size" : "163 x 259 cm",
-    "arco-cd:hasInventory" : "IMMA.899 FD"
+    "material" : "Oil and acrylic on canvas",
+    "size" : "163 x 259 cm",
+    "hasInventory" : "IMMA.899 FD"
   }, {
     "@id" : "spice:documentation/chuksoam-1-do-gong-series-18",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Michael Mulcahy, Ch’uksoam 1 Do-Gong Series 18, 1988, Oil and acrylic on canvas, 163 x 259 cm, Collection Irish Museum of Modern Art, Donation, Maire and Maurice Foley, 2000 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Michael Mulcahy, Ch’uksoam 1 Do-Gong Series 18, 1988, Oil and acrylic on canvas, 163 x 259 cm, Collection Irish Museum of Modern Art, Donation, Maire and Maurice Foley, 2000 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -43,20 +39,16 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

@@ -1,0 +1,67 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/chant-down-greenham",
+    "@type" : "schema:CreativeWork",
+    "description" : "The artist has described the making of Chant Down Greenham as follows: “‘This was a seminal work. It came out of a moment when many of us from Ireland gathered at the women’s peace camp, nuclear missile base at Greenham Common (1983), England. The protest ‘Sounds Around the Base’ had 30,000 to 50,000 women surrounding the 9-mile perimeter fence all making sounds on the hour every hour.",
+    "source" : "https://imma.ie/collection/chant-down-greenham/",
+    "creditText" : "IMMA Collection: Purchase, 2021, 2021",
+    "image" : "spice:documentation/chant-down-greenham",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "material" : "recorded on 1/4 inch analogue tape, transferred to digital format",
+    "size" : "Duration: 9min.10 sec.",
+    "hasInventory" : "IMMA.4223"
+  }, {
+    "@id" : "spice:documentation/chant-down-greenham",
+    "@type" : "schema:ImageObject",
+    "caption" : "Alanna O'Kelly, Chant Down Greenham, 1984, recorded on 1/4 inch analogue tape, transferred to digital format, Duration: 9min.10 sec., Collection Irish Museum of Modern Art, Purchase, 2021, 2021 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma"
+  } ],
+  "@context" : {
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

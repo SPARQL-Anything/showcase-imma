@@ -2,31 +2,31 @@
   "@graph" : [ {
     "@id" : "spice:agent/okelly-mark",
     "@type" : "foaf:Person",
-    "dc:description" : "Painter Mark O’Kelly lives and works in Dublin and Limerick. He attended the National College of Art and Design and Slade School of Fine Art, London. Solo exhibitions include ‘Figure of 8’ at the Kevin Kavanagh Gallery, Dublin in 2011. Group exhibitions include the 2009 RHA Annual Exhibition and EV+A International, 2012. O’Kelly was awarded the Golden Fleece, Merit Award in 2004. He is a lecturer in Fine Art at Limerick School of Art and Design",
-    "dc:source" : "https://imma.ie/artists/mark-okelly/",
-    "schema:birthDate" : "b.1968",
-    "schema:url" : "https://imma.ie/artists/mark-okelly/",
-    "rdfs:label" : "Mark O’Kelly"
+    "description" : "Painter Mark O’Kelly lives and works in Dublin and Limerick. He attended the National College of Art and Design and Slade School of Fine Art, London. Solo exhibitions include ‘Figure of 8’ at the Kevin Kavanagh Gallery, Dublin in 2011. Group exhibitions include the 2009 RHA Annual Exhibition and EV+A International, 2012. O’Kelly was awarded the Golden Fleece, Merit Award in 2004. He is a lecturer in Fine Art at Limerick School of Art and Design",
+    "source" : "https://imma.ie/artists/mark-okelly/",
+    "birthDate" : "b.1968",
+    "url" : "https://imma.ie/artists/mark-okelly/",
+    "label" : "Mark O’Kelly"
   }, {
     "@id" : "spice:artefact/empireland",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/okelly-mark",
     "author" : "spice:agent/okelly-mark",
-    "schema:dateCreated" : "2016",
-    "schema:url" : "https://imma.ie/collection/empireland/",
+    "dateCreated" : "2016",
+    "url" : "https://imma.ie/collection/empireland/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/empireland",
-    "arco-cd:hasTitle" : "Empireland"
+    "hasTitle" : "Empireland"
   }, {
     "@id" : "spice:artefact/the-party",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/okelly-mark",
     "author" : "spice:agent/okelly-mark",
-    "schema:dateCreated" : "2010",
-    "schema:url" : "https://imma.ie/collection/the-party/",
+    "dateCreated" : "2010",
+    "url" : "https://imma.ie/collection/the-party/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-party",
-    "arco-cd:hasTitle" : "The Party"
+    "hasTitle" : "The Party"
   }, {
     "@id" : "spice:attribution/empireland",
     "@type" : "arco:AuthorshipAttribution",
@@ -46,48 +46,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

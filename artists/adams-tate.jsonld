@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/adams-tate",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish born artist Tate Adams studied under the British printmaker Gertrude Hermes at the Central School of Art, London. He moved to Melbourne, Australia in 1952, returning to Ireland in 1959 to spend a year working with Liam Miller of Dolmen Press. Dolmen published his first book of engravings, ‘Soul Cages’, and Adams continued to create linocuts for the press in Melbourne. A champion of printmaking in Australia, Adams established the print department at the Royal Melbourne Institute of Technology and taught there for over twenty years. He received the Order of Australia in 2009.",
-    "dc:source" : "https://imma.ie/artists/tate-adams/",
-    "schema:birthDate" : "b.1922",
-    "schema:url" : "https://imma.ie/artists/tate-adams/",
-    "rdfs:label" : "Tate Adams"
+    "description" : "Irish born artist Tate Adams studied under the British printmaker Gertrude Hermes at the Central School of Art, London. He moved to Melbourne, Australia in 1952, returning to Ireland in 1959 to spend a year working with Liam Miller of Dolmen Press. Dolmen published his first book of engravings, ‘Soul Cages’, and Adams continued to create linocuts for the press in Melbourne. A champion of printmaking in Australia, Adams established the print department at the Royal Melbourne Institute of Technology and taught there for over twenty years. He received the Order of Australia in 2009.",
+    "source" : "https://imma.ie/artists/tate-adams/",
+    "birthDate" : "b.1922",
+    "url" : "https://imma.ie/artists/tate-adams/",
+    "label" : "Tate Adams"
   }, {
     "@id" : "spice:artefact/fisherman-and-boat",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/adams-tate",
     "author" : "spice:agent/adams-tate",
-    "schema:dateCreated" : "1958",
-    "schema:url" : "https://imma.ie/collection/fisherman-and-boat/",
+    "dateCreated" : "1958",
+    "url" : "https://imma.ie/collection/fisherman-and-boat/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/fisherman-and-boat",
-    "arco-cd:hasTitle" : "Fisherman and Boat"
+    "hasTitle" : "Fisherman and Boat"
   }, {
     "@id" : "spice:attribution/fisherman-and-boat",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,40 +24,33 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

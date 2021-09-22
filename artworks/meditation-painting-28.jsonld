@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/meditation-painting-28",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "From the 1960s, Scott combined squares of gold leaf, white tempera and acrylic paint on raw linen canvas to create geometric images in infinite permutations. Following his journeys to the Far East during the 1980s, Scott’s later Gold paintings becam more explicitly concerned with an Eastern aesthetic. ‘Meditation Painting’, as its title suggests, encourages the viewer to contemplate the link between the physical and metaphysical world.",
-    "dc:source" : "https://imma.ie/collection/meditation-painting-28/",
-    "schema:creditText" : "IMMA Collection: Donation, the artist, 2013",
+    "description" : "From the 1960s, Scott combined squares of gold leaf, white tempera and acrylic paint on raw linen canvas to create geometric images in infinite permutations. Following his journeys to the Far East during the 1980s, Scott’s later Gold paintings becam more explicitly concerned with an Eastern aesthetic. ‘Meditation Painting’, as its title suggests, encourages the viewer to contemplate the link between the physical and metaphysical world.",
+    "source" : "https://imma.ie/collection/meditation-painting-28/",
+    "creditText" : "IMMA Collection: Donation, the artist, 2013",
     "image" : "spice:documentation/meditation-painting-28",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Gold leaf and acrylic on unprimed canvas",
-    "schema:size" : "120.2 x 81 cm",
-    "arco-cd:hasInventory" : "IMMA.3813"
+    "material" : "Gold leaf and acrylic on unprimed canvas",
+    "size" : "120.2 x 81 cm",
+    "hasInventory" : "IMMA.3813"
   }, {
     "@id" : "spice:documentation/meditation-painting-28",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Patrick Scott, Meditation Painting 28, 2007, Gold leaf and acrylic on unprimed canvas, 120.2 x 81 cm, Collection Irish Museum of Modern Art, Donation, the artist, 2013 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Patrick Scott, Meditation Painting 28, 2007, Gold leaf and acrylic on unprimed canvas, 120.2 x 81 cm, Collection Irish Museum of Modern Art, Donation, the artist, 2013 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2020/07/7173.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2020/07/7173.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

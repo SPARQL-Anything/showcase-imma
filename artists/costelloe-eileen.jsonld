@@ -1,35 +1,30 @@
 {
   "@id" : "spice:agent/costelloe-eileen",
   "@type" : "foaf:Person",
-  "dc:description" : "Irish painter Eileen Costelloe attended the National College of Art and Design. She went on to study in Paris and the thick application of paint, often using a pallet knife, in her still lifes and landscapes indicate the influence of Impressionism and Post-Impressionism on her style. Costelloe regularly exhibited with the Water Colour Society of Ireland, the Ulster Society of Women Artists, the RHA and the David Hendriks Gallery. She was a member of the United Arts Club.",
-  "dc:source" : "https://imma.ie/artists/eileen-costelloe/",
-  "schema:birthDate" : "1911–1976",
-  "schema:url" : "https://imma.ie/artists/eileen-costelloe/",
-  "rdfs:label" : "Eileen Costelloe",
+  "description" : "Irish painter Eileen Costelloe attended the National College of Art and Design. She went on to study in Paris and the thick application of paint, often using a pallet knife, in her still lifes and landscapes indicate the influence of Impressionism and Post-Impressionism on her style. Costelloe regularly exhibited with the Water Colour Society of Ireland, the Ulster Society of Women Artists, the RHA and the David Hendriks Gallery. She was a member of the United Arts Club.",
+  "source" : "https://imma.ie/artists/eileen-costelloe/",
+  "birthDate" : "1911–1976",
+  "url" : "https://imma.ie/artists/eileen-costelloe/",
+  "label" : "Eileen Costelloe",
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

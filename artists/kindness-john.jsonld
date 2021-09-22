@@ -2,71 +2,71 @@
   "@graph" : [ {
     "@id" : "spice:agent/kindness-john",
     "@type" : "foaf:Person",
-    "dc:description" : "Northern Irish artist John Kindness graduated from Belfast College of Art in 1974. Throughout his career Kindness has used traditional methods such as mosaic and fresco painting to explore contemporary themes and defy conventional notions of the fine art object. By mimicking the visual styles of Ancient Greek vase-painting, he suggests that the residues of contemporary life will be the artefacts of the future. Kindness has been exhibiting since the 1990s. His work is represented in a number of national and international collections.",
-    "dc:source" : "https://imma.ie/artists/john-kindness/",
-    "schema:birthDate" : "b.1951",
-    "schema:url" : "https://imma.ie/artists/john-kindness/",
-    "rdfs:label" : "John Kindness"
+    "description" : [ "Northern Irish artist John Kindness graduated from Belfast College of Art in 1974. Throughout his career Kindness has used traditional methods such as mosaic and fresco painting to explore contemporary themes and defy conventional notions of the fine art object.", "Throughout his career John Kindness has used traditional methods such as mosaic and fresco painting to explore contemporary themes and defy conventional notions of the fine art object. By mimicking the visual styles of Ancient Greek vase-painting, he suggests that the residues of contemporary life will be the artefacts of the future." ],
+    "source" : "https://imma.ie/artists/john-kindness/",
+    "birthDate" : "b.1951",
+    "url" : "https://imma.ie/artists/john-kindness/",
+    "label" : "John Kindness"
   }, {
     "@id" : "spice:artefact/a-monkey-parade",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/kindness-john",
     "author" : "spice:agent/kindness-john",
-    "schema:dateCreated" : "1985",
-    "schema:url" : "https://imma.ie/collection/a-monkey-parade/",
+    "dateCreated" : "1985",
+    "url" : "https://imma.ie/collection/a-monkey-parade/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/a-monkey-parade",
-    "arco-cd:hasTitle" : "A Monkey Parade"
+    "hasTitle" : "A Monkey Parade"
   }, {
     "@id" : "spice:artefact/big-school-dog",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/kindness-john",
     "author" : "spice:agent/kindness-john",
-    "schema:dateCreated" : "1988",
-    "schema:url" : "https://imma.ie/collection/big-school-dog/",
+    "dateCreated" : "1988",
+    "url" : "https://imma.ie/collection/big-school-dog/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/big-school-dog",
-    "arco-cd:hasTitle" : "Big School Dog"
+    "hasTitle" : "Big School Dog"
   }, {
     "@id" : "spice:artefact/dog-with-altarpiece",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/kindness-john",
     "author" : "spice:agent/kindness-john",
-    "schema:dateCreated" : "1985",
-    "schema:url" : "https://imma.ie/collection/dog-with-altarpiece/",
+    "dateCreated" : "1985",
+    "url" : "https://imma.ie/collection/dog-with-altarpiece/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/dog-with-altarpiece",
-    "arco-cd:hasTitle" : "Dog with Altarpiece"
+    "hasTitle" : "Dog with Altarpiece"
   }, {
     "@id" : "spice:artefact/dogs-in-a-drinking-club",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/kindness-john",
     "author" : "spice:agent/kindness-john",
-    "schema:dateCreated" : "1985",
-    "schema:url" : "https://imma.ie/collection/dogs-in-a-drinking-club/",
+    "dateCreated" : "1985",
+    "url" : "https://imma.ie/collection/dogs-in-a-drinking-club/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/dogs-in-a-drinking-club",
-    "arco-cd:hasTitle" : "Dogs in a Drinking Club"
+    "hasTitle" : "Dogs in a Drinking Club"
   }, {
     "@id" : "spice:artefact/dulce-et-decorum-est",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/kindness-john",
     "author" : "spice:agent/kindness-john",
-    "schema:dateCreated" : "1990",
-    "schema:url" : "https://imma.ie/collection/dulce-et-decorum-est/",
+    "dateCreated" : "1990",
+    "url" : "https://imma.ie/collection/dulce-et-decorum-est/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/dulce-et-decorum-est",
-    "arco-cd:hasTitle" : "Dulce et Decorum est…"
+    "hasTitle" : "Dulce et Decorum est…"
   }, {
     "@id" : "spice:artefact/scraping-the-surface",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/kindness-john",
     "author" : "spice:agent/kindness-john",
-    "schema:dateCreated" : "1990",
-    "schema:url" : "https://imma.ie/collection/scraping-the-surface/",
+    "dateCreated" : "1990",
+    "url" : "https://imma.ie/collection/scraping-the-surface/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/scraping-the-surface",
-    "arco-cd:hasTitle" : "Scraping the Surface"
+    "hasTitle" : "Scraping the Surface"
   }, {
     "@id" : "spice:attribution/a-monkey-parade",
     "@type" : "arco:AuthorshipAttribution",
@@ -102,48 +102,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

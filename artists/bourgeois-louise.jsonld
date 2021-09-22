@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/bourgeois-louise",
     "@type" : "foaf:Person",
-    "dc:description" : "Born in Paris, artist Louise Bourgeois moved to New York in 1938. Over a career that spanned seven decades, Bourgeois built up a complex body of work, primarily in sculpture, but also including drawing, painting, printmaking and installation. Autobiography and identity have been important influences on her practice, as have her family connections with furniture and tapestry making. Bourgeois was the first woman artist to be given a retrospective at MoMA, New York in 1982. Her celebrated project ‘I Do, I Undo, I Redo’ was created for the Turbine Hall to mark the opening of Tate Modern in 2000. Bourgeois’s ‘Stitches in Time’ was held at IMMA from November 2003 to February 2004.",
-    "dc:source" : "https://imma.ie/artists/louise-bourgeois/",
-    "schema:birthDate" : "1911–2010",
-    "schema:url" : "https://imma.ie/artists/louise-bourgeois/",
-    "rdfs:label" : "Louise Bourgeois"
+    "description" : [ "Born in Paris, artist Louise Bourgeois moved to New York in 1938. Over a career that spanned seven decades, Bourgeois built up a complex body of work, primarily in sculpture, but also including drawing, painting, printmaking and installation. Autobiography and identity have been important influences on her practice, as have her family connections with furniture and tapestry making.", "Over a career that spanned seven decades, Louise Bourgeois built up a complex body of work, primarily in sculpture, but also including drawing, painting, printmaking and installation. Autobiography and identity have been important influences on her practice, as have her family connections with furniture and tapestry making." ],
+    "source" : "https://imma.ie/artists/louise-bourgeois/",
+    "birthDate" : "1911–2010",
+    "url" : "https://imma.ie/artists/louise-bourgeois/",
+    "label" : "Louise Bourgeois"
   }, {
     "@id" : "spice:artefact/untitled-20",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/bourgeois-louise",
     "author" : "spice:agent/bourgeois-louise",
-    "schema:dateCreated" : "2001",
-    "schema:url" : "https://imma.ie/collection/untitled-20/",
+    "dateCreated" : "2001",
+    "url" : "https://imma.ie/collection/untitled-20/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-20",
-    "arco-cd:hasTitle" : "Untitled"
+    "hasTitle" : "Untitled"
   }, {
     "@id" : "spice:attribution/untitled-20",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,24 +28,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -56,24 +53,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

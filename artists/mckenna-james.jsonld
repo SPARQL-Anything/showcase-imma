@@ -2,61 +2,61 @@
   "@graph" : [ {
     "@id" : "spice:agent/mckenna-james",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish sculptor, poet and playwright James McKenna studied at the National College of Art and Design. The work of the Italian Renaissance masters influenced McKenna throughout his career. Political events, often married with Celtic mythology, also informed his work. He was a founding member of both the Independent Artists Group and the Sculptors’ Society of Ireland and exhibited with the Irish Exhibitions of Living Art. He was awarded the Macaulay Fellowship for Sculpture in 1960 and became a member of Aosdána in 1983. A major retrospective of his work was held at IMMA in 2007.",
-    "dc:source" : "https://imma.ie/artists/james-mckenna/",
-    "schema:birthDate" : "1933–2000",
-    "schema:url" : "https://imma.ie/artists/james-mckenna/",
-    "rdfs:label" : "James McKenna"
+    "description" : "Irish sculptor, poet and playwright James McKenna studied at the National College of Art and Design. The work of the Italian Renaissance masters influenced McKenna throughout his career. Political events, often married with Celtic mythology, also informed his work. He was a founding member of both the Independent Artists Group and the Sculptors’ Society of Ireland and exhibited with the Irish Exhibitions of Living Art. He was awarded the Macaulay Fellowship for Sculpture in 1960 and became a member of Aosdána in 1983. A major retrospective of his work was held at IMMA in 2007.",
+    "source" : "https://imma.ie/artists/james-mckenna/",
+    "birthDate" : "1933–2000",
+    "url" : "https://imma.ie/artists/james-mckenna/",
+    "label" : "James McKenna"
   }, {
     "@id" : "spice:artefact/a-funny-thing-happened-on-the-way-to-the-g-p-o",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/mckenna-james",
     "author" : "spice:agent/mckenna-james",
-    "schema:dateCreated" : "1990",
-    "schema:url" : "https://imma.ie/collection/a-funny-thing-happened-on-the-way-to-the-g-p-o/",
+    "dateCreated" : "1990",
+    "url" : "https://imma.ie/collection/a-funny-thing-happened-on-the-way-to-the-g-p-o/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/a-funny-thing-happened-on-the-way-to-the-g-p-o",
-    "arco-cd:hasTitle" : "A Funny Thing Happened on the Way to the G.P.O."
+    "hasTitle" : "A Funny Thing Happened on the Way to the G.P.O."
   }, {
     "@id" : "spice:artefact/aisling-scariff",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/mckenna-james",
     "author" : "spice:agent/mckenna-james",
-    "schema:dateCreated" : "1964",
-    "schema:url" : "https://imma.ie/collection/aisling-scariff/",
+    "dateCreated" : "1964",
+    "url" : "https://imma.ie/collection/aisling-scariff/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/aisling-scariff",
-    "arco-cd:hasTitle" : "Aisling, Scariff"
+    "hasTitle" : "Aisling, Scariff"
   }, {
     "@id" : "spice:artefact/ferdia-for-nath-ferdia-at-the-ford",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/mckenna-james",
     "author" : "spice:agent/mckenna-james",
-    "schema:dateCreated" : "1989",
-    "schema:url" : "https://imma.ie/collection/ferdia-for-nath-ferdia-at-the-ford/",
+    "dateCreated" : "1989",
+    "url" : "https://imma.ie/collection/ferdia-for-nath-ferdia-at-the-ford/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/ferdia-for-nath-ferdia-at-the-ford",
-    "arco-cd:hasTitle" : "Ferdia for nÁth / Ferdia at the Ford"
+    "hasTitle" : "Ferdia for nÁth / Ferdia at the Ford"
   }, {
     "@id" : "spice:artefact/nude-young-girl-standing",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/mckenna-james",
     "author" : "spice:agent/mckenna-james",
-    "schema:dateCreated" : "1965",
-    "schema:url" : "https://imma.ie/collection/nude-young-girl-standing/",
+    "dateCreated" : "1965",
+    "url" : "https://imma.ie/collection/nude-young-girl-standing/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/nude-young-girl-standing",
-    "arco-cd:hasTitle" : "Nude Young Girl Standing"
+    "hasTitle" : "Nude Young Girl Standing"
   }, {
     "@id" : "spice:artefact/the-royal-hospital-where-williams-soldiers-recuperated-after-aughrim-in-1692",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/mckenna-james",
     "author" : "spice:agent/mckenna-james",
-    "schema:dateCreated" : "1969",
-    "schema:url" : "https://imma.ie/collection/the-royal-hospital-where-williams-soldiers-recuperated-after-aughrim-in-1692/",
+    "dateCreated" : "1969",
+    "url" : "https://imma.ie/collection/the-royal-hospital-where-williams-soldiers-recuperated-after-aughrim-in-1692/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-royal-hospital-where-williams-soldiers-recuperated-after-aughrim-in-1692",
-    "arco-cd:hasTitle" : "The Royal Hospital Where William’s Soldiers Recuperated After Aughrim in 1692"
+    "hasTitle" : "The Royal Hospital Where William’s Soldiers Recuperated After Aughrim in 1692"
   }, {
     "@id" : "spice:attribution/a-funny-thing-happened-on-the-way-to-the-g-p-o",
     "@type" : "arco:AuthorshipAttribution",
@@ -84,24 +84,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -112,24 +109,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

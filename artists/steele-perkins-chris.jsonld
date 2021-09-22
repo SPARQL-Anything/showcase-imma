@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/steele-perkins-chris",
     "@type" : "foaf:Person",
-    "dc:description" : "British photographer Chris Steele-Perkins (born 1947) was born in Rangoon, Burma . His family moved to London in 1949. Steele-Perkins studied psychology at the University of Newcastle-upon-Tyne. In 1971 he began working as a freelance photographer in London. He joined the Paris-based agency Viva in 1976. In 1979 Steele-Perkins joined Magnum and began working extensively in the Third World. Steele-Perkins has published over a dozen photographic books and won numerous awards. His work is included in major collections including the Victoria &amp; Albert Museum, London; the Photographers’ Gallery, London; the National Portrait Gallery, London; and Tokyo Fuji Art Museum.",
-    "dc:source" : "https://imma.ie/artists/chris-steele-perkins/",
-    "schema:birthDate" : "b.1947",
-    "schema:url" : "https://imma.ie/artists/chris-steele-perkins/",
-    "rdfs:label" : "Chris Steele-Perkins"
+    "description" : "British photographer Chris Steele-Perkins (born 1947) was born in Rangoon, Burma . His family moved to London in 1949. Steele-Perkins studied psychology at the University of Newcastle-upon-Tyne. In 1971 he began working as a freelance photographer in London. He joined the Paris-based agency Viva in 1976. In 1979 Steele-Perkins joined Magnum and began working extensively in the Third World. Steele-Perkins has published over a dozen photographic books and won numerous awards. His work is included in major collections including the Victoria &amp; Albert Museum, London; the Photographers’ Gallery, London; the National Portrait Gallery, London; and Tokyo Fuji Art Museum.",
+    "source" : "https://imma.ie/artists/chris-steele-perkins/",
+    "birthDate" : "b.1947",
+    "url" : "https://imma.ie/artists/chris-steele-perkins/",
+    "label" : "Chris Steele-Perkins"
   }, {
     "@id" : "spice:artefact/outside-divis-flats-west-belfast",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/steele-perkins-chris",
     "author" : "spice:agent/steele-perkins-chris",
-    "schema:dateCreated" : "1978",
-    "schema:url" : "https://imma.ie/collection/outside-divis-flats-west-belfast/",
+    "dateCreated" : "1978",
+    "url" : "https://imma.ie/collection/outside-divis-flats-west-belfast/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/outside-divis-flats-west-belfast",
-    "arco-cd:hasTitle" : "Outside Divis Flats, West Belfast"
+    "hasTitle" : "Outside Divis Flats, West Belfast"
   }, {
     "@id" : "spice:attribution/outside-divis-flats-west-belfast",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,24 +28,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -56,24 +53,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

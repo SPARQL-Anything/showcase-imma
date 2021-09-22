@@ -2,32 +2,33 @@
   "@graph" : [ {
     "@id" : "spice:artefact/dynamic-interdependent-unity",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Dynamic interdependent unity is a 2009 work by Isabel Nolan. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/dynamic-interdependent-unity/",
+    "description" : "Dynamic interdependent unity is a 2009 work by Isabel Nolan. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/dynamic-interdependent-unity/",
+    "creditText" : "IMMA Collection: Heritage Gift, Kerlin Gallery Collection, 2018, 2018",
     "image" : "spice:documentation/dynamic-interdependent-unity",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "polystyrene, plaster bandage, jesmonite, paint, toughened glass, MDF",
-    "schema:size" : "25 x 30 x 25 cm sculpture 51 x 55 x 45 cm base",
-    "arco-cd:hasInventory" : "IMMA.4085"
+    "material" : "polystyrene, plaster bandage, jesmonite, paint, toughened glass, MDF",
+    "size" : "25 x 30 x 25 cm sculpture 51 x 55 x 45 cm base",
+    "hasInventory" : "IMMA.4085"
   }, {
     "@id" : "spice:documentation/dynamic-interdependent-unity",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Isabel Nolan, Dynamic interdependent unity, 2009, polystyrene, plaster bandage, jesmonite, paint, toughened glass, MDF, 25 x 30 x 25 cm sculpture 51 x 55 x 45 cm base, Collection Irish Museum of Modern Art, 2018 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Isabel Nolan, Dynamic interdependent unity, 2009, polystyrene, plaster bandage, jesmonite, paint, toughened glass, MDF, 25 x 30 x 25 cm sculpture 51 x 55 x 45 cm base, Collection Irish Museum of Modern Art, Heritage Gift, Kerlin Gallery Collection, 2018, 2018 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -38,20 +39,16 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

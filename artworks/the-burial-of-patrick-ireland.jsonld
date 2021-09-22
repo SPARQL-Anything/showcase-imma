@@ -2,35 +2,31 @@
   "@graph" : [ {
     "@id" : "spice:artefact/the-burial-of-patrick-ireland",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "On 20 May 2008, after 36 years of making art as Patrick Ireland, Brian O’Doherty reclaimed his birth name with the burial of his alter ego in the grounds of IMMA. The burial was a gesture of reconciliation to celebrate the restoration of peace in Northern Ireland, just as his action in assuming the name Patrick Ireland was a protest at the British military presence in Northern Ireland and the failure of the authorities to ensure civil rights for all.",
-    "dc:source" : "https://imma.ie/collection/the-burial-of-patrick-ireland/",
-    "schema:creditText" : "IMMA Collection: Donation, 2008",
+    "description" : "On 20 May 2008, after 36 years of making art as Patrick Ireland, Brian O’Doherty reclaimed his birth name with the burial of his alter ego in the grounds of IMMA. The burial was a gesture of reconciliation to celebrate the restoration of peace in Northern Ireland, just as his action in assuming the name Patrick Ireland was a protest at the British military presence in Northern Ireland and the failure of the authorities to ensure civil rights for all.",
+    "source" : "https://imma.ie/collection/the-burial-of-patrick-ireland/",
+    "creditText" : "IMMA Collection: Donation, 2008",
     "image" : "spice:documentation/the-burial-of-patrick-ireland",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Limestone headstone, plaster cast Death Mask by Charles Simonds",
-    "arco-cd:hasInventory" : "IMMA.2863"
+    "material" : "Limestone headstone, plaster cast Death Mask by Charles Simonds",
+    "hasInventory" : "IMMA.2863"
   }, {
     "@id" : "spice:documentation/the-burial-of-patrick-ireland",
     "@type" : "schema:ImageObject",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2019/08/4004.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2019/08/4004.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -41,12 +37,10 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

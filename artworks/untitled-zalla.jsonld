@@ -2,66 +2,57 @@
   "@graph" : [ {
     "@id" : "spice:artefact/untitled-zalla",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Untitled (Zalla) is a 2002 work by Patrick Michael Fitzgerald. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/untitled-zalla/",
-    "schema:creditText" : "IMMA Collection: Purchase, 2005",
+    "description" : "Untitled (Zalla) is a 2002 work by Patrick Michael Fitzgerald. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/untitled-zalla/",
+    "creditText" : "IMMA Collection: Purchase, 2005",
     "image" : "spice:documentation/untitled-zalla",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Pencil and coloured pencil on paper",
-    "schema:size" : "29 x 23 cm (each)",
-    "arco-cd:hasInventory" : "IMMA.1826"
+    "material" : "Pencil and coloured pencil on paper",
+    "size" : "29 x 23 cm (each)",
+    "hasInventory" : "IMMA.1826"
   }, {
     "@id" : "spice:documentation/untitled-zalla",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Patrick Michael Fitzgerald, Untitled (Zalla), 2002, Pencil and coloured pencil on paper, 29 x 23 cm (each), Collection Irish Museum of Modern Art, Purchase, 2005 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Patrick Michael Fitzgerald, Untitled (Zalla), 2002, Pencil and coloured pencil on paper, 29 x 23 cm (each), Collection Irish Museum of Modern Art, Purchase, 2005 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2020/02/1463.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2020/02/1463.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

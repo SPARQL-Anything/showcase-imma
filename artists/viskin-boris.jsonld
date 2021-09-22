@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/viskin-boris",
     "@type" : "foaf:Person",
-    "dc:description" : "Boris Vishkin is a Mexican-born painter and printmaker. Spending his youth in Israel, the artist was trained at the Studio Art Center International in Florence, Italy and the National School of Visual Arts in Mexico. Vishkin‘s paintings, prints and mixed-media works offer a witty mix of global decorative arts references, irreverent invocations of Christian religious symbolism, and identity politics. The artist has exhibited across Mexico and internationally in the United States, Israel, Europe and South America.",
-    "dc:source" : "https://imma.ie/artists/boris-viskin/",
-    "schema:birthDate" : "b.1960",
-    "schema:url" : "https://imma.ie/artists/boris-viskin/",
-    "rdfs:label" : "Boris Viskin"
+    "description" : "Boris Vishkin is a Mexican-born painter and printmaker. Spending his youth in Israel, the artist was trained at the Studio Art Center International in Florence, Italy and the National School of Visual Arts in Mexico. Vishkin‘s paintings, prints and mixed-media works offer a witty mix of global decorative arts references, irreverent invocations of Christian religious symbolism, and identity politics. The artist has exhibited across Mexico and internationally in the United States, Israel, Europe and South America.",
+    "source" : "https://imma.ie/artists/boris-viskin/",
+    "birthDate" : "b.1960",
+    "url" : "https://imma.ie/artists/boris-viskin/",
+    "label" : "Boris Viskin"
   }, {
     "@id" : "spice:artefact/el-cincuentenario-de-mi-independencia-the-fiftieth-anniversary-of-my-independence",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/viskin-boris",
     "author" : "spice:agent/viskin-boris",
-    "schema:dateCreated" : "2010",
-    "schema:url" : "https://imma.ie/collection/el-cincuentenario-de-mi-independencia-the-fiftieth-anniversary-of-my-independence/",
+    "dateCreated" : "2010",
+    "url" : "https://imma.ie/collection/el-cincuentenario-de-mi-independencia-the-fiftieth-anniversary-of-my-independence/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/el-cincuentenario-de-mi-independencia-the-fiftieth-anniversary-of-my-independence",
-    "arco-cd:hasTitle" : "El cincuentenario de MI independencia (The fiftieth anniversary of MY independence)"
+    "hasTitle" : "El cincuentenario de MI independencia (The fiftieth anniversary of MY independence)"
   }, {
     "@id" : "spice:attribution/el-cincuentenario-de-mi-independencia-the-fiftieth-anniversary-of-my-independence",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,24 +28,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -56,24 +53,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -2,30 +2,30 @@
   "@graph" : [ {
     "@id" : "spice:agent/white-john",
     "@type" : "foaf:Person",
-    "dc:source" : "https://imma.ie/artists/john-white/",
-    "schema:birthDate" : "b.1953",
-    "schema:url" : "https://imma.ie/artists/john-white/",
-    "rdfs:label" : "John White"
+    "source" : "https://imma.ie/artists/john-white/",
+    "birthDate" : "b.1953",
+    "url" : "https://imma.ie/artists/john-white/",
+    "label" : "John White"
   }, {
     "@id" : "spice:artefact/partypiece-1992",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/white-john",
     "author" : "spice:agent/white-john",
-    "schema:dateCreated" : "1992",
-    "schema:url" : "https://imma.ie/collection/partypiece-1992/",
+    "dateCreated" : "1992",
+    "url" : "https://imma.ie/collection/partypiece-1992/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/partypiece-1992",
-    "arco-cd:hasTitle" : "Partypiece 1992"
+    "hasTitle" : "Partypiece 1992"
   }, {
     "@id" : "spice:artefact/uptown-top-rankin",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/white-john",
     "author" : "spice:agent/white-john",
-    "schema:dateCreated" : "1991",
-    "schema:url" : "https://imma.ie/collection/uptown-top-rankin/",
+    "dateCreated" : "1991",
+    "url" : "https://imma.ie/collection/uptown-top-rankin/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/uptown-top-rankin",
-    "arco-cd:hasTitle" : "Uptown Top Rankin"
+    "hasTitle" : "Uptown Top Rankin"
   }, {
     "@id" : "spice:attribution/partypiece-1992",
     "@type" : "arco:AuthorshipAttribution",
@@ -37,36 +37,30 @@
   } ],
   "@context" : {
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -82,7 +76,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

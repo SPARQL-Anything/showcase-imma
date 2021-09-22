@@ -2,31 +2,31 @@
   "@graph" : [ {
     "@id" : "spice:agent/ahearn-john",
     "@type" : "foaf:Person",
-    "dc:description" : "Born in New York, John Ahearn works with community groups whose access to fine art and museum culture has been limited. During the 1980s and 1990s, Ahearn executed outdoor murals in New York and collaborated on public projects in North America and Europe. He participated in the Artist’s Residency Programme at IMMA in 1994. From 2000 he has worked in Taiwan and Brazil.",
-    "dc:source" : "https://imma.ie/artists/john-ahearn/",
-    "schema:birthDate" : "b.1951",
-    "schema:url" : "https://imma.ie/artists/john-ahearn/",
-    "rdfs:label" : "John Ahearn"
+    "description" : "Born in New York, John Ahearn works with community groups whose access to fine art and museum culture has been limited. During the 1980s and 1990s, Ahearn executed outdoor murals in New York and collaborated on public projects in North America and Europe. He participated in the Artist’s Residency Programme at IMMA in 1994. From 2000 he has worked in Taiwan and Brazil.",
+    "source" : "https://imma.ie/artists/john-ahearn/",
+    "birthDate" : "b.1951",
+    "url" : "https://imma.ie/artists/john-ahearn/",
+    "label" : "John Ahearn"
   }, {
     "@id" : "spice:artefact/neil",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ahearn-john",
     "author" : "spice:agent/ahearn-john",
-    "schema:dateCreated" : "1994",
-    "schema:url" : "https://imma.ie/collection/neil/",
+    "dateCreated" : "1994",
+    "url" : "https://imma.ie/collection/neil/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/neil",
-    "arco-cd:hasTitle" : "Neil"
+    "hasTitle" : "Neil"
   }, {
     "@id" : "spice:artefact/st-francis-street-boys-1994",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ahearn-john",
     "author" : "spice:agent/ahearn-john",
-    "schema:dateCreated" : "1994",
-    "schema:url" : "https://imma.ie/collection/st-francis-street-boys-1994/",
+    "dateCreated" : "1994",
+    "url" : "https://imma.ie/collection/st-francis-street-boys-1994/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/st-francis-street-boys-1994",
-    "arco-cd:hasTitle" : "St.Francis Street Boys 1994"
+    "hasTitle" : "St.Francis Street Boys 1994"
   }, {
     "@id" : "spice:attribution/neil",
     "@type" : "arco:AuthorshipAttribution",
@@ -46,48 +46,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

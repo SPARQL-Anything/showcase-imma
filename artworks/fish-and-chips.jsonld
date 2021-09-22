@@ -2,61 +2,53 @@
   "@graph" : [ {
     "@id" : "spice:artefact/fish-and-chips",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Colin Middleton was deeply affected by war in Europe, firstly by the Spanish Civil War and then by World War II and the Belfast Blitz. The almost impressionist views of the city which he painted in 1939-42 may represent a need to blot these horrors from his consciousness but the blackout certainly inspired such paintings as ‘Fish and Chips’. After the worst moments of the Belfast Blitz the decision to restore and re-open the Belfast Museum and Art Gallery brought with it an invitation to Middleton to have a solo exhibition. He showed 115 paintings and John Hewitt who curated the exhibition described how Middleton hung the pictures – “Seventy four of them in groups of eight, combined in different thematic arrangements.”*",
-    "dc:source" : "https://imma.ie/collection/fish-and-chips/",
-    "schema:creditText" : "IMMA Collection: Heritage Gift from the McClelland Collection by Noel and Anne Marie Smyth, 2003",
+    "description" : "Colin Middleton was deeply affected by war in Europe, firstly by the Spanish Civil War and then by World War II and the Belfast Blitz. The almost impressionist views of the city which he painted in 1939-42 may represent a need to blot these horrors from his consciousness but the blackout certainly inspired such paintings as ‘Fish and Chips’. After the worst moments of the Belfast Blitz the decision to restore and re-open the Belfast Museum and Art Gallery brought with it an invitation to Middleton to have a solo exhibition. He showed 115 paintings and John Hewitt who curated the exhibition described how Middleton hung the pictures – “Seventy four of them in groups of eight, combined in different thematic arrangements.”*",
+    "source" : "https://imma.ie/collection/fish-and-chips/",
+    "creditText" : "IMMA Collection: Heritage Gift from the McClelland Collection by Noel and Anne Marie Smyth, 2003",
     "image" : "spice:documentation/fish-and-chips",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Oil on canvas",
-    "schema:size" : "46 x 61 cm",
-    "arco-cd:hasInventory" : "IMMA.1148 MCCL"
+    "material" : "Oil on canvas",
+    "size" : "46 x 61 cm",
+    "hasInventory" : "IMMA.1148 MCCL"
   }, {
     "@id" : "spice:documentation/fish-and-chips",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Colin Middleton, Fish and Chips, 1939, Oil on canvas, 46 x 61 cm, Collection Irish Museum of Modern Art, Heritage Gift from the McClelland Collection by Noel and Anne Marie Smyth, 2003 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Colin Middleton, Fish and Chips, 1939, Oil on canvas, 46 x 61 cm, Collection Irish Museum of Modern Art, Heritage Gift from the McClelland Collection by Noel and Anne Marie Smyth, 2003 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

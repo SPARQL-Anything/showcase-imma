@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/sacha-and-mum",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "The Turner prize winner of 1997, Gillian Wearing creates unusual effects through the medium of film, using everyday situations. In ‘Sacha and Mum’ she separates the visual from the auditory by reversing the soundtrack in an emotional, violent scene between a daughter and a mother. The full interpretation of the scene is obscured from the viewer by the distorted sound of the conflict, although, at the same time, the emotional inflection of the voices makes it clear that the mood oscillates alternatively from aggression to tenderness. We are left to fill in the gaps of the story for ourselves.",
-    "dc:source" : "https://imma.ie/collection/sacha-and-mum/",
-    "schema:creditText" : "IMMA Collection: Purchase, 1997",
+    "description" : "The Turner prize winner of 1997, Gillian Wearing creates unusual effects through the medium of film, using everyday situations. In ‘Sacha and Mum’ she separates the visual from the auditory by reversing the soundtrack in an emotional, violent scene between a daughter and a mother. The full interpretation of the scene is obscured from the viewer by the distorted sound of the conflict, although, at the same time, the emotional inflection of the voices makes it clear that the mood oscillates alternatively from aggression to tenderness. We are left to fill in the gaps of the story for ourselves.",
+    "source" : "https://imma.ie/collection/sacha-and-mum/",
+    "creditText" : "IMMA Collection: Purchase, 1997",
     "image" : "spice:documentation/sacha-and-mum",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Video projection",
-    "schema:version" : "Edition 3/3",
-    "arco-cd:hasInventory" : "IMMA.785"
+    "material" : "Video projection",
+    "version" : "Edition 3/3",
+    "hasInventory" : "IMMA.785"
   }, {
     "@id" : "spice:documentation/sacha-and-mum",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Gillian Wearing, Sacha and Mum, 1996, Video projection, Duration: 4min.30 sec., Collection Irish Museum of Modern Art, Purchase, 1997 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Gillian Wearing, Sacha and Mum, 1996, Video projection, Duration: 4min.30 sec., Collection Irish Museum of Modern Art, Purchase, 1997 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/768.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/768.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

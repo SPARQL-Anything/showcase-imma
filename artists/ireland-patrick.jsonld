@@ -2,181 +2,171 @@
   "@graph" : [ {
     "@id" : "spice:agent/ireland-patrick",
     "@type" : "foaf:Person",
-    "dc:description" : [ "During the Irish Exhibition of Living Art at the Project Arts Centre in 1972, Brian O’Doherty, in a performance before 30 invited witnesses and assisted by artists Robert Ballagh and Brian King, undertook to sign his artworks Patrick Ireland ‘until such time as the British military presence is removed from Northern Ireland and all citizens are granted their civil rights’. That commitment, often seen as controversial, was described by O’Doherty as ‘an expatriate’s gesture in response to Bloody Sunday in Derry’.", "During the Irish Exhibition of Living Art in 1972, Brian O'Doherty, in a performance before 30 invited witnesses and assisted by artists Robert Ballagh and Brian King, undertook to sign his artworks Patrick Ireland 'until such time as the British military presence is removed from Northern Ireland'. After 36 years of making art as Patrick Ireland, O'Doherty reclaimed his birth name with the symbolic burial of his alter ego in the grounds of IMMA on the afternoon of Tuesday 20 May 2008." ],
-    "dc:source" : "https://imma.ie/artists/patrick-ireland/",
-    "schema:birthDate" : "1972–2008",
-    "schema:url" : "https://imma.ie/artists/patrick-ireland/",
-    "rdfs:label" : "Patrick Ireland"
+    "description" : [ "During the Irish Exhibition of Living Art at the Project Arts Centre in 1972, Brian O’Doherty, in a performance before 30 invited witnesses and assisted by artists Robert Ballagh and Brian King, undertook to sign his artworks Patrick Ireland ‘until such time as the British military presence is removed from Northern Ireland and all citizens are granted their civil rights’. That commitment, often seen as controversial, was described by O’Doherty as ‘an expatriate’s gesture in response to Bloody Sunday in Derry’.", "During the Irish Exhibition of Living Art in 1972, Brian O'Doherty, in a performance before 30 invited witnesses and assisted by artists Robert Ballagh and Brian King, undertook to sign his artworks Patrick Ireland 'until such time as the British military presence is removed from Northern Ireland'. After 36 years of making art as Patrick Ireland, O'Doherty reclaimed his birth name with the symbolic burial of his alter ego in the grounds of IMMA on the afternoon of Tuesday 20 May 2008." ],
+    "source" : "https://imma.ie/artists/patrick-ireland/",
+    "birthDate" : "1972–2008",
+    "url" : "https://imma.ie/artists/patrick-ireland/",
+    "label" : "Patrick Ireland"
   }, {
     "@id" : "spice:artefact/barbara-i",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ireland-patrick",
     "author" : "spice:agent/ireland-patrick",
-    "schema:dateCreated" : "1976",
-    "schema:url" : "https://imma.ie/collection/barbara-i/",
+    "dateCreated" : "1976",
+    "url" : "https://imma.ie/collection/barbara-i/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/barbara-i",
-    "arco-cd:hasTitle" : "Barbara I"
+    "hasTitle" : "Barbara I"
   }, {
     "@id" : "spice:artefact/documentation-of-performance-entitled-name-change",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ireland-patrick",
     "author" : "spice:agent/ireland-patrick",
-    "schema:dateCreated" : "1972",
-    "schema:url" : "https://imma.ie/collection/documentation-of-performance-entitled-name-change/",
+    "dateCreated" : "1972",
+    "url" : "https://imma.ie/collection/documentation-of-performance-entitled-name-change/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/documentation-of-performance-entitled-name-change",
-    "arco-cd:hasTitle" : "Documentation of Performance Entitled Name Change"
+    "hasTitle" : "Documentation of Performance Entitled Name Change"
   }, {
     "@id" : "spice:artefact/drawing-2",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ireland-patrick",
     "author" : "spice:agent/ireland-patrick",
-    "schema:dateCreated" : "1975",
-    "schema:url" : "https://imma.ie/collection/drawing-2/",
+    "dateCreated" : "1975",
+    "url" : "https://imma.ie/collection/drawing-2/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/drawing-2",
-    "arco-cd:hasTitle" : "Drawing"
+    "hasTitle" : "Drawing"
   }, {
     "@id" : "spice:artefact/drawing-for-portrait-of-marcel-duchampstudy-for-duchamp-portrait-first-lead-after-cardiogram-taken-as-physician",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ireland-patrick",
     "author" : "spice:agent/ireland-patrick",
-    "schema:dateCreated" : "1966",
-    "schema:url" : "https://imma.ie/collection/drawing-for-portrait-of-marcel-duchampstudy-for-duchamp-portrait-first-lead-after-cardiogram-taken-as-physician/",
+    "dateCreated" : "1966",
+    "url" : "https://imma.ie/collection/drawing-for-portrait-of-marcel-duchampstudy-for-duchamp-portrait-first-lead-after-cardiogram-taken-as-physician/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/drawing-for-portrait-of-marcel-duchampstudy-for-duchamp-portrait-first-lead-after-cardiogram-taken-as-physician",
-    "arco-cd:hasTitle" : "Drawing for Portrait of Marcel Duchamp Study for Duchamp Portrait first lead (after cardiogram taken as physician)"
+    "hasTitle" : "Drawing for Portrait of Marcel Duchamp Study for Duchamp Portrait first lead (after cardiogram taken as physician)"
   }, {
     "@id" : "spice:artefact/in-the-wake-of",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ireland-patrick",
     "author" : "spice:agent/ireland-patrick",
-    "schema:dateCreated" : "1963",
-    "schema:url" : "https://imma.ie/collection/in-the-wake-of/",
+    "dateCreated" : "1963",
+    "url" : "https://imma.ie/collection/in-the-wake-of/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/in-the-wake-of",
-    "arco-cd:hasTitle" : "In the Wake (of)"
+    "hasTitle" : "In the Wake (of)"
   }, {
     "@id" : "spice:artefact/ireland-a-modest-proposal",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ireland-patrick",
     "author" : "spice:agent/ireland-patrick",
-    "schema:dateCreated" : "1980",
-    "schema:url" : "https://imma.ie/collection/ireland-a-modest-proposal/",
+    "dateCreated" : "1980",
+    "url" : "https://imma.ie/collection/ireland-a-modest-proposal/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/ireland-a-modest-proposal",
-    "arco-cd:hasTitle" : "Ireland: A Modest Proposal"
+    "hasTitle" : "Ireland: A Modest Proposal"
   }, {
     "@id" : "spice:artefact/name-change",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ireland-patrick",
     "author" : "spice:agent/ireland-patrick",
-    "schema:dateCreated" : "1972",
-    "schema:url" : "https://imma.ie/collection/name-change/",
+    "dateCreated" : "1972",
+    "url" : "https://imma.ie/collection/name-change/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/name-change",
-    "arco-cd:hasTitle" : "Name Change"
+    "hasTitle" : "Name Change"
   }, {
     "@id" : "spice:artefact/red-room",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ireland-patrick",
     "author" : "spice:agent/ireland-patrick",
-    "schema:dateCreated" : "1983",
-    "schema:url" : "https://imma.ie/collection/red-room/",
+    "dateCreated" : "1983",
+    "url" : "https://imma.ie/collection/red-room/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/red-room",
-    "arco-cd:hasTitle" : "Red Room"
+    "hasTitle" : "Red Room"
   }, {
     "@id" : "spice:artefact/self-portrait-2",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ireland-patrick",
     "author" : "spice:agent/ireland-patrick",
-    "schema:dateCreated" : "1958",
-    "schema:url" : "https://imma.ie/collection/self-portrait-2/",
+    "dateCreated" : "1958",
+    "url" : "https://imma.ie/collection/self-portrait-2/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/self-portrait-2",
-    "arco-cd:hasTitle" : "Self Portrait"
+    "hasTitle" : "Self Portrait"
   }, {
     "@id" : "spice:artefact/small-glass-labyrinth-bridgets-cross",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ireland-patrick",
     "author" : "spice:agent/ireland-patrick",
-    "schema:dateCreated" : "1967",
-    "schema:url" : "https://imma.ie/collection/small-glass-labyrinth-bridgets-cross/",
+    "dateCreated" : "1967",
+    "url" : "https://imma.ie/collection/small-glass-labyrinth-bridgets-cross/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/small-glass-labyrinth-bridgets-cross",
-    "arco-cd:hasTitle" : "Small Glass Labyrinth (Bridget’s Cross)"
+    "hasTitle" : "Small Glass Labyrinth (Bridget’s Cross)"
   }, {
     "@id" : "spice:artefact/the-burial-of-patrick-ireland",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ireland-patrick",
     "author" : "spice:agent/ireland-patrick",
-    "schema:dateCreated" : "2008",
-    "schema:url" : "https://imma.ie/collection/the-burial-of-patrick-ireland/",
+    "dateCreated" : "2008",
+    "url" : "https://imma.ie/collection/the-burial-of-patrick-ireland/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-burial-of-patrick-ireland",
-    "arco-cd:hasTitle" : "The Burial of Patrick Ireland"
+    "hasTitle" : "The Burial of Patrick Ireland"
   }, {
     "@id" : "spice:artefact/the-burial-of-patrick-ireland-death-mask",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ireland-patrick",
     "author" : "spice:agent/ireland-patrick",
-    "schema:dateCreated" : "2008",
-    "schema:url" : "https://imma.ie/collection/the-burial-of-patrick-ireland-death-mask/",
+    "dateCreated" : "2008",
+    "url" : "https://imma.ie/collection/the-burial-of-patrick-ireland-death-mask/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-burial-of-patrick-ireland-death-mask",
-    "arco-cd:hasTitle" : "The Burial of Patrick Ireland, Death Mask"
-  }, {
-    "@id" : "spice:artefact/the-doors-to-good-and-evil-and-the-windows-to-heaven-christinas-world-rope-drawing-124",
-    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
-    "creator" : "spice:agent/ireland-patrick",
-    "author" : "spice:agent/ireland-patrick",
-    "schema:dateCreated" : "2015",
-    "schema:url" : "https://imma.ie/collection/the-doors-to-good-and-evil-and-the-windows-to-heaven-christinas-world-rope-drawing-124/",
-    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
-    "hasAuthorshipAttribution" : "spice:attribution/the-doors-to-good-and-evil-and-the-windows-to-heaven-christinas-world-rope-drawing-124",
-    "arco-cd:hasTitle" : "The doors to good and evil and the windows to heaven-Christina’s world, Rope Drawing # 124"
+    "hasTitle" : "The Burial of Patrick Ireland, Death Mask"
   }, {
     "@id" : "spice:artefact/untitled-136",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ireland-patrick",
     "author" : "spice:agent/ireland-patrick",
-    "schema:dateCreated" : "1954",
-    "schema:url" : "https://imma.ie/collection/untitled-136/",
+    "dateCreated" : "1954",
+    "url" : "https://imma.ie/collection/untitled-136/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-136",
-    "arco-cd:hasTitle" : "Untitled"
+    "hasTitle" : "Untitled"
   }, {
     "@id" : "spice:artefact/untitled-137",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ireland-patrick",
     "author" : "spice:agent/ireland-patrick",
-    "schema:dateCreated" : "1954",
-    "schema:url" : "https://imma.ie/collection/untitled-137/",
+    "dateCreated" : "1954",
+    "url" : "https://imma.ie/collection/untitled-137/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-137",
-    "arco-cd:hasTitle" : "Untitled"
+    "hasTitle" : "Untitled"
   }, {
     "@id" : "spice:artefact/untitled-large-stone-at-newgrange",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ireland-patrick",
     "author" : "spice:agent/ireland-patrick",
-    "schema:dateCreated" : "1983",
-    "schema:url" : "https://imma.ie/collection/untitled-large-stone-at-newgrange/",
+    "dateCreated" : "1983",
+    "url" : "https://imma.ie/collection/untitled-large-stone-at-newgrange/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-large-stone-at-newgrange",
-    "arco-cd:hasTitle" : "Untitled (large stone at Newgrange)"
+    "hasTitle" : "Untitled (large stone at Newgrange)"
   }, {
     "@id" : "spice:artefact/vowel-grid-ogham-series",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ireland-patrick",
     "author" : "spice:agent/ireland-patrick",
-    "schema:dateCreated" : "1970",
-    "schema:url" : "https://imma.ie/collection/vowel-grid-ogham-series/",
+    "dateCreated" : "1970",
+    "url" : "https://imma.ie/collection/vowel-grid-ogham-series/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/vowel-grid-ogham-series",
-    "arco-cd:hasTitle" : "Vowel Grid (Ogham Series)"
+    "hasTitle" : "Vowel Grid (Ogham Series)"
   }, {
     "@id" : "spice:attribution/barbara-i",
     "@type" : "arco:AuthorshipAttribution",
@@ -226,10 +216,6 @@
     "@type" : "arco:AuthorshipAttribution",
     "hasAttributedAuthor" : "spice:agent/ireland-patrick"
   }, {
-    "@id" : "spice:attribution/the-doors-to-good-and-evil-and-the-windows-to-heaven-christinas-world-rope-drawing-124",
-    "@type" : "arco:AuthorshipAttribution",
-    "hasAttributedAuthor" : "spice:agent/ireland-patrick"
-  }, {
     "@id" : "spice:attribution/untitled-136",
     "@type" : "arco:AuthorshipAttribution",
     "hasAttributedAuthor" : "spice:agent/ireland-patrick"
@@ -252,24 +238,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -280,24 +263,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

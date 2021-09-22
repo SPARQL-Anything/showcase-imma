@@ -2,20 +2,20 @@
   "@graph" : [ {
     "@id" : "spice:agent/wigram-max",
     "@type" : "foaf:Person",
-    "dc:description" : "British artist and gallery owner Max Wigram (born 1966) was one of fifteen London artists to create work for ‘Other Men’s Flowers’ – a portfolio of text-based prints curated by Joshua Compston. Wigram’s contribution to the portfolio used both screen-printing and letterpress techniques. In 2003, he set up his own gallery, Max Wigram Gallery, representing emerging international artists.",
-    "dc:source" : "https://imma.ie/artists/max-wigram/",
-    "schema:url" : "https://imma.ie/artists/max-wigram/",
-    "rdfs:label" : "Max Wigram"
+    "description" : "British artist and gallery owner Max Wigram (born 1966) was one of fifteen London artists to create work for ‘Other Men’s Flowers’ – a portfolio of text-based prints curated by Joshua Compston. Wigram’s contribution to the portfolio used both screen-printing and letterpress techniques. In 2003, he set up his own gallery, Max Wigram Gallery, representing emerging international artists.",
+    "source" : "https://imma.ie/artists/max-wigram/",
+    "url" : "https://imma.ie/artists/max-wigram/",
+    "label" : "Max Wigram"
   }, {
     "@id" : "spice:artefact/untitled-44",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/wigram-max",
     "author" : "spice:agent/wigram-max",
-    "schema:dateCreated" : "1994",
-    "schema:url" : "https://imma.ie/collection/untitled-44/",
+    "dateCreated" : "1994",
+    "url" : "https://imma.ie/collection/untitled-44/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-44",
-    "arco-cd:hasTitle" : "Untitled"
+    "hasTitle" : "Untitled"
   }, {
     "@id" : "spice:attribution/untitled-44",
     "@type" : "arco:AuthorshipAttribution",
@@ -23,36 +23,30 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -68,7 +62,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

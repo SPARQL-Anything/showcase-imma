@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/wilson-richard",
     "@type" : "foaf:Person",
-    "dc:description" : "British artist Richard Wilson (born 1953) studied at the London College of Printing, Hornsey College of Art and Reading University. Wilson activates architectural features of the exhibition space as sculptural elements within his installation works. His now iconic ‘20:50’, in which a gallery room is half filled with recycled engine oil which the visitor experiences via a narrow walkway, is the only permanent installation at the Saatchi Gallery. Wilson was nominated for the Turner Prize in 1988 and 1989.",
-    "dc:source" : "https://imma.ie/artists/richard-wilson/",
-    "schema:birthDate" : "b.1953",
-    "schema:url" : "https://imma.ie/artists/richard-wilson/",
-    "rdfs:label" : "Richard Wilson"
+    "description" : "British artist Richard Wilson (born 1953) studied at the London College of Printing, Hornsey College of Art and Reading University. Wilson activates architectural features of the exhibition space as sculptural elements within his installation works. His now iconic ‘20:50’, in which a gallery room is half filled with recycled engine oil which the visitor experiences via a narrow walkway, is the only permanent installation at the Saatchi Gallery. Wilson was nominated for the Turner Prize in 1988 and 1989.",
+    "source" : "https://imma.ie/artists/richard-wilson/",
+    "birthDate" : "b.1953",
+    "url" : "https://imma.ie/artists/richard-wilson/",
+    "label" : "Richard Wilson"
   }, {
     "@id" : "spice:artefact/she-came-in-through-the-bathroom-window",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/wilson-richard",
     "author" : "spice:agent/wilson-richard",
-    "schema:dateCreated" : "1989",
-    "schema:url" : "https://imma.ie/collection/she-came-in-through-the-bathroom-window/",
+    "dateCreated" : "1989",
+    "url" : "https://imma.ie/collection/she-came-in-through-the-bathroom-window/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/she-came-in-through-the-bathroom-window",
-    "arco-cd:hasTitle" : "She Came in Through The Bathroom Window"
+    "hasTitle" : "She Came in Through The Bathroom Window"
   }, {
     "@id" : "spice:attribution/she-came-in-through-the-bathroom-window",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,40 +28,33 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

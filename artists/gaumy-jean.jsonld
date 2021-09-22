@@ -1,35 +1,30 @@
 {
   "@id" : "spice:agent/gaumy-jean",
   "@type" : "foaf:Person",
-  "dc:description" : "French documentary photographer Jean Gaumy attended university in Rouen where he also worked freelance as a photographer. He joined the French photography agency Gamma in 1973 and has been associated with Magnum Photos since 1977. Much of his work is about human confinement including his 1975 project on French prisons ‘Les Incarcérés’. In 1984 he made his first film, ‘La Boucane’ which was nominated for a Caesar Best Documentary in 1986 and received the Grand Prix du Jury at Belfort Film Festival. He was awarded the Prix Nadar in 2001 and 2010.",
-  "dc:source" : "https://imma.ie/artists/jean-gaumy/",
-  "schema:birthDate" : "b.1948",
-  "schema:url" : "https://imma.ie/artists/jean-gaumy/",
-  "rdfs:label" : "Jean Gaumy",
+  "description" : "French documentary photographer Jean Gaumy attended university in Rouen where he also worked freelance as a photographer. He joined the French photography agency Gamma in 1973 and has been associated with Magnum Photos since 1977. Much of his work is about human confinement including his 1975 project on French prisons ‘Les Incarcérés’. In 1984 he made his first film, ‘La Boucane’ which was nominated for a Caesar Best Documentary in 1986 and received the Grand Prix du Jury at Belfort Film Festival. He was awarded the Prix Nadar in 2001 and 2010.",
+  "source" : "https://imma.ie/artists/jean-gaumy/",
+  "birthDate" : "b.1948",
+  "url" : "https://imma.ie/artists/jean-gaumy/",
+  "label" : "Jean Gaumy",
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

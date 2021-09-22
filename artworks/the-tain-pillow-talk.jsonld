@@ -2,71 +2,61 @@
   "@graph" : [ {
     "@id" : "spice:artefact/the-tain-pillow-talk",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "The Táin. Pillow talk is a 1969 work by Louis le Brocquy. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/the-tain-pillow-talk/",
-    "schema:creditText" : "IMMA Collection: Heritage Gift by Brian Timmons, 2001",
+    "description" : "The Táin. Pillow talk is a 1969 work by Louis le Brocquy. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/the-tain-pillow-talk/",
+    "creditText" : "IMMA Collection: Heritage Gift by Brian Timmons, 2001",
     "image" : "spice:documentation/the-tain-pillow-talk",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Aubusson Tapestry, Atelier René Duché, 1999",
-    "schema:size" : "129 x 184 cm",
-    "schema:version" : "Edition 6/9",
-    "arco-cd:hasInventory" : "IMMA.1600"
+    "material" : "Aubusson Tapestry, Atelier René Duché, 1999",
+    "size" : "129 x 184 cm",
+    "version" : "Edition 6/9",
+    "hasInventory" : "IMMA.1600"
   }, {
     "@id" : "spice:documentation/the-tain-pillow-talk",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Louis le Brocquy, The Táin. Pillow talk, 1969, Aubusson Tapestry, Atelier René Duché, 1999, 129 x 184 cm, Collection Irish Museum of Modern Art, Heritage Gift by Brian Timmons, 2001 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Louis le Brocquy, The Táin. Pillow talk, 1969, Aubusson Tapestry, Atelier René Duché, 1999, 129 x 184 cm, Collection Irish Museum of Modern Art, Heritage Gift by Brian Timmons, 2001 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2019/10/149.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2019/10/149.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

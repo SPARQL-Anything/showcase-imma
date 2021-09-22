@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/resonance",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "The idea that behind the outward appearance of things lies an inner reality which can be expressed in an abstract language is central to Shirazeh Houshiary’s artistic practice. Houshiary works with a series of forms which are determined by logical rules and the numerical and geometrical symbolism drawn from Sufi cosmology. Houshiary’s world view is deeply informed by Sufism, the esoteric and mystical tradition of the Islamic faith. In existence since the beginning of the eighth century, Sufism seeks the inner way or spiritual path to mystical union with God. Houshiary does not celebrate national or individual identity in her art, rather she seeks to employ forms and symbols that are universal. The artist also sees such symbolism in the other traditions such as those of Ancient Greece, Judaism and Christianity. “In my work there is a continual invention of already existing forms and symbols precisely because the problem is not to be original, nor indeed to establish a distinction between forms of knowledge or between East and West.”* The use of intricate pattern, geometry and calligraphy in Islamic sacred art, which are symbolic of religious doctrines and universal laws, also reflects the aniconic nature of Islamic art tradition where the depiction of God or the Divine in a concrete image is forbidden. The complex patterning of Islamic decoration symbolises the Sufi goal of gathering all multiplicity into unity, the integration of all aspects of the self into a centre, which is Divine. One basis of Islamic art is the belief that the Divine One is a unity but that his Divinity is manifest in the universe through multiplicity. This duality of Oneness and Multiplicity as well as the unity of light and dark can be seen in both Houshiary’s paintings and sculptures.",
-    "dc:source" : "https://imma.ie/collection/resonance/",
-    "schema:creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1996",
+    "description" : "The idea that behind the outward appearance of things lies an inner reality which can be expressed in an abstract language is central to Shirazeh Houshiary’s artistic practice. Houshiary works with a series of forms which are determined by logical rules and the numerical and geometrical symbolism drawn from Sufi cosmology. Houshiary’s world view is deeply informed by Sufism, the esoteric and mystical tradition of the Islamic faith. In existence since the beginning of the eighth century, Sufism seeks the inner way or spiritual path to mystical union with God. Houshiary does not celebrate national or individual identity in her art, rather she seeks to employ forms and symbols that are universal. The artist also sees such symbolism in the other traditions such as those of Ancient Greece, Judaism and Christianity. “In my work there is a continual invention of already existing forms and symbols precisely because the problem is not to be original, nor indeed to establish a distinction between forms of knowledge or between East and West.”* The use of intricate pattern, geometry and calligraphy in Islamic sacred art, which are symbolic of religious doctrines and universal laws, also reflects the aniconic nature of Islamic art tradition where the depiction of God or the Divine in a concrete image is forbidden. The complex patterning of Islamic decoration symbolises the Sufi goal of gathering all multiplicity into unity, the integration of all aspects of the self into a centre, which is Divine. One basis of Islamic art is the belief that the Divine One is a unity but that his Divinity is manifest in the universe through multiplicity. This duality of Oneness and Multiplicity as well as the unity of light and dark can be seen in both Houshiary’s paintings and sculptures.",
+    "source" : "https://imma.ie/collection/resonance/",
+    "creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1996",
     "image" : "spice:documentation/resonance",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Graphite and acrylic on canvas",
-    "schema:size" : "134 x 134 cm (each)",
-    "arco-cd:hasInventory" : "L.648 LW"
+    "material" : "Graphite and acrylic on canvas",
+    "size" : "134 x 134 cm (each)",
+    "hasInventory" : "L.648 LW"
   }, {
     "@id" : "spice:documentation/resonance",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Shirazeh Houshiary, Resonance, 1994, Graphite and acrylic on canvas, 134 x 134 cm (each), Collection Irish Museum of Modern Art, Loan, Weltkunst Foundation, 1996 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Shirazeh Houshiary, Resonance, 1994, Graphite and acrylic on canvas, 134 x 134 cm (each), Collection Irish Museum of Modern Art, Loan, Weltkunst Foundation, 1996 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/530.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2021/07/530.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

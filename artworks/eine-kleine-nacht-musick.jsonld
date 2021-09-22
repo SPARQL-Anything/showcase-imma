@@ -2,40 +2,35 @@
   "@graph" : [ {
     "@id" : "spice:artefact/eine-kleine-nacht-musick",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Eine Kleine Nacht Musick is a 1965 work by Joseph Cornell and Robert Cornell. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/eine-kleine-nacht-musick/",
-    "schema:creditText" : "IMMA Collection: The Novak/O'Doherty Collection at IMMA Gift, The American Ireland Fund, 2014",
+    "description" : "Eine Kleine Nacht Musick is a 1965 work by Joseph Cornell and Robert Cornell. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/eine-kleine-nacht-musick/",
+    "creditText" : "IMMA Collection: The Novak/O'Doherty Collection at IMMA Gift, The American Ireland Fund, 2014",
     "image" : "spice:documentation/eine-kleine-nacht-musick",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Collage on Ingres paper laid on board",
-    "schema:size" : "30.5 x 22.9 cm",
-    "arco-cd:hasInventory" : "IMMA.3852"
+    "material" : "Collage on Ingres paper laid on board",
+    "size" : "30.5 x 22.9 cm",
+    "hasInventory" : "IMMA.3852"
   }, {
     "@id" : "spice:documentation/eine-kleine-nacht-musick",
     "@type" : "schema:ImageObject",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/5073.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/5073.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -46,12 +41,10 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

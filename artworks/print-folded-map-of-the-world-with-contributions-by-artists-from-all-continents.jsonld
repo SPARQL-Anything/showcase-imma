@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/print-folded-map-of-the-world-with-contributions-by-artists-from-all-continents",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Print (folded map of the world with Contributions by artists from all continents) is a 1965 work by Mieko Shiomi. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/print-folded-map-of-the-world-with-contributions-by-artists-from-all-continents/",
-    "schema:creditText" : "IMMA Collection: Donation, Novak/O'Doherty Collection, 2015",
+    "description" : "Print (folded map of the world with Contributions by artists from all continents) is a 1965 work by Mieko Shiomi. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/print-folded-map-of-the-world-with-contributions-by-artists-from-all-continents/",
+    "creditText" : "IMMA Collection: Donation, Novak/O'Doherty Collection, 2015",
     "image" : "spice:documentation/print-folded-map-of-the-world-with-contributions-by-artists-from-all-continents",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Print",
-    "schema:size" : "38 x 82.8 cm",
-    "arco-cd:hasInventory" : "IMMA.3945"
+    "material" : "Print",
+    "size" : "38 x 82.8 cm",
+    "hasInventory" : "IMMA.3945"
   }, {
     "@id" : "spice:documentation/print-folded-map-of-the-world-with-contributions-by-artists-from-all-continents",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Mieko Shiomi, Print (folded map of the world with Contributions by artists from all continents), 1965, Print, 38 x 82.8 cm, Collection Irish Museum of Modern Art, Donation, Novak/O'Doherty Collection, 2015 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Mieko Shiomi, Print (folded map of the world with Contributions by artists from all continents), 1965, Print, 38 x 82.8 cm, Collection Irish Museum of Modern Art, Donation, Novak/O'Doherty Collection, 2015 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/5119.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/5119.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

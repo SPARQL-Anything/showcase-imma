@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/saunders-raymond",
     "@type" : "foaf:Person",
-    "dc:description" : "American artist Raymond Saunders (born 1934) studied at the University of Pennsylvania, the Pennsylvania Academy of Fine Arts, the Barnes Foundation, the Carnegie Institute of Technology, and California College of the Arts. His numerous awards include the National Institute of Arts and Letters Award, 1963, the Ford Foundation Award, 1964, a Prix de Rome Fellowship in Painting, 1964-1966, a Guggenheim Fellowship, 1976, and National Endowment for the Arts awards in 1977 and 1984. He is Professor of Painting and Drawing at California College of the Arts and is Professor Emeritus at Cal State East Bay in Hayward. Saunders’ work can be found in many public and private collections including the Museum of Modern Art, New York, the Whitney Museum of American Art, the Metropolitan Museum of Art, and the San Francisco Museum of Modern Art.",
-    "dc:source" : "https://imma.ie/artists/raymond-saunders/",
-    "schema:birthDate" : "b.1934",
-    "schema:url" : "https://imma.ie/artists/raymond-saunders/",
-    "rdfs:label" : "Raymond Saunders"
+    "description" : "American artist Raymond Saunders (born 1934) studied at the University of Pennsylvania, the Pennsylvania Academy of Fine Arts, the Barnes Foundation, the Carnegie Institute of Technology, and California College of the Arts. His numerous awards include the National Institute of Arts and Letters Award, 1963, the Ford Foundation Award, 1964, a Prix de Rome Fellowship in Painting, 1964-1966, a Guggenheim Fellowship, 1976, and National Endowment for the Arts awards in 1977 and 1984. He is Professor of Painting and Drawing at California College of the Arts and is Professor Emeritus at Cal State East Bay in Hayward. Saunders’ work can be found in many public and private collections including the Museum of Modern Art, New York, the Whitney Museum of American Art, the Metropolitan Museum of Art, and the San Francisco Museum of Modern Art.",
+    "source" : "https://imma.ie/artists/raymond-saunders/",
+    "birthDate" : "b.1934",
+    "url" : "https://imma.ie/artists/raymond-saunders/",
+    "label" : "Raymond Saunders"
   }, {
     "@id" : "spice:artefact/duck-out-of-water",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/saunders-raymond",
     "author" : "spice:agent/saunders-raymond",
-    "schema:dateCreated" : "1975",
-    "schema:url" : "https://imma.ie/collection/duck-out-of-water/",
+    "dateCreated" : "1975",
+    "url" : "https://imma.ie/collection/duck-out-of-water/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/duck-out-of-water",
-    "arco-cd:hasTitle" : "Duck Out of Water"
+    "hasTitle" : "Duck Out of Water"
   }, {
     "@id" : "spice:attribution/duck-out-of-water",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,40 +24,33 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

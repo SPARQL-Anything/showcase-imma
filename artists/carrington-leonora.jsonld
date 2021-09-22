@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/carrington-leonora",
     "@type" : "foaf:Person",
-    "dc:description" : "Leonora Carrington was the daughter of a British father and an Irish mother from Co Westmeath. In 1936 she moved to London and on to Paris, where she became a central figure in the Surrealist movement, exhibiting with André Breton, Max Ernst and others. She moved to Mexico in the 1940s. Carrington is known for her figurative dreamscapes filled with extraordinary and complex narratives informed by her rich interest in mythology, alchemy, fairy tales and the occult.",
-    "dc:source" : "https://imma.ie/artists/leonora-carrington/",
-    "schema:birthDate" : "1917–2011",
-    "schema:url" : "https://imma.ie/artists/leonora-carrington/",
-    "rdfs:label" : "Leonora Carrington"
+    "description" : "Leonora Carrington was the daughter of a British father and an Irish mother from Co Westmeath. In 1936 she moved to London and on to Paris, where she became a central figure in the Surrealist movement, exhibiting with André Breton, Max Ernst and others. She moved to Mexico in the 1940s. Carrington is known for her figurative dreamscapes filled with extraordinary and complex narratives informed by her rich interest in mythology, alchemy, fairy tales and the occult.",
+    "source" : "https://imma.ie/artists/leonora-carrington/",
+    "birthDate" : "1917–2011",
+    "url" : "https://imma.ie/artists/leonora-carrington/",
+    "label" : "Leonora Carrington"
   }, {
     "@id" : "spice:artefact/vulture-dragon",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/carrington-leonora",
     "author" : "spice:agent/carrington-leonora",
-    "schema:dateCreated" : "2010",
-    "schema:url" : "https://imma.ie/collection/vulture-dragon/",
+    "dateCreated" : "2010",
+    "url" : "https://imma.ie/collection/vulture-dragon/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/vulture-dragon",
-    "arco-cd:hasTitle" : "Vulture (Dragon)"
+    "hasTitle" : "Vulture (Dragon)"
   }, {
     "@id" : "spice:attribution/vulture-dragon",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,40 +28,33 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

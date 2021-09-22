@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/kalkhof-peter",
     "@type" : "foaf:Person",
-    "dc:description" : "German artist Peter Kalkhof studied painting at the School of Arts and Crafts, Braunschweig; the Academy of Fine Art, Stuttgart; the Slade School of Fine Art, London, and the École des Beaux-Arts, Paris. Kalkhof’s abstract, often large scale paintings are concerned with colour and space. His extensive travels and visits to man-made sacred sites, churches, holy caves and other monumental structures where geometry has been used as a sacred form have influenced his practice. Kalkhof taught in the Fine Art Department at the University of Reading.",
-    "dc:source" : "https://imma.ie/artists/peter-kalkhof/",
-    "schema:birthDate" : "b.1933",
-    "schema:url" : "https://imma.ie/artists/peter-kalkhof/",
-    "rdfs:label" : "Peter Kalkhof"
+    "description" : "German artist Peter Kalkhof studied painting at the School of Arts and Crafts, Braunschweig; the Academy of Fine Art, Stuttgart; the Slade School of Fine Art, London, and the École des Beaux-Arts, Paris. Kalkhof’s abstract, often large scale paintings are concerned with colour and space. His extensive travels and visits to man-made sacred sites, churches, holy caves and other monumental structures where geometry has been used as a sacred form have influenced his practice. Kalkhof taught in the Fine Art Department at the University of Reading.",
+    "source" : "https://imma.ie/artists/peter-kalkhof/",
+    "birthDate" : "b.1933",
+    "url" : "https://imma.ie/artists/peter-kalkhof/",
+    "label" : "Peter Kalkhof"
   }, {
     "@id" : "spice:artefact/transverse-colours",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/kalkhof-peter",
     "author" : "spice:agent/kalkhof-peter",
-    "schema:dateCreated" : "1966",
-    "schema:url" : "https://imma.ie/collection/transverse-colours/",
+    "dateCreated" : "1966",
+    "url" : "https://imma.ie/collection/transverse-colours/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/transverse-colours",
-    "arco-cd:hasTitle" : "Transverse Colours"
+    "hasTitle" : "Transverse Colours"
   }, {
     "@id" : "spice:attribution/transverse-colours",
     "@type" : "arco:AuthorshipAttribution",
@@ -32,48 +32,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

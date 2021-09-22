@@ -2,56 +2,49 @@
   "@graph" : [ {
     "@id" : "spice:artefact/bolthole",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Artist Rhona Byrne’s hand-made objects, installations and collaborative, event‐based, projects explore the interactions between people and their habitat.’’Bolthole’’ has 40 component pieces and invites visitors to construct and reconstruct the installation to make their own environments. The spaces can be individual shelters/dens or a large configuration of pieces to make one large space. Participants construct and inhabit an ever-changing moving installation. ",
-    "dc:source" : "https://imma.ie/collection/bolthole/",
-    "schema:creditText" : "IMMA Collection: Purchase, Hennessy Art Fund for IMMA Collection, 2016",
+    "description" : "Artist Rhona Byrne’s hand-made objects, installations and collaborative, event‐based, projects explore the interactions between people and their habitat.’’Bolthole’’ has 40 component pieces and invites visitors to construct and reconstruct the installation to make their own environments. The spaces can be individual shelters/dens or a large configuration of pieces to make one large space. Participants construct and inhabit an ever-changing moving installation. ",
+    "source" : "https://imma.ie/collection/bolthole/",
+    "creditText" : "IMMA Collection: Purchase, Hennessy Art Fund for IMMA Collection, 2016",
     "image" : "spice:documentation/bolthole",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Fabric, plastic, carpet and fasteners",
-    "arco-cd:hasInventory" : "IMMA.4003"
+    "material" : "Fabric, plastic, carpet and fasteners",
+    "hasInventory" : "IMMA.4003"
   }, {
     "@id" : "spice:documentation/bolthole",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Rhona Byrne, Bolthole, 2012, Fabric, plastic, carpet and fasteners, Collection Irish Museum of Modern Art, Purchase, Hennessy Art Fund for IMMA Collection, 2016 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Rhona Byrne, Bolthole, 2012, Fabric, plastic, carpet and fasteners, Collection Irish Museum of Modern Art, Purchase, Hennessy Art Fund for IMMA Collection, 2016 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

@@ -1,35 +1,30 @@
 {
   "@id" : "spice:agent/ramkrishna-yogesh",
   "@type" : "foaf:Person",
-  "dc:description" : [ "Yogesh Ramkrishna’s art practice looks to re-evaluate history at the border between truth and fiction in contemporary global society. Employing a wide range of mythological propaganda the resulting images exist in a dream-like state where fantasy and reality coexist. Oral histories, mythical stories, tales, beliefs and cultural rituals along with local archives are an important inspiration for his work, accumulating research fragments to articulate a changing nature or placement in the current social structure.", "Yogesh Ramkrishna’s art practice looks to re-evaluate history at the border between truth and fiction in contemporary global society. Employing a wide range of mythological propaganda the resulting images exist in a dream-like state where fantasy and reality coexist." ],
-  "dc:source" : "https://imma.ie/artists/yogesh-ramkrishna/",
-  "schema:birthDate" : "b.1991",
-  "schema:url" : "https://imma.ie/artists/yogesh-ramkrishna/",
-  "rdfs:label" : "Yogesh Ramkrishna",
+  "description" : [ "Yogesh Ramkrishna’s art practice looks to re-evaluate history at the border between truth and fiction in contemporary global society. Employing a wide range of mythological propaganda the resulting images exist in a dream-like state where fantasy and reality coexist. Oral histories, mythical stories, tales, beliefs and cultural rituals along with local archives are an important inspiration for his work, accumulating research fragments to articulate a changing nature or placement in the current social structure.", "Yogesh Ramkrishna’s art practice looks to re-evaluate history at the border between truth and fiction in contemporary global society. Employing a wide range of mythological propaganda the resulting images exist in a dream-like state where fantasy and reality coexist." ],
+  "source" : "https://imma.ie/artists/yogesh-ramkrishna/",
+  "birthDate" : "b.1991",
+  "url" : "https://imma.ie/artists/yogesh-ramkrishna/",
+  "label" : "Yogesh Ramkrishna",
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

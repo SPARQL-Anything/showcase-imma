@@ -2,20 +2,20 @@
   "@graph" : [ {
     "@id" : "spice:agent/rollins-k-o-s-tim",
     "@type" : "foaf:Person",
-    "dc:description" : "American artist Tim Rollins (born 1955) studied at the School of Visual Arts, New York, and New York University. While working as an art teacher in the Bronx in the early 1980s, Rollins formed the K.O.S. (Kids of Survival) group with local teenagers who showed artistic potential. Engaging with mass culture, literature and politics, the group exhibited extensively in the 1980s. Their work is represented in significant public collections, including MoMA, New York and the Tate Gallery, London.",
-    "dc:source" : "https://imma.ie/artists/tim-rollins-k-o-s/",
-    "schema:url" : "https://imma.ie/artists/tim-rollins-k-o-s/",
-    "rdfs:label" : "Tim Rollins &amp; K.O.S."
+    "description" : "American artist Tim Rollins (born 1955) studied at the School of Visual Arts, New York, and New York University. While working as an art teacher in the Bronx in the early 1980s, Rollins formed the K.O.S. (Kids of Survival) group with local teenagers who showed artistic potential. Engaging with mass culture, literature and politics, the group exhibited extensively in the 1980s. Their work is represented in significant public collections, including MoMA, New York and the Tate Gallery, London.",
+    "source" : "https://imma.ie/artists/tim-rollins-k-o-s/",
+    "url" : "https://imma.ie/artists/tim-rollins-k-o-s/",
+    "label" : "Tim Rollins &amp; K.O.S."
   }, {
     "@id" : "spice:artefact/the-red-badge-of-courage",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/rollins-k-o-s-tim",
     "author" : "spice:agent/rollins-k-o-s-tim",
-    "schema:dateCreated" : "1988",
-    "schema:url" : "https://imma.ie/collection/the-red-badge-of-courage/",
+    "dateCreated" : "1988",
+    "url" : "https://imma.ie/collection/the-red-badge-of-courage/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-red-badge-of-courage",
-    "arco-cd:hasTitle" : "The Red Badge of Courage"
+    "hasTitle" : "The Red Badge of Courage"
   }, {
     "@id" : "spice:attribution/the-red-badge-of-courage",
     "@type" : "arco:AuthorshipAttribution",
@@ -23,36 +23,30 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -68,7 +62,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

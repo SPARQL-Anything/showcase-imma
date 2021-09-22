@@ -2,41 +2,41 @@
   "@graph" : [ {
     "@id" : "spice:agent/duchamp-marcel",
     "@type" : "foaf:Person",
-    "dc:description" : "French painter, sculptor and writer Marcel Duchamp first received critical attention at the 1913 New York Armory Show for his painting ‘Nude Descending a Staircase’. He produced his first ‘readymade’ the same year. The best-known of those, ‘Fountain’ (1917), is considered a turning point in the history of Modernism. With Man Ray, Duchamp founded the Dada movement in New York in 1919. From the 1940s, Duchamp claimed to have given up art in favour of competitive chess. Despite this, he became a cult figure among avant-garde artists in the USA and Europe.",
-    "dc:source" : "https://imma.ie/artists/marcel-duchamp/",
-    "schema:birthDate" : "1887–1968",
-    "schema:url" : "https://imma.ie/artists/marcel-duchamp/",
-    "rdfs:label" : "Marcel Duchamp"
+    "description" : "French painter, sculptor and writer Marcel Duchamp first received critical attention at the 1913 New York Armory Show for his painting ‘Nude Descending a Staircase’. He produced his first ‘readymade’ the same year. The best-known of those, ‘Fountain’ (1917), is considered a turning point in the history of Modernism. With Man Ray, Duchamp founded the Dada movement in New York in 1919. From the 1940s, Duchamp claimed to have given up art in favour of competitive chess. Despite this, he became a cult figure among avant-garde artists in the USA and Europe.",
+    "source" : "https://imma.ie/artists/marcel-duchamp/",
+    "birthDate" : "1887–1968",
+    "url" : "https://imma.ie/artists/marcel-duchamp/",
+    "label" : "Marcel Duchamp"
   }, {
     "@id" : "spice:artefact/rasee-l-h-o-o-q",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/duchamp-marcel",
     "author" : "spice:agent/duchamp-marcel",
-    "schema:dateCreated" : "1965",
-    "schema:url" : "https://imma.ie/collection/rasee-l-h-o-o-q/",
+    "dateCreated" : "1965",
+    "url" : "https://imma.ie/collection/rasee-l-h-o-o-q/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/rasee-l-h-o-o-q",
-    "arco-cd:hasTitle" : "Rasée L.H.O.O.Q."
+    "hasTitle" : "Rasée L.H.O.O.Q."
   }, {
     "@id" : "spice:artefact/rotoreliefs-optical-disks",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/duchamp-marcel",
     "author" : "spice:agent/duchamp-marcel",
-    "schema:dateCreated" : "1935",
-    "schema:url" : "https://imma.ie/collection/rotoreliefs-optical-disks/",
+    "dateCreated" : "1935",
+    "url" : "https://imma.ie/collection/rotoreliefs-optical-disks/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/rotoreliefs-optical-disks",
-    "arco-cd:hasTitle" : "Rotoreliefs (Optical Disks)"
+    "hasTitle" : "Rotoreliefs (Optical Disks)"
   }, {
     "@id" : "spice:artefact/the-chess-players",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/duchamp-marcel",
     "author" : "spice:agent/duchamp-marcel",
-    "schema:dateCreated" : "1965",
-    "schema:url" : "https://imma.ie/collection/the-chess-players/",
+    "dateCreated" : "1965",
+    "url" : "https://imma.ie/collection/the-chess-players/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-chess-players",
-    "arco-cd:hasTitle" : "The Chess Players"
+    "hasTitle" : "The Chess Players"
   }, {
     "@id" : "spice:attribution/rasee-l-h-o-o-q",
     "@type" : "arco:AuthorshipAttribution",
@@ -55,53 +55,46 @@
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
       "@type" : "@id"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
-    "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
-    },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
-    },
-    "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
-    },
-    "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
-    },
-    "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
-    },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

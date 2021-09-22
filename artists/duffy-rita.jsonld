@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/duffy-rita",
     "@type" : "foaf:Person",
-    "dc:description" : "Belfast artist Rita Duffy received her BA at the Art and Design Centre and her MA in Fine Art at the University of Ulster. Her art is often autobiographical, and reflects on Irish identity, history and politics. Duffy is an Honorary Member of the Royal Society of Ulster Architects (RSUA), and she was awarded the Gold Medal, Royal Ulster Academy of Arts in 2006. Her work can be found in many collections including; Arts Council of Northern Ireland; Ulster Museum, Belfast; Museum of Contemporary Art, Zagreb; The Drawing Museum, New York; and the Office of Public Works, Dublin.",
-    "dc:source" : "https://imma.ie/artists/rita-duffy/",
-    "schema:birthDate" : "b.1959",
-    "schema:url" : "https://imma.ie/artists/rita-duffy/",
-    "rdfs:label" : "Rita Duffy"
+    "description" : "Belfast artist Rita Duffy received her BA at the Art and Design Centre and her MA in Fine Art at the University of Ulster. Her art is often autobiographical, and reflects on Irish identity, history and politics. Duffy is an Honorary Member of the Royal Society of Ulster Architects (RSUA), and she was awarded the Gold Medal, Royal Ulster Academy of Arts in 2006. Her work can be found in many collections including; Arts Council of Northern Ireland; Ulster Museum, Belfast; Museum of Contemporary Art, Zagreb; The Drawing Museum, New York; and the Office of Public Works, Dublin.",
+    "source" : "https://imma.ie/artists/rita-duffy/",
+    "birthDate" : "b.1959",
+    "url" : "https://imma.ie/artists/rita-duffy/",
+    "label" : "Rita Duffy"
   }, {
     "@id" : "spice:artefact/watchtower-2",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/duffy-rita",
     "author" : "spice:agent/duffy-rita",
-    "schema:dateCreated" : "2005",
-    "schema:url" : "https://imma.ie/collection/watchtower-2/",
+    "dateCreated" : "2005",
+    "url" : "https://imma.ie/collection/watchtower-2/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/watchtower-2",
-    "arco-cd:hasTitle" : "Watchtower 2"
+    "hasTitle" : "Watchtower 2"
   }, {
     "@id" : "spice:attribution/watchtower-2",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,24 +24,19 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -52,16 +47,14 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/medium-corporate-entities-version-iii",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Medium (Corporate Entities) version III is a 2008 work by Ronan McCrea. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/medium-corporate-entities-version-iii/",
-    "schema:creditText" : "IMMA Collection: Purchase, 2013",
+    "description" : "Medium (Corporate Entities) version III is a 2008 work by Ronan McCrea. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/medium-corporate-entities-version-iii/",
+    "creditText" : "IMMA Collection: Purchase, 2013",
     "image" : "spice:documentation/medium-corporate-entities-version-iii",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "80 35mm slides, synchronised sound, plywood, photocopies",
-    "schema:size" : "Duration: 28min.30 sec.",
-    "arco-cd:hasInventory" : "IMMA.3831"
+    "material" : "80 35mm slides, synchronised sound, plywood, photocopies",
+    "size" : "Duration: 28min.30 sec.",
+    "hasInventory" : "IMMA.3831"
   }, {
     "@id" : "spice:documentation/medium-corporate-entities-version-iii",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Ronan McCrea, Medium (Corporate Entities) version III, 2008, 80 35mm slides, synchronised sound, plywood, photocopies, Duration: 28min.30 sec., Collection Irish Museum of Modern Art, Purchase, 2013 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Ronan McCrea, Medium (Corporate Entities) version III, 2008, 80 35mm slides, synchronised sound, plywood, photocopies, Duration: 28min.30 sec., Collection Irish Museum of Modern Art, Purchase, 2013 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/7188.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/7188.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

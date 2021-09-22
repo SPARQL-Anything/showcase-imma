@@ -2,51 +2,44 @@
   "@graph" : [ {
     "@id" : "spice:artefact/untitled-11",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Untitled is a 2009 work by Perry Ogden. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/untitled-11/",
-    "schema:creditText" : "IMMA Collection: Purchase, assisted by funding from Maire and Maurice Foley, 2010",
+    "description" : "Untitled is a 2009 work by Perry Ogden. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/untitled-11/",
+    "creditText" : "IMMA Collection: Purchase, assisted by funding from Maire and Maurice Foley, 2010",
     "image" : "spice:documentation/untitled-11",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Chromogenic print from digital file, mounted on aluminium",
-    "schema:size" : "106.68 x 157.48 cm",
-    "schema:version" : "Edition A/P 1",
-    "arco-cd:hasInventory" : "IMMA.3308"
+    "material" : "Chromogenic print from digital file, mounted on aluminium",
+    "size" : "106.68 x 157.48 cm",
+    "version" : "Edition A/P 1",
+    "hasInventory" : "IMMA.3308"
   }, {
     "@id" : "spice:documentation/untitled-11",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Perry Ogden, Untitled, 2009, Chromogenic print from digital file, mounted on aluminium, 106.68 x 157.48 cm, Collection Irish Museum of Modern Art, Purchase, assisted by funding from Maire and Maurice Foley, 2010 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Perry Ogden, Untitled, 2009, Chromogenic print from digital file, mounted on aluminium, 106.68 x 157.48 cm, Collection Irish Museum of Modern Art, Purchase, assisted by funding from Maire and Maurice Foley, 2010 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/5573.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/5573.jpg"
   } ],
   "@context" : {
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
@@ -57,16 +50,13 @@
       "@type" : "@id"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

@@ -2,15 +2,15 @@
   "@graph" : [ {
     "@id" : "spice:artefact/the-testament-of-cresseid",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "The Testament of Cresseid is a 2004 work by Hughie O'Donoghue and Seamus Heaney. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/the-testament-of-cresseid/",
-    "schema:creditText" : "IMMA Collection: Donation, Hughie O' Donoghue, 2005",
+    "description" : "The Testament of Cresseid is a 2004 work by Hughie O'Donoghue and Seamus Heaney. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/the-testament-of-cresseid/",
+    "creditText" : "IMMA Collection: Donation, Hughie O' Donoghue, 2005",
     "image" : "spice:documentation/the-testament-of-cresseid",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Limited edition Book and print",
-    "schema:size" : "Dimensions variable",
-    "schema:version" : "Edition 5/25",
-    "arco-cd:hasInventory" : "IMMA.1818"
+    "material" : "Limited edition Book and print",
+    "size" : "Dimensions variable",
+    "version" : "Edition 5/25",
+    "hasInventory" : "IMMA.1818"
   }, {
     "@id" : "spice:documentation/the-testament-of-cresseid",
     "@type" : "schema:ImageObject",
@@ -22,36 +22,29 @@
       "@type" : "@id"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

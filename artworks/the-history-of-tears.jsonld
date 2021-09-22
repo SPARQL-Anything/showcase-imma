@@ -2,67 +2,57 @@
   "@graph" : [ {
     "@id" : "spice:artefact/the-history-of-tears",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "This specially commissioned cloth handkerchief by Alice Maher was produced on the occasion of her 2012 – 2013 solo exhibition in IMMA.",
-    "dc:source" : "https://imma.ie/collection/the-history-of-tears/",
-    "schema:creditText" : "IMMA Collection: IMMA Editions, Donated by the artist, 2013",
+    "description" : "This specially commissioned cloth handkerchief by Alice Maher was produced on the occasion of her 2012 – 2013 solo exhibition in IMMA.",
+    "source" : "https://imma.ie/collection/the-history-of-tears/",
+    "creditText" : "IMMA Collection: IMMA Editions, Donated by the artist, 2013",
     "image" : "spice:documentation/the-history-of-tears",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Silk handkerchief. Printed by Glasgow School of Art, Centre for Advanced Textiles. Sewn by Fashion Hothouse, Dublin",
-    "schema:size" : "28 x 28 cm",
-    "schema:version" : "Edition of 200",
-    "arco-cd:hasInventory" : "IMMA.3810"
+    "material" : "Silk handkerchief. Printed by Glasgow School of Art, Centre for Advanced Textiles. Sewn by Fashion Hothouse, Dublin",
+    "size" : "28 x 28 cm",
+    "version" : "Edition of 200",
+    "hasInventory" : "IMMA.3810"
   }, {
     "@id" : "spice:documentation/the-history-of-tears",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Alice Maher, The History of Tears, 2013, Silk handkerchief. Printed by Glasgow School of Art, Centre for Advanced Textiles. Sewn by Fashion Hothouse, Dublin, 28 x 28 cm, Collection Irish Museum of Modern Art, IMMA Editions, Donated by the artist, 2013 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Alice Maher, The History of Tears, 2013, Silk handkerchief. Printed by Glasgow School of Art, Centre for Advanced Textiles. Sewn by Fashion Hothouse, Dublin, 28 x 28 cm, Collection Irish Museum of Modern Art, IMMA Editions, Donated by the artist, 2013 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/7165.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/7165.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",

@@ -2,41 +2,41 @@
   "@graph" : [ {
     "@id" : "spice:agent/coughlin-jack",
     "@type" : "foaf:Person",
-    "dc:description" : "American artist Jack Coughlin studied at the Rhode Island School of Design and at the Arts Students League in New York. He has exhibited his prints, drawings and watercolours since the 1960s, including solo exhibitions in the US, Italy and Ireland. Best known for his portraits of literary figures Coughlin has also created low relief sculptures in the lost wax-bronze casting technique. In addition to his work as an artist and a sculptor, Coughlin is Professor Emeritus of Art at the University of Massachusetts Amherst. His work is represented in major collections including the Metropolitan Museum of Art, New York; MoMA, New York, and the University of Ulster, Coleraine.",
-    "dc:source" : "https://imma.ie/artists/jack-coughlin/",
-    "schema:birthDate" : "b.1932",
-    "schema:url" : "https://imma.ie/artists/jack-coughlin/",
-    "rdfs:label" : "Jack Coughlin"
+    "description" : "American artist Jack Coughlin studied at the Rhode Island School of Design and at the Arts Students League in New York. He has exhibited his prints, drawings and watercolours since the 1960s, including solo exhibitions in the US, Italy and Ireland. Best known for his portraits of literary figures Coughlin has also created low relief sculptures in the lost wax-bronze casting technique. In addition to his work as an artist and a sculptor, Coughlin is Professor Emeritus of Art at the University of Massachusetts Amherst. His work is represented in major collections including the Metropolitan Museum of Art, New York; MoMA, New York, and the University of Ulster, Coleraine.",
+    "source" : "https://imma.ie/artists/jack-coughlin/",
+    "birthDate" : "b.1932",
+    "url" : "https://imma.ie/artists/jack-coughlin/",
+    "label" : "Jack Coughlin"
   }, {
     "@id" : "spice:artefact/homage-to-boucher",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/coughlin-jack",
     "author" : "spice:agent/coughlin-jack",
-    "schema:dateCreated" : "1978",
-    "schema:url" : "https://imma.ie/collection/homage-to-boucher/",
+    "dateCreated" : "1978",
+    "url" : "https://imma.ie/collection/homage-to-boucher/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/homage-to-boucher",
-    "arco-cd:hasTitle" : "Homage to Boucher"
+    "hasTitle" : "Homage to Boucher"
   }, {
     "@id" : "spice:artefact/jack-lynch-commissioned-by-gordon-lambert",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/coughlin-jack",
     "author" : "spice:agent/coughlin-jack",
-    "schema:dateCreated" : "1978",
-    "schema:url" : "https://imma.ie/collection/jack-lynch-commissioned-by-gordon-lambert/",
+    "dateCreated" : "1978",
+    "url" : "https://imma.ie/collection/jack-lynch-commissioned-by-gordon-lambert/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/jack-lynch-commissioned-by-gordon-lambert",
-    "arco-cd:hasTitle" : "Jack Lynch (commissioned by Gordon Lambert)"
+    "hasTitle" : "Jack Lynch (commissioned by Gordon Lambert)"
   }, {
     "@id" : "spice:artefact/untitled-107",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/coughlin-jack",
     "author" : "spice:agent/coughlin-jack",
-    "schema:dateCreated" : "1974",
-    "schema:url" : "https://imma.ie/collection/untitled-107/",
+    "dateCreated" : "1974",
+    "url" : "https://imma.ie/collection/untitled-107/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-107",
-    "arco-cd:hasTitle" : "Untitled"
+    "hasTitle" : "Untitled"
   }, {
     "@id" : "spice:attribution/homage-to-boucher",
     "@type" : "arco:AuthorshipAttribution",
@@ -60,48 +60,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

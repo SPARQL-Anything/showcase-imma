@@ -2,61 +2,61 @@
   "@graph" : [ {
     "@id" : "spice:agent/campbell-george",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish artist George Campbell began painting during the blitz of Belfast while working in an aircraft factory. He painted in Connemara, London and most frequently, Spain, where he lived for twenty five years. A founder member of the Irish Exhibition of Living Art, Campbell was a member of the RHA, and won, among other awards, the Douglas Hyde Gold Medal in 1966 and the Oireachtas Prize for Landscape in 1969. In 1977 he was honoured as a Knight Commander of Spain. Campbell’s landscapes, still-lifes and figure paintings are represented in Irish public and private collections.",
-    "dc:source" : "https://imma.ie/artists/george-campbell/",
-    "schema:birthDate" : "1917–1979",
-    "schema:url" : "https://imma.ie/artists/george-campbell/",
-    "rdfs:label" : "George Campbell"
+    "description" : "Irish artist George Campbell began painting during the blitz of Belfast while working in an aircraft factory. He painted in Connemara, London and most frequently, Spain, where he lived for twenty five years. A founder member of the Irish Exhibition of Living Art, Campbell was a member of the RHA, and won, among other awards, the Douglas Hyde Gold Medal in 1966 and the Oireachtas Prize for Landscape in 1969. In 1977 he was honoured as a Knight Commander of Spain. Campbell’s landscapes, still-lifes and figure paintings are represented in Irish public and private collections.",
+    "source" : "https://imma.ie/artists/george-campbell/",
+    "birthDate" : "1917–1979",
+    "url" : "https://imma.ie/artists/george-campbell/",
+    "label" : "George Campbell"
   }, {
     "@id" : "spice:artefact/andante",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/campbell-george",
     "author" : "spice:agent/campbell-george",
-    "schema:dateCreated" : "1969",
-    "schema:url" : "https://imma.ie/collection/andante/",
+    "dateCreated" : "1969",
+    "url" : "https://imma.ie/collection/andante/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/andante",
-    "arco-cd:hasTitle" : "Andante"
+    "hasTitle" : "Andante"
   }, {
     "@id" : "spice:artefact/belfast-room",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/campbell-george",
     "author" : "spice:agent/campbell-george",
-    "schema:dateCreated" : "1946",
-    "schema:url" : "https://imma.ie/collection/belfast-room/",
+    "dateCreated" : "1946",
+    "url" : "https://imma.ie/collection/belfast-room/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/belfast-room",
-    "arco-cd:hasTitle" : "Belfast Room"
+    "hasTitle" : "Belfast Room"
   }, {
     "@id" : "spice:artefact/blitzed-london",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/campbell-george",
     "author" : "spice:agent/campbell-george",
-    "schema:dateCreated" : "1940",
-    "schema:url" : "https://imma.ie/collection/blitzed-london/",
+    "dateCreated" : "1940",
+    "url" : "https://imma.ie/collection/blitzed-london/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/blitzed-london",
-    "arco-cd:hasTitle" : "Blitzed London"
+    "hasTitle" : "Blitzed London"
   }, {
     "@id" : "spice:artefact/fishing-harbour-night-mending-nets",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/campbell-george",
     "author" : "spice:agent/campbell-george",
-    "schema:dateCreated" : "1957",
-    "schema:url" : "https://imma.ie/collection/fishing-harbour-night-mending-nets/",
+    "dateCreated" : "1957",
+    "url" : "https://imma.ie/collection/fishing-harbour-night-mending-nets/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/fishing-harbour-night-mending-nets",
-    "arco-cd:hasTitle" : "Fishing Harbour Night, (mending nets)"
+    "hasTitle" : "Fishing Harbour Night, (mending nets)"
   }, {
     "@id" : "spice:artefact/still-life-with-oil-lamp",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/campbell-george",
     "author" : "spice:agent/campbell-george",
-    "schema:dateCreated" : "1969",
-    "schema:url" : "https://imma.ie/collection/still-life-with-oil-lamp/",
+    "dateCreated" : "1969",
+    "url" : "https://imma.ie/collection/still-life-with-oil-lamp/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/still-life-with-oil-lamp",
-    "arco-cd:hasTitle" : "Still Life with Oil Lamp"
+    "hasTitle" : "Still Life with Oil Lamp"
   }, {
     "@id" : "spice:attribution/andante",
     "@type" : "arco:AuthorshipAttribution",
@@ -88,48 +88,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -2,20 +2,20 @@
   "@graph" : [ {
     "@id" : "spice:agent/van-rijn-rembrandt",
     "@type" : "foaf:Person",
-    "dc:source" : "https://imma.ie/artists/rembrandt-van-rijn/",
-    "schema:birthDate" : "1606–1669",
-    "schema:url" : "https://imma.ie/artists/rembrandt-van-rijn/",
-    "rdfs:label" : "Rembrandt van Rijn"
+    "source" : "https://imma.ie/artists/rembrandt-van-rijn/",
+    "birthDate" : "1606–1669",
+    "url" : "https://imma.ie/artists/rembrandt-van-rijn/",
+    "label" : "Rembrandt van Rijn"
   }, {
     "@id" : "spice:artefact/the-great-jewish-bride",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/van-rijn-rembrandt",
     "author" : "spice:agent/van-rijn-rembrandt",
-    "schema:dateCreated" : "1635",
-    "schema:url" : "https://imma.ie/collection/the-great-jewish-bride/",
+    "dateCreated" : "1635",
+    "url" : "https://imma.ie/collection/the-great-jewish-bride/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-great-jewish-bride",
-    "arco-cd:hasTitle" : "The Great Jewish Bride"
+    "hasTitle" : "The Great Jewish Bride"
   }, {
     "@id" : "spice:attribution/the-great-jewish-bride",
     "@type" : "arco:AuthorshipAttribution",
@@ -27,36 +27,30 @@
       "@type" : "@id"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -68,7 +62,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

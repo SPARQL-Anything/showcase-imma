@@ -2,171 +2,171 @@
   "@graph" : [ {
     "@id" : "spice:agent/farrell-micheal",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish artist Michael Farrell attended Central St. Martin's College of Art, London. His paintings juxtaposed an abstracted pop art style with Irish images and he became extremely successful commercially towards the end of the 1960s. He represented Ireland at the Paris Biennale in 1967. Farrell relocated to France in 1971. He maintained a love-hate relationship with Ireland and the escalating violence in the north during the 1970s profoundly influenced his work. Elected a member of Aosdána in 1987, Farrell exhibited regularly at the Taylor Galleries and his work is included in many private and public collections.",
-    "dc:source" : "https://imma.ie/artists/micheal-farrell/",
-    "schema:birthDate" : "1940–2000",
-    "schema:url" : "https://imma.ie/artists/micheal-farrell/",
-    "rdfs:label" : "Micheal Farrell"
+    "description" : "Irish artist Michael Farrell attended Central St. Martin's College of Art, London. His paintings juxtaposed an abstracted pop art style with Irish images and he became extremely successful commercially towards the end of the 1960s. He represented Ireland at the Paris Biennale in 1967. Farrell relocated to France in 1971. He maintained a love-hate relationship with Ireland and the escalating violence in the north during the 1970s profoundly influenced his work. Elected a member of Aosdána in 1987, Farrell exhibited regularly at the Taylor Galleries and his work is included in many private and public collections.",
+    "source" : "https://imma.ie/artists/micheal-farrell/",
+    "birthDate" : "1940–2000",
+    "url" : "https://imma.ie/artists/micheal-farrell/",
+    "label" : "Micheal Farrell"
   }, {
     "@id" : "spice:artefact/an-incomplete-history-of-ireland",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/farrell-micheal",
     "author" : "spice:agent/farrell-micheal",
-    "schema:dateCreated" : "1980",
-    "schema:url" : "https://imma.ie/collection/an-incomplete-history-of-ireland/",
+    "dateCreated" : "1980",
+    "url" : "https://imma.ie/collection/an-incomplete-history-of-ireland/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/an-incomplete-history-of-ireland",
-    "arco-cd:hasTitle" : "An Incomplete History of Ireland"
+    "hasTitle" : "An Incomplete History of Ireland"
   }, {
     "@id" : "spice:artefact/black-47",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/farrell-micheal",
     "author" : "spice:agent/farrell-micheal",
-    "schema:dateCreated" : "1997",
-    "schema:url" : "https://imma.ie/collection/black-47/",
+    "dateCreated" : "1997",
+    "url" : "https://imma.ie/collection/black-47/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/black-47",
-    "arco-cd:hasTitle" : "Black ’47"
+    "hasTitle" : "Black ’47"
   }, {
     "@id" : "spice:artefact/cairn-series",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/farrell-micheal",
     "author" : "spice:agent/farrell-micheal",
-    "schema:dateCreated" : "1964",
-    "schema:url" : "https://imma.ie/collection/cairn-series/",
+    "dateCreated" : "1964",
+    "url" : "https://imma.ie/collection/cairn-series/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/cairn-series",
-    "arco-cd:hasTitle" : "Cairn Series"
+    "hasTitle" : "Cairn Series"
   }, {
     "@id" : "spice:artefact/entre-ici-et-arles",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/farrell-micheal",
     "author" : "spice:agent/farrell-micheal",
-    "schema:dateCreated" : "1990",
-    "schema:url" : "https://imma.ie/collection/entre-ici-et-arles/",
+    "dateCreated" : "1990",
+    "url" : "https://imma.ie/collection/entre-ici-et-arles/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/entre-ici-et-arles",
-    "arco-cd:hasTitle" : "Entre ici et Arles"
+    "hasTitle" : "Entre ici et Arles"
   }, {
     "@id" : "spice:artefact/la-rencontre",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/farrell-micheal",
     "author" : "spice:agent/farrell-micheal",
-    "schema:dateCreated" : "1992",
-    "schema:url" : "https://imma.ie/collection/la-rencontre/",
+    "dateCreated" : "1992",
+    "url" : "https://imma.ie/collection/la-rencontre/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/la-rencontre",
-    "arco-cd:hasTitle" : "La Rencontre"
+    "hasTitle" : "La Rencontre"
   }, {
     "@id" : "spice:artefact/la-rencontre-2",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/farrell-micheal",
     "author" : "spice:agent/farrell-micheal",
-    "schema:dateCreated" : "1991",
-    "schema:url" : "https://imma.ie/collection/la-rencontre-2/",
+    "dateCreated" : "1991",
+    "url" : "https://imma.ie/collection/la-rencontre-2/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/la-rencontre-2",
-    "arco-cd:hasTitle" : "La Rencontre"
+    "hasTitle" : "La Rencontre"
   }, {
     "@id" : "spice:artefact/la-rencontre-3",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/farrell-micheal",
     "author" : "spice:agent/farrell-micheal",
-    "schema:dateCreated" : "1991",
-    "schema:url" : "https://imma.ie/collection/la-rencontre-3/",
+    "dateCreated" : "1991",
+    "url" : "https://imma.ie/collection/la-rencontre-3/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/la-rencontre-3",
-    "arco-cd:hasTitle" : "La Rencontre"
+    "hasTitle" : "La Rencontre"
   }, {
     "@id" : "spice:artefact/madonna-irlanda",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/farrell-micheal",
     "author" : "spice:agent/farrell-micheal",
-    "schema:dateCreated" : "1978",
-    "schema:url" : "https://imma.ie/collection/madonna-irlanda/",
+    "dateCreated" : "1978",
+    "url" : "https://imma.ie/collection/madonna-irlanda/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/madonna-irlanda",
-    "arco-cd:hasTitle" : "Madonna Irlanda"
+    "hasTitle" : "Madonna Irlanda"
   }, {
     "@id" : "spice:artefact/political-presse",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/farrell-micheal",
     "author" : "spice:agent/farrell-micheal",
-    "schema:dateCreated" : "1975",
-    "schema:url" : "https://imma.ie/collection/political-presse/",
+    "dateCreated" : "1975",
+    "url" : "https://imma.ie/collection/political-presse/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/political-presse",
-    "arco-cd:hasTitle" : "Political Presse"
+    "hasTitle" : "Political Presse"
   }, {
     "@id" : "spice:artefact/presse-series-black-and-white",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/farrell-micheal",
     "author" : "spice:agent/farrell-micheal",
-    "schema:dateCreated" : "1970",
-    "schema:url" : "https://imma.ie/collection/presse-series-black-and-white/",
+    "dateCreated" : "1970",
+    "url" : "https://imma.ie/collection/presse-series-black-and-white/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/presse-series-black-and-white",
-    "arco-cd:hasTitle" : "Pressé series, Black and White"
+    "hasTitle" : "Pressé series, Black and White"
   }, {
     "@id" : "spice:artefact/real-presse-series",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/farrell-micheal",
     "author" : "spice:agent/farrell-micheal",
-    "schema:dateCreated" : "1971",
-    "schema:url" : "https://imma.ie/collection/real-presse-series/",
+    "dateCreated" : "1971",
+    "url" : "https://imma.ie/collection/real-presse-series/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/real-presse-series",
-    "arco-cd:hasTitle" : "Real Pressé Series"
+    "hasTitle" : "Real Pressé Series"
   }, {
     "@id" : "spice:artefact/red-dublin",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/farrell-micheal",
     "author" : "spice:agent/farrell-micheal",
-    "schema:dateCreated" : "1968",
-    "schema:url" : "https://imma.ie/collection/red-dublin/",
+    "dateCreated" : "1968",
+    "url" : "https://imma.ie/collection/red-dublin/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/red-dublin",
-    "arco-cd:hasTitle" : "Red Dublin"
+    "hasTitle" : "Red Dublin"
   }, {
     "@id" : "spice:artefact/sandycove-series-10",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/farrell-micheal",
     "author" : "spice:agent/farrell-micheal",
-    "schema:dateCreated" : "1969",
-    "schema:url" : "https://imma.ie/collection/sandycove-series-10/",
+    "dateCreated" : "1969",
+    "url" : "https://imma.ie/collection/sandycove-series-10/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/sandycove-series-10",
-    "arco-cd:hasTitle" : "Sandycove Series 10"
+    "hasTitle" : "Sandycove Series 10"
   }, {
     "@id" : "spice:artefact/sweeney",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/farrell-micheal",
     "author" : "spice:agent/farrell-micheal",
-    "schema:dateCreated" : "1988",
-    "schema:url" : "https://imma.ie/collection/sweeney/",
+    "dateCreated" : "1988",
+    "url" : "https://imma.ie/collection/sweeney/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/sweeney",
-    "arco-cd:hasTitle" : "Sweeney"
+    "hasTitle" : "Sweeney"
   }, {
     "@id" : "spice:artefact/une-nature-morte-a-la-mode-irlandaise",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/farrell-micheal",
     "author" : "spice:agent/farrell-micheal",
-    "schema:dateCreated" : "1974",
-    "schema:url" : "https://imma.ie/collection/une-nature-morte-a-la-mode-irlandaise/",
+    "dateCreated" : "1974",
+    "url" : "https://imma.ie/collection/une-nature-morte-a-la-mode-irlandaise/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/une-nature-morte-a-la-mode-irlandaise",
-    "arco-cd:hasTitle" : "Une Nature Morte à la Mode Irlandaise"
+    "hasTitle" : "Une Nature Morte à la Mode Irlandaise"
   }, {
     "@id" : "spice:artefact/untitled-miss-omurphy-series",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/farrell-micheal",
     "author" : "spice:agent/farrell-micheal",
-    "schema:dateCreated" : "1978",
-    "schema:url" : "https://imma.ie/collection/untitled-miss-omurphy-series/",
+    "dateCreated" : "1978",
+    "url" : "https://imma.ie/collection/untitled-miss-omurphy-series/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-miss-omurphy-series",
-    "arco-cd:hasTitle" : "Untitled (Miss O’Murphy series)"
+    "hasTitle" : "Untitled (Miss O’Murphy series)"
   }, {
     "@id" : "spice:attribution/an-incomplete-history-of-ireland",
     "@type" : "arco:AuthorshipAttribution",
@@ -238,24 +238,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -266,24 +263,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

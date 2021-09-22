@@ -2,41 +2,41 @@
   "@graph" : [ {
     "@id" : "spice:agent/mccarthy-caroline",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish artist Caroline McCarthy studied at the National College of Art and Design and Goldsmith’s College, London. Her works in video, sculpture, photography and installation, make witty observations about the nature of consumerism and representation while also engaging with historical notions of art and the artist. McCarthy has exhibited nationally and internationally since the 1990s. She has undertaken artist residencies in China, Iceland, France, the Netherlands and at IMMA in 1997.",
-    "dc:source" : "https://imma.ie/artists/caroline-mccarthy/",
-    "schema:birthDate" : "b.1971",
-    "schema:url" : "https://imma.ie/artists/caroline-mccarthy/",
-    "rdfs:label" : "Caroline McCarthy"
+    "description" : "Irish artist Caroline McCarthy studied at the National College of Art and Design and Goldsmith’s College, London. Her works in video, sculpture, photography and installation, make witty observations about the nature of consumerism and representation while also engaging with historical notions of art and the artist. McCarthy has exhibited nationally and internationally since the 1990s. She has undertaken artist residencies in China, Iceland, France, the Netherlands and at IMMA in 1997.",
+    "source" : "https://imma.ie/artists/caroline-mccarthy/",
+    "birthDate" : "b.1971",
+    "url" : "https://imma.ie/artists/caroline-mccarthy/",
+    "label" : "Caroline McCarthy"
   }, {
     "@id" : "spice:artefact/greetings",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/mccarthy-caroline",
     "author" : "spice:agent/mccarthy-caroline",
-    "schema:dateCreated" : "1996",
-    "schema:url" : "https://imma.ie/collection/greetings/",
+    "dateCreated" : "1996",
+    "url" : "https://imma.ie/collection/greetings/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/greetings",
-    "arco-cd:hasTitle" : "Greetings"
+    "hasTitle" : "Greetings"
   }, {
     "@id" : "spice:artefact/promise",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/mccarthy-caroline",
     "author" : "spice:agent/mccarthy-caroline",
-    "schema:dateCreated" : "2003",
-    "schema:url" : "https://imma.ie/collection/promise/",
+    "dateCreated" : "2003",
+    "url" : "https://imma.ie/collection/promise/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/promise",
-    "arco-cd:hasTitle" : "Promise"
+    "hasTitle" : "Promise"
   }, {
     "@id" : "spice:artefact/the-luncheon",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/mccarthy-caroline",
     "author" : "spice:agent/mccarthy-caroline",
-    "schema:dateCreated" : "2002",
-    "schema:url" : "https://imma.ie/collection/the-luncheon/",
+    "dateCreated" : "2002",
+    "url" : "https://imma.ie/collection/the-luncheon/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-luncheon",
-    "arco-cd:hasTitle" : "The Luncheon"
+    "hasTitle" : "The Luncheon"
   }, {
     "@id" : "spice:attribution/greetings",
     "@type" : "arco:AuthorshipAttribution",
@@ -56,24 +56,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -84,24 +81,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

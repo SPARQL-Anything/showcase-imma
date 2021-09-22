@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/bailey-william",
     "@type" : "foaf:Person",
-    "dc:description" : "American painter William Bailey studied under Joseph Albers at Yale University. From the 1970s, Bailey has painted still lifes and his serene compositions repeatedly feature simple domestic objects such as jugs, bowls and cups. Bailey was a professor of art at Yale from 1969 to 1995. He has exhibited extensively and his work is represented in major American public collections including MoMA, New York; the Museum of Fine Arts, Boston; and the National Museum of American Art, Washington, D.C.",
-    "dc:source" : "https://imma.ie/artists/william-bailey/",
-    "schema:birthDate" : "b.1930",
-    "schema:url" : "https://imma.ie/artists/william-bailey/",
-    "rdfs:label" : "William Bailey"
+    "description" : "American painter William Bailey studied under Joseph Albers at Yale University. From the 1970s, Bailey has painted still lifes and his serene compositions repeatedly feature simple domestic objects such as jugs, bowls and cups. Bailey was a professor of art at Yale from 1969 to 1995. He has exhibited extensively and his work is represented in major American public collections including MoMA, New York; the Museum of Fine Arts, Boston; and the National Museum of American Art, Washington, D.C.",
+    "source" : "https://imma.ie/artists/william-bailey/",
+    "birthDate" : "b.1930",
+    "url" : "https://imma.ie/artists/william-bailey/",
+    "label" : "William Bailey"
   }, {
     "@id" : "spice:artefact/still-life-with-eggs-candlestick-and-bowl",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/bailey-william",
     "author" : "spice:agent/bailey-william",
-    "schema:dateCreated" : "1975",
-    "schema:url" : "https://imma.ie/collection/still-life-with-eggs-candlestick-and-bowl/",
+    "dateCreated" : "1975",
+    "url" : "https://imma.ie/collection/still-life-with-eggs-candlestick-and-bowl/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/still-life-with-eggs-candlestick-and-bowl",
-    "arco-cd:hasTitle" : "Still Life with Eggs, Candlestick and Bowl"
+    "hasTitle" : "Still Life with Eggs, Candlestick and Bowl"
   }, {
     "@id" : "spice:attribution/still-life-with-eggs-candlestick-and-bowl",
     "@type" : "arco:AuthorshipAttribution",
@@ -32,48 +32,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

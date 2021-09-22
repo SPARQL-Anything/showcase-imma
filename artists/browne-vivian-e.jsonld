@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/browne-vivian-e",
     "@type" : "foaf:Person",
-    "dc:description" : "American painter Vivian E. Browne studied science and fine art at Hunter College, New York. Browne was a founder of SoHo 20, one of the first women’s art cooperatives in Manhattan, and had many solo exhibitions there. She also taught at the art and design department at Rutgers University, New Jersey, becoming a full professor in 1985. Her expressionist landscapes are in many public, private and corporate collections.",
-    "dc:source" : "https://imma.ie/artists/vivian-e-browne/",
-    "schema:birthDate" : "1929–1993",
-    "schema:url" : "https://imma.ie/artists/vivian-e-browne/",
-    "rdfs:label" : "Vivian E. Browne"
+    "description" : "American painter Vivian E. Browne studied science and fine art at Hunter College, New York. Browne was a founder of SoHo 20, one of the first women’s art cooperatives in Manhattan, and had many solo exhibitions there. She also taught at the art and design department at Rutgers University, New Jersey, becoming a full professor in 1985. Her expressionist landscapes are in many public, private and corporate collections.",
+    "source" : "https://imma.ie/artists/vivian-e-browne/",
+    "birthDate" : "1929–1993",
+    "url" : "https://imma.ie/artists/vivian-e-browne/",
+    "label" : "Vivian E. Browne"
   }, {
     "@id" : "spice:artefact/horseman",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/browne-vivian-e",
     "author" : "spice:agent/browne-vivian-e",
-    "schema:dateCreated" : "1974",
-    "schema:url" : "https://imma.ie/collection/horseman/",
+    "dateCreated" : "1974",
+    "url" : "https://imma.ie/collection/horseman/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/horseman",
-    "arco-cd:hasTitle" : "Horseman"
+    "hasTitle" : "Horseman"
   }, {
     "@id" : "spice:attribution/horseman",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,40 +28,33 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -2,31 +2,31 @@
   "@graph" : [ {
     "@id" : "spice:agent/joyce-mark",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish artist Mark Joyce studied painting at the Royal College of Art. Driven by curiosity about the underlying nature of the world, his small scale abstract paintings work with ideas of light and charged space. Joyce has exhibited nationally and internationally, and curated exhibitions in the Netherlands and Australia. His work is represented in public collections including the Arts Council of Ireland; the Office of Public Works and the Contemporary Irish Art Society.",
-    "dc:source" : "https://imma.ie/artists/mark-joyce/",
-    "schema:birthDate" : "b.1966",
-    "schema:url" : "https://imma.ie/artists/mark-joyce/",
-    "rdfs:label" : "Mark Joyce"
+    "description" : "Irish artist Mark Joyce studied painting at the Royal College of Art. Driven by curiosity about the underlying nature of the world, his small scale abstract paintings work with ideas of light and charged space. Joyce has exhibited nationally and internationally, and curated exhibitions in the Netherlands and Australia. His work is represented in public collections including the Arts Council of Ireland; the Office of Public Works and the Contemporary Irish Art Society.",
+    "source" : "https://imma.ie/artists/mark-joyce/",
+    "birthDate" : "b.1966",
+    "url" : "https://imma.ie/artists/mark-joyce/",
+    "label" : "Mark Joyce"
   }, {
     "@id" : "spice:artefact/chain",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/joyce-mark",
     "author" : "spice:agent/joyce-mark",
-    "schema:dateCreated" : "1997",
-    "schema:url" : "https://imma.ie/collection/chain/",
+    "dateCreated" : "1997",
+    "url" : "https://imma.ie/collection/chain/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/chain",
-    "arco-cd:hasTitle" : "Chain"
+    "hasTitle" : "Chain"
   }, {
     "@id" : "spice:artefact/the-mental-hospital",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/joyce-mark",
     "author" : "spice:agent/joyce-mark",
-    "schema:dateCreated" : "1997",
-    "schema:url" : "https://imma.ie/collection/the-mental-hospital/",
+    "dateCreated" : "1997",
+    "url" : "https://imma.ie/collection/the-mental-hospital/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-mental-hospital",
-    "arco-cd:hasTitle" : "The Mental Hospital"
+    "hasTitle" : "The Mental Hospital"
   }, {
     "@id" : "spice:attribution/chain",
     "@type" : "arco:AuthorshipAttribution",
@@ -42,44 +42,37 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -87,7 +80,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

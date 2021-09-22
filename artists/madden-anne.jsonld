@@ -2,171 +2,171 @@
   "@graph" : [ {
     "@id" : "spice:agent/madden-anne",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish artist Anne Madden spent her first years in Chile. Her family moved to Europe when she was four and lived in Ireland and London. She attended the Chelsea School of Arts and Crafts. In 1958 she married the Irish painter Louis le Brocquy. Madden’s work, abstract at first glance, but generally with a figurative element, regularly carries references to her Irish background as well as reflecting on life and death. She has exhibited widely, including a significant retrospective at IMMA in 2007. She is a member of Aosdána.",
-    "dc:source" : "https://imma.ie/artists/anne-madden/",
-    "schema:birthDate" : "b.1932",
-    "schema:url" : "https://imma.ie/artists/anne-madden/",
-    "rdfs:label" : "Anne Madden"
+    "description" : "Irish artist Anne Madden spent her first years in Chile. Her family moved to Europe when she was four and lived in Ireland and London. She attended the Chelsea School of Arts and Crafts. In 1958 she married the Irish painter Louis le Brocquy. Madden’s work, abstract at first glance, but generally with a figurative element, regularly carries references to her Irish background as well as reflecting on life and death. She has exhibited widely, including a significant retrospective at IMMA in 2007. She is a member of Aosdána.",
+    "source" : "https://imma.ie/artists/anne-madden/",
+    "birthDate" : "b.1932",
+    "url" : "https://imma.ie/artists/anne-madden/",
+    "label" : "Anne Madden"
   }, {
     "@id" : "spice:artefact/aurora-borealis-arcs",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/madden-anne",
     "author" : "spice:agent/madden-anne",
-    "schema:dateCreated" : "2006",
-    "schema:url" : "https://imma.ie/collection/aurora-borealis-arcs/",
+    "dateCreated" : "2006",
+    "url" : "https://imma.ie/collection/aurora-borealis-arcs/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/aurora-borealis-arcs",
-    "arco-cd:hasTitle" : "Aurora Borealis, Arcs"
+    "hasTitle" : "Aurora Borealis, Arcs"
   }, {
     "@id" : "spice:artefact/aurora-borealis-snake-of-light",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/madden-anne",
     "author" : "spice:agent/madden-anne",
-    "schema:dateCreated" : "2006",
-    "schema:url" : "https://imma.ie/collection/aurora-borealis-snake-of-light/",
+    "dateCreated" : "2006",
+    "url" : "https://imma.ie/collection/aurora-borealis-snake-of-light/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/aurora-borealis-snake-of-light",
-    "arco-cd:hasTitle" : "Aurora Borealis, Snake of Light"
+    "hasTitle" : "Aurora Borealis, Snake of Light"
   }, {
     "@id" : "spice:artefact/burren",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/madden-anne",
     "author" : "spice:agent/madden-anne",
-    "schema:dateCreated" : "1979",
-    "schema:url" : "https://imma.ie/collection/burren/",
+    "dateCreated" : "1979",
+    "url" : "https://imma.ie/collection/burren/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/burren",
-    "arco-cd:hasTitle" : "Burren"
+    "hasTitle" : "Burren"
   }, {
     "@id" : "spice:artefact/criss-cross-1",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/madden-anne",
     "author" : "spice:agent/madden-anne",
-    "schema:dateCreated" : "1969",
-    "schema:url" : "https://imma.ie/collection/criss-cross-1/",
+    "dateCreated" : "1969",
+    "url" : "https://imma.ie/collection/criss-cross-1/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/criss-cross-1",
-    "arco-cd:hasTitle" : "Criss Cross 1"
+    "hasTitle" : "Criss Cross 1"
   }, {
     "@id" : "spice:artefact/criss-cross-no-2",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/madden-anne",
     "author" : "spice:agent/madden-anne",
-    "schema:dateCreated" : "1969",
-    "schema:url" : "https://imma.ie/collection/criss-cross-no-2/",
+    "dateCreated" : "1969",
+    "url" : "https://imma.ie/collection/criss-cross-no-2/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/criss-cross-no-2",
-    "arco-cd:hasTitle" : "Criss Cross, No 2"
+    "hasTitle" : "Criss Cross, No 2"
   }, {
     "@id" : "spice:artefact/elegy-ii",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/madden-anne",
     "author" : "spice:agent/madden-anne",
-    "schema:dateCreated" : "1967",
-    "schema:url" : "https://imma.ie/collection/elegy-ii/",
+    "dateCreated" : "1967",
+    "url" : "https://imma.ie/collection/elegy-ii/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/elegy-ii",
-    "arco-cd:hasTitle" : "Elegy II"
+    "hasTitle" : "Elegy II"
   }, {
     "@id" : "spice:artefact/hill-in-three-aspects",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/madden-anne",
     "author" : "spice:agent/madden-anne",
-    "schema:dateCreated" : "1964",
-    "schema:url" : "https://imma.ie/collection/hill-in-three-aspects/",
+    "dateCreated" : "1964",
+    "url" : "https://imma.ie/collection/hill-in-three-aspects/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/hill-in-three-aspects",
-    "arco-cd:hasTitle" : "Hill in Three Aspects"
+    "hasTitle" : "Hill in Three Aspects"
   }, {
     "@id" : "spice:artefact/megalith-series-4",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/madden-anne",
     "author" : "spice:agent/madden-anne",
-    "schema:dateCreated" : "1971",
-    "schema:url" : "https://imma.ie/collection/megalith-series-4/",
+    "dateCreated" : "1971",
+    "url" : "https://imma.ie/collection/megalith-series-4/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/megalith-series-4",
-    "arco-cd:hasTitle" : "Megalith Series (4)"
+    "hasTitle" : "Megalith Series (4)"
   }, {
     "@id" : "spice:artefact/menhir-bloody-sunday",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/madden-anne",
     "author" : "spice:agent/madden-anne",
-    "schema:dateCreated" : "1976",
-    "schema:url" : "https://imma.ie/collection/menhir-bloody-sunday/",
+    "dateCreated" : "1976",
+    "url" : "https://imma.ie/collection/menhir-bloody-sunday/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/menhir-bloody-sunday",
-    "arco-cd:hasTitle" : "Menhir (Bloody Sunday)"
+    "hasTitle" : "Menhir (Bloody Sunday)"
   }, {
     "@id" : "spice:artefact/night-garden-les-combes",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/madden-anne",
     "author" : "spice:agent/madden-anne",
-    "schema:dateCreated" : "1993",
-    "schema:url" : "https://imma.ie/collection/night-garden-les-combes/",
+    "dateCreated" : "1993",
+    "url" : "https://imma.ie/collection/night-garden-les-combes/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/night-garden-les-combes",
-    "arco-cd:hasTitle" : "Night Garden, Les Combes"
+    "hasTitle" : "Night Garden, Les Combes"
   }, {
     "@id" : "spice:artefact/night-paths",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/madden-anne",
     "author" : "spice:agent/madden-anne",
-    "schema:dateCreated" : "1988",
-    "schema:url" : "https://imma.ie/collection/night-paths/",
+    "dateCreated" : "1988",
+    "url" : "https://imma.ie/collection/night-paths/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/night-paths",
-    "arco-cd:hasTitle" : "Night Paths"
+    "hasTitle" : "Night Paths"
   }, {
     "@id" : "spice:artefact/openings",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/madden-anne",
     "author" : "spice:agent/madden-anne",
-    "schema:dateCreated" : "1979",
-    "schema:url" : "https://imma.ie/collection/openings/",
+    "dateCreated" : "1979",
+    "url" : "https://imma.ie/collection/openings/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/openings",
-    "arco-cd:hasTitle" : "Openings"
+    "hasTitle" : "Openings"
   }, {
     "@id" : "spice:artefact/quadripartie-mountain-sequence-red",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/madden-anne",
     "author" : "spice:agent/madden-anne",
-    "schema:dateCreated" : "1967",
-    "schema:url" : "https://imma.ie/collection/quadripartie-mountain-sequence-red/",
+    "dateCreated" : "1967",
+    "url" : "https://imma.ie/collection/quadripartie-mountain-sequence-red/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/quadripartie-mountain-sequence-red",
-    "arco-cd:hasTitle" : "Quadripartie Mountain Sequence Red"
+    "hasTitle" : "Quadripartie Mountain Sequence Red"
   }, {
     "@id" : "spice:artefact/self-portrait-transfer",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/madden-anne",
     "author" : "spice:agent/madden-anne",
-    "schema:dateCreated" : "2007",
-    "schema:url" : "https://imma.ie/collection/self-portrait-transfer/",
+    "dateCreated" : "2007",
+    "url" : "https://imma.ie/collection/self-portrait-transfer/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/self-portrait-transfer",
-    "arco-cd:hasTitle" : "Self Portrait Transfer"
+    "hasTitle" : "Self Portrait Transfer"
   }, {
     "@id" : "spice:artefact/standing-stones",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/madden-anne",
     "author" : "spice:agent/madden-anne",
-    "schema:dateCreated" : "1978",
-    "schema:url" : "https://imma.ie/collection/standing-stones/",
+    "dateCreated" : "1978",
+    "url" : "https://imma.ie/collection/standing-stones/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/standing-stones",
-    "arco-cd:hasTitle" : "Standing Stones"
+    "hasTitle" : "Standing Stones"
   }, {
     "@id" : "spice:artefact/window",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/madden-anne",
     "author" : "spice:agent/madden-anne",
-    "schema:dateCreated" : "1985",
-    "schema:url" : "https://imma.ie/collection/window/",
+    "dateCreated" : "1985",
+    "url" : "https://imma.ie/collection/window/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/window",
-    "arco-cd:hasTitle" : "Window"
+    "hasTitle" : "Window"
   }, {
     "@id" : "spice:attribution/aurora-borealis-arcs",
     "@type" : "arco:AuthorshipAttribution",
@@ -238,24 +238,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -266,24 +263,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

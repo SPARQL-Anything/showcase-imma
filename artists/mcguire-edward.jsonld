@@ -2,61 +2,61 @@
   "@graph" : [ {
     "@id" : "spice:agent/mcguire-edward",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish portrait and still life painter Edward McGuire studied art in Italy before attending the Slade School of Fine Art, London. Best known for his studies of dead birds and portraits of writers and poets, McGuire’s paintings have a surreal, static quality which defies the realist precision with which they are executed. McGuire exhibited widely during his lifetime. He was elected a member of the RHA in 1978 and a member of Aosdána in 1984. His sitters included Séamus Heaney, Paddy Collins, Pearse Hutchinson, Seán Ó Faoláin and John Montague.",
-    "dc:source" : "https://imma.ie/artists/edward-mcguire/",
-    "schema:birthDate" : "1932–1986",
-    "schema:url" : "https://imma.ie/artists/edward-mcguire/",
-    "rdfs:label" : "Edward McGuire"
+    "description" : "Irish portrait and still life painter Edward McGuire studied art in Italy before attending the Slade School of Fine Art, London. Best known for his studies of dead birds and portraits of writers and poets, McGuire’s paintings have a surreal, static quality which defies the realist precision with which they are executed. McGuire exhibited widely during his lifetime. He was elected a member of the RHA in 1978 and a member of Aosdána in 1984. His sitters included Séamus Heaney, Paddy Collins, Pearse Hutchinson, Seán Ó Faoláin and John Montague.",
+    "source" : "https://imma.ie/artists/edward-mcguire/",
+    "birthDate" : "1932–1986",
+    "url" : "https://imma.ie/artists/edward-mcguire/",
+    "label" : "Edward McGuire"
   }, {
     "@id" : "spice:artefact/drawing-for-a-portrait-of-paddy-collins",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/mcguire-edward",
     "author" : "spice:agent/mcguire-edward",
-    "schema:dateCreated" : "1983",
-    "schema:url" : "https://imma.ie/collection/drawing-for-a-portrait-of-paddy-collins/",
+    "dateCreated" : "1983",
+    "url" : "https://imma.ie/collection/drawing-for-a-portrait-of-paddy-collins/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/drawing-for-a-portrait-of-paddy-collins",
-    "arco-cd:hasTitle" : "Drawing for a Portrait of Paddy Collins"
+    "hasTitle" : "Drawing for a Portrait of Paddy Collins"
   }, {
     "@id" : "spice:artefact/owl",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/mcguire-edward",
     "author" : "spice:agent/mcguire-edward",
-    "schema:dateCreated" : "1973",
-    "schema:url" : "https://imma.ie/collection/owl/",
+    "dateCreated" : "1973",
+    "url" : "https://imma.ie/collection/owl/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/owl",
-    "arco-cd:hasTitle" : "Owl"
+    "hasTitle" : "Owl"
   }, {
     "@id" : "spice:artefact/owl-2",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/mcguire-edward",
     "author" : "spice:agent/mcguire-edward",
-    "schema:dateCreated" : "1972",
-    "schema:url" : "https://imma.ie/collection/owl-2/",
+    "dateCreated" : "1972",
+    "url" : "https://imma.ie/collection/owl-2/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/owl-2",
-    "arco-cd:hasTitle" : "Owl"
+    "hasTitle" : "Owl"
   }, {
     "@id" : "spice:artefact/portrait-of-paddy-collins",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/mcguire-edward",
     "author" : "spice:agent/mcguire-edward",
-    "schema:dateCreated" : "1983",
-    "schema:url" : "https://imma.ie/collection/portrait-of-paddy-collins/",
+    "dateCreated" : "1983",
+    "url" : "https://imma.ie/collection/portrait-of-paddy-collins/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/portrait-of-paddy-collins",
-    "arco-cd:hasTitle" : "Portrait of Paddy Collins"
+    "hasTitle" : "Portrait of Paddy Collins"
   }, {
     "@id" : "spice:artefact/still-life",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/mcguire-edward",
     "author" : "spice:agent/mcguire-edward",
-    "schema:dateCreated" : "1957",
-    "schema:url" : "https://imma.ie/collection/still-life/",
+    "dateCreated" : "1957",
+    "url" : "https://imma.ie/collection/still-life/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/still-life",
-    "arco-cd:hasTitle" : "Still life"
+    "hasTitle" : "Still life"
   }, {
     "@id" : "spice:attribution/drawing-for-a-portrait-of-paddy-collins",
     "@type" : "arco:AuthorshipAttribution",
@@ -80,40 +80,33 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -129,7 +122,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

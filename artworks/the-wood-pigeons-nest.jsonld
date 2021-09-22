@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/the-wood-pigeons-nest",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Collins’ style developed out of a fascination and connection with the Irish landscape. His practice would often involve detailed studies of twigs and moss. Misty hues dominate his palette, contributing to the atmospheric mood. Although Collins was primarily a landscape artist it was the concept of the land that concerned him – his work rarely related to a particular place but captures the romantic notion of a poetic Ireland. ‘The Wood Pigeon’s Nest’ perfectly encapsulates this atmospheric style. The image of nest and egg is central. The vulnerability and fragility of the nest is evoked, the subject hewn out of an abstract background.",
-    "dc:source" : "https://imma.ie/collection/the-wood-pigeons-nest/",
-    "schema:creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
+    "description" : "Collins’ style developed out of a fascination and connection with the Irish landscape. His practice would often involve detailed studies of twigs and moss. Misty hues dominate his palette, contributing to the atmospheric mood. Although Collins was primarily a landscape artist it was the concept of the land that concerned him – his work rarely related to a particular place but captures the romantic notion of a poetic Ireland. ‘The Wood Pigeon’s Nest’ perfectly encapsulates this atmospheric style. The image of nest and egg is central. The vulnerability and fragility of the nest is evoked, the subject hewn out of an abstract background.",
+    "source" : "https://imma.ie/collection/the-wood-pigeons-nest/",
+    "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/the-wood-pigeons-nest",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Oil on hardboard",
-    "schema:size" : "33.4 x 41.4 cm",
-    "arco-cd:hasInventory" : "IMMA.164 GL"
+    "material" : "Oil on hardboard",
+    "size" : "33.4 x 41.4 cm",
+    "hasInventory" : "IMMA.164 GL"
   }, {
     "@id" : "spice:documentation/the-wood-pigeons-nest",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Patrick Collins, The Wood Pigeon’s Nest, 1974, Oil on hardboard, 33.4 x 41.4 cm, Collection Irish Museum of Modern Art, Gordon Lambert Trust, 1992 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Patrick Collins, The Wood Pigeon’s Nest, 1974, Oil on hardboard, 33.4 x 41.4 cm, Collection Irish Museum of Modern Art, Gordon Lambert Trust, 1992 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/705.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/705.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

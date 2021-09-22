@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/wedge-martin",
     "@type" : "foaf:Person",
-    "dc:description" : "Northern Irish painter and performance artist Martin Wedge (born 1958) graduated from the Art and Design Centre, Belfast, in 1982. Since the 1990s, Wedge has investigated notions of scale and power in his monumental face paintings which become almost landscapes with projections, folds and hollows. Wedge has exhibited in group and solo exhibitions in Ireland since the late 1990s. He has received numerous awards and his work is represented in public and private collections in Ireland and Europe.",
-    "dc:source" : "https://imma.ie/artists/martin-wedge/",
-    "schema:birthDate" : "b.1958",
-    "schema:url" : "https://imma.ie/artists/martin-wedge/",
-    "rdfs:label" : "Martin Wedge"
+    "description" : "Northern Irish painter and performance artist Martin Wedge (born 1958) graduated from the Art and Design Centre, Belfast, in 1982. Since the 1990s, Wedge has investigated notions of scale and power in his monumental face paintings which become almost landscapes with projections, folds and hollows. Wedge has exhibited in group and solo exhibitions in Ireland since the late 1990s. He has received numerous awards and his work is represented in public and private collections in Ireland and Europe.",
+    "source" : "https://imma.ie/artists/martin-wedge/",
+    "birthDate" : "b.1958",
+    "url" : "https://imma.ie/artists/martin-wedge/",
+    "label" : "Martin Wedge"
   }, {
     "@id" : "spice:artefact/seer",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/wedge-martin",
     "author" : "spice:agent/wedge-martin",
-    "schema:dateCreated" : "1996",
-    "schema:url" : "https://imma.ie/collection/seer/",
+    "dateCreated" : "1996",
+    "url" : "https://imma.ie/collection/seer/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/seer",
-    "arco-cd:hasTitle" : "Seer"
+    "hasTitle" : "Seer"
   }, {
     "@id" : "spice:attribution/seer",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,40 +28,33 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

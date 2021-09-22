@@ -2,181 +2,181 @@
   "@graph" : [ {
     "@id" : "spice:agent/doherty-willie",
     "@type" : "foaf:Person",
-    "dc:description" : "Willie Doherty is a native of Derry, Northern Ireland. Basing much of his work around Derry he uses photography, video and sound installations to explore the fallibility of human memory and recollection. Doherty studied at the University of Ulster, Belfast, and began exhibiting internationally in the early 1980s. Nominated twice for the Turner Prize, in 1994 and 2003, his work has been the subject of many solo museum shows. In 2002 IMMA presented, ‘False Memory’, the first major solo exhibition of Doherty’s work in Ireland. Doherty represented Ireland in the Venice Biennale in 1993, 2005 and 2007. His critically acclaimed ‘Secretion’, was shown at IMMA in 2013.",
-    "dc:source" : "https://imma.ie/artists/willie-doherty/",
-    "schema:birthDate" : "b.1959",
-    "schema:url" : "https://imma.ie/artists/willie-doherty/",
-    "rdfs:label" : "Willie Doherty"
+    "description" : [ "Willie Doherty is a native of Derry, Northern Ireland. Basing much of his work around Derry he uses photography, video and sound installations to explore the fallibility of human memory and recollection. Doherty studied at the University of Ulster, Belfast, and began exhibiting internationally in the early 1980s.", "Willie Doherty is a native of Derry, Northern Ireland. Basing much of his work around Derry he uses photography, video and sound installations to explore the fallibility of human memory and recollection. " ],
+    "source" : "https://imma.ie/artists/willie-doherty/",
+    "birthDate" : "b.1959",
+    "url" : "https://imma.ie/artists/willie-doherty/",
+    "label" : "Willie Doherty"
   }, {
     "@id" : "spice:artefact/ancient-ground",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/doherty-willie",
     "author" : "spice:agent/doherty-willie",
-    "schema:dateCreated" : "2011",
-    "schema:url" : "https://imma.ie/collection/ancient-ground/",
+    "dateCreated" : "2011",
+    "url" : "https://imma.ie/collection/ancient-ground/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/ancient-ground",
-    "arco-cd:hasTitle" : "Ancient Ground"
+    "hasTitle" : "Ancient Ground"
   }, {
     "@id" : "spice:artefact/border-incident",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/doherty-willie",
     "author" : "spice:agent/doherty-willie",
-    "schema:dateCreated" : "1994",
-    "schema:url" : "https://imma.ie/collection/border-incident/",
+    "dateCreated" : "1994",
+    "url" : "https://imma.ie/collection/border-incident/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/border-incident",
-    "arco-cd:hasTitle" : "Border Incident"
+    "hasTitle" : "Border Incident"
   }, {
     "@id" : "spice:artefact/empty",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/doherty-willie",
     "author" : "spice:agent/doherty-willie",
-    "schema:dateCreated" : "2006",
-    "schema:url" : "https://imma.ie/collection/empty/",
+    "dateCreated" : "2006",
+    "url" : "https://imma.ie/collection/empty/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/empty",
-    "arco-cd:hasTitle" : "Empty"
+    "hasTitle" : "Empty"
   }, {
     "@id" : "spice:artefact/fading-dreams",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/doherty-willie",
     "author" : "spice:agent/doherty-willie",
-    "schema:dateCreated" : "1989",
-    "schema:url" : "https://imma.ie/collection/fading-dreams/",
+    "dateCreated" : "1989",
+    "url" : "https://imma.ie/collection/fading-dreams/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/fading-dreams",
-    "arco-cd:hasTitle" : "Fading Dreams"
+    "hasTitle" : "Fading Dreams"
   }, {
     "@id" : "spice:artefact/imagined-truths",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/doherty-willie",
     "author" : "spice:agent/doherty-willie",
-    "schema:dateCreated" : "1990",
-    "schema:url" : "https://imma.ie/collection/imagined-truths/",
+    "dateCreated" : "1990",
+    "url" : "https://imma.ie/collection/imagined-truths/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/imagined-truths",
-    "arco-cd:hasTitle" : "Imagined Truths"
+    "hasTitle" : "Imagined Truths"
   }, {
     "@id" : "spice:artefact/incident",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/doherty-willie",
     "author" : "spice:agent/doherty-willie",
-    "schema:dateCreated" : "1993",
-    "schema:url" : "https://imma.ie/collection/incident/",
+    "dateCreated" : "1993",
+    "url" : "https://imma.ie/collection/incident/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/incident",
-    "arco-cd:hasTitle" : "Incident"
+    "hasTitle" : "Incident"
   }, {
     "@id" : "spice:artefact/longing-lamenting",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/doherty-willie",
     "author" : "spice:agent/doherty-willie",
-    "schema:dateCreated" : "1987",
-    "schema:url" : "https://imma.ie/collection/longing-lamenting/",
+    "dateCreated" : "1987",
+    "url" : "https://imma.ie/collection/longing-lamenting/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/longing-lamenting",
-    "arco-cd:hasTitle" : "Longing/Lamenting"
+    "hasTitle" : "Longing/Lamenting"
   }, {
     "@id" : "spice:artefact/minor-incident-i",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/doherty-willie",
     "author" : "spice:agent/doherty-willie",
-    "schema:dateCreated" : "1994",
-    "schema:url" : "https://imma.ie/collection/minor-incident-i/",
+    "dateCreated" : "1994",
+    "url" : "https://imma.ie/collection/minor-incident-i/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/minor-incident-i",
-    "arco-cd:hasTitle" : "Minor Incident I"
+    "hasTitle" : "Minor Incident I"
   }, {
     "@id" : "spice:artefact/minor-incident-ii",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/doherty-willie",
     "author" : "spice:agent/doherty-willie",
-    "schema:dateCreated" : "1994",
-    "schema:url" : "https://imma.ie/collection/minor-incident-ii/",
+    "dateCreated" : "1994",
+    "url" : "https://imma.ie/collection/minor-incident-ii/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/minor-incident-ii",
-    "arco-cd:hasTitle" : "Minor Incident II"
+    "hasTitle" : "Minor Incident II"
   }, {
     "@id" : "spice:artefact/protecting-invading",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/doherty-willie",
     "author" : "spice:agent/doherty-willie",
-    "schema:dateCreated" : "1987",
-    "schema:url" : "https://imma.ie/collection/protecting-invading/",
+    "dateCreated" : "1987",
+    "url" : "https://imma.ie/collection/protecting-invading/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/protecting-invading",
-    "arco-cd:hasTitle" : "Protecting/Invading"
+    "hasTitle" : "Protecting/Invading"
   }, {
     "@id" : "spice:artefact/remains",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/doherty-willie",
     "author" : "spice:agent/doherty-willie",
-    "schema:dateCreated" : "2013",
-    "schema:url" : "https://imma.ie/collection/remains/",
+    "dateCreated" : "2013",
+    "url" : "https://imma.ie/collection/remains/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/remains",
-    "arco-cd:hasTitle" : "Remains"
+    "hasTitle" : "Remains"
   }, {
     "@id" : "spice:artefact/remains-artist-supplied-master-hdcam-sr-25psf-000800",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/doherty-willie",
     "author" : "spice:agent/doherty-willie",
-    "schema:dateCreated" : "2013",
-    "schema:url" : "https://imma.ie/collection/remains-artist-supplied-master-hdcam-sr-25psf-000800/",
+    "dateCreated" : "2013",
+    "url" : "https://imma.ie/collection/remains-artist-supplied-master-hdcam-sr-25psf-000800/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/remains-artist-supplied-master-hdcam-sr-25psf-000800",
-    "arco-cd:hasTitle" : "Remains – Artist-Supplied Master, HDCAM-SR, 25PSF, 00:08:00"
+    "hasTitle" : "Remains – Artist-Supplied Master, HDCAM-SR, 25PSF, 00:08:00"
   }, {
     "@id" : "spice:artefact/show-of-strength-ll",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/doherty-willie",
     "author" : "spice:agent/doherty-willie",
-    "schema:dateCreated" : "2006",
-    "schema:url" : "https://imma.ie/collection/show-of-strength-ll/",
+    "dateCreated" : "2006",
+    "url" : "https://imma.ie/collection/show-of-strength-ll/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/show-of-strength-ll",
-    "arco-cd:hasTitle" : "show of strength ll"
+    "hasTitle" : "Show of Strength ll"
   }, {
     "@id" : "spice:artefact/show-of-strength-v",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/doherty-willie",
     "author" : "spice:agent/doherty-willie",
-    "schema:dateCreated" : "2006",
-    "schema:url" : "https://imma.ie/collection/show-of-strength-v/",
+    "dateCreated" : "2006",
+    "url" : "https://imma.ie/collection/show-of-strength-v/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/show-of-strength-v",
-    "arco-cd:hasTitle" : "show of strength V"
+    "hasTitle" : "Show of Strength V"
   }, {
     "@id" : "spice:artefact/sometimes-i-imagine-its-my-turn",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/doherty-willie",
     "author" : "spice:agent/doherty-willie",
-    "schema:dateCreated" : "1998",
-    "schema:url" : "https://imma.ie/collection/sometimes-i-imagine-its-my-turn/",
+    "dateCreated" : "1998",
+    "url" : "https://imma.ie/collection/sometimes-i-imagine-its-my-turn/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/sometimes-i-imagine-its-my-turn",
-    "arco-cd:hasTitle" : "Sometimes I Imagine it’s My Turn"
+    "hasTitle" : "Sometimes I Imagine it’s My Turn"
   }, {
     "@id" : "spice:artefact/the-only-good-one-is-a-dead-one",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/doherty-willie",
     "author" : "spice:agent/doherty-willie",
-    "schema:dateCreated" : "1993",
-    "schema:url" : "https://imma.ie/collection/the-only-good-one-is-a-dead-one/",
+    "dateCreated" : "1993",
+    "url" : "https://imma.ie/collection/the-only-good-one-is-a-dead-one/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-only-good-one-is-a-dead-one",
-    "arco-cd:hasTitle" : "The Only Good One is a Dead One"
+    "hasTitle" : "The Only Good One is a Dead One"
   }, {
     "@id" : "spice:artefact/the-walls",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/doherty-willie",
     "author" : "spice:agent/doherty-willie",
-    "schema:dateCreated" : "1987",
-    "schema:url" : "https://imma.ie/collection/the-walls/",
+    "dateCreated" : "1987",
+    "url" : "https://imma.ie/collection/the-walls/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-walls",
-    "arco-cd:hasTitle" : "The Walls"
+    "hasTitle" : "The Walls"
   }, {
     "@id" : "spice:attribution/ancient-ground",
     "@type" : "arco:AuthorshipAttribution",
@@ -256,48 +256,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

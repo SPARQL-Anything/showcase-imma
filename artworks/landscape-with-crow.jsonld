@@ -1,0 +1,71 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/landscape-with-crow",
+    "@type" : "schema:CreativeWork",
+    "description" : "Landscape with Crow belongs to a series of paintings made by Jarman the year he left the Slade. These paintings were notable for their large size and were part of a solo exhibition of twenty paintings at the Rimmel Gallery in 1966. The works met with critical acclaim and were included in the prestigious ‘Young Contemporaries’ exhibition at the Tate. In the work Jarman plays with perspective by dividing the landscape with straight and curved lines. The series of works were quick to make and Jarman used found objects as sculptural interventions within the compositions. Many of the objects derive from bathroom paraphernalia such as a tap, a towel rail, a toothbrush holder and sponges. The artist has not told us what he meant to be understood from these elements (if anything) but they are so unusual they invite further investigation.",
+    "source" : "https://imma.ie/collection/landscape-with-crow/",
+    "creditText" : "IMMA Collection: Purchase, 2020, 2020",
+    "image" : "spice:documentation/landscape-with-crow",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "material" : "mixed media on canvas",
+    "size" : "152.4 x 213.4 cm",
+    "hasInventory" : "IMMA.4166"
+  }, {
+    "@id" : "spice:documentation/landscape-with-crow",
+    "@type" : "schema:ImageObject",
+    "caption" : "Derek Jarman, Landscape with Crow, 1967, mixed media on canvas, 152.4 x 213.4 cm, Collection Irish Museum of Modern Art, Purchase, 2020, 2020 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "url" : "https://imma.ie/wp-content/uploads/2021/04/9455.jpg"
+  } ],
+  "@context" : {
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/menhir-bloody-sunday",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "While ‘Quadripartie Mountain Sequence Red’ is about process, material and the origination of images that echoed geological events and ‘Megalith’ references human interventions in the Burren landscape, ‘Menhir (Bloody Sunday)’ clearly has tragic resonances. It refers to disturbing violent events in Northern Ireland at the time, with paint poured onto the surface to imitate a bloodstream.",
-    "dc:source" : "https://imma.ie/collection/menhir-bloody-sunday/",
-    "schema:creditText" : "IMMA Collection: Donation, 2010",
+    "description" : "While ‘Quadripartie Mountain Sequence Red’ is about process, material and the origination of images that echoed geological events and ‘Megalith’ references human interventions in the Burren landscape, ‘Menhir (Bloody Sunday)’ clearly has tragic resonances. It refers to disturbing violent events in Northern Ireland at the time, with paint poured onto the surface to imitate a bloodstream.",
+    "source" : "https://imma.ie/collection/menhir-bloody-sunday/",
+    "creditText" : "IMMA Collection: Donation, 2010",
     "image" : "spice:documentation/menhir-bloody-sunday",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Acrylic on cotton duck canvas",
-    "schema:size" : "195 x 114 cm",
-    "arco-cd:hasInventory" : "IMMA.3293"
+    "material" : "Acrylic on cotton duck canvas",
+    "size" : "195 x 114 cm",
+    "hasInventory" : "IMMA.3293"
   }, {
     "@id" : "spice:documentation/menhir-bloody-sunday",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Anne Madden, Menhir (Bloody Sunday), 1976, Acrylic on cotton duck canvas, 195 x 114 cm, Collection Irish Museum of Modern Art, Donation, 2010 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Anne Madden, Menhir (Bloody Sunday), 1976, Acrylic on cotton duck canvas, 195 x 114 cm, Collection Irish Museum of Modern Art, Donation, 2010 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/5268.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/5268.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

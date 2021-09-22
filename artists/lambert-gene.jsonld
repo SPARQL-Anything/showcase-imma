@@ -2,341 +2,341 @@
   "@graph" : [ {
     "@id" : "spice:agent/lambert-gene",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish painter Gene Lambert studied at the National College of Art and Design. His figurative paintings reference personal events and experiences. Lambert exhibited regularly at the Irish Exhibition of Living Art. He received the Carroll's Award in 1981 and represented Ireland at the International Festival of Painting in Cagnes-sur-Mer the following year. In 1991 Lambert co-edited ‘The Great Book of Ireland’ with the poet Theo Dorgan. His work has been the subject of solo exhibitions at the Douglas Hyde Gallery, Dublin; Houset Gallery, Copenhagen, and the Third Eye Gallery, Glasgow.",
-    "dc:source" : "https://imma.ie/artists/gene-lambert/",
-    "schema:birthDate" : "b.1952",
-    "schema:url" : "https://imma.ie/artists/gene-lambert/",
-    "rdfs:label" : "Gene Lambert"
+    "description" : "Irish painter Gene Lambert studied at the National College of Art and Design. His figurative paintings reference personal events and experiences. Lambert exhibited regularly at the Irish Exhibition of Living Art. He received the Carroll's Award in 1981 and represented Ireland at the International Festival of Painting in Cagnes-sur-Mer the following year. In 1991 Lambert co-edited ‘The Great Book of Ireland’ with the poet Theo Dorgan. His work has been the subject of solo exhibitions at the Douglas Hyde Gallery, Dublin; Houset Gallery, Copenhagen, and the Third Eye Gallery, Glasgow.",
+    "source" : "https://imma.ie/artists/gene-lambert/",
+    "birthDate" : "b.1952",
+    "url" : "https://imma.ie/artists/gene-lambert/",
+    "label" : "Gene Lambert"
   }, {
     "@id" : "spice:artefact/andy",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lambert-gene",
     "author" : "spice:agent/lambert-gene",
-    "schema:dateCreated" : "1985",
-    "schema:url" : "https://imma.ie/collection/andy/",
+    "dateCreated" : "1985",
+    "url" : "https://imma.ie/collection/andy/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/andy",
-    "arco-cd:hasTitle" : "Andy"
+    "hasTitle" : "Andy"
   }, {
     "@id" : "spice:artefact/anne-marie",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lambert-gene",
     "author" : "spice:agent/lambert-gene",
-    "schema:dateCreated" : "1985",
-    "schema:url" : "https://imma.ie/collection/anne-marie/",
+    "dateCreated" : "1985",
+    "url" : "https://imma.ie/collection/anne-marie/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/anne-marie",
-    "arco-cd:hasTitle" : "Anne-Marie"
+    "hasTitle" : "Anne-Marie"
   }, {
     "@id" : "spice:artefact/bridget",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lambert-gene",
     "author" : "spice:agent/lambert-gene",
-    "schema:dateCreated" : "1985",
-    "schema:url" : "https://imma.ie/collection/bridget/",
+    "dateCreated" : "1985",
+    "url" : "https://imma.ie/collection/bridget/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/bridget",
-    "arco-cd:hasTitle" : "Bridget"
+    "hasTitle" : "Bridget"
   }, {
     "@id" : "spice:artefact/conor",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lambert-gene",
     "author" : "spice:agent/lambert-gene",
-    "schema:dateCreated" : "1985",
-    "schema:url" : "https://imma.ie/collection/conor/",
+    "dateCreated" : "1985",
+    "url" : "https://imma.ie/collection/conor/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/conor",
-    "arco-cd:hasTitle" : "Conor"
+    "hasTitle" : "Conor"
   }, {
     "@id" : "spice:artefact/david",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lambert-gene",
     "author" : "spice:agent/lambert-gene",
-    "schema:dateCreated" : "1985",
-    "schema:url" : "https://imma.ie/collection/david/",
+    "dateCreated" : "1985",
+    "url" : "https://imma.ie/collection/david/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/david",
-    "arco-cd:hasTitle" : "David"
+    "hasTitle" : "David"
   }, {
     "@id" : "spice:artefact/david-8",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lambert-gene",
     "author" : "spice:agent/lambert-gene",
-    "schema:dateCreated" : "1985",
-    "schema:url" : "https://imma.ie/collection/david-8/",
+    "dateCreated" : "1985",
+    "url" : "https://imma.ie/collection/david-8/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/david-8",
-    "arco-cd:hasTitle" : "David 8"
+    "hasTitle" : "David 8"
   }, {
     "@id" : "spice:artefact/john-paul",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lambert-gene",
     "author" : "spice:agent/lambert-gene",
-    "schema:dateCreated" : "1985",
-    "schema:url" : "https://imma.ie/collection/john-paul/",
+    "dateCreated" : "1985",
+    "url" : "https://imma.ie/collection/john-paul/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/john-paul",
-    "arco-cd:hasTitle" : "John Paul"
+    "hasTitle" : "John Paul"
   }, {
     "@id" : "spice:artefact/land-of-punt-2-snakes-and-ladders",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lambert-gene",
     "author" : "spice:agent/lambert-gene",
-    "schema:dateCreated" : "1988",
-    "schema:url" : "https://imma.ie/collection/land-of-punt-2-snakes-and-ladders/",
+    "dateCreated" : "1988",
+    "url" : "https://imma.ie/collection/land-of-punt-2-snakes-and-ladders/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/land-of-punt-2-snakes-and-ladders",
-    "arco-cd:hasTitle" : "Land of Punt 2 Snakes and Ladders"
+    "hasTitle" : "Land of Punt 2 Snakes and Ladders"
   }, {
     "@id" : "spice:artefact/land-of-punt-4-rose-in-the-box",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lambert-gene",
     "author" : "spice:agent/lambert-gene",
-    "schema:dateCreated" : "1988",
-    "schema:url" : "https://imma.ie/collection/land-of-punt-4-rose-in-the-box/",
+    "dateCreated" : "1988",
+    "url" : "https://imma.ie/collection/land-of-punt-4-rose-in-the-box/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/land-of-punt-4-rose-in-the-box",
-    "arco-cd:hasTitle" : "land of Punt 4 : Rose in the Box"
+    "hasTitle" : "land of Punt 4 : Rose in the Box"
   }, {
     "@id" : "spice:artefact/leslie",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lambert-gene",
     "author" : "spice:agent/lambert-gene",
-    "schema:dateCreated" : "1985",
-    "schema:url" : "https://imma.ie/collection/leslie/",
+    "dateCreated" : "1985",
+    "url" : "https://imma.ie/collection/leslie/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/leslie",
-    "arco-cd:hasTitle" : "Leslie"
+    "hasTitle" : "Leslie"
   }, {
     "@id" : "spice:artefact/lorraine",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lambert-gene",
     "author" : "spice:agent/lambert-gene",
-    "schema:dateCreated" : "1985",
-    "schema:url" : "https://imma.ie/collection/lorraine/",
+    "dateCreated" : "1985",
+    "url" : "https://imma.ie/collection/lorraine/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/lorraine",
-    "arco-cd:hasTitle" : "Lorraine"
+    "hasTitle" : "Lorraine"
   }, {
     "@id" : "spice:artefact/michael",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lambert-gene",
     "author" : "spice:agent/lambert-gene",
-    "schema:dateCreated" : "1985",
-    "schema:url" : "https://imma.ie/collection/michael/",
+    "dateCreated" : "1985",
+    "url" : "https://imma.ie/collection/michael/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/michael",
-    "arco-cd:hasTitle" : "Michael"
+    "hasTitle" : "Michael"
   }, {
     "@id" : "spice:artefact/michael-and-leslie",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lambert-gene",
     "author" : "spice:agent/lambert-gene",
-    "schema:dateCreated" : "1985",
-    "schema:url" : "https://imma.ie/collection/michael-and-leslie/",
+    "dateCreated" : "1985",
+    "url" : "https://imma.ie/collection/michael-and-leslie/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/michael-and-leslie",
-    "arco-cd:hasTitle" : "Michael and Leslie"
+    "hasTitle" : "Michael and Leslie"
   }, {
     "@id" : "spice:artefact/natalie-and-amy",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lambert-gene",
     "author" : "spice:agent/lambert-gene",
-    "schema:dateCreated" : "1985",
-    "schema:url" : "https://imma.ie/collection/natalie-and-amy/",
+    "dateCreated" : "1985",
+    "url" : "https://imma.ie/collection/natalie-and-amy/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/natalie-and-amy",
-    "arco-cd:hasTitle" : "Natalie and Amy"
+    "hasTitle" : "Natalie and Amy"
   }, {
     "@id" : "spice:artefact/orla-and-john",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lambert-gene",
     "author" : "spice:agent/lambert-gene",
-    "schema:dateCreated" : "1985",
-    "schema:url" : "https://imma.ie/collection/orla-and-john/",
+    "dateCreated" : "1985",
+    "url" : "https://imma.ie/collection/orla-and-john/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/orla-and-john",
-    "arco-cd:hasTitle" : "Orla and John"
+    "hasTitle" : "Orla and John"
   }, {
     "@id" : "spice:artefact/pat",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lambert-gene",
     "author" : "spice:agent/lambert-gene",
-    "schema:dateCreated" : "1985",
-    "schema:url" : "https://imma.ie/collection/pat/",
+    "dateCreated" : "1985",
+    "url" : "https://imma.ie/collection/pat/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/pat",
-    "arco-cd:hasTitle" : "Pat"
+    "hasTitle" : "Pat"
   }, {
     "@id" : "spice:artefact/patrick",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lambert-gene",
     "author" : "spice:agent/lambert-gene",
-    "schema:dateCreated" : "1985",
-    "schema:url" : "https://imma.ie/collection/patrick/",
+    "dateCreated" : "1985",
+    "url" : "https://imma.ie/collection/patrick/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/patrick",
-    "arco-cd:hasTitle" : "Patrick"
+    "hasTitle" : "Patrick"
   }, {
     "@id" : "spice:artefact/paul",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lambert-gene",
     "author" : "spice:agent/lambert-gene",
-    "schema:dateCreated" : "1985",
-    "schema:url" : "https://imma.ie/collection/paul/",
+    "dateCreated" : "1985",
+    "url" : "https://imma.ie/collection/paul/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/paul",
-    "arco-cd:hasTitle" : "Paul"
+    "hasTitle" : "Paul"
   }, {
     "@id" : "spice:artefact/paula",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lambert-gene",
     "author" : "spice:agent/lambert-gene",
-    "schema:dateCreated" : "1985",
-    "schema:url" : "https://imma.ie/collection/paula/",
+    "dateCreated" : "1985",
+    "url" : "https://imma.ie/collection/paula/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/paula",
-    "arco-cd:hasTitle" : "Paula"
+    "hasTitle" : "Paula"
   }, {
     "@id" : "spice:artefact/seamus",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lambert-gene",
     "author" : "spice:agent/lambert-gene",
-    "schema:dateCreated" : "1985",
-    "schema:url" : "https://imma.ie/collection/seamus/",
+    "dateCreated" : "1985",
+    "url" : "https://imma.ie/collection/seamus/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/seamus",
-    "arco-cd:hasTitle" : "Seamus"
+    "hasTitle" : "Seamus"
   }, {
     "@id" : "spice:artefact/the-land-of-punt-3-a-pair-of-legs",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lambert-gene",
     "author" : "spice:agent/lambert-gene",
-    "schema:dateCreated" : "1988",
-    "schema:url" : "https://imma.ie/collection/the-land-of-punt-3-a-pair-of-legs/",
+    "dateCreated" : "1988",
+    "url" : "https://imma.ie/collection/the-land-of-punt-3-a-pair-of-legs/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-land-of-punt-3-a-pair-of-legs",
-    "arco-cd:hasTitle" : "The Land Of Punt 3 A Pair of Legs"
+    "hasTitle" : "The Land Of Punt 3 A Pair of Legs"
   }, {
     "@id" : "spice:artefact/the-land-of-punt-5-the-leucotomy-ward",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lambert-gene",
     "author" : "spice:agent/lambert-gene",
-    "schema:dateCreated" : "1988",
-    "schema:url" : "https://imma.ie/collection/the-land-of-punt-5-the-leucotomy-ward/",
+    "dateCreated" : "1988",
+    "url" : "https://imma.ie/collection/the-land-of-punt-5-the-leucotomy-ward/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-land-of-punt-5-the-leucotomy-ward",
-    "arco-cd:hasTitle" : "the land of Punt 5 The leucotomy Ward"
+    "hasTitle" : "the land of Punt 5 The leucotomy Ward"
   }, {
     "@id" : "spice:artefact/the-land-of-punt-6-crucifixion",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lambert-gene",
     "author" : "spice:agent/lambert-gene",
-    "schema:dateCreated" : "1988",
-    "schema:url" : "https://imma.ie/collection/the-land-of-punt-6-crucifixion/",
+    "dateCreated" : "1988",
+    "url" : "https://imma.ie/collection/the-land-of-punt-6-crucifixion/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-land-of-punt-6-crucifixion",
-    "arco-cd:hasTitle" : "The Land of Punt 6 Crucifixion"
+    "hasTitle" : "The Land of Punt 6 Crucifixion"
   }, {
     "@id" : "spice:artefact/the-land-of-punt-7-the-bonsai-man",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lambert-gene",
     "author" : "spice:agent/lambert-gene",
-    "schema:dateCreated" : "1988",
-    "schema:url" : "https://imma.ie/collection/the-land-of-punt-7-the-bonsai-man/",
+    "dateCreated" : "1988",
+    "url" : "https://imma.ie/collection/the-land-of-punt-7-the-bonsai-man/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-land-of-punt-7-the-bonsai-man",
-    "arco-cd:hasTitle" : "the Land of Punt 7 The Bonsai Man"
+    "hasTitle" : "the Land of Punt 7 The Bonsai Man"
   }, {
     "@id" : "spice:artefact/the-land-of-punt-i-first-love",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lambert-gene",
     "author" : "spice:agent/lambert-gene",
-    "schema:dateCreated" : "1988",
-    "schema:url" : "https://imma.ie/collection/the-land-of-punt-i-first-love/",
+    "dateCreated" : "1988",
+    "url" : "https://imma.ie/collection/the-land-of-punt-i-first-love/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-land-of-punt-i-first-love",
-    "arco-cd:hasTitle" : "The Land of Punt I. First Love"
+    "hasTitle" : "The Land of Punt I. First Love"
   }, {
     "@id" : "spice:artefact/tom-and-winnie",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lambert-gene",
     "author" : "spice:agent/lambert-gene",
-    "schema:dateCreated" : "1985",
-    "schema:url" : "https://imma.ie/collection/tom-and-winnie/",
+    "dateCreated" : "1985",
+    "url" : "https://imma.ie/collection/tom-and-winnie/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/tom-and-winnie",
-    "arco-cd:hasTitle" : "Tom and Winnie"
+    "hasTitle" : "Tom and Winnie"
   }, {
     "@id" : "spice:artefact/unknown-1",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lambert-gene",
     "author" : "spice:agent/lambert-gene",
-    "schema:dateCreated" : "1985",
-    "schema:url" : "https://imma.ie/collection/unknown-1/",
+    "dateCreated" : "1985",
+    "url" : "https://imma.ie/collection/unknown-1/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/unknown-1",
-    "arco-cd:hasTitle" : "Unknown 1"
+    "hasTitle" : "Unknown 1"
   }, {
     "@id" : "spice:artefact/unknown-2",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lambert-gene",
     "author" : "spice:agent/lambert-gene",
-    "schema:dateCreated" : "1985",
-    "schema:url" : "https://imma.ie/collection/unknown-2/",
+    "dateCreated" : "1985",
+    "url" : "https://imma.ie/collection/unknown-2/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/unknown-2",
-    "arco-cd:hasTitle" : "Unknown 2"
+    "hasTitle" : "Unknown 2"
   }, {
     "@id" : "spice:artefact/unknown-3",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lambert-gene",
     "author" : "spice:agent/lambert-gene",
-    "schema:dateCreated" : "1985",
-    "schema:url" : "https://imma.ie/collection/unknown-3/",
+    "dateCreated" : "1985",
+    "url" : "https://imma.ie/collection/unknown-3/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/unknown-3",
-    "arco-cd:hasTitle" : "Unknown 3"
+    "hasTitle" : "Unknown 3"
   }, {
     "@id" : "spice:artefact/unknown-4",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lambert-gene",
     "author" : "spice:agent/lambert-gene",
-    "schema:dateCreated" : "1985",
-    "schema:url" : "https://imma.ie/collection/unknown-4/",
+    "dateCreated" : "1985",
+    "url" : "https://imma.ie/collection/unknown-4/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/unknown-4",
-    "arco-cd:hasTitle" : "Unknown 4"
+    "hasTitle" : "Unknown 4"
   }, {
     "@id" : "spice:artefact/untitled-85",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lambert-gene",
     "author" : "spice:agent/lambert-gene",
-    "schema:dateCreated" : "1980",
-    "schema:url" : "https://imma.ie/collection/untitled-85/",
+    "dateCreated" : "1980",
+    "url" : "https://imma.ie/collection/untitled-85/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-85",
-    "arco-cd:hasTitle" : "Untitled"
+    "hasTitle" : "Untitled"
   }, {
     "@id" : "spice:artefact/winnie",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lambert-gene",
     "author" : "spice:agent/lambert-gene",
-    "schema:dateCreated" : "1985",
-    "schema:url" : "https://imma.ie/collection/winnie/",
+    "dateCreated" : "1985",
+    "url" : "https://imma.ie/collection/winnie/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/winnie",
-    "arco-cd:hasTitle" : "Winnie"
+    "hasTitle" : "Winnie"
   }, {
     "@id" : "spice:artefact/work-from-a-darkroom",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lambert-gene",
     "author" : "spice:agent/lambert-gene",
-    "schema:dateCreated" : "1985",
-    "schema:url" : "https://imma.ie/collection/work-from-a-darkroom/",
+    "dateCreated" : "1985",
+    "url" : "https://imma.ie/collection/work-from-a-darkroom/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/work-from-a-darkroom",
-    "arco-cd:hasTitle" : "Work from a Darkroom"
+    "hasTitle" : "Work from a Darkroom"
   }, {
     "@id" : "spice:attribution/andy",
     "@type" : "arco:AuthorshipAttribution",
@@ -480,48 +480,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -2,31 +2,31 @@
   "@graph" : [ {
     "@id" : "spice:agent/scott-michael",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish architect Michael Scott (1905-1988) served as an apprentice at the architectural firm of Jones and Kelly. He worked in partnership with Norman D. Good, before setting up his own architectural practice in 1938. Scott is acknowledged as the leading exponent of modern architecture in Ireland due to his adoption of the International Style and dedication to modernist ideals. Scott’s most important buildings include Donnybrook Bus Garage and Busáras. He was a member of the Arts Council of Ireland and the Cultural Relations Committee and received honorary doctorates from the Royal College of Art, London; Trinity College, Dublin, and Queen's University, Belfast. Scott was awarded the RIBA Royal Gold Medal in 1975.",
-    "dc:source" : "https://imma.ie/artists/michael-scott/",
-    "schema:birthDate" : "1905–1989",
-    "schema:url" : "https://imma.ie/artists/michael-scott/",
-    "rdfs:label" : "Michael Scott"
+    "description" : "Irish architect Michael Scott (1905-1988) served as an apprentice at the architectural firm of Jones and Kelly. He worked in partnership with Norman D. Good, before setting up his own architectural practice in 1938. Scott is acknowledged as the leading exponent of modern architecture in Ireland due to his adoption of the International Style and dedication to modernist ideals. Scott’s most important buildings include Donnybrook Bus Garage and Busáras. He was a member of the Arts Council of Ireland and the Cultural Relations Committee and received honorary doctorates from the Royal College of Art, London; Trinity College, Dublin, and Queen's University, Belfast. Scott was awarded the RIBA Royal Gold Medal in 1975.",
+    "source" : "https://imma.ie/artists/michael-scott/",
+    "birthDate" : "1905–1989",
+    "url" : "https://imma.ie/artists/michael-scott/",
+    "label" : "Michael Scott"
   }, {
     "@id" : "spice:artefact/coastal-landscape",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/scott-michael",
     "author" : "spice:agent/scott-michael",
-    "schema:dateCreated" : "1968",
-    "schema:url" : "https://imma.ie/collection/coastal-landscape/",
+    "dateCreated" : "1968",
+    "url" : "https://imma.ie/collection/coastal-landscape/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/coastal-landscape",
-    "arco-cd:hasTitle" : "Coastal Landscape"
+    "hasTitle" : "Coastal Landscape"
   }, {
     "@id" : "spice:artefact/drawing-of-merrion-square-1",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/scott-michael",
     "author" : "spice:agent/scott-michael",
-    "schema:dateCreated" : "1967",
-    "schema:url" : "https://imma.ie/collection/drawing-of-merrion-square-1/",
+    "dateCreated" : "1967",
+    "url" : "https://imma.ie/collection/drawing-of-merrion-square-1/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/drawing-of-merrion-square-1",
-    "arco-cd:hasTitle" : "Drawing of Merrion Square, 1"
+    "hasTitle" : "Drawing of Merrion Square, 1"
   }, {
     "@id" : "spice:attribution/coastal-landscape",
     "@type" : "arco:AuthorshipAttribution",
@@ -46,48 +46,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

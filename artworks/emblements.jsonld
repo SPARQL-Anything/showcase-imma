@@ -2,71 +2,61 @@
   "@graph" : [ {
     "@id" : "spice:artefact/emblements",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Emblements is a 1981 work by Mary Farl Powers. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/emblements/",
-    "schema:creditText" : "IMMA Collection: Donation, Powers Family, 2009",
+    "description" : "Emblements is a 1981 work by Mary Farl Powers. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/emblements/",
+    "creditText" : "IMMA Collection: Donation, Powers Family, 2009",
     "image" : "spice:documentation/emblements",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Colour etching on paper",
-    "schema:size" : "39 x 48 cm",
-    "schema:version" : "Edition of 45",
-    "arco-cd:hasInventory" : "IMMA.678"
+    "material" : "Colour etching on paper",
+    "size" : "39 x 48 cm",
+    "version" : "Edition of 45",
+    "hasInventory" : "IMMA.678"
   }, {
     "@id" : "spice:documentation/emblements",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Mary Farl Powers, Emblements, 1981, Colour etching on paper, 39 x 48 cm, Collection Irish Museum of Modern Art, Donation, Powers Family, 2009 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Mary Farl Powers, Emblements, 1981, Colour etching on paper, 39 x 48 cm, Collection Irish Museum of Modern Art, Donation, Powers Family, 2009 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2020/02/1012.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2020/02/1012.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

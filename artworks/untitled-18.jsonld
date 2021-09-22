@@ -2,37 +2,33 @@
   "@graph" : [ {
     "@id" : "spice:artefact/untitled-18",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Untitled is a 2003 work by Mark Francis. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/untitled-18/",
-    "schema:creditText" : "IMMA Collection: Donation, IBRC, 2011",
+    "description" : "Untitled is a 2003 work by Mark Francis. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/untitled-18/",
+    "creditText" : "IMMA Collection: Donation, IBRC, 2011",
     "image" : "spice:documentation/untitled-18",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Oil on paper",
-    "schema:size" : "57 x 77 cm Framed: 76 x 96 cm",
-    "arco-cd:hasInventory" : "IMMA.3436"
+    "material" : "Oil on paper",
+    "size" : "57 x 77 cm Framed: 76 x 96 cm",
+    "hasInventory" : "IMMA.3436"
   }, {
     "@id" : "spice:documentation/untitled-18",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Mark Francis, Untitled, 2003, Oil on paper, 57 x 77 cm Framed: 76 x 96 cm, Collection Irish Museum of Modern Art, Donation, IBRC, 2011 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Mark Francis, Untitled, 2003, Oil on paper, 57 x 77 cm Framed: 76 x 96 cm, Collection Irish Museum of Modern Art, Donation, IBRC, 2011 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -43,20 +39,16 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

@@ -2,71 +2,61 @@
   "@graph" : [ {
     "@id" : "spice:artefact/texas-mastaba-project-for-500000-stacked-oil-drums",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Texas Mastaba, (Project for 500,000 Stacked Oil Drums) is a 1975 work by Christo. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/texas-mastaba-project-for-500000-stacked-oil-drums/",
-    "schema:creditText" : "IMMA Collection: The Novak/O'Doherty Collection at IMMA Gift, The American Ireland Fund, 2014",
+    "description" : "Texas Mastaba, (Project for 500,000 Stacked Oil Drums) is a 1975 work by Christo. It is not currently on display in IMMA. It is currently out on loan. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/texas-mastaba-project-for-500000-stacked-oil-drums/",
+    "creditText" : "IMMA Collection: The Novak/O'Doherty Collection at IMMA Gift, The American Ireland Fund, 2014",
     "image" : "spice:documentation/texas-mastaba-project-for-500000-stacked-oil-drums",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Lithograph and screenprint in color with collage on cardboard",
-    "schema:size" : "75.9 x 56.6 cm Framed: 88 x 67.5 cm",
-    "schema:version" : "106/200",
-    "arco-cd:hasInventory" : "IMMA.3849"
+    "material" : "Lithograph and screenprint in color with collage on cardboard",
+    "size" : "75.9 x 56.6 cm Framed: 88 x 67.5 cm",
+    "version" : "106/200",
+    "hasInventory" : "IMMA.3849"
   }, {
     "@id" : "spice:documentation/texas-mastaba-project-for-500000-stacked-oil-drums",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Christo, Texas Mastaba, (Project for 500,000 Stacked Oil Drums), 1975, Lithograph and screenprint in color with collage on cardboard, 75.9 x 56.6 cm Framed: 88 x 67.5 cm, Collection Irish Museum of Modern Art, The Novak/O'Doherty Collection at IMMA Gift, The American Ireland Fund, 2014 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Christo, Texas Mastaba, (Project for 500,000 Stacked Oil Drums), 1975, Lithograph and screenprint in color with collage on cardboard, 75.9 x 56.6 cm Framed: 88 x 67.5 cm, Collection Irish Museum of Modern Art, The Novak/O'Doherty Collection at IMMA Gift, The American Ireland Fund, 2014 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/5115.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2021/09/5115.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
-    },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

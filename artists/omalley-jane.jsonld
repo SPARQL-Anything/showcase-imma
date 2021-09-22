@@ -1,35 +1,30 @@
 {
   "@id" : "spice:agent/omalley-jane",
   "@type" : "foaf:Person",
-  "dc:description" : "Painter Jane O’Malley (born 1944) was born in Montreal, Canada. From 1969 until 1990 she lived and worked as an artist in St. Ives, Cornwall. In 1973 she married Irish artist Tony O’Malley (1913 – 2003) and in 1990 they settled in Ireland with regular visits to the Isles of Scilly, the Bahamas, and the Canary Islands. O’Malley has held solo exhibitions at Ulster Museum, Belfast (1984); Montpelier Studio, London (1989); Taylor Galleries, Dublin (1991-1997); Riverrun Gallery, Limerick (1990) and a major retrospective at the Irish Museum of Modern Art, Dublin (2005). Her work can be found in numerous collections including that of the Arts Council of Ireland; the Office of Public Works; and Dublin City University.",
-  "dc:source" : "https://imma.ie/artists/jane-omalley/",
-  "schema:birthDate" : "b.1944",
-  "schema:url" : "https://imma.ie/artists/jane-omalley/",
-  "rdfs:label" : "Jane O’Malley",
+  "description" : "Painter Jane O’Malley (born 1944) was born in Montreal, Canada. From 1969 until 1990 she lived and worked as an artist in St. Ives, Cornwall. In 1973 she married Irish artist Tony O’Malley (1913 – 2003) and in 1990 they settled in Ireland with regular visits to the Isles of Scilly, the Bahamas, and the Canary Islands. O’Malley has held solo exhibitions at Ulster Museum, Belfast (1984); Montpelier Studio, London (1989); Taylor Galleries, Dublin (1991-1997); Riverrun Gallery, Limerick (1990) and a major retrospective at the Irish Museum of Modern Art, Dublin (2005). Her work can be found in numerous collections including that of the Arts Council of Ireland; the Office of Public Works; and Dublin City University.",
+  "source" : "https://imma.ie/artists/jane-omalley/",
+  "birthDate" : "b.1944",
+  "url" : "https://imma.ie/artists/jane-omalley/",
+  "label" : "Jane O’Malley",
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

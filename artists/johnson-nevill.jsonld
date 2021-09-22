@@ -2,211 +2,211 @@
   "@graph" : [ {
     "@id" : "spice:agent/johnson-nevill",
     "@type" : "foaf:Person",
-    "dc:description" : "British painter, photographer and film maker Nevill Johnson moved to Belfast in 1934. Often working in series’, Johnson’s individual style was strongly influenced by the cubist and surrealist paintings he saw in Paris in the 1930s. Johnson began to exhibit at the Victor Waddington Galleries, Dublin, in the mid 1940s. He also showed at the Irish Exhibition of Living Art and in galleries across Britain and Ireland. His work is represented in the collections of Dublin City Gallery The Hugh Lane and the Ulster Museum, Belfast.",
-    "dc:source" : "https://imma.ie/artists/nevill-johnson/",
-    "schema:birthDate" : "1911–1999",
-    "schema:url" : "https://imma.ie/artists/nevill-johnson/",
-    "rdfs:label" : "Nevill Johnson"
+    "description" : "British painter, photographer and film maker Nevill Johnson moved to Belfast in 1934. Often working in series’, Johnson’s individual style was strongly influenced by the cubist and surrealist paintings he saw in Paris in the 1930s. Johnson began to exhibit at the Victor Waddington Galleries, Dublin, in the mid 1940s. He also showed at the Irish Exhibition of Living Art and in galleries across Britain and Ireland. His work is represented in the collections of Dublin City Gallery The Hugh Lane and the Ulster Museum, Belfast.",
+    "source" : "https://imma.ie/artists/nevill-johnson/",
+    "birthDate" : "1911–1999",
+    "url" : "https://imma.ie/artists/nevill-johnson/",
+    "label" : "Nevill Johnson"
   }, {
     "@id" : "spice:artefact/charlemont-mall-hallway",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/johnson-nevill",
     "author" : "spice:agent/johnson-nevill",
-    "schema:dateCreated" : "1952",
-    "schema:url" : "https://imma.ie/collection/charlemont-mall-hallway/",
+    "dateCreated" : "1952",
+    "url" : "https://imma.ie/collection/charlemont-mall-hallway/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/charlemont-mall-hallway",
-    "arco-cd:hasTitle" : "Charlemont Mall, Hallway"
+    "hasTitle" : "Charlemont Mall, Hallway"
   }, {
     "@id" : "spice:artefact/children-mastersons-lane",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/johnson-nevill",
     "author" : "spice:agent/johnson-nevill",
-    "schema:dateCreated" : "1952",
-    "schema:url" : "https://imma.ie/collection/children-mastersons-lane/",
+    "dateCreated" : "1952",
+    "url" : "https://imma.ie/collection/children-mastersons-lane/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/children-mastersons-lane",
-    "arco-cd:hasTitle" : "Children, Masterson’s Lane"
+    "hasTitle" : "Children, Masterson’s Lane"
   }, {
     "@id" : "spice:artefact/coal-and-potato-store-marrowbone-lane",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/johnson-nevill",
     "author" : "spice:agent/johnson-nevill",
-    "schema:dateCreated" : "1952",
-    "schema:url" : "https://imma.ie/collection/coal-and-potato-store-marrowbone-lane/",
+    "dateCreated" : "1952",
+    "url" : "https://imma.ie/collection/coal-and-potato-store-marrowbone-lane/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/coal-and-potato-store-marrowbone-lane",
-    "arco-cd:hasTitle" : "Coal and Potato Store, Marrowbone Lane"
+    "hasTitle" : "Coal and Potato Store, Marrowbone Lane"
   }, {
     "@id" : "spice:artefact/hardwicke-crescent",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/johnson-nevill",
     "author" : "spice:agent/johnson-nevill",
-    "schema:dateCreated" : "1952",
-    "schema:url" : "https://imma.ie/collection/hardwicke-crescent/",
+    "dateCreated" : "1952",
+    "url" : "https://imma.ie/collection/hardwicke-crescent/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/hardwicke-crescent",
-    "arco-cd:hasTitle" : "Hardwicke Crescent"
+    "hasTitle" : "Hardwicke Crescent"
   }, {
     "@id" : "spice:artefact/hendrick-street-window",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/johnson-nevill",
     "author" : "spice:agent/johnson-nevill",
-    "schema:dateCreated" : "1952",
-    "schema:url" : "https://imma.ie/collection/hendrick-street-window/",
+    "dateCreated" : "1952",
+    "url" : "https://imma.ie/collection/hendrick-street-window/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/hendrick-street-window",
-    "arco-cd:hasTitle" : "Hendrick Street, Window"
+    "hasTitle" : "Hendrick Street, Window"
   }, {
     "@id" : "spice:artefact/ironwork-warrington-terrace",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/johnson-nevill",
     "author" : "spice:agent/johnson-nevill",
-    "schema:dateCreated" : "1952",
-    "schema:url" : "https://imma.ie/collection/ironwork-warrington-terrace/",
+    "dateCreated" : "1952",
+    "url" : "https://imma.ie/collection/ironwork-warrington-terrace/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/ironwork-warrington-terrace",
-    "arco-cd:hasTitle" : "Ironwork, Warrington Terrace"
+    "hasTitle" : "Ironwork, Warrington Terrace"
   }, {
     "@id" : "spice:artefact/island-memorial-park-allotment",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/johnson-nevill",
     "author" : "spice:agent/johnson-nevill",
-    "schema:dateCreated" : "1952",
-    "schema:url" : "https://imma.ie/collection/island-memorial-park-allotment/",
+    "dateCreated" : "1952",
+    "url" : "https://imma.ie/collection/island-memorial-park-allotment/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/island-memorial-park-allotment",
-    "arco-cd:hasTitle" : "Island Memorial Park Allotment"
+    "hasTitle" : "Island Memorial Park Allotment"
   }, {
     "@id" : "spice:artefact/island-street-hook",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/johnson-nevill",
     "author" : "spice:agent/johnson-nevill",
-    "schema:dateCreated" : "1952",
-    "schema:url" : "https://imma.ie/collection/island-street-hook/",
+    "dateCreated" : "1952",
+    "url" : "https://imma.ie/collection/island-street-hook/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/island-street-hook",
-    "arco-cd:hasTitle" : "Island Street, Hook"
+    "hasTitle" : "Island Street, Hook"
   }, {
     "@id" : "spice:artefact/lower-dominick-street",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/johnson-nevill",
     "author" : "spice:agent/johnson-nevill",
-    "schema:dateCreated" : "1952",
-    "schema:url" : "https://imma.ie/collection/lower-dominick-street/",
+    "dateCreated" : "1952",
+    "url" : "https://imma.ie/collection/lower-dominick-street/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/lower-dominick-street",
-    "arco-cd:hasTitle" : "Lower Dominick Street"
+    "hasTitle" : "Lower Dominick Street"
   }, {
     "@id" : "spice:artefact/no-56-sheriff-street-butchers-scales",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/johnson-nevill",
     "author" : "spice:agent/johnson-nevill",
-    "schema:dateCreated" : "1952",
-    "schema:url" : "https://imma.ie/collection/no-56-sheriff-street-butchers-scales/",
+    "dateCreated" : "1952",
+    "url" : "https://imma.ie/collection/no-56-sheriff-street-butchers-scales/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/no-56-sheriff-street-butchers-scales",
-    "arco-cd:hasTitle" : "No. 56 Sheriff Street, Butcher’s Scales"
+    "hasTitle" : "No. 56 Sheriff Street, Butcher’s Scales"
   }, {
     "@id" : "spice:artefact/oconnell-bridge-bookstall",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/johnson-nevill",
     "author" : "spice:agent/johnson-nevill",
-    "schema:dateCreated" : "1952",
-    "schema:url" : "https://imma.ie/collection/oconnell-bridge-bookstall/",
+    "dateCreated" : "1952",
+    "url" : "https://imma.ie/collection/oconnell-bridge-bookstall/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/oconnell-bridge-bookstall",
-    "arco-cd:hasTitle" : "O’Connell Bridge Bookstall"
+    "hasTitle" : "O’Connell Bridge Bookstall"
   }, {
     "@id" : "spice:artefact/old-man-garden-lane",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/johnson-nevill",
     "author" : "spice:agent/johnson-nevill",
-    "schema:dateCreated" : "1952",
-    "schema:url" : "https://imma.ie/collection/old-man-garden-lane/",
+    "dateCreated" : "1952",
+    "url" : "https://imma.ie/collection/old-man-garden-lane/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/old-man-garden-lane",
-    "arco-cd:hasTitle" : "Old Man, Garden Lane"
+    "hasTitle" : "Old Man, Garden Lane"
   }, {
     "@id" : "spice:artefact/old-man-smithfield",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/johnson-nevill",
     "author" : "spice:agent/johnson-nevill",
-    "schema:dateCreated" : "1952",
-    "schema:url" : "https://imma.ie/collection/old-man-smithfield/",
+    "dateCreated" : "1952",
+    "url" : "https://imma.ie/collection/old-man-smithfield/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/old-man-smithfield",
-    "arco-cd:hasTitle" : "Old Man, Smithfield"
+    "hasTitle" : "Old Man, Smithfield"
   }, {
     "@id" : "spice:artefact/old-men-sitting-st-stephens-green",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/johnson-nevill",
     "author" : "spice:agent/johnson-nevill",
-    "schema:dateCreated" : "1952",
-    "schema:url" : "https://imma.ie/collection/old-men-sitting-st-stephens-green/",
+    "dateCreated" : "1952",
+    "url" : "https://imma.ie/collection/old-men-sitting-st-stephens-green/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/old-men-sitting-st-stephens-green",
-    "arco-cd:hasTitle" : "Old Men Sitting, St Stephen’s Green"
+    "hasTitle" : "Old Men Sitting, St Stephen’s Green"
   }, {
     "@id" : "spice:artefact/old-woman-hendrick-street-dublin",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/johnson-nevill",
     "author" : "spice:agent/johnson-nevill",
-    "schema:dateCreated" : "1952",
-    "schema:url" : "https://imma.ie/collection/old-woman-hendrick-street-dublin/",
+    "dateCreated" : "1952",
+    "url" : "https://imma.ie/collection/old-woman-hendrick-street-dublin/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/old-woman-hendrick-street-dublin",
-    "arco-cd:hasTitle" : "Old Woman, Hendrick Street, Dublin"
+    "hasTitle" : "Old Woman, Hendrick Street, Dublin"
   }, {
     "@id" : "spice:artefact/pearse-street",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/johnson-nevill",
     "author" : "spice:agent/johnson-nevill",
-    "schema:dateCreated" : "1952",
-    "schema:url" : "https://imma.ie/collection/pearse-street/",
+    "dateCreated" : "1952",
+    "url" : "https://imma.ie/collection/pearse-street/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/pearse-street",
-    "arco-cd:hasTitle" : "Pearse Street"
+    "hasTitle" : "Pearse Street"
   }, {
     "@id" : "spice:artefact/pile-driver-harbor-dublin",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/johnson-nevill",
     "author" : "spice:agent/johnson-nevill",
-    "schema:dateCreated" : "1952",
-    "schema:url" : "https://imma.ie/collection/pile-driver-harbor-dublin/",
+    "dateCreated" : "1952",
+    "url" : "https://imma.ie/collection/pile-driver-harbor-dublin/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/pile-driver-harbor-dublin",
-    "arco-cd:hasTitle" : "Pile Driver, Harbor, Dublin"
+    "hasTitle" : "Pile Driver, Harbor, Dublin"
   }, {
     "@id" : "spice:artefact/two-old-ladies-kings-inn-quay-dublin",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/johnson-nevill",
     "author" : "spice:agent/johnson-nevill",
-    "schema:dateCreated" : "1952",
-    "schema:url" : "https://imma.ie/collection/two-old-ladies-kings-inn-quay-dublin/",
+    "dateCreated" : "1952",
+    "url" : "https://imma.ie/collection/two-old-ladies-kings-inn-quay-dublin/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/two-old-ladies-kings-inn-quay-dublin",
-    "arco-cd:hasTitle" : "Two Old Ladies, King’s Inn Quay, Dublin"
+    "hasTitle" : "Two Old Ladies, King’s Inn Quay, Dublin"
   }, {
     "@id" : "spice:artefact/two-women-parnell-street",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/johnson-nevill",
     "author" : "spice:agent/johnson-nevill",
-    "schema:dateCreated" : "1952",
-    "schema:url" : "https://imma.ie/collection/two-women-parnell-street/",
+    "dateCreated" : "1952",
+    "url" : "https://imma.ie/collection/two-women-parnell-street/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/two-women-parnell-street",
-    "arco-cd:hasTitle" : "Two Women, Parnell Street"
+    "hasTitle" : "Two Women, Parnell Street"
   }, {
     "@id" : "spice:artefact/woman-sitting-chamber-street",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/johnson-nevill",
     "author" : "spice:agent/johnson-nevill",
-    "schema:dateCreated" : "1952",
-    "schema:url" : "https://imma.ie/collection/woman-sitting-chamber-street/",
+    "dateCreated" : "1952",
+    "url" : "https://imma.ie/collection/woman-sitting-chamber-street/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/woman-sitting-chamber-street",
-    "arco-cd:hasTitle" : "Woman Sitting, Chamber Street"
+    "hasTitle" : "Woman Sitting, Chamber Street"
   }, {
     "@id" : "spice:attribution/charlemont-mall-hallway",
     "@type" : "arco:AuthorshipAttribution",
@@ -294,24 +294,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -322,24 +319,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

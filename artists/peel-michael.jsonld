@@ -2,29 +2,29 @@
   "@graph" : [ {
     "@id" : "spice:agent/peel-michael",
     "@type" : "foaf:Person",
-    "dc:source" : "https://imma.ie/artists/michael-peel/",
-    "schema:url" : "https://imma.ie/artists/michael-peel/",
-    "rdfs:label" : "Michael Peel"
+    "source" : "https://imma.ie/artists/michael-peel/",
+    "url" : "https://imma.ie/artists/michael-peel/",
+    "label" : "Michael Peel"
   }, {
     "@id" : "spice:artefact/some-myths-of-black-and-white-photography",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/peel-michael",
     "author" : "spice:agent/peel-michael",
-    "schema:dateCreated" : "1974",
-    "schema:url" : "https://imma.ie/collection/some-myths-of-black-and-white-photography/",
+    "dateCreated" : "1974",
+    "url" : "https://imma.ie/collection/some-myths-of-black-and-white-photography/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/some-myths-of-black-and-white-photography",
-    "arco-cd:hasTitle" : "Some Myths of Black and White Photography"
+    "hasTitle" : "Some Myths of Black and White Photography"
   }, {
     "@id" : "spice:artefact/this-photograph",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/peel-michael",
     "author" : "spice:agent/peel-michael",
-    "schema:dateCreated" : "1974",
-    "schema:url" : "https://imma.ie/collection/this-photograph/",
+    "dateCreated" : "1974",
+    "url" : "https://imma.ie/collection/this-photograph/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/this-photograph",
-    "arco-cd:hasTitle" : "This Photograph"
+    "hasTitle" : "This Photograph"
   }, {
     "@id" : "spice:attribution/some-myths-of-black-and-white-photography",
     "@type" : "arco:AuthorshipAttribution",
@@ -40,24 +40,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -68,16 +65,14 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

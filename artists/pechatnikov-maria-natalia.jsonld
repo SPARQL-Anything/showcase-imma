@@ -1,30 +1,26 @@
 {
   "@id" : "spice:agent/pechatnikov-maria-natalia",
   "@type" : "foaf:Person",
-  "dc:description" : [ "Identical twins Maria and Natalia work collaboratively on each project. Using materials such as plastic bags, scotch tape, thread and anything else that may come to hand they create unique sprawling formations full of texture and colour. Having worked on several residency programmes for artists, they believe that these experiences play an important role in the development of their work. Previous works include Plastic Portrait in which plastic bags are cut into small pieces, are then layered one on top of the other and secured with scotch tape. These materials begin to work like brush strokes in a traditional oil painting. Maria and Natalia are interested in the relationships between art and materials, in giving these materials new meaning through highly crafted art pieces.", "Identical twins Maria and Natalia work collaboratively on each project. Using materials such as plastic bags, scotch tape, thread and anything else that may come to hand they create unique sprawling formations full of texture and colour. " ],
-  "dc:source" : "https://imma.ie/artists/maria-and-natalia-pechatnikov/",
-  "schema:url" : "https://imma.ie/artists/maria-and-natalia-pechatnikov/",
-  "rdfs:label" : "Maria &amp; Natalia Pechatnikov",
+  "description" : [ "Identical twins Maria and Natalia work collaboratively on each project. Using materials such as plastic bags, scotch tape, thread and anything else that may come to hand they create unique sprawling formations full of texture and colour. Having worked on several residency programmes for artists, they believe that these experiences play an important role in the development of their work. Previous works include Plastic Portrait in which plastic bags are cut into small pieces, are then layered one on top of the other and secured with scotch tape. These materials begin to work like brush strokes in a traditional oil painting. Maria and Natalia are interested in the relationships between art and materials, in giving these materials new meaning through highly crafted art pieces.", "Identical twins Maria and Natalia work collaboratively on each project. Using materials such as plastic bags, scotch tape, thread and anything else that may come to hand they create unique sprawling formations full of texture and colour. " ],
+  "source" : "https://imma.ie/artists/maria-and-natalia-pechatnikov/",
+  "url" : "https://imma.ie/artists/maria-and-natalia-pechatnikov/",
+  "label" : "Maria &amp; Natalia Pechatnikov",
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/family-lay-daughter-a-bomb-victim-to-rest-in-belfast",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "This group of works is one of two series entitled ‘The Troubles: An Artist’s Document of Ulster’. The first is a group of 80 cibachrome photographs produced by Levine in 1972 while this suite comprises 18 photo-etchings made in 1979 from photographs taken in 1972. Both bodies of work were donated to IMMA by the artist.",
-    "dc:source" : "https://imma.ie/collection/family-lay-daughter-a-bomb-victim-to-rest-in-belfast/",
-    "schema:creditText" : "IMMA Collection: Donated by the artist in memory of his sister June Levine, 2010",
+    "description" : "This group of works is one of two series entitled ‘The Troubles: An Artist’s Document of Ulster’. The first is a group of 80 cibachrome photographs produced by Levine in 1972 while this suite comprises 18 photo-etchings made in 1979 from photographs taken in 1972. Both bodies of work were donated to IMMA by the artist.",
+    "source" : "https://imma.ie/collection/family-lay-daughter-a-bomb-victim-to-rest-in-belfast/",
+    "creditText" : "IMMA Collection: Donated by the artist in memory of his sister June Levine, 2010",
     "image" : "spice:documentation/family-lay-daughter-a-bomb-victim-to-rest-in-belfast",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Etched on zinc; printed in black ink on white German etching paper",
-    "schema:size" : "55.9 x 76.2 cm",
-    "arco-cd:hasInventory" : "IMMA.3303.9"
+    "material" : "Etched on zinc; printed in black ink on white German etching paper",
+    "size" : "55.9 x 76.2 cm",
+    "hasInventory" : "IMMA.3303.9"
   }, {
     "@id" : "spice:documentation/family-lay-daughter-a-bomb-victim-to-rest-in-belfast",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Les Levine, Family lay daughter, a bomb victim, to rest in Belfast, 1979, Etched on zinc; printed in black ink on white German etching paper, 55.9 x 76.2 cm, Collection Irish Museum of Modern Art, Donated by the artist in memory of his sister June Levine, 2010 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Les Levine, Family lay daughter, a bomb victim, to rest in Belfast, 1979, Etched on zinc; printed in black ink on white German etching paper, 55.9 x 76.2 cm, Collection Irish Museum of Modern Art, Donated by the artist in memory of his sister June Levine, 2010 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/5632.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/5632.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

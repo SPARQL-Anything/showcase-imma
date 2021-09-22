@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/campus-peter",
     "@type" : "foaf:Person",
-    "dc:description" : "American artist Peter Campus studied experimental psychology at Ohio State University and film at City College Film Institute, New York. He began to work in video in 1970 and achieved critical acclaim for his works that explored the relationship between the viewer and the viewed, and advanced the concept of video as an art form. During the later 1970s Campus abandoned video to concentrate on slide projection and black-and-white photography. Since the mid-1990s he has returned to the electronic moving image.",
-    "dc:source" : "https://imma.ie/artists/peter-campus/",
-    "schema:birthDate" : "b.1937",
-    "schema:url" : "https://imma.ie/artists/peter-campus/",
-    "rdfs:label" : "Peter Campus"
+    "description" : "American artist Peter Campus studied experimental psychology at Ohio State University and film at City College Film Institute, New York. He began to work in video in 1970 and achieved critical acclaim for his works that explored the relationship between the viewer and the viewed, and advanced the concept of video as an art form. During the later 1970s Campus abandoned video to concentrate on slide projection and black-and-white photography. Since the mid-1990s he has returned to the electronic moving image.",
+    "source" : "https://imma.ie/artists/peter-campus/",
+    "birthDate" : "b.1937",
+    "url" : "https://imma.ie/artists/peter-campus/",
+    "label" : "Peter Campus"
   }, {
     "@id" : "spice:artefact/ray-drawing-for-optical-sockets-two-observers",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/campus-peter",
     "author" : "spice:agent/campus-peter",
-    "schema:dateCreated" : "1973",
-    "schema:url" : "https://imma.ie/collection/ray-drawing-for-optical-sockets-two-observers/",
+    "dateCreated" : "1973",
+    "url" : "https://imma.ie/collection/ray-drawing-for-optical-sockets-two-observers/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/ray-drawing-for-optical-sockets-two-observers",
-    "arco-cd:hasTitle" : "Ray Drawing for Optical Sockets, Two Observers"
+    "hasTitle" : "Ray Drawing for Optical Sockets, Two Observers"
   }, {
     "@id" : "spice:attribution/ray-drawing-for-optical-sockets-two-observers",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,40 +24,33 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

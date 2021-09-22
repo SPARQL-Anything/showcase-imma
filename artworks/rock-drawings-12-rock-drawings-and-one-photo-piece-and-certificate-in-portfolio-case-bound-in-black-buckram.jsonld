@@ -2,66 +2,57 @@
   "@graph" : [ {
     "@id" : "spice:artefact/rock-drawings-12-rock-drawings-and-one-photo-piece-and-certificate-in-portfolio-case-bound-in-black-buckram",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Rock Drawings (12 rock drawings and one photo-piece and certificate in portfolio case bound in black buckram) is a 1994 work by Richard Long. It is not currently on display in IMMA. ",
-    "dc:source" : "https://imma.ie/collection/rock-drawings-12-rock-drawings-and-one-photo-piece-and-certificate-in-portfolio-case-bound-in-black-buckram/",
-    "schema:creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1994",
+    "description" : "Rock Drawings (12 rock drawings and one photo-piece and certificate in portfolio case bound in black buckram) is a 1994 work by Richard Long. It is not currently on display in IMMA. ",
+    "source" : "https://imma.ie/collection/rock-drawings-12-rock-drawings-and-one-photo-piece-and-certificate-in-portfolio-case-bound-in-black-buckram/",
+    "creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1994",
     "image" : "spice:documentation/rock-drawings-12-rock-drawings-and-one-photo-piece-and-certificate-in-portfolio-case-bound-in-black-buckram",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Screen Print",
-    "schema:size" : "79 x 73.5 cm",
-    "arco-cd:hasInventory" : "L.778"
+    "material" : "Screen Print",
+    "size" : "79 x 73.5 cm",
+    "hasInventory" : "L.778"
   }, {
     "@id" : "spice:documentation/rock-drawings-12-rock-drawings-and-one-photo-piece-and-certificate-in-portfolio-case-bound-in-black-buckram",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Richard Long, Rock Drawings (12 rock drawings and one photo-piece and certificate in portfolio case bound in black buckram), 1994, Screen Print, 79 x 73.5 cm, Collection Irish Museum of Modern Art, Loan, Weltkunst Foundation, 1994 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Richard Long, Rock Drawings (12 rock drawings and one photo-piece and certificate in portfolio case bound in black buckram), 1994, Screen Print, 79 x 73.5 cm, Collection Irish Museum of Modern Art, Loan, Weltkunst Foundation, 1994 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2020/01/6157.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2020/01/6157.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

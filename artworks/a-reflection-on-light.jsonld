@@ -2,32 +2,29 @@
   "@graph" : [ {
     "@id" : "spice:artefact/a-reflection-on-light",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "A Reflection on Light is a 2015 work by Grace Weir. It has a duration of 20 min. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/a-reflection-on-light/",
+    "description" : "A Reflection on Light is a 2015 work by Grace Weir. It has a duration of 20 min. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/a-reflection-on-light/",
     "image" : "spice:documentation/a-reflection-on-light",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "HD video",
-    "schema:version" : "Edition 1/5",
-    "arco-cd:hasInventory" : "IMMA.4080"
+    "material" : "HD video",
+    "version" : "Edition 1/5",
+    "hasInventory" : "IMMA.4080"
   }, {
     "@id" : "spice:documentation/a-reflection-on-light",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Grace Weir, A Reflection on Light, 2015, HD video, Duration: 20 min, Collection Irish Museum of Modern Art, 2017 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Grace Weir, A Reflection on Light, 2015, HD video, Duration: 20 min, Collection Irish Museum of Modern Art, 2017 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -38,20 +35,16 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

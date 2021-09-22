@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/roche-david",
     "@type" : "foaf:Person",
-    "dc:description" : "David Roche studied printmaking at the National College of Art and Design, Dublin, from 2001 to 2005 before attending the Royal College of Art, London, from 2007 to 2009. Roche was awarded the 2005 – 2006 C.A.P. Foundation Award and Residence. His work is held in the C.A.P. Collection in Switzerland and in private collections in the United States, Britain and Ireland.",
-    "dc:source" : "https://imma.ie/artists/david-roche/",
-    "schema:birthDate" : "b.1983",
-    "schema:url" : "https://imma.ie/artists/david-roche/",
-    "rdfs:label" : "David Roche"
+    "description" : "David Roche studied printmaking at the National College of Art and Design, Dublin, from 2001 to 2005 before attending the Royal College of Art, London, from 2007 to 2009. Roche was awarded the 2005 – 2006 C.A.P. Foundation Award and Residence. His work is held in the C.A.P. Collection in Switzerland and in private collections in the United States, Britain and Ireland.",
+    "source" : "https://imma.ie/artists/david-roche/",
+    "birthDate" : "b.1983",
+    "url" : "https://imma.ie/artists/david-roche/",
+    "label" : "David Roche"
   }, {
     "@id" : "spice:artefact/machina",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/roche-david",
     "author" : "spice:agent/roche-david",
-    "schema:dateCreated" : "2006",
-    "schema:url" : "https://imma.ie/collection/machina/",
+    "dateCreated" : "2006",
+    "url" : "https://imma.ie/collection/machina/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/machina",
-    "arco-cd:hasTitle" : "Machina"
+    "hasTitle" : "Machina"
   }, {
     "@id" : "spice:attribution/machina",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,40 +28,33 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

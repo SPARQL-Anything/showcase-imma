@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/a-small-small-talk-book",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "A Small Small Talk Book is a 1953 work by Sonja Sekula. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/a-small-small-talk-book/",
-    "schema:creditText" : "IMMA Collection: The Novak/O'Doherty Collection at IMMA Gift, The American Ireland Fund, 2014",
+    "description" : "A Small Small Talk Book is a 1953 work by Sonja Sekula. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/a-small-small-talk-book/",
+    "creditText" : "IMMA Collection: The Novak/O'Doherty Collection at IMMA Gift, The American Ireland Fund, 2014",
     "image" : "spice:documentation/a-small-small-talk-book",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Pencil, watercolour, gouache. Hamilton Bond paper folded",
-    "schema:size" : "30.4 x 19.1 cm",
-    "arco-cd:hasInventory" : "IMMA.3864"
+    "material" : "Pencil, watercolour, gouache. Hamilton Bond paper folded",
+    "size" : "30.4 x 19.1 cm",
+    "hasInventory" : "IMMA.3864"
   }, {
     "@id" : "spice:documentation/a-small-small-talk-book",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Sonja Sekula, A Small Small Talk Book, 1953, Pencil, watercolour, gouache. Hamilton Bond paper folded, 30.4 x 19.1 cm, Collection Irish Museum of Modern Art, The Novak/O'Doherty Collection at IMMA Gift, The American Ireland Fund, 2014 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Sonja Sekula, A Small Small Talk Book, 1953, Pencil, watercolour, gouache. Hamilton Bond paper folded, 30.4 x 19.1 cm, Collection Irish Museum of Modern Art, The Novak/O'Doherty Collection at IMMA Gift, The American Ireland Fund, 2014 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/5116.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/5116.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

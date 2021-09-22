@@ -2,66 +2,57 @@
   "@graph" : [ {
     "@id" : "spice:artefact/young-serbs-bojan",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "young serbs (bojan) is a 2001 work by Phil Collins. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/young-serbs-bojan/",
-    "schema:creditText" : "IMMA Collection: Heritage Gift, 2018, 2018",
+    "description" : "young serbs (bojan) is a 2001 work by Phil Collins. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/young-serbs-bojan/",
+    "creditText" : "IMMA Collection: Heritage Gift, Kerlin Gallery Collection, 2018, 2018",
     "image" : "spice:documentation/young-serbs-bojan",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Lightjet print reverse mounted on Diasec",
-    "schema:size" : "74 x 92 x 3 cm",
-    "arco-cd:hasInventory" : "IMMA.4118"
+    "material" : "Lightjet print reverse mounted on Diasec",
+    "size" : "74 x 92 x 3 cm",
+    "hasInventory" : "IMMA.4118"
   }, {
     "@id" : "spice:documentation/young-serbs-bojan",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Phil Collins, young serbs (bojan), 2001, Lightjet print reverse mounted on Diasec, 74 x 92 x 3 cm, Collection Irish Museum of Modern Art, Heritage Gift, 2018, 2018 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Phil Collins, young serbs (bojan), 2001, Lightjet print reverse mounted on Diasec, 74 x 92 x 3 cm, Collection Irish Museum of Modern Art, Heritage Gift, Kerlin Gallery Collection, 2018, 2018 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2021/03/9142.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2021/05/9142.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

@@ -2,31 +2,31 @@
   "@graph" : [ {
     "@id" : "spice:agent/wylie-donovan",
     "@type" : "foaf:Person",
-    "dc:description" : "Northern Irish photographer Donovan Wylie (born 1971) began taking photographs in his teens. From an early trip around Ireland which resulted in his first book ‘32 Counties’ Wylie’s photographic output has explored themes of history, identity and the architecture of conflict in locations including Northern Ireland, Spain, Russia, China, Russia, Slovakia, Israel, and Yugoslavia. Wylie became a member of Magnum Photos agency in 1998. His work has been exhibited at venues including IMMA; the Victoria and Albert Museum, London, and the Centre Georges Pompidou, Paris.",
-    "dc:source" : "https://imma.ie/artists/donovan-wylie/",
-    "schema:birthDate" : "b.1971",
-    "schema:url" : "https://imma.ie/artists/donovan-wylie/",
-    "rdfs:label" : "Donovan Wylie"
+    "description" : "Northern Irish photographer Donovan Wylie (born 1971) began taking photographs in his teens. From an early trip around Ireland which resulted in his first book ‘32 Counties’ Wylie’s photographic output has explored themes of history, identity and the architecture of conflict in locations including Northern Ireland, Spain, Russia, China, Russia, Slovakia, Israel, and Yugoslavia. Wylie became a member of Magnum Photos agency in 1998. His work has been exhibited at venues including IMMA; the Victoria and Albert Museum, London, and the Centre Georges Pompidou, Paris.",
+    "source" : "https://imma.ie/artists/donovan-wylie/",
+    "birthDate" : "b.1971",
+    "url" : "https://imma.ie/artists/donovan-wylie/",
+    "label" : "Donovan Wylie"
   }, {
     "@id" : "spice:artefact/dont-be-cruel-athlone-county-westmeath",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/wylie-donovan",
     "author" : "spice:agent/wylie-donovan",
-    "schema:dateCreated" : "1988",
-    "schema:url" : "https://imma.ie/collection/dont-be-cruel-athlone-county-westmeath/",
+    "dateCreated" : "1988",
+    "url" : "https://imma.ie/collection/dont-be-cruel-athlone-county-westmeath/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/dont-be-cruel-athlone-county-westmeath",
-    "arco-cd:hasTitle" : "‘Don’t Be Cruel’, Athlone, County Westmeath"
+    "hasTitle" : "‘Don’t Be Cruel’, Athlone, County Westmeath"
   }, {
     "@id" : "spice:artefact/young-unemployed-man-in-kitchen-athlone-county-westmeath",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/wylie-donovan",
     "author" : "spice:agent/wylie-donovan",
-    "schema:dateCreated" : "1988",
-    "schema:url" : "https://imma.ie/collection/young-unemployed-man-in-kitchen-athlone-county-westmeath/",
+    "dateCreated" : "1988",
+    "url" : "https://imma.ie/collection/young-unemployed-man-in-kitchen-athlone-county-westmeath/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/young-unemployed-man-in-kitchen-athlone-county-westmeath",
-    "arco-cd:hasTitle" : "Young Unemployed Man in Kitchen, Athlone, County Westmeath"
+    "hasTitle" : "Young Unemployed Man in Kitchen, Athlone, County Westmeath"
   }, {
     "@id" : "spice:attribution/dont-be-cruel-athlone-county-westmeath",
     "@type" : "arco:AuthorshipAttribution",
@@ -38,40 +38,33 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -87,7 +80,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

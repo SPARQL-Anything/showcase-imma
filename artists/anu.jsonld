@@ -1,0 +1,39 @@
+{
+  "@id" : "spice:agent/anu",
+  "@type" : "foaf:Person",
+  "description" : [ "Pioneering a hybrid of art forms that places audience at the centre of their practice, together ANU have created 31 seminal works: public art commissions, gallery installations and museum interpretations. Building a global reputation for creating transformative experiences in unusual locations, ANU continue to challenge artistic conventions by blurring the lines between immersive and site-specific practice.", "Pioneering a hybrid of art forms that places audience at the centre of their practice, together ANU have created 31 seminal works; public art commissions, gallery installations and museum interpretations. " ],
+  "source" : "https://imma.ie/artists/anu/",
+  "birthDate" : "b.2009",
+  "url" : "https://imma.ie/artists/anu/",
+  "label" : "ANU",
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

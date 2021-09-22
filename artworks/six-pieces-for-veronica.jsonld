@@ -2,37 +2,33 @@
   "@graph" : [ {
     "@id" : "spice:artefact/six-pieces-for-veronica",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Six Pieces for Veronica is a 1990 work by Martin Mullin. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/six-pieces-for-veronica/",
-    "schema:creditText" : "IMMA Collection: Donated by the artist, 1991",
+    "description" : "Six Pieces for Veronica is a 1990 work by Martin Mullin. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/six-pieces-for-veronica/",
+    "creditText" : "IMMA Collection: Donated by the artist, 1991",
     "image" : "spice:documentation/six-pieces-for-veronica",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Varies",
-    "schema:size" : "145 x 105.5 cm (each)",
-    "arco-cd:hasInventory" : "IMMA.20"
+    "material" : "Varies",
+    "size" : "145 x 105.5 cm (each)",
+    "hasInventory" : "IMMA.20"
   }, {
     "@id" : "spice:documentation/six-pieces-for-veronica",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Martin Mullin, Six Pieces for Veronica, 1990, Varies, 145 x 105.5 cm (each), Collection Irish Museum of Modern Art, Donated by the artist, 1991 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Martin Mullin, Six Pieces for Veronica, 1990, Varies, 145 x 105.5 cm (each), Collection Irish Museum of Modern Art, Donated by the artist, 1991 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -43,20 +39,16 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

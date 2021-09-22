@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/ombre-v",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "‘Ombre V’ is one of a series of drawings that emerged from a residency in IMMA’s Artists’ Residency Programme. Maher’s interest in hair was inspired by legends such as those of Medusa, Berenice, and Rapunzel, taboos about touching hair, its use as a love token and its severance as an act of punishment. Commenting on the element of memory in her art, Maher says: “…there is a reference to my own memory, but it can be invented memory… Things change as you recall them, they couldn’t be directly related to real time, but they are related to time in your head, which is a huge space – as big as the universe”*.",
-    "dc:source" : "https://imma.ie/collection/ombre-v/",
-    "schema:creditText" : "IMMA Collection: Purchase, 1997",
+    "description" : "‘Ombre V’ is one of a series of drawings that emerged from a residency in IMMA’s Artists’ Residency Programme. Maher’s interest in hair was inspired by legends such as those of Medusa, Berenice, and Rapunzel, taboos about touching hair, its use as a love token and its severance as an act of punishment. Commenting on the element of memory in her art, Maher says: “…there is a reference to my own memory, but it can be invented memory… Things change as you recall them, they couldn’t be directly related to real time, but they are related to time in your head, which is a huge space – as big as the universe”*.",
+    "source" : "https://imma.ie/collection/ombre-v/",
+    "creditText" : "IMMA Collection: Purchase, 1997",
     "image" : "spice:documentation/ombre-v",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Charcoal on paper",
-    "schema:size" : "397 x 152 cm",
-    "arco-cd:hasInventory" : "IMMA.790"
+    "material" : "Charcoal on paper",
+    "size" : "397 x 152 cm",
+    "hasInventory" : "IMMA.790"
   }, {
     "@id" : "spice:documentation/ombre-v",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Alice Maher, Ombre V, 1997, Charcoal on paper, 397 x 152 cm, Collection Irish Museum of Modern Art, Purchase, 1997 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Alice Maher, Ombre V, 1997, Charcoal on paper, 397 x 152 cm, Collection Irish Museum of Modern Art, Purchase, 1997 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/6.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/6.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

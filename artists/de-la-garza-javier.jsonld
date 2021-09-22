@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/de-la-garza-javier",
     "@type" : "foaf:Person",
-    "dc:description" : "Painter Javier de la Garza was born in Tampico, Mexico and currently lives in Morelos, Mexico. His neo-mexicanist works in the 1980s explored cultural stereotypes.",
-    "dc:source" : "https://imma.ie/artists/javier-de-la-garza/",
-    "schema:birthDate" : "b.1954",
-    "schema:url" : "https://imma.ie/artists/javier-de-la-garza/",
-    "rdfs:label" : "Javier de la Garza"
+    "description" : "Painter Javier de la Garza was born in Tampico, Mexico and currently lives in Morelos, Mexico. His neo-mexicanist works in the 1980s explored cultural stereotypes.",
+    "source" : "https://imma.ie/artists/javier-de-la-garza/",
+    "birthDate" : "b.1954",
+    "url" : "https://imma.ie/artists/javier-de-la-garza/",
+    "label" : "Javier de la Garza"
   }, {
     "@id" : "spice:artefact/untitled-38",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/de-la-garza-javier",
     "author" : "spice:agent/de-la-garza-javier",
-    "schema:dateCreated" : "1996",
-    "schema:url" : "https://imma.ie/collection/untitled-38/",
+    "dateCreated" : "1996",
+    "url" : "https://imma.ie/collection/untitled-38/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-38",
-    "arco-cd:hasTitle" : "Untitled"
+    "hasTitle" : "Untitled"
   }, {
     "@id" : "spice:attribution/untitled-38",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,40 +28,33 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

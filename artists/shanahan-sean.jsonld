@@ -2,81 +2,81 @@
   "@graph" : [ {
     "@id" : "spice:agent/shanahan-sean",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish painter Seán Shanahan (born 1960) was educated in London and Madrid. He moved to Northern Italy in the late 1980s. Shanahan’s abstract paintings, on natural woods, fibreboard, and polished and sanded steel, create a formal balance of vertical and horizontal elements. Shanahan has exhibited widely throughout Europe, including solo exhibitions at Dublin City Gallery The Hugh Lane; Fondazione Scarampi, Italy and the Sleer Gallery, Edinburgh. His work is featured in many public and private collections.",
-    "dc:source" : "https://imma.ie/artists/sean-shanahan/",
-    "schema:birthDate" : "b.1960",
-    "schema:url" : "https://imma.ie/artists/sean-shanahan/",
-    "rdfs:label" : "Seán Shanahan"
+    "description" : "Irish painter Seán Shanahan (born 1960) was educated in London and Madrid. He moved to Northern Italy in the late 1980s. Shanahan’s abstract paintings, on natural woods, fibreboard, and polished and sanded steel, create a formal balance of vertical and horizontal elements. Shanahan has exhibited widely throughout Europe, including solo exhibitions at Dublin City Gallery The Hugh Lane; Fondazione Scarampi, Italy and the Sleer Gallery, Edinburgh. His work is featured in many public and private collections.",
+    "source" : "https://imma.ie/artists/sean-shanahan/",
+    "birthDate" : "b.1960",
+    "url" : "https://imma.ie/artists/sean-shanahan/",
+    "label" : "Seán Shanahan"
   }, {
     "@id" : "spice:artefact/jeddah",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/shanahan-sean",
     "author" : "spice:agent/shanahan-sean",
-    "schema:dateCreated" : "2008",
-    "schema:url" : "https://imma.ie/collection/jeddah/",
+    "dateCreated" : "2008",
+    "url" : "https://imma.ie/collection/jeddah/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/jeddah",
-    "arco-cd:hasTitle" : "Jeddah"
+    "hasTitle" : "Jeddah"
   }, {
     "@id" : "spice:artefact/port",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/shanahan-sean",
     "author" : "spice:agent/shanahan-sean",
-    "schema:dateCreated" : "1991",
-    "schema:url" : "https://imma.ie/collection/port/",
+    "dateCreated" : "1991",
+    "url" : "https://imma.ie/collection/port/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/port",
-    "arco-cd:hasTitle" : "Port"
+    "hasTitle" : "Port"
   }, {
     "@id" : "spice:artefact/proto",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/shanahan-sean",
     "author" : "spice:agent/shanahan-sean",
-    "schema:dateCreated" : "2008",
-    "schema:url" : "https://imma.ie/collection/proto/",
+    "dateCreated" : "2008",
+    "url" : "https://imma.ie/collection/proto/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/proto",
-    "arco-cd:hasTitle" : "Proto"
+    "hasTitle" : "Proto"
   }, {
     "@id" : "spice:artefact/untitled-03-91",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/shanahan-sean",
     "author" : "spice:agent/shanahan-sean",
-    "schema:dateCreated" : "1990",
-    "schema:url" : "https://imma.ie/collection/untitled-03-91/",
+    "dateCreated" : "1990",
+    "url" : "https://imma.ie/collection/untitled-03-91/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-03-91",
-    "arco-cd:hasTitle" : "Untitled (03.91)"
+    "hasTitle" : "Untitled (03.91)"
   }, {
     "@id" : "spice:artefact/untitled-black-and-white",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/shanahan-sean",
     "author" : "spice:agent/shanahan-sean",
-    "schema:dateCreated" : "1997",
-    "schema:url" : "https://imma.ie/collection/untitled-black-and-white/",
+    "dateCreated" : "1997",
+    "url" : "https://imma.ie/collection/untitled-black-and-white/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-black-and-white",
-    "arco-cd:hasTitle" : "Untitled (black and white)"
+    "hasTitle" : "Untitled (black and white)"
   }, {
     "@id" : "spice:artefact/untitled-iii-jan-june",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/shanahan-sean",
     "author" : "spice:agent/shanahan-sean",
-    "schema:dateCreated" : "1994",
-    "schema:url" : "https://imma.ie/collection/untitled-iii-jan-june/",
+    "dateCreated" : "1994",
+    "url" : "https://imma.ie/collection/untitled-iii-jan-june/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-iii-jan-june",
-    "arco-cd:hasTitle" : "Untitled III, Jan – June"
+    "hasTitle" : "Untitled III, Jan – June"
   }, {
     "@id" : "spice:artefact/untitled-snail",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/shanahan-sean",
     "author" : "spice:agent/shanahan-sean",
-    "schema:dateCreated" : "1998",
-    "schema:url" : "https://imma.ie/collection/untitled-snail/",
+    "dateCreated" : "1998",
+    "url" : "https://imma.ie/collection/untitled-snail/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-snail",
-    "arco-cd:hasTitle" : "Untitled (Snail)"
+    "hasTitle" : "Untitled (Snail)"
   }, {
     "@id" : "spice:attribution/jeddah",
     "@type" : "arco:AuthorshipAttribution",
@@ -116,48 +116,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

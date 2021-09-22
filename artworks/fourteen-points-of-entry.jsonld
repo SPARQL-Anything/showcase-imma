@@ -2,66 +2,57 @@
   "@graph" : [ {
     "@id" : "spice:artefact/fourteen-points-of-entry",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Samuel Walsh was born of Irish parents in England in 1951. His family returned to Ireland in 1968 and he studied at the Limerick School of Art, Mary Immaculate College of Education, Limerick and the National College of Art &amp; Design, Dublin. Walsh works from his studio in Co. Clare. He has exhibited extensively in Ireland, Europe and the United States",
-    "dc:source" : "https://imma.ie/collection/fourteen-points-of-entry/",
-    "schema:creditText" : "IMMA Collection: Purchase, 1991",
+    "description" : "Samuel Walsh was born of Irish parents in England in 1951. His family returned to Ireland in 1968 and he studied at the Limerick School of Art, Mary Immaculate College of Education, Limerick and the National College of Art &amp; Design, Dublin. Walsh works from his studio in Co. Clare. He has exhibited extensively in Ireland, Europe and the United States",
+    "source" : "https://imma.ie/collection/fourteen-points-of-entry/",
+    "creditText" : "IMMA Collection: Purchase, 1991",
     "image" : "spice:documentation/fourteen-points-of-entry",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Acrylic and oil on paper",
-    "schema:size" : "76 x 56 cm",
-    "arco-cd:hasInventory" : "IMMA.37"
+    "material" : "Acrylic and oil on paper",
+    "size" : "76 x 56 cm",
+    "hasInventory" : "IMMA.37"
   }, {
     "@id" : "spice:documentation/fourteen-points-of-entry",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Samuel Walsh, Fourteen Points of Entry, 1990, Acrylic and oil on paper, 76 x 56 cm, Collection Irish Museum of Modern Art, Purchase, 1991 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Samuel Walsh, Fourteen Points of Entry, 1990, Acrylic and oil on paper, 76 x 56 cm, Collection Irish Museum of Modern Art, Purchase, 1991 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/677.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/677.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

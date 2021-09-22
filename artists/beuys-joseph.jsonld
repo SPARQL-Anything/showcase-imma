@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/beuys-joseph",
     "@type" : "foaf:Person",
-    "dc:description" : "German artist Joseph Beuys attended the Kunstakademie, Düsseldorf and taught there from 1961 to 1972. In his teaching, drawing, sculpture, printmaking and performance, Beuys pursued an expanded concept of art that advocated creativity in everyday life. The first major retrospective exhibition of his work was held at the Solomon R. Guggenheim Museum, New York, in 1979. His work is represented in major public collections worldwide.",
-    "dc:source" : "https://imma.ie/artists/joseph-beuys/",
-    "schema:birthDate" : "1921–1986",
-    "schema:url" : "https://imma.ie/artists/joseph-beuys/",
-    "rdfs:label" : "Joseph Beuys"
+    "description" : "German artist Joseph Beuys attended the Kunstakademie, Düsseldorf and taught there from 1961 to 1972. In his teaching, drawing, sculpture, printmaking and performance, Beuys pursued an expanded concept of art that advocated creativity in everyday life. The first major retrospective exhibition of his work was held at the Solomon R. Guggenheim Museum, New York, in 1979. His work is represented in major public collections worldwide.",
+    "source" : "https://imma.ie/artists/joseph-beuys/",
+    "birthDate" : "1921–1986",
+    "url" : "https://imma.ie/artists/joseph-beuys/",
+    "label" : "Joseph Beuys"
   }, {
     "@id" : "spice:artefact/poster-signed-for-gordon-lambert",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/beuys-joseph",
     "author" : "spice:agent/beuys-joseph",
-    "schema:dateCreated" : "1970",
-    "schema:url" : "https://imma.ie/collection/poster-signed-for-gordon-lambert/",
+    "dateCreated" : "1970",
+    "url" : "https://imma.ie/collection/poster-signed-for-gordon-lambert/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/poster-signed-for-gordon-lambert",
-    "arco-cd:hasTitle" : "Poster signed “for Gordon Lambert”"
+    "hasTitle" : "Poster signed “for Gordon Lambert”"
   }, {
     "@id" : "spice:attribution/poster-signed-for-gordon-lambert",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,40 +24,33 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

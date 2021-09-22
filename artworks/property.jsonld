@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/property",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Hendrikje Kühne and Beat Klein are now regular visitors to Ireland where their work has been shown in a variety of contexts. ‘Property’, their first real collaborative project, was made during a residency at IMMA in 1998. They were surprised at the interest in real estate prices in Ireland (which was going through an extraordinary economic boom at the time), and this, coupled with their commitment to socially engaged and accessible art led them to make a city of houses and properties, using card and newsprint, from the property pages of the Irish Times newspaper during the period of their stay. Letters from the public who visited the studio added an extra dimension. As Klein put it: “It was a unique aspect of where we were visiting and we tried to find a solution to do a work which had a 2-D and a 3-D aspect. In the end we worked with a fourth dimension as the work ‘Property’ became a time based piece*.",
-    "dc:source" : "https://imma.ie/collection/property/",
-    "schema:creditText" : "IMMA Collection: Donated by the artists, 2001",
+    "description" : "Hendrikje Kühne and Beat Klein are now regular visitors to Ireland where their work has been shown in a variety of contexts. ‘Property’, their first real collaborative project, was made during a residency at IMMA in 1998. They were surprised at the interest in real estate prices in Ireland (which was going through an extraordinary economic boom at the time), and this, coupled with their commitment to socially engaged and accessible art led them to make a city of houses and properties, using card and newsprint, from the property pages of the Irish Times newspaper during the period of their stay. Letters from the public who visited the studio added an extra dimension. As Klein put it: “It was a unique aspect of where we were visiting and we tried to find a solution to do a work which had a 2-D and a 3-D aspect. In the end we worked with a fourth dimension as the work ‘Property’ became a time based piece*.",
+    "source" : "https://imma.ie/collection/property/",
+    "creditText" : "IMMA Collection: Donated by the artists, 2001",
     "image" : "spice:documentation/property",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Newsprint on card",
-    "schema:size" : "Dimensions variable",
-    "arco-cd:hasInventory" : "IMMA.1487"
+    "material" : "Newsprint on card",
+    "size" : "Dimensions variable",
+    "hasInventory" : "IMMA.1487"
   }, {
     "@id" : "spice:documentation/property",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Klein &amp; Kühne, Property, 1998, Newsprint on card, Dimensions variable, Collection Irish Museum of Modern Art, Donated by the artists, 2001 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Klein &amp; Kühne, Property, 1998, Newsprint on card, Dimensions variable, Collection Irish Museum of Modern Art, Donated by the artists, 2001 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2020/03/1504.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2021/07/1504.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

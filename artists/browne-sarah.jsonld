@@ -1,0 +1,81 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/browne-sarah",
+    "@type" : "foaf:Person",
+    "description" : [ "Sarah Browne was curator of TULCA Festival of Visual Arts in Galway, 2020. Recent solo exhibitions include Report to an Academy, Marabouparken, Stockholm (2017); Hand to Mouth, CCA Derry~Londonderry &amp; IMA, Brisbane (2014) and The Invisible Limb, basis, Frankfurt (2014). Selected group exhibitions include TOUCH, nGbK, Berlin; Strange Foreign Bodies at the Hunterian Museum, Glasgow (both 2018), and One Foot in the Real World, Irish Museum of Modern Art, Dublin (2013). In 2009, Browne co-represented Ireland at the 53rd Venice Biennale with Gareth Kennedy and Kennedy Browne, their shared collaborative practice.", "Sarah Browne uses social and sculptural processes of engagement to address non-verbal, bodily experiences of knowledge, labour and justice. She works with film, sculpture and performance." ],
+    "source" : "https://imma.ie/artists/sarah-browne/",
+    "birthDate" : "b.1981",
+    "url" : "https://imma.ie/artists/sarah-browne/",
+    "label" : "Sarah Browne"
+  }, {
+    "@id" : "spice:artefact/the-touching-contract",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/browne-sarah",
+    "author" : "spice:agent/browne-sarah",
+    "dateCreated" : "2016",
+    "url" : "https://imma.ie/collection/the-touching-contract/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-touching-contract",
+    "hasTitle" : "The Touching Contract"
+  }, {
+    "@id" : "spice:attribution/the-touching-contract",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/browne-sarah"
+  } ],
+  "@context" : {
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

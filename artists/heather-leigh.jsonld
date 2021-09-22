@@ -1,35 +1,30 @@
 {
   "@id" : "spice:agent/heather-leigh",
   "@type" : "foaf:Person",
-  "dc:description" : [ "The daughter of a coal miner, weaving a trail from West Virginia to Texas to Scotland where she’s lived for over a decade, Heather Leigh furthers the vast unexplored reaches of pedal steel guitar. Her playing is as physical as it is phantom, combining spontaneous compositions with industrially-charged psychedelic rock. With a rare combination of sensitivity and strength, Leigh’s steel mainlines sanctified slide guitar and deforms it using hypnotic tone-implosions, juggling walls of bleeding amp tone with choral vocal constructs and wrenching single note ascensions. 2015’s&nbsp;critically acclaimed ", "The daughter of a coal miner, weaving a trail from West Virginia to Texas to Scotland where she’s lived for over a decade, Heather Leigh furthers the vast unexplored reaches of pedal steel guitar. Her playing is as physical as it is phantom, combining spontaneous compositions with industrially-charged psychedelic rock." ],
-  "dc:source" : "https://imma.ie/artists/heather-leigh/",
-  "schema:birthDate" : "b.1979",
-  "schema:url" : "https://imma.ie/artists/heather-leigh/",
-  "rdfs:label" : "Heather Leigh",
+  "description" : [ "The daughter of a coal miner, weaving a trail from West Virginia to Texas to Scotland where she’s lived for over a decade, Heather Leigh furthers the vast unexplored reaches of pedal steel guitar. Her playing is as physical as it is phantom, combining spontaneous compositions with industrially-charged psychedelic rock. With a rare combination of sensitivity and strength, Leigh’s steel mainlines sanctified slide guitar and deforms it using hypnotic tone-implosions, juggling walls of bleeding amp tone with choral vocal constructs and wrenching single note ascensions. 2015’s&nbsp;critically acclaimed ", "The daughter of a coal miner, weaving a trail from West Virginia to Texas to Scotland where she’s lived for over a decade, Heather Leigh furthers the vast unexplored reaches of pedal steel guitar. Her playing is as physical as it is phantom, combining spontaneous compositions with industrially-charged psychedelic rock." ],
+  "source" : "https://imma.ie/artists/heather-leigh/",
+  "birthDate" : "b.1979",
+  "url" : "https://imma.ie/artists/heather-leigh/",
+  "label" : "Heather Leigh",
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

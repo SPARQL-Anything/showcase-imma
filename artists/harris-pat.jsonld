@@ -2,41 +2,41 @@
   "@graph" : [ {
     "@id" : "spice:agent/harris-pat",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish painter Pat Harris was born in Dublin and studied at the National College of Art and Design. He went on to attend the Higher Institute of Fine Art in Antwerp and in 2008 was awarded a PhD in Fine Art by the University of Antwerp. Harris teaches painting at the Royal Academy of Fine Arts Antwerp. He is a member of Aosdána and his work is represented in numerous private and public collections including The Arts Council of Ireland; Dublin City Gallery, The Hugh Lane; UCD; AIB and The University of Antwerp.",
-    "dc:source" : "https://imma.ie/artists/pat-harris/",
-    "schema:birthDate" : "b.1953",
-    "schema:url" : "https://imma.ie/artists/pat-harris/",
-    "rdfs:label" : "Pat Harris"
+    "description" : "Irish painter Pat Harris was born in Dublin and studied at the National College of Art and Design. He went on to attend the Higher Institute of Fine Art in Antwerp and in 2008 was awarded a PhD in Fine Art by the University of Antwerp. Harris teaches painting at the Royal Academy of Fine Arts Antwerp. He is a member of Aosdána and his work is represented in numerous private and public collections including The Arts Council of Ireland; Dublin City Gallery, The Hugh Lane; UCD; AIB and The University of Antwerp.",
+    "source" : "https://imma.ie/artists/pat-harris/",
+    "birthDate" : "b.1953",
+    "url" : "https://imma.ie/artists/pat-harris/",
+    "label" : "Pat Harris"
   }, {
     "@id" : "spice:artefact/crown-iii",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/harris-pat",
     "author" : "spice:agent/harris-pat",
-    "schema:dateCreated" : "2004",
-    "schema:url" : "https://imma.ie/collection/crown-iii/",
+    "dateCreated" : "2004",
+    "url" : "https://imma.ie/collection/crown-iii/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/crown-iii",
-    "arco-cd:hasTitle" : "Crown III"
+    "hasTitle" : "Crown III"
   }, {
     "@id" : "spice:artefact/jodenstraat-series-3",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/harris-pat",
     "author" : "spice:agent/harris-pat",
-    "schema:dateCreated" : "1982",
-    "schema:url" : "https://imma.ie/collection/jodenstraat-series-3/",
+    "dateCreated" : "1982",
+    "url" : "https://imma.ie/collection/jodenstraat-series-3/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/jodenstraat-series-3",
-    "arco-cd:hasTitle" : "Jodenstraat Series 3"
+    "hasTitle" : "Jodenstraat Series 3"
   }, {
     "@id" : "spice:artefact/senator-gordon-lambert",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/harris-pat",
     "author" : "spice:agent/harris-pat",
-    "schema:dateCreated" : "1980",
-    "schema:url" : "https://imma.ie/collection/senator-gordon-lambert/",
+    "dateCreated" : "1980",
+    "url" : "https://imma.ie/collection/senator-gordon-lambert/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/senator-gordon-lambert",
-    "arco-cd:hasTitle" : "Senator Gordon Lambert"
+    "hasTitle" : "Senator Gordon Lambert"
   }, {
     "@id" : "spice:attribution/crown-iii",
     "@type" : "arco:AuthorshipAttribution",
@@ -56,44 +56,37 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -101,7 +94,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

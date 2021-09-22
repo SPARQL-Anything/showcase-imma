@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/brisley-stuart",
     "@type" : "foaf:Person",
-    "dc:description" : "British artist Stuart Brisley studied at Guildford School of Art, the Royal College of Art, the Akademie der Bildende Künste, Munich, and Florida State University. During the 1960s and 1970s, he gained recognition for his performance work; he also works in paint, sculpture, installation and film to examine social issues and critique the art establishment. Brisley’s work is represented in major public collections including Tate, London; the Musee D’Art Moderne de la Ville de Paris and Kiasma Museum of Contemporary Art, Helsinki.",
-    "dc:source" : "https://imma.ie/artists/stuart-brisley/",
-    "schema:birthDate" : "b.1933",
-    "schema:url" : "https://imma.ie/artists/stuart-brisley/",
-    "rdfs:label" : "Stuart Brisley"
+    "description" : "British artist Stuart Brisley studied at Guildford School of Art, the Royal College of Art, the Akademie der Bildende Künste, Munich, and Florida State University. During the 1960s and 1970s, he gained recognition for his performance work; he also works in paint, sculpture, installation and film to examine social issues and critique the art establishment. Brisley’s work is represented in major public collections including Tate, London; the Musee D’Art Moderne de la Ville de Paris and Kiasma Museum of Contemporary Art, Helsinki.",
+    "source" : "https://imma.ie/artists/stuart-brisley/",
+    "birthDate" : "b.1933",
+    "url" : "https://imma.ie/artists/stuart-brisley/",
+    "label" : "Stuart Brisley"
   }, {
     "@id" : "spice:artefact/untitled-53",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/brisley-stuart",
     "author" : "spice:agent/brisley-stuart",
-    "schema:dateCreated" : "1994",
-    "schema:url" : "https://imma.ie/collection/untitled-53/",
+    "dateCreated" : "1994",
+    "url" : "https://imma.ie/collection/untitled-53/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-53",
-    "arco-cd:hasTitle" : "Untitled"
+    "hasTitle" : "Untitled"
   }, {
     "@id" : "spice:attribution/untitled-53",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,40 +24,33 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

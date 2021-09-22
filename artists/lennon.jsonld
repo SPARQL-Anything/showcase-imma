@@ -2,191 +2,191 @@
   "@graph" : [ {
     "@id" : "spice:agent/lennon",
     "@type" : "foaf:Person",
-    "dc:description" : [ "Lennon studied at the National College of Art &amp; Design (NCAD) from 1963 to 1967. He has been awarded the Pollock Krasner Foundation Award twice in 1991 and in 1997. In 1993 he became an elected member of Aosdána and in 1996 he was chosen to represent Ireland at the São Paulo Biennial in Brazil.", "Lennon studied at the National College of Art &amp; Design from 1963 to 1967. He has been awarded the Pollock Krasner Foundation Award twice in 1991 and in 1997. In 1993 he became an elected member of Aosdána and in 1996 he was chosen to represent Ireland at the São Paulo Biennial in Brazil. He lives and works in Dublin." ],
-    "dc:source" : "https://imma.ie/artists/lennon/",
-    "schema:birthDate" : "b.1947",
-    "schema:url" : "https://imma.ie/artists/lennon/",
-    "rdfs:label" : "Lennon"
+    "description" : [ "Lennon studied at the National College of Art &amp; Design (NCAD) from 1963 to 1967. He has been awarded the Pollock Krasner Foundation Award twice in 1991 and in 1997. In 1993 he became an elected member of Aosdána and in 1996 he was chosen to represent Ireland at the São Paulo Biennial in Brazil.", "Lennon studied at the National College of Art &amp; Design from 1963 to 1967. He has been awarded the Pollock Krasner Foundation Award twice in 1991 and in 1997. In 1993 he became an elected member of Aosdána and in 1996 he was chosen to represent Ireland at the São Paulo Biennial in Brazil. He lives and works in Dublin." ],
+    "source" : "https://imma.ie/artists/lennon/",
+    "birthDate" : "b.1947",
+    "url" : "https://imma.ie/artists/lennon/",
+    "label" : "Lennon"
   }, {
     "@id" : "spice:artefact/1-3-92b",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lennon",
     "author" : "spice:agent/lennon",
-    "schema:dateCreated" : "1992",
-    "schema:url" : "https://imma.ie/collection/1-3-92b/",
+    "dateCreated" : "1992",
+    "url" : "https://imma.ie/collection/1-3-92b/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/1-3-92b",
-    "arco-cd:hasTitle" : "1/3/92B"
+    "hasTitle" : "1/3/92B"
   }, {
     "@id" : "spice:artefact/3-2-78-silver-and-blue",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lennon",
     "author" : "spice:agent/lennon",
-    "schema:dateCreated" : "1978",
-    "schema:url" : "https://imma.ie/collection/3-2-78-silver-and-blue/",
+    "dateCreated" : "1978",
+    "url" : "https://imma.ie/collection/3-2-78-silver-and-blue/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/3-2-78-silver-and-blue",
-    "arco-cd:hasTitle" : "3 &amp; 2 ’78 Silver and Blue"
+    "hasTitle" : "3 &amp; 2 ’78 Silver and Blue"
   }, {
     "@id" : "spice:artefact/al13-eoin-i",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lennon",
     "author" : "spice:agent/lennon",
-    "schema:dateCreated" : "2015",
-    "schema:url" : "https://imma.ie/collection/al13-eoin-i/",
+    "dateCreated" : "2015",
+    "url" : "https://imma.ie/collection/al13-eoin-i/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/al13-eoin-i",
-    "arco-cd:hasTitle" : "AL13 Eoin I"
+    "hasTitle" : "AL13 Eoin I"
   }, {
     "@id" : "spice:artefact/authochthone",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lennon",
     "author" : "spice:agent/lennon",
-    "schema:dateCreated" : "2011",
-    "schema:url" : "https://imma.ie/collection/authochthone/",
+    "dateCreated" : "2011",
+    "url" : "https://imma.ie/collection/authochthone/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/authochthone",
-    "arco-cd:hasTitle" : "Authochthone"
+    "hasTitle" : "Authochthone"
   }, {
     "@id" : "spice:artefact/breathe",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lennon",
     "author" : "spice:agent/lennon",
-    "schema:dateCreated" : "1990",
-    "schema:url" : "https://imma.ie/collection/breathe/",
+    "dateCreated" : "1990",
+    "url" : "https://imma.ie/collection/breathe/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/breathe",
-    "arco-cd:hasTitle" : "Breathe"
+    "hasTitle" : "Breathe"
   }, {
     "@id" : "spice:artefact/camac",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lennon",
     "author" : "spice:agent/lennon",
-    "schema:dateCreated" : "2001",
-    "schema:url" : "https://imma.ie/collection/camac/",
+    "dateCreated" : "2001",
+    "url" : "https://imma.ie/collection/camac/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/camac",
-    "arco-cd:hasTitle" : "Camac"
+    "hasTitle" : "Camac"
   }, {
     "@id" : "spice:artefact/camac-i",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lennon",
     "author" : "spice:agent/lennon",
-    "schema:dateCreated" : "2002",
-    "schema:url" : "https://imma.ie/collection/camac-i/",
+    "dateCreated" : "2002",
+    "url" : "https://imma.ie/collection/camac-i/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/camac-i",
-    "arco-cd:hasTitle" : "Camac I"
+    "hasTitle" : "Camac I"
   }, {
     "@id" : "spice:artefact/denier-7-for-mm",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lennon",
     "author" : "spice:agent/lennon",
-    "schema:dateCreated" : "2014",
-    "schema:url" : "https://imma.ie/collection/denier-7-for-mm/",
+    "dateCreated" : "2014",
+    "url" : "https://imma.ie/collection/denier-7-for-mm/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/denier-7-for-mm",
-    "arco-cd:hasTitle" : "Denier 7, for MM"
+    "hasTitle" : "Denier 7, for MM"
   }, {
     "@id" : "spice:artefact/folded-linen-and-bronze-cast",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lennon",
     "author" : "spice:agent/lennon",
-    "schema:dateCreated" : "1970",
-    "schema:url" : "https://imma.ie/collection/folded-linen-and-bronze-cast/",
+    "dateCreated" : "1970",
+    "url" : "https://imma.ie/collection/folded-linen-and-bronze-cast/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/folded-linen-and-bronze-cast",
-    "arco-cd:hasTitle" : "Folded Linen and Bronze Cast"
+    "hasTitle" : "Folded Linen and Bronze Cast"
   }, {
     "@id" : "spice:artefact/folded-unfolded",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lennon",
     "author" : "spice:agent/lennon",
-    "schema:dateCreated" : "1972",
-    "schema:url" : "https://imma.ie/collection/folded-unfolded/",
+    "dateCreated" : "1972",
+    "url" : "https://imma.ie/collection/folded-unfolded/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/folded-unfolded",
-    "arco-cd:hasTitle" : "Folded Unfolded"
+    "hasTitle" : "Folded Unfolded"
   }, {
     "@id" : "spice:artefact/folded-unfolded-2",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lennon",
     "author" : "spice:agent/lennon",
-    "schema:dateCreated" : "1970",
-    "schema:url" : "https://imma.ie/collection/folded-unfolded-2/",
+    "dateCreated" : "1970",
+    "url" : "https://imma.ie/collection/folded-unfolded-2/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/folded-unfolded-2",
-    "arco-cd:hasTitle" : "Folded/Unfolded"
+    "hasTitle" : "Folded/Unfolded"
   }, {
     "@id" : "spice:artefact/folded-unfolded-3",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lennon",
     "author" : "spice:agent/lennon",
-    "schema:dateCreated" : "1969",
-    "schema:url" : "https://imma.ie/collection/folded-unfolded-3/",
+    "dateCreated" : "1969",
+    "url" : "https://imma.ie/collection/folded-unfolded-3/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/folded-unfolded-3",
-    "arco-cd:hasTitle" : "Folded/Unfolded"
+    "hasTitle" : "Folded/Unfolded"
   }, {
     "@id" : "spice:artefact/folded-unfolded-4",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lennon",
     "author" : "spice:agent/lennon",
-    "schema:dateCreated" : "1969",
-    "schema:url" : "https://imma.ie/collection/folded-unfolded-4/",
+    "dateCreated" : "1969",
+    "url" : "https://imma.ie/collection/folded-unfolded-4/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/folded-unfolded-4",
-    "arco-cd:hasTitle" : "Folded/Unfolded"
+    "hasTitle" : "Folded/Unfolded"
   }, {
     "@id" : "spice:artefact/folded-unfolded-5",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lennon",
     "author" : "spice:agent/lennon",
-    "schema:dateCreated" : "1969",
-    "schema:url" : "https://imma.ie/collection/folded-unfolded-5/",
+    "dateCreated" : "1969",
+    "url" : "https://imma.ie/collection/folded-unfolded-5/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/folded-unfolded-5",
-    "arco-cd:hasTitle" : "Folded/Unfolded"
+    "hasTitle" : "Folded/Unfolded"
   }, {
     "@id" : "spice:artefact/hearth",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lennon",
     "author" : "spice:agent/lennon",
-    "schema:dateCreated" : "1990",
-    "schema:url" : "https://imma.ie/collection/hearth/",
+    "dateCreated" : "1990",
+    "url" : "https://imma.ie/collection/hearth/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/hearth",
-    "arco-cd:hasTitle" : "Hearth"
+    "hasTitle" : "Hearth"
   }, {
     "@id" : "spice:artefact/red-folded-soaked-linen",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lennon",
     "author" : "spice:agent/lennon",
-    "schema:dateCreated" : "1970",
-    "schema:url" : "https://imma.ie/collection/red-folded-soaked-linen/",
+    "dateCreated" : "1970",
+    "url" : "https://imma.ie/collection/red-folded-soaked-linen/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/red-folded-soaked-linen",
-    "arco-cd:hasTitle" : "Red Folded/Soaked Linen"
+    "hasTitle" : "Red Folded/Soaked Linen"
   }, {
     "@id" : "spice:artefact/red-one",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lennon",
     "author" : "spice:agent/lennon",
-    "schema:dateCreated" : "1988",
-    "schema:url" : "https://imma.ie/collection/red-one/",
+    "dateCreated" : "1988",
+    "url" : "https://imma.ie/collection/red-one/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/red-one",
-    "arco-cd:hasTitle" : "Red One"
+    "hasTitle" : "Red One"
   }, {
     "@id" : "spice:artefact/working-drawing-for-veil",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/lennon",
     "author" : "spice:agent/lennon",
-    "schema:dateCreated" : "1979",
-    "schema:url" : "https://imma.ie/collection/working-drawing-for-veil/",
+    "dateCreated" : "1979",
+    "url" : "https://imma.ie/collection/working-drawing-for-veil/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/working-drawing-for-veil",
-    "arco-cd:hasTitle" : "Working Drawing for VEIL"
+    "hasTitle" : "Working Drawing for VEIL"
   }, {
     "@id" : "spice:attribution/1-3-92b",
     "@type" : "arco:AuthorshipAttribution",
@@ -266,24 +266,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -294,24 +291,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

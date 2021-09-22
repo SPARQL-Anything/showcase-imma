@@ -2,34 +2,31 @@
   "@graph" : [ {
     "@id" : "spice:artefact/everybody-should-get-stones",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "As Conceptual Art emerged through the late 1960s, its credo that ‘art is ideas’ challenged notions about art, society, politics and the media. Conceived in Wicklow in 1971 and installed for the first time at the Art Gallery of South Australia, Adelaide, in 1975, Everybody Should Get Stones is indebted to the avant-garde Irish literary tradition of Samuel Beckett, James Joyce and Flann O’Brien. Using stones as a simile, Sheridan encourages the viewer/participant to question how our perceptions of reality and knowledge of art are acquired.",
-    "dc:source" : "https://imma.ie/collection/everybody-should-get-stones/",
-    "schema:creditText" : "IMMA Collection: Purchase, 2006",
+    "description" : "As Conceptual Art emerged through the late 1960s, its credo that ‘art is ideas’ challenged notions about art, society, politics and the media. Conceived in Wicklow in 1971 and installed for the first time at the Art Gallery of South Australia, Adelaide, in 1975, Everybody Should Get Stones is indebted to the avant-garde Irish literary tradition of Samuel Beckett, James Joyce and Flann O’Brien. Using stones as a simile, Sheridan encourages the viewer/participant to question how our perceptions of reality and knowledge of art are acquired.",
+    "source" : "https://imma.ie/collection/everybody-should-get-stones/",
+    "creditText" : "IMMA Collection: Purchase, 2006",
     "image" : "spice:documentation/everybody-should-get-stones",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Mixed Media",
-    "schema:size" : "12 x 40.5 x 28.5 cm Box",
-    "schema:version" : "Edition of 3",
-    "arco-cd:hasInventory" : "IMMA.1975"
+    "material" : "Mixed Media",
+    "size" : "12 x 40.5 x 28.5 cm Box",
+    "version" : "Edition of 3",
+    "hasInventory" : "IMMA.1975"
   }, {
     "@id" : "spice:documentation/everybody-should-get-stones",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Noel Sheridan, Everybody Should Get Stones, 2005, Mixed Media, 12 x 40.5 x 28.5 cm Box, Collection Irish Museum of Modern Art, Purchase, 2006 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Noel Sheridan, Everybody Should Get Stones, 2005, Mixed Media, 12 x 40.5 x 28.5 cm Box, Collection Irish Museum of Modern Art, Purchase, 2006 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -40,28 +37,22 @@
       "@type" : "@id"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

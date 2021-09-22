@@ -2,31 +2,31 @@
   "@graph" : [ {
     "@id" : "spice:agent/loughman-stephen",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish artist Stephen Loughman graduated from the National College of Art and Design, Dublin, in 1987. He was the recipient of an Arts Council Travel Award in 2000, and Arts Council Bursaries in 2003 and 2006.",
-    "dc:source" : "https://imma.ie/artists/stephen-loughman/",
-    "schema:birthDate" : "b.1964",
-    "schema:url" : "https://imma.ie/artists/stephen-loughman/",
-    "rdfs:label" : "Stephen Loughman"
+    "description" : "Irish artist Stephen Loughman graduated from the National College of Art and Design, Dublin, in 1987. He was the recipient of an Arts Council Travel Award in 2000, and Arts Council Bursaries in 2003 and 2006.",
+    "source" : "https://imma.ie/artists/stephen-loughman/",
+    "birthDate" : "b.1964",
+    "url" : "https://imma.ie/artists/stephen-loughman/",
+    "label" : "Stephen Loughman"
   }, {
     "@id" : "spice:artefact/irrevocable",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/loughman-stephen",
     "author" : "spice:agent/loughman-stephen",
-    "schema:dateCreated" : "2003",
-    "schema:url" : "https://imma.ie/collection/irrevocable/",
+    "dateCreated" : "2003",
+    "url" : "https://imma.ie/collection/irrevocable/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/irrevocable",
-    "arco-cd:hasTitle" : "Irrevocable"
+    "hasTitle" : "Irrevocable"
   }, {
     "@id" : "spice:artefact/witness",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/loughman-stephen",
     "author" : "spice:agent/loughman-stephen",
-    "schema:dateCreated" : "2004",
-    "schema:url" : "https://imma.ie/collection/witness/",
+    "dateCreated" : "2004",
+    "url" : "https://imma.ie/collection/witness/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/witness",
-    "arco-cd:hasTitle" : "Witness"
+    "hasTitle" : "Witness"
   }, {
     "@id" : "spice:attribution/irrevocable",
     "@type" : "arco:AuthorshipAttribution",
@@ -42,40 +42,33 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -87,7 +80,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

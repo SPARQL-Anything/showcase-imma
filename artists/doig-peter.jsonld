@@ -2,20 +2,20 @@
   "@graph" : [ {
     "@id" : "spice:agent/doig-peter",
     "@type" : "foaf:Person",
-    "dc:source" : "https://imma.ie/artists/peter-doig/",
-    "schema:birthDate" : "b.1959",
-    "schema:url" : "https://imma.ie/artists/peter-doig/",
-    "rdfs:label" : "Peter Doig"
+    "source" : "https://imma.ie/artists/peter-doig/",
+    "birthDate" : "b.1959",
+    "url" : "https://imma.ie/artists/peter-doig/",
+    "label" : "Peter Doig"
   }, {
     "@id" : "spice:artefact/cloud-illusions-i-recall",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/doig-peter",
     "author" : "spice:agent/doig-peter",
-    "schema:dateCreated" : "2013",
-    "schema:url" : "https://imma.ie/collection/cloud-illusions-i-recall/",
+    "dateCreated" : "2013",
+    "url" : "https://imma.ie/collection/cloud-illusions-i-recall/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/cloud-illusions-i-recall",
-    "arco-cd:hasTitle" : "Cloud Illusions I Recall"
+    "hasTitle" : "Cloud Illusions I Recall"
   }, {
     "@id" : "spice:attribution/cloud-illusions-i-recall",
     "@type" : "arco:AuthorshipAttribution",
@@ -27,24 +27,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -55,20 +52,17 @@
       "@type" : "@id"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

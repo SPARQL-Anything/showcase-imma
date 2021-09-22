@@ -2,71 +2,61 @@
   "@graph" : [ {
     "@id" : "spice:artefact/spring-cutting",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Spring Cutting is a 2009 work by William Crozier. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/spring-cutting/",
-    "schema:creditText" : "IMMA Collection: Donation, Graphic Studio Dublin, 2011",
+    "description" : "Spring Cutting is a 2009 work by William Crozier. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/spring-cutting/",
+    "creditText" : "IMMA Collection: Donation, Graphic Studio Dublin, 2011",
     "image" : "spice:documentation/spring-cutting",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Print",
-    "schema:size" : "Sheet: 60.5 x 63 cm Plate: 37.5 x 43 cm",
-    "schema:version" : "Edition 6/30",
-    "arco-cd:hasInventory" : "IMMA.3416"
+    "material" : "Print",
+    "size" : "Sheet: 60.5 x 63 cm Plate: 37.5 x 43 cm",
+    "version" : "Edition 6/30",
+    "hasInventory" : "IMMA.3416"
   }, {
     "@id" : "spice:documentation/spring-cutting",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "William Crozier, Spring Cutting, 2009, Print, Sheet: 60.5 x 63 cm Plate: 37.5 x 43 cm, Collection Irish Museum of Modern Art, Donation, Graphic Studio Dublin, 2011 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "William Crozier, Spring Cutting, 2009, Print, Sheet: 60.5 x 63 cm Plate: 37.5 x 43 cm, Collection Irish Museum of Modern Art, Donation, Graphic Studio Dublin, 2011 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2019/10/6107.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2019/10/6107.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

@@ -2,31 +2,31 @@
   "@graph" : [ {
     "@id" : "spice:agent/craig-henry-robertson",
     "@type" : "foaf:Person",
-    "dc:description" : "Scottish-Irish painter Henry Robertson Craig studied at Dundee College of Art before moving to Ireland in 1947. Working primarily in landscape and portraiture, Robertson Craig exhibited in Dublin from the 1950s. He showed frequently with the Richie Hendriks Gallery, and then with the David Hendriks Gallery from 1970. He was elected as a member of the Royal Hibernian Academy in 1955. Robertson Craig’s work is represented in major public collections including that of IMMA, Dublin City Gallery, The Hugh Lane and the National Self Portrait Collection, University of Limerick.",
-    "dc:source" : "https://imma.ie/artists/henry-robertson-craig/",
-    "schema:birthDate" : "1916–1984",
-    "schema:url" : "https://imma.ie/artists/henry-robertson-craig/",
-    "rdfs:label" : "Henry Robertson Craig"
+    "description" : "Scottish-Irish painter Henry Robertson Craig studied at Dundee College of Art before moving to Ireland in 1947. Working primarily in landscape and portraiture, Robertson Craig exhibited in Dublin from the 1950s. He showed frequently with the Richie Hendriks Gallery, and then with the David Hendriks Gallery from 1970. He was elected as a member of the Royal Hibernian Academy in 1955. Robertson Craig’s work is represented in major public collections including that of IMMA, Dublin City Gallery, The Hugh Lane and the National Self Portrait Collection, University of Limerick.",
+    "source" : "https://imma.ie/artists/henry-robertson-craig/",
+    "birthDate" : "1916–1984",
+    "url" : "https://imma.ie/artists/henry-robertson-craig/",
+    "label" : "Henry Robertson Craig"
   }, {
     "@id" : "spice:artefact/aperitif",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/craig-henry-robertson",
     "author" : "spice:agent/craig-henry-robertson",
-    "schema:dateCreated" : "1950",
-    "schema:url" : "https://imma.ie/collection/aperitif/",
+    "dateCreated" : "1950",
+    "url" : "https://imma.ie/collection/aperitif/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/aperitif",
-    "arco-cd:hasTitle" : "Aperitif"
+    "hasTitle" : "Aperitif"
   }, {
     "@id" : "spice:artefact/mother-with-monty-and-duke",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/craig-henry-robertson",
     "author" : "spice:agent/craig-henry-robertson",
-    "schema:dateCreated" : "1958",
-    "schema:url" : "https://imma.ie/collection/mother-with-monty-and-duke/",
+    "dateCreated" : "1958",
+    "url" : "https://imma.ie/collection/mother-with-monty-and-duke/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/mother-with-monty-and-duke",
-    "arco-cd:hasTitle" : "Mother with Monty and Duke"
+    "hasTitle" : "Mother with Monty and Duke"
   }, {
     "@id" : "spice:attribution/aperitif",
     "@type" : "arco:AuthorshipAttribution",
@@ -42,44 +42,37 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -87,7 +80,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

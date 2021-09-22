@@ -2,61 +2,53 @@
   "@graph" : [ {
     "@id" : "spice:artefact/expand-expand-through-bush-land",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "The work of Nina Canell attempts to activate an intersection between",
-    "dc:source" : "https://imma.ie/collection/expand-expand-through-bush-land/",
-    "schema:creditText" : "IMMA Collection: Purchase, 2010",
+    "description" : "The work of Nina Canell attempts to activate an intersection between",
+    "source" : "https://imma.ie/collection/expand-expand-through-bush-land/",
+    "creditText" : "IMMA Collection: Purchase, 2010",
     "image" : "spice:documentation/expand-expand-through-bush-land",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Bucket, foam, imploded thermos, insulation, light, maracas, neon, plastic, Polyfilla, rubber, socks, steel, string, synthetic fur, TV monitor, water and wood",
-    "arco-cd:hasInventory" : "IMMA.3311"
+    "material" : "Bucket, foam, imploded thermos, insulation, light, maracas, neon, plastic, Polyfilla, rubber, socks, steel, string, synthetic fur, TV monitor, water and wood",
+    "hasInventory" : "IMMA.3311"
   }, {
     "@id" : "spice:documentation/expand-expand-through-bush-land",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Nina Canell, Expand, Expand Through Bush &amp; Land, 2007, Bucket, foam, imploded thermos, insulation, light, maracas, neon, plastic, Polyfilla, rubber, socks, steel, string, synthetic fur, TV monitor, water and wood, Collection Irish Museum of Modern Art, Purchase, 2010 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Nina Canell, Expand, Expand Through Bush &amp; Land, 2007, Bucket, foam, imploded thermos, insulation, light, maracas, neon, plastic, Polyfilla, rubber, socks, steel, string, synthetic fur, TV monitor, water and wood, Collection Irish Museum of Modern Art, Purchase, 2010 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2021/03/5562.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2021/03/5562.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

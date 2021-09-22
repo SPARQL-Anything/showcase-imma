@@ -2,71 +2,61 @@
   "@graph" : [ {
     "@id" : "spice:artefact/menu-for-cavendish-hotel-london",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Patrick Caufield entered the Royal College of Art in 1960, joining a body of students which included David Hockney, Allen Jones and R.B. Kitaj, and yet of this extraordinary group, it is still Caufield’s work which exerts the strongest influence of new generations of artists.",
-    "dc:source" : "https://imma.ie/collection/menu-for-cavendish-hotel-london/",
-    "schema:creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
+    "description" : "Patrick Caufield entered the Royal College of Art in 1960, joining a body of students which included David Hockney, Allen Jones and R.B. Kitaj, and yet of this extraordinary group, it is still Caufield’s work which exerts the strongest influence of new generations of artists.",
+    "source" : "https://imma.ie/collection/menu-for-cavendish-hotel-london/",
+    "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/menu-for-cavendish-hotel-london",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Screenprint",
-    "schema:size" : "29.7 x 35.8 cm",
-    "schema:version" : "Edition 9/56",
-    "arco-cd:hasInventory" : "IMMA.151 GL"
+    "material" : "Screenprint",
+    "size" : "29.7 x 35.8 cm",
+    "version" : "Edition 9/56",
+    "hasInventory" : "IMMA.151 GL"
   }, {
     "@id" : "spice:documentation/menu-for-cavendish-hotel-london",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Patrick Caulfield, Menu for Cavendish Hotel, London, 1976, Screenprint, 29.7 x 35.8 cm, Collection Irish Museum of Modern Art, Gordon Lambert Trust, 1992 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Patrick Caulfield, Menu for Cavendish Hotel, London, 1976, Screenprint, 29.7 x 35.8 cm, Collection Irish Museum of Modern Art, Gordon Lambert Trust, 1992 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2019/10/1893.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2019/10/1893.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

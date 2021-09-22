@@ -2,66 +2,57 @@
   "@graph" : [ {
     "@id" : "spice:artefact/split-face-i",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Eithne Jordan has worked in several different modes of painting. Her early canvasses, during the late 1970s and early 1980s in Dublin and London, explored almost abstract relations of colour and form. In Berlin, from 1984 to 1989, she painted primitive human figures, faces, divided heads, recognisable icons of melancholy, emptied of love or drained by it. ‘Split Face 1’ is one of a series of powerful paintings of single or grouped faces, executed on a large scale and united by their shared misery. Dark pigments are applied fluidly to form untidy faces that engulf the tiny bodies that support them.",
-    "dc:source" : "https://imma.ie/collection/split-face-i/",
-    "schema:creditText" : "IMMA Collection: Donation, Maire and Maurice Foley, 2000",
+    "description" : "Eithne Jordan has worked in several different modes of painting. Her early canvasses, during the late 1970s and early 1980s in Dublin and London, explored almost abstract relations of colour and form. In Berlin, from 1984 to 1989, she painted primitive human figures, faces, divided heads, recognisable icons of melancholy, emptied of love or drained by it. ‘Split Face 1’ is one of a series of powerful paintings of single or grouped faces, executed on a large scale and united by their shared misery. Dark pigments are applied fluidly to form untidy faces that engulf the tiny bodies that support them.",
+    "source" : "https://imma.ie/collection/split-face-i/",
+    "creditText" : "IMMA Collection: Donation, Maire and Maurice Foley, 2000",
     "image" : "spice:documentation/split-face-i",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Oil on canvas",
-    "schema:size" : "150 x 150 cm",
-    "arco-cd:hasInventory" : "IMMA.1450 FD"
+    "material" : "Oil on canvas",
+    "size" : "150 x 150 cm",
+    "hasInventory" : "IMMA.1450 FD"
   }, {
     "@id" : "spice:documentation/split-face-i",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Eithne Jordan, Split Face I, 1998, Oil on canvas, 150 x 150 cm, Collection Irish Museum of Modern Art, Donation, Maire and Maurice Foley, 2000 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Eithne Jordan, Split Face I, 1988, Oil on canvas, 150 x 150 cm, Collection Irish Museum of Modern Art, Donation, Maire and Maurice Foley, 2000 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/1500.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2021/08/1500.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

@@ -2,19 +2,19 @@
   "@graph" : [ {
     "@id" : "spice:agent/climent-enrique",
     "@type" : "foaf:Person",
-    "dc:source" : "https://imma.ie/artists/enrique-climent/",
-    "schema:url" : "https://imma.ie/artists/enrique-climent/",
-    "rdfs:label" : "Enrique Climent"
+    "source" : "https://imma.ie/artists/enrique-climent/",
+    "url" : "https://imma.ie/artists/enrique-climent/",
+    "label" : "Enrique Climent"
   }, {
     "@id" : "spice:artefact/bodegon",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/climent-enrique",
     "author" : "spice:agent/climent-enrique",
-    "schema:dateCreated" : "1978",
-    "schema:url" : "https://imma.ie/collection/bodegon/",
+    "dateCreated" : "1978",
+    "url" : "https://imma.ie/collection/bodegon/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/bodegon",
-    "arco-cd:hasTitle" : "Bodegón"
+    "hasTitle" : "Bodegón"
   }, {
     "@id" : "spice:attribution/bodegon",
     "@type" : "arco:AuthorshipAttribution",
@@ -22,16 +22,13 @@
   } ],
   "@context" : {
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -42,16 +39,14 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -63,7 +58,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -2,71 +2,61 @@
   "@graph" : [ {
     "@id" : "spice:artefact/help-women-of-belfast-series",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "‘HELP’ – Women of Belfast Series is a 1975 work by F.E. McWilliam. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/help-women-of-belfast-series/",
-    "schema:creditText" : "IMMA Collection: Donation 2010, Bank of Ireland Art Collection, 2010",
+    "description" : "‘HELP’ – Women of Belfast Series is a 1975 work by F.E. McWilliam. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/help-women-of-belfast-series/",
+    "creditText" : "IMMA Collection: Donation 2010, Bank of Ireland Art Collection, 2010",
     "image" : "spice:documentation/help-women-of-belfast-series",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Bronze",
-    "schema:size" : "41.5 x 44 x 22 cm",
-    "schema:version" : "Edition 2/5",
-    "arco-cd:hasInventory" : "IMMA.3283"
+    "material" : "Bronze",
+    "size" : "41.5 x 44 x 22 cm",
+    "version" : "Edition 2/5",
+    "hasInventory" : "IMMA.3283"
   }, {
     "@id" : "spice:documentation/help-women-of-belfast-series",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "F.E. McWilliam, ‘HELP’ – Women of Belfast Series, 1975, Bronze, 41.5 x 44 x 22 cm, Collection Irish Museum of Modern Art, Donation 2010, Bank of Ireland Art Collection, 2010 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "F.E. McWilliam, ‘HELP’ – Women of Belfast Series, 1975, Bronze, 41.5 x 44 x 22 cm, Collection Irish Museum of Modern Art, Donation 2010, Bank of Ireland Art Collection, 2010 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/5582.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/5582.jpg"
   } ],
   "@context" : {
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

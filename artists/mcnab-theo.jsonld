@@ -2,60 +2,60 @@
   "@graph" : [ {
     "@id" : "spice:agent/mcnab-theo",
     "@type" : "foaf:Person",
-    "dc:source" : "https://imma.ie/artists/theo-mcnab/",
-    "schema:birthDate" : "b.1940",
-    "schema:url" : "https://imma.ie/artists/theo-mcnab/",
-    "rdfs:label" : "Theo McNab"
+    "source" : "https://imma.ie/artists/theo-mcnab/",
+    "birthDate" : "b.1940",
+    "url" : "https://imma.ie/artists/theo-mcnab/",
+    "label" : "Theo McNab"
   }, {
     "@id" : "spice:artefact/autumn-1-of-3",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/mcnab-theo",
     "author" : "spice:agent/mcnab-theo",
-    "schema:dateCreated" : "1977",
-    "schema:url" : "https://imma.ie/collection/autumn-1-of-3/",
+    "dateCreated" : "1977",
+    "url" : "https://imma.ie/collection/autumn-1-of-3/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/autumn-1-of-3",
-    "arco-cd:hasTitle" : "Autumn (1 of 3)"
+    "hasTitle" : "Autumn (1 of 3)"
   }, {
     "@id" : "spice:artefact/conflicting-view",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/mcnab-theo",
     "author" : "spice:agent/mcnab-theo",
-    "schema:dateCreated" : "1975",
-    "schema:url" : "https://imma.ie/collection/conflicting-view/",
+    "dateCreated" : "1975",
+    "url" : "https://imma.ie/collection/conflicting-view/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/conflicting-view",
-    "arco-cd:hasTitle" : "Conflicting View"
+    "hasTitle" : "Conflicting View"
   }, {
     "@id" : "spice:artefact/irish-elegy",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/mcnab-theo",
     "author" : "spice:agent/mcnab-theo",
-    "schema:dateCreated" : "1971",
-    "schema:url" : "https://imma.ie/collection/irish-elegy/",
+    "dateCreated" : "1971",
+    "url" : "https://imma.ie/collection/irish-elegy/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/irish-elegy",
-    "arco-cd:hasTitle" : "Irish Elegy"
+    "hasTitle" : "Irish Elegy"
   }, {
     "@id" : "spice:artefact/room-s3",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/mcnab-theo",
     "author" : "spice:agent/mcnab-theo",
-    "schema:dateCreated" : "1976",
-    "schema:url" : "https://imma.ie/collection/room-s3/",
+    "dateCreated" : "1976",
+    "url" : "https://imma.ie/collection/room-s3/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/room-s3",
-    "arco-cd:hasTitle" : "Room S3"
+    "hasTitle" : "Room S3"
   }, {
     "@id" : "spice:artefact/schizogenesis-5",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/mcnab-theo",
     "author" : "spice:agent/mcnab-theo",
-    "schema:dateCreated" : "1975",
-    "schema:url" : "https://imma.ie/collection/schizogenesis-5/",
+    "dateCreated" : "1975",
+    "url" : "https://imma.ie/collection/schizogenesis-5/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/schizogenesis-5",
-    "arco-cd:hasTitle" : "Schizogenesis 5"
+    "hasTitle" : "Schizogenesis 5"
   }, {
     "@id" : "spice:attribution/autumn-1-of-3",
     "@type" : "arco:AuthorshipAttribution",
@@ -78,53 +78,47 @@
     "hasAttributedAuthor" : "spice:agent/mcnab-theo"
   } ],
   "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
-    "hasAttributedAuthor" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
-      "@type" : "@id"
-    },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

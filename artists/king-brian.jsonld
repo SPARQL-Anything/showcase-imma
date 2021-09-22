@@ -2,51 +2,51 @@
   "@graph" : [ {
     "@id" : "spice:agent/king-brian",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish sculptor Brian King studied at the National College of Art and Design, Dublin, where he later served as Head of the Department of Sculpture from 1984 to 2004. His large-scale painted metal sculptures imbue abstract geometric form with the emotions and movement of colour. King exhibited extensively in Ireland and Europe from the 1960s. He showed at the Irish Exhibition of Living Art from 1964 to 1978, and represented Ireland at the Paris Biennale in 1969 and 1983. His work is held in many public collections including Dublin City Gallery The Hugh Lane; Crawford Municipal Gallery, Cork, and the University of Ulster.",
-    "dc:source" : "https://imma.ie/artists/brian-king/",
-    "schema:birthDate" : "b.1942",
-    "schema:url" : "https://imma.ie/artists/brian-king/",
-    "rdfs:label" : "Brian King"
+    "description" : "Irish sculptor Brian King studied at the National College of Art and Design, Dublin, where he later served as Head of the Department of Sculpture from 1984 to 2004. His large-scale painted metal sculptures imbue abstract geometric form with the emotions and movement of colour. King exhibited extensively in Ireland and Europe from the 1960s. He showed at the Irish Exhibition of Living Art from 1964 to 1978, and represented Ireland at the Paris Biennale in 1969 and 1983. His work is held in many public collections including Dublin City Gallery The Hugh Lane; Crawford Municipal Gallery, Cork, and the University of Ulster.",
+    "source" : "https://imma.ie/artists/brian-king/",
+    "birthDate" : "b.1942",
+    "url" : "https://imma.ie/artists/brian-king/",
+    "label" : "Brian King"
   }, {
     "@id" : "spice:artefact/cloon-project-record-of-an-environmental-sculpture-project-at-cloon-co-wicklow",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/king-brian",
     "author" : "spice:agent/king-brian",
-    "schema:dateCreated" : "1980",
-    "schema:url" : "https://imma.ie/collection/cloon-project-record-of-an-environmental-sculpture-project-at-cloon-co-wicklow/",
+    "dateCreated" : "1980",
+    "url" : "https://imma.ie/collection/cloon-project-record-of-an-environmental-sculpture-project-at-cloon-co-wicklow/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/cloon-project-record-of-an-environmental-sculpture-project-at-cloon-co-wicklow",
-    "arco-cd:hasTitle" : "Cloon Project (record of an environmental sculpture project at Cloon, Co Wicklow)"
+    "hasTitle" : "Cloon Project (record of an environmental sculpture project at Cloon, Co Wicklow)"
   }, {
     "@id" : "spice:artefact/cloud-no-2",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/king-brian",
     "author" : "spice:agent/king-brian",
-    "schema:dateCreated" : "1973",
-    "schema:url" : "https://imma.ie/collection/cloud-no-2/",
+    "dateCreated" : "1973",
+    "url" : "https://imma.ie/collection/cloud-no-2/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/cloud-no-2",
-    "arco-cd:hasTitle" : "Cloud No. 2"
+    "hasTitle" : "Cloud No. 2"
   }, {
     "@id" : "spice:artefact/rocks-break",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/king-brian",
     "author" : "spice:agent/king-brian",
-    "schema:dateCreated" : "1979",
-    "schema:url" : "https://imma.ie/collection/rocks-break/",
+    "dateCreated" : "1979",
+    "url" : "https://imma.ie/collection/rocks-break/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/rocks-break",
-    "arco-cd:hasTitle" : "Rocks Break"
+    "hasTitle" : "Rocks Break"
   }, {
     "@id" : "spice:artefact/squaring",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/king-brian",
     "author" : "spice:agent/king-brian",
-    "schema:dateCreated" : "1988",
-    "schema:url" : "https://imma.ie/collection/squaring/",
+    "dateCreated" : "1988",
+    "url" : "https://imma.ie/collection/squaring/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/squaring",
-    "arco-cd:hasTitle" : "Squaring"
+    "hasTitle" : "Squaring"
   }, {
     "@id" : "spice:attribution/cloon-project-record-of-an-environmental-sculpture-project-at-cloon-co-wicklow",
     "@type" : "arco:AuthorshipAttribution",
@@ -74,48 +74,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

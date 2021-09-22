@@ -2,61 +2,61 @@
   "@graph" : [ {
     "@id" : "spice:agent/rainey-clifford",
     "@type" : "foaf:Person",
-    "dc:description" : "Northern Irish artist Clifford Rainey (born 1942) studied sculpture at Waltham Forest College and the Royal College of Art, London. He set up his first glass studio in London in 1974 and has exhibited internationally from the late 1970s. He taught at the Royal College of Art and the California College of the Arts, Oakland. Rainey’s sculptural work is represented in major public collections, including Dublin City Gallery The Hugh Lane; the Victoria and Albert Museum, London; and the de Young Museum, San Francisco.",
-    "dc:source" : "https://imma.ie/artists/clifford-rainey/",
-    "schema:birthDate" : "b.1942",
-    "schema:url" : "https://imma.ie/artists/clifford-rainey/",
-    "rdfs:label" : "Clifford Rainey"
+    "description" : "Northern Irish artist Clifford Rainey (born 1942) studied sculpture at Waltham Forest College and the Royal College of Art, London. He set up his first glass studio in London in 1974 and has exhibited internationally from the late 1970s. He taught at the Royal College of Art and the California College of the Arts, Oakland. Rainey’s sculptural work is represented in major public collections, including Dublin City Gallery The Hugh Lane; the Victoria and Albert Museum, London; and the de Young Museum, San Francisco.",
+    "source" : "https://imma.ie/artists/clifford-rainey/",
+    "birthDate" : "b.1942",
+    "url" : "https://imma.ie/artists/clifford-rainey/",
+    "label" : "Clifford Rainey"
   }, {
     "@id" : "spice:artefact/3-cokes-a-day-keeps-the-sun-from-your-bum-hippy-hippy-horay",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/rainey-clifford",
     "author" : "spice:agent/rainey-clifford",
-    "schema:dateCreated" : "1974",
-    "schema:url" : "https://imma.ie/collection/3-cokes-a-day-keeps-the-sun-from-your-bum-hippy-hippy-horay/",
+    "dateCreated" : "1974",
+    "url" : "https://imma.ie/collection/3-cokes-a-day-keeps-the-sun-from-your-bum-hippy-hippy-horay/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/3-cokes-a-day-keeps-the-sun-from-your-bum-hippy-hippy-horay",
-    "arco-cd:hasTitle" : "3 Cokes a Day Keeps the Sun from your Bum, Hippy Hippy Horay"
+    "hasTitle" : "3 Cokes a Day Keeps the Sun from your Bum, Hippy Hippy Horay"
   }, {
     "@id" : "spice:artefact/conducting-rod",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/rainey-clifford",
     "author" : "spice:agent/rainey-clifford",
-    "schema:dateCreated" : "1980",
-    "schema:url" : "https://imma.ie/collection/conducting-rod/",
+    "dateCreated" : "1980",
+    "url" : "https://imma.ie/collection/conducting-rod/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/conducting-rod",
-    "arco-cd:hasTitle" : "Conducting Rod"
+    "hasTitle" : "Conducting Rod"
   }, {
     "@id" : "spice:artefact/image-of-greece",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/rainey-clifford",
     "author" : "spice:agent/rainey-clifford",
-    "schema:dateCreated" : "1974",
-    "schema:url" : "https://imma.ie/collection/image-of-greece/",
+    "dateCreated" : "1974",
+    "url" : "https://imma.ie/collection/image-of-greece/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/image-of-greece",
-    "arco-cd:hasTitle" : "Image of Greece"
+    "hasTitle" : "Image of Greece"
   }, {
     "@id" : "spice:artefact/portrait-of-mr-gordon-lambertcommissioned-by-gordon-lambert",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/rainey-clifford",
     "author" : "spice:agent/rainey-clifford",
-    "schema:dateCreated" : "1975",
-    "schema:url" : "https://imma.ie/collection/portrait-of-mr-gordon-lambertcommissioned-by-gordon-lambert/",
+    "dateCreated" : "1975",
+    "url" : "https://imma.ie/collection/portrait-of-mr-gordon-lambertcommissioned-by-gordon-lambert/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/portrait-of-mr-gordon-lambertcommissioned-by-gordon-lambert",
-    "arco-cd:hasTitle" : "Portrait of Mr Gordon Lambert (commissioned by Gordon Lambert)"
+    "hasTitle" : "Portrait of Mr Gordon Lambert (commissioned by Gordon Lambert)"
   }, {
     "@id" : "spice:artefact/untitled-no-stomach-for-the-battle-of-love-hate",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/rainey-clifford",
     "author" : "spice:agent/rainey-clifford",
-    "schema:dateCreated" : "1986",
-    "schema:url" : "https://imma.ie/collection/untitled-no-stomach-for-the-battle-of-love-hate/",
+    "dateCreated" : "1986",
+    "url" : "https://imma.ie/collection/untitled-no-stomach-for-the-battle-of-love-hate/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-no-stomach-for-the-battle-of-love-hate",
-    "arco-cd:hasTitle" : "Untitled No Stomach for the Battle of Love &amp; Hate"
+    "hasTitle" : "Untitled No Stomach for the Battle of Love &amp; Hate"
   }, {
     "@id" : "spice:attribution/3-cokes-a-day-keeps-the-sun-from-your-bum-hippy-hippy-horay",
     "@type" : "arco:AuthorshipAttribution",
@@ -84,24 +84,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -112,24 +109,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

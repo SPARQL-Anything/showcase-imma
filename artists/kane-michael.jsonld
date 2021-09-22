@@ -2,31 +2,31 @@
   "@graph" : [ {
     "@id" : "spice:agent/kane-michael",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish artist Michael Kane studied at the National College of Art and Design, Dublin. He has exhibited his figurative paintings and prints in Ireland and Britain since the 1960s. Kane was a member of the Independent Artists, a founder of the Project Arts Centre and a founder and editor of the art journal 'Structure'. He is an elected member of Aosdána. Major exhibitions of his work were held at the RHA and IMMA in 1995.",
-    "dc:source" : "https://imma.ie/artists/michael-kane/",
-    "schema:birthDate" : "b.1935",
-    "schema:url" : "https://imma.ie/artists/michael-kane/",
-    "rdfs:label" : "Michael Kane"
+    "description" : "Irish artist Michael Kane studied at the National College of Art and Design, Dublin. He has exhibited his figurative paintings and prints in Ireland and Britain since the 1960s. Kane was a member of the Independent Artists, a founder of the Project Arts Centre and a founder and editor of the art journal 'Structure'. He is an elected member of Aosdána. Major exhibitions of his work were held at the RHA and IMMA in 1995.",
+    "source" : "https://imma.ie/artists/michael-kane/",
+    "birthDate" : "b.1935",
+    "url" : "https://imma.ie/artists/michael-kane/",
+    "label" : "Michael Kane"
   }, {
     "@id" : "spice:artefact/political-speech-chief-executive",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/kane-michael",
     "author" : "spice:agent/kane-michael",
-    "schema:dateCreated" : "1959",
-    "schema:url" : "https://imma.ie/collection/political-speech-chief-executive/",
+    "dateCreated" : "1959",
+    "url" : "https://imma.ie/collection/political-speech-chief-executive/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/political-speech-chief-executive",
-    "arco-cd:hasTitle" : "Political Speech (Chief Executive)"
+    "hasTitle" : "Political Speech (Chief Executive)"
   }, {
     "@id" : "spice:artefact/ringsend-man",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/kane-michael",
     "author" : "spice:agent/kane-michael",
-    "schema:dateCreated" : "1993",
-    "schema:url" : "https://imma.ie/collection/ringsend-man/",
+    "dateCreated" : "1993",
+    "url" : "https://imma.ie/collection/ringsend-man/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/ringsend-man",
-    "arco-cd:hasTitle" : "Ringsend Man"
+    "hasTitle" : "Ringsend Man"
   }, {
     "@id" : "spice:attribution/political-speech-chief-executive",
     "@type" : "arco:AuthorshipAttribution",
@@ -42,24 +42,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -70,24 +67,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -2,91 +2,91 @@
   "@graph" : [ {
     "@id" : "spice:agent/craig-martin-michael",
     "@type" : "foaf:Person",
-    "dc:description" : [ "Born in Dublin, Michael Craig-Martin studied art at Yale University in America in the 1960s, where he was influenced by theories of conceptual art. In the 1980s Craig-Martin taught at Goldsmith’s College and was significant influence on the emerging YBA generation. Craig-Martin’s early art practice involved the use of ready-mades. During the 1990s the focus of his work moved to painting, and to increasingly complex site-specific wall paintings. In 1996 Whitechapel Gallery, London held a retrospective of his work and in 2006 IMMA presented ‘Michael Craig-Martin: Works 1964-2006’.", "Born in Dublin, Michael Craig-Martin studied art at Yale University in America in the 1960s, where he was influenced by theories of conceptual art. In the 1980s Craig-Martin taught at Goldsmith’s College and was significant influence on the emerging YBA generation. Craig-Martin's early art practice involved the use of ready-mades. During the 1990s the focus of his work moved to painting, and to increasingly complex site-specific wall paintings. " ],
-    "dc:source" : "https://imma.ie/artists/michael-craig-martin/",
-    "schema:birthDate" : "b.1941",
-    "schema:url" : "https://imma.ie/artists/michael-craig-martin/",
-    "rdfs:label" : "Michael Craig-Martin"
+    "description" : [ "Born in Dublin, Michael Craig-Martin studied art at Yale University in America in the 1960s, where he was influenced by theories of conceptual art. In the 1980s Craig-Martin taught at Goldsmith’s College and was significant influence on the emerging YBA generation. Craig-Martin’s early art practice involved the use of ready-mades. During the 1990s the focus of his work moved to painting, and to increasingly complex site-specific wall paintings. In 1996 Whitechapel Gallery, London held a retrospective of his work and in 2006 IMMA presented ‘Michael Craig-Martin: Works 1964-2006’.", "Born in Dublin, Michael Craig-Martin studied art at Yale University in America in the 1960s, where he was influenced by theories of conceptual art. In the 1980s Craig-Martin taught at Goldsmith’s College and was significant influence on the emerging YBA generation. Craig-Martin's early art practice involved the use of ready-mades. During the 1990s the focus of his work moved to painting, and to increasingly complex site-specific wall paintings. " ],
+    "source" : "https://imma.ie/artists/michael-craig-martin/",
+    "birthDate" : "b.1941",
+    "url" : "https://imma.ie/artists/michael-craig-martin/",
+    "label" : "Michael Craig-Martin"
   }, {
     "@id" : "spice:artefact/anthology",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/craig-martin-michael",
     "author" : "spice:agent/craig-martin-michael",
-    "schema:dateCreated" : "2006",
-    "schema:url" : "https://imma.ie/collection/anthology/",
+    "dateCreated" : "2006",
+    "url" : "https://imma.ie/collection/anthology/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/anthology",
-    "arco-cd:hasTitle" : "Anthology"
+    "hasTitle" : "Anthology"
   }, {
     "@id" : "spice:artefact/coming",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/craig-martin-michael",
     "author" : "spice:agent/craig-martin-michael",
-    "schema:dateCreated" : "2004",
-    "schema:url" : "https://imma.ie/collection/coming/",
+    "dateCreated" : "2004",
+    "url" : "https://imma.ie/collection/coming/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/coming",
-    "arco-cd:hasTitle" : "Coming"
+    "hasTitle" : "Coming"
   }, {
     "@id" : "spice:artefact/eye-of-the-storm",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/craig-martin-michael",
     "author" : "spice:agent/craig-martin-michael",
-    "schema:dateCreated" : "2003",
-    "schema:url" : "https://imma.ie/collection/eye-of-the-storm/",
+    "dateCreated" : "2003",
+    "url" : "https://imma.ie/collection/eye-of-the-storm/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/eye-of-the-storm",
-    "arco-cd:hasTitle" : "Eye of the Storm"
+    "hasTitle" : "Eye of the Storm"
   }, {
     "@id" : "spice:artefact/film",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/craig-martin-michael",
     "author" : "spice:agent/craig-martin-michael",
-    "schema:dateCreated" : "1963",
-    "schema:url" : "https://imma.ie/collection/film/",
+    "dateCreated" : "1963",
+    "url" : "https://imma.ie/collection/film/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/film",
-    "arco-cd:hasTitle" : "Film"
+    "hasTitle" : "Film"
   }, {
     "@id" : "spice:artefact/on-the-table",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/craig-martin-michael",
     "author" : "spice:agent/craig-martin-michael",
-    "schema:dateCreated" : "1970",
-    "schema:url" : "https://imma.ie/collection/on-the-table/",
+    "dateCreated" : "1970",
+    "url" : "https://imma.ie/collection/on-the-table/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/on-the-table",
-    "arco-cd:hasTitle" : "On the Table"
+    "hasTitle" : "On the Table"
   }, {
     "@id" : "spice:artefact/study-for-box-that-opens-in-4-directions",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/craig-martin-michael",
     "author" : "spice:agent/craig-martin-michael",
-    "schema:dateCreated" : "1967",
-    "schema:url" : "https://imma.ie/collection/study-for-box-that-opens-in-4-directions/",
+    "dateCreated" : "1967",
+    "url" : "https://imma.ie/collection/study-for-box-that-opens-in-4-directions/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/study-for-box-that-opens-in-4-directions",
-    "arco-cd:hasTitle" : "Study for Box that Opens in 4 Directions"
+    "hasTitle" : "Study for Box that Opens in 4 Directions"
   }, {
     "@id" : "spice:artefact/untitled-163",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/craig-martin-michael",
     "author" : "spice:agent/craig-martin-michael",
-    "schema:dateCreated" : "1976",
-    "schema:url" : "https://imma.ie/collection/untitled-163/",
+    "dateCreated" : "1976",
+    "url" : "https://imma.ie/collection/untitled-163/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-163",
-    "arco-cd:hasTitle" : "Untitled"
+    "hasTitle" : "Untitled"
   }, {
     "@id" : "spice:artefact/untitled-164",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/craig-martin-michael",
     "author" : "spice:agent/craig-martin-michael",
-    "schema:dateCreated" : "1976",
-    "schema:url" : "https://imma.ie/collection/untitled-164/",
+    "dateCreated" : "1976",
+    "url" : "https://imma.ie/collection/untitled-164/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-164",
-    "arco-cd:hasTitle" : "Untitled"
+    "hasTitle" : "Untitled"
   }, {
     "@id" : "spice:attribution/anthology",
     "@type" : "arco:AuthorshipAttribution",
@@ -130,48 +130,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -2,20 +2,20 @@
   "@graph" : [ {
     "@id" : "spice:agent/ripley-geo",
     "@type" : "foaf:Person",
-    "dc:source" : "https://imma.ie/artists/geo-ripley/",
-    "schema:birthDate" : "b.1950",
-    "schema:url" : "https://imma.ie/artists/geo-ripley/",
-    "rdfs:label" : "Geo Ripley"
+    "source" : "https://imma.ie/artists/geo-ripley/",
+    "birthDate" : "b.1950",
+    "url" : "https://imma.ie/artists/geo-ripley/",
+    "label" : "Geo Ripley"
   }, {
     "@id" : "spice:artefact/danbhalah-y-aida-huiedo",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/ripley-geo",
     "author" : "spice:agent/ripley-geo",
-    "schema:dateCreated" : "1982",
-    "schema:url" : "https://imma.ie/collection/danbhalah-y-aida-huiedo/",
+    "dateCreated" : "1982",
+    "url" : "https://imma.ie/collection/danbhalah-y-aida-huiedo/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/danbhalah-y-aida-huiedo",
-    "arco-cd:hasTitle" : "Danbhalah y Aída Huiedo"
+    "hasTitle" : "Danbhalah y Aída Huiedo"
   }, {
     "@id" : "spice:attribution/danbhalah-y-aida-huiedo",
     "@type" : "arco:AuthorshipAttribution",
@@ -27,24 +27,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -55,20 +52,17 @@
       "@type" : "@id"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

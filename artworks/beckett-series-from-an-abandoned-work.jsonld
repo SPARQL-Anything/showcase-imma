@@ -2,20 +2,20 @@
   "@graph" : [ {
     "@id" : "spice:artefact/beckett-series-from-an-abandoned-work",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Beckett Series from an abandoned work is a 1996 work by Diarmuid Delargy. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/beckett-series-from-an-abandoned-work/",
-    "schema:creditText" : "IMMA Collection: Gordon Lambert Trust, 1997",
+    "description" : "Beckett Series from an abandoned work is a 1996 work by Diarmuid Delargy. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/beckett-series-from-an-abandoned-work/",
+    "creditText" : "IMMA Collection: Gordon Lambert Trust, 1997",
     "image" : "spice:documentation/beckett-series-from-an-abandoned-work",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Etching",
-    "schema:size" : "76 x 57 cm",
-    "schema:version" : "Edition 4/70 2",
-    "arco-cd:hasInventory" : "IMMA.1531"
+    "material" : "Etching",
+    "size" : "76 x 57 cm",
+    "version" : "Edition 4/70 2",
+    "hasInventory" : "IMMA.1531"
   }, {
     "@id" : "spice:documentation/beckett-series-from-an-abandoned-work",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Diarmuid Delargy, Beckett Series from an abandoned work, 1996, Etching, 76 x 57 cm, Collection Irish Museum of Modern Art, Gordon Lambert Trust, 1997 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Diarmuid Delargy, Beckett Series from an abandoned work, 1996, Etching, 76 x 57 cm, Collection Irish Museum of Modern Art, Gordon Lambert Trust, 1997 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
@@ -24,44 +24,35 @@
       "@type" : "@id"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/pull-down",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Conjuring up the dark spaces of the séance room, Pull Down intimately observes the repeated collapsing and slumping of a girl (the artist) through the viewing lens of a camera. This silent video continues MacWilliam’s exploration of the phenomena of spiritualism. It draws attention to the mechanics of looking and recording and to the role of the camera as the observer of the spirit medium within historic psychical research studies (the study of paranormal, especially parapsychological, phenomena).",
-    "dc:source" : "https://imma.ie/collection/pull-down/",
-    "schema:creditText" : "IMMA Collection: Purchase, Hennessy Art Fund for IMMA Collection, 2018",
+    "description" : "Conjuring up the dark spaces of the séance room, Pull Down intimately observes the repeated collapsing and slumping of a girl (the artist) through the viewing lens of a camera. This silent video continues MacWilliam’s exploration of the phenomena of spiritualism. It draws attention to the mechanics of looking and recording and to the role of the camera as the observer of the spirit medium within historic psychical research studies (the study of paranormal, especially parapsychological, phenomena).",
+    "source" : "https://imma.ie/collection/pull-down/",
+    "creditText" : "IMMA Collection: Purchase, Hennessy Art Fund for IMMA Collection, 2018",
     "image" : "spice:documentation/pull-down",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "video, black and white",
-    "schema:version" : "1/5",
-    "arco-cd:hasInventory" : "IMMA.4044"
+    "material" : "video, black and white",
+    "version" : "1/5",
+    "hasInventory" : "IMMA.4044"
   }, {
     "@id" : "spice:documentation/pull-down",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Susan MacWilliam, Pull Down, 2016, video, black and white, Duration: 3min.10 sec., Collection Irish Museum of Modern Art, Purchase, Hennessy Art Fund for IMMA Collection, 2018 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Susan MacWilliam, Pull Down, 2016, video, black and white, Duration: 3min.10 sec., Collection Irish Museum of Modern Art, Purchase, Hennessy Art Fund for IMMA Collection, 2018 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/9063.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2021/05/9063.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

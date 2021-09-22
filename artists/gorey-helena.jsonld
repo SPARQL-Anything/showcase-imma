@@ -2,31 +2,31 @@
   "@graph" : [ {
     "@id" : "spice:agent/gorey-helena",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish artist Helena Gorey studied Fine Art at the Limerick School of Art and Design and went on to study at the Academia di Belle Arti in Perugia, Italy. Since 1989 Gorey has served as Collection Manager for the Arts Council. She has been the recipient of numerous awards including First Prize at the Monaghan Open Exhibition (1995) and a CCAT Award for touring, Wales (2006). Her work is held in many public collections including the Office of Public Works; the Arts Council of Ireland and the National Self Portrait Collection, Limerick.",
-    "dc:source" : "https://imma.ie/artists/helena-gorey/",
-    "schema:birthDate" : "b.1961",
-    "schema:url" : "https://imma.ie/artists/helena-gorey/",
-    "rdfs:label" : "Helena Gorey"
+    "description" : "Irish artist Helena Gorey studied Fine Art at the Limerick School of Art and Design and went on to study at the Academia di Belle Arti in Perugia, Italy. Since 1989 Gorey has served as Collection Manager for the Arts Council. She has been the recipient of numerous awards including First Prize at the Monaghan Open Exhibition (1995) and a CCAT Award for touring, Wales (2006). Her work is held in many public collections including the Office of Public Works; the Arts Council of Ireland and the National Self Portrait Collection, Limerick.",
+    "source" : "https://imma.ie/artists/helena-gorey/",
+    "birthDate" : "b.1961",
+    "url" : "https://imma.ie/artists/helena-gorey/",
+    "label" : "Helena Gorey"
   }, {
     "@id" : "spice:artefact/field-drawing-xiii",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/gorey-helena",
     "author" : "spice:agent/gorey-helena",
-    "schema:dateCreated" : "2001",
-    "schema:url" : "https://imma.ie/collection/field-drawing-xiii/",
+    "dateCreated" : "2001",
+    "url" : "https://imma.ie/collection/field-drawing-xiii/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/field-drawing-xiii",
-    "arco-cd:hasTitle" : "Field Drawing XIII"
+    "hasTitle" : "Field Drawing XIII"
   }, {
     "@id" : "spice:artefact/red-1",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/gorey-helena",
     "author" : "spice:agent/gorey-helena",
-    "schema:dateCreated" : "2002",
-    "schema:url" : "https://imma.ie/collection/red-1/",
+    "dateCreated" : "2002",
+    "url" : "https://imma.ie/collection/red-1/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/red-1",
-    "arco-cd:hasTitle" : "Red 1"
+    "hasTitle" : "Red 1"
   }, {
     "@id" : "spice:attribution/field-drawing-xiii",
     "@type" : "arco:AuthorshipAttribution",
@@ -42,24 +42,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -70,24 +67,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

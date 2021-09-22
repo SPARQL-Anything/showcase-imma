@@ -2,40 +2,40 @@
   "@graph" : [ {
     "@id" : "spice:agent/callahan-harry",
     "@type" : "foaf:Person",
-    "dc:source" : "https://imma.ie/artists/harry-callahan/",
-    "schema:birthDate" : "1912–1999",
-    "schema:url" : "https://imma.ie/artists/harry-callahan/",
-    "rdfs:label" : "Harry Callahan"
+    "source" : "https://imma.ie/artists/harry-callahan/",
+    "birthDate" : "1912–1999",
+    "url" : "https://imma.ie/artists/harry-callahan/",
+    "label" : "Harry Callahan"
   }, {
     "@id" : "spice:artefact/ireland",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/callahan-harry",
     "author" : "spice:agent/callahan-harry",
-    "schema:dateCreated" : "1979",
-    "schema:url" : "https://imma.ie/collection/ireland/",
+    "dateCreated" : "1979",
+    "url" : "https://imma.ie/collection/ireland/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/ireland",
-    "arco-cd:hasTitle" : "Ireland"
+    "hasTitle" : "Ireland"
   }, {
     "@id" : "spice:artefact/ireland-2",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/callahan-harry",
     "author" : "spice:agent/callahan-harry",
-    "schema:dateCreated" : "1979",
-    "schema:url" : "https://imma.ie/collection/ireland-2/",
+    "dateCreated" : "1979",
+    "url" : "https://imma.ie/collection/ireland-2/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/ireland-2",
-    "arco-cd:hasTitle" : "Ireland"
+    "hasTitle" : "Ireland"
   }, {
     "@id" : "spice:artefact/untitled-108",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/callahan-harry",
     "author" : "spice:agent/callahan-harry",
-    "schema:dateCreated" : "1973",
-    "schema:url" : "https://imma.ie/collection/untitled-108/",
+    "dateCreated" : "1973",
+    "url" : "https://imma.ie/collection/untitled-108/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-108",
-    "arco-cd:hasTitle" : "Untitled"
+    "hasTitle" : "Untitled"
   }, {
     "@id" : "spice:attribution/ireland",
     "@type" : "arco:AuthorshipAttribution",
@@ -51,36 +51,30 @@
   } ],
   "@context" : {
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -96,7 +90,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

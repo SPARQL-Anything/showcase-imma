@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/downey-juan",
     "@type" : "foaf:Person",
-    "dc:description" : "Chilean artist Juan Downey studied architecture at the Pontificia Universidad Católica de Chile before relocating to New York in 1969. In New York, Downey became associated with the Raindance collective of artists who were experimenting with new video technology. His video, sculpture and performance work considers ideas of history, society, information and the environment. Downey exhibited extensively from the 1970s, including solo exhibitions at the Whitney Museum of American Art, New York; the Bronx Museum of the Arts, New York, and the Museo de Arte Moderno de Chiloé, Castro.",
-    "dc:source" : "https://imma.ie/artists/juan-downey/",
-    "schema:birthDate" : "1940–1993",
-    "schema:url" : "https://imma.ie/artists/juan-downey/",
-    "rdfs:label" : "Juan Downey"
+    "description" : "Chilean artist Juan Downey studied architecture at the Pontificia Universidad Católica de Chile before relocating to New York in 1969. In New York, Downey became associated with the Raindance collective of artists who were experimenting with new video technology. His video, sculpture and performance work considers ideas of history, society, information and the environment. Downey exhibited extensively from the 1970s, including solo exhibitions at the Whitney Museum of American Art, New York; the Bronx Museum of the Arts, New York, and the Museo de Arte Moderno de Chiloé, Castro.",
+    "source" : "https://imma.ie/artists/juan-downey/",
+    "birthDate" : "1940–1993",
+    "url" : "https://imma.ie/artists/juan-downey/",
+    "label" : "Juan Downey"
   }, {
     "@id" : "spice:artefact/espejo",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/downey-juan",
     "author" : "spice:agent/downey-juan",
-    "schema:dateCreated" : "1981",
-    "schema:url" : "https://imma.ie/collection/espejo/",
+    "dateCreated" : "1981",
+    "url" : "https://imma.ie/collection/espejo/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/espejo",
-    "arco-cd:hasTitle" : "Espejo"
+    "hasTitle" : "Espejo"
   }, {
     "@id" : "spice:attribution/espejo",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,24 +24,19 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -52,16 +47,14 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

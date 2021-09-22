@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/fajardo-jose-luis",
     "@type" : "foaf:Person",
-    "dc:description" : "Spanish painter Jose Luis Fajardo studied architecture before turning to painting. Self-taught as an artist, Fajardo had his first exhibition at the Institute of Hispanic Studies of Tenerife in 1962. He moved to Madrid in 1964. Fajardo began working with reliefs made with thin aluminium layers in the late 1960s.",
-    "dc:source" : "https://imma.ie/artists/jose-luis-fajardo/",
-    "schema:birthDate" : "b.1941",
-    "schema:url" : "https://imma.ie/artists/jose-luis-fajardo/",
-    "rdfs:label" : "Jose Luis Fajardo"
+    "description" : "Spanish painter Jose Luis Fajardo studied architecture before turning to painting. Self-taught as an artist, Fajardo had his first exhibition at the Institute of Hispanic Studies of Tenerife in 1962. He moved to Madrid in 1964. Fajardo began working with reliefs made with thin aluminium layers in the late 1960s.",
+    "source" : "https://imma.ie/artists/jose-luis-fajardo/",
+    "birthDate" : "b.1941",
+    "url" : "https://imma.ie/artists/jose-luis-fajardo/",
+    "label" : "Jose Luis Fajardo"
   }, {
     "@id" : "spice:artefact/serial-para-perturbados-del-mar",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/fajardo-jose-luis",
     "author" : "spice:agent/fajardo-jose-luis",
-    "schema:dateCreated" : "1981",
-    "schema:url" : "https://imma.ie/collection/serial-para-perturbados-del-mar/",
+    "dateCreated" : "1981",
+    "url" : "https://imma.ie/collection/serial-para-perturbados-del-mar/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/serial-para-perturbados-del-mar",
-    "arco-cd:hasTitle" : "Serial para perturbados del mar"
+    "hasTitle" : "Serial para perturbados del mar"
   }, {
     "@id" : "spice:attribution/serial-para-perturbados-del-mar",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,40 +28,33 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

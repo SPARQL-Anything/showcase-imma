@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/campbell-duncan",
     "@type" : "foaf:Person",
-    "dc:description" : [ "Duncan Campbell (b.1972 in Dublin, Ireland) lives and works in Glasgow. He is best known for his films which focus on particular moments in history, and the people and objects at the centre of those histories. He uses archive material as a route to research subjects and histories that he feels are important. The process of making the films becomes a means to further understand his subjects and reveal the complexity of how they have been previously represented. Although these histories are located in specific times and geographies they resonate with and inform our present. Extensive research into the subjects through archival material underpins all of the films and the histories Campbell chooses to focus on reflect his interest. Using both archival and filmed material, his films question our reading of the documentary form as a fixed representation of reality, opening up boundaries between the actual and the imagined, record and interpretation.", "Duncan Campbell is best known for his films which focus on particular moments in history, and the people and objects at the centre of those histories. He uses archive material as a route to research subjects and histories that he feels are important. The process of making the films becomes a means to further understand his subjects and reveal the complexity of how they have been previously represented." ],
-    "dc:source" : "https://imma.ie/artists/duncan-campbell/",
-    "schema:birthDate" : "b.1972",
-    "schema:url" : "https://imma.ie/artists/duncan-campbell/",
-    "rdfs:label" : "Duncan Campbell"
+    "description" : [ "Duncan Campbell (b.1972 in Dublin, Ireland) lives and works in Glasgow. He is best known for his films which focus on particular moments in history, and the people and objects at the centre of those histories. He uses archive material as a route to research subjects and histories that he feels are important. The process of making the films becomes a means to further understand his subjects and reveal the complexity of how they have been previously represented. Although these histories are located in specific times and geographies they resonate with and inform our present. Extensive research into the subjects through archival material underpins all of the films and the histories Campbell chooses to focus on reflect his interest. Using both archival and filmed material, his films question our reading of the documentary form as a fixed representation of reality, opening up boundaries between the actual and the imagined, record and interpretation.", "Duncan Campbell is best known for his films which focus on particular moments in history, and the people and objects at the centre of those histories. He uses archive material as a route to research subjects and histories that he feels are important. The process of making the films becomes a means to further understand his subjects and reveal the complexity of how they have been previously represented." ],
+    "source" : "https://imma.ie/artists/duncan-campbell/",
+    "birthDate" : "b.1972",
+    "url" : "https://imma.ie/artists/duncan-campbell/",
+    "label" : "Duncan Campbell"
   }, {
     "@id" : "spice:artefact/the-welfare-of-tomas-o-hallissy",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/campbell-duncan",
     "author" : "spice:agent/campbell-duncan",
-    "schema:dateCreated" : "2016",
-    "schema:url" : "https://imma.ie/collection/the-welfare-of-tomas-o-hallissy/",
+    "dateCreated" : "2016",
+    "url" : "https://imma.ie/collection/the-welfare-of-tomas-o-hallissy/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-welfare-of-tomas-o-hallissy",
-    "arco-cd:hasTitle" : "The Welfare of Tomás Ó Hallissy"
+    "hasTitle" : "The Welfare of Tomás Ó Hallissy"
   }, {
     "@id" : "spice:attribution/the-welfare-of-tomas-o-hallissy",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,44 +28,37 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

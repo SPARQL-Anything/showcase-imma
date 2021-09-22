@@ -2,41 +2,41 @@
   "@graph" : [ {
     "@id" : "spice:agent/morath-inge",
     "@type" : "foaf:Person",
-    "dc:description" : "Austrian photographer Inge Morath (1923 – 2002) studied languages in Berlin and worked as a translator and journalist. Morath began photographing in London in 1951. She joined Magnum Photos, first as an editor and researcher, and then as an associate in 1953. She worked as an assistant to Henri Cartier-Bresson and became a full member of the agency in 1955. Morath’s photographic work has been exhibited extensively and widely published. She has received many awards. In 2002, members of Magnum Photos established the annual Inge Morath Award in honour of her lifetime contribution to the field.",
-    "dc:source" : "https://imma.ie/artists/inge-morath/",
-    "schema:birthDate" : "1923–2002",
-    "schema:url" : "https://imma.ie/artists/inge-morath/",
-    "rdfs:label" : "Inge Morath"
+    "description" : "Austrian photographer Inge Morath (1923 – 2002) studied languages in Berlin and worked as a translator and journalist. Morath began photographing in London in 1951. She joined Magnum Photos, first as an editor and researcher, and then as an associate in 1953. She worked as an assistant to Henri Cartier-Bresson and became a full member of the agency in 1955. Morath’s photographic work has been exhibited extensively and widely published. She has received many awards. In 2002, members of Magnum Photos established the annual Inge Morath Award in honour of her lifetime contribution to the field.",
+    "source" : "https://imma.ie/artists/inge-morath/",
+    "birthDate" : "1923–2002",
+    "url" : "https://imma.ie/artists/inge-morath/",
+    "label" : "Inge Morath"
   }, {
     "@id" : "spice:artefact/carnival-in-the-snow-badgastein-austria",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/morath-inge",
     "author" : "spice:agent/morath-inge",
-    "schema:dateCreated" : "1965",
-    "schema:url" : "https://imma.ie/collection/carnival-in-the-snow-badgastein-austria/",
+    "dateCreated" : "1965",
+    "url" : "https://imma.ie/collection/carnival-in-the-snow-badgastein-austria/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/carnival-in-the-snow-badgastein-austria",
-    "arco-cd:hasTitle" : "Carnival in the Snow, Badgastein, Austria"
+    "hasTitle" : "Carnival in the Snow, Badgastein, Austria"
   }, {
     "@id" : "spice:artefact/puck-fair-killorglin-county-kerry",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/morath-inge",
     "author" : "spice:agent/morath-inge",
-    "schema:dateCreated" : "1954",
-    "schema:url" : "https://imma.ie/collection/puck-fair-killorglin-county-kerry/",
+    "dateCreated" : "1954",
+    "url" : "https://imma.ie/collection/puck-fair-killorglin-county-kerry/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/puck-fair-killorglin-county-kerry",
-    "arco-cd:hasTitle" : "Puck Fair, Killorglin, County Kerry"
+    "hasTitle" : "Puck Fair, Killorglin, County Kerry"
   }, {
     "@id" : "spice:artefact/puck-fair-killorglin-county-kerry-2",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/morath-inge",
     "author" : "spice:agent/morath-inge",
-    "schema:dateCreated" : "1954",
-    "schema:url" : "https://imma.ie/collection/puck-fair-killorglin-county-kerry-2/",
+    "dateCreated" : "1954",
+    "url" : "https://imma.ie/collection/puck-fair-killorglin-county-kerry-2/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/puck-fair-killorglin-county-kerry-2",
-    "arco-cd:hasTitle" : "Puck Fair, Killorglin, County Kerry"
+    "hasTitle" : "Puck Fair, Killorglin, County Kerry"
   }, {
     "@id" : "spice:attribution/carnival-in-the-snow-badgastein-austria",
     "@type" : "arco:AuthorshipAttribution",
@@ -60,48 +60,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

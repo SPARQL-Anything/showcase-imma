@@ -1,35 +1,30 @@
 {
   "@id" : "spice:agent/salcedo-doris",
   "@type" : "foaf:Person",
-  "dc:description" : [ "Doris Salcedo was born in Bogotá, Colombia in 1958 where she continues to live and work. Her solo exhibitions include Palacio de Cristal, Museo Nacional Centro de Arte Reina Sofía, Madrid (2017); Harvard Art Museums, Massachusetts (2016); Nasher Sculpture Center, Dallas, Texas (2016); Museum of Contemporary Art Chicago, touring to Solomon R. Guggenheim Museum, New York and Pérez Art Museum, Miami (2015–16); Hiroshima City Museum of Contemporary Art, Japan (2014); Museo Universitario Arte Contemporáneo, Mexico, touring to Moderna Museet Malmö, Sweden, Calouste Gulbenkian Museum, Lisbon, Museo nazionale delle arti del XXI secolo, Rome, White Cube, London and Pinacoteca do Estado de São Paulo (2011–13); Tate Modern, London (2007); Camden Arts Centre, London (2001); Tate Britain, London (1999); and New Museum, New York (1998).", "Doris Salcedo was born in Bogotá where she continues to live and work. One of the world’s leading sculptors her work is deeply rooted in her native Colombia." ],
-  "dc:source" : "https://imma.ie/artists/doris-salcedo/",
-  "schema:birthDate" : "b.1958",
-  "schema:url" : "https://imma.ie/artists/doris-salcedo/",
-  "rdfs:label" : "Doris Salcedo",
+  "description" : [ "Doris Salcedo was born in Bogotá, Colombia in 1958 where she continues to live and work. Her solo exhibitions include Palacio de Cristal, Museo Nacional Centro de Arte Reina Sofía, Madrid (2017); Harvard Art Museums, Massachusetts (2016); Nasher Sculpture Center, Dallas, Texas (2016); Museum of Contemporary Art Chicago, touring to Solomon R. Guggenheim Museum, New York and Pérez Art Museum, Miami (2015–16); Hiroshima City Museum of Contemporary Art, Japan (2014); Museo Universitario Arte Contemporáneo, Mexico, touring to Moderna Museet Malmö, Sweden, Calouste Gulbenkian Museum, Lisbon, Museo nazionale delle arti del XXI secolo, Rome, White Cube, London and Pinacoteca do Estado de São Paulo (2011–13); Tate Modern, London (2007); Camden Arts Centre, London (2001); Tate Britain, London (1999); and New Museum, New York (1998).", "Doris Salcedo was born in Bogotá where she continues to live and work. One of the world’s leading sculptors her work is deeply rooted in her native Colombia." ],
+  "source" : "https://imma.ie/artists/doris-salcedo/",
+  "birthDate" : "b.1958",
+  "url" : "https://imma.ie/artists/doris-salcedo/",
+  "label" : "Doris Salcedo",
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/von-brandenburg-ulla",
     "@type" : "foaf:Person",
-    "dc:description" : "German artist Ulla von Brandenburg (born 1974) works in film, painting, installation, photography and performance. Drawing on a background in set design, her diverse practice is inspired by a wide range of elements including nineteenth century literature, expressionist theatre, Hollywood, chess, magic, and pre-Freudian psychoanalysis. Brandenburg has exhibited extensively in Europe and the US. Recent solo exhibitions include Kunsthalle, Düsseldorf; Project PS1, New York; Palais de Tokyo, Paris, and Kunsthalle, Zürich. The first major exhibition of her work in Ireland took place at IMMA in 2008.",
-    "dc:source" : "https://imma.ie/artists/ulla-von-brandenburg/",
-    "schema:birthDate" : "b.1974",
-    "schema:url" : "https://imma.ie/artists/ulla-von-brandenburg/",
-    "rdfs:label" : "Ulla von Brandenburg"
+    "description" : "German artist Ulla von Brandenburg (born 1974) works in film, painting, installation, photography and performance. Drawing on a background in set design, her diverse practice is inspired by a wide range of elements including nineteenth century literature, expressionist theatre, Hollywood, chess, magic, and pre-Freudian psychoanalysis. Brandenburg has exhibited extensively in Europe and the US. Recent solo exhibitions include Kunsthalle, Düsseldorf; Project PS1, New York; Palais de Tokyo, Paris, and Kunsthalle, Zürich. The first major exhibition of her work in Ireland took place at IMMA in 2008.",
+    "source" : "https://imma.ie/artists/ulla-von-brandenburg/",
+    "birthDate" : "b.1974",
+    "url" : "https://imma.ie/artists/ulla-von-brandenburg/",
+    "label" : "Ulla von Brandenburg"
   }, {
     "@id" : "spice:artefact/tarot-set",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/von-brandenburg-ulla",
     "author" : "spice:agent/von-brandenburg-ulla",
-    "schema:dateCreated" : "2008",
-    "schema:url" : "https://imma.ie/collection/tarot-set/",
+    "dateCreated" : "2008",
+    "url" : "https://imma.ie/collection/tarot-set/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/tarot-set",
-    "arco-cd:hasTitle" : "Tarot Set"
+    "hasTitle" : "Tarot Set"
   }, {
     "@id" : "spice:attribution/tarot-set",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,44 +28,37 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

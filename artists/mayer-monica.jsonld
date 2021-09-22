@@ -2,20 +2,20 @@
   "@graph" : [ {
     "@id" : "spice:agent/mayer-monica",
     "@type" : "foaf:Person",
-    "dc:source" : "https://imma.ie/artists/monica-mayer/",
-    "schema:birthDate" : "b.1954",
-    "schema:url" : "https://imma.ie/artists/monica-mayer/",
-    "rdfs:label" : "Mónica Mayer"
+    "source" : "https://imma.ie/artists/monica-mayer/",
+    "birthDate" : "b.1954",
+    "url" : "https://imma.ie/artists/monica-mayer/",
+    "label" : "Mónica Mayer"
   }, {
     "@id" : "spice:artefact/yo-no-celebro-ni-conmemoro-guerras",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/mayer-monica",
     "author" : "spice:agent/mayer-monica",
-    "schema:dateCreated" : "2010",
-    "schema:url" : "https://imma.ie/collection/yo-no-celebro-ni-conmemoro-guerras/",
+    "dateCreated" : "2010",
+    "url" : "https://imma.ie/collection/yo-no-celebro-ni-conmemoro-guerras/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/yo-no-celebro-ni-conmemoro-guerras",
-    "arco-cd:hasTitle" : "Yo no Celebro ni Conmemoro Guerras"
+    "hasTitle" : "Yo no Celebro ni Conmemoro Guerras"
   }, {
     "@id" : "spice:attribution/yo-no-celebro-ni-conmemoro-guerras",
     "@type" : "arco:AuthorshipAttribution",
@@ -27,40 +27,34 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -68,7 +62,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

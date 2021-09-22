@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/cooke-kathleen",
     "@type" : "foaf:Person",
-    "dc:description" : "Kathleen Cooke was born in Belfast and raised in Canada. She studied at New York University and the Art Students League and began to exhibit her delicate drawings in 1969, followed by her first solo show in 1970. In 1971, she received a Mark Rothko Foundation Award. She exhibited internationally as well as showing regularly in New York at the Graham Gallery and Betty Parsons Gallery. Her work can be found in many public and private collections including the Arts Council of Ireland; the Arts Council of Northern Ireland; Bank of Ireland, and the Dorothy and Herbert Vogel Collection.",
-    "dc:source" : "https://imma.ie/artists/kathleen-cooke/",
-    "schema:birthDate" : "1908–1978",
-    "schema:url" : "https://imma.ie/artists/kathleen-cooke/",
-    "rdfs:label" : "Kathleen Cooke"
+    "description" : "Kathleen Cooke was born in Belfast and raised in Canada. She studied at New York University and the Art Students League and began to exhibit her delicate drawings in 1969, followed by her first solo show in 1970. In 1971, she received a Mark Rothko Foundation Award. She exhibited internationally as well as showing regularly in New York at the Graham Gallery and Betty Parsons Gallery. Her work can be found in many public and private collections including the Arts Council of Ireland; the Arts Council of Northern Ireland; Bank of Ireland, and the Dorothy and Herbert Vogel Collection.",
+    "source" : "https://imma.ie/artists/kathleen-cooke/",
+    "birthDate" : "1908–1978",
+    "url" : "https://imma.ie/artists/kathleen-cooke/",
+    "label" : "Kathleen Cooke"
   }, {
     "@id" : "spice:artefact/paris-zoo-afternoon-of-a-faun",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/cooke-kathleen",
     "author" : "spice:agent/cooke-kathleen",
-    "schema:dateCreated" : "1971",
-    "schema:url" : "https://imma.ie/collection/paris-zoo-afternoon-of-a-faun/",
+    "dateCreated" : "1971",
+    "url" : "https://imma.ie/collection/paris-zoo-afternoon-of-a-faun/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/paris-zoo-afternoon-of-a-faun",
-    "arco-cd:hasTitle" : "Paris Zoo Afternoon of a Faun"
+    "hasTitle" : "Paris Zoo Afternoon of a Faun"
   }, {
     "@id" : "spice:attribution/paris-zoo-afternoon-of-a-faun",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,24 +28,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -56,24 +53,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

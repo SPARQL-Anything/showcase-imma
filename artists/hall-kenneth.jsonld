@@ -2,101 +2,101 @@
   "@graph" : [ {
     "@id" : "spice:agent/hall-kenneth",
     "@type" : "foaf:Person",
-    "dc:description" : "Self taught as an artist before turning to painting Kenneth Hall was a furniture designer working in London. He first exhibited in 1934 at the Lucy Wertheim Gallery and the following year met the painter Basil Rakoczi, with whom he founded the White Stag Group for the advancement of subjectivity in art and psychological analysis. During the late 1930s Hall and Rakoczi travelled frequently to France and elsewhere on the Continent and became influenced by the surrealist movement. A pacifist, at the outbreak of the Second World War Hall, along with Rakoczi, moved to Galway and on to Dublin in 1940 where he arranged the first White Stag Group exhibition. A leading member of émigré artists in Ireland, Hall continued to organise and exhibit with the White Stag until 1945 when he returned to London. Plagued by ill-health he took his own life in 1946.",
-    "dc:source" : "https://imma.ie/artists/kenneth-hall/",
-    "schema:birthDate" : "1913–1946",
-    "schema:url" : "https://imma.ie/artists/kenneth-hall/",
-    "rdfs:label" : "Kenneth Hall"
+    "description" : "Self taught as an artist before turning to painting Kenneth Hall was a furniture designer working in London. He first exhibited in 1934 at the Lucy Wertheim Gallery and the following year met the painter Basil Rakoczi, with whom he founded the White Stag Group for the advancement of subjectivity in art and psychological analysis. During the late 1930s Hall and Rakoczi travelled frequently to France and elsewhere on the Continent and became influenced by the surrealist movement. A pacifist, at the outbreak of the Second World War Hall, along with Rakoczi, moved to Galway and on to Dublin in 1940 where he arranged the first White Stag Group exhibition. A leading member of émigré artists in Ireland, Hall continued to organise and exhibit with the White Stag until 1945 when he returned to London. Plagued by ill-health he took his own life in 1946.",
+    "source" : "https://imma.ie/artists/kenneth-hall/",
+    "birthDate" : "1913–1946",
+    "url" : "https://imma.ie/artists/kenneth-hall/",
+    "label" : "Kenneth Hall"
   }, {
     "@id" : "spice:artefact/apres-la-guerre-5th-september",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/hall-kenneth",
     "author" : "spice:agent/hall-kenneth",
-    "schema:dateCreated" : "1941",
-    "schema:url" : "https://imma.ie/collection/apres-la-guerre-5th-september/",
+    "dateCreated" : "1941",
+    "url" : "https://imma.ie/collection/apres-la-guerre-5th-september/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/apres-la-guerre-5th-september",
-    "arco-cd:hasTitle" : "Après la Guerre, 5th September"
+    "hasTitle" : "Après la Guerre, 5th September"
   }, {
     "@id" : "spice:artefact/bird",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/hall-kenneth",
     "author" : "spice:agent/hall-kenneth",
-    "schema:dateCreated" : "1945",
-    "schema:url" : "https://imma.ie/collection/bird/",
+    "dateCreated" : "1945",
+    "url" : "https://imma.ie/collection/bird/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/bird",
-    "arco-cd:hasTitle" : "Bird"
+    "hasTitle" : "Bird"
   }, {
     "@id" : "spice:artefact/bird-2",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/hall-kenneth",
     "author" : "spice:agent/hall-kenneth",
-    "schema:dateCreated" : "1945",
-    "schema:url" : "https://imma.ie/collection/bird-2/",
+    "dateCreated" : "1945",
+    "url" : "https://imma.ie/collection/bird-2/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/bird-2",
-    "arco-cd:hasTitle" : "Bird"
+    "hasTitle" : "Bird"
   }, {
     "@id" : "spice:artefact/bird-3",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/hall-kenneth",
     "author" : "spice:agent/hall-kenneth",
-    "schema:dateCreated" : "1940",
-    "schema:url" : "https://imma.ie/collection/bird-3/",
+    "dateCreated" : "1940",
+    "url" : "https://imma.ie/collection/bird-3/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/bird-3",
-    "arco-cd:hasTitle" : "Bird"
+    "hasTitle" : "Bird"
   }, {
     "@id" : "spice:artefact/bird-with-a-worm",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/hall-kenneth",
     "author" : "spice:agent/hall-kenneth",
-    "schema:dateCreated" : "1935",
-    "schema:url" : "https://imma.ie/collection/bird-with-a-worm/",
+    "dateCreated" : "1935",
+    "url" : "https://imma.ie/collection/bird-with-a-worm/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/bird-with-a-worm",
-    "arco-cd:hasTitle" : "Bird with a Worm"
+    "hasTitle" : "Bird with a Worm"
   }, {
     "@id" : "spice:artefact/head-with-red-eye",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/hall-kenneth",
     "author" : "spice:agent/hall-kenneth",
-    "schema:dateCreated" : "1930",
-    "schema:url" : "https://imma.ie/collection/head-with-red-eye/",
+    "dateCreated" : "1930",
+    "url" : "https://imma.ie/collection/head-with-red-eye/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/head-with-red-eye",
-    "arco-cd:hasTitle" : "Head with Red Eye"
+    "hasTitle" : "Head with Red Eye"
   }, {
     "@id" : "spice:artefact/inish-more",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/hall-kenneth",
     "author" : "spice:agent/hall-kenneth",
-    "schema:dateCreated" : "1940",
-    "schema:url" : "https://imma.ie/collection/inish-more/",
+    "dateCreated" : "1940",
+    "url" : "https://imma.ie/collection/inish-more/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/inish-more",
-    "arco-cd:hasTitle" : "Inish More"
+    "hasTitle" : "Inish More"
   }, {
     "@id" : "spice:artefact/the-conversation-2",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/hall-kenneth",
     "author" : "spice:agent/hall-kenneth",
-    "schema:dateCreated" : "1945",
-    "schema:url" : "https://imma.ie/collection/the-conversation-2/",
+    "dateCreated" : "1945",
+    "url" : "https://imma.ie/collection/the-conversation-2/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-conversation-2",
-    "arco-cd:hasTitle" : "The conversation"
+    "hasTitle" : "The conversation"
   }, {
     "@id" : "spice:artefact/untitled-141",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/hall-kenneth",
     "author" : "spice:agent/hall-kenneth",
-    "schema:dateCreated" : "1935",
-    "schema:url" : "https://imma.ie/collection/untitled-141/",
+    "dateCreated" : "1935",
+    "url" : "https://imma.ie/collection/untitled-141/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-141",
-    "arco-cd:hasTitle" : "Untitled"
+    "hasTitle" : "Untitled"
   }, {
     "@id" : "spice:attribution/apres-la-guerre-5th-september",
     "@type" : "arco:AuthorshipAttribution",
@@ -140,24 +140,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -168,24 +165,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

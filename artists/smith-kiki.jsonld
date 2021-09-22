@@ -2,20 +2,20 @@
   "@graph" : [ {
     "@id" : "spice:agent/smith-kiki",
     "@type" : "foaf:Person",
-    "dc:description" : "Born in Germany, American sculptor and print maker Kiki Smith (born 1954) attended Hartford Art School, Connecticut. Influenced by a generation of female artists including Louise Bourgeois, Eva Hesse and Lee Bontecou, Smith uses paper, fabric, ceramics and glass to create figurative sculptural works which mediate the separations between the psychological and physical nature of the body. Smith has exhibited in America and Europe since the 1980s. A major retrospective of her work toured the US in 2005. Smith was awarded the Brooklyn Museum ‘Women in The Arts Award’ in 2009.",
-    "dc:source" : "https://imma.ie/artists/kiki-smith/",
-    "schema:url" : "https://imma.ie/artists/kiki-smith/",
-    "rdfs:label" : "Kiki Smith"
+    "description" : "Born in Germany, American sculptor and print maker Kiki Smith (born 1954) attended Hartford Art School, Connecticut. Influenced by a generation of female artists including Louise Bourgeois, Eva Hesse and Lee Bontecou, Smith uses paper, fabric, ceramics and glass to create figurative sculptural works which mediate the separations between the psychological and physical nature of the body. Smith has exhibited in America and Europe since the 1980s. A major retrospective of her work toured the US in 2005. Smith was awarded the Brooklyn Museum ‘Women in The Arts Award’ in 2009.",
+    "source" : "https://imma.ie/artists/kiki-smith/",
+    "url" : "https://imma.ie/artists/kiki-smith/",
+    "label" : "Kiki Smith"
   }, {
     "@id" : "spice:artefact/peacock",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/smith-kiki",
     "author" : "spice:agent/smith-kiki",
-    "schema:dateCreated" : "1994",
-    "schema:url" : "https://imma.ie/collection/peacock/",
+    "dateCreated" : "1994",
+    "url" : "https://imma.ie/collection/peacock/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/peacock",
-    "arco-cd:hasTitle" : "Peacock"
+    "hasTitle" : "Peacock"
   }, {
     "@id" : "spice:attribution/peacock",
     "@type" : "arco:AuthorshipAttribution",
@@ -27,40 +27,34 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -68,7 +62,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/device",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "The rise of modern architecture in Ireland in the 1960s, with its clean lines and uncluttered surfaces, created a need for tapestry. Scott’s architectural colleagues at Scott Tallon Walker first led him into tapestry design when they commissioned a piece for the Intercontinental Hotel in Cork in 1963. ‘Device’ is one of nine tapestries woven at the Aubusson workshops, Tabard Frères et Soeurs, France. It relates directly to Scott’s series of Device paintings, first produced in 1962. The ‘Device’ of the title relates to the term used for nuclear weapons, and Scott’s horror at their testing. Its imagery clearly evokes the spectacular balls of fire when nuclear devices were detonated. Scott was also aware that the term ‘device’ has an emblematic significance in heraldry, and the centred circular motif is instantly recognisable.",
-    "dc:source" : "https://imma.ie/collection/device/",
-    "schema:creditText" : "IMMA Collection: Heritage Gift, P.J. Carroll &amp; Co. Ltd. Art Collection, 2005",
+    "description" : "The rise of modern architecture in Ireland in the 1960s, with its clean lines and uncluttered surfaces, created a need for tapestry. Scott’s architectural colleagues at Scott Tallon Walker first led him into tapestry design when they commissioned a piece for the Intercontinental Hotel in Cork in 1963. ‘Device’ is one of nine tapestries woven at the Aubusson workshops, Tabard Frères et Soeurs, France. It relates directly to Scott’s series of Device paintings, first produced in 1962. The ‘Device’ of the title relates to the term used for nuclear weapons, and Scott’s horror at their testing. Its imagery clearly evokes the spectacular balls of fire when nuclear devices were detonated. Scott was also aware that the term ‘device’ has an emblematic significance in heraldry, and the centred circular motif is instantly recognisable.",
+    "source" : "https://imma.ie/collection/device/",
+    "creditText" : "IMMA Collection: Heritage Gift, P.J. Carroll &amp; Co. Ltd. Art Collection, 2005",
     "image" : "spice:documentation/device",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Wool tapestry Woven by Tabard Frères et Soeurs, Aubusson, France",
-    "schema:size" : "148.6 x 120.6 cm",
-    "arco-cd:hasInventory" : "IMMA.1874"
+    "material" : "Wool tapestry Woven by Tabard Frères et Soeurs, Aubusson, France",
+    "size" : "148.6 x 120.6 cm",
+    "hasInventory" : "IMMA.1874"
   }, {
     "@id" : "spice:documentation/device",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Patrick Scott, Device, 1971, Wool tapestry Woven by Tabard Frères et Soeurs, Aubusson, France, 148.6 x 120.6 cm, Collection Irish Museum of Modern Art, Heritage Gift, P.J. Carroll &amp; Co. Ltd. Art Collection, 2005 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Patrick Scott, Device, 1971, Wool tapestry Woven by Tabard Frères et Soeurs, Aubusson, France, 148.6 x 120.6 cm, Collection Irish Museum of Modern Art, Heritage Gift, P.J. Carroll &amp; Co. Ltd. Art Collection, 2005 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2020/02/1799.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2020/02/1799.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

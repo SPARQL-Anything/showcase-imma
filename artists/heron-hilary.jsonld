@@ -2,31 +2,31 @@
   "@graph" : [ {
     "@id" : "spice:agent/heron-hilary",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish sculptor Hilary Heron attended the National College of Art and Design, Dublin. In 1947 Heron was awarded the first Mainie Jellett Memorial Travelling Scholarship for her sculpture in marble, limestone and wood. She used this to study Romanesque carving in Italy and France. From the 1950s Heron also began working in metal. She exhibited extensively in Ireland from this time. Together with Louis le Brocquy, she represented Ireland at the Venice Biennale in 1956. Heron’s work is in many public and private collections.",
-    "dc:source" : "https://imma.ie/artists/hilary-heron/",
-    "schema:birthDate" : "1923–1977",
-    "schema:url" : "https://imma.ie/artists/hilary-heron/",
-    "rdfs:label" : "Hilary Heron"
+    "description" : "Irish sculptor Hilary Heron attended the National College of Art and Design, Dublin. In 1947 Heron was awarded the first Mainie Jellett Memorial Travelling Scholarship for her sculpture in marble, limestone and wood. She used this to study Romanesque carving in Italy and France. From the 1950s Heron also began working in metal. She exhibited extensively in Ireland from this time. Together with Louis le Brocquy, she represented Ireland at the Venice Biennale in 1956. Heron’s work is in many public and private collections.",
+    "source" : "https://imma.ie/artists/hilary-heron/",
+    "birthDate" : "1923–1977",
+    "url" : "https://imma.ie/artists/hilary-heron/",
+    "label" : "Hilary Heron"
   }, {
     "@id" : "spice:artefact/portfolio-of-sketches",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/heron-hilary",
     "author" : "spice:agent/heron-hilary",
-    "schema:dateCreated" : "1940",
-    "schema:url" : "https://imma.ie/collection/portfolio-of-sketches/",
+    "dateCreated" : "1940",
+    "url" : "https://imma.ie/collection/portfolio-of-sketches/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/portfolio-of-sketches",
-    "arco-cd:hasTitle" : "Portfolio of Sketches"
+    "hasTitle" : "Portfolio of Sketches"
   }, {
     "@id" : "spice:artefact/standing-figure",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/heron-hilary",
     "author" : "spice:agent/heron-hilary",
-    "schema:dateCreated" : "1945",
-    "schema:url" : "https://imma.ie/collection/standing-figure/",
+    "dateCreated" : "1945",
+    "url" : "https://imma.ie/collection/standing-figure/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/standing-figure",
-    "arco-cd:hasTitle" : "Standing Figure"
+    "hasTitle" : "Standing Figure"
   }, {
     "@id" : "spice:attribution/portfolio-of-sketches",
     "@type" : "arco:AuthorshipAttribution",
@@ -38,40 +38,33 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -87,7 +80,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

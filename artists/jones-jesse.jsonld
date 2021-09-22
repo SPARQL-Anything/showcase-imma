@@ -1,30 +1,72 @@
 {
-  "@id" : "spice:agent/jones-jesse",
-  "@type" : "foaf:Person",
-  "dc:description" : "Jesse Jones creates works that primarily take the form of film and video. She explores historical instances of communal culture that resonate with contemporary society and politics. Jones isolates forms and subjects, often through the use of Brechtian theatre techniques of estrangement, as a tool for both re-imagining and directly intervening in social discourse.",
-  "dc:source" : "https://imma.ie/artists/jesse-jones/",
-  "schema:url" : "https://imma.ie/artists/jesse-jones/",
-  "rdfs:label" : "Jesse Jones",
+  "@graph" : [ {
+    "@id" : "spice:agent/jones-jesse",
+    "@type" : "foaf:Person",
+    "description" : [ "Jesse Jones creates works that primarily take the form of film and video. She explores historical instances of communal culture that resonate with contemporary society and politics. Jones isolates forms and subjects, often through the use of Brechtian theatre techniques of estrangement, as a tool for both re-imagining and directly intervening in social discourse.", "Jesse Jones studied sculpture at NCAD before completing an MA in visual arts practice at IADT in 2005. She teaches in Fine Art programmes at CIT Crawford College of Art &amp; Design in Cork and has worked and exhibited extensively both at home and abroad. In 2017 Jones represented Ireland at the 57th Venice Biennale. Jones' work takes many forms; from gallery-based films, installations and sculpture, to large scale public events and performance. She has collaborated with diverse groups, from opera singers and marching bands to activists. Her practice largely aims to excavate the hidden meaning within our popular collective consciousness, and she explores how historical instances of communal culture may hold resonance in our current social and political experiences. Her practice also reflects and re-presents historical moments of collective resistance and dissent. Politics have always been important to her artistic thinking." ],
+    "source" : "https://imma.ie/artists/jesse-jones/",
+    "birthDate" : "b.1978",
+    "url" : "https://imma.ie/artists/jesse-jones/",
+    "label" : "Jesse Jones"
+  }, {
+    "@id" : "spice:artefact/the-touching-contract",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/jones-jesse",
+    "author" : "spice:agent/jones-jesse",
+    "dateCreated" : "2016",
+    "url" : "https://imma.ie/collection/the-touching-contract/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-touching-contract",
+    "hasTitle" : "The Touching Contract"
+  }, {
+    "@id" : "spice:attribution/the-touching-contract",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/jones-jesse"
+  } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

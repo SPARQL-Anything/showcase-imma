@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/shinnors-john",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish artist John Shinnors (born 1950) studied at the Limerick School of Art and Design from 1970 to 1972. He has exhibited extensively in both solo and group shows since the 1980s including exhibitions in the Vangard Gallery, The Hunt Museum, and the RHA annual exhibitions. He promotes the arts through his Shinnors Scholarship and Shinnors Drawing Award. Shinnors is a member of Aosdána and is the visual artist on the EV+A committee. He lives and works in Limerick and his work can be found in many collections including The Arts Council; The National Self-Portrait Collection of Ireland; Banks Trust, IFSC, Dublin; and the Contemporary Irish Art Society.",
-    "dc:source" : "https://imma.ie/artists/john-shinnors/",
-    "schema:birthDate" : "b.1950",
-    "schema:url" : "https://imma.ie/artists/john-shinnors/",
-    "rdfs:label" : "John Shinnors"
+    "description" : "Irish artist John Shinnors (born 1950) studied at the Limerick School of Art and Design from 1970 to 1972. He has exhibited extensively in both solo and group shows since the 1980s including exhibitions in the Vangard Gallery, The Hunt Museum, and the RHA annual exhibitions. He promotes the arts through his Shinnors Scholarship and Shinnors Drawing Award. Shinnors is a member of Aosdána and is the visual artist on the EV+A committee. He lives and works in Limerick and his work can be found in many collections including The Arts Council; The National Self-Portrait Collection of Ireland; Banks Trust, IFSC, Dublin; and the Contemporary Irish Art Society.",
+    "source" : "https://imma.ie/artists/john-shinnors/",
+    "birthDate" : "b.1950",
+    "url" : "https://imma.ie/artists/john-shinnors/",
+    "label" : "John Shinnors"
   }, {
     "@id" : "spice:artefact/fish-still-life",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/shinnors-john",
     "author" : "spice:agent/shinnors-john",
-    "schema:dateCreated" : "1987",
-    "schema:url" : "https://imma.ie/collection/fish-still-life/",
+    "dateCreated" : "1987",
+    "url" : "https://imma.ie/collection/fish-still-life/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/fish-still-life",
-    "arco-cd:hasTitle" : "Fish Still Life"
+    "hasTitle" : "Fish Still Life"
   }, {
     "@id" : "spice:attribution/fish-still-life",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,24 +28,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -56,24 +53,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

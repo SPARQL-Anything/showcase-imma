@@ -1,35 +1,30 @@
 {
   "@id" : "spice:agent/t-riggs-marlon",
   "@type" : "foaf:Person",
-  "dc:description" : "(1957 – 1994, USA) was a filmmaker, artist and gay rights activist. His filmmaking addressed questions of cultural memory and race relations in America, and more personal topics such as sexuality or HIV.",
-  "dc:source" : "https://imma.ie/artists/marlon-t-riggs/",
-  "schema:birthDate" : "1957–1994",
-  "schema:url" : "https://imma.ie/artists/marlon-t-riggs/",
-  "rdfs:label" : "Marlon T. Riggs",
+  "description" : "(1957 – 1994, USA) was a filmmaker, artist and gay rights activist. His filmmaking addressed questions of cultural memory and race relations in America, and more personal topics such as sexuality or HIV.",
+  "source" : "https://imma.ie/artists/marlon-t-riggs/",
+  "birthDate" : "1957–1994",
+  "url" : "https://imma.ie/artists/marlon-t-riggs/",
+  "label" : "Marlon T. Riggs",
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

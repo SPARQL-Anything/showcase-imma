@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/leibovitz-annie",
     "@type" : "foaf:Person",
-    "dc:description" : "American photographer Annie Leibovitz studied painting at the San Francisco Art Institute while taking evening classes in photography. From 1970, Leibovitz worked as a photographer for ‘Rolling Stone’, ‘Vanity Fair’ and ‘Vogue’, during which time she created iconic images of figures including John Lennon, Yoko Ono, Mick Jagger, Patti Smith and Queen Elizabeth II. Leibovitz’s photography has been exhibited at venues worldwide, including the National Portrait Gallery, Washington; the International Center of Photography, New York; the Stedelijk Museum, Amsterdam, and the National Portrait Gallery, London.",
-    "dc:source" : "https://imma.ie/artists/annie-leibovitz/",
-    "schema:birthDate" : "b.1949",
-    "schema:url" : "https://imma.ie/artists/annie-leibovitz/",
-    "rdfs:label" : "Annie Leibovitz"
+    "description" : "American photographer Annie Leibovitz studied painting at the San Francisco Art Institute while taking evening classes in photography. From 1970, Leibovitz worked as a photographer for ‘Rolling Stone’, ‘Vanity Fair’ and ‘Vogue’, during which time she created iconic images of figures including John Lennon, Yoko Ono, Mick Jagger, Patti Smith and Queen Elizabeth II. Leibovitz’s photography has been exhibited at venues worldwide, including the National Portrait Gallery, Washington; the International Center of Photography, New York; the Stedelijk Museum, Amsterdam, and the National Portrait Gallery, London.",
+    "source" : "https://imma.ie/artists/annie-leibovitz/",
+    "birthDate" : "b.1949",
+    "url" : "https://imma.ie/artists/annie-leibovitz/",
+    "label" : "Annie Leibovitz"
   }, {
     "@id" : "spice:artefact/louise-bourgeois-new-york",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/leibovitz-annie",
     "author" : "spice:agent/leibovitz-annie",
-    "schema:dateCreated" : "1997",
-    "schema:url" : "https://imma.ie/collection/louise-bourgeois-new-york/",
+    "dateCreated" : "1997",
+    "url" : "https://imma.ie/collection/louise-bourgeois-new-york/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/louise-bourgeois-new-york",
-    "arco-cd:hasTitle" : "Louise Bourgeois, New York"
+    "hasTitle" : "Louise Bourgeois, New York"
   }, {
     "@id" : "spice:attribution/louise-bourgeois-new-york",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,40 +24,33 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

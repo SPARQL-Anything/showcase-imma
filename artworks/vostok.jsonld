@@ -1,0 +1,71 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/vostok",
+    "@type" : "schema:CreativeWork",
+    "description" : "In meticulous drawings, paintings, and sculptures, Eoin Mc Hugh examines what he calls “the psychology of imagery”—the space between the image, the object, and the idea. Mc Hugh predominantly works in watercolor on found or old paper, painting ambiguous, often uncanny, subjects that vary widely, from dreamlike seascapes and apocalyptic visions of the natural world to everyday items such as a watch or spoon. In dark oil paintings, Mc Hugh explores the work of Vermeer and other Dutch masters of the 17th century fascinated by the representation of light, reimagining a traditional genre by creating subtle distortions of perspective in images whose meanings are enigmatic. He also creates sculptures, including ones that incorporate found objects and peculiar, abstract bronze forms.",
+    "source" : "https://imma.ie/collection/vostok/",
+    "creditText" : "IMMA Collection: Purchase, 2021, 2021",
+    "image" : "spice:documentation/vostok",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "material" : "Oil on canvas",
+    "size" : "37 x 47 cm",
+    "hasInventory" : "IMMA.4232"
+  }, {
+    "@id" : "spice:documentation/vostok",
+    "@type" : "schema:ImageObject",
+    "caption" : "Eoin McHugh, Vostok, 2016, Oil on canvas, 37 x 47 cm, Collection Irish Museum of Modern Art, Purchase, 2021, 2021 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "url" : "https://imma.ie/wp-content/uploads/2021/09/9533.jpg"
+  } ],
+  "@context" : {
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

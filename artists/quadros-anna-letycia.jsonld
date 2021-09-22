@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/quadros-anna-letycia",
     "@type" : "foaf:Person",
-    "dc:description" : "Brazilian artist Anna Letycia Quadros studied drawing and painting under Bustamante Sá and attended the Brazilian Association of Design in Rio de Janeiro. She then studied engraving with Iberê Camargo at the Municipal Institute of Fine Arts. Quadros taught printing workshops in the Museu de Arte Moderna do Rio de Janeiro from 1960 to 1966 and received an honorary professorship from the Pontifical Catholic University of Chile in 1961. From 1977 to 1998 she coordinated the Bureau of Engraving at the Museum of Ingá Niterói. She also worked regularly in collaboration with Maria Clara Machado as a theater and carnival choreographer and costume designer. She was a member of the Association of Samba Schools of Rio de Janeiro.",
-    "dc:source" : "https://imma.ie/artists/anna-letycia-quadros/",
-    "schema:birthDate" : "b.1929",
-    "schema:url" : "https://imma.ie/artists/anna-letycia-quadros/",
-    "rdfs:label" : "Anna Letycia Quadros"
+    "description" : "Brazilian artist Anna Letycia Quadros studied drawing and painting under Bustamante Sá and attended the Brazilian Association of Design in Rio de Janeiro. She then studied engraving with Iberê Camargo at the Municipal Institute of Fine Arts. Quadros taught printing workshops in the Museu de Arte Moderna do Rio de Janeiro from 1960 to 1966 and received an honorary professorship from the Pontifical Catholic University of Chile in 1961. From 1977 to 1998 she coordinated the Bureau of Engraving at the Museum of Ingá Niterói. She also worked regularly in collaboration with Maria Clara Machado as a theater and carnival choreographer and costume designer. She was a member of the Association of Samba Schools of Rio de Janeiro.",
+    "source" : "https://imma.ie/artists/anna-letycia-quadros/",
+    "birthDate" : "b.1929",
+    "url" : "https://imma.ie/artists/anna-letycia-quadros/",
+    "label" : "Anna Letycia Quadros"
   }, {
     "@id" : "spice:artefact/caracol-vermelho",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/quadros-anna-letycia",
     "author" : "spice:agent/quadros-anna-letycia",
-    "schema:dateCreated" : "1974",
-    "schema:url" : "https://imma.ie/collection/caracol-vermelho/",
+    "dateCreated" : "1974",
+    "url" : "https://imma.ie/collection/caracol-vermelho/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/caracol-vermelho",
-    "arco-cd:hasTitle" : "Caracol Vermelho"
+    "hasTitle" : "Caracol Vermelho"
   }, {
     "@id" : "spice:attribution/caracol-vermelho",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,24 +28,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -56,24 +53,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

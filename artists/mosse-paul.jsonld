@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/mosse-paul",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish artist Paul Mosse (born 1946) received his B.A. in Art and Design from Chelsea College of Art, London. Mosse has exhibited extensively throughout Ireland as well as Europe and America. His numerous awards include; Carroll’s Prize in Living Art Exhibition (1968); Boise Scholarship, British School at Rome (1969); and the Irish American Cultural Institute O’Malley Art Award (2011-12). Mosse was elected a member of Aosdána in 2008. His work can be found in numerous public collections including; Arts Council of Ireland; Crawford Art Gallery, Cork; Limerick City Gallery of Art; Trinity College Dublin; and private collections in Ireland, Europe and the USA.",
-    "dc:source" : "https://imma.ie/artists/paul-mosse/",
-    "schema:birthDate" : "b.1946",
-    "schema:url" : "https://imma.ie/artists/paul-mosse/",
-    "rdfs:label" : "Paul Mosse"
+    "description" : "Irish artist Paul Mosse (born 1946) received his B.A. in Art and Design from Chelsea College of Art, London. Mosse has exhibited extensively throughout Ireland as well as Europe and America. His numerous awards include; Carroll’s Prize in Living Art Exhibition (1968); Boise Scholarship, British School at Rome (1969); and the Irish American Cultural Institute O’Malley Art Award (2011-12). Mosse was elected a member of Aosdána in 2008. His work can be found in numerous public collections including; Arts Council of Ireland; Crawford Art Gallery, Cork; Limerick City Gallery of Art; Trinity College Dublin; and private collections in Ireland, Europe and the USA.",
+    "source" : "https://imma.ie/artists/paul-mosse/",
+    "birthDate" : "b.1946",
+    "url" : "https://imma.ie/artists/paul-mosse/",
+    "label" : "Paul Mosse"
   }, {
     "@id" : "spice:artefact/untitled-28",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/mosse-paul",
     "author" : "spice:agent/mosse-paul",
-    "schema:dateCreated" : "1997",
-    "schema:url" : "https://imma.ie/collection/untitled-28/",
+    "dateCreated" : "1997",
+    "url" : "https://imma.ie/collection/untitled-28/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-28",
-    "arco-cd:hasTitle" : "Untitled"
+    "hasTitle" : "Untitled"
   }, {
     "@id" : "spice:attribution/untitled-28",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,24 +28,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -56,24 +53,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

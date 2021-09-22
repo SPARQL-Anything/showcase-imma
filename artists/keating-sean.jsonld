@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/keating-sean",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish realist painter Sean Keating studied under William Orpen at the Metropolitan School of Art, Dublin, later working as his studio assistant. Keating travelled to the Aran Islands in 1914. His paintings of the people of the west, the Irish War of Independence and the industrialization of the nation, became synonymous with the artistic representation of Irish identity and the Free State. Keating was Professor of Painting at the National College of Art and Design from 1936 to 1954 and President of the Royal Hibernian Academy from 1948 to 1962.",
-    "dc:source" : "https://imma.ie/artists/sean-keating/",
-    "schema:birthDate" : "1889–1977",
-    "schema:url" : "https://imma.ie/artists/sean-keating/",
-    "rdfs:label" : "Sean Keating"
+    "description" : "Irish realist painter Sean Keating studied under William Orpen at the Metropolitan School of Art, Dublin, later working as his studio assistant. Keating travelled to the Aran Islands in 1914. His paintings of the people of the west, the Irish War of Independence and the industrialization of the nation, became synonymous with the artistic representation of Irish identity and the Free State. Keating was Professor of Painting at the National College of Art and Design from 1936 to 1954 and President of the Royal Hibernian Academy from 1948 to 1962.",
+    "source" : "https://imma.ie/artists/sean-keating/",
+    "birthDate" : "1889–1977",
+    "url" : "https://imma.ie/artists/sean-keating/",
+    "label" : "Sean Keating"
   }, {
     "@id" : "spice:artefact/self-portrait-with-michael",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/keating-sean",
     "author" : "spice:agent/keating-sean",
-    "schema:dateCreated" : "1928",
-    "schema:url" : "https://imma.ie/collection/self-portrait-with-michael/",
+    "dateCreated" : "1928",
+    "url" : "https://imma.ie/collection/self-portrait-with-michael/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/self-portrait-with-michael",
-    "arco-cd:hasTitle" : "Self Portrait with Michael"
+    "hasTitle" : "Self Portrait with Michael"
   }, {
     "@id" : "spice:attribution/self-portrait-with-michael",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,40 +24,33 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

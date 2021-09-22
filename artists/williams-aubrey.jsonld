@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/williams-aubrey",
     "@type" : "foaf:Person",
-    "dc:description" : "Guyanese artist Aubrey Williams (1926-1990) trained as an agronomist before moving from Guyana to London to attend St Martin’s School of Art in 1952. In his early figurative paintings to his later vibrant abstract works, Williams drew inspiration from sources including Maya and Warrau imagery, science fiction, classical music and the abstract expressionist painters. Williams was a founder member of the Caribbean Artists Movement in 1966. He exhibited extensively in Britain and Europe from the 1960s. His work was the subject of a major retrospective exhibition at the Whitechapel Art Gallery, London, in 1998.",
-    "dc:source" : "https://imma.ie/artists/aubrey-williams/",
-    "schema:birthDate" : "1926–1990",
-    "schema:url" : "https://imma.ie/artists/aubrey-williams/",
-    "rdfs:label" : "Aubrey Williams"
+    "description" : "Guyanese artist Aubrey Williams (1926-1990) trained as an agronomist before moving from Guyana to London to attend St Martin’s School of Art in 1952. In his early figurative paintings to his later vibrant abstract works, Williams drew inspiration from sources including Maya and Warrau imagery, science fiction, classical music and the abstract expressionist painters. Williams was a founder member of the Caribbean Artists Movement in 1966. He exhibited extensively in Britain and Europe from the 1960s. His work was the subject of a major retrospective exhibition at the Whitechapel Art Gallery, London, in 1998.",
+    "source" : "https://imma.ie/artists/aubrey-williams/",
+    "birthDate" : "1926–1990",
+    "url" : "https://imma.ie/artists/aubrey-williams/",
+    "label" : "Aubrey Williams"
   }, {
     "@id" : "spice:artefact/painting-iii",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/williams-aubrey",
     "author" : "spice:agent/williams-aubrey",
-    "schema:dateCreated" : "1962",
-    "schema:url" : "https://imma.ie/collection/painting-iii/",
+    "dateCreated" : "1962",
+    "url" : "https://imma.ie/collection/painting-iii/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/painting-iii",
-    "arco-cd:hasTitle" : "Painting III"
+    "hasTitle" : "Painting III"
   }, {
     "@id" : "spice:attribution/painting-iii",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,24 +28,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -56,24 +53,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -2,61 +2,61 @@
   "@graph" : [ {
     "@id" : "spice:agent/novoa-leopoldo",
     "@type" : "foaf:Person",
-    "dc:description" : "Spanish painter and sculptor Leopoldo Novoa lived in the United States, Uruguay and Buenos Aires before moving to Paris in 1961. His work is held in public and private collections worldwide, including MOMA, New York; Fonds National d'Art Contemporain and Bibliothèque Nationale de France.",
-    "dc:source" : "https://imma.ie/artists/leopoldo-novoa/",
-    "schema:birthDate" : "1919–2012",
-    "schema:url" : "https://imma.ie/artists/leopoldo-novoa/",
-    "rdfs:label" : "Leopoldo Novoa"
+    "description" : "Spanish painter and sculptor Leopoldo Novoa lived in the United States, Uruguay and Buenos Aires before moving to Paris in 1961. His work is held in public and private collections worldwide, including MOMA, New York; Fonds National d'Art Contemporain and Bibliothèque Nationale de France.",
+    "source" : "https://imma.ie/artists/leopoldo-novoa/",
+    "birthDate" : "1919–2012",
+    "url" : "https://imma.ie/artists/leopoldo-novoa/",
+    "label" : "Leopoldo Novoa"
   }, {
     "@id" : "spice:artefact/espace-metallise",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/novoa-leopoldo",
     "author" : "spice:agent/novoa-leopoldo",
-    "schema:dateCreated" : "1969",
-    "schema:url" : "https://imma.ie/collection/espace-metallise/",
+    "dateCreated" : "1969",
+    "url" : "https://imma.ie/collection/espace-metallise/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/espace-metallise",
-    "arco-cd:hasTitle" : "Espace Métallisé"
+    "hasTitle" : "Espace Métallisé"
   }, {
     "@id" : "spice:artefact/espacio-a-relieves-multiples",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/novoa-leopoldo",
     "author" : "spice:agent/novoa-leopoldo",
-    "schema:dateCreated" : "1982",
-    "schema:url" : "https://imma.ie/collection/espacio-a-relieves-multiples/",
+    "dateCreated" : "1982",
+    "url" : "https://imma.ie/collection/espacio-a-relieves-multiples/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/espacio-a-relieves-multiples",
-    "arco-cd:hasTitle" : "Espacio a Relieves Múltiples"
+    "hasTitle" : "Espacio a Relieves Múltiples"
   }, {
     "@id" : "spice:artefact/maternite",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/novoa-leopoldo",
     "author" : "spice:agent/novoa-leopoldo",
-    "schema:dateCreated" : "1972",
-    "schema:url" : "https://imma.ie/collection/maternite/",
+    "dateCreated" : "1972",
+    "url" : "https://imma.ie/collection/maternite/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/maternite",
-    "arco-cd:hasTitle" : "Maternite"
+    "hasTitle" : "Maternite"
   }, {
     "@id" : "spice:artefact/untitled-112",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/novoa-leopoldo",
     "author" : "spice:agent/novoa-leopoldo",
-    "schema:dateCreated" : "1970",
-    "schema:url" : "https://imma.ie/collection/untitled-112/",
+    "dateCreated" : "1970",
+    "url" : "https://imma.ie/collection/untitled-112/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-112",
-    "arco-cd:hasTitle" : "Untitled"
+    "hasTitle" : "Untitled"
   }, {
     "@id" : "spice:artefact/untitled-84",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/novoa-leopoldo",
     "author" : "spice:agent/novoa-leopoldo",
-    "schema:dateCreated" : "1981",
-    "schema:url" : "https://imma.ie/collection/untitled-84/",
+    "dateCreated" : "1981",
+    "url" : "https://imma.ie/collection/untitled-84/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-84",
-    "arco-cd:hasTitle" : "Untitled"
+    "hasTitle" : "Untitled"
   }, {
     "@id" : "spice:attribution/espace-metallise",
     "@type" : "arco:AuthorshipAttribution",
@@ -88,48 +88,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

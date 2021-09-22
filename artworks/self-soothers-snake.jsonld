@@ -1,0 +1,63 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/self-soothers-snake",
+    "@type" : "schema:CreativeWork",
+    "description" : "Hand Held (Snake) explores our need for intimacy, care and nurturing alongside our complex relationship with commodity culture and fast fashion. Snakes hang from the ceiling disconnected from their source and in a fast fashion skin. The snake, as a Celtic symbol for rebirth, healing, and wisdom, was understood to came from inside of the earth, holding the world’s secrets and wisdom, an earth healer. In time the snake became a Christian symbol for the devil and paganism, often depicted under the foot of the Virgin Mary.",
+    "source" : "https://imma.ie/collection/self-soothers-snake/",
+    "image" : "spice:documentation/self-soothers-snake",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "material" : "Re-assembled snake print items sourced from fast fashion cycles SS 2019, AW 2019, SS 2020 (Ireland) Textile, foam, pvc overflow pipe, hemp cord.(approx 3-5 parts per snake)",
+    "hasInventory" : "IMMA.4176"
+  }, {
+    "@id" : "spice:documentation/self-soothers-snake",
+    "@type" : "schema:ImageObject",
+    "caption" : "Sibyl Montague, SELF SOOTHERS (Snake), 2020, Re-assembled snake print items sourced from fast fashion cycles SS 2019, AW 2019, SS 2020 (Ireland) Textile, foam, pvc overflow pipe, hemp cord.(approx 3-5 parts per snake), Collection Irish Museum of Modern Art, 2020 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "url" : "https://imma.ie/wp-content/uploads/2021/05/9469.jpg"
+  } ],
+  "@context" : {
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

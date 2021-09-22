@@ -2,37 +2,33 @@
   "@graph" : [ {
     "@id" : "spice:artefact/moment",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Moment is a 1991 work by Antony Gormley. It is not currently on display in IMMA. ",
-    "dc:source" : "https://imma.ie/collection/moment/",
-    "schema:creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1995",
+    "description" : "Moment is a 1991 work by Antony Gormley. It is not currently on display in IMMA. ",
+    "source" : "https://imma.ie/collection/moment/",
+    "creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1995",
     "image" : "spice:documentation/moment",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Blood and semen on paper",
-    "schema:size" : "28 x 38 cm",
-    "arco-cd:hasInventory" : "L.704 LW"
+    "material" : "Blood and semen on paper",
+    "size" : "28 x 38 cm",
+    "hasInventory" : "L.704 LW"
   }, {
     "@id" : "spice:documentation/moment",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Antony Gormley, Moment, 1991, Blood and semen on paper, 28 x 38 cm, Collection Irish Museum of Modern Art, Loan, Weltkunst Foundation, 1995 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Antony Gormley, Moment, 1991, Blood and semen on paper, 28 x 38 cm, Collection Irish Museum of Modern Art, Loan, Weltkunst Foundation, 1995 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -43,20 +39,16 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

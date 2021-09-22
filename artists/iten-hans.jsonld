@@ -1,35 +1,30 @@
 {
   "@id" : "spice:agent/iten-hans",
   "@type" : "foaf:Person",
-  "dc:description" : "Swiss painter Hans Iten studied painting and drawing at the School of Art, St. Gall. Iten moved to Belfast in 1904 to work as a damask designer with linen manufacturers McCrum, Watson and Mercer Ltd. He was a member of the Belfast Art Society, vice-president of the Ulster Arts Club and one of the first nine academicians elected to the Ulster Academy in 1930. Iten’s work is held in major public collections including that of Queen’s University, Belfast; the Ulster Museum, Belfast and Dublin City Gallery The Hugh Lane.",
-  "dc:source" : "https://imma.ie/artists/hans-iten/",
-  "schema:birthDate" : "1874–1930",
-  "schema:url" : "https://imma.ie/artists/hans-iten/",
-  "rdfs:label" : "Hans Iten",
+  "description" : "Swiss painter Hans Iten studied painting and drawing at the School of Art, St. Gall. Iten moved to Belfast in 1904 to work as a damask designer with linen manufacturers McCrum, Watson and Mercer Ltd. He was a member of the Belfast Art Society, vice-president of the Ulster Arts Club and one of the first nine academicians elected to the Ulster Academy in 1930. Iten’s work is held in major public collections including that of Queen’s University, Belfast; the Ulster Museum, Belfast and Dublin City Gallery The Hugh Lane.",
+  "source" : "https://imma.ie/artists/hans-iten/",
+  "birthDate" : "1874–1930",
+  "url" : "https://imma.ie/artists/hans-iten/",
+  "label" : "Hans Iten",
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

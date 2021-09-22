@@ -2,62 +2,53 @@
   "@graph" : [ {
     "@id" : "spice:artefact/reclining-figure-and-small-motif",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Reclining Figure and Small Motif is a 1967 work by Henry Moore. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/reclining-figure-and-small-motif/",
-    "schema:creditText" : "IMMA Collection: Heritage Gift by the Bank of Ireland from the Bank of Ireland collection, 2008",
+    "description" : "Reclining Figure and Small Motif is a 1967 work by Henry Moore. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/reclining-figure-and-small-motif/",
+    "creditText" : "IMMA Collection: Heritage Gift by the Bank of Ireland from the Bank of Ireland collection, 2008",
     "image" : "spice:documentation/reclining-figure-and-small-motif",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Graphic, lithograph",
-    "schema:size" : "57 x 79 cm",
-    "schema:version" : "A/P",
-    "arco-cd:hasInventory" : "IMMA.2610"
+    "material" : "Graphic, lithograph",
+    "size" : "57 x 79 cm",
+    "version" : "A/P",
+    "hasInventory" : "IMMA.2610"
   }, {
     "@id" : "spice:documentation/reclining-figure-and-small-motif",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Henry Moore, Reclining Figure and Small Motif, 1967, Graphic, lithograph, 57 x 79 cm, Collection Irish Museum of Modern Art, Heritage Gift by the Bank of Ireland from the Bank of Ireland collection, 2008 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Henry Moore, Reclining Figure and Small Motif, 1967, Graphic, lithograph, 57 x 79 cm, Collection Irish Museum of Modern Art, Heritage Gift by the Bank of Ireland from the Bank of Ireland collection, 2008 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "image" : {
       "@id" : "http://schema.org/image",

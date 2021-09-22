@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/l-2",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Ciarán Murphy’s enigmatic paintings such as L-2 take their starting point from a wide-ranging and ever growing archive of images, found, collected and carefully arranged into categories by the artist. This unseen archive forms the backbone that haunts the finished works. Through a process of editing, erasing, overwriting or simply replacing what has been painted and unpainted, the work leaves a sense that is not quite of loss, or absence, but rather the presence of a non-thing.",
-    "dc:source" : "https://imma.ie/collection/l-2/",
-    "schema:creditText" : "IMMA Collection: Purchase, Hennessy Art Fund for IMMA Collection, 2017",
+    "description" : "Ciarán Murphy’s enigmatic paintings such as L-2 take their starting point from a wide-ranging and ever growing archive of images, found, collected and carefully arranged into categories by the artist. This unseen archive forms the backbone that haunts the finished works. Through a process of editing, erasing, overwriting or simply replacing what has been painted and unpainted, the work leaves a sense that is not quite of loss, or absence, but rather the presence of a non-thing.",
+    "source" : "https://imma.ie/collection/l-2/",
+    "creditText" : "IMMA Collection: Purchase, Hennessy Art Fund for IMMA Collection, 2017",
     "image" : "spice:documentation/l-2",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Oil on canvas",
-    "schema:size" : "120 x 150 cm",
-    "arco-cd:hasInventory" : "IMMA.4024"
+    "material" : "Oil on canvas",
+    "size" : "120 x 150 cm",
+    "hasInventory" : "IMMA.4024"
   }, {
     "@id" : "spice:documentation/l-2",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Ciarán Murphy, L-2, 2013, Oil on canvas, 120 x 150 cm, Collection Irish Museum of Modern Art, Purchase, Hennessy Art Fund for IMMA Collection, 2017 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Ciarán Murphy, L-2, 2013, Oil on canvas, 120 x 150 cm, Collection Irish Museum of Modern Art, Purchase, Hennessy Art Fund for IMMA Collection, 2017 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/8912.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/8912.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

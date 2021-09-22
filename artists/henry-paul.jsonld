@@ -2,78 +2,87 @@
   "@graph" : [ {
     "@id" : "spice:agent/henry-paul",
     "@type" : "foaf:Person",
-    "dc:description" : "Belfast born painter Paul Henry has been credited with the creation of a particular notion of Irish identity in the 20th century, based on the landscape and lifestyle of the West of Ireland. Henry worked as an illustrator in London until a visit to Achill Island in 1910 inspired him to turn to painting. Henry's paintings of Achill provided an image of Ireland that perfectly fitted the aspirations of the first post-independence governments. He moved to Dublin in 1919 and co- founded the Society of Dublin Painters in 1920. The National Gallery of Ireland held a major exhibition of Henry’s work in 2004.",
-    "dc:source" : "https://imma.ie/artists/paul-henry/",
-    "schema:birthDate" : "1876–1958",
-    "schema:url" : "https://imma.ie/artists/paul-henry/",
-    "rdfs:label" : "Paul Henry"
+    "description" : "Belfast born painter Paul Henry has been credited with the creation of a particular notion of Irish identity in the 20th century, based on the landscape and lifestyle of the West of Ireland. Henry worked as an illustrator in London until a visit to Achill Island in 1910 inspired him to turn to painting. Henry's paintings of Achill provided an image of Ireland that perfectly fitted the aspirations of the first post-independence governments. He moved to Dublin in 1919 and co- founded the Society of Dublin Painters in 1920. The National Gallery of Ireland held a major exhibition of Henry’s work in 2004.",
+    "source" : "https://imma.ie/artists/paul-henry/",
+    "birthDate" : "1876–1958",
+    "url" : "https://imma.ie/artists/paul-henry/",
+    "label" : "Paul Henry"
   }, {
     "@id" : "spice:artefact/errigal-co-donegal",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/henry-paul",
     "author" : "spice:agent/henry-paul",
-    "schema:dateCreated" : "1920",
-    "schema:url" : "https://imma.ie/collection/errigal-co-donegal/",
+    "dateCreated" : "1920",
+    "url" : "https://imma.ie/collection/errigal-co-donegal/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/errigal-co-donegal",
-    "arco-cd:hasTitle" : "Errigal, Co. Donegal"
+    "hasTitle" : "Errigal, Co. Donegal"
+  }, {
+    "@id" : "spice:artefact/lake-and-blue-mountains-of-connemara",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/henry-paul",
+    "author" : "spice:agent/henry-paul",
+    "dateCreated" : {
+      "@id" : "_:b0"
+    },
+    "url" : "https://imma.ie/collection/lake-and-blue-mountains-of-connemara/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/lake-and-blue-mountains-of-connemara",
+    "hasTitle" : "Lake and Blue Mountains of Connemara"
   }, {
     "@id" : "spice:attribution/errigal-co-donegal",
     "@type" : "arco:AuthorshipAttribution",
     "hasAttributedAuthor" : "spice:agent/henry-paul"
+  }, {
+    "@id" : "spice:attribution/lake-and-blue-mountains-of-connemara",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/henry-paul"
   } ],
   "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
-    "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
-    },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
-    "hasAttributedAuthor" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
-      "@type" : "@id"
-    },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
-    },
-    "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
-    },
-    "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
-    },
-    "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
-    },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

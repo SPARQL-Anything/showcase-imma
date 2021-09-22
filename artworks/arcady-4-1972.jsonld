@@ -2,71 +2,61 @@
   "@graph" : [ {
     "@id" : "spice:artefact/arcady-4-1972",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "In 1974, Scott created a series of six silk screen prints in editions of twenty-five for the retail shops of Kilkenny Design Workshops. Arcady 4 is one of the series. The shaded green geometric arcs of the print suggest flowing foliage and the natural world. The linen backgound adds to the earthiness of the work, despite its abstract form. During the 1970’s Scott also painted works that alluded to the elements as in his series of works titled, Pyre, Object and Fount.",
-    "dc:source" : "https://imma.ie/collection/arcady-4-1972/",
-    "schema:creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
+    "description" : "In 1974, Scott created a series of six silk screen prints in editions of twenty-five for the retail shops of Kilkenny Design Workshops. Arcady 4 is one of the series. The shaded green geometric arcs of the print suggest flowing foliage and the natural world. The linen backgound adds to the earthiness of the work, despite its abstract form. During the 1970’s Scott also painted works that alluded to the elements as in his series of works titled, Pyre, Object and Fount.",
+    "source" : "https://imma.ie/collection/arcady-4-1972/",
+    "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/arcady-4-1972",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Silkscreen on Irish linen",
-    "schema:size" : "61.1 x 61.2 cm",
-    "schema:version" : "Edition 8/25",
-    "arco-cd:hasInventory" : "IMMA.373 GL"
+    "material" : "Silkscreen on Irish linen",
+    "size" : "61.1 x 61.2 cm",
+    "version" : "Edition 8/25",
+    "hasInventory" : "IMMA.373 GL"
   }, {
     "@id" : "spice:documentation/arcady-4-1972",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Patrick Scott, Arcady 4, 1972, 1974, Silkscreen on Irish linen, 61.1 x 61.2 cm, Collection Irish Museum of Modern Art, Gordon Lambert Trust, 1992 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Patrick Scott, Arcady 4, 1972, 1974, Silkscreen on Irish linen, 61.1 x 61.2 cm, Collection Irish Museum of Modern Art, Gordon Lambert Trust, 1992 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/178.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/178.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

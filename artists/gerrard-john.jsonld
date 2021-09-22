@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/gerrard-john",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish artist John Gerrard attended the Ruskin School of Drawing and Fine Art, Oxford University; The Art Institute of Chicago and Trinity College, Dublin. In 2002 he was awarded a Pépinières Residency at Ars Electronica, Linz, where he developed his first works in Realtime 3D. Using this technology, Gerrard creates hyperreal environments imbued with an unnerving serenity and the potential to change or adapt. Gerrard has exhibited extensively since 2000, including solo exhibitions at Modern Art Oxford; Void Gallery, Derry; Perth Institute of Contemporary Art; Temple Bar Gallery and Studios, Dublin, and the RHA, Dublin.",
-    "dc:source" : "https://imma.ie/artists/john-gerrard/",
-    "schema:birthDate" : "b.1974",
-    "schema:url" : "https://imma.ie/artists/john-gerrard/",
-    "rdfs:label" : "John Gerrard"
+    "description" : [ "Irish artist John Gerrard attended the Ruskin School of Drawing and Fine Art, Oxford University; The Art Institute of Chicago and Trinity College, Dublin. In 2002 he was awarded a Pépinières Residency at Ars Electronica, Linz, where he developed his first works in Realtime 3D.", "In 2002 John Gerrard was awarded a Pépinières Residency at Ars Electronica, Linz, where he developed his first works in Realtime 3D. Using this technology, Gerrard creates hyper-real environments imbued with an unnerving serenity and the potential to change or adapt. " ],
+    "source" : "https://imma.ie/artists/john-gerrard/",
+    "birthDate" : "b.1974",
+    "url" : "https://imma.ie/artists/john-gerrard/",
+    "label" : "John Gerrard"
   }, {
     "@id" : "spice:artefact/dust-storm-manter-kansas",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/gerrard-john",
     "author" : "spice:agent/gerrard-john",
-    "schema:dateCreated" : "2008",
-    "schema:url" : "https://imma.ie/collection/dust-storm-manter-kansas/",
+    "dateCreated" : "2008",
+    "url" : "https://imma.ie/collection/dust-storm-manter-kansas/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/dust-storm-manter-kansas",
-    "arco-cd:hasTitle" : "Dust Storm (Manter, Kansas)"
+    "hasTitle" : "Dust Storm (Manter, Kansas)"
   }, {
     "@id" : "spice:attribution/dust-storm-manter-kansas",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,24 +28,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -56,24 +53,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

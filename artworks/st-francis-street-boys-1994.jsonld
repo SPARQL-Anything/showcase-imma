@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/st-francis-street-boys-1994",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "‘St. Francis Street Boys’, 1994 is the result of collaboration between American artist John Ahearn, the boys of 6th Class, St. Francis Street C.B.S., the Irish artist Una Keeley and IMMA. John Ahearn’s practice involves working with community groups, often groups whose access to fine art and museum culture has been limited. ",
-    "dc:source" : "https://imma.ie/collection/st-francis-street-boys-1994/",
-    "schema:creditText" : "IMMA Collection: Donated by the Artist, 1994",
+    "description" : "‘St. Francis Street Boys’, 1994 is the result of collaboration between American artist John Ahearn, the boys of 6th Class, St. Francis Street C.B.S., the Irish artist Una Keeley and IMMA. John Ahearn’s practice involves working with community groups, often groups whose access to fine art and museum culture has been limited. ",
+    "source" : "https://imma.ie/collection/st-francis-street-boys-1994/",
+    "creditText" : "IMMA Collection: Donated by the Artist, 1994",
     "image" : "spice:documentation/st-francis-street-boys-1994",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Plaster and acrylic paint",
-    "schema:size" : "Dimensions variable",
-    "arco-cd:hasInventory" : "IMMA.464"
+    "material" : "Plaster and acrylic paint",
+    "size" : "Dimensions variable",
+    "hasInventory" : "IMMA.464"
   }, {
     "@id" : "spice:documentation/st-francis-street-boys-1994",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "John Ahearn, St.Francis Street Boys 1994, 1994, Plaster and acrylic paint, Dimensions variable, Collection Irish Museum of Modern Art, Donated by the Artist, 1994 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "John Ahearn, St.Francis Street Boys 1994, 1994, Plaster and acrylic paint, Dimensions variable, Collection Irish Museum of Modern Art, Donated by the Artist, 1994 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2019/08/656.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2019/08/656.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

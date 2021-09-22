@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/kozloff-max",
     "@type" : "foaf:Person",
-    "dc:description" : "Max Kozloff was born in Chicago, Illinois, and graduated with a BA in History of Art at the University of Chicago. Following two years Army service he studied for an MA at the University of Chicago and later a PhD at the Institute of Fine Arts, New York University. In the 1960s Kozloff was art critic for ‘The Nation’, New York editor of ‘Art International’ and associate editor of ‘Artforum’ and won many awards for his work including, the Pulitzer Prize for Critical Writing and the Frank Jewett Mather Award for Art Criticism from the College Art Association of America. In 1976 Kozloff began working as a photographer. He received the Infinity Award for writing at the International Center of Photography in 1990.",
-    "dc:source" : "https://imma.ie/artists/max-kozloff/",
-    "schema:birthDate" : "b.1933",
-    "schema:url" : "https://imma.ie/artists/max-kozloff/",
-    "rdfs:label" : "Max Kozloff"
+    "description" : "Max Kozloff was born in Chicago, Illinois, and graduated with a BA in History of Art at the University of Chicago. Following two years Army service he studied for an MA at the University of Chicago and later a PhD at the Institute of Fine Arts, New York University. In the 1960s Kozloff was art critic for ‘The Nation’, New York editor of ‘Art International’ and associate editor of ‘Artforum’ and won many awards for his work including, the Pulitzer Prize for Critical Writing and the Frank Jewett Mather Award for Art Criticism from the College Art Association of America. In 1976 Kozloff began working as a photographer. He received the Infinity Award for writing at the International Center of Photography in 1990.",
+    "source" : "https://imma.ie/artists/max-kozloff/",
+    "birthDate" : "b.1933",
+    "url" : "https://imma.ie/artists/max-kozloff/",
+    "label" : "Max Kozloff"
   }, {
     "@id" : "spice:artefact/brian-odoherty-at-home-new-york",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/kozloff-max",
     "author" : "spice:agent/kozloff-max",
-    "schema:dateCreated" : "1989",
-    "schema:url" : "https://imma.ie/collection/brian-odoherty-at-home-new-york/",
+    "dateCreated" : "1989",
+    "url" : "https://imma.ie/collection/brian-odoherty-at-home-new-york/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/brian-odoherty-at-home-new-york",
-    "arco-cd:hasTitle" : "Brian O’Doherty at home, New York"
+    "hasTitle" : "Brian O’Doherty at home, New York"
   }, {
     "@id" : "spice:attribution/brian-odoherty-at-home-new-york",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,40 +24,33 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

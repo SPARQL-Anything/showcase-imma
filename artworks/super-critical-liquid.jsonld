@@ -1,0 +1,71 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/super-critical-liquid",
+    "@type" : "schema:CreativeWork",
+    "description" : "Sibyl Montague’s practice explores how we regard, hold, and consume objects and experiences within a politics of care. Her work explores trans-disciplinary forms of usability or handheld, making assemblage based works that combine vegetable, textile, digital and poor material sources, with the hacking of commodity goods and media.",
+    "source" : "https://imma.ie/collection/super-critical-liquid/",
+    "creditText" : "IMMA Collection: Purchase,2020, 2020",
+    "image" : "spice:documentation/super-critical-liquid",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "material" : "Soft drinks (mixers: ginger ale, bitter lemon, lemonade, sparkling water) polymer plaster, plastic",
+    "size" : "approx. each 35 x 12 x 12 cm",
+    "hasInventory" : "IMMA.4175"
+  }, {
+    "@id" : "spice:documentation/super-critical-liquid",
+    "@type" : "schema:ImageObject",
+    "caption" : "Sibyl Montague, Super Critical Liquid, 2017, Soft drinks (mixers: ginger ale, bitter lemon, lemonade, sparkling water) polymer plaster, plastic, approx. each 35 x 12 x 12 cm, Collection Irish Museum of Modern Art, Purchase,2020, 2020 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "url" : "https://imma.ie/wp-content/uploads/2021/04/9468.jpg"
+  } ],
+  "@context" : {
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

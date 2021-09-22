@@ -2,66 +2,57 @@
   "@graph" : [ {
     "@id" : "spice:artefact/beauty-parlor",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Adami’s most characteristic works generally resemble comic strips, with solid outlines and flat colouring. Occasionally, his work also borders on the surreal. Harsh, often neon, colours are combined with powerful, thick black lines. In ‘Beauty Parlour’ Adami combines inanimate objects with fragments of the human form. Objects are taken out of perspective and context to allow us to see them anew. The human condition is the main subject in his work, with the surrounding, seemingly unrelated objects serving as symbols of what composes it.",
-    "dc:source" : "https://imma.ie/collection/beauty-parlor/",
-    "schema:creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
+    "description" : "Adami’s most characteristic works generally resemble comic strips, with solid outlines and flat colouring. Occasionally, his work also borders on the surreal. Harsh, often neon, colours are combined with powerful, thick black lines. In ‘Beauty Parlour’ Adami combines inanimate objects with fragments of the human form. Objects are taken out of perspective and context to allow us to see them anew. The human condition is the main subject in his work, with the surrounding, seemingly unrelated objects serving as symbols of what composes it.",
+    "source" : "https://imma.ie/collection/beauty-parlor/",
+    "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/beauty-parlor",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Acrylic on canvas",
-    "schema:size" : "199.9 x 146.5 cm",
-    "arco-cd:hasInventory" : "IMMA.100 GL"
+    "material" : "Acrylic on canvas",
+    "size" : "199.9 x 146.5 cm",
+    "hasInventory" : "IMMA.100 GL"
   }, {
     "@id" : "spice:documentation/beauty-parlor",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Valerio Adami, Beauty Parlor, 1969, Acrylic on canvas, 199.9 x 146.5 cm, Collection Irish Museum of Modern Art, Gordon Lambert Trust, 1992 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Valerio Adami, Beauty Parlor, 1969, Acrylic on canvas, 199.9 x 146.5 cm, Collection Irish Museum of Modern Art, Gordon Lambert Trust, 1992 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2019/08/1862.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2019/08/1862.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

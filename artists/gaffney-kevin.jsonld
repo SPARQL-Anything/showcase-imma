@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/gaffney-kevin",
     "@type" : "foaf:Person",
-    "dc:description" : "Kevin Gaffney is a visual artist working in film and photography, living and working in Dublin. He graduated from the Royal College of Art's MA Photography &amp; Moving Image in 2011, and received an Honorary Mention from the Startpoint Prize for Emerging Artists. He was awarded a Sky Academy Arts Scholarship for the development of a new body of work (2015); was an UNESCO-Aschberg laureate artist in residence at the National Museum of Modern and Contemporary Art’s Changdong Residency in South Korea (2014); and received a Film Project Award from the Arts Council of Ireland for the creation of a new film while artist in residence at the Taipei Artist Village, Taiwan (2014). His work has been shown in exhibitions and film festivals internationally, including: Out There, Thataway at CCA Derry~Londonderry (2015); the Alchemy Film &amp; Moving Image Festival (Scotland, 2015); We at Catalyst Arts (Belfast, 2012); Abandon Normal Devices at Cornerhouse (Manchester, 2012); and solo exhibitions at the Linenhall Arts Centre (2015), the Contemporary Art Institute CAI02 (as part of the Sapporo International Art Festival, Japan, 2014); the Galway Arts Centre (2013); and RUA RED South Dublin Arts Centre (2011).",
-    "dc:source" : "https://imma.ie/artists/kevin-gaffney/",
-    "schema:birthDate" : "b.1987",
-    "schema:url" : "https://imma.ie/artists/kevin-gaffney/",
-    "rdfs:label" : "Kevin Gaffney"
+    "description" : "Kevin Gaffney is a visual artist working in film and photography, living and working in Dublin. He graduated from the Royal College of Art's MA Photography &amp; Moving Image in 2011, and received an Honorary Mention from the Startpoint Prize for Emerging Artists. He was awarded a Sky Academy Arts Scholarship for the development of a new body of work (2015); was an UNESCO-Aschberg laureate artist in residence at the National Museum of Modern and Contemporary Art’s Changdong Residency in South Korea (2014); and received a Film Project Award from the Arts Council of Ireland for the creation of a new film while artist in residence at the Taipei Artist Village, Taiwan (2014). His work has been shown in exhibitions and film festivals internationally, including: Out There, Thataway at CCA Derry~Londonderry (2015); the Alchemy Film &amp; Moving Image Festival (Scotland, 2015); We at Catalyst Arts (Belfast, 2012); Abandon Normal Devices at Cornerhouse (Manchester, 2012); and solo exhibitions at the Linenhall Arts Centre (2015), the Contemporary Art Institute CAI02 (as part of the Sapporo International Art Festival, Japan, 2014); the Galway Arts Centre (2013); and RUA RED South Dublin Arts Centre (2011).",
+    "source" : "https://imma.ie/artists/kevin-gaffney/",
+    "birthDate" : "b.1987",
+    "url" : "https://imma.ie/artists/kevin-gaffney/",
+    "label" : "Kevin Gaffney"
   }, {
     "@id" : "spice:artefact/everything-disappears",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/gaffney-kevin",
     "author" : "spice:agent/gaffney-kevin",
-    "schema:dateCreated" : "2014",
-    "schema:url" : "https://imma.ie/collection/everything-disappears/",
+    "dateCreated" : "2014",
+    "url" : "https://imma.ie/collection/everything-disappears/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/everything-disappears",
-    "arco-cd:hasTitle" : "Everything Disappears"
+    "hasTitle" : "Everything Disappears"
   }, {
     "@id" : "spice:attribution/everything-disappears",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,40 +28,33 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -2,201 +2,201 @@
   "@graph" : [ {
     "@id" : "spice:agent/scott-patrick",
     "@type" : "foaf:Person",
-    "dc:description" : [ "Patrick Scott (1921 – 2014) was born in Kilbrittain, Co Cork, and trained as an architect.studied architecture at University College Dublin. He went on to work with the architect Michael Scott and as a graphic designer with Signa Design Consultancy. Scott painted in his spare time and, while still a student, exhibited with the avant-garde White Stag Group. In 1960 he represented Ireland at the Venice Biennale. The same year he won a National Prize at the Guggenheim International Award and turned to painting full-time.", "Patrick Scott is recognised as one of the first exponents of pure abstraction in Irish art and a significant contributor to the development of modernist design in Ireland. He was elected a Saoi of Aosdána in 2007. Retrospectives of his work were held at the Douglas Hyde Gallery (1982) and Dublin City Gallery The Hugh Lane (2002) and a seminal 2014 exhibition ‘Patrick Scott: Image Space Light' which brought together the most comprehensive representation of this remarkable artist’s 75 year long career." ],
-    "dc:source" : "https://imma.ie/artists/patrick-scott/",
-    "schema:birthDate" : "1921–2014",
-    "schema:url" : "https://imma.ie/artists/patrick-scott/",
-    "rdfs:label" : "Patrick Scott"
+    "description" : [ "Patrick Scott (1921 – 2014) was born in Kilbrittain, Co Cork, and trained as an architect.studied architecture at University College Dublin. He went on to work with the architect Michael Scott and as a graphic designer with Signa Design Consultancy. Scott painted in his spare time and, while still a student, exhibited with the avant-garde White Stag Group. In 1960 he represented Ireland at the Venice Biennale. The same year he won a National Prize at the Guggenheim International Award and turned to painting full-time.", "Patrick Scott is recognised as one of the first exponents of pure abstraction in Irish art and a significant contributor to the development of modernist design in Ireland. He was elected a Saoi of Aosdána in 2007. Retrospectives of his work were held at the Douglas Hyde Gallery (1982) and Dublin City Gallery The Hugh Lane (2002) and a seminal 2014 exhibition ‘Patrick Scott: Image Space Light' which brought together the most comprehensive representation of this remarkable artist’s 75 year long career." ],
+    "source" : "https://imma.ie/artists/patrick-scott/",
+    "birthDate" : "1921–2014",
+    "url" : "https://imma.ie/artists/patrick-scott/",
+    "label" : "Patrick Scott"
   }, {
     "@id" : "spice:artefact/arcady-4-1972",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/scott-patrick",
     "author" : "spice:agent/scott-patrick",
-    "schema:dateCreated" : "1974",
-    "schema:url" : "https://imma.ie/collection/arcady-4-1972/",
+    "dateCreated" : "1974",
+    "url" : "https://imma.ie/collection/arcady-4-1972/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/arcady-4-1972",
-    "arco-cd:hasTitle" : "Arcady 4, 1972"
+    "hasTitle" : "Arcady 4, 1972"
   }, {
     "@id" : "spice:artefact/autumnal-landscape",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/scott-patrick",
     "author" : "spice:agent/scott-patrick",
-    "schema:dateCreated" : "1964",
-    "schema:url" : "https://imma.ie/collection/autumnal-landscape/",
+    "dateCreated" : "1964",
+    "url" : "https://imma.ie/collection/autumnal-landscape/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/autumnal-landscape",
-    "arco-cd:hasTitle" : "Autumnal Landscape"
+    "hasTitle" : "Autumnal Landscape"
   }, {
     "@id" : "spice:artefact/chinese-landscape",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/scott-patrick",
     "author" : "spice:agent/scott-patrick",
-    "schema:dateCreated" : "1986",
-    "schema:url" : "https://imma.ie/collection/chinese-landscape/",
+    "dateCreated" : "1986",
+    "url" : "https://imma.ie/collection/chinese-landscape/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/chinese-landscape",
-    "arco-cd:hasTitle" : "Chinese Landscape"
+    "hasTitle" : "Chinese Landscape"
   }, {
     "@id" : "spice:artefact/device",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/scott-patrick",
     "author" : "spice:agent/scott-patrick",
-    "schema:dateCreated" : "1971",
-    "schema:url" : "https://imma.ie/collection/device/",
+    "dateCreated" : "1971",
+    "url" : "https://imma.ie/collection/device/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/device",
-    "arco-cd:hasTitle" : "Device"
+    "hasTitle" : "Device"
   }, {
     "@id" : "spice:artefact/device-1971",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/scott-patrick",
     "author" : "spice:agent/scott-patrick",
-    "schema:dateCreated" : "2013",
-    "schema:url" : "https://imma.ie/collection/device-1971/",
+    "dateCreated" : "2013",
+    "url" : "https://imma.ie/collection/device-1971/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/device-1971",
-    "arco-cd:hasTitle" : "Device (1971)"
+    "hasTitle" : "Device (1971)"
   }, {
     "@id" : "spice:artefact/ducks-going-to-sea",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/scott-patrick",
     "author" : "spice:agent/scott-patrick",
-    "schema:dateCreated" : "1944",
-    "schema:url" : "https://imma.ie/collection/ducks-going-to-sea/",
+    "dateCreated" : "1944",
+    "url" : "https://imma.ie/collection/ducks-going-to-sea/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/ducks-going-to-sea",
-    "arco-cd:hasTitle" : "Ducks Going to Sea"
+    "hasTitle" : "Ducks Going to Sea"
   }, {
     "@id" : "spice:artefact/e10",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/scott-patrick",
     "author" : "spice:agent/scott-patrick",
-    "schema:dateCreated" : "1978",
-    "schema:url" : "https://imma.ie/collection/e10/",
+    "dateCreated" : "1978",
+    "url" : "https://imma.ie/collection/e10/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/e10",
-    "arco-cd:hasTitle" : "E10"
+    "hasTitle" : "E10"
   }, {
     "@id" : "spice:artefact/e13",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/scott-patrick",
     "author" : "spice:agent/scott-patrick",
-    "schema:dateCreated" : "1978",
-    "schema:url" : "https://imma.ie/collection/e13/",
+    "dateCreated" : "1978",
+    "url" : "https://imma.ie/collection/e13/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/e13",
-    "arco-cd:hasTitle" : "E13"
+    "hasTitle" : "E13"
   }, {
     "@id" : "spice:artefact/gold-painting-34",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/scott-patrick",
     "author" : "spice:agent/scott-patrick",
-    "schema:dateCreated" : "1965",
-    "schema:url" : "https://imma.ie/collection/gold-painting-34/",
+    "dateCreated" : "1965",
+    "url" : "https://imma.ie/collection/gold-painting-34/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/gold-painting-34",
-    "arco-cd:hasTitle" : "Gold Painting 34"
+    "hasTitle" : "Gold Painting 34"
   }, {
     "@id" : "spice:artefact/gold-painting-47",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/scott-patrick",
     "author" : "spice:agent/scott-patrick",
-    "schema:dateCreated" : "1969",
-    "schema:url" : "https://imma.ie/collection/gold-painting-47/",
+    "dateCreated" : "1969",
+    "url" : "https://imma.ie/collection/gold-painting-47/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/gold-painting-47",
-    "arco-cd:hasTitle" : "Gold Painting 47"
+    "hasTitle" : "Gold Painting 47"
   }, {
     "@id" : "spice:artefact/hats-off-for-camille",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/scott-patrick",
     "author" : "spice:agent/scott-patrick",
-    "schema:dateCreated" : "1976",
-    "schema:url" : "https://imma.ie/collection/hats-off-for-camille/",
+    "dateCreated" : "1976",
+    "url" : "https://imma.ie/collection/hats-off-for-camille/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/hats-off-for-camille",
-    "arco-cd:hasTitle" : "Hats off for Camille"
+    "hasTitle" : "Hats off for Camille"
   }, {
     "@id" : "spice:artefact/large-rosc-symbol",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/scott-patrick",
     "author" : "spice:agent/scott-patrick",
-    "schema:dateCreated" : "1971",
-    "schema:url" : "https://imma.ie/collection/large-rosc-symbol/",
+    "dateCreated" : "1971",
+    "url" : "https://imma.ie/collection/large-rosc-symbol/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/large-rosc-symbol",
-    "arco-cd:hasTitle" : "Large Rosc Symbol"
+    "hasTitle" : "Large Rosc Symbol"
   }, {
     "@id" : "spice:artefact/meditation-painting-11",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/scott-patrick",
     "author" : "spice:agent/scott-patrick",
-    "schema:dateCreated" : "2006",
-    "schema:url" : "https://imma.ie/collection/meditation-painting-11/",
+    "dateCreated" : "2006",
+    "url" : "https://imma.ie/collection/meditation-painting-11/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/meditation-painting-11",
-    "arco-cd:hasTitle" : "Meditation Painting 11"
+    "hasTitle" : "Meditation Painting 11"
   }, {
     "@id" : "spice:artefact/meditation-painting-28",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/scott-patrick",
     "author" : "spice:agent/scott-patrick",
-    "schema:dateCreated" : "2007",
-    "schema:url" : "https://imma.ie/collection/meditation-painting-28/",
+    "dateCreated" : "2007",
+    "url" : "https://imma.ie/collection/meditation-painting-28/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/meditation-painting-28",
-    "arco-cd:hasTitle" : "Meditation Painting 28"
+    "hasTitle" : "Meditation Painting 28"
   }, {
     "@id" : "spice:artefact/meditation-table-ix",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/scott-patrick",
     "author" : "spice:agent/scott-patrick",
-    "schema:dateCreated" : "1991",
-    "schema:url" : "https://imma.ie/collection/meditation-table-ix/",
+    "dateCreated" : "1991",
+    "url" : "https://imma.ie/collection/meditation-table-ix/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/meditation-table-ix",
-    "arco-cd:hasTitle" : "Meditation Table IX"
+    "hasTitle" : "Meditation Table IX"
   }, {
     "@id" : "spice:artefact/rosc-diptych",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/scott-patrick",
     "author" : "spice:agent/scott-patrick",
-    "schema:dateCreated" : "1967",
-    "schema:url" : "https://imma.ie/collection/rosc-diptych/",
+    "dateCreated" : "1967",
+    "url" : "https://imma.ie/collection/rosc-diptych/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/rosc-diptych",
-    "arco-cd:hasTitle" : "Rosc Diptych"
+    "hasTitle" : "Rosc Diptych"
   }, {
     "@id" : "spice:artefact/small-rosc-symbol",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/scott-patrick",
     "author" : "spice:agent/scott-patrick",
-    "schema:dateCreated" : "1967",
-    "schema:url" : "https://imma.ie/collection/small-rosc-symbol/",
+    "dateCreated" : "1967",
+    "url" : "https://imma.ie/collection/small-rosc-symbol/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/small-rosc-symbol",
-    "arco-cd:hasTitle" : "Small Rosc Symbol"
+    "hasTitle" : "Small Rosc Symbol"
   }, {
     "@id" : "spice:artefact/untitled-10",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/scott-patrick",
     "author" : "spice:agent/scott-patrick",
-    "schema:dateCreated" : "2009",
-    "schema:url" : "https://imma.ie/collection/untitled-10/",
+    "dateCreated" : "2009",
+    "url" : "https://imma.ie/collection/untitled-10/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-10",
-    "arco-cd:hasTitle" : "Untitled"
+    "hasTitle" : "Untitled"
   }, {
     "@id" : "spice:artefact/wet-day",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/scott-patrick",
     "author" : "spice:agent/scott-patrick",
-    "schema:dateCreated" : "1949",
-    "schema:url" : "https://imma.ie/collection/wet-day/",
+    "dateCreated" : "1949",
+    "url" : "https://imma.ie/collection/wet-day/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/wet-day",
-    "arco-cd:hasTitle" : "Wet day"
+    "hasTitle" : "Wet day"
   }, {
     "@id" : "spice:attribution/arcady-4-1972",
     "@type" : "arco:AuthorshipAttribution",
@@ -280,24 +280,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -308,24 +305,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

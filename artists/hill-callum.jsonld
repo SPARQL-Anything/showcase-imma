@@ -1,30 +1,26 @@
 {
   "@id" : "spice:agent/hill-callum",
   "@type" : "foaf:Person",
-  "dc:description" : [ "Callum Hill is a London based artist filmmaker working primarily in moving image. Her films are led by real characters, locations and experiences. From these factual starting points she constructs idiosyncratic, at times erratic, narratives that move between the personal and the political. Hill’s work is politically charged and empathetic to the human condition and often dealing with narratives around alienation and identity.", "Callum Hills films are led by real characters, locations and experiences. From these factual starting points she constructs idiosyncratic, at times erratic, narratives that move between the personal and the political. " ],
-  "dc:source" : "https://imma.ie/artists/callum-hill/",
-  "schema:url" : "https://imma.ie/artists/callum-hill/",
-  "rdfs:label" : "Callum Hill",
+  "description" : [ "Callum Hill is a London based artist filmmaker working primarily in moving image. Her films are led by real characters, locations and experiences. From these factual starting points she constructs idiosyncratic, at times erratic, narratives that move between the personal and the political. Hill’s work is politically charged and empathetic to the human condition and often dealing with narratives around alienation and identity.", "Callum Hills films are led by real characters, locations and experiences. From these factual starting points she constructs idiosyncratic, at times erratic, narratives that move between the personal and the political. " ],
+  "source" : "https://imma.ie/artists/callum-hill/",
+  "url" : "https://imma.ie/artists/callum-hill/",
+  "label" : "Callum Hill",
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

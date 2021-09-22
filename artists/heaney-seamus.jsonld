@@ -2,61 +2,61 @@
   "@graph" : [ {
     "@id" : "spice:agent/heaney-seamus",
     "@type" : "foaf:Person",
-    "dc:description" : "Born near Castledawson, Co. Derry, Seamus Heaney studied at Queen's University, Belfast. His major poetry collections include Death of a Naturalist (1966), and The Haw Lantern (1987), which won the Whitbread Poetry Award. His collection The Spirit Level (1996) and translation of Beowulf (1999) both won the Whitbread Book of the Year Award. Heaney also published several works of prose and criticism, translated two plays by Sophocles, and co-edited two selections of poetry with Ted Hughes, The Rattle Bag (1982) and The School Bag (1997). He taught English and poetry at Queen's University and at Harvard University, and was professor of poetry at Oxford University from 1989 to 1994. Heaney won the Nobel Prize for Literature in 1995, was made a Commandeur de L'Ordre des Arts et Lettres by the French Ministry of Culture in 1996, and elected Saoi of Aosdána in 1997.",
-    "dc:source" : "https://imma.ie/artists/seamus-heaney/",
-    "schema:birthDate" : "1939–2013",
-    "schema:url" : "https://imma.ie/artists/seamus-heaney/",
-    "rdfs:label" : "Seamus Heaney"
+    "description" : "Born near Castledawson, Co. Derry, Seamus Heaney studied at Queen's University, Belfast. His major poetry collections include Death of a Naturalist (1966), and The Haw Lantern (1987), which won the Whitbread Poetry Award. His collection The Spirit Level (1996) and translation of Beowulf (1999) both won the Whitbread Book of the Year Award. Heaney also published several works of prose and criticism, translated two plays by Sophocles, and co-edited two selections of poetry with Ted Hughes, The Rattle Bag (1982) and The School Bag (1997). He taught English and poetry at Queen's University and at Harvard University, and was professor of poetry at Oxford University from 1989 to 1994. Heaney won the Nobel Prize for Literature in 1995, was made a Commandeur de L'Ordre des Arts et Lettres by the French Ministry of Culture in 1996, and elected Saoi of Aosdána in 1997.",
+    "source" : "https://imma.ie/artists/seamus-heaney/",
+    "birthDate" : "1939–2013",
+    "url" : "https://imma.ie/artists/seamus-heaney/",
+    "label" : "Seamus Heaney"
   }, {
     "@id" : "spice:artefact/glanmore-sonnets-von-seamus-heaney-mit-pastellen-von-cecil-king",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/heaney-seamus",
     "author" : "spice:agent/heaney-seamus",
-    "schema:dateCreated" : "1977",
-    "schema:url" : "https://imma.ie/collection/glanmore-sonnets-von-seamus-heaney-mit-pastellen-von-cecil-king/",
+    "dateCreated" : "1977",
+    "url" : "https://imma.ie/collection/glanmore-sonnets-von-seamus-heaney-mit-pastellen-von-cecil-king/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/glanmore-sonnets-von-seamus-heaney-mit-pastellen-von-cecil-king",
-    "arco-cd:hasTitle" : "Glanmore Sonnets von Seamus Heaney mit Pastellen von Cecil King"
+    "hasTitle" : "Glanmore Sonnets von Seamus Heaney mit Pastellen von Cecil King"
   }, {
     "@id" : "spice:artefact/gutteral-muse",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/heaney-seamus",
     "author" : "spice:agent/heaney-seamus",
-    "schema:dateCreated" : "2009",
-    "schema:url" : "https://imma.ie/collection/gutteral-muse/",
+    "dateCreated" : "2009",
+    "url" : "https://imma.ie/collection/gutteral-muse/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/gutteral-muse",
-    "arco-cd:hasTitle" : "Gutteral Muse"
+    "hasTitle" : "Gutteral Muse"
   }, {
     "@id" : "spice:artefact/in-the-boathouse",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/heaney-seamus",
     "author" : "spice:agent/heaney-seamus",
-    "schema:dateCreated" : "2009",
-    "schema:url" : "https://imma.ie/collection/in-the-boathouse/",
+    "dateCreated" : "2009",
+    "url" : "https://imma.ie/collection/in-the-boathouse/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/in-the-boathouse",
-    "arco-cd:hasTitle" : "In the Boathouse"
+    "hasTitle" : "In the Boathouse"
   }, {
     "@id" : "spice:artefact/the-names-of-the-hare-1982",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/heaney-seamus",
     "author" : "spice:agent/heaney-seamus",
-    "schema:dateCreated" : "2006",
-    "schema:url" : "https://imma.ie/collection/the-names-of-the-hare-1982/",
+    "dateCreated" : "2006",
+    "url" : "https://imma.ie/collection/the-names-of-the-hare-1982/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-names-of-the-hare-1982",
-    "arco-cd:hasTitle" : "The Names of the Hare, 1982"
+    "hasTitle" : "The Names of the Hare, 1982"
   }, {
     "@id" : "spice:artefact/the-testament-of-cresseid",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/heaney-seamus",
     "author" : "spice:agent/heaney-seamus",
-    "schema:dateCreated" : "2004",
-    "schema:url" : "https://imma.ie/collection/the-testament-of-cresseid/",
+    "dateCreated" : "2004",
+    "url" : "https://imma.ie/collection/the-testament-of-cresseid/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-testament-of-cresseid",
-    "arco-cd:hasTitle" : "The Testament of Cresseid"
+    "hasTitle" : "The Testament of Cresseid"
   }, {
     "@id" : "spice:attribution/glanmore-sonnets-von-seamus-heaney-mit-pastellen-von-cecil-king",
     "@type" : "arco:AuthorshipAttribution",
@@ -88,48 +88,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

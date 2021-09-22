@@ -1,30 +1,26 @@
 {
   "@id" : "spice:agent/harahan-seamus",
   "@type" : "foaf:Person",
-  "dc:description" : [ "Seamus Harahan’s practice encompasses video, film, sound and installation. Many of his works do not aim for a conventional narrative and are edited together with “collected songs and fragments of fragmented history”. From 1996 to 1998 Harahan was the director of Catalyst Arts Belfast during which time he undertook a residency at IMMA with Catalyst Arts. Harahan has won multiple awards, including the prestigious Film London Jarman Award in 2015, and the Paul Hamlyn Foundation Award for Artists in 2009.", "Seamus Harahan’s practice encompasses video, film, sound and installation. Many of his works do not aim for a conventional narrative and are edited together with “collected songs and fragments of fragmented history”." ],
-  "dc:source" : "https://imma.ie/artists/seamus-harahan/",
-  "schema:url" : "https://imma.ie/artists/seamus-harahan/",
-  "rdfs:label" : "Seamus Harahan",
+  "description" : [ "Seamus Harahan’s practice encompasses video, film, sound and installation. Many of his works do not aim for a conventional narrative and are edited together with “collected songs and fragments of fragmented history”. From 1996 to 1998 Harahan was the director of Catalyst Arts Belfast during which time he undertook a residency at IMMA with Catalyst Arts. Harahan has won multiple awards, including the prestigious Film London Jarman Award in 2015, and the Paul Hamlyn Foundation Award for Artists in 2009.", "Seamus Harahan’s practice encompasses video, film, sound and installation. Many of his works do not aim for a conventional narrative and are edited together with “collected songs and fragments of fragmented history”." ],
+  "source" : "https://imma.ie/artists/seamus-harahan/",
+  "url" : "https://imma.ie/artists/seamus-harahan/",
+  "label" : "Seamus Harahan",
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

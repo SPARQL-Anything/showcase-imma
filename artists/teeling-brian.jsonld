@@ -1,35 +1,30 @@
 {
   "@id" : "spice:agent/teeling-brian",
   "@type" : "foaf:Person",
-  "dc:description" : [ "Brian Teeling’s practice explores ways of interrogating the medium of photography through an honest, autobiographical account of his lived experience. The work created often ranges from the context of public space to the innately private, often focusing on the trappings of queer, working-class, and masculine identities. Through his interests in music, cinema, fashion, literature, and activism he examines the purported rituals that can sometimes permeate these communities. The resulting work is translated into various forms; CCTV tubes, projected image, clothing, unlimited edition prints, installation, electronic devices, and full-scale sculptural work for expanded topics.", "Irish artist Brian Teeling’s work ranges from the context of the public space to the innately private, often focusing on the trappings of the queer and working-class identity. " ],
-  "dc:source" : "https://imma.ie/artists/brian-teeling/",
-  "schema:birthDate" : "b.1987",
-  "schema:url" : "https://imma.ie/artists/brian-teeling/",
-  "rdfs:label" : "Brian Teeling",
+  "description" : [ "Brian Teeling’s practice explores ways of interrogating the medium of photography through an honest, autobiographical account of his lived experience. The work created often ranges from the context of public space to the innately private, often focusing on the trappings of queer, working-class, and masculine identities. Through his interests in music, cinema, fashion, literature, and activism he examines the purported rituals that can sometimes permeate these communities. The resulting work is translated into various forms; CCTV tubes, projected image, clothing, unlimited edition prints, installation, electronic devices, and full-scale sculptural work for expanded topics.", "Irish artist Brian Teeling’s work ranges from the context of the public space to the innately private, often focusing on the trappings of the queer and working-class identity. " ],
+  "source" : "https://imma.ie/artists/brian-teeling/",
+  "birthDate" : "b.1987",
+  "url" : "https://imma.ie/artists/brian-teeling/",
+  "label" : "Brian Teeling",
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

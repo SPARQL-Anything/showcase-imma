@@ -2,66 +2,57 @@
   "@graph" : [ {
     "@id" : "spice:artefact/milagro-amoroso",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Milagro Amoroso is a 1986 work by Alfonso Monreal. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/milagro-amoroso/",
-    "schema:creditText" : "IMMA Collection: Purchase, 1996",
+    "description" : "Milagro Amoroso is a 1986 work by Alfonso Monreal. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/milagro-amoroso/",
+    "creditText" : "IMMA Collection: Purchase, 1996",
     "image" : "spice:documentation/milagro-amoroso",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Print",
-    "schema:size" : "43.5 x 52 cm",
-    "schema:version" : "Edition 5/25",
-    "arco-cd:hasInventory" : "IMMA.747"
+    "material" : "Print",
+    "size" : "43.5 x 52 cm",
+    "version" : "Edition 5/25",
+    "hasInventory" : "IMMA.747"
   }, {
     "@id" : "spice:documentation/milagro-amoroso",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Alfonso Monreal, Milagro Amoroso, 1986, Print, 43.5 x 52 cm, Collection Irish Museum of Modern Art, Purchase, 1996 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Alfonso Monreal, Milagro Amoroso, 1986, Print, 43.5 x 52 cm, Collection Irish Museum of Modern Art, Purchase, 1996 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

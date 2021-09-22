@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/beattie-david",
     "@type" : "foaf:Person",
-    "dc:description" : [ "David Beattie is an artist who lives and works in Dublin, Ireland.", "Living and working in Dublin, David Beattie is an artist who encourages a sense of curiosity and exploration in the act of displacing commonplace objects. Assembled from a variety of everyday materials his work attempts to provide a framework for assessing our daily surroundings. " ],
-    "dc:source" : "https://imma.ie/artists/david-beattie/",
-    "schema:birthDate" : "b.1979",
-    "schema:url" : "https://imma.ie/artists/david-beattie/",
-    "rdfs:label" : "David Beattie"
+    "description" : [ "David Beattie is an artist who lives and works in Dublin, Ireland.", "Living and working in Dublin, David Beattie is an artist who encourages a sense of curiosity and exploration in the act of displacing commonplace objects. Assembled from a variety of everyday materials his work attempts to provide a framework for assessing our daily surroundings. " ],
+    "source" : "https://imma.ie/artists/david-beattie/",
+    "birthDate" : "b.1979",
+    "url" : "https://imma.ie/artists/david-beattie/",
+    "label" : "David Beattie"
   }, {
     "@id" : "spice:artefact/the-impossibility-of-an-island",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/beattie-david",
     "author" : "spice:agent/beattie-david",
-    "schema:dateCreated" : "2015",
-    "schema:url" : "https://imma.ie/collection/the-impossibility-of-an-island/",
+    "dateCreated" : "2015",
+    "url" : "https://imma.ie/collection/the-impossibility-of-an-island/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-impossibility-of-an-island",
-    "arco-cd:hasTitle" : "The Impossibility of an Island"
+    "hasTitle" : "The Impossibility of an Island"
   }, {
     "@id" : "spice:attribution/the-impossibility-of-an-island",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,24 +28,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -56,24 +53,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

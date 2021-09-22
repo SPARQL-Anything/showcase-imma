@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/pasmore-victor",
     "@type" : "foaf:Person",
-    "dc:description" : "British abstract artist Victor Pasmore (1908-1998) was born in Surrey. While working at County Hall in London, he attended evening classes at the Central School of Arts and Crafts. In 1933 Pasmore was elected a member of the London Artists’ Association and in 1937 helped found the Euston Road School. Pasmore was awarded the C.B.E. in 1959 and represented Britain at the Venice Biennale the following year.",
-    "dc:source" : "https://imma.ie/artists/victor-pasmore/",
-    "schema:birthDate" : "1908–1998",
-    "schema:url" : "https://imma.ie/artists/victor-pasmore/",
-    "rdfs:label" : "Victor Pasmore"
+    "description" : "British abstract artist Victor Pasmore (1908-1998) was born in Surrey. While working at County Hall in London, he attended evening classes at the Central School of Arts and Crafts. In 1933 Pasmore was elected a member of the London Artists’ Association and in 1937 helped found the Euston Road School. Pasmore was awarded the C.B.E. in 1959 and represented Britain at the Venice Biennale the following year.",
+    "source" : "https://imma.ie/artists/victor-pasmore/",
+    "birthDate" : "1908–1998",
+    "url" : "https://imma.ie/artists/victor-pasmore/",
+    "label" : "Victor Pasmore"
   }, {
     "@id" : "spice:artefact/points-of-contact-transformation-2",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/pasmore-victor",
     "author" : "spice:agent/pasmore-victor",
-    "schema:dateCreated" : "1970",
-    "schema:url" : "https://imma.ie/collection/points-of-contact-transformation-2/",
+    "dateCreated" : "1970",
+    "url" : "https://imma.ie/collection/points-of-contact-transformation-2/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/points-of-contact-transformation-2",
-    "arco-cd:hasTitle" : "Points of Contact Transformation 2"
+    "hasTitle" : "Points of Contact Transformation 2"
   }, {
     "@id" : "spice:attribution/points-of-contact-transformation-2",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,24 +24,19 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -52,16 +47,14 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

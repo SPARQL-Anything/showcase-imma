@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/vollmer-ruth",
     "@type" : "foaf:Person",
-    "dc:description" : "German sculptor and designer Ruth Vollmer (1903-1982) moved to New York in 1935 where she began designing window displays for department stores including Bonwit Teller, Tiffany’s and Lord &amp; Taylor. Fabricated in a range of media including wood, metal, ceramic and acrylic plastic, Vollmer’s sculptural works from the 1960s and 1970s combine exacting craftsmanship and a fascination with mathematical theory. She exhibited frequently at the Betty Parsons Gallery, New York, and influenced younger American artists such as Eva Hesse, Donald Judd, and Sol LeWitt.",
-    "dc:source" : "https://imma.ie/artists/ruth-vollmer/",
-    "schema:birthDate" : "1903–1982",
-    "schema:url" : "https://imma.ie/artists/ruth-vollmer/",
-    "rdfs:label" : "Ruth Vollmer"
+    "description" : "German sculptor and designer Ruth Vollmer (1903-1982) moved to New York in 1935 where she began designing window displays for department stores including Bonwit Teller, Tiffany’s and Lord &amp; Taylor. Fabricated in a range of media including wood, metal, ceramic and acrylic plastic, Vollmer’s sculptural works from the 1960s and 1970s combine exacting craftsmanship and a fascination with mathematical theory. She exhibited frequently at the Betty Parsons Gallery, New York, and influenced younger American artists such as Eva Hesse, Donald Judd, and Sol LeWitt.",
+    "source" : "https://imma.ie/artists/ruth-vollmer/",
+    "birthDate" : "1903–1982",
+    "url" : "https://imma.ie/artists/ruth-vollmer/",
+    "label" : "Ruth Vollmer"
   }, {
     "@id" : "spice:artefact/archimedean-spiral",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/vollmer-ruth",
     "author" : "spice:agent/vollmer-ruth",
-    "schema:dateCreated" : "1973",
-    "schema:url" : "https://imma.ie/collection/archimedean-spiral/",
+    "dateCreated" : "1973",
+    "url" : "https://imma.ie/collection/archimedean-spiral/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/archimedean-spiral",
-    "arco-cd:hasTitle" : "Archimedean Spiral"
+    "hasTitle" : "Archimedean Spiral"
   }, {
     "@id" : "spice:attribution/archimedean-spiral",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,40 +28,33 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

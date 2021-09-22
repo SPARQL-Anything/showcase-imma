@@ -4,40 +4,40 @@
     "@type" : "foaf:Person",
     "description" : "_:b0",
     "dc:description" : "IIrish artist Clare Langan studied fine art at the National College of Art and Design, Dublin. She received a Fulbright Scholarship to New York University in 1992. Langan evokes feelings of nostalgia, loss, and isolation in her atmospheric films. She represented Ireland at the São Paulo Biennale in 2002. In 2003 Langan presented her ambitious ‘A Film Trilogy’ at MoMA, New York and the Royal Hibernian Academy, Dublin. The following year, she took part in ‘Tír na nÓg’, a group show at IMMA.",
-    "dc:source" : "https://imma.ie/artists/clare-langan/",
-    "schema:birthDate" : "b.1967",
-    "schema:url" : "https://imma.ie/artists/clare-langan/",
-    "rdfs:label" : "Clare Langan"
+    "source" : "https://imma.ie/artists/clare-langan/",
+    "birthDate" : "b.1967",
+    "url" : "https://imma.ie/artists/clare-langan/",
+    "label" : "Clare Langan"
   }, {
     "@id" : "spice:artefact/forty-below",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/langan-clare",
     "author" : "spice:agent/langan-clare",
-    "schema:dateCreated" : "1999",
-    "schema:url" : "https://imma.ie/collection/forty-below/",
+    "dateCreated" : "1999",
+    "url" : "https://imma.ie/collection/forty-below/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/forty-below",
-    "arco-cd:hasTitle" : "Forty Below"
+    "hasTitle" : "Forty Below"
   }, {
     "@id" : "spice:artefact/glass-hour",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/langan-clare",
     "author" : "spice:agent/langan-clare",
-    "schema:dateCreated" : "2002",
-    "schema:url" : "https://imma.ie/collection/glass-hour/",
+    "dateCreated" : "2002",
+    "url" : "https://imma.ie/collection/glass-hour/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/glass-hour",
-    "arco-cd:hasTitle" : "Glass Hour"
+    "hasTitle" : "Glass Hour"
   }, {
     "@id" : "spice:artefact/too-dark-for-night",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/langan-clare",
     "author" : "spice:agent/langan-clare",
-    "schema:dateCreated" : "2001",
-    "schema:url" : "https://imma.ie/collection/too-dark-for-night/",
+    "dateCreated" : "2001",
+    "url" : "https://imma.ie/collection/too-dark-for-night/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/too-dark-for-night",
-    "arco-cd:hasTitle" : "Too Dark for Night"
+    "hasTitle" : "Too Dark for Night"
   }, {
     "@id" : "spice:attribution/forty-below",
     "@type" : "arco:AuthorshipAttribution",
@@ -57,24 +57,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -89,20 +86,17 @@
       "@type" : "@id"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/kahn-wolf",
     "@type" : "foaf:Person",
-    "dc:description" : "Born in Stuttgart, Germany, Wolf Kahn immigrated to the United States in 1940. He studied under Hans Hofmann and graduated from the University of Chicago in 1951. In 1956, he joined the Grace Borgenicht Gallery, where he exhibited regularly until 1995. Kahn has received a Fulbright Scholarship, a John Simon Guggenheim Fellowship, and an Award in Art from the Academy of Arts and Letters. Kahn regularly exhibits at galleries and museums across North America. His work may be found in the collections of The Metropolitan Museum of Art, New York; the Whitney Museum of American Art, New York and MoMA, New York, amongst others.",
-    "dc:source" : "https://imma.ie/artists/wolf-kahn/",
-    "schema:birthDate" : "b.1927",
-    "schema:url" : "https://imma.ie/artists/wolf-kahn/",
-    "rdfs:label" : "Wolf Kahn"
+    "description" : "Born in Stuttgart, Germany, Wolf Kahn immigrated to the United States in 1940. He studied under Hans Hofmann and graduated from the University of Chicago in 1951. In 1956, he joined the Grace Borgenicht Gallery, where he exhibited regularly until 1995. Kahn has received a Fulbright Scholarship, a John Simon Guggenheim Fellowship, and an Award in Art from the Academy of Arts and Letters. Kahn regularly exhibits at galleries and museums across North America. His work may be found in the collections of The Metropolitan Museum of Art, New York; the Whitney Museum of American Art, New York and MoMA, New York, amongst others.",
+    "source" : "https://imma.ie/artists/wolf-kahn/",
+    "birthDate" : "b.1927",
+    "url" : "https://imma.ie/artists/wolf-kahn/",
+    "label" : "Wolf Kahn"
   }, {
     "@id" : "spice:artefact/sea-blue",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/kahn-wolf",
     "author" : "spice:agent/kahn-wolf",
-    "schema:dateCreated" : "2000",
-    "schema:url" : "https://imma.ie/collection/sea-blue/",
+    "dateCreated" : "2000",
+    "url" : "https://imma.ie/collection/sea-blue/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/sea-blue",
-    "arco-cd:hasTitle" : "Sea Blue"
+    "hasTitle" : "Sea Blue"
   }, {
     "@id" : "spice:attribution/sea-blue",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,24 +28,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -56,24 +53,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

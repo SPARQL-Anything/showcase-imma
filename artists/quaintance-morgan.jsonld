@@ -1,30 +1,26 @@
 {
   "@id" : "spice:agent/quaintance-morgan",
   "@type" : "foaf:Person",
-  "dc:description" : "Morgan Quaintance is a London-based writer, musician, broadcaster and curator. Born in South London, he is a regular contributor to &nbsp;Art Monthly, Art Review, Frieze, Rhizome.org and a number of curatorial sites and blogs. ",
-  "dc:source" : "https://imma.ie/artists/morgan-quaintance/",
-  "schema:url" : "https://imma.ie/artists/morgan-quaintance/",
-  "rdfs:label" : "Morgan Quaintance",
+  "description" : "Morgan Quaintance is a London-based writer, musician, broadcaster and curator. Born in South London, he is a regular contributor to &nbsp;Art Monthly, Art Review, Frieze, Rhizome.org and a number of curatorial sites and blogs. ",
+  "source" : "https://imma.ie/artists/morgan-quaintance/",
+  "url" : "https://imma.ie/artists/morgan-quaintance/",
+  "label" : "Morgan Quaintance",
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

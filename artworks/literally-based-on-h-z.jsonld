@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/literally-based-on-h-z",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Liam Gillick uses architectural materials and manufacturing production techniques in his artworks. Here, a combination of maquettes, prototypes and signage sit on functional trestles. The table design is based on the aesthetics of Heimo Zoebernig (H.Z.); an Austrian artist known for his engagement with questions of display. Each time the work is displayed, the arrangement and positioning of the tables and objects is decided by the curator responding to the context and space; all elements must be displayed together.",
-    "dc:source" : "https://imma.ie/collection/literally-based-on-h-z/",
-    "schema:creditText" : "IMMA Collection: Purchase, 2007",
+    "description" : "Liam Gillick uses architectural materials and manufacturing production techniques in his artworks. Here, a combination of maquettes, prototypes and signage sit on functional trestles. The table design is based on the aesthetics of Heimo Zoebernig (H.Z.); an Austrian artist known for his engagement with questions of display. Each time the work is displayed, the arrangement and positioning of the tables and objects is decided by the curator responding to the context and space; all elements must be displayed together.",
+    "source" : "https://imma.ie/collection/literally-based-on-h-z/",
+    "creditText" : "IMMA Collection: Purchase, 2007",
     "image" : "spice:documentation/literally-based-on-h-z",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Mdf, deal, water cut painted aluminium, powder coated aluminium, various transparent and opaque Plexiglas sheets, Slotted Brise Soleil detail, black Plexiglas, red Plexiglas",
-    "schema:size" : "Dimensions variable",
-    "arco-cd:hasInventory" : "IMMA.2106"
+    "material" : "Mdf, deal, water cut painted aluminium, powder coated aluminium, various transparent and opaque Plexiglas sheets, Slotted Brise Soleil detail, black Plexiglas, red Plexiglas",
+    "size" : "Dimensions variable",
+    "hasInventory" : "IMMA.2106"
   }, {
     "@id" : "spice:documentation/literally-based-on-h-z",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Liam Gillick, Literally Based on H.Z., 2006, Mdf, deal, water cut painted aluminium, powder coated aluminium, various transparent and opaque Plexiglas sheets, Slotted Brise Soleil detail, black Plexiglas, red Plexiglas, Dimensions variable, Collection Irish Museum of Modern Art, Purchase, 2007 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Liam Gillick, Literally Based on H.Z., 2006, Mdf, deal, water cut painted aluminium, powder coated aluminium, various transparent and opaque Plexiglas sheets, Slotted Brise Soleil detail, black Plexiglas, red Plexiglas, Dimensions variable, Collection Irish Museum of Modern Art, Purchase, 2007 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/344.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/344.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

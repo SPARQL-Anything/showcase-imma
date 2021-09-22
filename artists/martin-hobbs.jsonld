@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/martin-hobbs",
     "@type" : "foaf:Person",
-    "dc:description" : "Martin &amp; Hobbs is a collaborative project between the photographer Anthony Hobbs and the painter /sculptor Fergus Martin. They came together in 2001 out of a desire to explore new ways of representing the human figure as a living entity and to draw on their different experiences as artists. In April 2003, to significant critical acclaim, they showed ‘My Paradise is Here’ at The Oratorio di San Ludovico in Venice.",
-    "dc:source" : "https://imma.ie/artists/martin-hobbs/",
-    "schema:birthDate" : "b.2001",
-    "schema:url" : "https://imma.ie/artists/martin-hobbs/",
-    "rdfs:label" : "Martin &amp; Hobbs"
+    "description" : "Martin &amp; Hobbs is a collaborative project between the photographer Anthony Hobbs and the painter /sculptor Fergus Martin. They came together in 2001 out of a desire to explore new ways of representing the human figure as a living entity and to draw on their different experiences as artists. In April 2003, to significant critical acclaim, they showed ‘My Paradise is Here’ at The Oratorio di San Ludovico in Venice.",
+    "source" : "https://imma.ie/artists/martin-hobbs/",
+    "birthDate" : "b.2001",
+    "url" : "https://imma.ie/artists/martin-hobbs/",
+    "label" : "Martin &amp; Hobbs"
   }, {
     "@id" : "spice:artefact/frieze",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/martin-hobbs",
     "author" : "spice:agent/martin-hobbs",
-    "schema:dateCreated" : "2003",
-    "schema:url" : "https://imma.ie/collection/frieze/",
+    "dateCreated" : "2003",
+    "url" : "https://imma.ie/collection/frieze/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/frieze",
-    "arco-cd:hasTitle" : "Frieze"
+    "hasTitle" : "Frieze"
   }, {
     "@id" : "spice:attribution/frieze",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,44 +28,37 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

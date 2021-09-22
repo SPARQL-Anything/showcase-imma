@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/cianni-vincent",
     "@type" : "foaf:Person",
-    "dc:description" : "Vincent Cianni embraces documentary as a tool for social and political change. He uses photography to investigate specific subcultures and to offer up powerful images to catalyse social change. Holding degrees from Penn State University and SUNY New Paltz, Cianni published ‘We Skate Hardcore’, an award-winning in-depth look at skateboarding culture in 2004. More recently (2014), his ‘Gays in the Military’ was issued by Daylight Books. Cianni’s photographs, interviews and notes are available at Duke University’s Archive for Documentary Arts. The photographer teaches at Parsons, the New School for Design in New York City.",
-    "dc:source" : "https://imma.ie/artists/vincent-cianni/",
-    "schema:birthDate" : "b.1952",
-    "schema:url" : "https://imma.ie/artists/vincent-cianni/",
-    "rdfs:label" : "Vincent Cianni"
+    "description" : "Vincent Cianni embraces documentary as a tool for social and political change. He uses photography to investigate specific subcultures and to offer up powerful images to catalyse social change. Holding degrees from Penn State University and SUNY New Paltz, Cianni published ‘We Skate Hardcore’, an award-winning in-depth look at skateboarding culture in 2004. More recently (2014), his ‘Gays in the Military’ was issued by Daylight Books. Cianni’s photographs, interviews and notes are available at Duke University’s Archive for Documentary Arts. The photographer teaches at Parsons, the New School for Design in New York City.",
+    "source" : "https://imma.ie/artists/vincent-cianni/",
+    "birthDate" : "b.1952",
+    "url" : "https://imma.ie/artists/vincent-cianni/",
+    "label" : "Vincent Cianni"
   }, {
     "@id" : "spice:artefact/shooting-hoops-at-jaimies-metropolitan-avenue-williamsburg-brooklyn",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/cianni-vincent",
     "author" : "spice:agent/cianni-vincent",
-    "schema:dateCreated" : "1997",
-    "schema:url" : "https://imma.ie/collection/shooting-hoops-at-jaimies-metropolitan-avenue-williamsburg-brooklyn/",
+    "dateCreated" : "1997",
+    "url" : "https://imma.ie/collection/shooting-hoops-at-jaimies-metropolitan-avenue-williamsburg-brooklyn/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/shooting-hoops-at-jaimies-metropolitan-avenue-williamsburg-brooklyn",
-    "arco-cd:hasTitle" : "Shooting Hoops at Jaimie’s, Metropolitan Avenue, Williamsburg, Brooklyn"
+    "hasTitle" : "Shooting Hoops at Jaimie’s, Metropolitan Avenue, Williamsburg, Brooklyn"
   }, {
     "@id" : "spice:attribution/shooting-hoops-at-jaimies-metropolitan-avenue-williamsburg-brooklyn",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,24 +28,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -56,24 +53,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

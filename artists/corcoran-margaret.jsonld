@@ -1,35 +1,30 @@
 {
   "@id" : "spice:agent/corcoran-margaret",
   "@type" : "foaf:Person",
-  "dc:description" : [ "Painter Margaret Corcoran pushes the boundaries between past, present, personal and historical narratives. Corcoran’s current series of work re-addresses The Enquiry Series – painted in 2002 when subjects such as identity, national identity, colonialism and post-colonialism were explored in an art-historical and social context. Taking its title from Edmund Burke’s theories of the sublime The Enquiry Series followed the gaze of a young female (the artist’s elder daughter) viewing and finding her way through the historically and politically loaded paintings of the Milltown Rooms of The National Gallery of Ireland. The new series finds her daughter Thérèse, at a similar age, standing in front of the Vermeer exhibition at the NGI in the exuberance of the newly renovated building and the riot of colour, re-gilded frames and the new order of hanging. In both series rooms are explored where identity and nationality are addressed against a backdrop of Colonialism and the great beauty and complexities of European Art. Interestingly The Enquiry Series was painted just as the euro replaced our Irish coinage and the new series is painted in the looming approach of Brexit.", "Painter Margaret Corcoran pushes the boundaries between past, present, personal and historical narratives. Corcoran’s current series of work re-addresses The Enquiry Series - painted in 2002 when subjects such as identity, national identity, colonialism and post-colonialism were explored in an art-historical and social context. " ],
-  "dc:source" : "https://imma.ie/artists/margaret-corcoran/",
-  "schema:birthDate" : "b.1963",
-  "schema:url" : "https://imma.ie/artists/margaret-corcoran/",
-  "rdfs:label" : "Margaret Corcoran",
+  "description" : [ "Painter Margaret Corcoran pushes the boundaries between past, present, personal and historical narratives. Corcoran’s current series of work re-addresses The Enquiry Series – painted in 2002 when subjects such as identity, national identity, colonialism and post-colonialism were explored in an art-historical and social context. Taking its title from Edmund Burke’s theories of the sublime The Enquiry Series followed the gaze of a young female (the artist’s elder daughter) viewing and finding her way through the historically and politically loaded paintings of the Milltown Rooms of The National Gallery of Ireland. The new series finds her daughter Thérèse, at a similar age, standing in front of the Vermeer exhibition at the NGI in the exuberance of the newly renovated building and the riot of colour, re-gilded frames and the new order of hanging. In both series rooms are explored where identity and nationality are addressed against a backdrop of Colonialism and the great beauty and complexities of European Art. Interestingly The Enquiry Series was painted just as the euro replaced our Irish coinage and the new series is painted in the looming approach of Brexit.", "Painter Margaret Corcoran pushes the boundaries between past, present, personal and historical narratives. Corcoran’s current series of work re-addresses The Enquiry Series - painted in 2002 when subjects such as identity, national identity, colonialism and post-colonialism were explored in an art-historical and social context. " ],
+  "source" : "https://imma.ie/artists/margaret-corcoran/",
+  "birthDate" : "b.1963",
+  "url" : "https://imma.ie/artists/margaret-corcoran/",
+  "label" : "Margaret Corcoran",
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

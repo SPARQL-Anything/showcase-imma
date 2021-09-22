@@ -2,13 +2,13 @@
   "@graph" : [ {
     "@id" : "spice:artefact/sounding-the-depths-iii",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Sounding the Depths III is a 1995 work by Louise Walsh and Pauline Cummins. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/sounding-the-depths-iii/",
-    "schema:creditText" : "IMMA Collection: Purchase, 1995",
+    "description" : "Sounding the Depths III is a 1995 work by Louise Walsh and Pauline Cummins. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/sounding-the-depths-iii/",
+    "creditText" : "IMMA Collection: Purchase, 1995",
     "image" : "spice:documentation/sounding-the-depths-iii",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Photography",
-    "arco-cd:hasInventory" : "IMMA.466"
+    "material" : "Photography",
+    "hasInventory" : "IMMA.466"
   }, {
     "@id" : "spice:documentation/sounding-the-depths-iii",
     "@type" : "schema:ImageObject",
@@ -20,28 +20,23 @@
       "@type" : "@id"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

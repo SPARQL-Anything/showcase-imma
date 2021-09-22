@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/kitchen-table",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "A found functional domestic object, ‘Kitchen Table’ is a complex combination of anima / animus – the image of woman in man, or man in woman. The painted wooden table was found in a traditionally male arena; an electrical power station in Pigeon House Harbour, Dublin, and the artist’s former studio. Among cup stains left on the tabletop, Cross burned silhouettes of sharks. An ambiguous mixture of sexual threat, excitement and death, the sharks depicted are the thirty species know to have attacked humans without provocation.",
-    "dc:source" : "https://imma.ie/collection/kitchen-table/",
-    "schema:creditText" : "IMMA Collection: Purchase, 1991",
+    "description" : "A found functional domestic object, ‘Kitchen Table’ is a complex combination of anima / animus – the image of woman in man, or man in woman. The painted wooden table was found in a traditionally male arena; an electrical power station in Pigeon House Harbour, Dublin, and the artist’s former studio. Among cup stains left on the tabletop, Cross burned silhouettes of sharks. An ambiguous mixture of sexual threat, excitement and death, the sharks depicted are the thirty species know to have attacked humans without provocation.",
+    "source" : "https://imma.ie/collection/kitchen-table/",
+    "creditText" : "IMMA Collection: Purchase, 1991",
     "image" : "spice:documentation/kitchen-table",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Wood, enamel bowl, steel, glass test tube, fossilised sharks' teeth",
-    "schema:size" : "90 x 162 x 60 cm",
-    "arco-cd:hasInventory" : "IMMA.4"
+    "material" : "Wood, enamel bowl, steel, glass test tube, fossilised sharks' teeth",
+    "size" : "90 x 162 x 60 cm",
+    "hasInventory" : "IMMA.4"
   }, {
     "@id" : "spice:documentation/kitchen-table",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Dorothy Cross, Kitchen Table, 1990, Wood, enamel bowl, steel, glass test tube, fossilised sharks' teeth, 90 x 162 x 60 cm, Collection Irish Museum of Modern Art, Purchase, 1991 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Dorothy Cross, Kitchen Table, 1990, Wood, enamel bowl, steel, glass test tube, fossilised sharks' teeth, 90 x 162 x 60 cm, Collection Irish Museum of Modern Art, Purchase, 1991 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/297.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/297.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

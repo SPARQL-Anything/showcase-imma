@@ -3,7 +3,7 @@ prefix xhtml: <http://www.w3.org/1999/xhtml#>
 
 select distinct ?artistUrl ?artistNickname
 WHERE {
-    SERVICE <x-sparql-anything:media-type=text/html,html.selector=#az-group,location=https://imma.ie/artists/> {
+    SERVICE <x-sparql-anything:media-type=text/html,html.selector=#az-group,location=https://imma.ie/artists/,html.browser=chromium> {
         [] xhtml:data-image [] ;
 			rdf:_1 [
 			   xhtml:href ?artistUrl ;
@@ -11,7 +11,8 @@ WHERE {
 			].
     } .
 
-	BIND ( IRI( CONCAT("https://w3id.org/spice/imma/agent/", ?artistNickname) ) as ?artistEntity ) .
+	BIND( REPLACE(  ?artistNickname2, "^\\s*", "" ) as ?artistNickname ) .
+	BIND ( IRI( CONCAT("https://w3id.org/spice/imma/agent/", ?artistNickname ) ) as ?artistEntity ) .
 }
 
 

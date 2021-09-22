@@ -1,0 +1,71 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/abundance-blanket-01",
+    "@type" : "schema:CreativeWork",
+    "description" : "Sibyl Montague’s practice explores how we regard, hold, and consume objects and experiences within a politics of care. Her work explores trans-disciplinary forms of usability or handheld, making assemblage based works that combine vegetable, textile, digital and poor material sources, with the hacking of commodity goods and media.",
+    "source" : "https://imma.ie/collection/abundance-blanket-01/",
+    "creditText" : "IMMA Collection: Purchase, 2020, 2020",
+    "image" : "spice:documentation/abundance-blanket-01",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "material" : "Tobacco stained &amp; dyed wool blankets, silicone bra implant, dried orange, grapefruit, pomelo, gilet, BT cotton t shirts, linen, neoprene, acrylic fleece, plaster, magazine cuttings, pigmented silicone, bird seed, tooth pick, gloss paint, acrylic",
+    "size" : "200 x 100 x 42 cm",
+    "hasInventory" : "IMMA.4177"
+  }, {
+    "@id" : "spice:documentation/abundance-blanket-01",
+    "@type" : "schema:ImageObject",
+    "caption" : "Sibyl Montague, Abundance Blanket 01, 2020, Tobacco stained &amp; dyed wool blankets, silicone bra implant, dried orange, grapefruit, pomelo, gilet, BT cotton t shirts, linen, neoprene, acrylic fleece, plaster, magazine cuttings, pigmented silicone, bird seed, tooth pick, gloss paint, acrylic, 200 x 100 x 42 cm, Collection Irish Museum of Modern Art, Purchase, 2020, 2020 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "url" : "https://imma.ie/wp-content/uploads/2021/05/9470.jpg"
+  } ],
+  "@context" : {
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

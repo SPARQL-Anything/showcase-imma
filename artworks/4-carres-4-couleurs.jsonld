@@ -2,66 +2,57 @@
   "@graph" : [ {
     "@id" : "spice:artefact/4-carres-4-couleurs",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Joseph Albers dedicated the years from 1950 to the end of his life to his series of paintings ‘Homage to the Square’. Using a maximum of four nested squares he explored the mutual effect of colour intensity and colour values. Produced in the French town of Aubusson, this tapestry with its three yellow squares suspended in space, is a variation on his usual motif using textile as a medium.",
-    "dc:source" : "https://imma.ie/collection/4-carres-4-couleurs/",
-    "schema:creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
+    "description" : "Joseph Albers dedicated the years from 1950 to the end of his life to his series of paintings ‘Homage to the Square’. Using a maximum of four nested squares he explored the mutual effect of colour intensity and colour values. Produced in the French town of Aubusson, this tapestry with its three yellow squares suspended in space, is a variation on his usual motif using textile as a medium.",
+    "source" : "https://imma.ie/collection/4-carres-4-couleurs/",
+    "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/4-carres-4-couleurs",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Aubusson tapestry",
-    "schema:size" : "171 x 171 cm",
-    "arco-cd:hasInventory" : "IMMA.103 GL"
+    "material" : "Aubusson tapestry",
+    "size" : "171 x 171 cm",
+    "hasInventory" : "IMMA.103 GL"
   }, {
     "@id" : "spice:documentation/4-carres-4-couleurs",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Josef Albers, 4 Carrés 4 Couleurs, 1969, Aubusson tapestry, 171 x 171 cm, Collection Irish Museum of Modern Art, Gordon Lambert Trust, 1992 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Josef Albers, 4 Carrés 4 Couleurs, 1969, Aubusson tapestry, 171 x 171 cm, Collection Irish Museum of Modern Art, Gordon Lambert Trust, 1992 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2020/02/684.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2020/02/684.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

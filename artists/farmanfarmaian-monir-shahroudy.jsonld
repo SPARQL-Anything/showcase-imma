@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/farmanfarmaian-monir-shahroudy",
     "@type" : "foaf:Person",
-    "dc:description" : [ "Engulfed in the epicenter of the modern art world, it was here that she worked alongside many iconic contemporary American artists including Jackson Pollock, Frank Stella, Louise Nevelson and Andy Warhol, all who had an inﬂuence on her work. Monir has exhibited extensively in international institutions in Iran, North America and Europe.", "Born in Qazvin, Iran in 1924, Monir’s distinguished career has spanned more than six decades. The artist attended the Fine Arts College of Tehran before becoming one of the ﬁrst Iranian students to study in the United States after World War II. She graduated from Parsons School of Design in 1949 and then became a Member of the New York Art Students' League (1950-53). " ],
-    "dc:source" : "https://imma.ie/artists/monir-shahroudy-farmanfarmaian/",
-    "schema:birthDate" : "b.1924",
-    "schema:url" : "https://imma.ie/artists/monir-shahroudy-farmanfarmaian/",
-    "rdfs:label" : "Monir Shahroudy Farmanfarmaian"
+    "description" : [ "Engulfed in the epicenter of the modern art world, it was here that she worked alongside many iconic contemporary American artists including Jackson Pollock, Frank Stella, Louise Nevelson and Andy Warhol, all who had an inﬂuence on her work. Monir has exhibited extensively in international institutions in Iran, North America and Europe.", "Born in Qazvin, Iran in 1924, Monir’s distinguished career has spanned more than six decades. The artist attended the Fine Arts College of Tehran before becoming one of the ﬁrst Iranian students to study in the United States after World War II. She graduated from Parsons School of Design in 1949 and then became a Member of the New York Art Students' League (1950-53). " ],
+    "source" : "https://imma.ie/artists/monir-shahroudy-farmanfarmaian/",
+    "birthDate" : "b.1924",
+    "url" : "https://imma.ie/artists/monir-shahroudy-farmanfarmaian/",
+    "label" : "Monir Shahroudy Farmanfarmaian"
   }, {
     "@id" : "spice:artefact/sunrise-2",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/farmanfarmaian-monir-shahroudy",
     "author" : "spice:agent/farmanfarmaian-monir-shahroudy",
-    "schema:dateCreated" : "2018",
-    "schema:url" : "https://imma.ie/collection/sunrise-2/",
+    "dateCreated" : "2018",
+    "url" : "https://imma.ie/collection/sunrise-2/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/sunrise-2",
-    "arco-cd:hasTitle" : "Sunrise"
+    "hasTitle" : "Sunrise"
   }, {
     "@id" : "spice:attribution/sunrise-2",
     "@type" : "arco:AuthorshipAttribution",
@@ -32,48 +32,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

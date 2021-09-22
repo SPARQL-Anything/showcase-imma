@@ -2,66 +2,57 @@
   "@graph" : [ {
     "@id" : "spice:artefact/happy-days-in-2004-sol-carol",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "‘Sol’s early work is particularly wonderful – when he evolved the notion that the idea makes the work and the execution can be carried out by others. He pioneered many things – others carrying through his ideas, keeping prices on his work down so that it was accessible to those who weren’t wealthy, devising infinite applications of lines (he was always a line-man), using language to describe, locate, invent, exactly fitting the work to the site, and writing some of the key texts of conceptualism. He was particularly fond of Barbara and sent her many of those famous little cards with drawings on them’.",
-    "dc:source" : "https://imma.ie/collection/happy-days-in-2004-sol-carol/",
-    "schema:creditText" : "IMMA Collection: The Novak/O'Doherty Collection at IMMA Gift, The American Ireland Fund, 2014",
+    "description" : "‘Sol’s early work is particularly wonderful – when he evolved the notion that the idea makes the work and the execution can be carried out by others. He pioneered many things – others carrying through his ideas, keeping prices on his work down so that it was accessible to those who weren’t wealthy, devising infinite applications of lines (he was always a line-man), using language to describe, locate, invent, exactly fitting the work to the site, and writing some of the key texts of conceptualism. He was particularly fond of Barbara and sent her many of those famous little cards with drawings on them’.",
+    "source" : "https://imma.ie/collection/happy-days-in-2004-sol-carol/",
+    "creditText" : "IMMA Collection: The Novak/O'Doherty Collection at IMMA Gift, The American Ireland Fund, 2014",
     "image" : "spice:documentation/happy-days-in-2004-sol-carol",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Drawing on postcards, felt-tip pen",
-    "schema:size" : "10.8 x 15.1 cm",
-    "arco-cd:hasInventory" : "IMMA.3858.3"
+    "material" : "Drawing on postcards, felt-tip pen",
+    "size" : "10.8 x 15.1 cm",
+    "hasInventory" : "IMMA.3858.3"
   }, {
     "@id" : "spice:documentation/happy-days-in-2004-sol-carol",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Sol LeWitt, Happy Days in 2004 Sol &amp; Carol, 2004, Drawing on postcards, felt-tip pen, 10.8 x 15.1 cm, Collection Irish Museum of Modern Art, The Novak/O'Doherty Collection at IMMA Gift, The American Ireland Fund, 2014 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Sol LeWitt, Happy Days in 2004 Sol &amp; Carol, 2004, Drawing on postcards, felt-tip pen, 10.8 x 15.1 cm, Collection Irish Museum of Modern Art, The Novak/O'Doherty Collection at IMMA Gift, The American Ireland Fund, 2014 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/5208.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/5208.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

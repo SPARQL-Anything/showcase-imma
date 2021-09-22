@@ -2,71 +2,61 @@
   "@graph" : [ {
     "@id" : "spice:artefact/i-n-i-t-i-a-l-s",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "I N I T I A L S is a 1993 work by James Coleman. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/i-n-i-t-i-a-l-s/",
-    "schema:creditText" : "IMMA Collection: Purchase, Heritage Fund, 2004",
+    "description" : "I N I T I A L S is a 1993 work by James Coleman. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/i-n-i-t-i-a-l-s/",
+    "creditText" : "IMMA Collection: Purchase, Heritage Fund, 2004",
     "image" : "spice:documentation/i-n-i-t-i-a-l-s",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Projected slides with synchronised audio narration",
-    "schema:size" : "Dimensions variable",
-    "schema:version" : "Edition 4/4",
-    "arco-cd:hasInventory" : "IMMA.1760"
+    "material" : "Projected slides with synchronised audio narration",
+    "size" : "Dimensions variable",
+    "version" : "Edition 4/4",
+    "hasInventory" : "IMMA.1760"
   }, {
     "@id" : "spice:documentation/i-n-i-t-i-a-l-s",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "James Coleman, I N I T I A L S, 1993, Projected slides with synchronised audio narration, Dimensions variable, Collection Irish Museum of Modern Art, Purchase, Heritage Fund, 2004 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "James Coleman, I N I T I A L S, 1993, Projected slides with synchronised audio narration, Dimensions variable, Collection Irish Museum of Modern Art, Purchase, Heritage Fund, 2004 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/1707.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/1707.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

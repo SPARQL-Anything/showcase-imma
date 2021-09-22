@@ -2,66 +2,57 @@
   "@graph" : [ {
     "@id" : "spice:artefact/objects-with-colour-2",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Universal symbols of life in its ordinariness and profundity, Guggi’s paintings present vessels such as bowls and jugs realized with the apparent simplicity of hand-drawn line. They float upon surfaces that are layered, built up and partially erased, sometimes accompanied by fragments of text or letters on the verge of disappearing. Suggestive of images and sounds, these works explore the transient frontiers between reality, memory, imagination and time.",
-    "dc:source" : "https://imma.ie/collection/objects-with-colour-2/",
-    "schema:creditText" : "IMMA Collection: Donated by Sean Scully, 2009",
+    "description" : "Universal symbols of life in its ordinariness and profundity, Guggi’s paintings present vessels such as bowls and jugs realized with the apparent simplicity of hand-drawn line. They float upon surfaces that are layered, built up and partially erased, sometimes accompanied by fragments of text or letters on the verge of disappearing. Suggestive of images and sounds, these works explore the transient frontiers between reality, memory, imagination and time.",
+    "source" : "https://imma.ie/collection/objects-with-colour-2/",
+    "creditText" : "IMMA Collection: Donated by Sean Scully, 2009",
     "image" : "spice:documentation/objects-with-colour-2",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Oil on wood",
-    "schema:size" : "130 x 95 cm",
-    "arco-cd:hasInventory" : "IMMA.2861"
+    "material" : "Oil on wood",
+    "size" : "130 x 95 cm",
+    "hasInventory" : "IMMA.2861"
   }, {
     "@id" : "spice:documentation/objects-with-colour-2",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Guggi, Objects with Colour 2, 2008, Oil on wood, 130 x 95 cm, Collection Irish Museum of Modern Art, Donated by Sean Scully, 2009 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Guggi, Objects with Colour 2, 2008, Oil on wood, 130 x 95 cm, Collection Irish Museum of Modern Art, Donated by Sean Scully, 2009 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/468.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/468.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

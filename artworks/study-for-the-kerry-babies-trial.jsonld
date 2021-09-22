@@ -1,0 +1,71 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/study-for-the-kerry-babies-trial",
+    "@type" : "schema:CreativeWork",
+    "description" : "Hurl’s work is of its nature political, drawing her influences from feminist artists and activists in the 1960’s, 70’s and 80’s. This work was originally shown in 1989 as part of Hurl’s solo exhibition at the Temple Bar Gallery and Studios, Dublin, titled The Living Room Myths and Legends. The works shown there responded to the ongoing abuse of women within Irish society, in particular referring to the Kerry Babies Trial and the 8th amendment of the constitution in 1983. The exhibition highlighted the ongoing involvement of the Church in determining the lives of women in Irish society. ",
+    "source" : "https://imma.ie/collection/study-for-the-kerry-babies-trial/",
+    "creditText" : "IMMA Collection: Purchase, 2021, 2021",
+    "image" : "spice:documentation/study-for-the-kerry-babies-trial",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "material" : "Mixed Media on paper",
+    "size" : "120 x 90 cm",
+    "hasInventory" : "IMMA.4333"
+  }, {
+    "@id" : "spice:documentation/study-for-the-kerry-babies-trial",
+    "@type" : "schema:ImageObject",
+    "caption" : "Patricia Hurl, Study for The Kerry Babies Trial, 1984, Mixed Media on paper, 120 x 90 cm, Collection Irish Museum of Modern Art, Purchase, 2021, 2021 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "url" : "https://imma.ie/wp-content/uploads/2021/04/9633.jpg"
+  } ],
+  "@context" : {
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

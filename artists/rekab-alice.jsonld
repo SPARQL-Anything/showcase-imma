@@ -1,0 +1,77 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/rekab-alice",
+    "@type" : "foaf:Person",
+    "description" : [ "Alice Rekab takes their own mixed-race Irish identity as a starting point from which to explore the idea of the body, the family and the nation as reflections of one another. They develop these ideas through material investigations and renditions of family, its bodies, and the spaces they move through and inhabit. Through a practice of film, performance, image and sculpture Rekab creates new intersectional narratives and objects for exhibition.", "Alice Rekab is a visual artist based in Dublin. Rekab’s practice is concerned with expressions and iterations of complex cultural and personal narratives and seeks to understand the complexities of mixed-race Irish identity, from a personal and familial perspective. " ],
+    "source" : "https://imma.ie/artists/alice-rekab/",
+    "url" : "https://imma.ie/artists/alice-rekab/",
+    "label" : "Alice Rekab"
+  }, {
+    "@id" : "spice:artefact/isatu-an-ee-cat",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/rekab-alice",
+    "author" : "spice:agent/rekab-alice",
+    "dateCreated" : "2021",
+    "url" : "https://imma.ie/collection/isatu-an-ee-cat/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/isatu-an-ee-cat",
+    "hasTitle" : "Isatu an Ee cat&nbsp;"
+  }, {
+    "@id" : "spice:attribution/isatu-an-ee-cat",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/rekab-alice"
+  } ],
+  "@context" : {
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

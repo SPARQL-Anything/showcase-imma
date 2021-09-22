@@ -2,71 +2,61 @@
   "@graph" : [ {
     "@id" : "spice:artefact/the-tain-ulster-rises-from-its-pangs",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "The Táin. Ulster rises from its pangs is a 1969 work by Louis le Brocquy. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/the-tain-ulster-rises-from-its-pangs/",
-    "schema:creditText" : "IMMA Collection: Heritage Gift by Brian Timmons, 2001",
+    "description" : "The Táin. Ulster rises from its pangs is a 1969 work by Louis le Brocquy. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/the-tain-ulster-rises-from-its-pangs/",
+    "creditText" : "IMMA Collection: Heritage Gift by Brian Timmons, 2001",
     "image" : "spice:documentation/the-tain-ulster-rises-from-its-pangs",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Aubusson Tapestry, Atelier René Duché, 1999",
-    "schema:size" : "129 x 184 cm",
-    "schema:version" : "edition 9",
-    "arco-cd:hasInventory" : "IMMA.1595"
+    "material" : "Aubusson Tapestry, Atelier René Duché, 1999",
+    "size" : "129 x 184 cm",
+    "version" : "edition 9",
+    "hasInventory" : "IMMA.1595"
   }, {
     "@id" : "spice:documentation/the-tain-ulster-rises-from-its-pangs",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Louis le Brocquy, The Táin. Ulster rises from its pangs, 1969, Aubusson Tapestry, Atelier René Duché, 1999, 129 x 184 cm, Collection Irish Museum of Modern Art, Heritage Gift by Brian Timmons, 2001 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Louis le Brocquy, The Táin. Ulster rises from its pangs, 1969, Aubusson Tapestry, Atelier René Duché, 1999, 129 x 184 cm, Collection Irish Museum of Modern Art, Heritage Gift by Brian Timmons, 2001 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2019/10/144.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2019/10/144.jpg"
   } ],
   "@context" : {
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

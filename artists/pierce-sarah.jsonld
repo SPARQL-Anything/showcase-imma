@@ -2,66 +2,75 @@
   "@graph" : [ {
     "@id" : "spice:agent/pierce-sarah",
     "@type" : "foaf:Person",
-    "dc:description" : [ "Since 2003, Sarah Pierce has used the term ", "Since 2003, Sarah Pierce has used the term The Metropolitan Complex to describe her art. Despite its institutional resonance, this title does not signify an organisation. Instead, it demonstrates Pierce’s broad understanding of cultural work, articulated through methods that open up to the personal and incidental." ],
-    "dc:source" : "https://imma.ie/artists/sarah-pierce/",
-    "schema:birthDate" : "b.1968",
-    "schema:url" : "https://imma.ie/artists/sarah-pierce/",
-    "rdfs:label" : "Sarah Pierce"
+    "description" : [ "Since 2003, Sarah Pierce has used the term ", "Since 2003, Sarah Pierce has used the term The Metropolitan Complex to describe her art. Despite its institutional resonance, this title does not signify an organisation. Instead, it demonstrates Pierce’s broad understanding of cultural work, articulated through methods that open up to the personal and incidental." ],
+    "source" : "https://imma.ie/artists/sarah-pierce/",
+    "birthDate" : "b.1968",
+    "url" : "https://imma.ie/artists/sarah-pierce/",
+    "label" : "Sarah Pierce"
   }, {
     "@id" : "spice:artefact/meaning-of-greatness",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/pierce-sarah",
     "author" : "spice:agent/pierce-sarah",
-    "schema:dateCreated" : "2006",
-    "schema:url" : "https://imma.ie/collection/meaning-of-greatness/",
+    "dateCreated" : "2006",
+    "url" : "https://imma.ie/collection/meaning-of-greatness/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/meaning-of-greatness",
-    "arco-cd:hasTitle" : "Meaning of Greatness"
+    "hasTitle" : "Meaning of Greatness"
+  }, {
+    "@id" : "spice:artefact/no-title",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/pierce-sarah",
+    "author" : "spice:agent/pierce-sarah",
+    "dateCreated" : "2017",
+    "url" : "https://imma.ie/collection/no-title/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/no-title",
+    "hasTitle" : "No Title"
+  }, {
+    "@id" : "spice:artefact/pathos-of-distance",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/pierce-sarah",
+    "author" : "spice:agent/pierce-sarah",
+    "dateCreated" : "2015",
+    "url" : "https://imma.ie/collection/pathos-of-distance/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/pathos-of-distance",
+    "hasTitle" : "Pathos of Distance"
   }, {
     "@id" : "spice:attribution/meaning-of-greatness",
     "@type" : "arco:AuthorshipAttribution",
     "hasAttributedAuthor" : "spice:agent/pierce-sarah"
+  }, {
+    "@id" : "spice:attribution/no-title",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/pierce-sarah"
+  }, {
+    "@id" : "spice:attribution/pathos-of-distance",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/pierce-sarah"
   } ],
   "@context" : {
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
-    },
-    "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
-    },
-    "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
-    },
-    "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
-    },
-    "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
-    },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -71,9 +80,21 @@
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
       "@type" : "@id"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

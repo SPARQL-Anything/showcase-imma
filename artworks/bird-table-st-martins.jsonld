@@ -2,37 +2,33 @@
   "@graph" : [ {
     "@id" : "spice:artefact/bird-table-st-martins",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Bird Table St Martins is a 1974 work by Tony O'Malley. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/bird-table-st-martins/",
-    "schema:creditText" : "IMMA Collection: Heritage Gift from the McClelland Collection by Noel and Anne Marie Smyth, 2004",
+    "description" : "Bird Table St Martins is a 1974 work by Tony O'Malley. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/bird-table-st-martins/",
+    "creditText" : "IMMA Collection: Heritage Gift from the McClelland Collection by Noel and Anne Marie Smyth, 2004",
     "image" : "spice:documentation/bird-table-st-martins",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Gouche and watercolour on paper",
-    "schema:size" : "20.95 x 29.84 cm",
-    "arco-cd:hasInventory" : "IMMA.1386 MCCL"
+    "material" : "Gouche and watercolour on paper",
+    "size" : "20.95 x 29.84 cm",
+    "hasInventory" : "IMMA.1386 MCCL"
   }, {
     "@id" : "spice:documentation/bird-table-st-martins",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Tony O'Malley, Bird Table St Martins, 1974, Gouche and watercolour on paper, 20.95 x 29.84 cm, Collection Irish Museum of Modern Art, Heritage Gift from the McClelland Collection by Noel and Anne Marie Smyth, 2004 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Tony O'Malley, Bird Table St Martins, 1974, Gouche and watercolour on paper, 20.95 x 29.84 cm, Collection Irish Museum of Modern Art, Heritage Gift from the McClelland Collection by Noel and Anne Marie Smyth, 2004 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -43,20 +39,16 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

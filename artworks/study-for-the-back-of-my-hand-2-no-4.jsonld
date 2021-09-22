@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/study-for-the-back-of-my-hand-2-no-4",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Study for the Back of My Hand 2, no.4 is a 1986 work by Richard Deacon. It is not currently on display in IMMA. ",
-    "dc:source" : "https://imma.ie/collection/study-for-the-back-of-my-hand-2-no-4/",
-    "schema:creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1994",
+    "description" : "Study for the Back of My Hand 2, no.4 is a 1986 work by Richard Deacon. It is not currently on display in IMMA. ",
+    "source" : "https://imma.ie/collection/study-for-the-back-of-my-hand-2-no-4/",
+    "creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1994",
     "image" : "spice:documentation/study-for-the-back-of-my-hand-2-no-4",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Pencil on paper with tape",
-    "schema:size" : "Framed: 51.5 x 43 cm 24 x 20 cm",
-    "arco-cd:hasInventory" : "L.2008.1.1"
+    "material" : "Pencil on paper with tape",
+    "size" : "Framed: 51.5 x 43 cm 24 x 20 cm",
+    "hasInventory" : "L.2008.1.1"
   }, {
     "@id" : "spice:documentation/study-for-the-back-of-my-hand-2-no-4",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Richard Deacon, Study for the Back of My Hand 2, no.4, 1986, Pencil on paper with tape, Framed: 51.5 x 43 cm 24 x 20 cm, Collection Irish Museum of Modern Art, Loan, Weltkunst Foundation, 1994 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Richard Deacon, Study for the Back of My Hand 2, no.4, 1986, Pencil on paper with tape, Framed: 51.5 x 43 cm 24 x 20 cm, Collection Irish Museum of Modern Art, Loan, Weltkunst Foundation, 1994 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/2739.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/2739.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

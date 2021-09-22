@@ -2,37 +2,33 @@
   "@graph" : [ {
     "@id" : "spice:artefact/folded-linen-and-bronze-cast",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Folded Linen and Bronze Cast is a 1970 work by Lennon. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/folded-linen-and-bronze-cast/",
-    "schema:creditText" : "IMMA Collection: Donated by the artist, 2018",
+    "description" : "Folded Linen and Bronze Cast is a 1970 work by Lennon. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/folded-linen-and-bronze-cast/",
+    "creditText" : "IMMA Collection: Donated by the artist, 2018",
     "image" : "spice:documentation/folded-linen-and-bronze-cast",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Folded Linen and Bronze Cast",
-    "schema:size" : "20 x 50 x 50 cm 20 x 50 x 50 cm",
-    "arco-cd:hasInventory" : "IMMA.4107"
+    "material" : "Folded Linen and Bronze Cast",
+    "size" : "20 x 50 x 50 cm 20 x 50 x 50 cm",
+    "hasInventory" : "IMMA.4107"
   }, {
     "@id" : "spice:documentation/folded-linen-and-bronze-cast",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Lennon, Folded Linen and Bronze Cast, 1970, Folded Linen and Bronze Cast, 20 x 50 x 50 cm 20 x 50 x 50 cm, Collection Irish Museum of Modern Art, Donated by the artist, 2018 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Lennon, Folded Linen and Bronze Cast, 1970, Folded Linen and Bronze Cast, 20 x 50 x 50 cm 20 x 50 x 50 cm, Collection Irish Museum of Modern Art, Donated by the artist, 2018 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -43,20 +39,16 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

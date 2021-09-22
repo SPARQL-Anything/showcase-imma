@@ -2,37 +2,33 @@
   "@graph" : [ {
     "@id" : "spice:artefact/portrait-of-j-with-basque-hat",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Portrait of J with Basque hat is a 1982 work by Brian Bourke. It is not currently on display in IMMA. ",
-    "dc:source" : "https://imma.ie/collection/portrait-of-j-with-basque-hat/",
-    "schema:creditText" : "IMMA Collection: Loan, Maire and Maurice Foley, 2004",
+    "description" : "Portrait of J with Basque hat is a 1982 work by Brian Bourke. It is not currently on display in IMMA. ",
+    "source" : "https://imma.ie/collection/portrait-of-j-with-basque-hat/",
+    "creditText" : "IMMA Collection: Loan, Maire and Maurice Foley, 2004",
     "image" : "spice:documentation/portrait-of-j-with-basque-hat",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Oil on paper",
-    "schema:size" : "100 x 74 cm",
-    "arco-cd:hasInventory" : "L.1739"
+    "material" : "Oil on paper",
+    "size" : "100 x 74 cm",
+    "hasInventory" : "L.1739"
   }, {
     "@id" : "spice:documentation/portrait-of-j-with-basque-hat",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Brian Bourke, Portrait of J with Basque hat, 1982, Oil on paper, 100 x 74 cm, Collection Irish Museum of Modern Art, Loan, Maire and Maurice Foley, 2004 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Brian Bourke, Portrait of J with Basque hat, 1982, Oil on paper, 100 x 74 cm, Collection Irish Museum of Modern Art, Loan, Maire and Maurice Foley, 2004 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -43,20 +39,16 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

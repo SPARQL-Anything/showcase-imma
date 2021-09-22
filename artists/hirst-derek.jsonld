@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/hirst-derek",
     "@type" : "foaf:Person",
-    "dc:description" : "English painter Derek Hirst attended Doncaster Art School and the Royal College of Art, London. In 1966, Hirst became the first Artist-in-Residence at the University of Sussex. He taught at York University, Canada from 1971 to 1973. As an artist of place, Hirst’s work was influenced by his travels to Spain, Morocco and the Far East. He exhibited worldwide and his work is held in significant collections including the Arts Council of England; Tate, London; the Victoria and Albert Museum, London and Brooklyn Museum, New York",
-    "dc:source" : "https://imma.ie/artists/derek-hirst/",
-    "schema:birthDate" : "1930–2006",
-    "schema:url" : "https://imma.ie/artists/derek-hirst/",
-    "rdfs:label" : "Derek Hirst"
+    "description" : "English painter Derek Hirst attended Doncaster Art School and the Royal College of Art, London. In 1966, Hirst became the first Artist-in-Residence at the University of Sussex. He taught at York University, Canada from 1971 to 1973. As an artist of place, Hirst’s work was influenced by his travels to Spain, Morocco and the Far East. He exhibited worldwide and his work is held in significant collections including the Arts Council of England; Tate, London; the Victoria and Albert Museum, London and Brooklyn Museum, New York",
+    "source" : "https://imma.ie/artists/derek-hirst/",
+    "birthDate" : "1930–2006",
+    "url" : "https://imma.ie/artists/derek-hirst/",
+    "label" : "Derek Hirst"
   }, {
     "@id" : "spice:artefact/breakthrough-no-iv",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/hirst-derek",
     "author" : "spice:agent/hirst-derek",
-    "schema:dateCreated" : "1979",
-    "schema:url" : "https://imma.ie/collection/breakthrough-no-iv/",
+    "dateCreated" : "1979",
+    "url" : "https://imma.ie/collection/breakthrough-no-iv/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/breakthrough-no-iv",
-    "arco-cd:hasTitle" : "Breakthrough No. IV"
+    "hasTitle" : "Breakthrough No. IV"
   }, {
     "@id" : "spice:attribution/breakthrough-no-iv",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,40 +24,33 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

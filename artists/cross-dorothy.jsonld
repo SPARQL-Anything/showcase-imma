@@ -2,111 +2,111 @@
   "@graph" : [ {
     "@id" : "spice:agent/cross-dorothy",
     "@type" : "foaf:Person",
-    "dc:description" : [ "Dorothy Cross lives and works in Ireland. She works in a variety of media including sculpture, photography, video and installation, examining the relationship between living beings and the natural world. A sense of place pervades her practice. Living in Connemara, a rural area on Ireland’s wild west coast, Cross sees the body and nature as sites of constant change, creation and destruction, new and old.", "Working in sculpture, film and photography, Dorothy Cross examines the relationship between living beings and the natural world. A sense of place pervades her practice. Living in Connemara, a rural area on Ireland’s wild west coast, the artist sees the body and nature as sites of constant change, creation and destruction, new and old." ],
-    "dc:source" : "https://imma.ie/artists/dorothy-cross/",
-    "schema:birthDate" : "b.1956",
-    "schema:url" : "https://imma.ie/artists/dorothy-cross/",
-    "rdfs:label" : "Dorothy Cross"
+    "description" : [ "Dorothy Cross lives and works in Ireland. She works in a variety of media including sculpture, photography, video and installation, examining the relationship between living beings and the natural world. A sense of place pervades her practice. Living in Connemara, a rural area on Ireland’s wild west coast, Cross sees the body and nature as sites of constant change, creation and destruction, new and old.", "Working in sculpture, film and photography, Dorothy Cross examines the relationship between living beings and the natural world. A sense of place pervades her practice. Living in Connemara, a rural area on Ireland’s wild west coast, the artist sees the body and nature as sites of constant change, creation and destruction, new and old." ],
+    "source" : "https://imma.ie/artists/dorothy-cross/",
+    "birthDate" : "b.1956",
+    "url" : "https://imma.ie/artists/dorothy-cross/",
+    "label" : "Dorothy Cross"
   }, {
     "@id" : "spice:artefact/allies",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/cross-dorothy",
     "author" : "spice:agent/cross-dorothy",
-    "schema:dateCreated" : "1985",
-    "schema:url" : "https://imma.ie/collection/allies/",
+    "dateCreated" : "1985",
+    "url" : "https://imma.ie/collection/allies/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/allies",
-    "arco-cd:hasTitle" : "Allies"
+    "hasTitle" : "Allies"
   }, {
     "@id" : "spice:artefact/ghost-ship",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/cross-dorothy",
     "author" : "spice:agent/cross-dorothy",
-    "schema:dateCreated" : "1999",
-    "schema:url" : "https://imma.ie/collection/ghost-ship/",
+    "dateCreated" : "1999",
+    "url" : "https://imma.ie/collection/ghost-ship/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/ghost-ship",
-    "arco-cd:hasTitle" : "Ghost Ship"
+    "hasTitle" : "Ghost Ship"
   }, {
     "@id" : "spice:artefact/kitchen-table",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/cross-dorothy",
     "author" : "spice:agent/cross-dorothy",
-    "schema:dateCreated" : "1990",
-    "schema:url" : "https://imma.ie/collection/kitchen-table/",
+    "dateCreated" : "1990",
+    "url" : "https://imma.ie/collection/kitchen-table/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/kitchen-table",
-    "arco-cd:hasTitle" : "Kitchen Table"
+    "hasTitle" : "Kitchen Table"
   }, {
     "@id" : "spice:artefact/lover-snakes",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/cross-dorothy",
     "author" : "spice:agent/cross-dorothy",
-    "schema:dateCreated" : "1995",
-    "schema:url" : "https://imma.ie/collection/lover-snakes/",
+    "dateCreated" : "1995",
+    "url" : "https://imma.ie/collection/lover-snakes/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/lover-snakes",
-    "arco-cd:hasTitle" : "Lover Snakes"
+    "hasTitle" : "Lover Snakes"
   }, {
     "@id" : "spice:artefact/parachute",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/cross-dorothy",
     "author" : "spice:agent/cross-dorothy",
-    "schema:dateCreated" : "2005",
-    "schema:url" : "https://imma.ie/collection/parachute/",
+    "dateCreated" : "2005",
+    "url" : "https://imma.ie/collection/parachute/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/parachute",
-    "arco-cd:hasTitle" : "Parachute"
+    "hasTitle" : "Parachute"
   }, {
     "@id" : "spice:artefact/pink-halls",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/cross-dorothy",
     "author" : "spice:agent/cross-dorothy",
-    "schema:dateCreated" : "1985",
-    "schema:url" : "https://imma.ie/collection/pink-halls/",
+    "dateCreated" : "1985",
+    "url" : "https://imma.ie/collection/pink-halls/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/pink-halls",
-    "arco-cd:hasTitle" : "Pink Halls"
+    "hasTitle" : "Pink Halls"
   }, {
     "@id" : "spice:artefact/rugby-ball",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/cross-dorothy",
     "author" : "spice:agent/cross-dorothy",
-    "schema:dateCreated" : "2005",
-    "schema:url" : "https://imma.ie/collection/rugby-ball/",
+    "dateCreated" : "2005",
+    "url" : "https://imma.ie/collection/rugby-ball/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/rugby-ball",
-    "arco-cd:hasTitle" : "Rugby Ball"
+    "hasTitle" : "Rugby Ball"
   }, {
     "@id" : "spice:artefact/saddle",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/cross-dorothy",
     "author" : "spice:agent/cross-dorothy",
-    "schema:dateCreated" : "1993",
-    "schema:url" : "https://imma.ie/collection/saddle/",
+    "dateCreated" : "1993",
+    "url" : "https://imma.ie/collection/saddle/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/saddle",
-    "arco-cd:hasTitle" : "Saddle"
+    "hasTitle" : "Saddle"
   }, {
     "@id" : "spice:artefact/still-room",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/cross-dorothy",
     "author" : "spice:agent/cross-dorothy",
-    "schema:dateCreated" : "2000",
-    "schema:url" : "https://imma.ie/collection/still-room/",
+    "dateCreated" : "2000",
+    "url" : "https://imma.ie/collection/still-room/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/still-room",
-    "arco-cd:hasTitle" : "Still Room"
+    "hasTitle" : "Still Room"
   }, {
     "@id" : "spice:artefact/tabernacle",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/cross-dorothy",
     "author" : "spice:agent/cross-dorothy",
-    "schema:dateCreated" : "2013",
-    "schema:url" : "https://imma.ie/collection/tabernacle/",
+    "dateCreated" : "2013",
+    "url" : "https://imma.ie/collection/tabernacle/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/tabernacle",
-    "arco-cd:hasTitle" : "Tabernacle"
+    "hasTitle" : "Tabernacle"
   }, {
     "@id" : "spice:attribution/allies",
     "@type" : "arco:AuthorshipAttribution",
@@ -154,24 +154,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -182,24 +179,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

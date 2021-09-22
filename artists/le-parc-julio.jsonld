@@ -2,41 +2,41 @@
   "@graph" : [ {
     "@id" : "spice:agent/le-parc-julio",
     "@type" : "foaf:Person",
-    "dc:description" : "Argentinian artist Julio Le Parc settled in Paris in 1958 where he became part of an influential and innovative group that included Victor Vasarely. His work draws on Constructivism and was inspired by the new social democracies that were emerging after World War II. Le Parc was prominently associated with the Op and Kinetic Art movements and developed a rational and scientific approach to art that denied subjectivity and self-expression. He was awarded the painting prize at the Venice Biennale in 1966. Le Parc's work was much admired by Gordon Lambert who donated several of his works to IMMA.",
-    "dc:source" : "https://imma.ie/artists/julio-le-parc/",
-    "schema:birthDate" : "b.1928",
-    "schema:url" : "https://imma.ie/artists/julio-le-parc/",
-    "rdfs:label" : "Julio Le Parc"
+    "description" : "Argentinian artist Julio Le Parc settled in Paris in 1958 where he became part of an influential and innovative group that included Victor Vasarely. His work draws on Constructivism and was inspired by the new social democracies that were emerging after World War II. Le Parc was prominently associated with the Op and Kinetic Art movements and developed a rational and scientific approach to art that denied subjectivity and self-expression. He was awarded the painting prize at the Venice Biennale in 1966. Le Parc's work was much admired by Gordon Lambert who donated several of his works to IMMA.",
+    "source" : "https://imma.ie/artists/julio-le-parc/",
+    "birthDate" : "b.1928",
+    "url" : "https://imma.ie/artists/julio-le-parc/",
+    "label" : "Julio Le Parc"
   }, {
     "@id" : "spice:artefact/continuel-mobil-argent",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/le-parc-julio",
     "author" : "spice:agent/le-parc-julio",
-    "schema:dateCreated" : "1967",
-    "schema:url" : "https://imma.ie/collection/continuel-mobil-argent/",
+    "dateCreated" : "1967",
+    "url" : "https://imma.ie/collection/continuel-mobil-argent/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/continuel-mobil-argent",
-    "arco-cd:hasTitle" : "Continuel-mobil Argent"
+    "hasTitle" : "Continuel-mobil Argent"
   }, {
     "@id" : "spice:artefact/serie-15-no-9",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/le-parc-julio",
     "author" : "spice:agent/le-parc-julio",
-    "schema:dateCreated" : "1971",
-    "schema:url" : "https://imma.ie/collection/serie-15-no-9/",
+    "dateCreated" : "1971",
+    "url" : "https://imma.ie/collection/serie-15-no-9/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/serie-15-no-9",
-    "arco-cd:hasTitle" : "Serie 15 no 9"
+    "hasTitle" : "Serie 15 no 9"
   }, {
     "@id" : "spice:artefact/untitled-multiple-mirror",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/le-parc-julio",
     "author" : "spice:agent/le-parc-julio",
-    "schema:dateCreated" : "1968",
-    "schema:url" : "https://imma.ie/collection/untitled-multiple-mirror/",
+    "dateCreated" : "1968",
+    "url" : "https://imma.ie/collection/untitled-multiple-mirror/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-multiple-mirror",
-    "arco-cd:hasTitle" : "Untitled (Multiple Mirror)"
+    "hasTitle" : "Untitled (Multiple Mirror)"
   }, {
     "@id" : "spice:attribution/continuel-mobil-argent",
     "@type" : "arco:AuthorshipAttribution",
@@ -60,48 +60,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -2,30 +2,30 @@
   "@graph" : [ {
     "@id" : "spice:agent/jammes-louis",
     "@type" : "foaf:Person",
-    "dc:source" : "https://imma.ie/artists/louis-jammes/",
-    "schema:birthDate" : "b.1958",
-    "schema:url" : "https://imma.ie/artists/louis-jammes/",
-    "rdfs:label" : "Louis Jammes"
+    "source" : "https://imma.ie/artists/louis-jammes/",
+    "birthDate" : "b.1958",
+    "url" : "https://imma.ie/artists/louis-jammes/",
+    "label" : "Louis Jammes"
   }, {
     "@id" : "spice:artefact/angels-of-sarajevo",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/jammes-louis",
     "author" : "spice:agent/jammes-louis",
-    "schema:dateCreated" : "1993",
-    "schema:url" : "https://imma.ie/collection/angels-of-sarajevo/",
+    "dateCreated" : "1993",
+    "url" : "https://imma.ie/collection/angels-of-sarajevo/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/angels-of-sarajevo",
-    "arco-cd:hasTitle" : "Angels of Sarajevo"
+    "hasTitle" : "Angels of Sarajevo"
   }, {
     "@id" : "spice:artefact/angels-of-sarajevo-2",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/jammes-louis",
     "author" : "spice:agent/jammes-louis",
-    "schema:dateCreated" : "1993",
-    "schema:url" : "https://imma.ie/collection/angels-of-sarajevo-2/",
+    "dateCreated" : "1993",
+    "url" : "https://imma.ie/collection/angels-of-sarajevo-2/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/angels-of-sarajevo-2",
-    "arco-cd:hasTitle" : "Angels of Sarajevo"
+    "hasTitle" : "Angels of Sarajevo"
   }, {
     "@id" : "spice:attribution/angels-of-sarajevo",
     "@type" : "arco:AuthorshipAttribution",
@@ -41,36 +41,30 @@
       "@type" : "@id"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -82,7 +76,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

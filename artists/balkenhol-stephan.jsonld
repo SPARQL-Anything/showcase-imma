@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/balkenhol-stephan",
     "@type" : "foaf:Person",
-    "dc:description" : "German sculptor Stephan Balkenhol studied at the Hamburg School of Fine Arts, known for its Minimalist and Conceptualist profile. He went on to reject abstract formalism in favour of figurative sculpture. His large scale works are part of many public and private collections and he has exhibited widely, including a show at IMMA from 1991 to 1992.",
-    "dc:source" : "https://imma.ie/artists/stephan-balkenhol/",
-    "schema:birthDate" : "b.1957",
-    "schema:url" : "https://imma.ie/artists/stephan-balkenhol/",
-    "rdfs:label" : "Stephan Balkenhol"
+    "description" : "German sculptor Stephan Balkenhol studied at the Hamburg School of Fine Arts, known for its Minimalist and Conceptualist profile. He went on to reject abstract formalism in favour of figurative sculpture. His large scale works are part of many public and private collections and he has exhibited widely, including a show at IMMA from 1991 to 1992.",
+    "source" : "https://imma.ie/artists/stephan-balkenhol/",
+    "birthDate" : "b.1957",
+    "url" : "https://imma.ie/artists/stephan-balkenhol/",
+    "label" : "Stephan Balkenhol"
   }, {
     "@id" : "spice:artefact/large-head",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/balkenhol-stephan",
     "author" : "spice:agent/balkenhol-stephan",
-    "schema:dateCreated" : "1991",
-    "schema:url" : "https://imma.ie/collection/large-head/",
+    "dateCreated" : "1991",
+    "url" : "https://imma.ie/collection/large-head/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/large-head",
-    "arco-cd:hasTitle" : "Large Head"
+    "hasTitle" : "Large Head"
   }, {
     "@id" : "spice:attribution/large-head",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,40 +24,33 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

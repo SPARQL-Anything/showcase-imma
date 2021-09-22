@@ -2,71 +2,61 @@
   "@graph" : [ {
     "@id" : "spice:artefact/double-drawing-from-the-snail-chronicles",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Double Drawing, from The Snail Chronicles is a 2004 work by Alice Maher. It is not currently on display in IMMA. ",
-    "dc:source" : "https://imma.ie/collection/double-drawing-from-the-snail-chronicles/",
-    "schema:creditText" : "IMMA Collection: Permanent Loan, the Contemporary Irish art Society, 2005",
+    "description" : "Double Drawing, from The Snail Chronicles is a 2004 work by Alice Maher. It is not currently on display in IMMA. ",
+    "source" : "https://imma.ie/collection/double-drawing-from-the-snail-chronicles/",
+    "creditText" : "IMMA Collection: Permanent Loan, the Contemporary Irish art Society, 2005",
     "image" : "spice:documentation/double-drawing-from-the-snail-chronicles",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Etching",
-    "schema:size" : "47 x 43 cm (sheet)",
-    "schema:version" : "A/P; Edition of 25",
-    "arco-cd:hasInventory" : "L.1894"
+    "material" : "Etching",
+    "size" : "47 x 43 cm (sheet)",
+    "version" : "A/P; Edition of 25",
+    "hasInventory" : "L.1894"
   }, {
     "@id" : "spice:documentation/double-drawing-from-the-snail-chronicles",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Alice Maher, Double Drawing, from The Snail Chronicles, 2004, Etching, 47 x 43 cm (sheet), Collection Irish Museum of Modern Art, Permanent Loan, the Contemporary Irish art Society, 2005 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Alice Maher, Double Drawing, from The Snail Chronicles, 2004, Etching, 47 x 43 cm (sheet), Collection Irish Museum of Modern Art, Permanent Loan, the Contemporary Irish art Society, 2005 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/1766.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/1766.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

@@ -1,0 +1,105 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/halpin-claire",
+    "@type" : "foaf:Person",
+    "description" : [ "Claire Halpin is a visual artist born and based in Dublin. Halpin’s practice explores themes and concepts around contested territories and histories through painting, video and installation. She creates work that raises questions about how we choose to record history and the veracity of painting, photography, and the media in documenting future history.", "Claire Halpin is a visual artist born and based in Dublin. Halpin’s practice explores themes and concepts around contested territories and histories through painting, video and installation." ],
+    "source" : "https://imma.ie/artists/claire-halpin/",
+    "url" : "https://imma.ie/artists/claire-halpin/",
+    "label" : "Claire Halpin"
+  }, {
+    "@id" : "spice:artefact/afghan-tour",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/halpin-claire",
+    "author" : "spice:agent/halpin-claire",
+    "dateCreated" : "2016",
+    "url" : "https://imma.ie/collection/afghan-tour/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/afghan-tour",
+    "hasTitle" : "Afghan Tour"
+  }, {
+    "@id" : "spice:artefact/jig-map-iraq",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/halpin-claire",
+    "author" : "spice:agent/halpin-claire",
+    "dateCreated" : "2015",
+    "url" : "https://imma.ie/collection/jig-map-iraq/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/jig-map-iraq",
+    "hasTitle" : "Jig Map Iraq"
+  }, {
+    "@id" : "spice:artefact/yeoman-yemen",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/halpin-claire",
+    "author" : "spice:agent/halpin-claire",
+    "dateCreated" : "2019",
+    "url" : "https://imma.ie/collection/yeoman-yemen/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/yeoman-yemen",
+    "hasTitle" : "Yeoman Yemen"
+  }, {
+    "@id" : "spice:attribution/afghan-tour",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/halpin-claire"
+  }, {
+    "@id" : "spice:attribution/jig-map-iraq",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/halpin-claire"
+  }, {
+    "@id" : "spice:attribution/yeoman-yemen",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/halpin-claire"
+  } ],
+  "@context" : {
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

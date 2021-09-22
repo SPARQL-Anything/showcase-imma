@@ -2,31 +2,31 @@
   "@graph" : [ {
     "@id" : "spice:agent/eno-brian",
     "@type" : "foaf:Person",
-    "dc:description" : "Born in 1948 and raised in rural Suffolk, British artist Brian Eno is also a pioneer in music with an accomplished career as a recording artist and producer. He attended Ipswich Art School and Winchester College of Art in the 1960s, introducing him to Minimalism and the principles of conceptual painting, in addition to sound sculpture. Eno has previously exhibited at Biennale de Lyon, Serpentine Gallery and The Barbican Centre, London.",
-    "dc:source" : "https://imma.ie/artists/brian-eno/",
-    "schema:birthDate" : "b.1948",
-    "schema:url" : "https://imma.ie/artists/brian-eno/",
-    "rdfs:label" : "Brian Eno"
+    "description" : "Born in 1948 and raised in rural Suffolk, British artist Brian Eno is also a pioneer in music with an accomplished career as a recording artist and producer. He attended Ipswich Art School and Winchester College of Art in the 1960s, introducing him to Minimalism and the principles of conceptual painting, in addition to sound sculpture. Eno has previously exhibited at Biennale de Lyon, Serpentine Gallery and The Barbican Centre, London.",
+    "source" : "https://imma.ie/artists/brian-eno/",
+    "birthDate" : "b.1948",
+    "url" : "https://imma.ie/artists/brian-eno/",
+    "label" : "Brian Eno"
   }, {
     "@id" : "spice:artefact/center-decenter",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/eno-brian",
     "author" : "spice:agent/eno-brian",
-    "schema:dateCreated" : "2016",
-    "schema:url" : "https://imma.ie/collection/center-decenter/",
+    "dateCreated" : "2016",
+    "url" : "https://imma.ie/collection/center-decenter/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/center-decenter",
-    "arco-cd:hasTitle" : "Center Decenter"
+    "hasTitle" : "Center Decenter"
   }, {
     "@id" : "spice:artefact/tender-divisor",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/eno-brian",
     "author" : "spice:agent/eno-brian",
-    "schema:dateCreated" : "2016",
-    "schema:url" : "https://imma.ie/collection/tender-divisor/",
+    "dateCreated" : "2016",
+    "url" : "https://imma.ie/collection/tender-divisor/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/tender-divisor",
-    "arco-cd:hasTitle" : "Tender Divisor"
+    "hasTitle" : "Tender Divisor"
   }, {
     "@id" : "spice:attribution/center-decenter",
     "@type" : "arco:AuthorshipAttribution",
@@ -42,44 +42,37 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -87,7 +80,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

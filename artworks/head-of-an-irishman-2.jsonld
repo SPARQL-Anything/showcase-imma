@@ -2,71 +2,61 @@
   "@graph" : [ {
     "@id" : "spice:artefact/head-of-an-irishman-2",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Head of an Irishman is a 1999 work by Lucian Freud. It is not currently on display in IMMA. ",
-    "dc:source" : "https://imma.ie/collection/head-of-an-irishman-2/",
-    "schema:creditText" : "IMMA Collection: On Loan, Private Collection, ",
+    "description" : "Head of an Irishman is a 1999 work by Lucian Freud. It is not currently on display in IMMA. ",
+    "source" : "https://imma.ie/collection/head-of-an-irishman-2/",
+    "creditText" : "IMMA Collection: On Loan, Private Collection, ",
     "image" : "spice:documentation/head-of-an-irishman-2",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Etching",
-    "schema:size" : "Plate: 74.3 x 56.5 cm Sheet: 97.2 x 78.1 cm Framed: 107 x 87 x 2.5 cm",
-    "schema:version" : "Edition A/P 11/12",
-    "arco-cd:hasInventory" : "EX.2016.1.48"
+    "material" : "Etching",
+    "size" : "Plate: 74.3 x 56.5 cm Sheet: 97.2 x 78.1 cm Framed: 107 x 87 x 2.5 cm",
+    "version" : "Edition A/P 11/12",
+    "hasInventory" : "EX.2016.1.48"
   }, {
     "@id" : "spice:documentation/head-of-an-irishman-2",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Lucian Freud, Head of an Irishman, 1999, Etching, Plate: 74.3 x 56.5 cm Sheet: 97.2 x 78.1 cm Framed: 107 x 87 x 2.5 cm, Collection Irish Museum of Modern Art, On Loan, Private Collection ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Lucian Freud, Head of an Irishman, 1999, Etching, Plate: 74.3 x 56.5 cm Sheet: 97.2 x 78.1 cm Framed: 107 x 87 x 2.5 cm, Collection Irish Museum of Modern Art, On Loan, Private Collection ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2020/08/7594.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2020/08/7594.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

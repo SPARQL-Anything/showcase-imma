@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/la-forma-deforme",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "La Forma Deforme is a 2010 work by Luis López Loza. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/la-forma-deforme/",
-    "schema:creditText" : "IMMA Collection: Diplomatic gift of the Federal Government of Mexico, 2011",
+    "description" : "La Forma Deforme is a 2010 work by Luis López Loza. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/la-forma-deforme/",
+    "creditText" : "IMMA Collection: Diplomatic gift of the Federal Government of Mexico, 2011",
     "image" : "spice:documentation/la-forma-deforme",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Lithograph",
-    "schema:size" : "Sheet: 60 x 50 cm Plate: 39 x 26.7 cm",
-    "arco-cd:hasInventory" : "IMMA.3760"
+    "material" : "Lithograph",
+    "size" : "Sheet: 60 x 50 cm Plate: 39 x 26.7 cm",
+    "hasInventory" : "IMMA.3760"
   }, {
     "@id" : "spice:documentation/la-forma-deforme",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Luis López Loza, La Forma Deforme, 2010, Lithograph, Sheet: 60 x 50 cm Plate: 39 x 26.7 cm, Collection Irish Museum of Modern Art, Diplomatic gift of the Federal Government of Mexico, 2011 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Luis López Loza, La Forma Deforme, 2010, Lithograph, Sheet: 60 x 50 cm Plate: 39 x 26.7 cm, Collection Irish Museum of Modern Art, Diplomatic gift of the Federal Government of Mexico, 2011 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/6918.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/6918.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

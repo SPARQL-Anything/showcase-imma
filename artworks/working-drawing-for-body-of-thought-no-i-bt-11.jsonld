@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/working-drawing-for-body-of-thought-no-i-bt-11",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Working drawing for Body of Thought No I (BT 11) is a 1988 work by Richard Deacon. It is not currently on display in IMMA. ",
-    "dc:source" : "https://imma.ie/collection/working-drawing-for-body-of-thought-no-i-bt-11/",
-    "schema:creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1994",
+    "description" : "Working drawing for Body of Thought No I (BT 11) is a 1988 work by Richard Deacon. It is not currently on display in IMMA. ",
+    "source" : "https://imma.ie/collection/working-drawing-for-body-of-thought-no-i-bt-11/",
+    "creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1994",
     "image" : "spice:documentation/working-drawing-for-body-of-thought-no-i-bt-11",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Pencil, crayon and ink on squared paper",
-    "schema:size" : "59 x 84 cm",
-    "arco-cd:hasInventory" : "L.2008.1.3.11"
+    "material" : "Pencil, crayon and ink on squared paper",
+    "size" : "59 x 84 cm",
+    "hasInventory" : "L.2008.1.3.11"
   }, {
     "@id" : "spice:documentation/working-drawing-for-body-of-thought-no-i-bt-11",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Richard Deacon, Working drawing for Body of Thought No I (BT 11), 1988, Pencil, crayon and ink on squared paper, 59 x 84 cm, Collection Irish Museum of Modern Art, Loan, Weltkunst Foundation, 1994 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Richard Deacon, Working drawing for Body of Thought No I (BT 11), 1988, Pencil, crayon and ink on squared paper, 59 x 84 cm, Collection Irish Museum of Modern Art, Loan, Weltkunst Foundation, 1994 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/3509.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/3509.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

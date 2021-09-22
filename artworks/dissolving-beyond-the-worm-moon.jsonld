@@ -1,0 +1,63 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/dissolving-beyond-the-worm-moon",
+    "@type" : "schema:CreativeWork",
+    "description" : "Dissolving Beyond the Worm Moon was produced in relation to war, unrealized childhood fantasies, and representation within globalized media. The film imagines the traumatized body as a functioning time machine where gaps between timelines and glitches cause the present-day body to wane and is replaced by the body’s memory of past trauma. The film weaves a narrative from mental time travel, episodic future thinking (a projection of the self into the future to pre-experience an event), and PTSD. ",
+    "source" : "https://imma.ie/collection/dissolving-beyond-the-worm-moon/",
+    "creditText" : "IMMA Collection: Purchase, 2021, 2021",
+    "image" : "spice:documentation/dissolving-beyond-the-worm-moon",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "material" : "Video on Blu-ray",
+    "hasInventory" : "IMMA.4192"
+  }, {
+    "@id" : "spice:documentation/dissolving-beyond-the-worm-moon",
+    "@type" : "schema:ImageObject",
+    "caption" : "Bassam Al-Sabah, Dissolving Beyond the Worm Moon, 2019, Video on Blu-ray, Duration: 18min.32 sec., Collection Irish Museum of Modern Art, Purchase, 2021, 2021 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma"
+  } ],
+  "@context" : {
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

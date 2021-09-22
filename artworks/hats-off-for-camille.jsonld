@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/hats-off-for-camille",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "‘Hats Off for Camille’ shows Scott’s love of geometry and the reduction of everything, even playful portraits of friends, to formal patterns. It is interesting to compare Scott’s portrait of his contemporary and fellow painter, Camille Souter to that by Muiris Moynihan, also in the IMMA collection. Both artists respect the sitter’s reluctance to be represented more conventionally using Souter’s trademark beret as the signifier.",
-    "dc:source" : "https://imma.ie/collection/hats-off-for-camille/",
-    "schema:creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
+    "description" : "‘Hats Off for Camille’ shows Scott’s love of geometry and the reduction of everything, even playful portraits of friends, to formal patterns. It is interesting to compare Scott’s portrait of his contemporary and fellow painter, Camille Souter to that by Muiris Moynihan, also in the IMMA collection. Both artists respect the sitter’s reluctance to be represented more conventionally using Souter’s trademark beret as the signifier.",
+    "source" : "https://imma.ie/collection/hats-off-for-camille/",
+    "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/hats-off-for-camille",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Pencil on coloured paper",
-    "schema:size" : "32.5 x 46.5 cm",
-    "arco-cd:hasInventory" : "IMMA.374 GL"
+    "material" : "Pencil on coloured paper",
+    "size" : "32.5 x 46.5 cm",
+    "hasInventory" : "IMMA.374 GL"
   }, {
     "@id" : "spice:documentation/hats-off-for-camille",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Patrick Scott, Hats off for Camille, 1976, Pencil on coloured paper, 32.5 x 46.5 cm, Collection Irish Museum of Modern Art, Gordon Lambert Trust, 1992 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Patrick Scott, Hats off for Camille, 1976, Pencil on coloured paper, 32.5 x 46.5 cm, Collection Irish Museum of Modern Art, Gordon Lambert Trust, 1992 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/188.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/188.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

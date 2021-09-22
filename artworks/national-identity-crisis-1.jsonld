@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/national-identity-crisis-1",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "‘My work has always been an attempt to convey in visual terms some aspects of the Human Drama to give a visual vocabulary to psychological states such as anxiety, or depression, to portray distrust, bigotry, hatred, tenderness all within imagined theatrical situations which have multiple readings. This is the theatre of Enigma first explored in the work of Magritte and di Chirico, to which the spectator must bring his, or her, own interpretations, which can change at every new reading. For quite a few years this drama was dominated by the political scene in N.Ireland, taking on board the violence, the bombings, the maimings, the intimidation, the “turn a blind eye” attitudes of rabble-rousing politicians with their hypocrisy, bigotry, and hatred. Since the Ceasefires and the reduction of the more obvious trapping of this violence, some of the anger portrayed in these paintings has disappeared and the work has become more lyrical incorporating visited landscapes such as Southern Spain, Donegal, the Mojave Desert with its Native American artefacts and petraglyphs along with a re-assessment of early work which embraced landscape-based abstraction, head studpies etc. I like to think of my work as continuing the tradition of figurative poetic narrative, established by Northern Artsits – Colin Middleton, Dan O’Neill and Gerard Dillon.’",
-    "dc:source" : "https://imma.ie/collection/national-identity-crisis-1/",
-    "schema:creditText" : "IMMA Collection: Purchase, 2006",
+    "description" : "‘My work has always been an attempt to convey in visual terms some aspects of the Human Drama to give a visual vocabulary to psychological states such as anxiety, or depression, to portray distrust, bigotry, hatred, tenderness all within imagined theatrical situations which have multiple readings. This is the theatre of Enigma first explored in the work of Magritte and di Chirico, to which the spectator must bring his, or her, own interpretations, which can change at every new reading. For quite a few years this drama was dominated by the political scene in N.Ireland, taking on board the violence, the bombings, the maimings, the intimidation, the “turn a blind eye” attitudes of rabble-rousing politicians with their hypocrisy, bigotry, and hatred. Since the Ceasefires and the reduction of the more obvious trapping of this violence, some of the anger portrayed in these paintings has disappeared and the work has become more lyrical incorporating visited landscapes such as Southern Spain, Donegal, the Mojave Desert with its Native American artefacts and petraglyphs along with a re-assessment of early work which embraced landscape-based abstraction, head studpies etc. I like to think of my work as continuing the tradition of figurative poetic narrative, established by Northern Artsits – Colin Middleton, Dan O’Neill and Gerard Dillon.’",
+    "source" : "https://imma.ie/collection/national-identity-crisis-1/",
+    "creditText" : "IMMA Collection: Purchase, 2006",
     "image" : "spice:documentation/national-identity-crisis-1",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Acrylic on canvas",
-    "schema:size" : "210 x 360 cm",
-    "arco-cd:hasInventory" : "IMMA.1989"
+    "material" : "Acrylic on canvas",
+    "size" : "210 x 360 cm",
+    "hasInventory" : "IMMA.1989"
   }, {
     "@id" : "spice:documentation/national-identity-crisis-1",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Jack Pakenham, National Identity Crisis 1, 1995, Acrylic on canvas, 210 x 360 cm, Collection Irish Museum of Modern Art, Purchase, 2006 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Jack Pakenham, National Identity Crisis 1, 1995, Acrylic on canvas, 210 x 360 cm, Collection Irish Museum of Modern Art, Purchase, 2006 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/238.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/238.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

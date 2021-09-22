@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/untitled-vegetation-room-x",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Unlike the generation of Modernist sculptors who preceded her, Christina Iglesias likes to engage with figuration in her work. The body is always present in the environments she creates, either directly or by implication. Iglesias uses references to the history of western art, architecture and literature in her work. Re-shaping the real space in which they are placed, her works require the interaction of the viewer. Using canopies, passageways, screens and curving walls she alters the architectural environment in which she exhibits, bringing signifiers from another time or another place to bear on it. ‘Untitled (Vegetation Room X)’ from her ‘Vegetation Rooms’ series reveals the richness of her process, and creates an extraordinary dialogue between the marine culture it refers to and the world of contemporary art. The work was acquired from the touring exhibition ‘Christina Iglesias’, organised by Fundacao de Serralves, Museu de Arte- Contemporanea Porto, and co-produced by Whitechapel, London and the Irish Museum of Modern Art.",
-    "dc:source" : "https://imma.ie/collection/untitled-vegetation-room-x/",
-    "schema:creditText" : "IMMA Collection: Purchase, 2003",
+    "description" : "Unlike the generation of Modernist sculptors who preceded her, Christina Iglesias likes to engage with figuration in her work. The body is always present in the environments she creates, either directly or by implication. Iglesias uses references to the history of western art, architecture and literature in her work. Re-shaping the real space in which they are placed, her works require the interaction of the viewer. Using canopies, passageways, screens and curving walls she alters the architectural environment in which she exhibits, bringing signifiers from another time or another place to bear on it. ‘Untitled (Vegetation Room X)’ from her ‘Vegetation Rooms’ series reveals the richness of her process, and creates an extraordinary dialogue between the marine culture it refers to and the world of contemporary art. The work was acquired from the touring exhibition ‘Christina Iglesias’, organised by Fundacao de Serralves, Museu de Arte- Contemporanea Porto, and co-produced by Whitechapel, London and the Irish Museum of Modern Art.",
+    "source" : "https://imma.ie/collection/untitled-vegetation-room-x/",
+    "creditText" : "IMMA Collection: Purchase, 2003",
     "image" : "spice:documentation/untitled-vegetation-room-x",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Resin and bronze powder",
-    "schema:size" : "250 x 230 x 245 cm",
-    "arco-cd:hasInventory" : "IMMA.1625"
+    "material" : "Resin and bronze powder",
+    "size" : "250 x 230 x 245 cm",
+    "hasInventory" : "IMMA.1625"
   }, {
     "@id" : "spice:documentation/untitled-vegetation-room-x",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Cristina Iglesias, Untitled (Vegetation Room X), 2002, Resin and bronze powder, 250 x 230 x 245 cm, Collection Irish Museum of Modern Art, Purchase, 2003 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Cristina Iglesias, Untitled (Vegetation Room X), 2002, Resin and bronze powder, 250 x 230 x 245 cm, Collection Irish Museum of Modern Art, Purchase, 2003 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2019/10/1616.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2019/10/1616.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

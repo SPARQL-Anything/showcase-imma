@@ -2,71 +2,61 @@
   "@graph" : [ {
     "@id" : "spice:artefact/srinagar",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Srinagar is a 2014 work by Praneet Soi. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/srinagar/",
-    "schema:creditText" : "IMMA Collection: Donation by The International Production Fund (ipf) in partnership with Outset England and Outset Netherlands, 2014",
+    "description" : "Srinagar is a 2014 work by Praneet Soi. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/srinagar/",
+    "creditText" : "IMMA Collection: Donation by The International Production Fund (ipf) in partnership with Outset England and Outset Netherlands, 2014",
     "image" : "spice:documentation/srinagar",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "160 Slides, 2 Ektapro projectors, circuit box",
-    "schema:size" : "Duration: variable",
-    "schema:version" : "Edition 1/3 + 1 A/P",
-    "arco-cd:hasInventory" : "IMMA.3877"
+    "material" : "160 Slides, 2 Ektapro projectors, circuit box",
+    "size" : "Duration: variable",
+    "version" : "Edition 1/3 + 1 A/P",
+    "hasInventory" : "IMMA.3877"
   }, {
     "@id" : "spice:documentation/srinagar",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Praneet Soi, Srinagar, 2014, 160 Slides, 2 Ektapro projectors, circuit box, Duration: variable, Collection Irish Museum of Modern Art, Donation by The International Production Fund (ipf) in partnership with Outset England and Outset Netherlands, 2014 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Praneet Soi, Srinagar, 2014, 160 Slides, 2 Ektapro projectors, circuit box, Duration: variable, Collection Irish Museum of Modern Art, Donation by The International Production Fund (ipf) in partnership with Outset England and Outset Netherlands, 2014 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/7238.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/7238.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

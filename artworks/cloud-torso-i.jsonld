@@ -2,66 +2,57 @@
   "@graph" : [ {
     "@id" : "spice:artefact/cloud-torso-i",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Cloud Torso I is a 1979 work by Mary Farl Powers. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/cloud-torso-i/",
-    "schema:creditText" : "IMMA Collection: Donation, Powers Family, 2009",
+    "description" : "Cloud Torso I is a 1979 work by Mary Farl Powers. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/cloud-torso-i/",
+    "creditText" : "IMMA Collection: Donation, Powers Family, 2009",
     "image" : "spice:documentation/cloud-torso-i",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Colour etching",
-    "schema:size" : "60 x 35 cm",
-    "schema:version" : "Edition 3/5 AP",
-    "arco-cd:hasInventory" : "IMMA.676"
+    "material" : "Colour etching",
+    "size" : "60 x 35 cm",
+    "version" : "Edition 3/5 AP",
+    "hasInventory" : "IMMA.676"
   }, {
     "@id" : "spice:documentation/cloud-torso-i",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Mary Farl Powers, Cloud Torso I, 1979, Colour etching, 60 x 35 cm, Collection Irish Museum of Modern Art, Donation, Powers Family, 2009 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Mary Farl Powers, Cloud Torso I, 1979, Colour etching, 60 x 35 cm, Collection Irish Museum of Modern Art, Donation, Powers Family, 2009 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

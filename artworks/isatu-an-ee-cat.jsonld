@@ -1,0 +1,71 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/isatu-an-ee-cat",
+    "@type" : "schema:CreativeWork",
+    "description" : "Isatu an Ee cat (2021) is a is digital print created by drawing digitally onto a composite image of existing clay sculpture and a photo of Alice Rekab’s grandmother Isatu, c.1968. The objects in the image take the form of both heirlooms and votive objects and the drawn lines act as layered devotional mappings of their subject and the way the artist feels about their grandmother Isatu. The making of this work emphasises and elevates Isatu – her life and her home. The title is written in Krio, an English-based creole language that is lingua franca and de facto national language spoken throughout the West African nation of Sierra Leone. It translates simply as “Isatu and her cat”. ",
+    "source" : "https://imma.ie/collection/isatu-an-ee-cat/",
+    "creditText" : "IMMA Collection: Purchase, 2021, 2021",
+    "image" : "spice:documentation/isatu-an-ee-cat",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "material" : "Digital Print, Drawing on Photography",
+    "size" : "84 x 118 cm",
+    "hasInventory" : "IMMA.4226"
+  }, {
+    "@id" : "spice:documentation/isatu-an-ee-cat",
+    "@type" : "schema:ImageObject",
+    "caption" : "Alice Rekab, Isatu an Ee cat&nbsp;, 2021, Digital Print, Drawing on Photography, 84 x 118 cm, Collection Irish Museum of Modern Art, Purchase, 2021, 2021 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "url" : "https://imma.ie/wp-content/uploads/2021/06/9527.jpg"
+  } ],
+  "@context" : {
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

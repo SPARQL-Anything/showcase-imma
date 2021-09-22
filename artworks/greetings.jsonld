@@ -2,37 +2,33 @@
   "@graph" : [ {
     "@id" : "spice:artefact/greetings",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "‘Greetings’ was Caroline McCarthy’s first video piece for public viewing. It consists of two short films which are shown simultaneously on domestic TV monitors. Each film shows a typically Irish landscape (similar to those on tourist post-cards) which is disturbed at regular intervals by the intrusion of the artist’s head as she literally pops into and falls out of the landscape. McCarthy commented: ‘Because the camera is too high for me, no more than the top of my head manages to get into the bottom of the frame. When I fall out of the screen the landscape returns to its former tranquillity until the next intrusion’. ‘Greetings’ deals with exclusion and the need to secure a place in the world, in this case both in the professional world of Irish art and in the cultural life of the country. The piece makes the point that the artist never quite succeeds in becoming part of the local picture. The reference to picture postcard messages in the title suggests that the artist is only visiting the location. She finds it hard to belong in the changing culture – from rural to urban – of contemporary Ireland.",
-    "dc:source" : "https://imma.ie/collection/greetings/",
-    "schema:creditText" : "IMMA Collection: Purchase, 1996",
+    "description" : "‘Greetings’ was Caroline McCarthy’s first video piece for public viewing. It consists of two short films which are shown simultaneously on domestic TV monitors. Each film shows a typically Irish landscape (similar to those on tourist post-cards) which is disturbed at regular intervals by the intrusion of the artist’s head as she literally pops into and falls out of the landscape. McCarthy commented: ‘Because the camera is too high for me, no more than the top of my head manages to get into the bottom of the frame. When I fall out of the screen the landscape returns to its former tranquillity until the next intrusion’. ‘Greetings’ deals with exclusion and the need to secure a place in the world, in this case both in the professional world of Irish art and in the cultural life of the country. The piece makes the point that the artist never quite succeeds in becoming part of the local picture. The reference to picture postcard messages in the title suggests that the artist is only visiting the location. She finds it hard to belong in the changing culture – from rural to urban – of contemporary Ireland.",
+    "source" : "https://imma.ie/collection/greetings/",
+    "creditText" : "IMMA Collection: Purchase, 1996",
     "image" : "spice:documentation/greetings",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Two-channel video",
-    "arco-cd:hasInventory" : "IMMA.735"
+    "material" : "Two-channel video",
+    "hasInventory" : "IMMA.735"
   }, {
     "@id" : "spice:documentation/greetings",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Caroline McCarthy, Greetings, 1996, Two-channel video, Dimensions variable, Collection Irish Museum of Modern Art, Purchase, 1996 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Caroline McCarthy, Greetings, 1996, Two-channel video, Dimensions variable, Collection Irish Museum of Modern Art, Purchase, 1996 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/1043.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/1043.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -43,20 +39,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

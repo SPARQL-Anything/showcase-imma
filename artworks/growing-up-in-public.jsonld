@@ -2,22 +2,22 @@
   "@graph" : [ {
     "@id" : "spice:artefact/growing-up-in-public",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "I tend to work in places of war and conflict, and that has tended to mean that the unburied ghost of colonial past is still wreaking tragedy in its gyre of resolution or dissolution, like a series of cyclones devastating a helpless undeveloped nation. Since I am a white male, my white-male gaze has made my positions quite defenseless, and I have sometimes been criticized for taking politically incorrect views (and I don’t tend to take positions in my practice, though I have them personally, of course, but do try to assume a neutral, non-didactic aesthetic strategy, which is itself a position, though it may not immediately appear to be). Being Irish, though, has allowed me to remain unapologetic, steering clear of the horrors of political correctness that white males often have thrust upon them in the course of their privileged, embarrassed discourse. It has also allowed me to travel freely in rogue nations who feel kinship with us Irish rogues. So, being Irish has allowed me to be more fully me, even though I don’t at all subscribe to any national identity.",
-    "dc:source" : "https://imma.ie/collection/growing-up-in-public/",
-    "schema:creditText" : "IMMA Collection: Purchase, assisted by funding from Maire and Maurice Foley, 2012",
+    "description" : "I tend to work in places of war and conflict, and that has tended to mean that the unburied ghost of colonial past is still wreaking tragedy in its gyre of resolution or dissolution, like a series of cyclones devastating a helpless undeveloped nation. Since I am a white male, my white-male gaze has made my positions quite defenseless, and I have sometimes been criticized for taking politically incorrect views (and I don’t tend to take positions in my practice, though I have them personally, of course, but do try to assume a neutral, non-didactic aesthetic strategy, which is itself a position, though it may not immediately appear to be). Being Irish, though, has allowed me to remain unapologetic, steering clear of the horrors of political correctness that white males often have thrust upon them in the course of their privileged, embarrassed discourse. It has also allowed me to travel freely in rogue nations who feel kinship with us Irish rogues. So, being Irish has allowed me to be more fully me, even though I don’t at all subscribe to any national identity.",
+    "source" : "https://imma.ie/collection/growing-up-in-public/",
+    "creditText" : "IMMA Collection: Purchase, assisted by funding from Maire and Maurice Foley, 2012",
     "image" : "spice:documentation/growing-up-in-public",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Digital c-print",
-    "schema:size" : "71.12 x 88.9 cm Framed: 73.34 x 91.44 x 4.44 cm",
-    "schema:version" : "Edition 1/5 with 1 A/P",
-    "arco-cd:hasInventory" : "IMMA.3790"
+    "material" : "Digital c-print",
+    "size" : "71.12 x 88.9 cm Framed: 73.34 x 91.44 x 4.44 cm",
+    "version" : "Edition 1/5 with 1 A/P",
+    "hasInventory" : "IMMA.3790"
   }, {
     "@id" : "spice:documentation/growing-up-in-public",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Richard Mosse, Growing Up In Public, 2011, Digital c-print, 71.12 x 88.9 cm Framed: 73.34 x 91.44 x 4.44 cm, Collection Irish Museum of Modern Art, Purchase, assisted by funding from Maire and Maurice Foley, 2012 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Richard Mosse, Growing Up In Public, 2011, Digital c-print, 71.12 x 88.9 cm Framed: 73.34 x 91.44 x 4.44 cm, Collection Irish Museum of Modern Art, Purchase, assisted by funding from Maire and Maurice Foley, 2012 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/7044.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/7044.jpg"
   } ],
   "@context" : {
     "maintainer" : {
@@ -25,48 +25,38 @@
       "@type" : "@id"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

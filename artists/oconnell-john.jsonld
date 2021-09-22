@@ -3,29 +3,26 @@
   "@type" : "foaf:Person",
   "description" : "_:b0",
   "dc:description" : "John O’Connell&nbsp;holds an MA from the Royal College of Art, London and a BA from the National College of Art, Dublin.&nbsp;He has been awarded several artists’ residencies and has exhibited widely both nationally and internationally, these include a fellowship in Location1 New York, SIM in Iceland, Stiftung Starke in Berlin and The Watermill with Robert Wilson in New York.",
-  "dc:source" : "https://imma.ie/artists/john-oconnell/",
-  "schema:url" : "https://imma.ie/artists/john-oconnell/",
-  "rdfs:label" : "John O’Connell",
+  "source" : "https://imma.ie/artists/john-oconnell/",
+  "url" : "https://imma.ie/artists/john-oconnell/",
+  "label" : "John O’Connell",
   "@context" : {
     "description" : {
       "@id" : "http://purl.org/dc/elements/1.1/description",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

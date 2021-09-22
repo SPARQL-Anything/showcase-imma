@@ -1,35 +1,30 @@
 {
   "@id" : "spice:agent/van-harskamp-nicoline",
   "@type" : "foaf:Person",
-  "dc:description" : [ "Nicoline van Harskamp is an Amsterdam-based artist whose work considers acts of language and communication in relation to ideology and solidarity through video, installation, and scripted performance. In recent works van Harskamp has used varieties of internationally-spoken English to propose a future shaped by the ubiquity and constant evolution of the language, and its inevitable divergence from hegemonic norms.", "August &amp; October 2018", "Nicoline van Harskamp is an Amsterdam-based artist whose work considers acts of language and communication in relation to ideology and solidarity through video, installation, and scripted performance. " ],
-  "dc:source" : "https://imma.ie/artists/nicoline-van-harskamp/",
-  "schema:birthDate" : "b.1975",
-  "schema:url" : "https://imma.ie/artists/nicoline-van-harskamp/",
-  "rdfs:label" : "Nicoline van Harskamp",
+  "description" : [ "Nicoline van Harskamp is an Amsterdam-based artist whose work considers acts of language and communication in relation to ideology and solidarity through video, installation, and scripted performance. In recent works van Harskamp has used varieties of internationally-spoken English to propose a future shaped by the ubiquity and constant evolution of the language, and its inevitable divergence from hegemonic norms.", "August &amp; October 2018", "Nicoline van Harskamp is an Amsterdam-based artist whose work considers acts of language and communication in relation to ideology and solidarity through video, installation, and scripted performance. " ],
+  "source" : "https://imma.ie/artists/nicoline-van-harskamp/",
+  "birthDate" : "b.1975",
+  "url" : "https://imma.ie/artists/nicoline-van-harskamp/",
+  "label" : "Nicoline van Harskamp",
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

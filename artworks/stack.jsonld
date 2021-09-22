@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/stack",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "A 2.7 metre high work of layered cloth, paint and twine, ‘Stack’ suggests an archaeological sense of both space and time. It refers to the landscape, a concern also demonstrated in Prendergast’s ‘Map’ series’ of 1983 and 1995. This sculpture’s form, both weighty and light, bulky and fragile, is marked by a sense of perfection and delicate beauty, whilst at the same time confounding our expectations. The association with the off-cuts from clothing factories kept afloat by women’s labour makes a further link between woman and landscape.",
-    "dc:source" : "https://imma.ie/collection/stack/",
-    "schema:creditText" : "IMMA Collection: Purchase, 1991",
+    "description" : "A 2.7 metre high work of layered cloth, paint and twine, ‘Stack’ suggests an archaeological sense of both space and time. It refers to the landscape, a concern also demonstrated in Prendergast’s ‘Map’ series’ of 1983 and 1995. This sculpture’s form, both weighty and light, bulky and fragile, is marked by a sense of perfection and delicate beauty, whilst at the same time confounding our expectations. The association with the off-cuts from clothing factories kept afloat by women’s labour makes a further link between woman and landscape.",
+    "source" : "https://imma.ie/collection/stack/",
+    "creditText" : "IMMA Collection: Purchase, 1991",
     "image" : "spice:documentation/stack",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Cloth, string, paint and wood",
-    "schema:size" : "270 x 260 x 70 cm",
-    "arco-cd:hasInventory" : "IMMA.32"
+    "material" : "Cloth, string, paint and wood",
+    "size" : "270 x 260 x 70 cm",
+    "hasInventory" : "IMMA.32"
   }, {
     "@id" : "spice:documentation/stack",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Kathy Prendergast, Stack, 1989, Cloth, string, paint and wood, 270 x 260 x 70 cm, Collection Irish Museum of Modern Art, Purchase, 1991 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Kathy Prendergast, Stack, 1989, Cloth, string, paint and wood, 270 x 260 x 70 cm, Collection Irish Museum of Modern Art, Purchase, 1991 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/244.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/244.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

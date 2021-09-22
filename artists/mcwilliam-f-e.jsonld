@@ -2,31 +2,31 @@
   "@graph" : [ {
     "@id" : "spice:agent/mcwilliam-f-e",
     "@type" : "foaf:Person",
-    "dc:description" : "Northern Irish sculptor F.E. McWilliam attended the Belfast College of Art and the Slade School of Fine Art, London. At first influenced by primitive art, McWilliam’s figurative sculpture in a range of media became increasingly surrealist from the late 1930s. McWilliam exhibited extensively and completed many public commissions from the 1950s. He also taught sculpture at Chelsea School of Art and the Slade School. His work is represented in major public collections, including MoMA and Tate.",
-    "dc:source" : "https://imma.ie/artists/f-e-mcwilliam/",
-    "schema:birthDate" : "1909–1992",
-    "schema:url" : "https://imma.ie/artists/f-e-mcwilliam/",
-    "rdfs:label" : "F.E. McWilliam"
+    "description" : "Northern Irish sculptor F.E. McWilliam attended the Belfast College of Art and the Slade School of Fine Art, London. At first influenced by primitive art, McWilliam’s figurative sculpture in a range of media became increasingly surrealist from the late 1930s. McWilliam exhibited extensively and completed many public commissions from the 1950s. He also taught sculpture at Chelsea School of Art and the Slade School. His work is represented in major public collections, including MoMA and Tate.",
+    "source" : "https://imma.ie/artists/f-e-mcwilliam/",
+    "birthDate" : "1909–1992",
+    "url" : "https://imma.ie/artists/f-e-mcwilliam/",
+    "label" : "F.E. McWilliam"
   }, {
     "@id" : "spice:artefact/girl-waiting",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/mcwilliam-f-e",
     "author" : "spice:agent/mcwilliam-f-e",
-    "schema:dateCreated" : "1970",
-    "schema:url" : "https://imma.ie/collection/girl-waiting/",
+    "dateCreated" : "1970",
+    "url" : "https://imma.ie/collection/girl-waiting/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/girl-waiting",
-    "arco-cd:hasTitle" : "Girl Waiting"
+    "hasTitle" : "Girl Waiting"
   }, {
     "@id" : "spice:artefact/help-women-of-belfast-series",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/mcwilliam-f-e",
     "author" : "spice:agent/mcwilliam-f-e",
-    "schema:dateCreated" : "1975",
-    "schema:url" : "https://imma.ie/collection/help-women-of-belfast-series/",
+    "dateCreated" : "1975",
+    "url" : "https://imma.ie/collection/help-women-of-belfast-series/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/help-women-of-belfast-series",
-    "arco-cd:hasTitle" : "‘HELP’ – Women of Belfast Series"
+    "hasTitle" : "‘HELP’ – Women of Belfast Series"
   }, {
     "@id" : "spice:attribution/girl-waiting",
     "@type" : "arco:AuthorshipAttribution",
@@ -46,48 +46,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

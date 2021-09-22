@@ -1,0 +1,63 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/yellow",
+    "@type" : "schema:CreativeWork",
+    "description" : "Dr Luz Mar González-Arias has written of Yellow ‘for those familiar with the specificities of the Irish context; the constant scrubbing of a woman’s dress in Yellow necessarily brings to mind the infamous Magdalene Laundries, religious institutions all across the country where ‘fallen women’ – prostitutes, victims of rape, single mothers – were confined from the 18th to late 20th centuries. The inmates were forced to work washing clothes – an activity of high metaphorical content for it extended also to the purification of the soul…The ritualistic repetition of movements will never cease, but neither will their liberating potential. Ultimately Yellow is about a continuous existential journey, Coogan’s, yours and mine.",
+    "source" : "https://imma.ie/collection/yellow/",
+    "creditText" : "IMMA Collection: Purchase, 2021, 2021",
+    "image" : "spice:documentation/yellow",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "hasInventory" : "IMMA.4221"
+  }, {
+    "@id" : "spice:documentation/yellow",
+    "@type" : "schema:ImageObject",
+    "caption" : "Amanda Coogan, Yellow, 2008, Collection Irish Museum of Modern Art, Purchase, 2021, 2021 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "url" : "https://imma.ie/wp-content/uploads/2021/07/9515.jpg"
+  } ],
+  "@context" : {
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

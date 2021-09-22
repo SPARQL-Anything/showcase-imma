@@ -1,30 +1,26 @@
 {
   "@id" : "spice:agent/guell-nuria",
   "@type" : "foaf:Person",
-  "dc:description" : "Núria Güell’s work reformulates and deals with the limits of legality, the analyzes of ethics practiced by the Institutions that govern us detecting abuses of power committed through the established legality and hegemonic morality. ",
-  "dc:source" : "https://imma.ie/artists/nuria-guell/",
-  "schema:url" : "https://imma.ie/artists/nuria-guell/",
-  "rdfs:label" : "Núria Güell",
+  "description" : "Núria Güell’s work reformulates and deals with the limits of legality, the analyzes of ethics practiced by the Institutions that govern us detecting abuses of power committed through the established legality and hegemonic morality. ",
+  "source" : "https://imma.ie/artists/nuria-guell/",
+  "url" : "https://imma.ie/artists/nuria-guell/",
+  "label" : "Núria Güell",
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

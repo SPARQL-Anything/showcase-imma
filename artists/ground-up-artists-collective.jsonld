@@ -1,30 +1,26 @@
 {
   "@id" : "spice:agent/ground-up-artists-collective",
   "@type" : "foaf:Person",
-  "dc:description" : [ "Maeve Collins, Julie Griffiths and Monica de Bath, collectively known as Ground Up Artists Collective (GUAC), have been awarded a commission for Bealtaine 2020 through Age &amp; Opportunity’s Bealtaine Festival, in association with the Arts Offices of Clare Co. Council, Galway Co. Council and Roscommon Co. Council. The three selected artists will lead out on a project supported by other GUAC members.", "Maeve Collins, Julie Griffiths and Monica de Bath, collectively known as Ground Up Artists Collective, have been awarded a commission for Bealtaine 2020 through Age &amp; Opportunity’s Bealtaine Festival, in association with the Arts Offices of Clare County Council, Galway County Council and Roscommon Co. Council." ],
-  "dc:source" : "https://imma.ie/artists/ground-up-artists-collective/",
-  "schema:url" : "https://imma.ie/artists/ground-up-artists-collective/",
-  "rdfs:label" : "Ground Up Artists Collective",
+  "description" : [ "Maeve Collins, Julie Griffiths and Monica de Bath, collectively known as Ground Up Artists Collective (GUAC), have been awarded a commission for Bealtaine 2020 through Age &amp; Opportunity’s Bealtaine Festival, in association with the Arts Offices of Clare Co. Council, Galway Co. Council and Roscommon Co. Council. The three selected artists will lead out on a project supported by other GUAC members.", "Maeve Collins, Julie Griffiths and Monica de Bath, collectively known as Ground Up Artists Collective, have been awarded a commission for Bealtaine 2020 through Age &amp; Opportunity’s Bealtaine Festival, in association with the Arts Offices of Clare County Council, Galway County Council and Roscommon Co. Council." ],
+  "source" : "https://imma.ie/artists/ground-up-artists-collective/",
+  "url" : "https://imma.ie/artists/ground-up-artists-collective/",
+  "label" : "Ground Up Artists Collective",
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

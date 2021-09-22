@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/riley-bridget",
     "@type" : "foaf:Person",
-    "dc:description" : "British artist Bridget Riley studied at Goldsmiths College and the Royal College of Art, London. In 1960, she began to explore the dynamic potential of optical phenomena and produced her first black and white Op Art paintings. Riley first received International notice in 1965, when she exhibited in the MoMA, New York show, ‘The Responsive Eye’. In 1968, Riley represented Great Britain in the Venice Biennale, where she was the first British contemporary painter, and the first woman, to be awarded the International Prize for painting. Tate Britain organised a major Riley retrospective in 2003. Her work is represented in public collections worldwide.",
-    "dc:source" : "https://imma.ie/artists/bridget-riley/",
-    "schema:birthDate" : "b.1931",
-    "schema:url" : "https://imma.ie/artists/bridget-riley/",
-    "rdfs:label" : "Bridget Riley"
+    "description" : "British artist Bridget Riley studied at Goldsmiths College and the Royal College of Art, London. In 1960, she began to explore the dynamic potential of optical phenomena and produced her first black and white Op Art paintings. Riley first received International notice in 1965, when she exhibited in the MoMA, New York show, ‘The Responsive Eye’. In 1968, Riley represented Great Britain in the Venice Biennale, where she was the first British contemporary painter, and the first woman, to be awarded the International Prize for painting. Tate Britain organised a major Riley retrospective in 2003. Her work is represented in public collections worldwide.",
+    "source" : "https://imma.ie/artists/bridget-riley/",
+    "birthDate" : "b.1931",
+    "url" : "https://imma.ie/artists/bridget-riley/",
+    "label" : "Bridget Riley"
   }, {
     "@id" : "spice:artefact/from-nineteen-greys-b",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/riley-bridget",
     "author" : "spice:agent/riley-bridget",
-    "schema:dateCreated" : "1968",
-    "schema:url" : "https://imma.ie/collection/from-nineteen-greys-b/",
+    "dateCreated" : "1968",
+    "url" : "https://imma.ie/collection/from-nineteen-greys-b/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/from-nineteen-greys-b",
-    "arco-cd:hasTitle" : "from Nineteen Greys, B"
+    "hasTitle" : "from Nineteen Greys, B"
   }, {
     "@id" : "spice:attribution/from-nineteen-greys-b",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,24 +24,19 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -52,16 +47,14 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/dimitrijevic-braco",
     "@type" : "foaf:Person",
-    "dc:description" : "Yugoslavian artist Braco Dimitrijevic studied at the Zagreb Academy of Art and St Martin’s School of Art, London. He gained international recognition in the 1970s for his ‘Casual Passer-by’ series, in which large scale photographic portraits of unknown people were installed on facades and billboards in cities across Europe and the US. Dimitrijevic has exhibited worldwide. Solo exhibitions of his work have been held at venues including Tate, London; Kunsthalle Dusseldorf; MUMOK, Vienna; Musée d’Orsay, Paris, and the Russian State Museum, St. Petersburg.",
-    "dc:source" : "https://imma.ie/artists/braco-dimitrijevic/",
-    "schema:birthDate" : "b.1948",
-    "schema:url" : "https://imma.ie/artists/braco-dimitrijevic/",
-    "rdfs:label" : "Braco Dimitrijevic"
+    "description" : "Yugoslavian artist Braco Dimitrijevic studied at the Zagreb Academy of Art and St Martin’s School of Art, London. He gained international recognition in the 1970s for his ‘Casual Passer-by’ series, in which large scale photographic portraits of unknown people were installed on facades and billboards in cities across Europe and the US. Dimitrijevic has exhibited worldwide. Solo exhibitions of his work have been held at venues including Tate, London; Kunsthalle Dusseldorf; MUMOK, Vienna; Musée d’Orsay, Paris, and the Russian State Museum, St. Petersburg.",
+    "source" : "https://imma.ie/artists/braco-dimitrijevic/",
+    "birthDate" : "b.1948",
+    "url" : "https://imma.ie/artists/braco-dimitrijevic/",
+    "label" : "Braco Dimitrijevic"
   }, {
     "@id" : "spice:artefact/casual-passer-by-i-met-at-528-pm-dublin-2011",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/dimitrijevic-braco",
     "author" : "spice:agent/dimitrijevic-braco",
-    "schema:dateCreated" : "2011",
-    "schema:url" : "https://imma.ie/collection/casual-passer-by-i-met-at-528-pm-dublin-2011/",
+    "dateCreated" : "2011",
+    "url" : "https://imma.ie/collection/casual-passer-by-i-met-at-528-pm-dublin-2011/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/casual-passer-by-i-met-at-528-pm-dublin-2011",
-    "arco-cd:hasTitle" : "Casual Passer-by I met at 5:28 PM, Dublin 2011"
+    "hasTitle" : "Casual Passer-by I met at 5:28 PM, Dublin 2011"
   }, {
     "@id" : "spice:attribution/casual-passer-by-i-met-at-528-pm-dublin-2011",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,24 +28,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -56,24 +53,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

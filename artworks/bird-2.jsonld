@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/bird-2",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Bird is a 1945 work by Kenneth Hall. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/bird-2/",
-    "schema:creditText" : "IMMA Collection: Donation, Patrick Scott, 2013",
+    "description" : "Bird is a 1945 work by Kenneth Hall. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/bird-2/",
+    "creditText" : "IMMA Collection: Donation, Patrick Scott, 2013",
     "image" : "spice:documentation/bird-2",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Oil on canvas",
-    "schema:size" : "26.5 x 36 cm",
-    "arco-cd:hasInventory" : "IMMA.3842"
+    "material" : "Oil on canvas",
+    "size" : "26.5 x 36 cm",
+    "hasInventory" : "IMMA.3842"
   }, {
     "@id" : "spice:documentation/bird-2",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Kenneth Hall, Bird, 1945, Oil on canvas, 26.5 x 36 cm, Collection Irish Museum of Modern Art, Donation, Patrick Scott, 2013 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Kenneth Hall, Bird, 1945, Oil on canvas, 26.5 x 36 cm, Collection Irish Museum of Modern Art, Donation, Patrick Scott, 2013 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/7184.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/7184.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/walshe-lorcan",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish artist Lorcan Walshe (born 1952) attended Sligo School of Art, Sligo R.T.C. and the National College of Art and Design, Dublin. Walshe held his first solo exhibition in 1982 and has had numerous exhibitions since then, including at The Hunt Museum, Limerick, the National Museum of Ireland, Dublin and Axis Arts Centre Ballymun, Dublin. He won the Claremorris Open Exhibition in 1991 and 1992. Walshe’s work is included in numerous collections including that of IMMA, the Office of Public Works; the National Museum of Ireland; and Dublin City University.",
-    "dc:source" : "https://imma.ie/artists/lorcan-walshe/",
-    "schema:birthDate" : "b.1952",
-    "schema:url" : "https://imma.ie/artists/lorcan-walshe/",
-    "rdfs:label" : "Lorcan Walshe"
+    "description" : "Irish artist Lorcan Walshe (born 1952) attended Sligo School of Art, Sligo R.T.C. and the National College of Art and Design, Dublin. Walshe held his first solo exhibition in 1982 and has had numerous exhibitions since then, including at The Hunt Museum, Limerick, the National Museum of Ireland, Dublin and Axis Arts Centre Ballymun, Dublin. He won the Claremorris Open Exhibition in 1991 and 1992. Walshe’s work is included in numerous collections including that of IMMA, the Office of Public Works; the National Museum of Ireland; and Dublin City University.",
+    "source" : "https://imma.ie/artists/lorcan-walshe/",
+    "birthDate" : "b.1952",
+    "url" : "https://imma.ie/artists/lorcan-walshe/",
+    "label" : "Lorcan Walshe"
   }, {
     "@id" : "spice:artefact/no-16-jealousy-mask-from-the-mask-series",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/walshe-lorcan",
     "author" : "spice:agent/walshe-lorcan",
-    "schema:dateCreated" : "1983",
-    "schema:url" : "https://imma.ie/collection/no-16-jealousy-mask-from-the-mask-series/",
+    "dateCreated" : "1983",
+    "url" : "https://imma.ie/collection/no-16-jealousy-mask-from-the-mask-series/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/no-16-jealousy-mask-from-the-mask-series",
-    "arco-cd:hasTitle" : "No 16 Jealousy Mask, from the Mask series"
+    "hasTitle" : "No 16 Jealousy Mask, from the Mask series"
   }, {
     "@id" : "spice:attribution/no-16-jealousy-mask-from-the-mask-series",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,24 +24,19 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -52,16 +47,14 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

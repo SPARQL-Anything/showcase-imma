@@ -2,67 +2,57 @@
   "@graph" : [ {
     "@id" : "spice:artefact/homage-to-the-square",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Albers’s teaching methods were both innovative and shocking because he eliminated copying both from nature and from other artists. He dedicated the years from 1950 to the end of his life to his series of paintings ‘Homage to the Square’. The square was the ideal shape for his ‘Homage’ works: mathematically related in size, perfect for superimposition, a shape that never occurs in nature, assuring a man-made quality. Albers intended that the colours would react with each other when processed by the human eye, causing optical illusions due to the eye’s ability to continually change the colours in ways that echo, support, or oppose one another.",
-    "dc:source" : "https://imma.ie/collection/homage-to-the-square/",
-    "schema:creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
+    "description" : "Albers’s teaching methods were both innovative and shocking because he eliminated copying both from nature and from other artists. He dedicated the years from 1950 to the end of his life to his series of paintings ‘Homage to the Square’. The square was the ideal shape for his ‘Homage’ works: mathematically related in size, perfect for superimposition, a shape that never occurs in nature, assuring a man-made quality. Albers intended that the colours would react with each other when processed by the human eye, causing optical illusions due to the eye’s ability to continually change the colours in ways that echo, support, or oppose one another.",
+    "source" : "https://imma.ie/collection/homage-to-the-square/",
+    "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/homage-to-the-square",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Screenprint",
-    "schema:size" : "34.8 x 40 cm",
-    "schema:version" : "Edition 36/125",
-    "arco-cd:hasInventory" : "IMMA.104 GL"
+    "material" : "Screenprint",
+    "size" : "34.8 x 40 cm",
+    "version" : "Edition 36/125",
+    "hasInventory" : "IMMA.104 GL"
   }, {
     "@id" : "spice:documentation/homage-to-the-square",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Josef Albers, Homage to the Square, 1966, Screenprint, 34.8 x 40 cm, Collection Irish Museum of Modern Art, Gordon Lambert Trust, 1992 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Josef Albers, Homage to the Square, 1966, Screenprint, 34.8 x 40 cm, Collection Irish Museum of Modern Art, Gordon Lambert Trust, 1992 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2019/08/683.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2019/08/683.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "image" : {
       "@id" : "http://schema.org/image",

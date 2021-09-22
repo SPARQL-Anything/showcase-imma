@@ -2,61 +2,61 @@
   "@graph" : [ {
     "@id" : "spice:agent/horn-rebecca",
     "@type" : "foaf:Person",
-    "dc:description" : "German artist Rebecca Horn explores ideas of sexuality, human vulnerability and emotional fragility in her sculpture, film and performance work. In her early work Horn focused on the body and senses, frequently incorporating performance and elaborate costumes. Later she produced highly narrative, full-length films that incorporated the sculptures and movements from her earlier work, thus transforming their significance. Horn has exhibited worldwide. Her work was the subject of a mid-career retrospective at the Guggenheim Museum in 1993. A comprehensive retrospective of Horn's work took place in 2005 at the Hayward Gallery, London.",
-    "dc:source" : "https://imma.ie/artists/rebecca-horn/",
-    "schema:birthDate" : "b.1944",
-    "schema:url" : "https://imma.ie/artists/rebecca-horn/",
-    "rdfs:label" : "Rebecca Horn"
+    "description" : "German artist Rebecca Horn explores ideas of sexuality, human vulnerability and emotional fragility in her sculpture, film and performance work. In her early work Horn focused on the body and senses, frequently incorporating performance and elaborate costumes. Later she produced highly narrative, full-length films that incorporated the sculptures and movements from her earlier work, thus transforming their significance. Horn has exhibited worldwide. Her work was the subject of a mid-career retrospective at the Guggenheim Museum in 1993. A comprehensive retrospective of Horn's work took place in 2005 at the Hayward Gallery, London.",
+    "source" : "https://imma.ie/artists/rebecca-horn/",
+    "birthDate" : "b.1944",
+    "url" : "https://imma.ie/artists/rebecca-horn/",
+    "label" : "Rebecca Horn"
   }, {
     "@id" : "spice:artefact/cockfeather-mask-performance-ii",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/horn-rebecca",
     "author" : "spice:agent/horn-rebecca",
-    "schema:dateCreated" : "1970",
-    "schema:url" : "https://imma.ie/collection/cockfeather-mask-performance-ii/",
+    "dateCreated" : "1970",
+    "url" : "https://imma.ie/collection/cockfeather-mask-performance-ii/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/cockfeather-mask-performance-ii",
-    "arco-cd:hasTitle" : "Cockfeather Mask, Performance II"
+    "hasTitle" : "Cockfeather Mask, Performance II"
   }, {
     "@id" : "spice:artefact/dublin-last-waltz-at-the-shelbourne-hotel",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/horn-rebecca",
     "author" : "spice:agent/horn-rebecca",
-    "schema:dateCreated" : "1992",
-    "schema:url" : "https://imma.ie/collection/dublin-last-waltz-at-the-shelbourne-hotel/",
+    "dateCreated" : "1992",
+    "url" : "https://imma.ie/collection/dublin-last-waltz-at-the-shelbourne-hotel/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/dublin-last-waltz-at-the-shelbourne-hotel",
-    "arco-cd:hasTitle" : "Dublin Last Waltz at the Shelbourne Hotel"
+    "hasTitle" : "Dublin Last Waltz at the Shelbourne Hotel"
   }, {
     "@id" : "spice:artefact/dublin-last-waltz-at-the-shelbourne-hotel-2",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/horn-rebecca",
     "author" : "spice:agent/horn-rebecca",
-    "schema:dateCreated" : "1992",
-    "schema:url" : "https://imma.ie/collection/dublin-last-waltz-at-the-shelbourne-hotel-2/",
+    "dateCreated" : "1992",
+    "url" : "https://imma.ie/collection/dublin-last-waltz-at-the-shelbourne-hotel-2/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/dublin-last-waltz-at-the-shelbourne-hotel-2",
-    "arco-cd:hasTitle" : "Dublin Last Waltz at The Shelbourne Hotel"
+    "hasTitle" : "Dublin Last Waltz at The Shelbourne Hotel"
   }, {
     "@id" : "spice:artefact/films",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/horn-rebecca",
     "author" : "spice:agent/horn-rebecca",
-    "schema:dateCreated" : "1970",
-    "schema:url" : "https://imma.ie/collection/films/",
+    "dateCreated" : "1970",
+    "url" : "https://imma.ie/collection/films/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/films",
-    "arco-cd:hasTitle" : "Films"
+    "hasTitle" : "Films"
   }, {
     "@id" : "spice:artefact/take-me-to-the-other-side-of-the-ocean",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/horn-rebecca",
     "author" : "spice:agent/horn-rebecca",
-    "schema:dateCreated" : "1991",
-    "schema:url" : "https://imma.ie/collection/take-me-to-the-other-side-of-the-ocean/",
+    "dateCreated" : "1991",
+    "url" : "https://imma.ie/collection/take-me-to-the-other-side-of-the-ocean/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/take-me-to-the-other-side-of-the-ocean",
-    "arco-cd:hasTitle" : "Take me to the other side of the ocean"
+    "hasTitle" : "Take me to the other side of the ocean"
   }, {
     "@id" : "spice:attribution/cockfeather-mask-performance-ii",
     "@type" : "arco:AuthorshipAttribution",
@@ -88,48 +88,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

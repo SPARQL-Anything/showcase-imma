@@ -2,31 +2,31 @@
   "@graph" : [ {
     "@id" : "spice:agent/graham-john",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish artist John Graham studied Fine Art Printmaking at the National College of Art and Design, Dublin. While his practice has its foundation in drawing and printmaking, he also works with sound and video projections. In 1995 Graham was awarded 1st Prize at the National Open Print Exhibition and in 2004 was the recipient of the Pollock-Krasner Foundation Award. He is a member of the Graphic Studio Dublin.",
-    "dc:source" : "https://imma.ie/artists/john-graham/",
-    "schema:birthDate" : "b.1962",
-    "schema:url" : "https://imma.ie/artists/john-graham/",
-    "rdfs:label" : "John Graham"
+    "description" : "Irish artist John Graham studied Fine Art Printmaking at the National College of Art and Design, Dublin. While his practice has its foundation in drawing and printmaking, he also works with sound and video projections. In 1995 Graham was awarded 1st Prize at the National Open Print Exhibition and in 2004 was the recipient of the Pollock-Krasner Foundation Award. He is a member of the Graphic Studio Dublin.",
+    "source" : "https://imma.ie/artists/john-graham/",
+    "birthDate" : "b.1962",
+    "url" : "https://imma.ie/artists/john-graham/",
+    "label" : "John Graham"
   }, {
     "@id" : "spice:artefact/untitled-21",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/graham-john",
     "author" : "spice:agent/graham-john",
-    "schema:dateCreated" : "2000",
-    "schema:url" : "https://imma.ie/collection/untitled-21/",
+    "dateCreated" : "2000",
+    "url" : "https://imma.ie/collection/untitled-21/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-21",
-    "arco-cd:hasTitle" : "Untitled"
+    "hasTitle" : "Untitled"
   }, {
     "@id" : "spice:artefact/untitled-25",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/graham-john",
     "author" : "spice:agent/graham-john",
-    "schema:dateCreated" : "1999",
-    "schema:url" : "https://imma.ie/collection/untitled-25/",
+    "dateCreated" : "1999",
+    "url" : "https://imma.ie/collection/untitled-25/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-25",
-    "arco-cd:hasTitle" : "Untitled"
+    "hasTitle" : "Untitled"
   }, {
     "@id" : "spice:attribution/untitled-21",
     "@type" : "arco:AuthorshipAttribution",
@@ -42,40 +42,33 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -87,7 +80,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

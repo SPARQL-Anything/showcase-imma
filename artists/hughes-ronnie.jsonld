@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/hughes-ronnie",
     "@type" : "foaf:Person",
-    "dc:description" : "Northern Irish painter Ronnie Hughes studied art at the University of Ulster, Belfast. While social and cultural issues were central concerns in his early work, more recently Hughes has moved towards an avoidance of the literal or directly referential in his paintings. Hughes has had many solo exhibitions in Ireland since 1989. He has completed residencies in New York, Nebraska and Canada, and has been involved in a number of international group shows.",
-    "dc:source" : "https://imma.ie/artists/ronnie-hughes/",
-    "schema:birthDate" : "b.1965",
-    "schema:url" : "https://imma.ie/artists/ronnie-hughes/",
-    "rdfs:label" : "Ronnie Hughes"
+    "description" : "Northern Irish painter Ronnie Hughes studied art at the University of Ulster, Belfast. While social and cultural issues were central concerns in his early work, more recently Hughes has moved towards an avoidance of the literal or directly referential in his paintings. Hughes has had many solo exhibitions in Ireland since 1989. He has completed residencies in New York, Nebraska and Canada, and has been involved in a number of international group shows.",
+    "source" : "https://imma.ie/artists/ronnie-hughes/",
+    "birthDate" : "b.1965",
+    "url" : "https://imma.ie/artists/ronnie-hughes/",
+    "label" : "Ronnie Hughes"
   }, {
     "@id" : "spice:artefact/espresso-mundo",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/hughes-ronnie",
     "author" : "spice:agent/hughes-ronnie",
-    "schema:dateCreated" : "1996",
-    "schema:url" : "https://imma.ie/collection/espresso-mundo/",
+    "dateCreated" : "1996",
+    "url" : "https://imma.ie/collection/espresso-mundo/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/espresso-mundo",
-    "arco-cd:hasTitle" : "Espresso Mundo"
+    "hasTitle" : "Espresso Mundo"
   }, {
     "@id" : "spice:attribution/espresso-mundo",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,44 +28,37 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

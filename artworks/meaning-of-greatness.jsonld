@@ -2,37 +2,33 @@
   "@graph" : [ {
     "@id" : "spice:artefact/meaning-of-greatness",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Meaning of Greatness is a 2006 work by Sarah Pierce. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/meaning-of-greatness/",
-    "schema:creditText" : "IMMA Collection: Purchase supported by IMMA 1000, 2017",
+    "description" : "Meaning of Greatness is a 2006 work by Sarah Pierce. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/meaning-of-greatness/",
+    "creditText" : "IMMA Collection: Purchase supported by IMMA 1000, 2017",
     "image" : "spice:documentation/meaning-of-greatness",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "3 large curtains, 1 rope piece, 8 framed drawings, 8 plaster tubes, latex piece, plaster pieces, 6969 cast, photographs, letters",
-    "arco-cd:hasInventory" : "IMMA.4025"
+    "material" : "3 large curtains, 1 rope piece, 8 framed drawings, 8 plaster tubes, latex piece, plaster pieces, 6969 cast, photographs, letters",
+    "hasInventory" : "IMMA.4025"
   }, {
     "@id" : "spice:documentation/meaning-of-greatness",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Sarah Pierce, Meaning of Greatness, 2006, 3 large curtains, 1 rope piece, 8 framed drawings, 8 plaster tubes, latex piece, plaster pieces, 6969 cast, photographs, letters, Collection Irish Museum of Modern Art, Purchase supported by IMMA 1000, 2017 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Sarah Pierce, Meaning of Greatness, 2006, 3 large curtains, 1 rope piece, 8 framed drawings, 8 plaster tubes, latex piece, plaster pieces, 6969 cast, photographs, letters, Collection Irish Museum of Modern Art, Purchase supported by IMMA 1000, 2017 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2021/03/8920.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2021/03/8920.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -43,20 +39,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

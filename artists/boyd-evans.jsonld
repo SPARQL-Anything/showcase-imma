@@ -2,20 +2,20 @@
   "@graph" : [ {
     "@id" : "spice:agent/boyd-evans",
     "@type" : "foaf:Person",
-    "dc:description" : "Fionnuala Boyd (born 1944) and Leslie Evans (born 1945) met in Leeds and began working together in 1968. Their awards include 1st prizewinners, 6eme Festival International de la Peinture, Cagnes-Sur-Mer (1974); Bicentennial Fellowship, British Council; National Endowment for the Arts, USA (1977-78); Threadneedle Prize Visitors Choice (2010). Their work can be found in numerous collections worldwide including the British Council; Metropolitan Museum of Art, New York; MoMA, New York; Tate, London; Royal College of Surgeons, and the Ulster Museum.",
-    "dc:source" : "https://imma.ie/artists/boyd-evans/",
-    "schema:url" : "https://imma.ie/artists/boyd-evans/",
-    "rdfs:label" : "Boyd &amp; Evans"
+    "description" : "Fionnuala Boyd (born 1944) and Leslie Evans (born 1945) met in Leeds and began working together in 1968. Their awards include 1st prizewinners, 6eme Festival International de la Peinture, Cagnes-Sur-Mer (1974); Bicentennial Fellowship, British Council; National Endowment for the Arts, USA (1977-78); Threadneedle Prize Visitors Choice (2010). Their work can be found in numerous collections worldwide including the British Council; Metropolitan Museum of Art, New York; MoMA, New York; Tate, London; Royal College of Surgeons, and the Ulster Museum.",
+    "source" : "https://imma.ie/artists/boyd-evans/",
+    "url" : "https://imma.ie/artists/boyd-evans/",
+    "label" : "Boyd &amp; Evans"
   }, {
     "@id" : "spice:artefact/stills-explosion",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/boyd-evans",
     "author" : "spice:agent/boyd-evans",
-    "schema:dateCreated" : "1983",
-    "schema:url" : "https://imma.ie/collection/stills-explosion/",
+    "dateCreated" : "1983",
+    "url" : "https://imma.ie/collection/stills-explosion/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/stills-explosion",
-    "arco-cd:hasTitle" : "Stills. . . Explosion"
+    "hasTitle" : "Stills. . . Explosion"
   }, {
     "@id" : "spice:attribution/stills-explosion",
     "@type" : "arco:AuthorshipAttribution",
@@ -31,44 +31,38 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

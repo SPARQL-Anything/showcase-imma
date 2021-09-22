@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/darcangelo-allan",
     "@type" : "foaf:Person",
-    "dc:description" : "American painter and printmaker Allan D'Arcangelo attended the University of Buffalo and then studied in Mexico City. Among the first generation of Pop artists, D’Arcangelo is renowned for his paintings of American highways and road signs, often flattened to an almost abstract two-dimensionality. D’Arcangelo exhibited in Europe and the US from the 1960s. He also taught at the School of Visual Arts, Brooklyn, and at Brooklyn College. His work is represented in the collections of MoMA, New York; the Metropolitan Museum, New York, and the Whitney Museum of American Art.",
-    "dc:source" : "https://imma.ie/artists/allan-darcangelo/",
-    "schema:birthDate" : "1930–1998",
-    "schema:url" : "https://imma.ie/artists/allan-darcangelo/",
-    "rdfs:label" : "Allan D’Arcangelo"
+    "description" : "American painter and printmaker Allan D'Arcangelo attended the University of Buffalo and then studied in Mexico City. Among the first generation of Pop artists, D’Arcangelo is renowned for his paintings of American highways and road signs, often flattened to an almost abstract two-dimensionality. D’Arcangelo exhibited in Europe and the US from the 1960s. He also taught at the School of Visual Arts, Brooklyn, and at Brooklyn College. His work is represented in the collections of MoMA, New York; the Metropolitan Museum, New York, and the Whitney Museum of American Art.",
+    "source" : "https://imma.ie/artists/allan-darcangelo/",
+    "birthDate" : "1930–1998",
+    "url" : "https://imma.ie/artists/allan-darcangelo/",
+    "label" : "Allan D’Arcangelo"
   }, {
     "@id" : "spice:artefact/beginning",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/darcangelo-allan",
     "author" : "spice:agent/darcangelo-allan",
-    "schema:dateCreated" : "1975",
-    "schema:url" : "https://imma.ie/collection/beginning/",
+    "dateCreated" : "1975",
+    "url" : "https://imma.ie/collection/beginning/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/beginning",
-    "arco-cd:hasTitle" : "Beginning"
+    "hasTitle" : "Beginning"
   }, {
     "@id" : "spice:attribution/beginning",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,24 +24,19 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -52,16 +47,14 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

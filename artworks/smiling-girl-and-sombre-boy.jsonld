@@ -2,56 +2,53 @@
   "@graph" : [ {
     "@id" : "spice:artefact/smiling-girl-and-sombre-boy",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Smiling Girl and Sombre Boy is a 2007 work by Kathy Prendergast. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/smiling-girl-and-sombre-boy/",
+    "description" : "Smiling Girl and Sombre Boy is a 2007 work by Kathy Prendergast. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/smiling-girl-and-sombre-boy/",
+    "creditText" : "IMMA Collection: Heritage Gift, Kerlin Gallery Collection, 2018, 2018",
     "image" : "spice:documentation/smiling-girl-and-sombre-boy",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "watercolour on paper",
-    "schema:size" : "11.5 x 15 cm Framed: each 25 x 20.8 x 3.9 cm",
-    "arco-cd:hasInventory" : "IMMA.4079"
+    "material" : "watercolour on paper",
+    "size" : "11.5 x 15 cm Framed: each 25 x 20.8 x 3.9 cm",
+    "hasInventory" : "IMMA.4079"
   }, {
     "@id" : "spice:documentation/smiling-girl-and-sombre-boy",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Kathy Prendergast, Smiling Girl and Sombre Boy, 2007, watercolour on paper, 11.5 x 15 cm Framed: each 25 x 20.8 x 3.9 cm, Collection Irish Museum of Modern Art, 2018 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Kathy Prendergast, Smiling Girl and Sombre Boy, 2007, watercolour on paper, 11.5 x 15 cm Framed: each 25 x 20.8 x 3.9 cm, Collection Irish Museum of Modern Art, Heritage Gift, Kerlin Gallery Collection, 2018, 2018 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

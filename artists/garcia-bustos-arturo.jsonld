@@ -2,20 +2,20 @@
   "@graph" : [ {
     "@id" : "spice:agent/garcia-bustos-arturo",
     "@type" : "foaf:Person",
-    "dc:source" : "https://imma.ie/artists/arturo-garcia-bustos/",
-    "schema:birthDate" : "b.1926",
-    "schema:url" : "https://imma.ie/artists/arturo-garcia-bustos/",
-    "rdfs:label" : "Arturo García Bustos"
+    "source" : "https://imma.ie/artists/arturo-garcia-bustos/",
+    "birthDate" : "b.1926",
+    "url" : "https://imma.ie/artists/arturo-garcia-bustos/",
+    "label" : "Arturo García Bustos"
   }, {
     "@id" : "spice:artefact/campesinos-manifestando",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/garcia-bustos-arturo",
     "author" : "spice:agent/garcia-bustos-arturo",
-    "schema:dateCreated" : "2010",
-    "schema:url" : "https://imma.ie/collection/campesinos-manifestando/",
+    "dateCreated" : "2010",
+    "url" : "https://imma.ie/collection/campesinos-manifestando/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/campesinos-manifestando",
-    "arco-cd:hasTitle" : "Campesinos Manifestando"
+    "hasTitle" : "Campesinos Manifestando"
   }, {
     "@id" : "spice:attribution/campesinos-manifestando",
     "@type" : "arco:AuthorshipAttribution",
@@ -27,24 +27,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -55,20 +52,17 @@
       "@type" : "@id"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

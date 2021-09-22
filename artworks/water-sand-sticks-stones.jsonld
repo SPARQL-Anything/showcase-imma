@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/water-sand-sticks-stones",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "The outdoor work, ‘(…) Water &amp; Sand + Sticks &amp; Stones (…)’, which was installed in the East Arch of the Royal Hospital in 1993, was originally placed in another configuration – on the first floor landing of the Museum as part of the exhibition ‘Projects’ by Lawrence Weiner. Since its acquisition, the piece has been included in a number of exhibitions at IMMA as well as in external venues. The work is flexible, can be realised in a number of ways, in a variety of different media. It can be shown simultaneously in multiple locations.",
-    "dc:source" : "https://imma.ie/collection/water-sand-sticks-stones/",
-    "schema:creditText" : "IMMA Collection: Purchase, 1991",
+    "description" : "The outdoor work, ‘(…) Water &amp; Sand + Sticks &amp; Stones (…)’, which was installed in the East Arch of the Royal Hospital in 1993, was originally placed in another configuration – on the first floor landing of the Museum as part of the exhibition ‘Projects’ by Lawrence Weiner. Since its acquisition, the piece has been included in a number of exhibitions at IMMA as well as in external venues. The work is flexible, can be realised in a number of ways, in a variety of different media. It can be shown simultaneously in multiple locations.",
+    "source" : "https://imma.ie/collection/water-sand-sticks-stones/",
+    "creditText" : "IMMA Collection: Purchase, 1991",
     "image" : "spice:documentation/water-sand-sticks-stones",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Language + the materials referred to",
-    "schema:size" : "Dimensions variable",
-    "arco-cd:hasInventory" : "IMMA.39"
+    "material" : "Language + the materials referred to",
+    "size" : "Dimensions variable",
+    "hasInventory" : "IMMA.39"
   }, {
     "@id" : "spice:documentation/water-sand-sticks-stones",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Lawrence Weiner, (…) WATER &amp; SAND + STICKS &amp; STONES (…), 1991, Language + the materials referred to, Dimensions variable, Collection Irish Museum of Modern Art, Purchase, 1991 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Lawrence Weiner, (…) WATER &amp; SAND + STICKS &amp; STONES (…), 1991, Language + the materials referred to, Dimensions variable, Collection Irish Museum of Modern Art, Purchase, 1991 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/4126.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/4126.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

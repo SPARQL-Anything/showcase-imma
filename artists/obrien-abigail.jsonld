@@ -2,31 +2,31 @@
   "@graph" : [ {
     "@id" : "spice:agent/obrien-abigail",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish artist Abigail O’Brien (born 1957) studied painting at the National College of Art and Design. Working in a range of media including painting, photography, video, sculpture and embroidery, she explores ideas of tradition, religion, ritual and domesticity. O’Brien has exhibited throughout Ireland and Europe and her work is represented in significant public and private collections. She is a member and current secretary of the Royal Hibernian Academy.",
-    "dc:source" : "https://imma.ie/artists/abigail-obrien/",
-    "schema:birthDate" : "b.1957",
-    "schema:url" : "https://imma.ie/artists/abigail-obrien/",
-    "rdfs:label" : "Abigail O’Brien"
+    "description" : "Irish artist Abigail O’Brien (born 1957) studied painting at the National College of Art and Design. Working in a range of media including painting, photography, video, sculpture and embroidery, she explores ideas of tradition, religion, ritual and domesticity. O’Brien has exhibited throughout Ireland and Europe and her work is represented in significant public and private collections. She is a member and current secretary of the Royal Hibernian Academy.",
+    "source" : "https://imma.ie/artists/abigail-obrien/",
+    "birthDate" : "b.1957",
+    "url" : "https://imma.ie/artists/abigail-obrien/",
+    "label" : "Abigail O’Brien"
   }, {
     "@id" : "spice:artefact/red-ribbon",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/obrien-abigail",
     "author" : "spice:agent/obrien-abigail",
-    "schema:dateCreated" : "2003",
-    "schema:url" : "https://imma.ie/collection/red-ribbon/",
+    "dateCreated" : "2003",
+    "url" : "https://imma.ie/collection/red-ribbon/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/red-ribbon",
-    "arco-cd:hasTitle" : "Red Ribbon"
+    "hasTitle" : "Red Ribbon"
   }, {
     "@id" : "spice:artefact/the-last-supper",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/obrien-abigail",
     "author" : "spice:agent/obrien-abigail",
-    "schema:dateCreated" : "1995",
-    "schema:url" : "https://imma.ie/collection/the-last-supper/",
+    "dateCreated" : "1995",
+    "url" : "https://imma.ie/collection/the-last-supper/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-last-supper",
-    "arco-cd:hasTitle" : "The Last Supper"
+    "hasTitle" : "The Last Supper"
   }, {
     "@id" : "spice:attribution/red-ribbon",
     "@type" : "arco:AuthorshipAttribution",
@@ -46,48 +46,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -2,51 +2,51 @@
   "@graph" : [ {
     "@id" : "spice:agent/byrne-gerard",
     "@type" : "foaf:Person",
-    "dc:description" : [ "Gerard Byrne works primarily in video, photography and performance art. His multi-media installations reenact historic events using professional actors and theatrical techniques, using twentieth-century literature and mass media as source material. Referencing a range of literary and theatrical sources, his work considers how images are constructed and communicated.", "Gerard Byrne works primarily in video, photography and performance art. His multi-media installations re-enact historic events using professional actors and theatrical techniques, using twentieth-century literature and mass media as source material. Referencing a range of literary and theatrical sources, his work considers how images are constructed and communicated." ],
-    "dc:source" : "https://imma.ie/artists/gerard-byrne/",
-    "schema:birthDate" : "b.1969",
-    "schema:url" : "https://imma.ie/artists/gerard-byrne/",
-    "rdfs:label" : "Gerard Byrne"
+    "description" : [ "Gerard Byrne works primarily in video, photography and performance art. His multi-media installations reenact historic events using professional actors and theatrical techniques, using twentieth-century literature and mass media as source material. Referencing a range of literary and theatrical sources, his work considers how images are constructed and communicated.", "Gerard Byrne works primarily in video, photography and performance art. His multi-media installations re-enact historic events using professional actors and theatrical techniques, using twentieth-century literature and mass media as source material. Referencing a range of literary and theatrical sources, his work considers how images are constructed and communicated." ],
+    "source" : "https://imma.ie/artists/gerard-byrne/",
+    "birthDate" : "b.1969",
+    "url" : "https://imma.ie/artists/gerard-byrne/",
+    "label" : "Gerard Byrne"
   }, {
     "@id" : "spice:artefact/b-q-e-truck-tragedy-after-brechts-the-street-scene-view-from-south-east-corner",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/byrne-gerard",
     "author" : "spice:agent/byrne-gerard",
-    "schema:dateCreated" : "2003",
-    "schema:url" : "https://imma.ie/collection/b-q-e-truck-tragedy-after-brechts-the-street-scene-view-from-south-east-corner/",
+    "dateCreated" : "2003",
+    "url" : "https://imma.ie/collection/b-q-e-truck-tragedy-after-brechts-the-street-scene-view-from-south-east-corner/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/b-q-e-truck-tragedy-after-brechts-the-street-scene-view-from-south-east-corner",
-    "arco-cd:hasTitle" : "“B.Q.E. Truck Tragedy” after Brecht’s “The street scene”. View from south east corner”."
+    "hasTitle" : "“B.Q.E. Truck Tragedy” after Brecht’s “The street scene”. View from south east corner”."
   }, {
     "@id" : "spice:artefact/eight-years-and-three-days-ago",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/byrne-gerard",
     "author" : "spice:agent/byrne-gerard",
-    "schema:dateCreated" : "2007",
-    "schema:url" : "https://imma.ie/collection/eight-years-and-three-days-ago/",
+    "dateCreated" : "2007",
+    "url" : "https://imma.ie/collection/eight-years-and-three-days-ago/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/eight-years-and-three-days-ago",
-    "arco-cd:hasTitle" : "Eight years and three days ago"
+    "hasTitle" : "Eight years and three days ago"
   }, {
     "@id" : "spice:artefact/new-sexual-lifestyles",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/byrne-gerard",
     "author" : "spice:agent/byrne-gerard",
-    "schema:dateCreated" : "2003",
-    "schema:url" : "https://imma.ie/collection/new-sexual-lifestyles/",
+    "dateCreated" : "2003",
+    "url" : "https://imma.ie/collection/new-sexual-lifestyles/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/new-sexual-lifestyles",
-    "arco-cd:hasTitle" : "New Sexual Lifestyles"
+    "hasTitle" : "New Sexual Lifestyles"
   }, {
     "@id" : "spice:artefact/untitled",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/byrne-gerard",
     "author" : "spice:agent/byrne-gerard",
-    "schema:dateCreated" : "2011",
-    "schema:url" : "https://imma.ie/collection/untitled/",
+    "dateCreated" : "2011",
+    "url" : "https://imma.ie/collection/untitled/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled",
-    "arco-cd:hasTitle" : "Untitled"
+    "hasTitle" : "Untitled"
   }, {
     "@id" : "spice:attribution/b-q-e-truck-tragedy-after-brechts-the-street-scene-view-from-south-east-corner",
     "@type" : "arco:AuthorshipAttribution",
@@ -74,48 +74,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/escobedo-helen",
     "@type" : "foaf:Person",
-    "dc:description" : "Helen Escobedo, a sculptor specializing in site-specific work, was also a curator and arts administrator based in Mexico City. Born to a Mexican father and English mother, Escobedo was educated in Mexico and at the Royal College of Art in London. After initial success making bronze figurative sculptures, the artist became known for large outdoor installations beginning with the 1968 Gateway to the Wind marking the entrance to the Mexico City Olympic Games. Commissions in New Zealand, Mexico, Israel and England followed through the 1970s and 1980s. Escobedo’s art became increasingly political and committed to environmental issues in her later career. She served as director of the museums and galleries at the UNAM and also did curatorial projects for the national museums.",
-    "dc:source" : "https://imma.ie/artists/helen-escobedo/",
-    "schema:birthDate" : "1934–2010",
-    "schema:url" : "https://imma.ie/artists/helen-escobedo/",
-    "rdfs:label" : "Helen Escobedo"
+    "description" : "Helen Escobedo, a sculptor specializing in site-specific work, was also a curator and arts administrator based in Mexico City. Born to a Mexican father and English mother, Escobedo was educated in Mexico and at the Royal College of Art in London. After initial success making bronze figurative sculptures, the artist became known for large outdoor installations beginning with the 1968 Gateway to the Wind marking the entrance to the Mexico City Olympic Games. Commissions in New Zealand, Mexico, Israel and England followed through the 1970s and 1980s. Escobedo’s art became increasingly political and committed to environmental issues in her later career. She served as director of the museums and galleries at the UNAM and also did curatorial projects for the national museums.",
+    "source" : "https://imma.ie/artists/helen-escobedo/",
+    "birthDate" : "1934–2010",
+    "url" : "https://imma.ie/artists/helen-escobedo/",
+    "label" : "Helen Escobedo"
   }, {
     "@id" : "spice:artefact/no-la-tires-dont-throw-it-out",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/escobedo-helen",
     "author" : "spice:agent/escobedo-helen",
-    "schema:dateCreated" : "2010",
-    "schema:url" : "https://imma.ie/collection/no-la-tires-dont-throw-it-out/",
+    "dateCreated" : "2010",
+    "url" : "https://imma.ie/collection/no-la-tires-dont-throw-it-out/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/no-la-tires-dont-throw-it-out",
-    "arco-cd:hasTitle" : "No la tires (Don’t throw it out)"
+    "hasTitle" : "No la tires (Don’t throw it out)"
   }, {
     "@id" : "spice:attribution/no-la-tires-dont-throw-it-out",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,40 +24,33 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

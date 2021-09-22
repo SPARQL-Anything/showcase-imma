@@ -1,30 +1,26 @@
 {
   "@id" : "spice:agent/shiel-sonia",
   "@type" : "foaf:Person",
-  "dc:description" : [ "Sonia Shiel’s far-fetched works are vested in make-believe and indiscretion. They are composed of paintings and sculptures, videos and animated sculptures that share overarching narratives and the central materiality of paint. Set in ungoverned, lawless and fictional environments, her protagonists in their various pursuits, are confronted by nature, worry, wonder and mortality, mocked by chance and other systemic obstacles of their own creation.", "Sonia Shiel’s far-fetched works are vested in make-believe and indiscretion. They are composed of paintings and sculptures, videos and animated sculptures that share overarching narratives and the central materiality of paint." ],
-  "dc:source" : "https://imma.ie/artists/sonia-shiel/",
-  "schema:url" : "https://imma.ie/artists/sonia-shiel/",
-  "rdfs:label" : "Sonia Shiel",
+  "description" : [ "Sonia Shiel’s far-fetched works are vested in make-believe and indiscretion. They are composed of paintings and sculptures, videos and animated sculptures that share overarching narratives and the central materiality of paint. Set in ungoverned, lawless and fictional environments, her protagonists in their various pursuits, are confronted by nature, worry, wonder and mortality, mocked by chance and other systemic obstacles of their own creation.", "Sonia Shiel’s far-fetched works are vested in make-believe and indiscretion. They are composed of paintings and sculptures, videos and animated sculptures that share overarching narratives and the central materiality of paint." ],
+  "source" : "https://imma.ie/artists/sonia-shiel/",
+  "url" : "https://imma.ie/artists/sonia-shiel/",
+  "label" : "Sonia Shiel",
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

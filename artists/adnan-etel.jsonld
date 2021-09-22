@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/adnan-etel",
     "@type" : "foaf:Person",
-    "dc:description" : [ "Poet, artist and writer Etel Adnan was born in 1925 in Beirut and now lives in California and Paris. Her mother was a Greek from Smyrna, her father, a high ranking Ottoman officer born in Damascus. In Lebanon, she was educated in French schools.", "Etel Adnan studied literature at the Sorbonne, Paris, Harvard University and Berkeley University. In 1984, she worked with Robert Wilson on his opera CIVILwarS and has exhibited internationally. Based on her feelings of connection to, and solidarity with the Algerian war of independence, she began to resist the political implications of writing in French and shifted the focus of her creative expression to visual art; becoming a painter." ],
-    "dc:source" : "https://imma.ie/artists/etel-adnan/",
-    "schema:birthDate" : "b.1925",
-    "schema:url" : "https://imma.ie/artists/etel-adnan/",
-    "rdfs:label" : "Etel Adnan"
+    "description" : [ "Poet, artist and writer Etel Adnan was born in 1925 in Beirut and now lives in California and Paris. Her mother was a Greek from Smyrna, her father, a high ranking Ottoman officer born in Damascus. In Lebanon, she was educated in French schools.", "Etel Adnan studied literature at the Sorbonne, Paris, Harvard University and Berkeley University. In 1984, she worked with Robert Wilson on his opera CIVILwarS and has exhibited internationally. Based on her feelings of connection to, and solidarity with the Algerian war of independence, she began to resist the political implications of writing in French and shifted the focus of her creative expression to visual art; becoming a painter." ],
+    "source" : "https://imma.ie/artists/etel-adnan/",
+    "birthDate" : "b.1925",
+    "url" : "https://imma.ie/artists/etel-adnan/",
+    "label" : "Etel Adnan"
   }, {
     "@id" : "spice:artefact/untitled-213",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/adnan-etel",
     "author" : "spice:agent/adnan-etel",
-    "schema:dateCreated" : "2013",
-    "schema:url" : "https://imma.ie/collection/untitled-213/",
+    "dateCreated" : "2013",
+    "url" : "https://imma.ie/collection/untitled-213/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-213",
-    "arco-cd:hasTitle" : "Untitled (#213)"
+    "hasTitle" : "Untitled (#213)"
   }, {
     "@id" : "spice:attribution/untitled-213",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,24 +28,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -56,24 +53,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

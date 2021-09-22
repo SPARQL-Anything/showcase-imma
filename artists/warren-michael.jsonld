@@ -2,61 +2,61 @@
   "@graph" : [ {
     "@id" : "spice:agent/warren-michael",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish artist Michael Warren studied at Trinity College, Dublin, and the Accademia di Belle Arti di Brera, Milan. His monumental sculptures often seem to defy gravity and their strength lies in Warren’s ability to combine autonomous elements that retain their own tension and rhythm. Warren’s outdoor works are on public display worldwide. He was made a member of the Royal Hibernian Academy in 2008, and an honorary member of the Royal Institute of the Architects of Ireland in 2102.",
-    "dc:source" : "https://imma.ie/artists/michael-warren/",
-    "schema:birthDate" : "b.1950",
-    "schema:url" : "https://imma.ie/artists/michael-warren/",
-    "rdfs:label" : "Michael Warren"
+    "description" : "Irish artist Michael Warren studied at Trinity College, Dublin, and the Accademia di Belle Arti di Brera, Milan. His monumental sculptures often seem to defy gravity and their strength lies in Warren’s ability to combine autonomous elements that retain their own tension and rhythm. Warren’s outdoor works are on public display worldwide. He was made a member of the Royal Hibernian Academy in 2008, and an honorary member of the Royal Institute of the Architects of Ireland in 2102.",
+    "source" : "https://imma.ie/artists/michael-warren/",
+    "birthDate" : "b.1950",
+    "url" : "https://imma.ie/artists/michael-warren/",
+    "label" : "Michael Warren"
   }, {
     "@id" : "spice:artefact/beneath-the-bow",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/warren-michael",
     "author" : "spice:agent/warren-michael",
-    "schema:dateCreated" : "1991",
-    "schema:url" : "https://imma.ie/collection/beneath-the-bow/",
+    "dateCreated" : "1991",
+    "url" : "https://imma.ie/collection/beneath-the-bow/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/beneath-the-bow",
-    "arco-cd:hasTitle" : "Beneath the ‘bow"
+    "hasTitle" : "Beneath the ‘bow"
   }, {
     "@id" : "spice:artefact/de-creation-iii",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/warren-michael",
     "author" : "spice:agent/warren-michael",
-    "schema:dateCreated" : "1977",
-    "schema:url" : "https://imma.ie/collection/de-creation-iii/",
+    "dateCreated" : "1977",
+    "url" : "https://imma.ie/collection/de-creation-iii/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/de-creation-iii",
-    "arco-cd:hasTitle" : "De-creation III"
+    "hasTitle" : "De-creation III"
   }, {
     "@id" : "spice:artefact/logos-ii",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/warren-michael",
     "author" : "spice:agent/warren-michael",
-    "schema:dateCreated" : "1978",
-    "schema:url" : "https://imma.ie/collection/logos-ii/",
+    "dateCreated" : "1978",
+    "url" : "https://imma.ie/collection/logos-ii/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/logos-ii",
-    "arco-cd:hasTitle" : "Logos II"
+    "hasTitle" : "Logos II"
   }, {
     "@id" : "spice:artefact/pasqua",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/warren-michael",
     "author" : "spice:agent/warren-michael",
-    "schema:dateCreated" : "1984",
-    "schema:url" : "https://imma.ie/collection/pasqua/",
+    "dateCreated" : "1984",
+    "url" : "https://imma.ie/collection/pasqua/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/pasqua",
-    "arco-cd:hasTitle" : "Pasqua"
+    "hasTitle" : "Pasqua"
   }, {
     "@id" : "spice:artefact/stele-xi",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/warren-michael",
     "author" : "spice:agent/warren-michael",
-    "schema:dateCreated" : "1997",
-    "schema:url" : "https://imma.ie/collection/stele-xi/",
+    "dateCreated" : "1997",
+    "url" : "https://imma.ie/collection/stele-xi/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/stele-xi",
-    "arco-cd:hasTitle" : "Stele XI"
+    "hasTitle" : "Stele XI"
   }, {
     "@id" : "spice:attribution/beneath-the-bow",
     "@type" : "arco:AuthorshipAttribution",
@@ -84,24 +84,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -112,24 +109,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

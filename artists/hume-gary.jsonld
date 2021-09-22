@@ -2,41 +2,41 @@
   "@graph" : [ {
     "@id" : "spice:agent/hume-gary",
     "@type" : "foaf:Person",
-    "dc:description" : "British artist Gary Hume graduated from Goldsmith's College, London. He was one of a generation of artists who became known internationally as the Young British Artists (YBA's). Hume’s work is characterised by a visual vocabulary that combines bright colours with simplified, childlike forms. He represented Britain at the São Paulo Biennial in 1996 and was nominated for the Turner Prize the same year. Hume has exhibited extensively in Britain and worldwide, including a large solo exhibition at IMMA in 2003.",
-    "dc:source" : "https://imma.ie/artists/gary-hume/",
-    "schema:birthDate" : "b.1962",
-    "schema:url" : "https://imma.ie/artists/gary-hume/",
-    "rdfs:label" : "Gary Hume"
+    "description" : "British artist Gary Hume graduated from Goldsmith's College, London. He was one of a generation of artists who became known internationally as the Young British Artists (YBA's). Hume’s work is characterised by a visual vocabulary that combines bright colours with simplified, childlike forms. He represented Britain at the São Paulo Biennial in 1996 and was nominated for the Turner Prize the same year. Hume has exhibited extensively in Britain and worldwide, including a large solo exhibition at IMMA in 2003.",
+    "source" : "https://imma.ie/artists/gary-hume/",
+    "birthDate" : "b.1962",
+    "url" : "https://imma.ie/artists/gary-hume/",
+    "label" : "Gary Hume"
   }, {
     "@id" : "spice:artefact/back-of-snowman",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/hume-gary",
     "author" : "spice:agent/hume-gary",
-    "schema:dateCreated" : "2003",
-    "schema:url" : "https://imma.ie/collection/back-of-snowman/",
+    "dateCreated" : "2003",
+    "url" : "https://imma.ie/collection/back-of-snowman/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/back-of-snowman",
-    "arco-cd:hasTitle" : "Back of Snowman"
+    "hasTitle" : "Back of Snowman"
   }, {
     "@id" : "spice:artefact/psyche",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/hume-gary",
     "author" : "spice:agent/hume-gary",
-    "schema:dateCreated" : "2001",
-    "schema:url" : "https://imma.ie/collection/psyche/",
+    "dateCreated" : "2001",
+    "url" : "https://imma.ie/collection/psyche/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/psyche",
-    "arco-cd:hasTitle" : "Psyche"
+    "hasTitle" : "Psyche"
   }, {
     "@id" : "spice:artefact/untitled-50",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/hume-gary",
     "author" : "spice:agent/hume-gary",
-    "schema:dateCreated" : "1994",
-    "schema:url" : "https://imma.ie/collection/untitled-50/",
+    "dateCreated" : "1994",
+    "url" : "https://imma.ie/collection/untitled-50/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-50",
-    "arco-cd:hasTitle" : "Untitled"
+    "hasTitle" : "Untitled"
   }, {
     "@id" : "spice:attribution/back-of-snowman",
     "@type" : "arco:AuthorshipAttribution",
@@ -56,24 +56,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -84,24 +81,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

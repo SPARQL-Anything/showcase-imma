@@ -1,0 +1,105 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:agent/singh-rajinder",
+    "@type" : "foaf:Person",
+    "description" : [ "Often focused on the power of ritual action in the construction of the social body, Rajinder Singh’s  practice explores the ways the human body unfolds around various topographic and symbolic borders. Rajinder graduated with a PhD in Engineering (UK) in 1993 and a Master’s in Fine Arts (Singapore) in 2010.", "Rajinder Singh (b Ipoh, Malaysia) lives in Dublin, Ireland. Rajinder’s paintings and installations as well as photography, video and performance work explore ideas around the vulnerable body and its pain, interrogating the economies of power that deny it space and shape. " ],
+    "source" : "https://imma.ie/artists/rajinder-singh/",
+    "url" : "https://imma.ie/artists/rajinder-singh/",
+    "label" : "Rajinder Singh"
+  }, {
+    "@id" : "spice:artefact/my-sisters-coven",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/singh-rajinder",
+    "author" : "spice:agent/singh-rajinder",
+    "dateCreated" : "2019",
+    "url" : "https://imma.ie/collection/my-sisters-coven/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/my-sisters-coven",
+    "hasTitle" : "My Sister’s Coven"
+  }, {
+    "@id" : "spice:artefact/untitled-magical-being",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/singh-rajinder",
+    "author" : "spice:agent/singh-rajinder",
+    "dateCreated" : "2018",
+    "url" : "https://imma.ie/collection/untitled-magical-being/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-magical-being",
+    "hasTitle" : "UNTITLED (MAGICAL BEING)"
+  }, {
+    "@id" : "spice:artefact/untitled-prayer-forms",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/singh-rajinder",
+    "author" : "spice:agent/singh-rajinder",
+    "dateCreated" : "2019",
+    "url" : "https://imma.ie/collection/untitled-prayer-forms/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/untitled-prayer-forms",
+    "hasTitle" : "UNTITLED (prayer forms)"
+  }, {
+    "@id" : "spice:attribution/my-sisters-coven",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/singh-rajinder"
+  }, {
+    "@id" : "spice:attribution/untitled-magical-being",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/singh-rajinder"
+  }, {
+    "@id" : "spice:attribution/untitled-prayer-forms",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/singh-rajinder"
+  } ],
+  "@context" : {
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

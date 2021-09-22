@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/forest-path",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Forest Path is a 2006 work by Gary Coyle. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/forest-path/",
-    "schema:creditText" : "IMMA Collection: Purchase, 2006",
+    "description" : "Forest Path is a 2006 work by Gary Coyle. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/forest-path/",
+    "creditText" : "IMMA Collection: Purchase, 2006",
     "image" : "spice:documentation/forest-path",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Charcoal on paper",
-    "schema:size" : "116 x 148.5 cm",
-    "arco-cd:hasInventory" : "IMMA.1995"
+    "material" : "Charcoal on paper",
+    "size" : "116 x 148.5 cm",
+    "hasInventory" : "IMMA.1995"
   }, {
     "@id" : "spice:documentation/forest-path",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Gary Coyle, Forest Path, 2006, Charcoal on paper, 116 x 148.5 cm, Collection Irish Museum of Modern Art, Purchase, 2006 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Gary Coyle, Forest Path, 2006, Charcoal on paper, 116 x 148.5 cm, Collection Irish Museum of Modern Art, Purchase, 2006 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2020/05/224.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2020/05/224.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

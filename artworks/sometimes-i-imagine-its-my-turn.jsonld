@@ -2,37 +2,33 @@
   "@graph" : [ {
     "@id" : "spice:artefact/sometimes-i-imagine-its-my-turn",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Point of view is central to Doherty’s work. This is evident in ‘Sometimes I imagine it’s my turn’, a video installation from 1998 in which a handheld camera brings us ever closer to an unidentified body, lying in the undergrowth. The sound accompaniment is limited to the noise of birds and a helicopter overhead. The sequence is interrupted intermittently, by inserts of television clips, suggesting actual news coverage. No link between the news reports and the body on the ground is made directly, but the difference between news coverage of events like this and our perception of this one, through the eye of the unidentified cameraman, heightens the sense of ambiguity and unease. The viewer must draw his or her own conclusions from the evidence offered.”",
-    "dc:source" : "https://imma.ie/collection/sometimes-i-imagine-its-my-turn/",
-    "schema:creditText" : "IMMA Collection: Purchase, 2003",
+    "description" : "Point of view is central to Doherty’s work. This is evident in ‘Sometimes I imagine it’s my turn’, a video installation from 1998 in which a handheld camera brings us ever closer to an unidentified body, lying in the undergrowth. The sound accompaniment is limited to the noise of birds and a helicopter overhead. The sequence is interrupted intermittently, by inserts of television clips, suggesting actual news coverage. No link between the news reports and the body on the ground is made directly, but the difference between news coverage of events like this and our perception of this one, through the eye of the unidentified cameraman, heightens the sense of ambiguity and unease. The viewer must draw his or her own conclusions from the evidence offered.”",
+    "source" : "https://imma.ie/collection/sometimes-i-imagine-its-my-turn/",
+    "creditText" : "IMMA Collection: Purchase, 2003",
     "image" : "spice:documentation/sometimes-i-imagine-its-my-turn",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Video",
-    "schema:version" : "Edition 2/3",
-    "arco-cd:hasInventory" : "IMMA.1620"
+    "material" : "Video",
+    "version" : "Edition 2/3",
+    "hasInventory" : "IMMA.1620"
   }, {
     "@id" : "spice:documentation/sometimes-i-imagine-its-my-turn",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Willie Doherty, Sometimes I Imagine it’s My Turn, 1998, Video, Dimensions variable Duration: 3 min, Collection Irish Museum of Modern Art, Purchase, 2003 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Willie Doherty, Sometimes I Imagine it’s My Turn, 1998, Video, Dimensions variable Duration: 3 min, Collection Irish Museum of Modern Art, Purchase, 2003 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -43,20 +39,16 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

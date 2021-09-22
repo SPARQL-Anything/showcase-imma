@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/klien-michael",
     "@type" : "foaf:Person",
-    "dc:description" : "Austrian artist and choreographer Michael Kliën was born in Hollbrunn and grew up in Vienna. After training in classical and modern dance in Vienna and New York, Kliën studied contemporary dance at the Laban Centre for Movement and Dance in London. He received a Ph.D from the Edinburgh College of Art in 2009. Kliën’s choreographies are predominantly dance-based works of art situated in galleries, museums and on stage. He was a co-founder and Artistic Director of London based arts group, Barridale Operahouse, until 2000 and Artistic Director/CEO of Daghdha Dance Company until 2011.",
-    "dc:source" : "https://imma.ie/artists/michael-klien/",
-    "schema:birthDate" : "b.1973",
-    "schema:url" : "https://imma.ie/artists/michael-klien/",
-    "rdfs:label" : "Michael Kliën"
+    "description" : "Austrian artist and choreographer Michael Kliën was born in Hollbrunn and grew up in Vienna. After training in classical and modern dance in Vienna and New York, Kliën studied contemporary dance at the Laban Centre for Movement and Dance in London. He received a Ph.D from the Edinburgh College of Art in 2009. Kliën’s choreographies are predominantly dance-based works of art situated in galleries, museums and on stage. He was a co-founder and Artistic Director of London based arts group, Barridale Operahouse, until 2000 and Artistic Director/CEO of Daghdha Dance Company until 2011.",
+    "source" : "https://imma.ie/artists/michael-klien/",
+    "birthDate" : "b.1973",
+    "url" : "https://imma.ie/artists/michael-klien/",
+    "label" : "Michael Kliën"
   }, {
     "@id" : "spice:artefact/slatterys-lamp-sediments-of-an-ordinary-mind",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/klien-michael",
     "author" : "spice:agent/klien-michael",
-    "schema:dateCreated" : "2004",
-    "schema:url" : "https://imma.ie/collection/slatterys-lamp-sediments-of-an-ordinary-mind/",
+    "dateCreated" : "2004",
+    "url" : "https://imma.ie/collection/slatterys-lamp-sediments-of-an-ordinary-mind/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/slatterys-lamp-sediments-of-an-ordinary-mind",
-    "arco-cd:hasTitle" : "Slattery’s Lamp, Sediments of an Ordinary Mind"
+    "hasTitle" : "Slattery’s Lamp, Sediments of an Ordinary Mind"
   }, {
     "@id" : "spice:attribution/slatterys-lamp-sediments-of-an-ordinary-mind",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,40 +24,33 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -2,37 +2,33 @@
   "@graph" : [ {
     "@id" : "spice:artefact/bicefala-bipeda-y-bicentenaria",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Bicéfala, Bípeda y Bicentenaria is a 2010 work by Joel Rendón. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/bicefala-bipeda-y-bicentenaria/",
-    "schema:creditText" : "IMMA Collection: Diplomatic gift of the Federal Government of Mexico, 2011",
+    "description" : "Bicéfala, Bípeda y Bicentenaria is a 2010 work by Joel Rendón. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/bicefala-bipeda-y-bicentenaria/",
+    "creditText" : "IMMA Collection: Diplomatic gift of the Federal Government of Mexico, 2011",
     "image" : "spice:documentation/bicefala-bipeda-y-bicentenaria",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Linocut",
-    "schema:size" : "Sheet: 100 x 70.3 cm Plate: 95.8 x 67 cm",
-    "arco-cd:hasInventory" : "IMMA.3774"
+    "material" : "Linocut",
+    "size" : "Sheet: 100 x 70.3 cm Plate: 95.8 x 67 cm",
+    "hasInventory" : "IMMA.3774"
   }, {
     "@id" : "spice:documentation/bicefala-bipeda-y-bicentenaria",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Joel Rendón, Bicéfala, Bípeda y Bicentenaria, 2010, Linocut, Sheet: 100 x 70.3 cm Plate: 95.8 x 67 cm, Collection Irish Museum of Modern Art, Diplomatic gift of the Federal Government of Mexico, 2011 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Joel Rendón, Bicéfala, Bípeda y Bicentenaria, 2010, Linocut, Sheet: 100 x 70.3 cm Plate: 95.8 x 67 cm, Collection Irish Museum of Modern Art, Diplomatic gift of the Federal Government of Mexico, 2011 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -43,20 +39,16 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

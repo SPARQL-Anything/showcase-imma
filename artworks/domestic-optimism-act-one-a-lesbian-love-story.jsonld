@@ -1,0 +1,67 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/domestic-optimism-act-one-a-lesbian-love-story",
+    "@type" : "schema:CreativeWork",
+    "description" : "Domestic Optimism is a video about mangled and mistold modernist legacies. The project begins with furniture, inanimate objects that come loaded with social connections and invisible histories. Through the displacement of cultural detritus Emma Wolf-Haugh retells modernist architectural history in the collective key of queer-feminist and decolonial practices, continually unearthing filth in times of hygiene, and complicating things that were never simple to begin with. ",
+    "source" : "https://imma.ie/collection/domestic-optimism-act-one-a-lesbian-love-story/",
+    "creditText" : "IMMA Collection: Purchase, 2021, 2021",
+    "image" : "spice:documentation/domestic-optimism-act-one-a-lesbian-love-story",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "material" : "single channel video and script zine (unlimited edition, for audience to take away) with customised concrete display holders",
+    "hasInventory" : "IMMA.4205"
+  }, {
+    "@id" : "spice:documentation/domestic-optimism-act-one-a-lesbian-love-story",
+    "@type" : "schema:ImageObject",
+    "caption" : "Emma Wolf-Haugh, Domestic Optimism – Act One: A Lesbian Love Story,, 2020, single channel video and script zine (unlimited edition, for audience to take away) with customised concrete display holders, Duration: 37min.17 sec., Collection Irish Museum of Modern Art, Purchase, 2021, 2021 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "url" : "https://imma.ie/wp-content/uploads/2021/04/9499.jpg"
+  } ],
+  "@context" : {
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

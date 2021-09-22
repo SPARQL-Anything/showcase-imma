@@ -2,31 +2,31 @@
   "@graph" : [ {
     "@id" : "spice:agent/weerasethakul-apichatpong",
     "@type" : "foaf:Person",
-    "dc:description" : "Thai artist and film-maker Apichatpong Weerasethakul (born 1970) studied architecture at Khon Kaen University and Film-making at the School of the Art Institute of Chicago. Often non-linear with a strong sense of dislocation, Weerasethakul’s photographic, film and installation work considers ideas of memory, personal politics, the environment and place. Weerasethakul made his first feature film in 2000. He received the Cannes Film Festival Palme d’Or prize for his film ‘Uncle Boonmee Who Can Recall His Past Lives’ in 2010. He has also exhibited extensively, including a solo exhibition at IMMA in 2011.",
-    "dc:source" : "https://imma.ie/artists/apichatpong-weerasethakul/",
-    "schema:birthDate" : "b.1970",
-    "schema:url" : "https://imma.ie/artists/apichatpong-weerasethakul/",
-    "rdfs:label" : "Apichatpong Weerasethakul"
+    "description" : [ "Thai artist and film-maker Apichatpong Weerasethakul (born 1970) studied architecture at Khon Kaen University and Film-making at the School of the Art Institute of Chicago. Often non-linear with a strong sense of dislocation, Weerasethakul’s photographic, film and installation work considers ideas of memory, personal politics, the environment and place.", "Often non-linear with a strong sense of dislocation, Apichatpong Weerasethakul’s photographic, film and installation work considers ideas of memory, personal politics, the environment and place. " ],
+    "source" : "https://imma.ie/artists/apichatpong-weerasethakul/",
+    "birthDate" : "b.1970",
+    "url" : "https://imma.ie/artists/apichatpong-weerasethakul/",
+    "label" : "Apichatpong Weerasethakul"
   }, {
     "@id" : "spice:artefact/power-boy-mekong",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/weerasethakul-apichatpong",
     "author" : "spice:agent/weerasethakul-apichatpong",
-    "schema:dateCreated" : "2011",
-    "schema:url" : "https://imma.ie/collection/power-boy-mekong/",
+    "dateCreated" : "2011",
+    "url" : "https://imma.ie/collection/power-boy-mekong/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/power-boy-mekong",
-    "arco-cd:hasTitle" : "Power Boy (Mekong)"
+    "hasTitle" : "Power Boy (Mekong)"
   }, {
     "@id" : "spice:artefact/the-field",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/weerasethakul-apichatpong",
     "author" : "spice:agent/weerasethakul-apichatpong",
-    "schema:dateCreated" : "2009",
-    "schema:url" : "https://imma.ie/collection/the-field/",
+    "dateCreated" : "2009",
+    "url" : "https://imma.ie/collection/the-field/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-field",
-    "arco-cd:hasTitle" : "The Field"
+    "hasTitle" : "The Field"
   }, {
     "@id" : "spice:attribution/power-boy-mekong",
     "@type" : "arco:AuthorshipAttribution",
@@ -42,24 +42,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -70,24 +67,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

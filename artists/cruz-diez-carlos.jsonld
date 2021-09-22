@@ -2,31 +2,31 @@
   "@graph" : [ {
     "@id" : "spice:agent/cruz-diez-carlos",
     "@type" : "foaf:Person",
-    "dc:description" : "Venezuelan kinetic artist Carlos Cruz-Diez studied at the School of Fine Arts in Caracas. He worked in illustration and advertising before leaving Venezuela to live in Spain and France. Throughout his career Cruz-Diez has investigated the nature of colour as an autonomous reality and the active participation of the viewer in visual art. Cruz-Diez exhibited extensively from the 1960s. His work is represented in major collections including MoMA, New York; the Tate Gallery, London, and the Centre Georges Pompidou, Paris.",
-    "dc:source" : "https://imma.ie/artists/carlos-cruz-diez/",
-    "schema:birthDate" : "b.1923",
-    "schema:url" : "https://imma.ie/artists/carlos-cruz-diez/",
-    "rdfs:label" : "Carlos Cruz-Diez"
+    "description" : "Venezuelan kinetic artist Carlos Cruz-Diez studied at the School of Fine Arts in Caracas. He worked in illustration and advertising before leaving Venezuela to live in Spain and France. Throughout his career Cruz-Diez has investigated the nature of colour as an autonomous reality and the active participation of the viewer in visual art. Cruz-Diez exhibited extensively from the 1960s. His work is represented in major collections including MoMA, New York; the Tate Gallery, London, and the Centre Georges Pompidou, Paris.",
+    "source" : "https://imma.ie/artists/carlos-cruz-diez/",
+    "birthDate" : "b.1923",
+    "url" : "https://imma.ie/artists/carlos-cruz-diez/",
+    "label" : "Carlos Cruz-Diez"
   }, {
     "@id" : "spice:artefact/couleur-additive",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/cruz-diez-carlos",
     "author" : "spice:agent/cruz-diez-carlos",
-    "schema:dateCreated" : "1973",
-    "schema:url" : "https://imma.ie/collection/couleur-additive/",
+    "dateCreated" : "1973",
+    "url" : "https://imma.ie/collection/couleur-additive/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/couleur-additive",
-    "arco-cd:hasTitle" : "Couleur Additive"
+    "hasTitle" : "Couleur Additive"
   }, {
     "@id" : "spice:artefact/physichromie-no-226",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/cruz-diez-carlos",
     "author" : "spice:agent/cruz-diez-carlos",
-    "schema:dateCreated" : "1966",
-    "schema:url" : "https://imma.ie/collection/physichromie-no-226/",
+    "dateCreated" : "1966",
+    "url" : "https://imma.ie/collection/physichromie-no-226/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/physichromie-no-226",
-    "arco-cd:hasTitle" : "Physichromie No. 226"
+    "hasTitle" : "Physichromie No. 226"
   }, {
     "@id" : "spice:attribution/couleur-additive",
     "@type" : "arco:AuthorshipAttribution",
@@ -42,40 +42,33 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -87,7 +80,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

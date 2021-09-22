@@ -2,51 +2,51 @@
   "@graph" : [ {
     "@id" : "spice:agent/garry-mark",
     "@type" : "foaf:Person",
-    "dc:description" : [ "Born in Mullingar, Co. Meath, Mark Garry is driven by a fundamental interest in observing how humans navigate the world and the subjectivity inherent in these navigations. He uses a variety of media and mechanisms in his practice, primarily focusing on institution-based installations. These delicate site-specific installations are measured and meticulous systems of construction, combining physical, visual, sensory and empathetic analogues, creating arrangements of elements that intersect the space and form relationships between a given room and each other. They incorporate a specific range of natural and craft materials and processes such as plants, thread, beads, woodcarvings and manufactured materials such as coloured contact, origami, and mechanical musical mechanisms.", "Born in Mullingar, Co. Meath, Mark Garry is driven by a fundamental interest in observing how humans navigate the world and the subjectivity inherent in these navigations. He uses a variety of media and mechanisms in his practice, primarily focusing on institution-based installations." ],
-    "dc:source" : "https://imma.ie/artists/mark-garry/",
-    "schema:birthDate" : "b.1972",
-    "schema:url" : "https://imma.ie/artists/mark-garry/",
-    "rdfs:label" : "Mark Garry"
+    "description" : [ "Born in Mullingar, Co. Meath, Mark Garry is driven by a fundamental interest in observing how humans navigate the world and the subjectivity inherent in these navigations. He uses a variety of media and mechanisms in his practice, primarily focusing on institution-based installations. These delicate site-specific installations are measured and meticulous systems of construction, combining physical, visual, sensory and empathetic analogues, creating arrangements of elements that intersect the space and form relationships between a given room and each other. They incorporate a specific range of natural and craft materials and processes such as plants, thread, beads, woodcarvings and manufactured materials such as coloured contact, origami, and mechanical musical mechanisms.", "Born in Mullingar, Co. Meath, Mark Garry is driven by a fundamental interest in observing how humans navigate the world and the subjectivity inherent in these navigations. He uses a variety of media and mechanisms in his practice, primarily focusing on institution-based installations." ],
+    "source" : "https://imma.ie/artists/mark-garry/",
+    "birthDate" : "b.1972",
+    "url" : "https://imma.ie/artists/mark-garry/",
+    "label" : "Mark Garry"
   }, {
     "@id" : "spice:artefact/after-nature-i",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/garry-mark",
     "author" : "spice:agent/garry-mark",
-    "schema:dateCreated" : "2017",
-    "schema:url" : "https://imma.ie/collection/after-nature-i/",
+    "dateCreated" : "2017",
+    "url" : "https://imma.ie/collection/after-nature-i/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/after-nature-i",
-    "arco-cd:hasTitle" : "After Nature I"
+    "hasTitle" : "After Nature I"
   }, {
     "@id" : "spice:artefact/after-nature-ii",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/garry-mark",
     "author" : "spice:agent/garry-mark",
-    "schema:dateCreated" : "2017",
-    "schema:url" : "https://imma.ie/collection/after-nature-ii/",
+    "dateCreated" : "2017",
+    "url" : "https://imma.ie/collection/after-nature-ii/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/after-nature-ii",
-    "arco-cd:hasTitle" : "After Nature II"
+    "hasTitle" : "After Nature II"
   }, {
     "@id" : "spice:artefact/after-nature-iii",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/garry-mark",
     "author" : "spice:agent/garry-mark",
-    "schema:dateCreated" : "2017",
-    "schema:url" : "https://imma.ie/collection/after-nature-iii/",
+    "dateCreated" : "2017",
+    "url" : "https://imma.ie/collection/after-nature-iii/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/after-nature-iii",
-    "arco-cd:hasTitle" : "After Nature III"
+    "hasTitle" : "After Nature III"
   }, {
     "@id" : "spice:artefact/north-of-the-west",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/garry-mark",
     "author" : "spice:agent/garry-mark",
-    "schema:dateCreated" : "2017",
-    "schema:url" : "https://imma.ie/collection/north-of-the-west/",
+    "dateCreated" : "2017",
+    "url" : "https://imma.ie/collection/north-of-the-west/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/north-of-the-west",
-    "arco-cd:hasTitle" : "North of the West"
+    "hasTitle" : "North of the West"
   }, {
     "@id" : "spice:attribution/after-nature-i",
     "@type" : "arco:AuthorshipAttribution",
@@ -74,48 +74,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

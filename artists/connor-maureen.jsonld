@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/connor-maureen",
     "@type" : "foaf:Person",
-    "dc:description" : "American artist Maureen Connor graduated from the Pratt Institute, New York, in 1973. Connor combines video, installation and collaborative performance to consider ideas ranging from gender and its modes of representation to the art institution as workplace. An ongoing project ‘Personnel’, begun in 2001, explores the attitudes and needs of staff in various arts organizations. Connor has exhibited internationally since the 1980s. Her work has been shown at venues including the MAK, Vienna; Portikus, Frankfurt; the Institute of Contemporary Art, Philadelphia, and the Whitney Museum of American Art, New York.",
-    "dc:source" : "https://imma.ie/artists/maureen-connor/",
-    "schema:birthDate" : "b.1947",
-    "schema:url" : "https://imma.ie/artists/maureen-connor/",
-    "rdfs:label" : "Maureen Connor"
+    "description" : "American artist Maureen Connor graduated from the Pratt Institute, New York, in 1973. Connor combines video, installation and collaborative performance to consider ideas ranging from gender and its modes of representation to the art institution as workplace. An ongoing project ‘Personnel’, begun in 2001, explores the attitudes and needs of staff in various arts organizations. Connor has exhibited internationally since the 1980s. Her work has been shown at venues including the MAK, Vienna; Portikus, Frankfurt; the Institute of Contemporary Art, Philadelphia, and the Whitney Museum of American Art, New York.",
+    "source" : "https://imma.ie/artists/maureen-connor/",
+    "birthDate" : "b.1947",
+    "url" : "https://imma.ie/artists/maureen-connor/",
+    "label" : "Maureen Connor"
   }, {
     "@id" : "spice:artefact/ironing-pieces",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/connor-maureen",
     "author" : "spice:agent/connor-maureen",
-    "schema:dateCreated" : "1980",
-    "schema:url" : "https://imma.ie/collection/ironing-pieces/",
+    "dateCreated" : "1980",
+    "url" : "https://imma.ie/collection/ironing-pieces/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/ironing-pieces",
-    "arco-cd:hasTitle" : "Ironing Pieces"
+    "hasTitle" : "Ironing Pieces"
   }, {
     "@id" : "spice:attribution/ironing-pieces",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,24 +24,19 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -52,16 +47,14 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

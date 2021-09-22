@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/landline",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Born in Strabane, Felim Egan currently lives and works in Dublin. His paintings draw on an abstract language, captured in symbols relating to music, literature and the landscape. The use of geometric lines and forms are recurrent in his work, each painting revealing an individual mood and exposing a unique narrative.",
-    "dc:source" : "https://imma.ie/collection/landline/",
-    "schema:creditText" : "IMMA Collection: Heritage Gift, Maire and Maurice Foley, 2000",
+    "description" : "Born in Strabane, Felim Egan currently lives and works in Dublin. His paintings draw on an abstract language, captured in symbols relating to music, literature and the landscape. The use of geometric lines and forms are recurrent in his work, each painting revealing an individual mood and exposing a unique narrative.",
+    "source" : "https://imma.ie/collection/landline/",
+    "creditText" : "IMMA Collection: Heritage Gift, Maire and Maurice Foley, 2000",
     "image" : "spice:documentation/landline",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Acrylic, mixed media on canvas",
-    "schema:size" : "160 x 200 cm",
-    "arco-cd:hasInventory" : "IMMA.880 FD"
+    "material" : "Acrylic, mixed media on canvas",
+    "size" : "160 x 200 cm",
+    "hasInventory" : "IMMA.880 FD"
   }, {
     "@id" : "spice:documentation/landline",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Felim Egan, Landline, 1991, Acrylic, mixed media on canvas, 160 x 200 cm, Collection Irish Museum of Modern Art, Heritage Gift, Maire and Maurice Foley, 2000 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Felim Egan, Landline, 1991, Acrylic, mixed media on canvas, 160 x 200 cm, Collection Irish Museum of Modern Art, Heritage Gift, Maire and Maurice Foley, 2000 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/291.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/291.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

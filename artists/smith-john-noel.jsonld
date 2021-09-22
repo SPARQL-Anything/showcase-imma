@@ -2,20 +2,20 @@
   "@graph" : [ {
     "@id" : "spice:agent/smith-john-noel",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish painter John Noel Smith (born 1952) studied at the Dún Laoghaire School of Art, before leaving Ireland in the early 1980s to undertake post graduate studies in Berlin. Smith's abstract compositions are characterised by a robust and deliberate application of paint and the use of motifs, including knots and the Ogham alphabet. Smith returned from Berlin to Ireland in 2002. He has exhibited extensively since the 1980s. A mid-career retrospective of Smith's work was held at the Royal Hibernian Academy in 2002.",
-    "dc:source" : "https://imma.ie/artists/john-noel-smith/",
-    "schema:url" : "https://imma.ie/artists/john-noel-smith/",
-    "rdfs:label" : "John Noel Smith"
+    "description" : "Irish painter John Noel Smith (born 1952) studied at the Dún Laoghaire School of Art, before leaving Ireland in the early 1980s to undertake post graduate studies in Berlin. Smith's abstract compositions are characterised by a robust and deliberate application of paint and the use of motifs, including knots and the Ogham alphabet. Smith returned from Berlin to Ireland in 2002. He has exhibited extensively since the 1980s. A mid-career retrospective of Smith's work was held at the Royal Hibernian Academy in 2002.",
+    "source" : "https://imma.ie/artists/john-noel-smith/",
+    "url" : "https://imma.ie/artists/john-noel-smith/",
+    "label" : "John Noel Smith"
   }, {
     "@id" : "spice:artefact/united-field-painting-i",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/smith-john-noel",
     "author" : "spice:agent/smith-john-noel",
-    "schema:dateCreated" : "2002",
-    "schema:url" : "https://imma.ie/collection/united-field-painting-i/",
+    "dateCreated" : "2002",
+    "url" : "https://imma.ie/collection/united-field-painting-i/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/united-field-painting-i",
-    "arco-cd:hasTitle" : "United Field Painting I"
+    "hasTitle" : "United Field Painting I"
   }, {
     "@id" : "spice:attribution/united-field-painting-i",
     "@type" : "arco:AuthorshipAttribution",
@@ -23,36 +23,30 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -68,7 +62,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

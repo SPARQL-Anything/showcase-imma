@@ -2,20 +2,20 @@
   "@graph" : [ {
     "@id" : "spice:agent/mcdermott-and-mcgough",
     "@type" : "foaf:Person",
-    "dc:description" : "American artists David McDermott (born 1952) and Peter McGough (born 1958) both studied at Syracuse University, New York. They have been collaborating since 1980. Employing historical photographic processes including cyanotype, gum bichromate and palladium, their practice considers popular art and culture, concepts of time, religion, fashion, medicine and sexual behaviour. McDermott and McGough have exhibited extensively at venues including the Frankfurt Art Association and the Whitney Museum of American Art, New York. A retrospective of their photographic work was held at IMMA in 2008.",
-    "dc:source" : "https://imma.ie/artists/mcdermott-and-mcgough/",
-    "schema:url" : "https://imma.ie/artists/mcdermott-and-mcgough/",
-    "rdfs:label" : "McDermott and McGough"
+    "description" : "American artists David McDermott (born 1952) and Peter McGough (born 1958) both studied at Syracuse University, New York. They have been collaborating since 1980. Employing historical photographic processes including cyanotype, gum bichromate and palladium, their practice considers popular art and culture, concepts of time, religion, fashion, medicine and sexual behaviour. McDermott and McGough have exhibited extensively at venues including the Frankfurt Art Association and the Whitney Museum of American Art, New York. A retrospective of their photographic work was held at IMMA in 2008.",
+    "source" : "https://imma.ie/artists/mcdermott-and-mcgough/",
+    "url" : "https://imma.ie/artists/mcdermott-and-mcgough/",
+    "label" : "McDermott and McGough"
   }, {
     "@id" : "spice:artefact/the-property-of-oscar-wilde",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/mcdermott-and-mcgough",
     "author" : "spice:agent/mcdermott-and-mcgough",
-    "schema:dateCreated" : "2008",
-    "schema:url" : "https://imma.ie/collection/the-property-of-oscar-wilde/",
+    "dateCreated" : "2008",
+    "url" : "https://imma.ie/collection/the-property-of-oscar-wilde/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-property-of-oscar-wilde",
-    "arco-cd:hasTitle" : "The Property of Oscar Wilde"
+    "hasTitle" : "The Property of Oscar Wilde"
   }, {
     "@id" : "spice:attribution/the-property-of-oscar-wilde",
     "@type" : "arco:AuthorshipAttribution",
@@ -23,20 +23,16 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -47,16 +43,14 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -68,7 +62,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

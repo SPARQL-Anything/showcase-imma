@@ -2,71 +2,71 @@
   "@graph" : [ {
     "@id" : "spice:agent/odowd-gwen",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish landscape artist Gwen O’Dowd (born 1957) studied at the National College of Art and Design. In her emotionally charged landscape paintings, O’Dowd has taken inspiration from the west coast of Ireland, the Grand Canyon, birds, waves and ice. O’Dowd has exhibited nationally and internationally since the 1980s. She is an elected member of Aosdána. Her work is represented in public and private collections, including the Arts Council of Ireland and the Arts Council of Northern Ireland.",
-    "dc:source" : "https://imma.ie/artists/gwen-odowd/",
-    "schema:birthDate" : "b.1957",
-    "schema:url" : "https://imma.ie/artists/gwen-odowd/",
-    "rdfs:label" : "Gwen O’Dowd"
+    "description" : "Irish landscape artist Gwen O’Dowd (born 1957) studied at the National College of Art and Design. In her emotionally charged landscape paintings, O’Dowd has taken inspiration from the west coast of Ireland, the Grand Canyon, birds, waves and ice. O’Dowd has exhibited nationally and internationally since the 1980s. She is an elected member of Aosdána. Her work is represented in public and private collections, including the Arts Council of Ireland and the Arts Council of Northern Ireland.",
+    "source" : "https://imma.ie/artists/gwen-odowd/",
+    "birthDate" : "b.1957",
+    "url" : "https://imma.ie/artists/gwen-odowd/",
+    "label" : "Gwen O’Dowd"
   }, {
     "@id" : "spice:artefact/on-inis-mor",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/odowd-gwen",
     "author" : "spice:agent/odowd-gwen",
-    "schema:dateCreated" : "1992",
-    "schema:url" : "https://imma.ie/collection/on-inis-mor/",
+    "dateCreated" : "1992",
+    "url" : "https://imma.ie/collection/on-inis-mor/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/on-inis-mor",
-    "arco-cd:hasTitle" : "On Inis Mor"
+    "hasTitle" : "On Inis Mor"
   }, {
     "@id" : "spice:artefact/on-inis-mor-ii",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/odowd-gwen",
     "author" : "spice:agent/odowd-gwen",
-    "schema:dateCreated" : "1992",
-    "schema:url" : "https://imma.ie/collection/on-inis-mor-ii/",
+    "dateCreated" : "1992",
+    "url" : "https://imma.ie/collection/on-inis-mor-ii/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/on-inis-mor-ii",
-    "arco-cd:hasTitle" : "On Inis Mor II"
+    "hasTitle" : "On Inis Mor II"
   }, {
     "@id" : "spice:artefact/rain-ii",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/odowd-gwen",
     "author" : "spice:agent/odowd-gwen",
-    "schema:dateCreated" : "1992",
-    "schema:url" : "https://imma.ie/collection/rain-ii/",
+    "dateCreated" : "1992",
+    "url" : "https://imma.ie/collection/rain-ii/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/rain-ii",
-    "arco-cd:hasTitle" : "Rain II"
+    "hasTitle" : "Rain II"
   }, {
     "@id" : "spice:artefact/uaimh-4",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/odowd-gwen",
     "author" : "spice:agent/odowd-gwen",
-    "schema:dateCreated" : "1996",
-    "schema:url" : "https://imma.ie/collection/uaimh-4/",
+    "dateCreated" : "1996",
+    "url" : "https://imma.ie/collection/uaimh-4/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/uaimh-4",
-    "arco-cd:hasTitle" : "Uaimh 4"
+    "hasTitle" : "Uaimh 4"
   }, {
     "@id" : "spice:artefact/waterbased-iv",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/odowd-gwen",
     "author" : "spice:agent/odowd-gwen",
-    "schema:dateCreated" : "2006",
-    "schema:url" : "https://imma.ie/collection/waterbased-iv/",
+    "dateCreated" : "2006",
+    "url" : "https://imma.ie/collection/waterbased-iv/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/waterbased-iv",
-    "arco-cd:hasTitle" : "Waterbased IV"
+    "hasTitle" : "Waterbased IV"
   }, {
     "@id" : "spice:artefact/yellow-lines",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/odowd-gwen",
     "author" : "spice:agent/odowd-gwen",
-    "schema:dateCreated" : "1983",
-    "schema:url" : "https://imma.ie/collection/yellow-lines/",
+    "dateCreated" : "1983",
+    "url" : "https://imma.ie/collection/yellow-lines/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/yellow-lines",
-    "arco-cd:hasTitle" : "Yellow Lines"
+    "hasTitle" : "Yellow Lines"
   }, {
     "@id" : "spice:attribution/on-inis-mor",
     "@type" : "arco:AuthorshipAttribution",
@@ -98,44 +98,37 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -143,7 +136,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

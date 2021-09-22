@@ -2,71 +2,61 @@
   "@graph" : [ {
     "@id" : "spice:artefact/laboratory-still-life-no-3",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Laboratory Still Life, No. 3 is a 1988 work by Tony Cragg. It is not currently on display in IMMA. ",
-    "dc:source" : "https://imma.ie/collection/laboratory-still-life-no-3/",
-    "schema:creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1994",
+    "description" : "Laboratory Still Life, No. 3 is a 1988 work by Tony Cragg. It is not currently on display in IMMA. ",
+    "source" : "https://imma.ie/collection/laboratory-still-life-no-3/",
+    "creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1994",
     "image" : "spice:documentation/laboratory-still-life-no-3",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Aquatint Etching",
-    "schema:size" : "Framed: 63 x 64 cm",
-    "schema:version" : "Edition 17/20",
-    "arco-cd:hasInventory" : "L.538 LW"
+    "material" : "Aquatint Etching",
+    "size" : "Framed: 63 x 64 cm",
+    "version" : "Edition 17/20",
+    "hasInventory" : "L.538 LW"
   }, {
     "@id" : "spice:documentation/laboratory-still-life-no-3",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Tony Cragg, Laboratory Still Life, No. 3, 1988, Aquatint Etching, Framed: 63 x 64 cm, Collection Irish Museum of Modern Art, Loan, Weltkunst Foundation, 1994 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Tony Cragg, Laboratory Still Life, No. 3, 1988, Aquatint Etching, Framed: 63 x 64 cm, Collection Irish Museum of Modern Art, Loan, Weltkunst Foundation, 1994 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2020/03/510.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2020/03/510.jpg"
   } ],
   "@context" : {
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

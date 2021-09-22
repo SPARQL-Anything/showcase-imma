@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/morris-frank",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish artist Frank Morris studied architecture at Dublin Institute of Technology, Bolton Street. He subsequently gave up architecture in favour of sculpture. In 1960 Morris married the painter Camille Souter and moved to Co. Wicklow, living first in Enniskerry and later at Calary Bog where they had their house and studio “White Piers.” In the late 1960’s he taught at St Columba’s College, Rathfarnham, Dublin. His pupil at St Columba’s and later his apprentice, Michael Warren described Morris’s approach to sculpture as the gradual removal of layers of wood to uncover an essential form at the core.",
-    "dc:source" : "https://imma.ie/artists/frank-morris/",
-    "schema:birthDate" : "1928–1970",
-    "schema:url" : "https://imma.ie/artists/frank-morris/",
-    "rdfs:label" : "Frank Morris"
+    "description" : "Irish artist Frank Morris studied architecture at Dublin Institute of Technology, Bolton Street. He subsequently gave up architecture in favour of sculpture. In 1960 Morris married the painter Camille Souter and moved to Co. Wicklow, living first in Enniskerry and later at Calary Bog where they had their house and studio “White Piers.” In the late 1960’s he taught at St Columba’s College, Rathfarnham, Dublin. His pupil at St Columba’s and later his apprentice, Michael Warren described Morris’s approach to sculpture as the gradual removal of layers of wood to uncover an essential form at the core.",
+    "source" : "https://imma.ie/artists/frank-morris/",
+    "birthDate" : "1928–1970",
+    "url" : "https://imma.ie/artists/frank-morris/",
+    "label" : "Frank Morris"
   }, {
     "@id" : "spice:artefact/female",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/morris-frank",
     "author" : "spice:agent/morris-frank",
-    "schema:dateCreated" : "1969",
-    "schema:url" : "https://imma.ie/collection/female/",
+    "dateCreated" : "1969",
+    "url" : "https://imma.ie/collection/female/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/female",
-    "arco-cd:hasTitle" : "Female"
+    "hasTitle" : "Female"
   }, {
     "@id" : "spice:attribution/female",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,40 +28,33 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

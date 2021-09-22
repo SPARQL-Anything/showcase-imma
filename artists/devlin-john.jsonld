@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/devlin-john",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish artist John Devlin studied at the National College of Art and Design, Dublin, and then worked as a graphic designer for the Abbey Theatre. Devlin received the Carroll Award at the Irish Exhibition of Living Art in 1971 and the Alice Hammerschlag Trust Award the following year. He has had solo shows with the Hendriks Gallery and the Taylor Galleries, Dublin. He exhibits annually at the Royal Hibernian Academy. Devlin’s work is represented in public collections including that of IMMA and of the Arts Council of Ireland.",
-    "dc:source" : "https://imma.ie/artists/john-devlin/",
-    "schema:birthDate" : "b.1950",
-    "schema:url" : "https://imma.ie/artists/john-devlin/",
-    "rdfs:label" : "John Devlin"
+    "description" : "Irish artist John Devlin studied at the National College of Art and Design, Dublin, and then worked as a graphic designer for the Abbey Theatre. Devlin received the Carroll Award at the Irish Exhibition of Living Art in 1971 and the Alice Hammerschlag Trust Award the following year. He has had solo shows with the Hendriks Gallery and the Taylor Galleries, Dublin. He exhibits annually at the Royal Hibernian Academy. Devlin’s work is represented in public collections including that of IMMA and of the Arts Council of Ireland.",
+    "source" : "https://imma.ie/artists/john-devlin/",
+    "birthDate" : "b.1950",
+    "url" : "https://imma.ie/artists/john-devlin/",
+    "label" : "John Devlin"
   }, {
     "@id" : "spice:artefact/the-smile",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/devlin-john",
     "author" : "spice:agent/devlin-john",
-    "schema:dateCreated" : "1974",
-    "schema:url" : "https://imma.ie/collection/the-smile/",
+    "dateCreated" : "1974",
+    "url" : "https://imma.ie/collection/the-smile/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-smile",
-    "arco-cd:hasTitle" : "The Smile"
+    "hasTitle" : "The Smile"
   }, {
     "@id" : "spice:attribution/the-smile",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,44 +28,37 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

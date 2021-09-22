@@ -2,20 +2,20 @@
   "@graph" : [ {
     "@id" : "spice:agent/wakefield-paul",
     "@type" : "foaf:Person",
-    "dc:description" : "Photographer Paul Wakefield has exhibited extensively since 1984 including exhibitions at the Photographers’ Gallery, London in 1984, the Gallery of Photography, Dublin in 1991, Saatchi Gallery, London in 1994 and Kodak Gallery, Tokyo in 2005. He has received numerous awards including the Association of Photographers awards; the Grand Prix de L'APPM and a Creativity International award. Wakefield has published four books of his work.",
-    "dc:source" : "https://imma.ie/artists/paul-wakefield/",
-    "schema:url" : "https://imma.ie/artists/paul-wakefield/",
-    "rdfs:label" : "Paul Wakefield"
+    "description" : "Photographer Paul Wakefield has exhibited extensively since 1984 including exhibitions at the Photographers’ Gallery, London in 1984, the Gallery of Photography, Dublin in 1991, Saatchi Gallery, London in 1994 and Kodak Gallery, Tokyo in 2005. He has received numerous awards including the Association of Photographers awards; the Grand Prix de L'APPM and a Creativity International award. Wakefield has published four books of his work.",
+    "source" : "https://imma.ie/artists/paul-wakefield/",
+    "url" : "https://imma.ie/artists/paul-wakefield/",
+    "label" : "Paul Wakefield"
   }, {
     "@id" : "spice:artefact/white-park-bay-co-antrim",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/wakefield-paul",
     "author" : "spice:agent/wakefield-paul",
-    "schema:dateCreated" : "1985",
-    "schema:url" : "https://imma.ie/collection/white-park-bay-co-antrim/",
+    "dateCreated" : "1985",
+    "url" : "https://imma.ie/collection/white-park-bay-co-antrim/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/white-park-bay-co-antrim",
-    "arco-cd:hasTitle" : "White Park Bay, Co. Antrim"
+    "hasTitle" : "White Park Bay, Co. Antrim"
   }, {
     "@id" : "spice:attribution/white-park-bay-co-antrim",
     "@type" : "arco:AuthorshipAttribution",
@@ -27,24 +27,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -55,20 +52,17 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

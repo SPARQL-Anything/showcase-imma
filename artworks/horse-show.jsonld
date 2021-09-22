@@ -2,61 +2,53 @@
   "@graph" : [ {
     "@id" : "spice:artefact/horse-show",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Horse Show is a 1962 work by Elliott Erwitt. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/horse-show/",
-    "schema:creditText" : "IMMA Collection: Purchase, 2006",
+    "description" : "Horse Show is a 1962 work by Elliott Erwitt. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/horse-show/",
+    "creditText" : "IMMA Collection: Purchase, 2006",
     "image" : "spice:documentation/horse-show",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Silver Gelatin print on fibre paper",
-    "schema:size" : "27.8 x 35.2 cm",
-    "arco-cd:hasInventory" : "IMMA.2197"
+    "material" : "Silver Gelatin print on fibre paper",
+    "size" : "27.8 x 35.2 cm",
+    "hasInventory" : "IMMA.2197"
   }, {
     "@id" : "spice:documentation/horse-show",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Elliott Erwitt, Horse Show, 1962, Silver Gelatin print on fibre paper, 27.8 x 35.2 cm, Collection Irish Museum of Modern Art, Purchase, 2006 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Elliott Erwitt, Horse Show, 1962, Silver Gelatin print on fibre paper, 27.8 x 35.2 cm, Collection Irish Museum of Modern Art, Purchase, 2006 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

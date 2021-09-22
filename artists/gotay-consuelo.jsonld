@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/gotay-consuelo",
     "@type" : "foaf:Person",
-    "dc:description" : "Puerto Rican graphic artist and designer Consuelo Gotay studied at the University of Puerto Rico and at Colombia University, New York. She went on to study at the Center for Book Arts in New York and at the Canadian School for Non-Toxic Printmaking. Gotay was a Professor and Director of the Graphic Arts Department of the School of Plastic Arts of Puerto Rico where she developed a book arts workshop and implemented the technique of engraving in the development of the artist’s book. She has been honoured by the San Juan Biennial of Latin American and Caribbean Etching and the Engraving Biennial of Barranquilla, Colombia.",
-    "dc:source" : "https://imma.ie/artists/consuelo-gotay/",
-    "schema:birthDate" : "b.1949",
-    "schema:url" : "https://imma.ie/artists/consuelo-gotay/",
-    "rdfs:label" : "Consuelo Gotay"
+    "description" : "Puerto Rican graphic artist and designer Consuelo Gotay studied at the University of Puerto Rico and at Colombia University, New York. She went on to study at the Center for Book Arts in New York and at the Canadian School for Non-Toxic Printmaking. Gotay was a Professor and Director of the Graphic Arts Department of the School of Plastic Arts of Puerto Rico where she developed a book arts workshop and implemented the technique of engraving in the development of the artist’s book. She has been honoured by the San Juan Biennial of Latin American and Caribbean Etching and the Engraving Biennial of Barranquilla, Colombia.",
+    "source" : "https://imma.ie/artists/consuelo-gotay/",
+    "birthDate" : "b.1949",
+    "url" : "https://imma.ie/artists/consuelo-gotay/",
+    "label" : "Consuelo Gotay"
   }, {
     "@id" : "spice:artefact/petra-rentas",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/gotay-consuelo",
     "author" : "spice:agent/gotay-consuelo",
-    "schema:dateCreated" : "1977",
-    "schema:url" : "https://imma.ie/collection/petra-rentas/",
+    "dateCreated" : "1977",
+    "url" : "https://imma.ie/collection/petra-rentas/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/petra-rentas",
-    "arco-cd:hasTitle" : "Petra Rentas"
+    "hasTitle" : "Petra Rentas"
   }, {
     "@id" : "spice:attribution/petra-rentas",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,24 +28,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -56,24 +53,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/parodos",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "The film installation ‘Parodos’ is drawn from Emoe’s larger project ‘Cult of Engagement’, commissioned by the Project Arts Centre in 2009, in which the artist deals with the dramatic tradition of Tragedy. ‘Parodos’ is the term used for the entrance song of the chorus introducing the event that is about to take place. The processional chorus in Emoe’s film is, however, silent – an absence suggesting the role of the viewer within this dynamic to imagine what unfolds.",
-    "dc:source" : "https://imma.ie/collection/parodos/",
-    "schema:creditText" : "IMMA Collection: Donation, 2010",
+    "description" : "The film installation ‘Parodos’ is drawn from Emoe’s larger project ‘Cult of Engagement’, commissioned by the Project Arts Centre in 2009, in which the artist deals with the dramatic tradition of Tragedy. ‘Parodos’ is the term used for the entrance song of the chorus introducing the event that is about to take place. The processional chorus in Emoe’s film is, however, silent – an absence suggesting the role of the viewer within this dynamic to imagine what unfolds.",
+    "source" : "https://imma.ie/collection/parodos/",
+    "creditText" : "IMMA Collection: Donation, 2010",
     "image" : "spice:documentation/parodos",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Video (colour, sound)",
-    "schema:version" : "Edition 1/5",
-    "arco-cd:hasInventory" : "IMMA.3238.1"
+    "material" : "Video (colour, sound)",
+    "version" : "Edition 1/5",
+    "hasInventory" : "IMMA.3238.1"
   }, {
     "@id" : "spice:documentation/parodos",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Clodagh Emoe, Parodos, 2009, Video (colour, sound), Duration: 7 min loop, Collection Irish Museum of Modern Art, Donation, 2010 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Clodagh Emoe, Parodos, 2009, Video (colour, sound), Duration: 7 min loop, Collection Irish Museum of Modern Art, Donation, 2010 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2019/10/5153.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2019/10/5153.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

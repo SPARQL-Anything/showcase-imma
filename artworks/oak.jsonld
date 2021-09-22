@@ -2,66 +2,57 @@
   "@graph" : [ {
     "@id" : "spice:artefact/oak",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "After moving to the Burren in Co. Clare, Tom Molloy became interested in the collection, classification and registration of the natural world carried out by botanists in the area. In ‘Oak’ Molloy chooses to draw, rather than paint, to minimize the effects of colour, brushstroke and other formal considerations associated with expression. In this work the artist focuses on individual leaves from one particular oak tree to query how we arrive at the general idea of a species. In all Molloy drew 96 leaves, 32 of which are in the IMMA Collection. Each drawing is governed by the same rules of production, the uniqueness of each leaf coming to the forefront. The intense repeated labour of drawing and redrawing an object recurs in Molloy’s practice. It is not just categorization which engages his enquiry, but reproduction. He is concerned with mechanical representation, trompe l’oeil, and questions relating to the very nature of visual representation itself.",
-    "dc:source" : "https://imma.ie/collection/oak/",
-    "schema:creditText" : "IMMA Collection: Purchase, 1999",
+    "description" : "After moving to the Burren in Co. Clare, Tom Molloy became interested in the collection, classification and registration of the natural world carried out by botanists in the area. In ‘Oak’ Molloy chooses to draw, rather than paint, to minimize the effects of colour, brushstroke and other formal considerations associated with expression. In this work the artist focuses on individual leaves from one particular oak tree to query how we arrive at the general idea of a species. In all Molloy drew 96 leaves, 32 of which are in the IMMA Collection. Each drawing is governed by the same rules of production, the uniqueness of each leaf coming to the forefront. The intense repeated labour of drawing and redrawing an object recurs in Molloy’s practice. It is not just categorization which engages his enquiry, but reproduction. He is concerned with mechanical representation, trompe l’oeil, and questions relating to the very nature of visual representation itself.",
+    "source" : "https://imma.ie/collection/oak/",
+    "creditText" : "IMMA Collection: Purchase, 1999",
     "image" : "spice:documentation/oak",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Pencil on paper",
-    "schema:size" : "25 x 32 cm (each)",
-    "arco-cd:hasInventory" : "IMMA.854"
+    "material" : "Pencil on paper",
+    "size" : "25 x 32 cm (each)",
+    "hasInventory" : "IMMA.854"
   }, {
     "@id" : "spice:documentation/oak",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Tom Molloy, Oak, 1998, Pencil on paper, 25 x 32 cm (each), Collection Irish Museum of Modern Art, Purchase, 1999 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Tom Molloy, Oak, 1998, Pencil on paper, 25 x 32 cm (each), Collection Irish Museum of Modern Art, Purchase, 1999 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2020/02/1124.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2020/02/1124.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

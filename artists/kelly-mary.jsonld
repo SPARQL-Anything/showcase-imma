@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/kelly-mary",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish artist and filmmaker Mary Kelly studied Psychology and Philosophy at University College Dublin and Fine Art and Film at Dun Laoghaire College of Art and Design. She received a M.A. in Fine Art from the National College of Art and Design in 2003. Within her art practice Kelly considers ideas of home and place, and the instinctive human drive to create a personal space within diverse environments. She has exhibited extensively in Ireland and Europe since the late 1990s. She received the American Arts Award in 2006 and the Artlinks Award in 2007.",
-    "dc:source" : "https://imma.ie/artists/mary-kelly/",
-    "schema:birthDate" : "b.1956",
-    "schema:url" : "https://imma.ie/artists/mary-kelly/",
-    "rdfs:label" : "Mary Kelly"
+    "description" : "Irish artist and filmmaker Mary Kelly studied Psychology and Philosophy at University College Dublin and Fine Art and Film at Dun Laoghaire College of Art and Design. She received a M.A. in Fine Art from the National College of Art and Design in 2003. Within her art practice Kelly considers ideas of home and place, and the instinctive human drive to create a personal space within diverse environments. She has exhibited extensively in Ireland and Europe since the late 1990s. She received the American Arts Award in 2006 and the Artlinks Award in 2007.",
+    "source" : "https://imma.ie/artists/mary-kelly/",
+    "birthDate" : "b.1956",
+    "url" : "https://imma.ie/artists/mary-kelly/",
+    "label" : "Mary Kelly"
   }, {
     "@id" : "spice:artefact/kevin",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/kelly-mary",
     "author" : "spice:agent/kelly-mary",
-    "schema:dateCreated" : "2009",
-    "schema:url" : "https://imma.ie/collection/kevin/",
+    "dateCreated" : "2009",
+    "url" : "https://imma.ie/collection/kevin/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/kevin",
-    "arco-cd:hasTitle" : "Kevin"
+    "hasTitle" : "Kevin"
   }, {
     "@id" : "spice:attribution/kevin",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,40 +24,33 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

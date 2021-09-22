@@ -2,71 +2,61 @@
   "@graph" : [ {
     "@id" : "spice:artefact/hatteras",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Hatteras is a 1963 work by Jasper Johns. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/hatteras/",
-    "schema:creditText" : "IMMA Collection: The Novak/O'Doherty Collection at IMMA Donation, The American Ireland Fund, 2011",
+    "description" : "Hatteras is a 1963 work by Jasper Johns. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/hatteras/",
+    "creditText" : "IMMA Collection: The Novak/O'Doherty Collection at IMMA Donation, The American Ireland Fund, 2011",
     "image" : "spice:documentation/hatteras",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Lithograph",
-    "schema:size" : "104 x 75 cm Framed: 116.4 x 87.2 cm",
-    "schema:version" : "HC 6/10",
-    "arco-cd:hasInventory" : "IMMA.2129"
+    "material" : "Lithograph",
+    "size" : "104 x 75 cm Framed: 116.4 x 87.2 cm",
+    "version" : "HC 6/10",
+    "hasInventory" : "IMMA.2129"
   }, {
     "@id" : "spice:documentation/hatteras",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Jasper Johns, Hatteras, 1963, Lithograph, 104 x 75 cm Framed: 116.4 x 87.2 cm, Collection Irish Museum of Modern Art, The Novak/O'Doherty Collection at IMMA Donation, The American Ireland Fund, 2011 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Jasper Johns, Hatteras, 1963, Lithograph, 104 x 75 cm Framed: 116.4 x 87.2 cm, Collection Irish Museum of Modern Art, The Novak/O'Doherty Collection at IMMA Donation, The American Ireland Fund, 2011 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/1842.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/1842.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

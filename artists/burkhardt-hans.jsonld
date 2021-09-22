@@ -2,51 +2,51 @@
   "@graph" : [ {
     "@id" : "spice:agent/burkhardt-hans",
     "@type" : "foaf:Person",
-    "dc:description" : "Born in Basel, Switzerland, Hans Burkhardt moved to New York in 1924. He attended Cooper Union School of the Arts, Grand Central School of Art and shared a studio with Arshile Gorky from 1929 to 1936. He moved to Los Angeles in 1937, and is best known for his abstract expressionist works created in response to death and war. In 1992 he established the Hans G. and Thordis W. Burkhardt Foundation and received a Lifetime Achievement Award from the American Academy and Institute of Arts and Letters",
-    "dc:source" : "https://imma.ie/artists/hans-burkhardt/",
-    "schema:birthDate" : "1904–1994",
-    "schema:url" : "https://imma.ie/artists/hans-burkhardt/",
-    "rdfs:label" : "Hans Burkhardt"
+    "description" : "Born in Basel, Switzerland, Hans Burkhardt moved to New York in 1924. He attended Cooper Union School of the Arts, Grand Central School of Art and shared a studio with Arshile Gorky from 1929 to 1936. He moved to Los Angeles in 1937, and is best known for his abstract expressionist works created in response to death and war. In 1992 he established the Hans G. and Thordis W. Burkhardt Foundation and received a Lifetime Achievement Award from the American Academy and Institute of Arts and Letters",
+    "source" : "https://imma.ie/artists/hans-burkhardt/",
+    "birthDate" : "1904–1994",
+    "url" : "https://imma.ie/artists/hans-burkhardt/",
+    "label" : "Hans Burkhardt"
   }, {
     "@id" : "spice:artefact/untitled-103",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/burkhardt-hans",
     "author" : "spice:agent/burkhardt-hans",
-    "schema:dateCreated" : "1974",
-    "schema:url" : "https://imma.ie/collection/untitled-103/",
+    "dateCreated" : "1974",
+    "url" : "https://imma.ie/collection/untitled-103/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-103",
-    "arco-cd:hasTitle" : "Untitled"
+    "hasTitle" : "Untitled"
   }, {
     "@id" : "spice:artefact/untitled-87",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/burkhardt-hans",
     "author" : "spice:agent/burkhardt-hans",
-    "schema:dateCreated" : "1978",
-    "schema:url" : "https://imma.ie/collection/untitled-87/",
+    "dateCreated" : "1978",
+    "url" : "https://imma.ie/collection/untitled-87/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-87",
-    "arco-cd:hasTitle" : "Untitled"
+    "hasTitle" : "Untitled"
   }, {
     "@id" : "spice:artefact/untitled-98",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/burkhardt-hans",
     "author" : "spice:agent/burkhardt-hans",
-    "schema:dateCreated" : "1975",
-    "schema:url" : "https://imma.ie/collection/untitled-98/",
+    "dateCreated" : "1975",
+    "url" : "https://imma.ie/collection/untitled-98/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-98",
-    "arco-cd:hasTitle" : "Untitled"
+    "hasTitle" : "Untitled"
   }, {
     "@id" : "spice:artefact/untitled-99",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/burkhardt-hans",
     "author" : "spice:agent/burkhardt-hans",
-    "schema:dateCreated" : "1975",
-    "schema:url" : "https://imma.ie/collection/untitled-99/",
+    "dateCreated" : "1975",
+    "url" : "https://imma.ie/collection/untitled-99/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-99",
-    "arco-cd:hasTitle" : "Untitled"
+    "hasTitle" : "Untitled"
   }, {
     "@id" : "spice:attribution/untitled-103",
     "@type" : "arco:AuthorshipAttribution",
@@ -70,24 +70,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -98,24 +95,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

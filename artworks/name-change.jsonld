@@ -2,40 +2,35 @@
   "@graph" : [ {
     "@id" : "spice:artefact/name-change",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Though based in New York from 1960 onwards, Brian O’Doherty continued to exhibit in Ireland, and his work reflected the social and political events shaping the country. In 1972 Brian O’Doherty staged a performance (Name Change), in which he changed his name to Patrick Ireland, in the presence of a Notary Public, as a patriotic and artistic protest against the events of Bloody Sunday in Derry that year and under which name all his subsequent artwork was made.",
-    "dc:source" : "https://imma.ie/collection/name-change/",
-    "schema:creditText" : "IMMA Collection: Purchase, 2020, 2020",
+    "description" : "Though based in New York from 1960 onwards, Brian O’Doherty continued to exhibit in Ireland, and his work reflected the social and political events shaping the country. In 1972 Brian O’Doherty staged a performance (Name Change), in which he changed his name to Patrick Ireland, in the presence of a Notary Public, as a patriotic and artistic protest against the events of Bloody Sunday in Derry that year and under which name all his subsequent artwork was made.",
+    "source" : "https://imma.ie/collection/name-change/",
+    "creditText" : "IMMA Collection: Purchase, 2020, 2020",
     "image" : "spice:documentation/name-change",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Photograph, ink and gouache drawings on paper, typed in paper collage on posterboard",
-    "schema:size" : "Framed: 71 x 152cm",
-    "arco-cd:hasInventory" : "IMMA.4174"
+    "material" : "Photograph, ink and gouache drawings on paper, typed in paper collage on posterboard",
+    "size" : "Framed: 71 x 152cm",
+    "hasInventory" : "IMMA.4174"
   }, {
     "@id" : "spice:documentation/name-change",
     "@type" : "schema:ImageObject",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2021/01/3948.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2021/04/3948.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -46,12 +41,10 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

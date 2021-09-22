@@ -2,62 +2,53 @@
   "@graph" : [ {
     "@id" : "spice:artefact/new-faith-love-song-st-patricks-cathedral-torsos-diptych-1-2",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "NEW FAITH LOVE SONG – St. Patrick’s Cathedral, Torsos Diptych 1-2 is a 2012 work by Garrett Phelan. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/new-faith-love-song-st-patricks-cathedral-torsos-diptych-1-2/",
-    "schema:creditText" : "IMMA Collection: Donation, 2013",
+    "description" : "NEW FAITH LOVE SONG – St. Patrick’s Cathedral, Torsos Diptych 1-2 is a 2012 work by Garrett Phelan. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/new-faith-love-song-st-patricks-cathedral-torsos-diptych-1-2/",
+    "creditText" : "IMMA Collection: Donation, 2013",
     "image" : "spice:documentation/new-faith-love-song-st-patricks-cathedral-torsos-diptych-1-2",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Gelatin silver print",
-    "schema:size" : "Framed: 38.5 x 36 cm 8.5 x 13 cm",
-    "schema:version" : "Unique",
-    "arco-cd:hasInventory" : "IMMA.3874"
+    "material" : "Gelatin silver print",
+    "size" : "Framed: 38.5 x 36 cm 8.5 x 13 cm",
+    "version" : "Unique",
+    "hasInventory" : "IMMA.3874"
   }, {
     "@id" : "spice:documentation/new-faith-love-song-st-patricks-cathedral-torsos-diptych-1-2",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Garrett Phelan, NEW FAITH LOVE SONG – St. Patrick’s Cathedral, Torsos Diptych 1-2, 2012, Gelatin silver print, Framed: 38.5 x 36 cm 8.5 x 13 cm, Collection Irish Museum of Modern Art, Donation, 2013 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Garrett Phelan, NEW FAITH LOVE SONG – St. Patrick’s Cathedral, Torsos Diptych 1-2, 2012, Gelatin silver print, Framed: 38.5 x 36 cm 8.5 x 13 cm, Collection Irish Museum of Modern Art, Donation, 2013 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "image" : {
       "@id" : "http://schema.org/image",

@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/door",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Brian Duggan’s work tests the physical limitations of the immediate environment that the artist finds around him. Stress and pressure, are a continuous reference. Duggan is interested in forces and pressures we cannot always see but ones that change and challenge our understanding of the immediate moment.",
-    "dc:source" : "https://imma.ie/collection/door/",
-    "schema:creditText" : "IMMA Collection: Purchase, 2006",
+    "description" : "Brian Duggan’s work tests the physical limitations of the immediate environment that the artist finds around him. Stress and pressure, are a continuous reference. Duggan is interested in forces and pressures we cannot always see but ones that change and challenge our understanding of the immediate moment.",
+    "source" : "https://imma.ie/collection/door/",
+    "creditText" : "IMMA Collection: Purchase, 2006",
     "image" : "spice:documentation/door",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Video",
-    "schema:version" : "Edition of 3",
-    "arco-cd:hasInventory" : "IMMA.1954"
+    "material" : "Video",
+    "version" : "Edition of 3",
+    "hasInventory" : "IMMA.1954"
   }, {
     "@id" : "spice:documentation/door",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Brian Duggan, Door, 2005, Video, Duration: 1min.39 sec., Collection Irish Museum of Modern Art, Purchase, 2006 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Brian Duggan, Door, 2005, Video, Duration: 1min.39 sec., Collection Irish Museum of Modern Art, Purchase, 2006 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/74.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/74.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

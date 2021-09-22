@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/crossing-the-rapido-vii",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "‘Crossing the Rapido VII’ is one of a series of explorations by O’Donoghue of the personal and the universal, combining the artist’s father’s history of war in Italy in 1940 with age-old depictions of battle and struggle and Christian religious imagery from the tradition of Michelangelo, Titian and Rubens.",
-    "dc:source" : "https://imma.ie/collection/crossing-the-rapido-vii/",
-    "schema:creditText" : "IMMA Collection: Heritage Gift, 2004",
+    "description" : "‘Crossing the Rapido VII’ is one of a series of explorations by O’Donoghue of the personal and the universal, combining the artist’s father’s history of war in Italy in 1940 with age-old depictions of battle and struggle and Christian religious imagery from the tradition of Michelangelo, Titian and Rubens.",
+    "source" : "https://imma.ie/collection/crossing-the-rapido-vii/",
+    "creditText" : "IMMA Collection: Heritage Gift, 2004",
     "image" : "spice:documentation/crossing-the-rapido-vii",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Oil on aluminium panel in three parts with inkjet on gampi tissue",
-    "schema:size" : "245 x 198 cm each",
-    "arco-cd:hasInventory" : "IMMA.1764"
+    "material" : "Oil on aluminium panel in three parts with inkjet on gampi tissue",
+    "size" : "245 x 198 cm each",
+    "hasInventory" : "IMMA.1764"
   }, {
     "@id" : "spice:documentation/crossing-the-rapido-vii",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Hughie O'Donoghue, Crossing the Rapido VII, 2003, Oil on aluminium panel in three parts with inkjet on gampi tissue, 245 x 198 cm each, Collection Irish Museum of Modern Art, Heritage Gift, 2004 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Hughie O'Donoghue, Crossing the Rapido VII, 2003, Oil on aluminium panel in three parts with inkjet on gampi tissue, 245 x 198 cm each, Collection Irish Museum of Modern Art, Heritage Gift, 2004 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/816.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/816.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

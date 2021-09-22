@@ -2,66 +2,57 @@
   "@graph" : [ {
     "@id" : "spice:artefact/the-tripper",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Diaz’s early drawings and assemblages were inspired by Pop Art. In Paris and Milan he developed a style of conceptually oriented painting incorporating text, where he wove political themes with ideas about the nature of art.",
-    "dc:source" : "https://imma.ie/collection/the-tripper/",
-    "schema:creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
+    "description" : "Diaz’s early drawings and assemblages were inspired by Pop Art. In Paris and Milan he developed a style of conceptually oriented painting incorporating text, where he wove political themes with ideas about the nature of art.",
+    "source" : "https://imma.ie/collection/the-tripper/",
+    "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/the-tripper",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Acrylic on canvas",
-    "schema:size" : "129.8 x 162.1 cm",
-    "arco-cd:hasInventory" : "IMMA.193 GL"
+    "material" : "Acrylic on canvas",
+    "size" : "129.8 x 162.1 cm",
+    "hasInventory" : "IMMA.193 GL"
   }, {
     "@id" : "spice:documentation/the-tripper",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Antonio Dias, The Tripper, 1971, Acrylic on canvas, 129.8 x 162.1 cm, Collection Irish Museum of Modern Art, Gordon Lambert Trust, 1992 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Antonio Dias, The Tripper, 1971, Acrylic on canvas, 129.8 x 162.1 cm, Collection Irish Museum of Modern Art, Gordon Lambert Trust, 1992 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/1908.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/1908.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

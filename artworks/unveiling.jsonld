@@ -2,66 +2,57 @@
   "@graph" : [ {
     "@id" : "spice:artefact/unveiling",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Process, pleasure and the artist’s own body are central to Janine Antoni’s work, which transforms everyday bodily rituals, (eating and washing for example), into a sculptural process using materials such as chocolate, soap and lard.",
-    "dc:source" : "https://imma.ie/collection/unveiling/",
-    "schema:creditText" : "IMMA Collection: Purchase, 1995",
+    "description" : "Process, pleasure and the artist’s own body are central to Janine Antoni’s work, which transforms everyday bodily rituals, (eating and washing for example), into a sculptural process using materials such as chocolate, soap and lard.",
+    "source" : "https://imma.ie/collection/unveiling/",
+    "creditText" : "IMMA Collection: Purchase, 1995",
     "image" : "spice:documentation/unveiling",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Bronze bell, lead clapper, fabric tassle",
-    "schema:size" : "53.5 x 33 x 33 cm",
-    "schema:version" : "Edition 3/3",
-    "arco-cd:hasInventory" : "IMMA.623"
+    "material" : "Bronze bell, lead clapper, fabric tassle",
+    "size" : "53.5 x 33 x 33 cm",
+    "version" : "Edition 3/3",
+    "hasInventory" : "IMMA.623"
   }, {
     "@id" : "spice:documentation/unveiling",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Janine Antoni, Unveiling, 1994, Bronze bell, lead clapper, fabric tassle, 53.5 x 33 x 33 cm, Collection Irish Museum of Modern Art, Purchase, 1995 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Janine Antoni, Unveiling, 1994, Bronze bell, lead clapper, fabric tassle, 53.5 x 33 x 33 cm, Collection Irish Museum of Modern Art, Purchase, 1995 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

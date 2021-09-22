@@ -2,31 +2,31 @@
   "@graph" : [ {
     "@id" : "spice:agent/fulton-hamish",
     "@type" : "foaf:Person",
-    "dc:description" : "British artist and photographer Hamish Fulton was born in London where he studied at Central St Martins and the Royal College of Art. Fulton characterises himself as a ‘walking artist’ and direct physical engagement with landscape is central to his practice. He has exhibited extensively worldwide since 1971 and his work can be found in numerous collections including Tate, London; MoMA, New York; Guggenheim Museum, New York; Victoria and Albert Museum, London and Museum Moderner Kunst, Vienna.",
-    "dc:source" : "https://imma.ie/artists/hamish-fulton/",
-    "schema:birthDate" : "b.1946",
-    "schema:url" : "https://imma.ie/artists/hamish-fulton/",
-    "rdfs:label" : "Hamish Fulton"
+    "description" : "British artist and photographer Hamish Fulton was born in London where he studied at Central St Martins and the Royal College of Art. Fulton characterises himself as a ‘walking artist’ and direct physical engagement with landscape is central to his practice. He has exhibited extensively worldwide since 1971 and his work can be found in numerous collections including Tate, London; MoMA, New York; Guggenheim Museum, New York; Victoria and Albert Museum, London and Museum Moderner Kunst, Vienna.",
+    "source" : "https://imma.ie/artists/hamish-fulton/",
+    "birthDate" : "b.1946",
+    "url" : "https://imma.ie/artists/hamish-fulton/",
+    "label" : "Hamish Fulton"
   }, {
     "@id" : "spice:artefact/fourteen-works-portfolio-containing-14-works",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/fulton-hamish",
     "author" : "spice:agent/fulton-hamish",
-    "schema:dateCreated" : "1982",
-    "schema:url" : "https://imma.ie/collection/fourteen-works-portfolio-containing-14-works/",
+    "dateCreated" : "1982",
+    "url" : "https://imma.ie/collection/fourteen-works-portfolio-containing-14-works/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/fourteen-works-portfolio-containing-14-works",
-    "arco-cd:hasTitle" : "Fourteen Works (Portfolio containing 14 works)"
+    "hasTitle" : "Fourteen Works (Portfolio containing 14 works)"
   }, {
     "@id" : "spice:artefact/ten-toes-towards-the-rainbow-portfolio-containing-9-works",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/fulton-hamish",
     "author" : "spice:agent/fulton-hamish",
-    "schema:dateCreated" : "1993",
-    "schema:url" : "https://imma.ie/collection/ten-toes-towards-the-rainbow-portfolio-containing-9-works/",
+    "dateCreated" : "1993",
+    "url" : "https://imma.ie/collection/ten-toes-towards-the-rainbow-portfolio-containing-9-works/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/ten-toes-towards-the-rainbow-portfolio-containing-9-works",
-    "arco-cd:hasTitle" : "Ten Toes Towards the Rainbow (Portfolio containing 9 works)"
+    "hasTitle" : "Ten Toes Towards the Rainbow (Portfolio containing 9 works)"
   }, {
     "@id" : "spice:attribution/fourteen-works-portfolio-containing-14-works",
     "@type" : "arco:AuthorshipAttribution",
@@ -38,40 +38,33 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -87,7 +80,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

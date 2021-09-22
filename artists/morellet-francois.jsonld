@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/morellet-francois",
     "@type" : "foaf:Person",
-    "dc:description" : "French painter, sculptor and light artist François Morellet was a pioneer of the kinetic art movement and a founder member of the 'Groupe de Recherche d’Art Visuel' (1960-68). The group aimed to eliminate the distance between the viewer and the artwork by inviting the viewer to collaborate in kinetic art by setting it in motion, stopping it and sometimes actually constructing it. Working with neon from 1963, Morellet is also well known for his cellular spheres built from metal rods set at right angles to each other.",
-    "dc:source" : "https://imma.ie/artists/francois-morellet/",
-    "schema:birthDate" : "1926–2016",
-    "schema:url" : "https://imma.ie/artists/francois-morellet/",
-    "rdfs:label" : "François Morellet"
+    "description" : "French painter, sculptor and light artist François Morellet was a pioneer of the kinetic art movement and a founder member of the 'Groupe de Recherche d’Art Visuel' (1960-68). The group aimed to eliminate the distance between the viewer and the artwork by inviting the viewer to collaborate in kinetic art by setting it in motion, stopping it and sometimes actually constructing it. Working with neon from 1963, Morellet is also well known for his cellular spheres built from metal rods set at right angles to each other.",
+    "source" : "https://imma.ie/artists/francois-morellet/",
+    "birthDate" : "1926–2016",
+    "url" : "https://imma.ie/artists/francois-morellet/",
+    "label" : "François Morellet"
   }, {
     "@id" : "spice:artefact/sphere-trame",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/morellet-francois",
     "author" : "spice:agent/morellet-francois",
-    "schema:dateCreated" : "1962",
-    "schema:url" : "https://imma.ie/collection/sphere-trame/",
+    "dateCreated" : "1962",
+    "url" : "https://imma.ie/collection/sphere-trame/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/sphere-trame",
-    "arco-cd:hasTitle" : "Sphère-Trame"
+    "hasTitle" : "Sphère-Trame"
   }, {
     "@id" : "spice:attribution/sphere-trame",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,40 +28,33 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

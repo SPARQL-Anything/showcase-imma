@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/starkey-hannah",
     "@type" : "foaf:Person",
-    "dc:description" : "Born in Belfast, Hannah Starkey studied photography at Napier University, Edinburgh, and the Royal College of Art, London. Working with professional actors, Starkey constructs complex, yet seemingly fleeting images, set within a contemporary urban environment, that suggest narratives based on chance encounters and personal impressions. Starkey has exhibited extensively since the 1990s, including solos exhibitions at Warwick Arts Centre, Coventry; Ormeau Baths Gallery, Belfast and Tanya Bonakdar Gallery, New York. In 2000, ‘Hannah Starkey: Photographs’ was exhibited at IMMA.",
-    "dc:source" : "https://imma.ie/artists/hannah-starkey/",
-    "schema:birthDate" : "b.1971",
-    "schema:url" : "https://imma.ie/artists/hannah-starkey/",
-    "rdfs:label" : "Hannah Starkey"
+    "description" : "Born in Belfast, Hannah Starkey studied photography at Napier University, Edinburgh, and the Royal College of Art, London. Working with professional actors, Starkey constructs complex, yet seemingly fleeting images, set within a contemporary urban environment, that suggest narratives based on chance encounters and personal impressions. Starkey has exhibited extensively since the 1990s, including solos exhibitions at Warwick Arts Centre, Coventry; Ormeau Baths Gallery, Belfast and Tanya Bonakdar Gallery, New York. In 2000, ‘Hannah Starkey: Photographs’ was exhibited at IMMA.",
+    "source" : "https://imma.ie/artists/hannah-starkey/",
+    "birthDate" : "b.1971",
+    "url" : "https://imma.ie/artists/hannah-starkey/",
+    "label" : "Hannah Starkey"
   }, {
     "@id" : "spice:artefact/untitled-23",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/starkey-hannah",
     "author" : "spice:agent/starkey-hannah",
-    "schema:dateCreated" : "1999",
-    "schema:url" : "https://imma.ie/collection/untitled-23/",
+    "dateCreated" : "1999",
+    "url" : "https://imma.ie/collection/untitled-23/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-23",
-    "arco-cd:hasTitle" : "Untitled"
+    "hasTitle" : "Untitled"
   }, {
     "@id" : "spice:attribution/untitled-23",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,40 +24,33 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

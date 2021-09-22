@@ -1,30 +1,26 @@
 {
   "@id" : "spice:agent/otoole-lar",
   "@type" : "foaf:Person",
-  "dc:description" : [ "Lar is interested in an art/science interface and the cultural and psychological effects of expanded seeing; the insights into inner and outer space afforded to science by the application of lenses since the late 16th century. The shift away from a heliocentric cosmology at this time spurred scientific inquiry and decentred mankind within the universe. Lar is drawn to the dilemmas that arise when considering our cosmic significance or insignificance. His recent work and research explores the compression of astronomical distances and timescales relative to the human experience.", "Lar is interested in an art/science interface and the cultural and psychological effects of expanded seeing; the insights into inner and outer space afforded to science by the application of lenses since the late 16th century. " ],
-  "dc:source" : "https://imma.ie/artists/lar-otoole/",
-  "schema:url" : "https://imma.ie/artists/lar-otoole/",
-  "rdfs:label" : "Lar O’Toole",
+  "description" : [ "Lar is interested in an art/science interface and the cultural and psychological effects of expanded seeing; the insights into inner and outer space afforded to science by the application of lenses since the late 16th century. The shift away from a heliocentric cosmology at this time spurred scientific inquiry and decentred mankind within the universe. Lar is drawn to the dilemmas that arise when considering our cosmic significance or insignificance. His recent work and research explores the compression of astronomical distances and timescales relative to the human experience.", "Lar is interested in an art/science interface and the cultural and psychological effects of expanded seeing; the insights into inner and outer space afforded to science by the application of lenses since the late 16th century. " ],
+  "source" : "https://imma.ie/artists/lar-otoole/",
+  "url" : "https://imma.ie/artists/lar-otoole/",
+  "label" : "Lar O’Toole",
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

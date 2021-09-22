@@ -1,0 +1,35 @@
+{
+  "@id" : "spice:agent/epstein-isadora",
+  "@type" : "foaf:Person",
+  "description" : [ "Isadora Epstein writes and makes performances from her research of art history and mythology. Her work brings together a multidisciplinary ensemble of artists working in visual art, experimental music, and dance. The activities of her practice include three distinct processes: archival research, script writing, and collaborative rehearsals. Her performances are joyful acts of remembrance which offer up the ridiculous fantasy of immortality through the making of temporary fictional worlds.", "Isadora Epstein writes and makes performances from her research of art history and mythology. Her work brings together a multidisciplinary ensemble of artists working in visual art, experimental music, and dance." ],
+  "source" : "https://imma.ie/artists/isadora-epstein/",
+  "url" : "https://imma.ie/artists/isadora-epstein/",
+  "label" : "Isadora Epstein",
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

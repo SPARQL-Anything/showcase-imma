@@ -1,35 +1,30 @@
 {
   "@id" : "spice:agent/mccullough-jan",
   "@type" : "foaf:Person",
-  "dc:description" : [ "Jan McCullough works with photography, moving image, sculpture and installation to explore how the photographic image can be used to construct and produce individual and collective expressions of self. Recent work has included sculptural, material responses to how the camera mediates, encounters and transforms built space and can question how we locate ourselves in it. Other work has explored how people use photography when improving their own lives in a world where desires are shaped by, and affect, advertising and the photographic image.", "Jan McCullough is interested in the role photography plays in the construction and expression of individual and collective identities in contemporary society." ],
-  "dc:source" : "https://imma.ie/artists/jan-mccullough/",
-  "schema:birthDate" : "b.1991",
-  "schema:url" : "https://imma.ie/artists/jan-mccullough/",
-  "rdfs:label" : "Jan McCullough",
+  "description" : [ "Jan McCullough works with photography, moving image, sculpture and installation to explore how the photographic image can be used to construct and produce individual and collective expressions of self. Recent work has included sculptural, material responses to how the camera mediates, encounters and transforms built space and can question how we locate ourselves in it. Other work has explored how people use photography when improving their own lives in a world where desires are shaped by, and affect, advertising and the photographic image.", "Jan McCullough is interested in the role photography plays in the construction and expression of individual and collective identities in contemporary society." ],
+  "source" : "https://imma.ie/artists/jan-mccullough/",
+  "birthDate" : "b.1991",
+  "url" : "https://imma.ie/artists/jan-mccullough/",
+  "label" : "Jan McCullough",
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -2,66 +2,57 @@
   "@graph" : [ {
     "@id" : "spice:artefact/no-8-from-i-modi",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "The spaces in the photographs are all libraries and the works were made at a time when the issue of storage on the internet was new. I was interested in the Freudian analogy of desire for knowledge being inextricable from sexual desire. The shapes are taken from the ‘I Modi’ engravings which were originally published in a book of sonnets by Pietro Aretino. Infamous for their explicit descriptions of sexual scenes; they were not couched as mythological narratives and were considered unacceptable. Those in power were anxious that knowledge would leak out to the people through readily available books. The original copper plates of the ‘I Modi’ engravings were destroyed in the Sac of Rome. There are tiny fragments left in the British Museum. Hermione Wiltshire",
-    "dc:source" : "https://imma.ie/collection/no-8-from-i-modi/",
-    "schema:creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 2000",
+    "description" : "The spaces in the photographs are all libraries and the works were made at a time when the issue of storage on the internet was new. I was interested in the Freudian analogy of desire for knowledge being inextricable from sexual desire. The shapes are taken from the ‘I Modi’ engravings which were originally published in a book of sonnets by Pietro Aretino. Infamous for their explicit descriptions of sexual scenes; they were not couched as mythological narratives and were considered unacceptable. Those in power were anxious that knowledge would leak out to the people through readily available books. The original copper plates of the ‘I Modi’ engravings were destroyed in the Sac of Rome. There are tiny fragments left in the British Museum. Hermione Wiltshire",
+    "source" : "https://imma.ie/collection/no-8-from-i-modi/",
+    "creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 2000",
     "image" : "spice:documentation/no-8-from-i-modi",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Black and white photograph laminated onto aluminium",
-    "schema:size" : "116 x 170 cm",
-    "arco-cd:hasInventory" : "L.629.1 LW"
+    "material" : "Black and white photograph laminated onto aluminium",
+    "size" : "116 x 170 cm",
+    "hasInventory" : "L.629.1 LW"
   }, {
     "@id" : "spice:documentation/no-8-from-i-modi",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Hermione Wiltshire, No. 8 from ‘I Modi’, 1997, Black and white photograph laminated onto aluminium, 116 x 170 cm, Collection Irish Museum of Modern Art, Loan, Weltkunst Foundation, 2000 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Hermione Wiltshire, No. 8 from ‘I Modi’, 1997, Black and white photograph laminated onto aluminium, 116 x 170 cm, Collection Irish Museum of Modern Art, Loan, Weltkunst Foundation, 2000 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/1509.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/1509.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

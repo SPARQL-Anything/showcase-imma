@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/pacheco-ana-maria",
     "@type" : "foaf:Person",
-    "dc:description" : "Brazilian artist Ana Maria Pacheco (born 1943) studied art and music in Brazil and taught at Universities in Goiás, before moving to London in 1973 to attend the Slade School of Fine Art. Pacheco was Head of Fine Art at Norwich School of Art from 1985 to 1989, and in 1999 she received the prestigious Ordem do Rio Branco from the Brazilian Government. From 1997 to 2000 Pacheco was Associate Artist at the National Gallery, London, a residency that culminated in a major touring exhibition of her work. Pacheco has exhibited extensively in the U.K. and abroad and her work is in a number of public and private collections.",
-    "dc:source" : "https://imma.ie/artists/ana-maria-pacheco/",
-    "schema:birthDate" : "b.1943",
-    "schema:url" : "https://imma.ie/artists/ana-maria-pacheco/",
-    "rdfs:label" : "Ana Maria Pacheco"
+    "description" : "Brazilian artist Ana Maria Pacheco (born 1943) studied art and music in Brazil and taught at Universities in Goiás, before moving to London in 1973 to attend the Slade School of Fine Art. Pacheco was Head of Fine Art at Norwich School of Art from 1985 to 1989, and in 1999 she received the prestigious Ordem do Rio Branco from the Brazilian Government. From 1997 to 2000 Pacheco was Associate Artist at the National Gallery, London, a residency that culminated in a major touring exhibition of her work. Pacheco has exhibited extensively in the U.K. and abroad and her work is in a number of public and private collections.",
+    "source" : "https://imma.ie/artists/ana-maria-pacheco/",
+    "birthDate" : "b.1943",
+    "url" : "https://imma.ie/artists/ana-maria-pacheco/",
+    "label" : "Ana Maria Pacheco"
   }, {
     "@id" : "spice:artefact/study-for-sebastian-1",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/pacheco-ana-maria",
     "author" : "spice:agent/pacheco-ana-maria",
-    "schema:dateCreated" : "1998",
-    "schema:url" : "https://imma.ie/collection/study-for-sebastian-1/",
+    "dateCreated" : "1998",
+    "url" : "https://imma.ie/collection/study-for-sebastian-1/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/study-for-sebastian-1",
-    "arco-cd:hasTitle" : "Study for Sebastian 1"
+    "hasTitle" : "Study for Sebastian 1"
   }, {
     "@id" : "spice:attribution/study-for-sebastian-1",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,40 +24,33 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/dog-with-altarpiece",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Dog with Altarpiece is a 1985 work by John Kindness. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/dog-with-altarpiece/",
-    "schema:creditText" : "IMMA Collection: Donated by the Artist, 1991",
+    "description" : "Dog with Altarpiece is a 1985 work by John Kindness. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/dog-with-altarpiece/",
+    "creditText" : "IMMA Collection: Donated by the Artist, 1991",
     "image" : "spice:documentation/dog-with-altarpiece",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Chalk on sandpaper",
-    "schema:size" : "64 x 64 cm",
-    "arco-cd:hasInventory" : "IMMA.30"
+    "material" : "Chalk on sandpaper",
+    "size" : "64 x 64 cm",
+    "hasInventory" : "IMMA.30"
   }, {
     "@id" : "spice:documentation/dog-with-altarpiece",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "John Kindness, Dog with Altarpiece, 1985, Chalk on sandpaper, 64 x 64 cm, Collection Irish Museum of Modern Art, Donated by the Artist, 1991 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "John Kindness, Dog with Altarpiece, 1985, Chalk on sandpaper, 64 x 64 cm, Collection Irish Museum of Modern Art, Donated by the Artist, 1991 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/246.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/246.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

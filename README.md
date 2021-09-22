@@ -2,7 +2,7 @@
 
 In what follows, `fx` refers to the following command
 ```
-java -jar sparql-anything-0.0.4-SNAPSHOT.jar  
+java -jar sparql-anything-0.3.2-SNAPSHOT.jar  
 ```
 
 ## Process

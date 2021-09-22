@@ -1,0 +1,39 @@
+{
+  "@id" : "spice:agent/puthod-liliane",
+  "@type" : "foaf:Person",
+  "description" : [ "Liliane Puthod makes sculptures and large-scale interventions or what might be deemed to be a subversive appropriation of objects, images and texts by using both industrial materials and handmade processes as a way to confront archaeological and commodified times. She manipulates some of societys existing modes of production and dissemination to investigate the elusive concept of time inherent to everyday lifes consumption and to subtly destabilise what she considers the fabrication of desire and its perceived value within our globalised world.", "Liliane Puthod makes sculptures and large-scale interventions or what might be deemed to be a subversive appropriation of objects, images and texts by using both industrial materials and handmade processes as a way to confront archaeological and commodified times." ],
+  "source" : "https://imma.ie/artists/liliane-puthod/",
+  "birthDate" : "b.1986",
+  "url" : "https://imma.ie/artists/liliane-puthod/",
+  "label" : "Liliane Puthod",
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

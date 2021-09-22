@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/guggi",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish artist Guggi was born Derek Rowen in Dublin. He was part of the avant-garde band The Virgin Prunes from 1976 until 1984, when he left to become a full-time artist. Initially working in landscape, Guggi has developed a distinctive visual language based on abstracted vessel and bowl forms. He has exhibited widely since the 1990s, including solo exhibitions at the Kerlin Gallery, Dublin; the Accademia Fine Art, Monaco; Freies Museum, Berlin, and Yoshii Gallery, New York.",
-    "dc:source" : "https://imma.ie/artists/guggi/",
-    "schema:birthDate" : "b.1959",
-    "schema:url" : "https://imma.ie/artists/guggi/",
-    "rdfs:label" : "Guggi"
+    "description" : "Irish artist Guggi was born Derek Rowen in Dublin. He was part of the avant-garde band The Virgin Prunes from 1976 until 1984, when he left to become a full-time artist. Initially working in landscape, Guggi has developed a distinctive visual language based on abstracted vessel and bowl forms. He has exhibited widely since the 1990s, including solo exhibitions at the Kerlin Gallery, Dublin; the Accademia Fine Art, Monaco; Freies Museum, Berlin, and Yoshii Gallery, New York.",
+    "source" : "https://imma.ie/artists/guggi/",
+    "birthDate" : "b.1959",
+    "url" : "https://imma.ie/artists/guggi/",
+    "label" : "Guggi"
   }, {
     "@id" : "spice:artefact/objects-with-colour-2",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/guggi",
     "author" : "spice:agent/guggi",
-    "schema:dateCreated" : "2008",
-    "schema:url" : "https://imma.ie/collection/objects-with-colour-2/",
+    "dateCreated" : "2008",
+    "url" : "https://imma.ie/collection/objects-with-colour-2/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/objects-with-colour-2",
-    "arco-cd:hasTitle" : "Objects with Colour 2"
+    "hasTitle" : "Objects with Colour 2"
   }, {
     "@id" : "spice:attribution/objects-with-colour-2",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,24 +24,19 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -52,16 +47,14 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

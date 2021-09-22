@@ -2,66 +2,57 @@
   "@graph" : [ {
     "@id" : "spice:artefact/kilkenny-limestone-circle",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "‘Kilkenny Limestone Circle’ was commissioned for ‘Inheritance and Transformation’, the opening exhibition of the Irish Museum of Modern Art in 1991.",
-    "dc:source" : "https://imma.ie/collection/kilkenny-limestone-circle/",
-    "schema:creditText" : "IMMA Collection: Purchase, 1991",
+    "description" : "‘Kilkenny Limestone Circle’ was commissioned for ‘Inheritance and Transformation’, the opening exhibition of the Irish Museum of Modern Art in 1991.",
+    "source" : "https://imma.ie/collection/kilkenny-limestone-circle/",
+    "creditText" : "IMMA Collection: Purchase, 1991",
     "image" : "spice:documentation/kilkenny-limestone-circle",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Limestone",
-    "schema:size" : "400 cm diameter",
-    "arco-cd:hasInventory" : "IMMA.18"
+    "material" : "Limestone",
+    "size" : "400 cm diameter",
+    "hasInventory" : "IMMA.18"
   }, {
     "@id" : "spice:documentation/kilkenny-limestone-circle",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Richard Long, Kilkenny Limestone Circle, 1991, Limestone, 400 cm diameter, Collection Irish Museum of Modern Art, Purchase, 1991 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Richard Long, Kilkenny Limestone Circle, 1991, Limestone, 400 cm diameter, Collection Irish Museum of Modern Art, Purchase, 1991 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/625.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2021/05/625.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

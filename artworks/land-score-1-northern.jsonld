@@ -2,37 +2,33 @@
   "@graph" : [ {
     "@id" : "spice:artefact/land-score-1-northern",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Land Score 1 (Northern) is a 1990 work by Felim Egan. It is not currently on display in IMMA. ",
-    "dc:source" : "https://imma.ie/collection/land-score-1-northern/",
-    "schema:creditText" : "IMMA Collection: Loan, Anonymous, 1991",
+    "description" : "Land Score 1 (Northern) is a 1990 work by Felim Egan. It is not currently on display in IMMA. ",
+    "source" : "https://imma.ie/collection/land-score-1-northern/",
+    "creditText" : "IMMA Collection: Loan, Anonymous, 1991",
     "image" : "spice:documentation/land-score-1-northern",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Oil on canvas",
-    "schema:size" : "165 x 200 cm",
-    "arco-cd:hasInventory" : "L.490 L"
+    "material" : "Oil on canvas",
+    "size" : "165 x 200 cm",
+    "hasInventory" : "L.490 L"
   }, {
     "@id" : "spice:documentation/land-score-1-northern",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Felim Egan, Land Score 1 (Northern), 1990, Oil on canvas, 165 x 200 cm, Collection Irish Museum of Modern Art, Loan, Anonymous, 1991 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Felim Egan, Land Score 1 (Northern), 1990, Oil on canvas, 165 x 200 cm, Collection Irish Museum of Modern Art, Loan, Anonymous, 1991 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -43,20 +39,16 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

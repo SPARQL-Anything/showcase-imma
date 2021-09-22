@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/the-way-of-the-world",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "The Way of The World is a 1945 work by Ralph Cusack. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/the-way-of-the-world/",
-    "schema:creditText" : "IMMA Collection: Presented to the Irish Museum of Modern Art by the Family of the Artist through the Friends of the National Collections of Ireland, 2005",
+    "description" : "The Way of The World is a 1945 work by Ralph Cusack. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/the-way-of-the-world/",
+    "creditText" : "IMMA Collection: Presented to the Irish Museum of Modern Art by the Family of the Artist through the Friends of the National Collections of Ireland, 2005",
     "image" : "spice:documentation/the-way-of-the-world",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Oil on canvas",
-    "schema:size" : "100 x 81 cm",
-    "arco-cd:hasInventory" : "IMMA.1925"
+    "material" : "Oil on canvas",
+    "size" : "100 x 81 cm",
+    "hasInventory" : "IMMA.1925"
   }, {
     "@id" : "spice:documentation/the-way-of-the-world",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Ralph Cusack, The Way of The World, 1945, Oil on canvas, 100 x 81 cm, Collection Irish Museum of Modern Art, Presented to the Irish Museum of Modern Art by the Family of the Artist through the Friends of the National Collections of Ireland, 2005 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Ralph Cusack, The Way of The World, 1945, Oil on canvas, 100 x 81 cm, Collection Irish Museum of Modern Art, Presented to the Irish Museum of Modern Art by the Family of the Artist through the Friends of the National Collections of Ireland, 2005 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2019/10/1860.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2019/10/1860.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

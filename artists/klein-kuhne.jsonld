@@ -2,20 +2,20 @@
   "@graph" : [ {
     "@id" : "spice:agent/klein-kuhne",
     "@type" : "foaf:Person",
-    "dc:description" : "German artist Hendrikje Kühne (born 1962) and Swiss artist Beat Klein (born 1956) began working together in the 1990s. They completed residencies in Paris and London before taking part in the Artists’ Residency Programme at IMMA in 1998. Kühne and Klein’s joint practice uses the repetition of image and manipulation of scale to investigate and interpret various ideas, often inspired by the location in which they are creating the work. Kühne and Klein have exhibited across Europe. Their work has been shown in Ireland in a variety of contexts since 1998.",
-    "dc:source" : "https://imma.ie/artists/klein-kuhne/",
-    "schema:url" : "https://imma.ie/artists/klein-kuhne/",
-    "rdfs:label" : "Klein &amp; Kühne"
+    "description" : [ "German artist Hendrikje Kühne (born 1962) and Swiss artist Beat Klein (born 1956) began working together in the 1990s. They completed residencies in Paris and London before taking part in the Artists’ Residency Programme at IMMA in 1998.", "Klein and Kühne’s joint practice uses the repetition of image and manipulation of scale to investigate and interpret various ideas, often inspired by the location in which they are creating the work. Klein and Kühne have exhibited across Europe. Their work has been shown in Ireland in a variety of contexts since 1998." ],
+    "source" : "https://imma.ie/artists/klein-kuhne/",
+    "url" : "https://imma.ie/artists/klein-kuhne/",
+    "label" : "Klein &amp; Kühne"
   }, {
     "@id" : "spice:artefact/property",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/klein-kuhne",
     "author" : "spice:agent/klein-kuhne",
-    "schema:dateCreated" : "1998",
-    "schema:url" : "https://imma.ie/collection/property/",
+    "dateCreated" : "1998",
+    "url" : "https://imma.ie/collection/property/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/property",
-    "arco-cd:hasTitle" : "Property"
+    "hasTitle" : "Property"
   }, {
     "@id" : "spice:attribution/property",
     "@type" : "arco:AuthorshipAttribution",
@@ -27,24 +27,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -55,20 +52,17 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

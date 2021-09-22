@@ -2,23 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:agent/romero-betsabee",
     "@type" : "foaf:Person",
-    "dc:description" : [ "Betsabeé Romero studied at the Ecole des Beaux Arts in Paris and the National Autonomous University of Mexico. She lives and works in Mexico City. Romero has received many international awards, including First Prize at the Cairo Biennial in 2006, and her work has been exhibited worldwide at institutions such as the Museo Nacional de Arte Reina Sofia in Madrid and the Museo del Barrio in New York. Her work is represented in the Daros Collection, Switzerland, LACMA Los Angeles and the Museum of Modern Art of Houston among others.", "Betsabeé Romero studied at the Ecole des Beaux Arts in Paris and the National Autonomous University of Mexico. She lives and works in Mexico City. Romero draws on elements of popular culture and the rich traditions of Mexican art in her homeland. Her work is concerned with themes of memory, identity and human migration." ],
-    "dc:source" : "https://imma.ie/artists/betsabee-romero/",
-    "schema:birthDate" : "b.1963",
-    "schema:url" : "https://imma.ie/artists/betsabee-romero/",
-    "rdfs:label" : "Betsabeé Romero"
+    "description" : [ "Betsabeé Romero studied at the Ecole des Beaux Arts in Paris and the National Autonomous University of Mexico. She lives and works in Mexico City. Romero has received many international awards, including First Prize at the Cairo Biennial in 2006, and her work has been exhibited worldwide at institutions such as the Museo Nacional de Arte Reina Sofia in Madrid and the Museo del Barrio in New York. Her work is represented in the Daros Collection, Switzerland, LACMA Los Angeles and the Museum of Modern Art of Houston among others.", "Betsabeé Romero studied at the Ecole des Beaux Arts in Paris and the National Autonomous University of Mexico. She lives and works in Mexico City. Romero draws on elements of popular culture and the traditions of Mexican art in her homeland and her practice is concerned with themes of memory, identity and human migration. Romero has received many international awards, including First Prize at the Cairo Biennial in 2006, and her work has been exhibited worldwide at institutions such as the Museo Nacional de Arte Reina Sofia in Madrid and the Museo del Barrio in New York. Her work is represented in the Daros Collection, Switzerland, LACMA Los Angeles and the Museum of Modern Art of Houston among others. " ],
+    "source" : "https://imma.ie/artists/betsabee-romero/",
+    "birthDate" : "b.1963",
+    "url" : "https://imma.ie/artists/betsabee-romero/",
+    "label" : "Betsabeé Romero"
   }, {
     "@id" : "spice:artefact/amarillo-al-cubo",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/romero-betsabee",
     "author" : "spice:agent/romero-betsabee",
-    "schema:dateCreated" : "2010",
-    "schema:url" : "https://imma.ie/collection/amarillo-al-cubo/",
+    "dateCreated" : "2010",
+    "url" : "https://imma.ie/collection/amarillo-al-cubo/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/amarillo-al-cubo",
-    "arco-cd:hasTitle" : "Amarillo al Cubo"
+    "hasTitle" : "Amarillo al Cubo"
+  }, {
+    "@id" : "spice:artefact/geografias",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/romero-betsabee",
+    "author" : "spice:agent/romero-betsabee",
+    "dateCreated" : "2017",
+    "url" : "https://imma.ie/collection/geografias/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/geografias",
+    "hasTitle" : "Geografias"
   }, {
     "@id" : "spice:attribution/amarillo-al-cubo",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/romero-betsabee"
+  }, {
+    "@id" : "spice:attribution/geografias",
     "@type" : "arco:AuthorshipAttribution",
     "hasAttributedAuthor" : "spice:agent/romero-betsabee"
   } ],
@@ -32,48 +46,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -2,37 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/the-last-thing-on-earth",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "When it was first exhibited at The MAC, Belfast in 2016, this work was framed by the proposition: “What if this is the last thing, the final material to be pulled out of the ground, the final piece of stuff that has not already been purposed by humans?” The ‘thing’ referred to here is the multi-faceted marble object at the centre of the work, around which a constellation of other objects are arranged. Enlisted to draw our attention to and act in service of the marble form, these ‘secondary’ objects (spotlight, photographic backdrop, Perspex plinths and other items) dominate the space physically in their excessive framing of the ‘thing’.",
-    "dc:source" : "https://imma.ie/collection/the-last-thing-on-earth/",
-    "schema:creditText" : "IMMA Collection: Purchase, Hennessy Art Fund for IMMA Collection, 2018",
+    "description" : "When it was first exhibited at The MAC, Belfast in 2016, this work was framed by the proposition: “What if this is the last thing, the final material to be pulled out of the ground, the final piece of stuff that has not already been purposed by humans?” The ‘thing’ referred to here is the multi-faceted marble object at the centre of the work, around which a constellation of other objects are arranged. Enlisted to draw our attention to and act in service of the marble form, these ‘secondary’ objects (spotlight, photographic backdrop, Perspex plinths and other items) dominate the space physically in their excessive framing of the ‘thing’.",
+    "source" : "https://imma.ie/collection/the-last-thing-on-earth/",
+    "creditText" : "IMMA Collection: Purchase, Hennessy Art Fund for IMMA Collection, 2018",
     "image" : "spice:documentation/the-last-thing-on-earth",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Carrara marble, split suede leather hide, clear acrylic Perspex, hand-lathed bronze bars, Chroma green photographic backdrop, photographic stands, tripods, bull clips, clamps, gloss C-type print, redhead halogen light, high impact packaging foam, wooden archeological find rulers, plastic archeological find rulers, archeological ranging poles, plastic archeological find numbers, mirrors, iPad, fibre-based photographic paper photograms, museum stanchions, yellow bungee cord, spotlight and DALI light sequence, text printed in Pantone 802U on 120gsm Uncoated UPM Fine paper",
-    "schema:size" : "variable",
-    "arco-cd:hasInventory" : "IMMA.4043"
+    "material" : "Carrara marble, split suede leather hide, clear acrylic Perspex, hand-lathed bronze bars, Chroma green photographic backdrop, photographic stands, tripods, bull clips, clamps, gloss C-type print, redhead halogen light, high impact packaging foam, wooden archeological find rulers, plastic archeological find rulers, archeological ranging poles, plastic archeological find numbers, mirrors, iPad, fibre-based photographic paper photograms, museum stanchions, yellow bungee cord, spotlight and DALI light sequence, text printed in Pantone 802U on 120gsm Uncoated UPM Fine paper",
+    "size" : "variable",
+    "hasInventory" : "IMMA.4043"
   }, {
     "@id" : "spice:documentation/the-last-thing-on-earth",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Barbara Knezevic, The Last Thing on Earth, 2016, Carrara marble, split suede leather hide, clear acrylic Perspex, hand-lathed bronze bars, Chroma green photographic backdrop, photographic stands, tripods, bull clips, clamps, gloss C-type print, redhead halogen light, high impact packaging foam, wooden archeological find rulers, plastic archeological find rulers, archeological ranging poles, plastic archeological find numbers, mirrors, iPad, fibre-based photographic paper photograms, museum stanchions, yellow bungee cord, spotlight and DALI light sequence, text printed in Pantone 802U on 120gsm Uncoated UPM Fine paper, variable, Collection Irish Museum of Modern Art, Purchase, Hennessy Art Fund for IMMA Collection, 2018 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
-    "maintainer" : "https://w3id.org/spice/institute/imma"
+    "caption" : "Barbara Knezevic, The Last Thing on Earth, 2016, Carrara marble, split suede leather hide, clear acrylic Perspex, hand-lathed bronze bars, Chroma green photographic backdrop, photographic stands, tripods, bull clips, clamps, gloss C-type print, redhead halogen light, high impact packaging foam, wooden archeological find rulers, plastic archeological find rulers, archeological ranging poles, plastic archeological find numbers, mirrors, iPad, fibre-based photographic paper photograms, museum stanchions, yellow bungee cord, spotlight and DALI light sequence, text printed in Pantone 802U on 120gsm Uncoated UPM Fine paper, variable, Collection Irish Museum of Modern Art, Purchase, Hennessy Art Fund for IMMA Collection, 2018 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "url" : "https://imma.ie/wp-content/uploads/2021/04/9062-scaled.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -42,21 +42,17 @@
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
-    },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

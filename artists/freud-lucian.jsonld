@@ -2,531 +2,531 @@
   "@graph" : [ {
     "@id" : "spice:agent/freud-lucian",
     "@type" : "foaf:Person",
-    "dc:description" : [ "Lucian Freud was born in Berlin to Ernst, the architect son of psychoanalyst Sigmund Freud and his wife Lucie Brasch. In 1933, age ten, Freud fled with his family to England, ahead of the rise of Nazism. The family settled in London where Freud lived for the rest of his life.", "Lucian Freud (1922-2011) was one of the greatest realist painters of the 20th century. Renowned for his portrayal of the human form, Freud is best known for his intimate, honest, often visceral portraits. Working only from life Freud’s studio was intensely private and he mainly worked with those he was close to, often asking subjects to sit for hundreds of hours over multiple sittings to better capture the essence of their personality." ],
-    "dc:source" : "https://imma.ie/artists/lucian-freud/",
-    "schema:birthDate" : "1922–2011",
-    "schema:url" : "https://imma.ie/artists/lucian-freud/",
-    "rdfs:label" : "Lucian Freud"
+    "description" : [ "Lucian Freud was born in Berlin to Ernst, the architect son of psychoanalyst Sigmund Freud and his wife Lucie Brasch. In 1933, age ten, Freud fled with his family to England, ahead of the rise of Nazism. The family settled in London where Freud lived for the rest of his life.", "Lucian Freud (1922-2011) was one of the greatest realist painters of the 20th century. Renowned for his portrayal of the human form, Freud is best known for his intimate, honest, often visceral portraits. Working only from life Freud’s studio was intensely private and he mainly worked with those he was close to, often asking subjects to sit for hundreds of hours over multiple sittings to better capture the essence of their personality." ],
+    "source" : "https://imma.ie/artists/lucian-freud/",
+    "birthDate" : "1922–2011",
+    "url" : "https://imma.ie/artists/lucian-freud/",
+    "label" : "Lucian Freud"
   }, {
     "@id" : "spice:artefact/a-filly",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/freud-lucian",
     "author" : "spice:agent/freud-lucian",
-    "schema:dateCreated" : "1970",
-    "schema:url" : "https://imma.ie/collection/a-filly/",
+    "dateCreated" : "1970",
+    "url" : "https://imma.ie/collection/a-filly/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/a-filly",
-    "arco-cd:hasTitle" : "A Filly"
+    "hasTitle" : "A Filly"
   }, {
     "@id" : "spice:artefact/after-chardin",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/freud-lucian",
     "author" : "spice:agent/freud-lucian",
-    "schema:dateCreated" : "2000",
-    "schema:url" : "https://imma.ie/collection/after-chardin/",
+    "dateCreated" : "2000",
+    "url" : "https://imma.ie/collection/after-chardin/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/after-chardin",
-    "arco-cd:hasTitle" : "After Chardin"
+    "hasTitle" : "After Chardin"
   }, {
     "@id" : "spice:artefact/after-constables-elm",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/freud-lucian",
     "author" : "spice:agent/freud-lucian",
-    "schema:dateCreated" : "2003",
-    "schema:url" : "https://imma.ie/collection/after-constables-elm/",
+    "dateCreated" : "2003",
+    "url" : "https://imma.ie/collection/after-constables-elm/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/after-constables-elm",
-    "arco-cd:hasTitle" : "After Constable’s Elm"
+    "hasTitle" : "After Constable’s Elm"
   }, {
     "@id" : "spice:artefact/albie",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/freud-lucian",
     "author" : "spice:agent/freud-lucian",
-    "schema:dateCreated" : "2003",
-    "schema:url" : "https://imma.ie/collection/albie/",
+    "dateCreated" : "2003",
+    "url" : "https://imma.ie/collection/albie/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/albie",
-    "arco-cd:hasTitle" : "Albie"
+    "hasTitle" : "Albie"
   }, {
     "@id" : "spice:artefact/annabel",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/freud-lucian",
     "author" : "spice:agent/freud-lucian",
-    "schema:dateCreated" : "1990",
-    "schema:url" : "https://imma.ie/collection/annabel/",
+    "dateCreated" : "1990",
+    "url" : "https://imma.ie/collection/annabel/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/annabel",
-    "arco-cd:hasTitle" : "Annabel"
+    "hasTitle" : "Annabel"
   }, {
     "@id" : "spice:artefact/before-the-fourth",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/freud-lucian",
     "author" : "spice:agent/freud-lucian",
-    "schema:dateCreated" : "2004",
-    "schema:url" : "https://imma.ie/collection/before-the-fourth/",
+    "dateCreated" : "2004",
+    "url" : "https://imma.ie/collection/before-the-fourth/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/before-the-fourth",
-    "arco-cd:hasTitle" : "Before the Fourth"
+    "hasTitle" : "Before the Fourth"
   }, {
     "@id" : "spice:artefact/bella-and-esther",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/freud-lucian",
     "author" : "spice:agent/freud-lucian",
-    "schema:dateCreated" : "1987",
-    "schema:url" : "https://imma.ie/collection/bella-and-esther/",
+    "dateCreated" : "1987",
+    "url" : "https://imma.ie/collection/bella-and-esther/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/bella-and-esther",
-    "arco-cd:hasTitle" : "Bella and Esther"
+    "hasTitle" : "Bella and Esther"
   }, {
     "@id" : "spice:artefact/bella-in-her-pluto-t-shirt",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/freud-lucian",
     "author" : "spice:agent/freud-lucian",
-    "schema:dateCreated" : "1995",
-    "schema:url" : "https://imma.ie/collection/bella-in-her-pluto-t-shirt/",
+    "dateCreated" : "1995",
+    "url" : "https://imma.ie/collection/bella-in-her-pluto-t-shirt/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/bella-in-her-pluto-t-shirt",
-    "arco-cd:hasTitle" : "Bella in her Pluto T-Shirt"
+    "hasTitle" : "Bella in her Pluto T-Shirt"
   }, {
     "@id" : "spice:artefact/copper-etching-plate-of-donegal-man",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/freud-lucian",
     "author" : "spice:agent/freud-lucian",
-    "schema:dateCreated" : "2007",
-    "schema:url" : "https://imma.ie/collection/copper-etching-plate-of-donegal-man/",
+    "dateCreated" : "2007",
+    "url" : "https://imma.ie/collection/copper-etching-plate-of-donegal-man/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/copper-etching-plate-of-donegal-man",
-    "arco-cd:hasTitle" : "Copper Etching Plate of ‘Donegal Man’"
+    "hasTitle" : "Copper Etching Plate of ‘Donegal Man’"
   }, {
     "@id" : "spice:artefact/david-dawson",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/freud-lucian",
     "author" : "spice:agent/freud-lucian",
-    "schema:dateCreated" : "1998",
-    "schema:url" : "https://imma.ie/collection/david-dawson/",
+    "dateCreated" : "1998",
+    "url" : "https://imma.ie/collection/david-dawson/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/david-dawson",
-    "arco-cd:hasTitle" : "David Dawson"
+    "hasTitle" : "David Dawson"
   }, {
     "@id" : "spice:artefact/donegal-man",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/freud-lucian",
     "author" : "spice:agent/freud-lucian",
-    "schema:dateCreated" : "2007",
-    "schema:url" : "https://imma.ie/collection/donegal-man/",
+    "dateCreated" : "2007",
+    "url" : "https://imma.ie/collection/donegal-man/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/donegal-man",
-    "arco-cd:hasTitle" : "Donegal Man"
+    "hasTitle" : "Donegal Man"
   }, {
     "@id" : "spice:artefact/donegal-man-2",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/freud-lucian",
     "author" : "spice:agent/freud-lucian",
-    "schema:dateCreated" : "2006",
-    "schema:url" : "https://imma.ie/collection/donegal-man-2/",
+    "dateCreated" : "2006",
+    "url" : "https://imma.ie/collection/donegal-man-2/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/donegal-man-2",
-    "arco-cd:hasTitle" : "Donegal Man"
+    "hasTitle" : "Donegal Man"
   }, {
     "@id" : "spice:artefact/donegal-man-profile",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/freud-lucian",
     "author" : "spice:agent/freud-lucian",
-    "schema:dateCreated" : "2007",
-    "schema:url" : "https://imma.ie/collection/donegal-man-profile/",
+    "dateCreated" : "2007",
+    "url" : "https://imma.ie/collection/donegal-man-profile/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/donegal-man-profile",
-    "arco-cd:hasTitle" : "Donegal Man, Profile"
+    "hasTitle" : "Donegal Man, Profile"
   }, {
     "@id" : "spice:artefact/double-portrait",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/freud-lucian",
     "author" : "spice:agent/freud-lucian",
-    "schema:dateCreated" : "1985",
-    "schema:url" : "https://imma.ie/collection/double-portrait/",
+    "dateCreated" : "1985",
+    "url" : "https://imma.ie/collection/double-portrait/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/double-portrait",
-    "arco-cd:hasTitle" : "Double Portrait"
+    "hasTitle" : "Double Portrait"
   }, {
     "@id" : "spice:artefact/eli",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/freud-lucian",
     "author" : "spice:agent/freud-lucian",
-    "schema:dateCreated" : "2002",
-    "schema:url" : "https://imma.ie/collection/eli/",
+    "dateCreated" : "2002",
+    "url" : "https://imma.ie/collection/eli/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/eli",
-    "arco-cd:hasTitle" : "Eli"
+    "hasTitle" : "Eli"
   }, {
     "@id" : "spice:artefact/four-figures",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/freud-lucian",
     "author" : "spice:agent/freud-lucian",
-    "schema:dateCreated" : "1991",
-    "schema:url" : "https://imma.ie/collection/four-figures/",
+    "dateCreated" : "1991",
+    "url" : "https://imma.ie/collection/four-figures/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/four-figures",
-    "arco-cd:hasTitle" : "Four Figures"
+    "hasTitle" : "Four Figures"
   }, {
     "@id" : "spice:artefact/girl-with-fuzzy-hair",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/freud-lucian",
     "author" : "spice:agent/freud-lucian",
-    "schema:dateCreated" : "2004",
-    "schema:url" : "https://imma.ie/collection/girl-with-fuzzy-hair/",
+    "dateCreated" : "2004",
+    "url" : "https://imma.ie/collection/girl-with-fuzzy-hair/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/girl-with-fuzzy-hair",
-    "arco-cd:hasTitle" : "Girl with Fuzzy Hair"
+    "hasTitle" : "Girl with Fuzzy Hair"
   }, {
     "@id" : "spice:artefact/guy-and-speck",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/freud-lucian",
     "author" : "spice:agent/freud-lucian",
-    "schema:dateCreated" : "1980",
-    "schema:url" : "https://imma.ie/collection/guy-and-speck/",
+    "dateCreated" : "1980",
+    "url" : "https://imma.ie/collection/guy-and-speck/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/guy-and-speck",
-    "arco-cd:hasTitle" : "Guy and Speck"
+    "hasTitle" : "Guy and Speck"
   }, {
     "@id" : "spice:artefact/head-of-a-girl",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/freud-lucian",
     "author" : "spice:agent/freud-lucian",
-    "schema:dateCreated" : "1975",
-    "schema:url" : "https://imma.ie/collection/head-of-a-girl/",
+    "dateCreated" : "1975",
+    "url" : "https://imma.ie/collection/head-of-a-girl/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/head-of-a-girl",
-    "arco-cd:hasTitle" : "Head of a Girl"
+    "hasTitle" : "Head of a Girl"
   }, {
     "@id" : "spice:artefact/head-of-a-naked-girl",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/freud-lucian",
     "author" : "spice:agent/freud-lucian",
-    "schema:dateCreated" : "2000",
-    "schema:url" : "https://imma.ie/collection/head-of-a-naked-girl/",
+    "dateCreated" : "2000",
+    "url" : "https://imma.ie/collection/head-of-a-naked-girl/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/head-of-a-naked-girl",
-    "arco-cd:hasTitle" : "Head of a Naked Girl"
+    "hasTitle" : "Head of a Naked Girl"
   }, {
     "@id" : "spice:artefact/head-of-a-young-irishman",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/freud-lucian",
     "author" : "spice:agent/freud-lucian",
-    "schema:dateCreated" : "1999",
-    "schema:url" : "https://imma.ie/collection/head-of-a-young-irishman/",
+    "dateCreated" : "1999",
+    "url" : "https://imma.ie/collection/head-of-a-young-irishman/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/head-of-a-young-irishman",
-    "arco-cd:hasTitle" : "Head of a Young Irishman"
+    "hasTitle" : "Head of a Young Irishman"
   }, {
     "@id" : "spice:artefact/head-of-ali",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/freud-lucian",
     "author" : "spice:agent/freud-lucian",
-    "schema:dateCreated" : "1999",
-    "schema:url" : "https://imma.ie/collection/head-of-ali/",
+    "dateCreated" : "1999",
+    "url" : "https://imma.ie/collection/head-of-ali/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/head-of-ali",
-    "arco-cd:hasTitle" : "Head of Ali"
+    "hasTitle" : "Head of Ali"
   }, {
     "@id" : "spice:artefact/head-of-an-irishman",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/freud-lucian",
     "author" : "spice:agent/freud-lucian",
-    "schema:dateCreated" : "1999",
-    "schema:url" : "https://imma.ie/collection/head-of-an-irishman/",
+    "dateCreated" : "1999",
+    "url" : "https://imma.ie/collection/head-of-an-irishman/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/head-of-an-irishman",
-    "arco-cd:hasTitle" : "Head of an Irishman"
+    "hasTitle" : "Head of an Irishman"
   }, {
     "@id" : "spice:artefact/head-of-an-irishman-2",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/freud-lucian",
     "author" : "spice:agent/freud-lucian",
-    "schema:dateCreated" : "1999",
-    "schema:url" : "https://imma.ie/collection/head-of-an-irishman-2/",
+    "dateCreated" : "1999",
+    "url" : "https://imma.ie/collection/head-of-an-irishman-2/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/head-of-an-irishman-2",
-    "arco-cd:hasTitle" : "Head of an Irishman"
+    "hasTitle" : "Head of an Irishman"
   }, {
     "@id" : "spice:artefact/head-of-the-big-man",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/freud-lucian",
     "author" : "spice:agent/freud-lucian",
-    "schema:dateCreated" : "1975",
-    "schema:url" : "https://imma.ie/collection/head-of-the-big-man/",
+    "dateCreated" : "1975",
+    "url" : "https://imma.ie/collection/head-of-the-big-man/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/head-of-the-big-man",
-    "arco-cd:hasTitle" : "Head of the Big Man"
+    "hasTitle" : "Head of the Big Man"
   }, {
     "@id" : "spice:artefact/kai",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/freud-lucian",
     "author" : "spice:agent/freud-lucian",
-    "schema:dateCreated" : "1991",
-    "schema:url" : "https://imma.ie/collection/kai/",
+    "dateCreated" : "1991",
+    "url" : "https://imma.ie/collection/kai/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/kai",
-    "arco-cd:hasTitle" : "Kai"
+    "hasTitle" : "Kai"
   }, {
     "@id" : "spice:artefact/landscape-with-bat",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/freud-lucian",
     "author" : "spice:agent/freud-lucian",
-    "schema:dateCreated" : "1980",
-    "schema:url" : "https://imma.ie/collection/landscape-with-bat/",
+    "dateCreated" : "1980",
+    "url" : "https://imma.ie/collection/landscape-with-bat/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/landscape-with-bat",
-    "arco-cd:hasTitle" : "Landscape with Bat"
+    "hasTitle" : "Landscape with Bat"
   }, {
     "@id" : "spice:artefact/loch-ness-from-drumnadrochit",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/freud-lucian",
     "author" : "spice:agent/freud-lucian",
-    "schema:dateCreated" : "1943",
-    "schema:url" : "https://imma.ie/collection/loch-ness-from-drumnadrochit/",
+    "dateCreated" : "1943",
+    "url" : "https://imma.ie/collection/loch-ness-from-drumnadrochit/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/loch-ness-from-drumnadrochit",
-    "arco-cd:hasTitle" : "Loch Ness from Drumnadrochit"
+    "hasTitle" : "Loch Ness from Drumnadrochit"
   }, {
     "@id" : "spice:artefact/man-in-a-check-cap",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/freud-lucian",
     "author" : "spice:agent/freud-lucian",
-    "schema:dateCreated" : "1991",
-    "schema:url" : "https://imma.ie/collection/man-in-a-check-cap/",
+    "dateCreated" : "1991",
+    "url" : "https://imma.ie/collection/man-in-a-check-cap/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/man-in-a-check-cap",
-    "arco-cd:hasTitle" : "Man in a Check Cap"
+    "hasTitle" : "Man in a Check Cap"
   }, {
     "@id" : "spice:artefact/man-in-a-silver-suit",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/freud-lucian",
     "author" : "spice:agent/freud-lucian",
-    "schema:dateCreated" : "1998",
-    "schema:url" : "https://imma.ie/collection/man-in-a-silver-suit/",
+    "dateCreated" : "1998",
+    "url" : "https://imma.ie/collection/man-in-a-silver-suit/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/man-in-a-silver-suit",
-    "arco-cd:hasTitle" : "Man in a Silver Suit"
+    "hasTitle" : "Man in a Silver Suit"
   }, {
     "@id" : "spice:artefact/naked-portrait-fragment",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/freud-lucian",
     "author" : "spice:agent/freud-lucian",
-    "schema:dateCreated" : "2001",
-    "schema:url" : "https://imma.ie/collection/naked-portrait-fragment/",
+    "dateCreated" : "2001",
+    "url" : "https://imma.ie/collection/naked-portrait-fragment/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/naked-portrait-fragment",
-    "arco-cd:hasTitle" : "Naked Portrait, Fragment"
+    "hasTitle" : "Naked Portrait, Fragment"
   }, {
     "@id" : "spice:artefact/painters-garden",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/freud-lucian",
     "author" : "spice:agent/freud-lucian",
-    "schema:dateCreated" : "2003",
-    "schema:url" : "https://imma.ie/collection/painters-garden/",
+    "dateCreated" : "2003",
+    "url" : "https://imma.ie/collection/painters-garden/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/painters-garden",
-    "arco-cd:hasTitle" : "Painter’s Garden"
+    "hasTitle" : "Painter’s Garden"
   }, {
     "@id" : "spice:artefact/portrait-head",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/freud-lucian",
     "author" : "spice:agent/freud-lucian",
-    "schema:dateCreated" : "2005",
-    "schema:url" : "https://imma.ie/collection/portrait-head/",
+    "dateCreated" : "2005",
+    "url" : "https://imma.ie/collection/portrait-head/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/portrait-head",
-    "arco-cd:hasTitle" : "Portrait Head"
+    "hasTitle" : "Portrait Head"
   }, {
     "@id" : "spice:artefact/portrait-head-2",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/freud-lucian",
     "author" : "spice:agent/freud-lucian",
-    "schema:dateCreated" : "2001",
-    "schema:url" : "https://imma.ie/collection/portrait-head-2/",
+    "dateCreated" : "2001",
+    "url" : "https://imma.ie/collection/portrait-head-2/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/portrait-head-2",
-    "arco-cd:hasTitle" : "Portrait Head"
+    "hasTitle" : "Portrait Head"
   }, {
     "@id" : "spice:artefact/portrait-of-christopher-bramham",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/freud-lucian",
     "author" : "spice:agent/freud-lucian",
-    "schema:dateCreated" : "1989",
-    "schema:url" : "https://imma.ie/collection/portrait-of-christopher-bramham/",
+    "dateCreated" : "1989",
+    "url" : "https://imma.ie/collection/portrait-of-christopher-bramham/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/portrait-of-christopher-bramham",
-    "arco-cd:hasTitle" : "Portrait of Christopher Bramham"
+    "hasTitle" : "Portrait of Christopher Bramham"
   }, {
     "@id" : "spice:artefact/portrait-of-donegal-man-fragment",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/freud-lucian",
     "author" : "spice:agent/freud-lucian",
-    "schema:dateCreated" : "2006",
-    "schema:url" : "https://imma.ie/collection/portrait-of-donegal-man-fragment/",
+    "dateCreated" : "2006",
+    "url" : "https://imma.ie/collection/portrait-of-donegal-man-fragment/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/portrait-of-donegal-man-fragment",
-    "arco-cd:hasTitle" : "Portrait of Donegal Man, Fragment"
+    "hasTitle" : "Portrait of Donegal Man, Fragment"
   }, {
     "@id" : "spice:artefact/reflection-self-portrait",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/freud-lucian",
     "author" : "spice:agent/freud-lucian",
-    "schema:dateCreated" : "1985",
-    "schema:url" : "https://imma.ie/collection/reflection-self-portrait/",
+    "dateCreated" : "1985",
+    "url" : "https://imma.ie/collection/reflection-self-portrait/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/reflection-self-portrait",
-    "arco-cd:hasTitle" : "Reflection (Self-Portrait)"
+    "hasTitle" : "Reflection (Self-Portrait)"
   }, {
     "@id" : "spice:artefact/self-portrait-3",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/freud-lucian",
     "author" : "spice:agent/freud-lucian",
-    "schema:dateCreated" : "1949",
-    "schema:url" : "https://imma.ie/collection/self-portrait-3/",
+    "dateCreated" : "1949",
+    "url" : "https://imma.ie/collection/self-portrait-3/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/self-portrait-3",
-    "arco-cd:hasTitle" : "Self-Portrait"
+    "hasTitle" : "Self-Portrait"
   }, {
     "@id" : "spice:artefact/self-portrait-reflection",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/freud-lucian",
     "author" : "spice:agent/freud-lucian",
-    "schema:dateCreated" : "1996",
-    "schema:url" : "https://imma.ie/collection/self-portrait-reflection/",
+    "dateCreated" : "1996",
+    "url" : "https://imma.ie/collection/self-portrait-reflection/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/self-portrait-reflection",
-    "arco-cd:hasTitle" : "Self-Portrait: Reflection"
+    "hasTitle" : "Self-Portrait: Reflection"
   }, {
     "@id" : "spice:artefact/solicitors-head",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/freud-lucian",
     "author" : "spice:agent/freud-lucian",
-    "schema:dateCreated" : "2003",
-    "schema:url" : "https://imma.ie/collection/solicitors-head/",
+    "dateCreated" : "2003",
+    "url" : "https://imma.ie/collection/solicitors-head/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/solicitors-head",
-    "arco-cd:hasTitle" : "Solicitor’s Head"
+    "hasTitle" : "Solicitor’s Head"
   }, {
     "@id" : "spice:artefact/susanna",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/freud-lucian",
     "author" : "spice:agent/freud-lucian",
-    "schema:dateCreated" : "1996",
-    "schema:url" : "https://imma.ie/collection/susanna/",
+    "dateCreated" : "1996",
+    "url" : "https://imma.ie/collection/susanna/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/susanna",
-    "arco-cd:hasTitle" : "Susanna"
+    "hasTitle" : "Susanna"
   }, {
     "@id" : "spice:artefact/the-big-man",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/freud-lucian",
     "author" : "spice:agent/freud-lucian",
-    "schema:dateCreated" : "1976",
-    "schema:url" : "https://imma.ie/collection/the-big-man/",
+    "dateCreated" : "1976",
+    "url" : "https://imma.ie/collection/the-big-man/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-big-man",
-    "arco-cd:hasTitle" : "The Big Man"
+    "hasTitle" : "The Big Man"
   }, {
     "@id" : "spice:artefact/the-egyptian-book",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/freud-lucian",
     "author" : "spice:agent/freud-lucian",
-    "schema:dateCreated" : "1994",
-    "schema:url" : "https://imma.ie/collection/the-egyptian-book/",
+    "dateCreated" : "1994",
+    "url" : "https://imma.ie/collection/the-egyptian-book/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-egyptian-book",
-    "arco-cd:hasTitle" : "The Egyptian Book"
+    "hasTitle" : "The Egyptian Book"
   }, {
     "@id" : "spice:artefact/the-new-yorker",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/freud-lucian",
     "author" : "spice:agent/freud-lucian",
-    "schema:dateCreated" : "2006",
-    "schema:url" : "https://imma.ie/collection/the-new-yorker/",
+    "dateCreated" : "2006",
+    "url" : "https://imma.ie/collection/the-new-yorker/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-new-yorker",
-    "arco-cd:hasTitle" : "The New Yorker"
+    "hasTitle" : "The New Yorker"
   }, {
     "@id" : "spice:artefact/the-painters-doctor",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/freud-lucian",
     "author" : "spice:agent/freud-lucian",
-    "schema:dateCreated" : "2006",
-    "schema:url" : "https://imma.ie/collection/the-painters-doctor/",
+    "dateCreated" : "2006",
+    "url" : "https://imma.ie/collection/the-painters-doctor/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-painters-doctor",
-    "arco-cd:hasTitle" : "The Painter’s Doctor"
+    "hasTitle" : "The Painter’s Doctor"
   }, {
     "@id" : "spice:artefact/the-painters-mother-reading",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/freud-lucian",
     "author" : "spice:agent/freud-lucian",
-    "schema:dateCreated" : "1975",
-    "schema:url" : "https://imma.ie/collection/the-painters-mother-reading/",
+    "dateCreated" : "1975",
+    "url" : "https://imma.ie/collection/the-painters-mother-reading/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-painters-mother-reading",
-    "arco-cd:hasTitle" : "The Painter’s Mother Reading"
+    "hasTitle" : "The Painter’s Mother Reading"
   }, {
     "@id" : "spice:artefact/the-painters-mother-resting-i",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/freud-lucian",
     "author" : "spice:agent/freud-lucian",
-    "schema:dateCreated" : "1976",
-    "schema:url" : "https://imma.ie/collection/the-painters-mother-resting-i/",
+    "dateCreated" : "1976",
+    "url" : "https://imma.ie/collection/the-painters-mother-resting-i/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-painters-mother-resting-i",
-    "arco-cd:hasTitle" : "The Painter’s Mother Resting I"
+    "hasTitle" : "The Painter’s Mother Resting I"
   }, {
     "@id" : "spice:artefact/the-pearce-family",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/freud-lucian",
     "author" : "spice:agent/freud-lucian",
-    "schema:dateCreated" : "1998",
-    "schema:url" : "https://imma.ie/collection/the-pearce-family/",
+    "dateCreated" : "1998",
+    "url" : "https://imma.ie/collection/the-pearce-family/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-pearce-family",
-    "arco-cd:hasTitle" : "The Pearce Family"
+    "hasTitle" : "The Pearce Family"
   }, {
     "@id" : "spice:artefact/triple-portrait",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/freud-lucian",
     "author" : "spice:agent/freud-lucian",
-    "schema:dateCreated" : "1987",
-    "schema:url" : "https://imma.ie/collection/triple-portrait/",
+    "dateCreated" : "1987",
+    "url" : "https://imma.ie/collection/triple-portrait/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/triple-portrait",
-    "arco-cd:hasTitle" : "Triple Portrait"
+    "hasTitle" : "Triple Portrait"
   }, {
     "@id" : "spice:artefact/two-brothers-from-ulster",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/freud-lucian",
     "author" : "spice:agent/freud-lucian",
-    "schema:dateCreated" : "2001",
-    "schema:url" : "https://imma.ie/collection/two-brothers-from-ulster/",
+    "dateCreated" : "2001",
+    "url" : "https://imma.ie/collection/two-brothers-from-ulster/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/two-brothers-from-ulster",
-    "arco-cd:hasTitle" : "Two Brothers from Ulster"
+    "hasTitle" : "Two Brothers from Ulster"
   }, {
     "@id" : "spice:artefact/two-irishmen-in-w11",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/freud-lucian",
     "author" : "spice:agent/freud-lucian",
-    "schema:dateCreated" : "1984",
-    "schema:url" : "https://imma.ie/collection/two-irishmen-in-w11/",
+    "dateCreated" : "1984",
+    "url" : "https://imma.ie/collection/two-irishmen-in-w11/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/two-irishmen-in-w11",
-    "arco-cd:hasTitle" : "Two Irishmen in W11"
+    "hasTitle" : "Two Irishmen in W11"
   }, {
     "@id" : "spice:artefact/woman-in-a-butterfly-jersey",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/freud-lucian",
     "author" : "spice:agent/freud-lucian",
-    "schema:dateCreated" : "1990",
-    "schema:url" : "https://imma.ie/collection/woman-in-a-butterfly-jersey/",
+    "dateCreated" : "1990",
+    "url" : "https://imma.ie/collection/woman-in-a-butterfly-jersey/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/woman-in-a-butterfly-jersey",
-    "arco-cd:hasTitle" : "Woman in a Butterfly Jersey"
+    "hasTitle" : "Woman in a Butterfly Jersey"
   }, {
     "@id" : "spice:attribution/a-filly",
     "@type" : "arco:AuthorshipAttribution",
@@ -746,48 +746,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

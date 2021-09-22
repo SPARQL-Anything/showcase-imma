@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/michener-diana",
     "@type" : "foaf:Person",
-    "dc:description" : "American photographer Diana Michener studied History of Art at Barnard College, New York. She also studied at the Sorbonne in Paris and the New School for Social Research, New York. Michener’s photographic work has been exhibited in group and solo shows in America and internationally, including a travelling retrospective exhibition at the Maison Européenne de la Photographie, Paris, and the Gallery of Photography, Dublin, in 2001. Her work is included in the collections of the Denver Art Museum; the Maison Européenne de la Photographie, Paris; the Princeton University Art Museum; and the Whitney Museum of Modern Art, New York.",
-    "dc:source" : "https://imma.ie/artists/diana-michener/",
-    "schema:birthDate" : "b.1940",
-    "schema:url" : "https://imma.ie/artists/diana-michener/",
-    "rdfs:label" : "Diana Michener"
+    "description" : "American photographer Diana Michener studied History of Art at Barnard College, New York. She also studied at the Sorbonne in Paris and the New School for Social Research, New York. Michener’s photographic work has been exhibited in group and solo shows in America and internationally, including a travelling retrospective exhibition at the Maison Européenne de la Photographie, Paris, and the Gallery of Photography, Dublin, in 2001. Her work is included in the collections of the Denver Art Museum; the Maison Européenne de la Photographie, Paris; the Princeton University Art Museum; and the Whitney Museum of Modern Art, New York.",
+    "source" : "https://imma.ie/artists/diana-michener/",
+    "birthDate" : "b.1940",
+    "url" : "https://imma.ie/artists/diana-michener/",
+    "label" : "Diana Michener"
   }, {
     "@id" : "spice:artefact/bed-5",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/michener-diana",
     "author" : "spice:agent/michener-diana",
-    "schema:dateCreated" : "1981",
-    "schema:url" : "https://imma.ie/collection/bed-5/",
+    "dateCreated" : "1981",
+    "url" : "https://imma.ie/collection/bed-5/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/bed-5",
-    "arco-cd:hasTitle" : "Bed #5"
+    "hasTitle" : "Bed #5"
   }, {
     "@id" : "spice:attribution/bed-5",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,40 +24,33 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

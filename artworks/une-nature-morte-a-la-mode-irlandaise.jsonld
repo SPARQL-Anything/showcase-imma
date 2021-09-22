@@ -2,66 +2,57 @@
   "@graph" : [ {
     "@id" : "spice:artefact/une-nature-morte-a-la-mode-irlandaise",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "The emergence of a civil rights movement on the island of Ireland had a profound effect on the development and politicisation of Farrell’s work. In 1971 when his career in Ireland was in the ascendant, he settled in France. As the conflict in Ireland worsened, Farrell felt removed from and frustrated by events such as the 1974 Dublin-Monaghan bombings. This period saw a shift from the Celtic abstraction of his earlier works, such as ‘Black and White’, to more politically engaged statements. While the curvilinear forms of the earlier ‘Pressé’ series, are evident in ‘Une Nature Morte à la Mode Irlandaise’, here the Celtic motif is transmuted into blood and bones.",
-    "dc:source" : "https://imma.ie/collection/une-nature-morte-a-la-mode-irlandaise/",
-    "schema:creditText" : "IMMA Collection: Heritage Gift, P.J. Carroll &amp; Co. Ltd. Art Collection, 2005",
+    "description" : "The emergence of a civil rights movement on the island of Ireland had a profound effect on the development and politicisation of Farrell’s work. In 1971 when his career in Ireland was in the ascendant, he settled in France. As the conflict in Ireland worsened, Farrell felt removed from and frustrated by events such as the 1974 Dublin-Monaghan bombings. This period saw a shift from the Celtic abstraction of his earlier works, such as ‘Black and White’, to more politically engaged statements. While the curvilinear forms of the earlier ‘Pressé’ series, are evident in ‘Une Nature Morte à la Mode Irlandaise’, here the Celtic motif is transmuted into blood and bones.",
+    "source" : "https://imma.ie/collection/une-nature-morte-a-la-mode-irlandaise/",
+    "creditText" : "IMMA Collection: Heritage Gift, P.J. Carroll &amp; Co. Ltd. Art Collection, 2005",
     "image" : "spice:documentation/une-nature-morte-a-la-mode-irlandaise",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Acrylic on paper on board and acrylic on wood",
-    "schema:size" : "72.85 x 73 cm",
-    "arco-cd:hasInventory" : "IMMA.1848"
+    "material" : "Acrylic on paper on board and acrylic on wood",
+    "size" : "72.85 x 73 cm",
+    "hasInventory" : "IMMA.1848"
   }, {
     "@id" : "spice:documentation/une-nature-morte-a-la-mode-irlandaise",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Micheal Farrell, Une Nature Morte à la Mode Irlandaise, 1974, Acrylic on paper on board and acrylic on wood, 72.85 x 73 cm, Collection Irish Museum of Modern Art, Heritage Gift, P.J. Carroll &amp; Co. Ltd. Art Collection, 2005 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Micheal Farrell, Une Nature Morte à la Mode Irlandaise, 1974, Acrylic on paper on board and acrylic on wood, 72.85 x 73 cm, Collection Irish Museum of Modern Art, Heritage Gift, P.J. Carroll &amp; Co. Ltd. Art Collection, 2005 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2019/10/1774.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2019/10/1774.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

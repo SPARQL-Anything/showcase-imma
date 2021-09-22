@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/preliminary-drawing-for-body-of-thought-no-i-bt-1",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Preliminary drawing for Body of Thought No I (BT 1) is a 1988 work by Richard Deacon. It is not currently on display in IMMA. ",
-    "dc:source" : "https://imma.ie/collection/preliminary-drawing-for-body-of-thought-no-i-bt-1/",
-    "schema:creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1994",
+    "description" : "Preliminary drawing for Body of Thought No I (BT 1) is a 1988 work by Richard Deacon. It is not currently on display in IMMA. ",
+    "source" : "https://imma.ie/collection/preliminary-drawing-for-body-of-thought-no-i-bt-1/",
+    "creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1994",
     "image" : "spice:documentation/preliminary-drawing-for-body-of-thought-no-i-bt-1",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Pencil on tracing paper",
-    "schema:size" : "21 x 29.5cm",
-    "arco-cd:hasInventory" : "L.2008.1.3.1"
+    "material" : "Pencil on tracing paper",
+    "size" : "21 x 29.5cm",
+    "hasInventory" : "L.2008.1.3.1"
   }, {
     "@id" : "spice:documentation/preliminary-drawing-for-body-of-thought-no-i-bt-1",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Richard Deacon, Preliminary drawing for Body of Thought No I (BT 1), 1988, Pencil on tracing paper, 21 x 29.5cm, Collection Irish Museum of Modern Art, Loan, Weltkunst Foundation, 1994 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Richard Deacon, Preliminary drawing for Body of Thought No I (BT 1), 1988, Pencil on tracing paper, 21 x 29.5cm, Collection Irish Museum of Modern Art, Loan, Weltkunst Foundation, 1994 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/3499.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/3499.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

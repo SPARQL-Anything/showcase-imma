@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/mcelroy-patrick",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish artist Patrick McElroy worked as a blacksmith before serving with the RAF during World War II. From 1948 McElroy attended evening classes in Fine Art at the National College of Art, Dublin. He received recognition for his metal enamelling and sculptural work from the early 1960s. McElroy was a senior lecturer on art metalwork at the National College of Art and Design until his retirement in 1990. He created several public sculptures in Ireland and received numerous ecclesiastic commissions including The Shrine of Our Lady of Knock, Co. Sligo and The Church of Our Lady of Lourdes, Derry.",
-    "dc:source" : "https://imma.ie/artists/patrick-mcelroy/",
-    "schema:birthDate" : "1923–2008",
-    "schema:url" : "https://imma.ie/artists/patrick-mcelroy/",
-    "rdfs:label" : "Patrick McElroy"
+    "description" : "Irish artist Patrick McElroy worked as a blacksmith before serving with the RAF during World War II. From 1948 McElroy attended evening classes in Fine Art at the National College of Art, Dublin. He received recognition for his metal enamelling and sculptural work from the early 1960s. McElroy was a senior lecturer on art metalwork at the National College of Art and Design until his retirement in 1990. He created several public sculptures in Ireland and received numerous ecclesiastic commissions including The Shrine of Our Lady of Knock, Co. Sligo and The Church of Our Lady of Lourdes, Derry.",
+    "source" : "https://imma.ie/artists/patrick-mcelroy/",
+    "birthDate" : "1923–2008",
+    "url" : "https://imma.ie/artists/patrick-mcelroy/",
+    "label" : "Patrick McElroy"
   }, {
     "@id" : "spice:artefact/icarus",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/mcelroy-patrick",
     "author" : "spice:agent/mcelroy-patrick",
-    "schema:dateCreated" : "1965",
-    "schema:url" : "https://imma.ie/collection/icarus/",
+    "dateCreated" : "1965",
+    "url" : "https://imma.ie/collection/icarus/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/icarus",
-    "arco-cd:hasTitle" : "Icarus"
+    "hasTitle" : "Icarus"
   }, {
     "@id" : "spice:attribution/icarus",
     "@type" : "arco:AuthorshipAttribution",
@@ -24,24 +24,19 @@
   } ],
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -52,16 +47,14 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

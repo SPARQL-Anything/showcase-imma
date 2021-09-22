@@ -2,31 +2,31 @@
   "@graph" : [ {
     "@id" : "spice:agent/do-espirito-santo-iran",
     "@type" : "foaf:Person",
-    "dc:description" : "Brazilian artist Iran do Espírito Santo graduated from the Fundação Armando Alvares Penteado, São Paolo, in 1986. His work deals with structure, design, place, surface, space, light and material, and is based on a subtle subversion of Minimalism through abstracted everyday items. Among do Espírito Santo's favourite materials are glass, stainless steel, granite, marble and sandstone, which help give a timeless feel to simple recognisable objects such as lamps, bricks, boxes, keyholes and tins. His palette is limited almost exclusively to white, grey and black. Do Espírito Santo has exhibited worldwide, including a successful solo exhibition at IMMA in 2006.",
-    "dc:source" : "https://imma.ie/artists/iran-do-espirito-santo/",
-    "schema:birthDate" : "b.1963",
-    "schema:url" : "https://imma.ie/artists/iran-do-espirito-santo/",
-    "rdfs:label" : "Iran do Espírito Santo"
+    "description" : "Brazilian artist Iran do Espírito Santo graduated from the Fundação Armando Alvares Penteado, São Paolo, in 1986. His work deals with structure, design, place, surface, space, light and material, and is based on a subtle subversion of Minimalism through abstracted everyday items. Among do Espírito Santo's favourite materials are glass, stainless steel, granite, marble and sandstone, which help give a timeless feel to simple recognisable objects such as lamps, bricks, boxes, keyholes and tins. His palette is limited almost exclusively to white, grey and black. Do Espírito Santo has exhibited worldwide, including a successful solo exhibition at IMMA in 2006.",
+    "source" : "https://imma.ie/artists/iran-do-espirito-santo/",
+    "birthDate" : "b.1963",
+    "url" : "https://imma.ie/artists/iran-do-espirito-santo/",
+    "label" : "Iran do Espírito Santo"
   }, {
     "@id" : "spice:artefact/untitled-corrections-d",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/do-espirito-santo-iran",
     "author" : "spice:agent/do-espirito-santo-iran",
-    "schema:dateCreated" : "2008",
-    "schema:url" : "https://imma.ie/collection/untitled-corrections-d/",
+    "dateCreated" : "2008",
+    "url" : "https://imma.ie/collection/untitled-corrections-d/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-corrections-d",
-    "arco-cd:hasTitle" : "Untitled / Corrections D"
+    "hasTitle" : "Untitled / Corrections D"
   }, {
     "@id" : "spice:artefact/untitled-keyhole",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/do-espirito-santo-iran",
     "author" : "spice:agent/do-espirito-santo-iran",
-    "schema:dateCreated" : "1999",
-    "schema:url" : "https://imma.ie/collection/untitled-keyhole/",
+    "dateCreated" : "1999",
+    "url" : "https://imma.ie/collection/untitled-keyhole/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/untitled-keyhole",
-    "arco-cd:hasTitle" : "Untitled (Keyhole)"
+    "hasTitle" : "Untitled (Keyhole)"
   }, {
     "@id" : "spice:attribution/untitled-corrections-d",
     "@type" : "arco:AuthorshipAttribution",
@@ -42,40 +42,33 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -87,7 +80,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

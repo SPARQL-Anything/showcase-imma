@@ -2,66 +2,57 @@
   "@graph" : [ {
     "@id" : "spice:artefact/elegy-ii",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "During the 1960s, Madden made an impressive body of experimental works, made by pouring paint, sometimes mixed with sand, over horizontal wetted canvases. As paint flowed and settled Madden moved the canvas, resulting in a strong chance element, although at the end she could obviously select which works to keep.",
-    "dc:source" : "https://imma.ie/collection/elegy-ii/",
-    "schema:creditText" : "IMMA Collection: Heritage Gift, P.J. Carroll &amp; Co. Ltd. Art Collection, 2005",
+    "description" : "During the 1960s, Madden made an impressive body of experimental works, made by pouring paint, sometimes mixed with sand, over horizontal wetted canvases. As paint flowed and settled Madden moved the canvas, resulting in a strong chance element, although at the end she could obviously select which works to keep.",
+    "source" : "https://imma.ie/collection/elegy-ii/",
+    "creditText" : "IMMA Collection: Heritage Gift, P.J. Carroll &amp; Co. Ltd. Art Collection, 2005",
     "image" : "spice:documentation/elegy-ii",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Mixed media on canvas",
-    "schema:size" : "195.3 x 228.6 cm both parts",
-    "arco-cd:hasInventory" : "IMMA.1864"
+    "material" : "Mixed media on canvas",
+    "size" : "195.3 x 228.6 cm both parts",
+    "hasInventory" : "IMMA.1864"
   }, {
     "@id" : "spice:documentation/elegy-ii",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Anne Madden, Elegy II, 1967, Mixed media on canvas, 195.3 x 228.6 cm both parts, Collection Irish Museum of Modern Art, Heritage Gift, P.J. Carroll &amp; Co. Ltd. Art Collection, 2005 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Anne Madden, Elegy II, 1967, Mixed media on canvas, 195.3 x 228.6 cm both parts, Collection Irish Museum of Modern Art, Heritage Gift, P.J. Carroll &amp; Co. Ltd. Art Collection, 2005 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/1789.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/1789.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

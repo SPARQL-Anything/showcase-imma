@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/veil-11",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Paul Winstanley’s paintings are meticulous, meditative renderings of vacated spaces such as waiting rooms, deserted passages and lobbies. Sometimes looking out from these interior spaces onto the landscape, Winstanley frames the natural world with the clean lines of 1970s utopian architecture. His spaces are those which are most often the last place you want to be: like doctors’ waiting rooms, or official spaces where people count minutes and wait their turn. Time is slowed down here and the smallest of details occupies the eye as it scrutinizes every crack and crevice. The time spent waiting is echoed in the time Winstanley has taken to paint in such refined and polished detail.",
-    "dc:source" : "https://imma.ie/collection/veil-11/",
-    "schema:creditText" : "IMMA Collection: Purchase, 2002",
+    "description" : "Paul Winstanley’s paintings are meticulous, meditative renderings of vacated spaces such as waiting rooms, deserted passages and lobbies. Sometimes looking out from these interior spaces onto the landscape, Winstanley frames the natural world with the clean lines of 1970s utopian architecture. His spaces are those which are most often the last place you want to be: like doctors’ waiting rooms, or official spaces where people count minutes and wait their turn. Time is slowed down here and the smallest of details occupies the eye as it scrutinizes every crack and crevice. The time spent waiting is echoed in the time Winstanley has taken to paint in such refined and polished detail.",
+    "source" : "https://imma.ie/collection/veil-11/",
+    "creditText" : "IMMA Collection: Purchase, 2002",
     "image" : "spice:documentation/veil-11",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Oil on linen",
-    "schema:size" : "200 x 185 cm",
-    "arco-cd:hasInventory" : "IMMA.1523"
+    "material" : "Oil on linen",
+    "size" : "200 x 185 cm",
+    "hasInventory" : "IMMA.1523"
   }, {
     "@id" : "spice:documentation/veil-11",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Paul Winstanley, Veil 11, 2002, Oil on linen, 200 x 185 cm, Collection Irish Museum of Modern Art, Purchase, 2002 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Paul Winstanley, Veil 11, 2002, Oil on linen, 200 x 185 cm, Collection Irish Museum of Modern Art, Purchase, 2002 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/311.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/311.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

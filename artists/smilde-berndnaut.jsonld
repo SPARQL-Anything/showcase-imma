@@ -1,30 +1,26 @@
 {
   "@id" : "spice:agent/smilde-berndnaut",
   "@type" : "foaf:Person",
-  "dc:description" : [ "Berndnaut Smilde is interested in transitional spaces; ruins and building-sites that are in-between states of completion. This interest also branches out into the possibility of how a given space might be between states of construction and deconstruction. His daily surroundings are motives that are used to create narrative-situations, within which multiple layers of meaning collide. Smilde uses construction materials and simulated objects, such as photo prints, artificial turf and polystyrene decorations, that are often used to upgrade an average household. This simulation provides a friction to spatial narratives in such a way as to parallel reality in-between reality and representation. Smilde is interested in the moment of friction that brings uncertainty and in such situations it is not possible to determine what exactly is going on.", "Berndnaut Smilde is interested in transitional spaces; ruins and building-sites that are in-between states of completion. This interest also branches out into the possibility of how a given space might be between states of construction and deconstruction. His daily surroundings are motives that are used to create narrative-situations, within which multiple layers of meaning collide." ],
-  "dc:source" : "https://imma.ie/artists/berndnaut-smilde/",
-  "schema:url" : "https://imma.ie/artists/berndnaut-smilde/",
-  "rdfs:label" : "Berndnaut Smilde",
+  "description" : [ "Berndnaut Smilde is interested in transitional spaces; ruins and building-sites that are in-between states of completion. This interest also branches out into the possibility of how a given space might be between states of construction and deconstruction. His daily surroundings are motives that are used to create narrative-situations, within which multiple layers of meaning collide. Smilde uses construction materials and simulated objects, such as photo prints, artificial turf and polystyrene decorations, that are often used to upgrade an average household. This simulation provides a friction to spatial narratives in such a way as to parallel reality in-between reality and representation. Smilde is interested in the moment of friction that brings uncertainty and in such situations it is not possible to determine what exactly is going on.", "Berndnaut Smilde is interested in transitional spaces; ruins and building-sites that are in-between states of completion. This interest also branches out into the possibility of how a given space might be between states of construction and deconstruction. His daily surroundings are motives that are used to create narrative-situations, within which multiple layers of meaning collide." ],
+  "source" : "https://imma.ie/artists/berndnaut-smilde/",
+  "url" : "https://imma.ie/artists/berndnaut-smilde/",
+  "label" : "Berndnaut Smilde",
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

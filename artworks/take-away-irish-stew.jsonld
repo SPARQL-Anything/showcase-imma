@@ -2,37 +2,33 @@
   "@graph" : [ {
     "@id" : "spice:artefact/take-away-irish-stew",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Take Away Irish Stew is a 1988 work by Charles Brady. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/take-away-irish-stew/",
-    "schema:creditText" : "IMMA Collection: Donation, IBRC, 2011",
+    "description" : "Take Away Irish Stew is a 1988 work by Charles Brady. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/take-away-irish-stew/",
+    "creditText" : "IMMA Collection: Donation, IBRC, 2011",
     "image" : "spice:documentation/take-away-irish-stew",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Oil on linen",
-    "schema:size" : "Framed: 52.5 x 56 cm 29.5 x 36 cm",
-    "arco-cd:hasInventory" : "IMMA.3434"
+    "material" : "Oil on linen",
+    "size" : "Framed: 52.5 x 56 cm 29.5 x 36 cm",
+    "hasInventory" : "IMMA.3434"
   }, {
     "@id" : "spice:documentation/take-away-irish-stew",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Charles Brady, Take Away Irish Stew, 1988, Oil on linen, Framed: 52.5 x 56 cm 29.5 x 36 cm, Collection Irish Museum of Modern Art, Donation, IBRC, 2011 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Charles Brady, Take Away Irish Stew, 1988, Oil on linen, Framed: 52.5 x 56 cm 29.5 x 36 cm, Collection Irish Museum of Modern Art, Donation, IBRC, 2011 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -43,20 +39,16 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

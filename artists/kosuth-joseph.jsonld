@@ -2,31 +2,31 @@
   "@graph" : [ {
     "@id" : "spice:agent/kosuth-joseph",
     "@type" : "foaf:Person",
-    "dc:description" : "American artist Joseph Kosuth is generally considered to be the father of analytical Conceptualism. Along with many artists in the 1960s, he was influenced by the 'anti-art' ideas of Marcel Duchamp. Kosuth’s artistic practice, rooted in Freud, Wittgenstein and French philosophical theory, investigates the linguistic nature of art propositions and their social, institutional, psychological and ethnological contexts. Kosuth has been represented in major exhibitions since the late 1960s, including Documenta V, VI, VII and IX, and the Venice Biennale in 1976, 1993 and 1999.",
-    "dc:source" : "https://imma.ie/artists/joseph-kosuth/",
-    "schema:birthDate" : "b.1945",
-    "schema:url" : "https://imma.ie/artists/joseph-kosuth/",
-    "rdfs:label" : "Joseph Kosuth"
+    "description" : "American artist Joseph Kosuth is generally considered to be the father of analytical Conceptualism. Along with many artists in the 1960s, he was influenced by the 'anti-art' ideas of Marcel Duchamp. Kosuth’s artistic practice, rooted in Freud, Wittgenstein and French philosophical theory, investigates the linguistic nature of art propositions and their social, institutional, psychological and ethnological contexts. Kosuth has been represented in major exhibitions since the late 1960s, including Documenta V, VI, VII and IX, and the Venice Biennale in 1976, 1993 and 1999.",
+    "source" : "https://imma.ie/artists/joseph-kosuth/",
+    "birthDate" : "b.1945",
+    "url" : "https://imma.ie/artists/joseph-kosuth/",
+    "label" : "Joseph Kosuth"
   }, {
     "@id" : "spice:artefact/guests-and-foreigners-rules-and-meanings-say-i-do-not-know",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/kosuth-joseph",
     "author" : "spice:agent/kosuth-joseph",
-    "schema:dateCreated" : "1997",
-    "schema:url" : "https://imma.ie/collection/guests-and-foreigners-rules-and-meanings-say-i-do-not-know/",
+    "dateCreated" : "1997",
+    "url" : "https://imma.ie/collection/guests-and-foreigners-rules-and-meanings-say-i-do-not-know/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/guests-and-foreigners-rules-and-meanings-say-i-do-not-know",
-    "arco-cd:hasTitle" : "Guests and Foreigners, Rules and Meanings -SAY I DO NOT KNOW-"
+    "hasTitle" : "Guests and Foreigners, Rules and Meanings -SAY I DO NOT KNOW-"
   }, {
     "@id" : "spice:artefact/three-titled-meanings-a-a-i-a-i",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/kosuth-joseph",
     "author" : "spice:agent/kosuth-joseph",
-    "schema:dateCreated" : "1967",
-    "schema:url" : "https://imma.ie/collection/three-titled-meanings-a-a-i-a-i/",
+    "dateCreated" : "1967",
+    "url" : "https://imma.ie/collection/three-titled-meanings-a-a-i-a-i/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/three-titled-meanings-a-a-i-a-i",
-    "arco-cd:hasTitle" : "Three Titled Meanings (A.A.I.A.I)"
+    "hasTitle" : "Three Titled Meanings (A.A.I.A.I)"
   }, {
     "@id" : "spice:attribution/guests-and-foreigners-rules-and-meanings-say-i-do-not-know",
     "@type" : "arco:AuthorshipAttribution",
@@ -46,48 +46,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

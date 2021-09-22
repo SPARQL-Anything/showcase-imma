@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/case-reginald",
     "@type" : "foaf:Person",
-    "dc:description" : "American artist Reginald Case studied science at SUNY, Buffalo, and fine arts at San Francisco State University and Boston University. He began his career as a painter, turning to collage and assemblage in the 1970s. Case exhibited worldwide and his work is represented in major public collections including the Victoria and Albert Museum, London; the Museum of Fine Arts, Boston; Smithsonian American Art Museum, Washington D.C. and the Solomon R. Guggenheim Museum, New York.",
-    "dc:source" : "https://imma.ie/artists/reginald-case/",
-    "schema:birthDate" : "1937–2009",
-    "schema:url" : "https://imma.ie/artists/reginald-case/",
-    "rdfs:label" : "Reginald Case"
+    "description" : "American artist Reginald Case studied science at SUNY, Buffalo, and fine arts at San Francisco State University and Boston University. He began his career as a painter, turning to collage and assemblage in the 1970s. Case exhibited worldwide and his work is represented in major public collections including the Victoria and Albert Museum, London; the Museum of Fine Arts, Boston; Smithsonian American Art Museum, Washington D.C. and the Solomon R. Guggenheim Museum, New York.",
+    "source" : "https://imma.ie/artists/reginald-case/",
+    "birthDate" : "1937–2009",
+    "url" : "https://imma.ie/artists/reginald-case/",
+    "label" : "Reginald Case"
   }, {
     "@id" : "spice:artefact/victim-concentration-camp-bath",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/case-reginald",
     "author" : "spice:agent/case-reginald",
-    "schema:dateCreated" : "1978",
-    "schema:url" : "https://imma.ie/collection/victim-concentration-camp-bath/",
+    "dateCreated" : "1978",
+    "url" : "https://imma.ie/collection/victim-concentration-camp-bath/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/victim-concentration-camp-bath",
-    "arco-cd:hasTitle" : "Victim – Concentration Camp Bath"
+    "hasTitle" : "Victim – Concentration Camp Bath"
   }, {
     "@id" : "spice:attribution/victim-concentration-camp-bath",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,44 +28,37 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAttributedAuthor" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

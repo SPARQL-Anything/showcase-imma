@@ -2,42 +2,37 @@
   "@graph" : [ {
     "@id" : "spice:artefact/patio-reflections-with-susie-and-interior-paradise-2-bahamas-1980",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "Patio Reflections with Susie and interior, Paradise 2 Bahamas, 1980 is a 1980 work by Tony O'Malley. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/patio-reflections-with-susie-and-interior-paradise-2-bahamas-1980/",
-    "schema:creditText" : "IMMA Collection: Heritage Gift from the McClelland Collection by Noel and Anne Marie Smyth, 2003",
+    "description" : "Patio Reflections with Susie and interior, Paradise 2 Bahamas, 1980 is a 1980 work by Tony O'Malley. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/patio-reflections-with-susie-and-interior-paradise-2-bahamas-1980/",
+    "creditText" : "IMMA Collection: Heritage Gift from the McClelland Collection by Noel and Anne Marie Smyth, 2003",
     "image" : "spice:documentation/patio-reflections-with-susie-and-interior-paradise-2-bahamas-1980",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Gouache, pastel and coloured chalks on paper",
-    "schema:size" : "77.5 x 52 cm",
-    "arco-cd:hasInventory" : "IMMA.1357 MCCL"
+    "material" : "Gouache, pastel and coloured chalks on paper",
+    "size" : "77.5 x 52 cm",
+    "hasInventory" : "IMMA.1357 MCCL"
   }, {
     "@id" : "spice:documentation/patio-reflections-with-susie-and-interior-paradise-2-bahamas-1980",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Tony O'Malley, Patio Reflections with Susie and interior, Paradise 2 Bahamas, 1980, 1980, Gouache, pastel and coloured chalks on paper, 77.5 x 52 cm, Collection Irish Museum of Modern Art, Heritage Gift from the McClelland Collection by Noel and Anne Marie Smyth, 2003 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Tony O'Malley, Patio Reflections with Susie and interior, Paradise 2 Bahamas, 1980, 1980, Gouache, pastel and coloured chalks on paper, 77.5 x 52 cm, Collection Irish Museum of Modern Art, Heritage Gift from the McClelland Collection by Noel and Anne Marie Smyth, 2003 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/1407.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/1407.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,20 +43,16 @@
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

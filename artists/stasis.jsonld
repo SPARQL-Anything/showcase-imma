@@ -1,30 +1,26 @@
 {
   "@id" : "spice:agent/stasis",
   "@type" : "foaf:Person",
-  "dc:description" : [ "STASIS is comprised of artists Aniela Piasecka, Paloma Proudfoot, Olivia Norris and Isabel Palmstierna. Over the past five years they have created together a collaboration to explore and present their understandings and experiences of femininity. Their work lies somewhere between the disciplines of dance, performance art, theatre and live art. We are drawn to transforming ‘non-performative’ spaces into temporary stages and to playing with both the low-fi and the maximal to create results that self-consciously titillate, surprise and continuously morph and change. STASIS frequently extend their projects in collaboration with other artists’ practices or in response to exhibitions and events.", "STASIS is comprised of artists Aniela Piasecka, Paloma Proudfoot, Olivia Norris and Isabel Palmstierna. Over the past five years they have created together a collaboration to explore and present their understandings and experiences of femininity. Their work lies somewhere between the disciplines of dance, performance art, theatre and live art. " ],
-  "dc:source" : "https://imma.ie/artists/stasis/",
-  "schema:url" : "https://imma.ie/artists/stasis/",
-  "rdfs:label" : "STASIS",
+  "description" : [ "STASIS is comprised of artists Aniela Piasecka, Paloma Proudfoot, Olivia Norris and Isabel Palmstierna. Over the past five years they have created together a collaboration to explore and present their understandings and experiences of femininity. Their work lies somewhere between the disciplines of dance, performance art, theatre and live art. We are drawn to transforming ‘non-performative’ spaces into temporary stages and to playing with both the low-fi and the maximal to create results that self-consciously titillate, surprise and continuously morph and change. STASIS frequently extend their projects in collaboration with other artists’ practices or in response to exhibitions and events.", "STASIS is comprised of artists Aniela Piasecka, Paloma Proudfoot, Olivia Norris and Isabel Palmstierna. Over the past five years they have created together a collaboration to explore and present their understandings and experiences of femininity. Their work lies somewhere between the disciplines of dance, performance art, theatre and live art. " ],
+  "source" : "https://imma.ie/artists/stasis/",
+  "url" : "https://imma.ie/artists/stasis/",
+  "label" : "STASIS",
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -2,37 +2,33 @@
   "@graph" : [ {
     "@id" : "spice:artefact/bond",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "‘Bond’, like much of Siobhán Hapaska’s work conveys a strong design aesthetic. Her work is known for its diversity and humour. In ‘Bond’ Hapaska plays with the notion of nature versus machine. Both organic and artificial, ‘Bond’ contains contradictions and contrasts between the portraying of dynamic movement and stillness as the dynamism associated with the mechanics of the car is solidified in a static sculpture. The lacquer finish can be compared to the design of the mass produced car, a beacon for 20th century design and mass production. The addition of electric lights, obvious connotations to the speed of light, contrast with the slow accumulation of basalt and moss nestling naturally within the forms of the sculpture. ",
-    "dc:source" : "https://imma.ie/collection/bond/",
-    "schema:creditText" : "IMMA Collection: Purchase, 2000",
+    "description" : "‘Bond’, like much of Siobhán Hapaska’s work conveys a strong design aesthetic. Her work is known for its diversity and humour. In ‘Bond’ Hapaska plays with the notion of nature versus machine. Both organic and artificial, ‘Bond’ contains contradictions and contrasts between the portraying of dynamic movement and stillness as the dynamism associated with the mechanics of the car is solidified in a static sculpture. The lacquer finish can be compared to the design of the mass produced car, a beacon for 20th century design and mass production. The addition of electric lights, obvious connotations to the speed of light, contrast with the slow accumulation of basalt and moss nestling naturally within the forms of the sculpture. ",
+    "source" : "https://imma.ie/collection/bond/",
+    "creditText" : "IMMA Collection: Purchase, 2000",
     "image" : "spice:documentation/bond",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Fiberglass, Irish basalt, reindeer moss, two-pack lacquer and electrical components",
-    "schema:size" : "180 x 120 x 70 cm",
-    "arco-cd:hasInventory" : "IMMA.1294"
+    "material" : "Fiberglass, Irish basalt, reindeer moss, two-pack lacquer and electrical components",
+    "size" : "180 x 120 x 70 cm",
+    "hasInventory" : "IMMA.1294"
   }, {
     "@id" : "spice:documentation/bond",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Siobhán Hapaska, Bond, 1999, Fiberglass, Irish basalt, reindeer moss, two-pack lacquer and electrical components, 180 x 120 x 70 cm, Collection Irish Museum of Modern Art, Purchase, 2000 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Siobhán Hapaska, Bond, 1999, Fiberglass, Irish basalt, reindeer moss, two-pack lacquer and electrical components, 180 x 120 x 70 cm, Collection Irish Museum of Modern Art, Purchase, 2000 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -43,20 +39,16 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

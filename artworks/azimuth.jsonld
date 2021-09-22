@@ -2,61 +2,53 @@
   "@graph" : [ {
     "@id" : "spice:artefact/azimuth",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "‘Azimuth’ is a wooden stage. A strange star formation is carved into the platform of the stage. The outline of star is created by sections of wax inlay individually stained with a combination of wood stain, graphite and wax. Each section is differentiated by dark green, brown and navy stain. Four tall flagpoles holding hessian flags petrified in dark wax flank the stage.",
-    "dc:source" : "https://imma.ie/collection/azimuth/",
-    "schema:creditText" : "IMMA Collection: Donation, 2010",
+    "description" : "‘Azimuth’ is a wooden stage. A strange star formation is carved into the platform of the stage. The outline of star is created by sections of wax inlay individually stained with a combination of wood stain, graphite and wax. Each section is differentiated by dark green, brown and navy stain. Four tall flagpoles holding hessian flags petrified in dark wax flank the stage.",
+    "source" : "https://imma.ie/collection/azimuth/",
+    "creditText" : "IMMA Collection: Donation, 2010",
     "image" : "spice:documentation/azimuth",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Wooden flagpoles, sackcloth, wax, wood stain, graphite, wax",
-    "arco-cd:hasInventory" : "IMMA.3238.2"
+    "material" : "Wooden flagpoles, sackcloth, wax, wood stain, graphite, wax",
+    "hasInventory" : "IMMA.3238.2"
   }, {
     "@id" : "spice:documentation/azimuth",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Clodagh Emoe, Azimuth, 2009, Wooden flagpoles, sackcloth, wax, wood stain, graphite, wax, Collection Irish Museum of Modern Art, Donation, 2010 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Clodagh Emoe, Azimuth, 2009, Wooden flagpoles, sackcloth, wax, wood stain, graphite, wax, Collection Irish Museum of Modern Art, Donation, 2010 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/5154.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/5154.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

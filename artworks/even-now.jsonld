@@ -1,0 +1,63 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/even-now",
+    "@type" : "schema:CreativeWork",
+    "description" : "Even Now, 2012, is a solo performance originally performed as part of PRESENT: THE ART OF ENCOUNTER commissioned by The Naughton Gallery at Queen’s University &amp; Bbeyond, Belfast. The work consists of still images taken by Jordan Hutchings and 2 original English press photographs of the emergency services at the scene of the bombing at La Mon House. These are examples of wire or line photos that were sent by telecommunication lines back to various Press offices where the image was then developed in the office. These two photographs contain the press message attached and were taken by Malcom Croft.",
+    "source" : "https://imma.ie/collection/even-now/",
+    "creditText" : "IMMA Collection: Purchase, 2021, 2021",
+    "image" : "spice:documentation/even-now",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "hasInventory" : "IMMA.4218"
+  }, {
+    "@id" : "spice:documentation/even-now",
+    "@type" : "schema:ImageObject",
+    "caption" : "Sandra Johnston, Even Now, 2012, Collection Irish Museum of Modern Art, Purchase, 2021, 2021 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "url" : "https://imma.ie/wp-content/uploads/2021/04/9512.jpg"
+  } ],
+  "@context" : {
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

@@ -2,51 +2,51 @@
   "@graph" : [ {
     "@id" : "spice:agent/johnston-roy",
     "@type" : "foaf:Person",
-    "dc:description" : "Roy Johnston was born in Pomeroy, County Tyrone and is an artist, art critic and art historian. He studied painting at the Belfast College of Art, Art Education at the University of South Wales and Monmouthshire. He was Head of Painting at the Ulster Polytechnic from 1974 to 1984. Johnston has lived in the United States since 1987, where he was Head of Art at Skidmore College and Eastern Michigan University. Since 1966 his work has been shown in Belfast, Dublin, Edinburgh, London, New York, Michigan and Ohio. He has also been included in several international touring exhibitions of Irish Art and is represented in the collections of the Arts Councils of Ireland, Northern Ireland, and Great Britain.",
-    "dc:source" : "https://imma.ie/artists/roy-johnston/",
-    "schema:birthDate" : "b.1936",
-    "schema:url" : "https://imma.ie/artists/roy-johnston/",
-    "rdfs:label" : "Roy Johnston"
+    "description" : "Roy Johnston was born in Pomeroy, County Tyrone and is an artist, art critic and art historian. He studied painting at the Belfast College of Art, Art Education at the University of South Wales and Monmouthshire. He was Head of Painting at the Ulster Polytechnic from 1974 to 1984. Johnston has lived in the United States since 1987, where he was Head of Art at Skidmore College and Eastern Michigan University. Since 1966 his work has been shown in Belfast, Dublin, Edinburgh, London, New York, Michigan and Ohio. He has also been included in several international touring exhibitions of Irish Art and is represented in the collections of the Arts Councils of Ireland, Northern Ireland, and Great Britain.",
+    "source" : "https://imma.ie/artists/roy-johnston/",
+    "birthDate" : "b.1936",
+    "url" : "https://imma.ie/artists/roy-johnston/",
+    "label" : "Roy Johnston"
   }, {
     "@id" : "spice:artefact/beneath-27-b",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/johnston-roy",
     "author" : "spice:agent/johnston-roy",
-    "schema:dateCreated" : "1972",
-    "schema:url" : "https://imma.ie/collection/beneath-27-b/",
+    "dateCreated" : "1972",
+    "url" : "https://imma.ie/collection/beneath-27-b/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/beneath-27-b",
-    "arco-cd:hasTitle" : "Beneath 27/B"
+    "hasTitle" : "Beneath 27/B"
   }, {
     "@id" : "spice:artefact/quintet",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/johnston-roy",
     "author" : "spice:agent/johnston-roy",
-    "schema:dateCreated" : "1971",
-    "schema:url" : "https://imma.ie/collection/quintet/",
+    "dateCreated" : "1971",
+    "url" : "https://imma.ie/collection/quintet/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/quintet",
-    "arco-cd:hasTitle" : "Quintet"
+    "hasTitle" : "Quintet"
   }, {
     "@id" : "spice:artefact/sixteen-rotated-forms-i-ii-iii-iv",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/johnston-roy",
     "author" : "spice:agent/johnston-roy",
-    "schema:dateCreated" : "1975",
-    "schema:url" : "https://imma.ie/collection/sixteen-rotated-forms-i-ii-iii-iv/",
+    "dateCreated" : "1975",
+    "url" : "https://imma.ie/collection/sixteen-rotated-forms-i-ii-iii-iv/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/sixteen-rotated-forms-i-ii-iii-iv",
-    "arco-cd:hasTitle" : "Sixteen Rotated Forms (i), (ii), (iii), (iv)"
+    "hasTitle" : "Sixteen Rotated Forms (i), (ii), (iii), (iv)"
   }, {
     "@id" : "spice:artefact/trada",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/johnston-roy",
     "author" : "spice:agent/johnston-roy",
-    "schema:dateCreated" : "1972",
-    "schema:url" : "https://imma.ie/collection/trada/",
+    "dateCreated" : "1972",
+    "url" : "https://imma.ie/collection/trada/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/trada",
-    "arco-cd:hasTitle" : "Trada"
+    "hasTitle" : "Trada"
   }, {
     "@id" : "spice:attribution/beneath-27-b",
     "@type" : "arco:AuthorshipAttribution",
@@ -70,24 +70,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -98,24 +95,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

@@ -2,71 +2,61 @@
   "@graph" : [ {
     "@id" : "spice:artefact/the-chess-players",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "The Chess Players is a 1965 work by Marcel Duchamp. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/the-chess-players/",
-    "schema:creditText" : "IMMA Collection: The Novak/O'Doherty Collection at IMMA Donation, The American Ireland Fund, 2011",
+    "description" : "The Chess Players is a 1965 work by Marcel Duchamp. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/the-chess-players/",
+    "creditText" : "IMMA Collection: The Novak/O'Doherty Collection at IMMA Donation, The American Ireland Fund, 2011",
     "image" : "spice:documentation/the-chess-players",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Etching",
-    "schema:size" : "50.1 x 66 cm Framed: 65 x 77.3 cm",
-    "schema:version" : "4/50",
-    "arco-cd:hasInventory" : "IMMA.2126"
+    "material" : "Etching",
+    "size" : "50.1 x 66 cm Framed: 65 x 77.3 cm",
+    "version" : "4/50",
+    "hasInventory" : "IMMA.2126"
   }, {
     "@id" : "spice:documentation/the-chess-players",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Marcel Duchamp, The Chess Players, 1965, Etching, 50.1 x 66 cm Framed: 65 x 77.3 cm, Collection Irish Museum of Modern Art, The Novak/O'Doherty Collection at IMMA Donation, The American Ireland Fund, 2011 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Marcel Duchamp, The Chess Players, 1965, Etching, 50.1 x 66 cm Framed: 65 x 77.3 cm, Collection Irish Museum of Modern Art, The Novak/O'Doherty Collection at IMMA Donation, The American Ireland Fund, 2011 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:url" : "https://imma.ie/wp-content/uploads/2018/11/2187.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2018/11/2187.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "version" : {
-      "@id" : "http://schema.org/version",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/version"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

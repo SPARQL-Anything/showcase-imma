@@ -2,41 +2,41 @@
   "@graph" : [ {
     "@id" : "spice:agent/coyle-gary",
     "@type" : "foaf:Person",
-    "dc:description" : "Irish artist Gary Coyle studied at the National College of Art and Design, Dublin and the Royal College of Art, London. Working in a range of media including drawing, photography and performance, Coyle considers ideas of the Gothic and its emphasis on fragmentary narratives and the conflict between man and nature. His work has been exhibited at venues including Tate, London; the Centre Culturel Irlandais, Paris, and Akkuh, Henglo. He was elected a member of the RHA in 2007 and Aosdána in 2009.",
-    "dc:source" : "https://imma.ie/artists/gary-coyle/",
-    "schema:birthDate" : "b.1965",
-    "schema:url" : "https://imma.ie/artists/gary-coyle/",
-    "rdfs:label" : "Gary Coyle"
+    "description" : "Irish artist Gary Coyle studied at the National College of Art and Design, Dublin and the Royal College of Art, London. Working in a range of media including drawing, photography and performance, Coyle considers ideas of the Gothic and its emphasis on fragmentary narratives and the conflict between man and nature. His work has been exhibited at venues including Tate, London; the Centre Culturel Irlandais, Paris, and Akkuh, Henglo. He was elected a member of the RHA in 2007 and Aosdána in 2009.",
+    "source" : "https://imma.ie/artists/gary-coyle/",
+    "birthDate" : "b.1965",
+    "url" : "https://imma.ie/artists/gary-coyle/",
+    "label" : "Gary Coyle"
   }, {
     "@id" : "spice:artefact/forest-path",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/coyle-gary",
     "author" : "spice:agent/coyle-gary",
-    "schema:dateCreated" : "2006",
-    "schema:url" : "https://imma.ie/collection/forest-path/",
+    "dateCreated" : "2006",
+    "url" : "https://imma.ie/collection/forest-path/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/forest-path",
-    "arco-cd:hasTitle" : "Forest Path"
+    "hasTitle" : "Forest Path"
   }, {
     "@id" : "spice:artefact/porn-foliage",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/coyle-gary",
     "author" : "spice:agent/coyle-gary",
-    "schema:dateCreated" : "2004",
-    "schema:url" : "https://imma.ie/collection/porn-foliage/",
+    "dateCreated" : "2004",
+    "url" : "https://imma.ie/collection/porn-foliage/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/porn-foliage",
-    "arco-cd:hasTitle" : "Porn Foliage"
+    "hasTitle" : "Porn Foliage"
   }, {
     "@id" : "spice:artefact/study-for-arcadia",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/coyle-gary",
     "author" : "spice:agent/coyle-gary",
-    "schema:dateCreated" : "2004",
-    "schema:url" : "https://imma.ie/collection/study-for-arcadia/",
+    "dateCreated" : "2004",
+    "url" : "https://imma.ie/collection/study-for-arcadia/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/study-for-arcadia",
-    "arco-cd:hasTitle" : "Study for Arcadia"
+    "hasTitle" : "Study for Arcadia"
   }, {
     "@id" : "spice:attribution/forest-path",
     "@type" : "arco:AuthorshipAttribution",
@@ -60,48 +60,41 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

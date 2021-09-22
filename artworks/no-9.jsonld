@@ -2,61 +2,53 @@
   "@graph" : [ {
     "@id" : "spice:artefact/no-9",
     "@type" : "schema:CreativeWork",
-    "dc:description" : "No. 9 is a 1964 work by Emil Schumacher. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
-    "dc:source" : "https://imma.ie/collection/no-9/",
-    "schema:creditText" : "IMMA Collection: Heritage Gift by the Bank of Ireland from the Bank of Ireland collection, 2008",
+    "description" : "No. 9 is a 1964 work by Emil Schumacher. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "source" : "https://imma.ie/collection/no-9/",
+    "creditText" : "IMMA Collection: Heritage Gift by the Bank of Ireland from the Bank of Ireland collection, 2008",
     "image" : "spice:documentation/no-9",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "schema:material" : "Graphic, aquatint on paper",
-    "schema:size" : "195 x 229 cm",
-    "arco-cd:hasInventory" : "IMMA.2613"
+    "material" : "Graphic, aquatint on paper",
+    "size" : "195 x 229 cm",
+    "hasInventory" : "IMMA.2613"
   }, {
     "@id" : "spice:documentation/no-9",
     "@type" : "schema:ImageObject",
-    "schema:caption" : "Emil Schumacher, No. 9, 1964, Graphic, aquatint on paper, 195 x 229 cm, Collection Irish Museum of Modern Art, Heritage Gift by the Bank of Ireland from the Bank of Ireland collection, 2008 ",
-    "schema:copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "caption" : "Emil Schumacher, No. 9, 1964, Graphic, aquatint on paper, 195 x 229 cm, Collection Irish Museum of Modern Art, Heritage Gift by the Bank of Ireland from the Bank of Ireland collection, 2008 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
     "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
-      "@id" : "http://schema.org/caption",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/caption"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "creditText" : {
-      "@id" : "http://schema.org/creditText",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/creditText"
     },
     "size" : {
-      "@id" : "http://schema.org/size",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/size"
     },
     "material" : {
-      "@id" : "http://schema.org/material",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/material"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",

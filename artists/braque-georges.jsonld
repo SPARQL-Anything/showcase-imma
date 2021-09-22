@@ -2,31 +2,31 @@
   "@graph" : [ {
     "@id" : "spice:agent/braque-georges",
     "@type" : "foaf:Person",
-    "dc:description" : "French artist Georges Braque studied at the École des Beaux-Arts, Le Havre and at the Académie Humbert, Paris. He met Pablo Picasso in 1907, and influenced by the work of Paul Cézanne, together they created the movement which came to be known as Cubism. Braque had his first solo exhibition in 1908. His fame grew in the 1920s and the first major retrospective of his work took place at the Kunsthalle Basel in 1933. Braque’s work is represented in major public collections worldwide.",
-    "dc:source" : "https://imma.ie/artists/georges-braque/",
-    "schema:birthDate" : "1882–1963",
-    "schema:url" : "https://imma.ie/artists/georges-braque/",
-    "rdfs:label" : "Georges Braque"
+    "description" : "French artist Georges Braque studied at the École des Beaux-Arts, Le Havre and at the Académie Humbert, Paris. He met Pablo Picasso in 1907, and influenced by the work of Paul Cézanne, together they created the movement which came to be known as Cubism. Braque had his first solo exhibition in 1908. His fame grew in the 1920s and the first major retrospective of his work took place at the Kunsthalle Basel in 1933. Braque’s work is represented in major public collections worldwide.",
+    "source" : "https://imma.ie/artists/georges-braque/",
+    "birthDate" : "1882–1963",
+    "url" : "https://imma.ie/artists/georges-braque/",
+    "label" : "Georges Braque"
   }, {
     "@id" : "spice:artefact/loiseau-de-feu",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/braque-georges",
     "author" : "spice:agent/braque-georges",
-    "schema:dateCreated" : "1958",
-    "schema:url" : "https://imma.ie/collection/loiseau-de-feu/",
+    "dateCreated" : "1958",
+    "url" : "https://imma.ie/collection/loiseau-de-feu/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/loiseau-de-feu",
-    "arco-cd:hasTitle" : "L’Oiseau de Feu"
+    "hasTitle" : "L’Oiseau de Feu"
   }, {
     "@id" : "spice:artefact/trois-oiseaux-en-vol",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/braque-georges",
     "author" : "spice:agent/braque-georges",
-    "schema:dateCreated" : "1961",
-    "schema:url" : "https://imma.ie/collection/trois-oiseaux-en-vol/",
+    "dateCreated" : "1961",
+    "url" : "https://imma.ie/collection/trois-oiseaux-en-vol/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/trois-oiseaux-en-vol",
-    "arco-cd:hasTitle" : "Trois Oiseaux en Vol"
+    "hasTitle" : "Trois Oiseaux en Vol"
   }, {
     "@id" : "spice:attribution/loiseau-de-feu",
     "@type" : "arco:AuthorshipAttribution",
@@ -42,24 +42,21 @@
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
@@ -70,24 +67,20 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",

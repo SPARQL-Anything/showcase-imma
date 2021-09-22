@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:agent/andrews-benny",
     "@type" : "foaf:Person",
-    "dc:description" : "The American painter, printmaker and collage artist Benny Andrews studied at the Art Institute of Chicago on the GI Bill. He moved to New York in 1958, where he held numerous exhibitions and taught at Queens College, CUNY. In 2002 he and his wife established the Benny Andrews Foundation to help emerging African-American artists, and encourage artists to donate work to institutions dedicated to African- American art.",
-    "dc:source" : "https://imma.ie/artists/benny-andrews/",
-    "schema:birthDate" : "1930–2006",
-    "schema:url" : "https://imma.ie/artists/benny-andrews/",
-    "rdfs:label" : "Benny Andrews"
+    "description" : "The American painter, printmaker and collage artist Benny Andrews studied at the Art Institute of Chicago on the GI Bill. He moved to New York in 1958, where he held numerous exhibitions and taught at Queens College, CUNY. In 2002 he and his wife established the Benny Andrews Foundation to help emerging African-American artists, and encourage artists to donate work to institutions dedicated to African- American art.",
+    "source" : "https://imma.ie/artists/benny-andrews/",
+    "birthDate" : "1930–2006",
+    "url" : "https://imma.ie/artists/benny-andrews/",
+    "label" : "Benny Andrews"
   }, {
     "@id" : "spice:artefact/growing-up",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/andrews-benny",
     "author" : "spice:agent/andrews-benny",
-    "schema:dateCreated" : "1973",
-    "schema:url" : "https://imma.ie/collection/growing-up/",
+    "dateCreated" : "1973",
+    "url" : "https://imma.ie/collection/growing-up/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/growing-up",
-    "arco-cd:hasTitle" : "Growing Up"
+    "hasTitle" : "Growing Up"
   }, {
     "@id" : "spice:attribution/growing-up",
     "@type" : "arco:AuthorshipAttribution",
@@ -28,40 +28,33 @@
       "@type" : "@id"
     },
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "birthDate" : {
-      "@id" : "http://schema.org/birthDate",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/birthDate"
     },
     "url" : {
-      "@id" : "http://schema.org/url",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/url"
     },
     "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
     },
     "dateCreated" : {
-      "@id" : "http://schema.org/dateCreated",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "http://schema.org/dateCreated"
     },
     "author" : {
       "@id" : "http://schema.org/author",
       "@type" : "@id"
     },
     "hasTitle" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
     },
     "hasRelatedAgency" : {
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
@@ -73,7 +66,7 @@
     },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
-    "dom" : "http://dom.spec.whatwg.org/#",
+    "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
     "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
