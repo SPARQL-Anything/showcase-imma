@@ -14,7 +14,7 @@
     "@id" : "spice:documentation/study-for-arcadia",
     "@type" : "schema:ImageObject",
     "caption" : "Gary Coyle, Study for Arcadia, 2004, Charcoal on paper, 53 x 67 cm, Collection Irish Museum of Modern Art, Purchase, 2006 ",
-    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team: info. info",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
     "url" : "https://imma.ie/wp-content/uploads/2018/11/226.jpg"
   } ],
@@ -54,8 +54,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
