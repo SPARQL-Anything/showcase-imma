@@ -1,0 +1,55 @@
+prefix fx: <http://sparql.xyz/facade-x/ns/>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix xhtml: <http://www.w3.org/1999/xhtml#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX spice: <https://w3id.org/spice/imma/>
+PREFIX arco: <https://w3id.org/arco/ontology/arco/> 
+PREFIX arco-cd: <https://w3id.org/arco/ontology/context-description/> 
+PREFIX arco-core: <https://w3id.org/arco/ontology/core/> 
+PREFIX dc: <http://purl.org/dc/elements/1.1/> 
+PREFIX schema: <http://schema.org/> 
+
+
+#CONSTRUCT {
+#	?artefactEntity a schema:CreativeWork ;
+#		schema:image ?artefactDocumentation .
+#	?artefactDocumentation a schema:ImageObject ;
+#	    schema:caption ?ooo ;
+#	    schema:url ?imageUrl ;
+#		schema:maintainer  <https://w3id.org/spice/institute/imma> ;
+#		.
+#}
+SELECT ?thediv ?ii ?iv ?ii2 ?iv2
+
+WHERE {
+	VALUES ( ?_artworkUrl ?_artworkNickname ) { ( "https://imma.ie/collection/beauty-parlor/" "beauty-parlor") } .
+	# 
+	#BIND( REPLACE(REPLACE( ?_artworkUrl, "https://imma.ie/collection/", "" ), "/", "") AS ?artworkNickname  ) .
+	# 
+	BIND ( IRI( CONCAT("x-sparql-anything:media-type=text/html,location=", ?_artworkUrl) ) as ?artworkFx ) .
+#	BIND ( ?_artworkUrl as ?artworkSourceUrl ) .
+#	BIND ( IRI( CONCAT("https://w3id.org/spice/imma/artefact/", ?_artworkNickname) ) as ?artefactEntity ) .
+#	BIND ( IRI( CONCAT("https://w3id.org/spice/imma/documentation/", ?_artworkNickname ) ) AS ?artefactDocumentation ) .
+	# 
+	#	BIND ( IRI( CONCAT("https://w3id.org/spice/imma/documentation/", ?artworkNickname) ) as ?artefactDocumentation ) .
+	# 
+	SERVICE ?artworkFx {
+#	    {
+#	    [] xhtml:itemtype "http://schema.org/ImageObject" ;
+#	        ?li0987 [ rdf:type xhtml:a ; xhtml:href ?imageUrl ]
+#	        .
+#	    } UNION {
+            [] xhtml:class "annotation expander" ; ?i43124 ?thediv .
+            ?thediv    a xhtml:div .
+             {?thediv ?ii ?iv } union {?thediv ?ii2 [rdf:_1 ?iv2 ] }
+#                rdf:_1 [ rdf:type xhtml:a ; rdf:_1 ?captionFrag1 ] ;
+#                rdf:_2 [ rdf:_1 ?captionFrag2 ];
+#                rdf:_3 [ rdf:_1 ?captionFrag3 ];
+#                rdf:_4 [ rdf:_1 ?captionFrag4 ];
+#            ].
+#            BIND(CONCAT(?captionFrag1,?captionFrag2,?captionFrag3,?captionFrag4 ) AS ?caption ) .
+#	    }
+	}
+}

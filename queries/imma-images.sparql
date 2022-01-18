@@ -1,0 +1,20 @@
+prefix fx: <http://sparql.xyz/facade-x/ns/>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix xhtml: <http://www.w3.org/1999/xhtml#>
+prefix dom: <https://html.spec.whatwg.org/#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX spice: <https://w3id.org/spice/imma/>
+PREFIX arco: <https://w3id.org/arco/ontology/arco/> 
+PREFIX arco-cd: <https://w3id.org/arco/ontology/context-description/> 
+PREFIX arco-core: <https://w3id.org/arco/ontology/core/> 
+PREFIX dc: <http://purl.org/dc/elements/1.1/> 
+PREFIX schema: <http://schema.org/> 
+
+select * WHERE {
+	?artwork a schema:ImageObject ;
+			schema:caption ?caption ;
+			 schema:url ?imageUrl 
+			
+}

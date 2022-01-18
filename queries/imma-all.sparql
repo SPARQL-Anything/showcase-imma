@@ -1,0 +1,184 @@
+prefix fx: <http://sparql.xyz/facade-x/ns/>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix xhtml: <http://www.w3.org/1999/xhtml#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX spice: <https://w3id.org/spice/imma/>
+PREFIX arco: <https://w3id.org/arco/ontology/arco/> 
+PREFIX arco-cd: <https://w3id.org/arco/ontology/context-description/> 
+PREFIX arco-core: <https://w3id.org/arco/ontology/core/> 
+PREFIX dc: <http://purl.org/dc/elements/1.1/> 
+PREFIX schema: <http://schema.org/> 
+
+CONSTRUCT {
+	?artistEntity dc:source ?artistUrl ; 
+		dc:name ?artistName; 
+		dc:date ?now ;
+		schema:birthDate ?dob ;
+		dc:description ?artistDescription 
+		.
+	?artefactEntity a arco:CulturalProperty ;
+		dc:creator ?artistEntity ;
+		dc:source ?artistUrl ;
+		arco:hasRelatedAgency <https://w3id.org/spice/institute/imma> ; # keeper
+		arco-cd:hasDocumentation ?artefactDocumentation ;
+		arco-cd:hasTitle ?artefactTitle ;
+		arco-cd:hasDating ?artefactYear
+		.
+	?artefactDocumentation
+		arco-cd:hasDocumentationType <https://w3id.org/spice/doc_type/catalogue_photograph> ;
+		arco-cd:url ?artefactImageUrl 
+		.
+
+	?artefactEntity a schema:CreativeWork ;
+		dc:source ?artworkUrl ;
+		arco-cd:hasInventory ?artworkCatalogueID ;
+		dc:description ?artworkDescription ;
+		schema:creditText ?artworkCreditLine ;
+		schema:size ?artworkDimensions ;
+		schema:maintainer  <https://w3id.org/spice/institute/imma> ;
+		schema:material ?artworkMedium ;
+		schema:version ?artworkEdition 
+		.
+}			
+# 
+# 
+#select *	
+WHERE {
+	# 
+    SERVICE <x-sparql-anything:media-type=text/html,html.selector=#az-group,location=https://imma.ie/artists/> {
+        [] xhtml:data-image ?dataImage ;
+			rdf:_1 [
+			   xhtml:href ?artistUrl ;
+#			   rdf:_1 [rdf:_1 ?artistNickname ] ;
+			   rdf:_2 ?artistName
+			].
+    } .
+	# 
+	BIND ( REPLACE (?artistUrl, "https://imma.ie/artists/", "") AS ?artistNickname ) .
+	BIND ( IRI( CONCAT("https://w3id.org/spice/imma/agent/", ?artistNickname) ) as ?artistEntity ) .
+	BIND ( NOW() as ?now ) .
+	# 
+	# 
+	# ARTIST and ARTWORKS
+	BIND ( IRI( CONCAT("x-sparql-anything:media-type=text/html,location=", ?artistUrl) ) as ?artistFx ) .	
+	#SERVICE <x-sparql-anything:media-type=text/html,location=https://imma.ie/artists/suzanne-ohaire/> {
+	SERVICE ?artistFx {
+			[] xhtml:class "low_lrg" ; 
+#				?li1 [ 
+#					rdf:type xhtml:strong ; 
+#					rdf:_1 ?artistName ] ;
+				?li2 [
+					rdf:type xhtml:span ;
+					rdf:_1 ?dob ] 
+			.
+			
+			[] 
+					xhtml:class "header_para" ;
+					rdf:_1 ?artistDescription 
+			.
+			
+			[] rdf:type xhtml:div ; #;
+				xhtml:class "col_3 flush grid-item collection-grid-item  " ;
+				xhtml:data-obj ?objectId ;
+				?li3 [
+					rdf:type xhtml:a ;
+					xhtml:href ?artefactUrl ;
+					rdf:_1/rdf:_1 [
+						rdf:type xhtml:img ;
+						xhtml:src ?artefactImageUrl ; xhtml:alt ?artefactTitle ] ] ;
+				?li4 [
+					rdf:type xhtml:h4 ;
+					?li5 [
+						rdf:type xhtml:span ;
+						xhtml:class "artwork-year" ;
+						rdf:_1 ?artefactYear ]]
+	}
+	
+	BIND ( IRI( CONCAT("https://w3id.org/spice/imma/artefact/", REPLACE( ?artefactUrl , 'https://imma.ie/collection/', '' )) ) as ?artefactEntity ) .
+	
+	BIND ( IRI( CONCAT("https://w3id.org/spice/imma/documentation/", REPLACE( ?artefactUrl , 'https://imma.ie/collection/', '' )) ) as ?artefactDocumentation ) .
+	# 
+	# 
+	# EACH ARTWORK
+	# 
+	BIND ( IRI( CONCAT("x-sparql-anything:media-type=text/html,location=", ?artefactUrl) ) as ?artworkFx ) .
+	# 
+	#BIND ( IRI( CONCAT("https://w3id.org/spice/imma/artefact/",  REPLACE( ?artefactUrl , 'https://imma.ie/collection/', '' )) ) as ?artefactEntity ) .
+	# 
+	#	BIND ( IRI( CONCAT("https://w3id.org/spice/imma/documentation/", ?artworkNickname) ) as ?artefactDocumentation ) .
+	# 
+	SERVICE ?artworkFx {{
+		[] xhtml:id "artwork-content" ;
+			?i0 [
+				rdf:type xhtml:p ;
+				rdf:_1 ?artworkDescription
+			]
+		.
+		} UNION {
+		[] rdf:type xhtml:tr ;
+			?i1 [
+				rdf:type xhtml:td ;
+				rdf:_1 "Medium" ;
+			] ;
+			?i2 [
+				rdf:type xhtml:td ;
+				rdf:_1 ?artworkMedium ;
+			] 
+		.
+		} UNION {
+		[] rdf:type xhtml:tr ;
+			?i1 [
+				rdf:type xhtml:td ;
+				rdf:_1 "Dimensions" ;
+			] ;
+			?i2 [
+				rdf:type xhtml:td ;
+				rdf:_1 ?artworkDimensions ;
+			] 
+		.
+		} UNION {
+		[] rdf:type xhtml:tr ;
+			?i1 [
+				rdf:type xhtml:td ;
+				rdf:_1 "Credit Line" ;
+			] ;
+			?i2 [
+				rdf:type xhtml:td ;
+				rdf:_1 ?artworkCreditLine ;
+			] 
+		.
+		} UNION {
+		[] rdf:type xhtml:tr ;
+			?i1 [
+				rdf:type xhtml:td ;
+				rdf:_1 "Edition" ;
+			] ;
+			?i2 [
+				rdf:type xhtml:td ;
+				rdf:_1 ?artworkEdition ;
+			] 
+		.
+		} UNION {
+		[] rdf:type xhtml:tr ;
+			?i1 [
+				rdf:type xhtml:td ;
+				rdf:_1 "Item Number" ;
+			] ;
+			?i2 [
+				rdf:type xhtml:td ;
+				rdf:_1 ?artworkCatalogueID ;
+			] 
+		.
+		} UNION {
+		[] xhtml:class "tags" ;
+			?i1 [
+				rdf:type xhtml:li ;
+				rdf:_1 [
+					?iii ?tag ] ;
+			] 		
+		.
+	}}
+	.
+}

@@ -1,0 +1,12 @@
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix xhtml: <http://www.w3.org/1999/xhtml#>
+
+CONSTRUCT {
+  ?x ?y ?z
+} WHERE {
+    SERVICE <x-sparql-anything:media-type=text/html,html.selector=#az-group,location=https://imma.ie/artists/> {
+	    ?x ?y ?z
+    } .
+}
+
+
