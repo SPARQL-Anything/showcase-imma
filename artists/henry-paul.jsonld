@@ -18,46 +18,11 @@
     "hasAuthorshipAttribution" : "spice:attribution/errigal-co-donegal",
     "hasTitle" : "Errigal, Co. Donegal"
   }, {
-    "@id" : "spice:artefact/lake-and-blue-mountains-of-connemara",
-    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
-    "creator" : "spice:agent/henry-paul",
-    "author" : "spice:agent/henry-paul",
-    "dateCreated" : {
-      "@id" : "_:b0"
-    },
-    "url" : "https://imma.ie/collection/lake-and-blue-mountains-of-connemara/",
-    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
-    "hasAuthorshipAttribution" : "spice:attribution/lake-and-blue-mountains-of-connemara",
-    "hasTitle" : "Lake and Blue Mountains of Connemara"
-  }, {
     "@id" : "spice:attribution/errigal-co-donegal",
-    "@type" : "arco:AuthorshipAttribution",
-    "hasAttributedAuthor" : "spice:agent/henry-paul"
-  }, {
-    "@id" : "spice:attribution/lake-and-blue-mountains-of-connemara",
     "@type" : "arco:AuthorshipAttribution",
     "hasAttributedAuthor" : "spice:agent/henry-paul"
   } ],
   "@context" : {
-    "hasAttributedAuthor" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
-      "@type" : "@id"
-    },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
-    "birthDate" : {
-      "@id" : "http://schema.org/birthDate"
-    },
-    "url" : {
-      "@id" : "http://schema.org/url"
-    },
-    "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source"
-    },
-    "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
-    },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
@@ -76,12 +41,31 @@
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
-    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
     "schema" : "http://schema.org/",
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

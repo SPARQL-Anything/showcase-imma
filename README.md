@@ -24,3 +24,14 @@ Extract data from the artworks' Web pages and build one JSON-LD file each (creat
 fx -q imma-artwork.sparql -i imma-artworks.xml -p "artworks/?artworkNickname.jsonld" -f json
 ```
 Load into your favourite triple store.
+
+## Extract single entries
+
+Extract data from a specific artist Web page:
+```
+fx -q imma-artist.sparql -v artistNickname=lambert-gene -v artistUrl=https://imma.ie/artists/gene-lambert/ -p "artists/?artistNickname.jsonld" -f json
+```
+Extract data from a specific artwork Web page:
+```
+fx -q imma-artwork.sparql  -v artworkNickname=naturaleza-desde-la-ventana -v artworkUrl=https://imma.ie/collection/naturaleza-desde-la-ventana/ -p "artworks/?artworkNickname.jsonld" -f json
+```

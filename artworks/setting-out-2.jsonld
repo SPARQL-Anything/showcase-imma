@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/setting-out-2",
     "@type" : "schema:CreativeWork",
-    "description" : "Probing the politics and spatial logic of architecture, Setting Out 2 (2020) employs neon builders line, nylon string that is designed to mark long straight lines and used in construction to transfer architectural drawings onto the ground. Transporting what is conventionally on a horizontal plane to the vertical plane of the wall, the strings form a line drawing whose composition is determined by the floor plan of Tallentire’s home. Paper markers on the string demarcate lengths that correspond to the circumference of different rooms in the home, such as the kitchen and bedrooms, indexing the spatial logic of the house.",
+    "description" : "Probing the politics and spatial logic of architecture, Setting Out 2 (2020) employs neon builders line, nylon string that is designed to mark long straight lines and used in construction to transfer architectural drawings onto the ground. Transporting what is conventionally on a horizontal plane to the vertical plane of the wall, the strings form a line drawing whose composition is determined by the floor plan of Tallentire’s home. Paper markers on the string demarcate lengths that correspond to the circumference of different rooms in the home, such as the kitchen and bedrooms, indexing the spatial logic of the house. ",
     "source" : "https://imma.ie/collection/setting-out-2/",
     "creditText" : "IMMA Collection: Purchase, 2020, 2020",
     "image" : "spice:documentation/setting-out-2",
@@ -16,7 +16,7 @@
     "caption" : "Anne Tallentire, Setting Out 2, 2020, Builders string, flathead screws, tape, variable, Collection Irish Museum of Modern Art, Purchase, 2020, 2020 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2021/05/9467.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2021/11/9467.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

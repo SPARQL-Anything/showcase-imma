@@ -14,7 +14,8 @@
     "@type" : "schema:ImageObject",
     "caption" : "Rhona Byrne, Bolthole, 2012, Fabric, plastic, carpet and fasteners, Collection Irish Museum of Modern Art, Purchase, Hennessy Art Fund for IMMA Collection, 2016 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
-    "maintainer" : "https://w3id.org/spice/institute/imma"
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "url" : "https://imma.ie/wp-content/uploads/2021/09/8024-scaled.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -27,6 +28,9 @@
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
@@ -36,18 +40,18 @@
     "material" : {
       "@id" : "http://schema.org/material"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -16,7 +16,8 @@
     "@type" : "schema:ImageObject",
     "caption" : "Wolfgang Tillmans, Gedser, 2004, unframed inkjet print, 203 x 138 cm, Collection Irish Museum of Modern Art, Purchase, 2019, 2019 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
-    "maintainer" : "https://w3id.org/spice/institute/imma"
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "url" : "https://imma.ie/wp-content/uploads/2021/01/Gedser-2.png"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -28,6 +29,9 @@
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
     },
     "size" : {
       "@id" : "http://schema.org/size"
@@ -54,8 +58,8 @@
     "version" : {
       "@id" : "http://schema.org/version"
     },
-    "arco-core" : "https://w3id.org/arco/ontology/core/",
     "schema" : "http://schema.org/",
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
