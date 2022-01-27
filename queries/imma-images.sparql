@@ -13,8 +13,5 @@ PREFIX dc: <http://purl.org/dc/elements/1.1/>
 PREFIX schema: <http://schema.org/> 
 
 select * WHERE {
-	?artwork a schema:ImageObject ;
-			schema:caption ?caption ;
-			 schema:url ?imageUrl 
-			
+     graph ?g { ?artwork schema:url ?imageUrl ; schema:caption ?caption ;}
 }
