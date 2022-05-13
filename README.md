@@ -99,10 +99,11 @@ These queries can be used to execute only one specific artists/artwork. In addit
 
 Extract data from a specific artist Web page:
 ```
-fx -q imma-artist.sparql -v artistNickname=lambert-gene -v artistUrl=https://imma.ie/artists/gene-lambert/ -p "artists/?artistNickname.jsonld" -f json
+fx -q queries/imma-artist.sparql -v artistNickname=lambert-gene -v artistUrl=https://imma.ie/artists/gene-lambert/ -p "artists/?artistNickname.jsonld" -f json
 ```
 
 Extract data from a specific artwork Web page:
 ```
-fx -q imma-artwork.sparql  -v artworkNickname=naturaleza-desde-la-ventana -v artworkUrl=https://imma.ie/collection/naturaleza-desde-la-ventana/ -p "artworks/?artworkNickname.jsonld" -f json
+fx -q queries/imma-artwork.sparql  -v artworkNickname=naturaleza-desde-la-ventana -v artworkUrl=https://imma.ie/collection/naturaleza-desde-la-ventana/ -p "artworks/?artworkNickname.jsonld" -f json
+fx -q queries/imma-artwork.sparql  -v artworkNickname=berry-dress -v artworkUrl=https://imma.ie/collection/berry-dress/ -p "artworks/?artworkNickname.jsonld" -f json
 ```
