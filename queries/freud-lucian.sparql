@@ -1,4 +1,8 @@
 PREFIX arco-cd: <https://w3id.org/arco/ontology/context-description/>  
 PREFIX dc: <http://purl.org/dc/elements/1.1/>   
 PREFIX schema: <http://schema.org/>
-SELECT ?artwork ?image WHERE { 	?artwork dc:creator <https://w3id.org/spice/imma/agent/freud-lucian> . 	OPTIONAL { ?artwork schema:image/schema:url ?image} }
+SELECT ?artwork ?image
+WHERE {
+    ?artwork dc:creator <https://w3id.org/spice/imma/agent/freud-lucian> .
+    OPTIONAL { ?artwork schema:image/schema:url ?image }
+}

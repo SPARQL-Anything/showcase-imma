@@ -3,9 +3,9 @@ prefix xhtml: <http://www.w3.org/1999/xhtml#>
 PREFIX xyz:  <http://sparql.xyz/facade-x/data/>
 PREFIX fx:   <http://sparql.xyz/facade-x/ns/>
 
-select distinct ?artistUrl ?artistNickname
+SELECT DISTINCT ?artistUrl ?artistNickname
 WHERE {
-    SERVICE <x-sparql-anything:media-type=text/html,html.selector=#az-group,location=https://imma.ie/artists/> {
+    SERVICE <x-sparql-anything:media-type=text/html,html.selector=#	,location=https://imma.ie/artists/> {
         [] xhtml:data-image [] ;
 			rdf:_1 [
 			   xhtml:href ?artistUrl ;
@@ -13,8 +13,5 @@ WHERE {
 			].
     } .
 
-	BIND( fx:String.trim(  ?artistNickname2 ) as ?artistNickname ) .
-	BIND ( IRI( CONCAT("https://w3id.org/spice/imma/agent/", ?artistNickname ) ) as ?artistEntity ) .
+	BIND( fx:String.trim(  ?artistNickname2 ) AS ?artistNickname ) .
 }
-
-

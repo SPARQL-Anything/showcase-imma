@@ -57,12 +57,12 @@ WHERE {
     } .
 	# 
 	BIND ( REPLACE (?artistUrl, "https://imma.ie/artists/", "") AS ?artistNickname ) .
-	BIND ( IRI( CONCAT("https://w3id.org/spice/imma/agent/", ?artistNickname) ) as ?artistEntity ) .
-	BIND ( NOW() as ?now ) .
+	BIND ( IRI( CONCAT("https://w3id.org/spice/imma/agent/", ?artistNickname) ) AS ?artistEntity ) .
+	BIND ( NOW() AS ?now ) .
 	# 
 	# 
 	# ARTIST and ARTWORKS
-	BIND ( IRI( CONCAT("x-sparql-anything:media-type=text/html,location=", ?artistUrl) ) as ?artistFx ) .	
+	BIND ( IRI( CONCAT("x-sparql-anything:media-type=text/html,location=", ?artistUrl) ) AS ?artistFx ) .	
 	#SERVICE <x-sparql-anything:media-type=text/html,location=https://imma.ie/artists/suzanne-ohaire/> {
 	SERVICE ?artistFx {
 			[] xhtml:class "low_lrg" ; 
@@ -96,18 +96,18 @@ WHERE {
 						rdf:_1 ?artefactYear ]]
 	}
 	
-	BIND ( IRI( CONCAT("https://w3id.org/spice/imma/artefact/", REPLACE( ?artefactUrl , 'https://imma.ie/collection/', '' )) ) as ?artefactEntity ) .
+	BIND ( IRI( CONCAT("https://w3id.org/spice/imma/artefact/", REPLACE( ?artefactUrl , 'https://imma.ie/collection/', '' )) ) AS ?artefactEntity ) .
 	
-	BIND ( IRI( CONCAT("https://w3id.org/spice/imma/documentation/", REPLACE( ?artefactUrl , 'https://imma.ie/collection/', '' )) ) as ?artefactDocumentation ) .
+	BIND ( IRI( CONCAT("https://w3id.org/spice/imma/documentation/", REPLACE( ?artefactUrl , 'https://imma.ie/collection/', '' )) ) AS ?artefactDocumentation ) .
 	# 
 	# 
 	# EACH ARTWORK
 	# 
-	BIND ( IRI( CONCAT("x-sparql-anything:media-type=text/html,location=", ?artefactUrl) ) as ?artworkFx ) .
+	BIND ( IRI( CONCAT("x-sparql-anything:media-type=text/html,location=", ?artefactUrl) ) AS ?artworkFx ) .
 	# 
-	#BIND ( IRI( CONCAT("https://w3id.org/spice/imma/artefact/",  REPLACE( ?artefactUrl , 'https://imma.ie/collection/', '' )) ) as ?artefactEntity ) .
+	#BIND ( IRI( CONCAT("https://w3id.org/spice/imma/artefact/",  REPLACE( ?artefactUrl , 'https://imma.ie/collection/', '' )) ) AS ?artefactEntity ) .
 	# 
-	#	BIND ( IRI( CONCAT("https://w3id.org/spice/imma/documentation/", ?artworkNickname) ) as ?artefactDocumentation ) .
+	#	BIND ( IRI( CONCAT("https://w3id.org/spice/imma/documentation/", ?artworkNickname) ) AS ?artefactDocumentation ) .
 	# 
 	SERVICE ?artworkFx {{
 		[] xhtml:id "artwork-content" ;
