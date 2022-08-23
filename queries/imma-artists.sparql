@@ -5,7 +5,7 @@ PREFIX fx:   <http://sparql.xyz/facade-x/ns/>
 
 SELECT DISTINCT ?artistUrl ?artistNickname
 WHERE {
-    SERVICE <x-sparql-anything:media-type=text/html,html.selector=#	,location=https://imma.ie/artists/> {
+    SERVICE <x-sparql-anything:media-type=text/html,html.selector=#az-group,location=https://imma.ie/artists/> {
         [] xhtml:data-image [] ;
 			rdf:_1 [
 			   xhtml:href ?artistUrl ;
