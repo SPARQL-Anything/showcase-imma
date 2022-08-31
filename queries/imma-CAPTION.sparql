@@ -28,12 +28,12 @@ WHERE {
 	# 
 	#BIND( REPLACE(REPLACE( ?_artworkUrl, "https://imma.ie/collection/", "" ), "/", "") AS ?artworkNickname  ) .
 	# 
-	BIND ( IRI( CONCAT("x-sparql-anything:media-type=text/html,location=", ?_artworkUrl) ) as ?artworkFx ) .
-#	BIND ( ?_artworkUrl as ?artworkSourceUrl ) .
-#	BIND ( IRI( CONCAT("https://w3id.org/spice/imma/artefact/", ?_artworkNickname) ) as ?artefactEntity ) .
+	BIND ( IRI( CONCAT("x-sparql-anything:media-type=text/html,location=", ?_artworkUrl) ) AS ?artworkFx ) .
+#	BIND ( ?_artworkUrl AS ?artworkSourceUrl ) .
+#	BIND ( IRI( CONCAT("https://w3id.org/spice/imma/artefact/", ?_artworkNickname) ) AS ?artefactEntity ) .
 #	BIND ( IRI( CONCAT("https://w3id.org/spice/imma/documentation/", ?_artworkNickname ) ) AS ?artefactDocumentation ) .
 	# 
-	#	BIND ( IRI( CONCAT("https://w3id.org/spice/imma/documentation/", ?artworkNickname) ) as ?artefactDocumentation ) .
+	#	BIND ( IRI( CONCAT("https://w3id.org/spice/imma/documentation/", ?artworkNickname) ) AS ?artefactDocumentation ) .
 	# 
 	SERVICE ?artworkFx {
 #	    {

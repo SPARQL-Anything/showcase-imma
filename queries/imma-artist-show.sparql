@@ -36,8 +36,8 @@ CONSTRUCT {
 		arco-cd:url ?artefactImageUrl
 } WHERE {
 	# To be implemented by BASIL variables
-	BIND ( IRI( CONCAT("https://w3id.org/spice/imma/agent/", ?_artistNickname) ) as ?artistEntity ) .
-	BIND ( IRI( CONCAT("x-sparql-anything:media-type=text/html,location=", ?_artistUrl) ) as ?artistFx ) .
+	BIND ( IRI( CONCAT("https://w3id.org/spice/imma/agent/", ?_artistNickname) ) AS ?artistEntity ) .
+	BIND ( IRI( CONCAT("x-sparql-anything:media-type=text/html,location=", ?_artistUrl) ) AS ?artistFx ) .
 	SERVICE ?artistFx {
         {
 			[] xhtml:class "low_lrg" ;
@@ -74,14 +74,14 @@ CONSTRUCT {
 						rdf:type xhtml:img ;
 						xhtml:src ?artefactImageUrl ] .
 			    # We have a documentation only if we have an image
-	            BIND ( IRI( CONCAT("https://w3id.org/spice/imma/documentation/", ?artefactNickname ) ) as ?artefactDocumentation ) .
+	            BIND ( IRI( CONCAT("https://w3id.org/spice/imma/documentation/", ?artefactNickname ) ) AS ?artefactDocumentation ) .
 			}
     	} UNION {
 		    [] rdf:_1 [ rdf:type xhtml:h2 ] ; rdf:_2 [ rdf:type xhtml:p ; rdf:_1 ?artistDescription ] .
 		}
         BIND ( REPLACE(REPLACE( ?artefactUrl , 'https://imma.ie/collection/', '' ),"/","") AS ?artefactNickname ) .
-        BIND ( IRI( CONCAT( "https://w3id.org/spice/imma/artefact/", ?artefactNickname ) ) as ?artefactEntity ) .
-        BIND ( IRI( CONCAT( "https://w3id.org/spice/imma/attribution/", ?artefactNickname ) ) as ?artefactAttribution ) .
+        BIND ( IRI( CONCAT( "https://w3id.org/spice/imma/artefact/", ?artefactNickname ) ) AS ?artefactEntity ) .
+        BIND ( IRI( CONCAT( "https://w3id.org/spice/imma/attribution/", ?artefactNickname ) ) AS ?artefactAttribution ) .
 	}
 }
 
