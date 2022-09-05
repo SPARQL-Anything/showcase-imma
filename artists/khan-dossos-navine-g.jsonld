@@ -1,0 +1,39 @@
+{
+  "@id" : "spice:agent/khan-dossos-navine-g",
+  "@type" : "foaf:Person",
+  "description" : [ "Navine G. Khan-Dossos is a visual artist working between London and Athens. Her interests include Orientalism in the digital realm, geometry as information and decoration, image calibration, and Aniconism in contemporary culture. She has developed a form of geometric abstraction that merges the traditional Aniconism of Islamic art with the algorithmic nature of the interconnected world we live in. This is not the formal abstraction we understand from the western history of art, but something essentially informational, and committed to investigation and communication.", "Navine G. Khan-Dossos is a visual artist working between London and Athens. Her interests include Orientalism in the digital realm, geometry as information and decoration, image calibration, and Aniconism in contemporary culture." ],
+  "source" : "https://imma.ie/artists/navine-g-khan-dossos/",
+  "birthDate" : "b.1982",
+  "url" : "https://imma.ie/artists/navine-g-khan-dossos/",
+  "label" : "Navine G. Khan-Dossos",
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "@id" : "spice:agent/an-uncommon-practice",
+  "@type" : "foaf:Person",
+  "description" : [ "An Uncommon Practice is an archive project which looks at the life and cultural actions of artist Maurice O’Connell 1966 – 2018, distinguished by his persistent, mischievous, and incisive inquiry into the role of the artist in society. In his quest O’Connell engaged widely in community and institutional contexts and often chose to undertake conscious acts of cultural sabotage and provocation. O’Connell sustained an extensive range of collaborative practices – explored mainly through installation and site-specific actions – including a central role with The Tribal Project at IMMA, a three-year incremental programme with children spanning 1994 – 1996 with related documentary and evaluative work in 1997, undertaken by Wet Paint Arts.", "An Uncommon Practice is an archive project which looks at the life and cultural actions of artist Maurice O'Connell 1966 – 2018, distinguished by his persistent, mischievous, and incisive inquiry into the role of the artist in society." ],
+  "source" : "https://imma.ie/artists/an-uncommon-practice/",
+  "url" : "https://imma.ie/artists/an-uncommon-practice/",
+  "label" : "An Uncommon Practice",
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

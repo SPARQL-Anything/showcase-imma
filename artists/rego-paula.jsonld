@@ -2,9 +2,9 @@
   "@graph" : [ {
     "@id" : "spice:agent/rego-paula",
     "@type" : "foaf:Person",
-    "description" : [ "Born in Lisbon, Portugal in 1935, Dame Paula Rego trained at the Slade School of Fine Art, London. Rego is celebrated for her bold and intense paintings, drawings and prints, which intertwine the private and the public, the intimate and the political, the real and the imagined, combining autobiographical elements with stories from literature, folklore, and mythology, references to earlier art, and observations on the contemporary world.. Rego lives and works in London and has exhibited widely in Britain and internationally. Since 2004, major retrospectives of her work have been held at Tate Britain, Birmingham Museum and Art Gallery and the Museo Nacional Centro de Arte Reina Sofía, Madrid.", "Born in Lisbon, Portugal in 1935, Dame Paula Rego trained at the Slade School of Fine Art, London. Rego is celebrated for her bold and intense paintings, drawings and prints, which intertwine the private and the public, the intimate and the political, the real and the imagined, combining autobiographical elements with stories from literature, folklore, and mythology, references to earlier art, and observations on the contemporary world." ],
+    "description" : [ "Born in Lisbon, Portugal in 1935, Dame Paula Rego trained at the Slade School of Fine Art, London. Rego is celebrated for her bold and intense paintings, drawings and prints, which intertwine the private and the public, the intimate and the political, the real and the imagined, combining autobiographical elements with stories from literature, folklore, and mythology, references to earlier art, and observations on the contemporary world.. Rego lives and works in London and has exhibited widely in Britain and internationally. Since 2004, major retrospectives of her work have been held at Tate Britain, Birmingham Museum and Art Gallery and the Museo Nacional Centro de Arte Reina Sofía, Madrid.", "Born in Portugal in 1935, Paula Rego trained at the Slade School of Fine Art, London. Her work is highly figurative, and often relates specifically to folk tales, fairy tales, children’s literature and nursery rhymes. Rego lives and works in London and has exhibited widely in Britain and internationally. Since 2004, major retrospectives of her work have been held at Tate Britain, Birmingham Museum and Art Gallery and the Museo Nacional Centro de Arte Reina Sofía, Madrid." ],
     "source" : "https://imma.ie/artists/paula-rego/",
-    "birthDate" : "b.1935",
+    "birthDate" : "1935–2022",
     "url" : "https://imma.ie/artists/paula-rego/",
     "label" : "Paula Rego"
   }, {
@@ -106,8 +106,8 @@
     "label" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

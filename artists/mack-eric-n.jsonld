@@ -1,0 +1,35 @@
+{
+  "@id" : "spice:agent/mack-eric-n",
+  "@type" : "foaf:Person",
+  "description" : "Pushing the boundaries of painting and object, of art and fashion, Eric N. Mack uses fabric, worn clothes, dye, blankets, paint, bleach, magazine cut-outs and photographs to create three-dimensional tactile assemblages in which colour, form, texture and line become both intimate and culturally significant.",
+  "source" : "https://imma.ie/artists/eric-n-mack/",
+  "url" : "https://imma.ie/artists/eric-n-mack/",
+  "label" : "The Douglas Hyde Gallery Production Residency with artist Eric N. Mack",
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

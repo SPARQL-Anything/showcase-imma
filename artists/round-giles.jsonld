@@ -1,18 +1,88 @@
 {
-  "@id" : "spice:agent/round-giles",
-  "@type" : "foaf:Person",
-  "description" : "_:b0",
-  "dc:description" : "Giles Round",
-  "source" : "https://imma.ie/artists/giles-round/",
-  "url" : "https://imma.ie/artists/giles-round/",
-  "label" : "Giles Round",
+  "@graph" : [ {
+    "@id" : "spice:agent/round-giles",
+    "@type" : "foaf:Person",
+    "description" : "_:b0",
+    "dc:description" : "Giles Round",
+    "source" : "https://imma.ie/artists/giles-round/",
+    "url" : "https://imma.ie/artists/giles-round/",
+    "label" : "Giles Round"
+  }, {
+    "@id" : "spice:artefact/a-day-like-any-other",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/round-giles",
+    "author" : "spice:agent/round-giles",
+    "dateCreated" : "2011",
+    "url" : "https://imma.ie/collection/a-day-like-any-other/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/a-day-like-any-other",
+    "hasTitle" : "A Day Like Any Other"
+  }, {
+    "@id" : "spice:artefact/ark-of-dreaming",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/round-giles",
+    "author" : "spice:agent/round-giles",
+    "dateCreated" : "1990",
+    "url" : "https://imma.ie/collection/ark-of-dreaming/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/ark-of-dreaming",
+    "hasTitle" : "Ark of Dreaming"
+  }, {
+    "@id" : "spice:artefact/brian-in-the-light-of-experience",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/round-giles",
+    "author" : "spice:agent/round-giles",
+    "dateCreated" : "1984",
+    "url" : "https://imma.ie/collection/brian-in-the-light-of-experience/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/brian-in-the-light-of-experience",
+    "hasTitle" : "Brian in the Light of Experience"
+  }, {
+    "@id" : "spice:attribution/a-day-like-any-other",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/round-giles"
+  }, {
+    "@id" : "spice:attribution/ark-of-dreaming",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/round-giles"
+  }, {
+    "@id" : "spice:attribution/brian-in-the-light-of-experience",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/round-giles"
+  } ],
   "@context" : {
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
+    "hasAuthorshipAttribution" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
+      "@type" : "@id"
+    },
+    "dateCreated" : {
+      "@id" : "http://schema.org/dateCreated"
+    },
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "hasTitle" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasTitle"
+    },
+    "hasRelatedAgency" : {
+      "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
     "url" : {
       "@id" : "http://schema.org/url"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "@id"
     },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
@@ -20,8 +90,8 @@
     "label" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

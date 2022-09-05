@@ -2,6 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:agent/cullen-shane",
     "@type" : "foaf:Person",
+    "description" : [ "Shane Cullen is an Irish artist who lives and works in Co. Sligo. He is a native of Longford and he has also lived in the Liberties, in the heart of old Dublin. At present his home and studio are located in Kilmactranny, North Sligo, a small townland rich in legend and history and associated with the Tuatha de Danaan and Douglas Hyde, first President of Ireland and founder of the Gaelic League.", "Shane Cullen is an Irish artist who lives and works in Co. Sligo. His work is characterised by a strong interest in politics, history and heritage. The representation of text and language has been consistent in his artwork to date. While some of his best known work is of a monumental scale (Fragmens sur Les Institutions IV, 1992-1996) and the Agreement (1998-2002)." ],
     "source" : "https://imma.ie/artists/shane-cullen/",
     "birthDate" : "b.1957",
     "url" : "https://imma.ie/artists/shane-cullen/",
@@ -22,6 +23,9 @@
     "hasAttributedAuthor" : "spice:agent/cullen-shane"
   } ],
   "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "birthDate" : {
       "@id" : "http://schema.org/birthDate"
     },
@@ -60,8 +64,8 @@
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

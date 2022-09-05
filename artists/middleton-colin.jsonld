@@ -308,6 +308,30 @@
     "hasAuthorshipAttribution" : "spice:attribution/mooncatcher-family",
     "hasTitle" : "Mooncatcher family"
   }, {
+    "@id" : "spice:artefact/moonface-for-gay-mcintyre-2-of-5",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "dateCreated" : {
+      "@id" : "_:b1"
+    },
+    "url" : "https://imma.ie/collection/moonface-for-gay-mcintyre-2-of-5/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/moonface-for-gay-mcintyre-2-of-5",
+    "hasTitle" : "Moonface (for Gay McIntyre) 2 of 5"
+  }, {
+    "@id" : "spice:artefact/mr-spinx-for-john-coltrane-3-of-5",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "dateCreated" : {
+      "@id" : "_:b2"
+    },
+    "url" : "https://imma.ie/collection/mr-spinx-for-john-coltrane-3-of-5/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/mr-spinx-for-john-coltrane-3-of-5",
+    "hasTitle" : "Mr Spinx (for John Coltrane) 3 of 5"
+  }, {
     "@id" : "spice:artefact/opus-1-no-15-1941",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/middleton-colin",
@@ -447,6 +471,18 @@
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-sisters",
     "hasTitle" : "The Sisters"
+  }, {
+    "@id" : "spice:artefact/to-and-fro-for-jimmy-yancy-4-of-5",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/middleton-colin",
+    "author" : "spice:agent/middleton-colin",
+    "dateCreated" : {
+      "@id" : "_:b0"
+    },
+    "url" : "https://imma.ie/collection/to-and-fro-for-jimmy-yancy-4-of-5/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/to-and-fro-for-jimmy-yancy-4-of-5",
+    "hasTitle" : "To and Fro (for Jimmy Yancy) 4 of 5"
   }, {
     "@id" : "spice:artefact/untitled-120",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
@@ -748,6 +784,14 @@
     "@type" : "arco:AuthorshipAttribution",
     "hasAttributedAuthor" : "spice:agent/middleton-colin"
   }, {
+    "@id" : "spice:attribution/moonface-for-gay-mcintyre-2-of-5",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/mr-spinx-for-john-coltrane-3-of-5",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
     "@id" : "spice:attribution/opus-1-no-15-1941",
     "@type" : "arco:AuthorshipAttribution",
     "hasAttributedAuthor" : "spice:agent/middleton-colin"
@@ -801,6 +845,10 @@
     "hasAttributedAuthor" : "spice:agent/middleton-colin"
   }, {
     "@id" : "spice:attribution/the-sisters",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/middleton-colin"
+  }, {
+    "@id" : "spice:attribution/to-and-fro-for-jimmy-yancy-4-of-5",
     "@type" : "arco:AuthorshipAttribution",
     "hasAttributedAuthor" : "spice:agent/middleton-colin"
   }, {
@@ -918,8 +966,8 @@
     "label" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

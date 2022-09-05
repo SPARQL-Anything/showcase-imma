@@ -1,15 +1,13 @@
 {
   "@id" : "spice:agent/collins-aoife",
   "@type" : "foaf:Person",
-  "description" : "_:b0",
-  "dc:description" : "Aoife Collins interdisciplinary practice explores the transience and mutability of objects, ideas and public personas, especially the filtering down from ‘highbrow’ to popular culture and the inherent changes of form and meaning that occur in these circumstances.",
+  "description" : [ "Aoife Collins interdisciplinary practice explores the transience and mutability of objects, ideas and public personas, especially the filtering down from ‘highbrow’ to popular culture and the inherent changes of form and meaning that occur in these circumstances. In effect, her practice reflects on how history, culture and fashion collide, and on the multitude of different strategies of communication. Collins work looks at the navigation of our cultural landscape, how cultural paraphernalia and ideas are disseminated and resonate with wide audiences. In regards to materials, objects and images, Collins questions their function, their potentiality to escape their positioning, and their ability to take on new identities.", "Aoife Collins interdisciplinary practice explores the transience and mutability of objects, ideas and public personas, especially the filtering down from ‘highbrow’ to popular culture and the inherent changes of form and meaning that occur in these circumstances." ],
   "source" : "https://imma.ie/artists/aoife-collins/",
   "url" : "https://imma.ie/artists/aoife-collins/",
   "label" : "Aoife Collins",
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "@id"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "url" : {
       "@id" : "http://schema.org/url"
@@ -20,8 +18,8 @@
     "label" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

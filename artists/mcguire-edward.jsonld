@@ -79,9 +79,20 @@
     "hasAttributedAuthor" : "spice:agent/mcguire-edward"
   } ],
   "@context" : {
-    "hasAttributedAuthor" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
-      "@type" : "@id"
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
@@ -101,27 +112,16 @@
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
-    "url" : {
-      "@id" : "http://schema.org/url"
-    },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
     },
-    "birthDate" : {
-      "@id" : "http://schema.org/birthDate"
-    },
-    "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source"
-    },
-    "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
-    },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

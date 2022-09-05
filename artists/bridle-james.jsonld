@@ -1,0 +1,35 @@
+{
+  "@id" : "spice:agent/bridle-james",
+  "@type" : "foaf:Person",
+  "description" : "James bridle is a writer, artist and technologist. Their artworks have been commissioned by galleries and institutions and exhibited worldwide and on the internet. Their writing on literature, culture and networks has appeared in magazines and newspapers including Wired, the Atlantic, the New Statesman, the Guardian, and the Financial Times. They are the author of ‘New Dark Age’ (2018) and ‘Ways of Being’ (2022), and they wrote and presented “New Ways of Seeing” for BBC Radio 4 in 2019.",
+  "source" : "https://imma.ie/artists/james-bridle/",
+  "url" : "https://imma.ie/artists/james-bridle/",
+  "label" : "James Bridle",
+  "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

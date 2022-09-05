@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:agent/hurl-patricia",
     "@type" : "foaf:Person",
-    "description" : [ "Patricia Hurl was a lecturer in Fine Art Painting at the Dublin Institute of Technology and studied at the National College of Art and Design 1975 and at Dun Laoghaire School of Art and Design 1984. Hurl currently runs the Damer Gallery in Tipperary along with Therry Rudin. In 1984 she won the Norah Mc Guinness award for painting.", "Patricia Hurl creates expressionist works that deal with loss, pain, frustration and loneliness. Originally from Dublin and a former member of Temple Bar Galleries and Studios, she often works in collaboration with artist Therry Rudin. " ],
+    "description" : [ "Patricia Hurl was a lecturer in Fine Art Painting at the Dublin Institute of Technology and studied at the National College of Art and Design 1975 and at Dun Laoghaire School of Art and Design 1984. Hurl currently runs the Damer Gallery in Tipperary along with Therry Rudin. In 1984 she won the Norah Mc Guinness award for painting.", "Patricia Hurl creates expressionist works that deal with loss, pain, frustration and loneliness. Originally from Dublin and a former member of Temple Bar Galleries and Studios, she often works in collaboration with artist Therry Rudin. Hurl was a lecturer in Fine Art Painting at the Dublin Institute of Technology and studied at the National College of Art and Design 1975 and at Dun Laoghaire School of Art and Design 1984. Hurl currently runs the Damer Gallery in Tipperary along with Therry Rudin. In 1984 she won the Norah Mc Guinness award for painting." ],
     "source" : "https://imma.ie/artists/patricia-hurl/",
     "url" : "https://imma.ie/artists/patricia-hurl/",
     "label" : "Patricia Hurl"
@@ -88,8 +88,8 @@
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

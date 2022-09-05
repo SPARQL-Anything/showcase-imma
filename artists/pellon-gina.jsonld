@@ -16,20 +16,25 @@
     "hasAuthorshipAttribution" : "spice:attribution/jeune-fille",
     "hasTitle" : "Jeune Fille"
   }, {
+    "@id" : "spice:artefact/jeune-fille-2",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/pellon-gina",
+    "author" : "spice:agent/pellon-gina",
+    "dateCreated" : "1977",
+    "url" : "https://imma.ie/collection/jeune-fille-2/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/jeune-fille-2",
+    "hasTitle" : "Jeune Fille"
+  }, {
     "@id" : "spice:attribution/jeune-fille",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/pellon-gina"
+  }, {
+    "@id" : "spice:attribution/jeune-fille-2",
     "@type" : "arco:AuthorshipAttribution",
     "hasAttributedAuthor" : "spice:agent/pellon-gina"
   } ],
   "@context" : {
-    "url" : {
-      "@id" : "http://schema.org/url"
-    },
-    "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source"
-    },
-    "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
-    },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
@@ -48,6 +53,9 @@
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
@@ -56,8 +64,14 @@
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
       "@type" : "@id"
     },
-    "schema" : "http://schema.org/",
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

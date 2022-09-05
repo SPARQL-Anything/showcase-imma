@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:agent/wright-daphne",
     "@type" : "foaf:Person",
-    "description" : [ "Irish artist Daphne Wright (born 1963) studied at the National College of Art and Design and Newcastle-upon-Tyne Polytechnic. Working in sculpture, film, print and installation, Wright considers ideas of language and communication, faith, ageing and death within her diverse artistic practice. Wright has exhibited in Ireland and Europe since the 1990s. Her work is represented in major public collections including the Gallery of Modern Art, Glasgow; Hamburger Kunsthalle, and the Arts Council of England. Wright is an elected member of Aosdána.", "Irish artist Daphne Wright (born 1963) studied at the National College of Art and Design and Newcastle-upon-Tyne Polytechnic. Working in sculpture, film, print and installation, Wright considers ideas of language and communication, faith, ageing and death within her diverse artistic practice. Wright has exhibited in Ireland and Europe since the 1990s." ],
+    "description" : [ "Daphne Wright makes multi-narrative sculptural installations using a variety of techniques and media, including fragile materials such as plaster, tinfoil, unfired clay, sound and video. She is curious about how a range of languages and materials can be used to probe often unspoken human preoccupations. Concerned with boundaries and the transitory areas of life, she explores the cusp of childhood and adulthood, as well as the spaces and borderlines between life and death. Animals and plants, with their shorter life cycles, often stand in for humans in her work.", "Daphne Wright makes multi-narrative sculptural installations using a variety of techniques and media, including fragile materials such as plaster, tinfoil, unfired clay, sound and video." ],
     "source" : "https://imma.ie/artists/daphne-wright/",
     "birthDate" : "b.1963",
     "url" : "https://imma.ie/artists/daphne-wright/",
@@ -78,8 +78,8 @@
     "label" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

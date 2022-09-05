@@ -118,16 +118,6 @@
     "hasAuthorshipAttribution" : "spice:attribution/remains",
     "hasTitle" : "Remains"
   }, {
-    "@id" : "spice:artefact/remains-artist-supplied-master-hdcam-sr-25psf-000800",
-    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
-    "creator" : "spice:agent/doherty-willie",
-    "author" : "spice:agent/doherty-willie",
-    "dateCreated" : "2013",
-    "url" : "https://imma.ie/collection/remains-artist-supplied-master-hdcam-sr-25psf-000800/",
-    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
-    "hasAuthorshipAttribution" : "spice:attribution/remains-artist-supplied-master-hdcam-sr-25psf-000800",
-    "hasTitle" : "Remains – Artist-Supplied Master, HDCAM-SR, 25PSF, 00:08:00"
-  }, {
     "@id" : "spice:artefact/show-of-strength-ll",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/doherty-willie",
@@ -166,6 +156,16 @@
     "url" : "https://imma.ie/collection/the-only-good-one-is-a-dead-one/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
     "hasAuthorshipAttribution" : "spice:attribution/the-only-good-one-is-a-dead-one",
+    "hasTitle" : "The Only Good One is a Dead One"
+  }, {
+    "@id" : "spice:artefact/the-only-good-one-is-a-dead-one-2",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/doherty-willie",
+    "author" : "spice:agent/doherty-willie",
+    "dateCreated" : "1993",
+    "url" : "https://imma.ie/collection/the-only-good-one-is-a-dead-one-2/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-only-good-one-is-a-dead-one-2",
     "hasTitle" : "The Only Good One is a Dead One"
   }, {
     "@id" : "spice:artefact/the-walls",
@@ -222,10 +222,6 @@
     "@type" : "arco:AuthorshipAttribution",
     "hasAttributedAuthor" : "spice:agent/doherty-willie"
   }, {
-    "@id" : "spice:attribution/remains-artist-supplied-master-hdcam-sr-25psf-000800",
-    "@type" : "arco:AuthorshipAttribution",
-    "hasAttributedAuthor" : "spice:agent/doherty-willie"
-  }, {
     "@id" : "spice:attribution/show-of-strength-ll",
     "@type" : "arco:AuthorshipAttribution",
     "hasAttributedAuthor" : "spice:agent/doherty-willie"
@@ -239,6 +235,10 @@
     "hasAttributedAuthor" : "spice:agent/doherty-willie"
   }, {
     "@id" : "spice:attribution/the-only-good-one-is-a-dead-one",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/doherty-willie"
+  }, {
+    "@id" : "spice:attribution/the-only-good-one-is-a-dead-one-2",
     "@type" : "arco:AuthorshipAttribution",
     "hasAttributedAuthor" : "spice:agent/doherty-willie"
   }, {
@@ -288,8 +288,8 @@
     "label" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

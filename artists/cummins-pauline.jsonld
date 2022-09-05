@@ -18,16 +18,6 @@
     "hasAuthorshipAttribution" : "spice:attribution/inis-toirr-aran-dance",
     "hasTitle" : "Inis t’Oirr/Aran Dance"
   }, {
-    "@id" : "spice:artefact/inis-toirr-aran-dance-exhibition-copy-colour-slides",
-    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
-    "creator" : "spice:agent/cummins-pauline",
-    "author" : "spice:agent/cummins-pauline",
-    "dateCreated" : "1985",
-    "url" : "https://imma.ie/collection/inis-toirr-aran-dance-exhibition-copy-colour-slides/",
-    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
-    "hasAuthorshipAttribution" : "spice:attribution/inis-toirr-aran-dance-exhibition-copy-colour-slides",
-    "hasTitle" : "Inis t’Oirr/Aran Dance – Exhibition Copy (colour slides)"
-  }, {
     "@id" : "spice:artefact/sounding-the-depths-iii",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/cummins-pauline",
@@ -39,10 +29,6 @@
     "hasTitle" : "Sounding the Depths III"
   }, {
     "@id" : "spice:attribution/inis-toirr-aran-dance",
-    "@type" : "arco:AuthorshipAttribution",
-    "hasAttributedAuthor" : "spice:agent/cummins-pauline"
-  }, {
-    "@id" : "spice:attribution/inis-toirr-aran-dance-exhibition-copy-colour-slides",
     "@type" : "arco:AuthorshipAttribution",
     "hasAttributedAuthor" : "spice:agent/cummins-pauline"
   }, {
@@ -92,8 +78,8 @@
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
       "@type" : "@id"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

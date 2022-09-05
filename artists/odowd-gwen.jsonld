@@ -93,25 +93,6 @@
     "hasAttributedAuthor" : "spice:agent/odowd-gwen"
   } ],
   "@context" : {
-    "hasAttributedAuthor" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
-      "@type" : "@id"
-    },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
-    "birthDate" : {
-      "@id" : "http://schema.org/birthDate"
-    },
-    "url" : {
-      "@id" : "http://schema.org/url"
-    },
-    "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source"
-    },
-    "label" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
-    },
     "hasAuthorshipAttribution" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasAuthorshipAttribution",
       "@type" : "@id"
@@ -130,12 +111,31 @@
       "@id" : "https://w3id.org/arco/ontology/arco/hasRelatedAgency",
       "@type" : "@id"
     },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator",
       "@type" : "@id"
     },
-    "schema" : "http://schema.org/",
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "hasAttributedAuthor" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasAttributedAuthor",
+      "@type" : "@id"
+    },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

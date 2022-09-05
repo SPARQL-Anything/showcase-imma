@@ -18,15 +18,15 @@
     "hasAuthorshipAttribution" : "spice:attribution/b-q-e-truck-tragedy-after-brechts-the-street-scene-view-from-south-east-corner",
     "hasTitle" : "“B.Q.E. Truck Tragedy” after Brecht’s “The street scene”. View from south east corner”."
   }, {
-    "@id" : "spice:artefact/eight-years-and-three-days-ago",
+    "@id" : "spice:artefact/fourteen-years-and-ten-months-ago",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/byrne-gerard",
     "author" : "spice:agent/byrne-gerard",
     "dateCreated" : "2007",
-    "url" : "https://imma.ie/collection/eight-years-and-three-days-ago/",
+    "url" : "https://imma.ie/collection/fourteen-years-and-ten-months-ago/",
     "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
-    "hasAuthorshipAttribution" : "spice:attribution/eight-years-and-three-days-ago",
-    "hasTitle" : "Eight years and three days ago"
+    "hasAuthorshipAttribution" : "spice:attribution/fourteen-years-and-ten-months-ago",
+    "hasTitle" : "Fourteen years and ten months ago"
   }, {
     "@id" : "spice:artefact/new-sexual-lifestyles",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
@@ -52,7 +52,7 @@
     "@type" : "arco:AuthorshipAttribution",
     "hasAttributedAuthor" : "spice:agent/byrne-gerard"
   }, {
-    "@id" : "spice:attribution/eight-years-and-three-days-ago",
+    "@id" : "spice:attribution/fourteen-years-and-ten-months-ago",
     "@type" : "arco:AuthorshipAttribution",
     "hasAttributedAuthor" : "spice:agent/byrne-gerard"
   }, {
@@ -106,8 +106,8 @@
     "label" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

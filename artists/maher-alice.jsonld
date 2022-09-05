@@ -168,6 +168,16 @@
     "hasAuthorshipAttribution" : "spice:attribution/the-history-of-tears",
     "hasTitle" : "The History of Tears"
   }, {
+    "@id" : "spice:artefact/the-history-of-tears-2",
+    "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
+    "creator" : "spice:agent/maher-alice",
+    "author" : "spice:agent/maher-alice",
+    "dateCreated" : "2013",
+    "url" : "https://imma.ie/collection/the-history-of-tears-2/",
+    "hasRelatedAgency" : "https://w3id.org/spice/institute/imma",
+    "hasAuthorshipAttribution" : "spice:attribution/the-history-of-tears-2",
+    "hasTitle" : "The History of Tears"
+  }, {
     "@id" : "spice:artefact/the-music-of-things-sleep",
     "@type" : [ "schema:CreativeWork", "arco:CulturalProperty" ],
     "creator" : "spice:agent/maher-alice",
@@ -242,6 +252,10 @@
     "@type" : "arco:AuthorshipAttribution",
     "hasAttributedAuthor" : "spice:agent/maher-alice"
   }, {
+    "@id" : "spice:attribution/the-history-of-tears-2",
+    "@type" : "arco:AuthorshipAttribution",
+    "hasAttributedAuthor" : "spice:agent/maher-alice"
+  }, {
     "@id" : "spice:attribution/the-music-of-things-sleep",
     "@type" : "arco:AuthorshipAttribution",
     "hasAttributedAuthor" : "spice:agent/maher-alice"
@@ -288,8 +302,8 @@
     "label" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

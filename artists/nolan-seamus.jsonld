@@ -1,15 +1,13 @@
 {
   "@id" : "spice:agent/nolan-seamus",
   "@type" : "foaf:Person",
-  "description" : "_:b0",
-  "dc:description" : "Seamus Nolan’s practice investigates the relative value of objects and social processes as they appear within different economies and contexts.",
+  "description" : [ "Séamus Nolan’s practice relates a critique of its own legitimacy, each context and set of concerns is tested against the subject, in an attempt to unravel basic beliefs and inform a process of equivalence. His work is concerned with assembling alternative power relations, energy and possibility, in reconfiguring the everyday as a means to examine or question the purveyors of meaning. Nolan’s work often operates in conjunction with local community groups, and invites both a national and international audience to interact on a very personal level with this local activity, with the piece of work itself, and most importantly, with the context of its presentation.", "Seamus Nolan’s practice investigates the relative value of objects and social processes as they appear within different economies and contexts." ],
   "source" : "https://imma.ie/artists/seamus-nolan/",
   "url" : "https://imma.ie/artists/seamus-nolan/",
-  "label" : "Seamus Nolan",
+  "label" : "Séamus Nolan",
   "@context" : {
     "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description",
-      "@type" : "@id"
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "url" : {
       "@id" : "http://schema.org/url"
@@ -20,8 +18,8 @@
     "label" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
