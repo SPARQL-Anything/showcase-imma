@@ -1,0 +1,41 @@
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX fx:   <http://sparql.xyz/facade-x/ns/>
+PREFIX xyz:  <http://sparql.xyz/facade-x/data/>
+PREFIX tate: <http://sparql.xyz/example/tate/>
+PREFIX tsub: <http://sparql.xyz/example/tate/subject/>
+PREFIX schema: <http://schema.org/>
+PREFIX afn: <http://jena.apache.org/ARQ/function#>
+
+SELECT ?hash ?url ?id ?material ?photo ?intaglio ?sculpt ?inkpen ?screenprint
+WHERE {
+	SERVICE <x-sparql-anything:> {
+		
+		SERVICE <x-sparql-anything:> {
+			fx:properties fx:location "./images.csv" ; fx:csv.headers true .
+			[] xyz:artwork ?artwork ; xyz:imageUrl ?url; xyz:caption ?caption .
+		}
+		
+		BIND ( replace(?artwork, "https://w3id.org/spice/imma/documentation/", "") as ?id )	.
+		
+		fx:properties fx:location "./imma-materials.csv" ; fx:csv.headers true .
+		
+		[] xyz:material ?material ; xyz:hash ?hash ; xyz:id ?id
+		
+	}
+	
+	BIND ( contains ( lcase ( ?material), "photo") as ?photo) .
+	BIND ( 
+		 ( contains ( lcase ( ?material), "sculpt") ||
+		  contains ( lcase ( ?material), "bronze") ||
+		  contains ( lcase ( ?material), "stone") ||
+		  contains ( lcase ( ?material), "install")
+		  )
+		 as ?sculpt) .
+	BIND ( (contains ( lcase ( ?material), "intaglio") || contains ( lcase ( ?material), "engrav") || contains ( lcase ( ?material), "etching") ) as ?intaglio) .
+	BIND ( (contains ( lcase ( ?material), "ink") || contains ( lcase ( ?material), "pen") ) as ?inkpen) .
+	BIND ( (contains ( lcase ( ?material), "screenprint") ) as ?screenprint) .
+	FILTER ( ?photo || ?sculpt || ?intaglio || ?inkpen || ?screenprint )
+}
+#group by  ?photo ?intaglio ?sculpt ?inkpen ?screenprint
