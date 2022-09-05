@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/poems-by-nick-nicholls",
     "@type" : "schema:CreativeWork",
-    "description" : "‘Poems’ by Nick Nicholls is a 1942 work by Nick Nicholls. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "‘Poems’ by Nick Nicholls is a 1942 work by Nick Nicholls. ",
     "source" : "https://imma.ie/collection/poems-by-nick-nicholls/",
     "creditText" : "IMMA Collection: Purchase, 2006",
     "image" : "spice:documentation/poems-by-nick-nicholls",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

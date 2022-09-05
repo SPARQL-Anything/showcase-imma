@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/inish-more",
     "@type" : "schema:CreativeWork",
-    "description" : "Inish More is a 1940 work by Kenneth Hall. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Inish More is a 1940 work by Kenneth Hall. ",
     "source" : "https://imma.ie/collection/inish-more/",
     "creditText" : "IMMA Collection: Donation, Patrick Scott, 2013",
     "image" : "spice:documentation/inish-more",
@@ -50,8 +50,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

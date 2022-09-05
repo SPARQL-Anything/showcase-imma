@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/sea-of-japan-rebun-island",
     "@type" : "schema:CreativeWork",
-    "description" : "Sea of Japan, Rebun Island is a 1996 work by Hiroshi Sugimoto. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Sea of Japan, Rebun Island is a 1996 work by Hiroshi Sugimoto. ",
     "source" : "https://imma.ie/collection/sea-of-japan-rebun-island/",
     "creditText" : "IMMA Collection: Heritage Gift, Kerlin Gallery Collection, 2018, 2018",
     "image" : "spice:documentation/sea-of-japan-rebun-island",
@@ -17,7 +17,7 @@
     "caption" : "Hiroshi Sugimoto, Sea of Japan, Rebun Island, 1996, black and white photograph, Framed: 65.9 x 83.7 x 3.9 cm, Collection Irish Museum of Modern Art, Heritage Gift, Kerlin Gallery Collection, 2018, 2018 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2021/05/9100.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/9100.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -39,6 +39,9 @@
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "size" : {
       "@id" : "http://schema.org/size"
     },
@@ -48,9 +51,6 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
@@ -58,8 +58,8 @@
     "version" : {
       "@id" : "http://schema.org/version"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

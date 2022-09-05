@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/study-for-the-back-of-my-hand-no-4-no-3",
     "@type" : "schema:CreativeWork",
-    "description" : "Study for The Back of My Hand No.4, No.3 is a 1986 work by Richard Deacon. It is not currently on display in IMMA. ",
+    "description" : "Study for The Back of My Hand No.4, No.3 is a 1986 work by Richard Deacon. ",
     "source" : "https://imma.ie/collection/study-for-the-back-of-my-hand-no-4-no-3/",
     "creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1994",
     "image" : "spice:documentation/study-for-the-back-of-my-hand-no-4-no-3",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

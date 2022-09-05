@@ -13,18 +13,10 @@
   }, {
     "@id" : "spice:documentation/ark-of-dreaming",
     "@type" : "schema:ImageObject",
-    "caption" : "Patrick Graham, Ark of Dreaming, 1990, Mixed media on canvas, 180 x 316 cm, Collection Irish Museum of Modern Art, Purchase, 1991 ",
-    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2018/11/647.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/647.jpg"
   } ],
   "@context" : {
-    "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice"
-    },
-    "caption" : {
-      "@id" : "http://schema.org/caption"
-    },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
@@ -54,8 +46,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

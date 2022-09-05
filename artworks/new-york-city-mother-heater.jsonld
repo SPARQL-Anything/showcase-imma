@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/new-york-city-mother-heater",
     "@type" : "schema:CreativeWork",
-    "description" : "New York City (Mother Heater) is a 1993 work by Brian Maguire. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "New York City (Mother Heater) is a 1993 work by Brian Maguire. ",
     "source" : "https://imma.ie/collection/new-york-city-mother-heater/",
     "creditText" : "IMMA Collection: Gordon Lambert Trust, 1993",
     "image" : "spice:documentation/new-york-city-mother-heater",
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

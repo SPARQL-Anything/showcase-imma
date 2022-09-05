@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/nude-before-mirror",
     "@type" : "schema:CreativeWork",
-    "description" : "Nude Before Mirror is a 1973 work by John Kelly. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Nude Before Mirror is a 1973 work by John Kelly. ",
     "source" : "https://imma.ie/collection/nude-before-mirror/",
     "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/nude-before-mirror",
@@ -33,6 +33,9 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "size" : {
       "@id" : "http://schema.org/size"
     },
@@ -41,9 +44,6 @@
     },
     "creditText" : {
       "@id" : "http://schema.org/creditText"
-    },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
@@ -58,8 +58,8 @@
     "material" : {
       "@id" : "http://schema.org/material"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

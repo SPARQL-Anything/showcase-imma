@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/journey",
     "@type" : "schema:CreativeWork",
-    "description" : "Journey is a 1996 work by David Crone. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Journey is a 1996 work by David Crone. ",
     "source" : "https://imma.ie/collection/journey/",
     "creditText" : "IMMA Collection: Donation, Vincent &amp; Noeleen Ferguson, 1996",
     "image" : "spice:documentation/journey",
@@ -16,7 +16,7 @@
     "caption" : "David Crone, Journey, 1996, Oil on canvas, 183 x 152.5 cm, Collection Irish Museum of Modern Art, Donation, Vincent &amp; Noeleen Ferguson, 1996 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2018/11/1090.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/1090.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

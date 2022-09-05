@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/the-names-of-the-hare-1982",
     "@type" : "schema:CreativeWork",
-    "description" : "The Names of the Hare, 1982 is a 2006 work by Barry Flanagan and Seamus Heaney. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "The Names of the Hare, 1982 is a 2006 work by Barry Flanagan and Seamus Heaney. ",
     "source" : "https://imma.ie/collection/the-names-of-the-hare-1982/",
     "creditText" : "IMMA Collection: IMMA Editions, Donated by the artist, 2006",
     "image" : "spice:documentation/the-names-of-the-hare-1982",
@@ -18,9 +18,6 @@
     "url" : "https://imma.ie/wp-content/uploads/2019/03/2249.jpg"
   } ],
   "@context" : {
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
@@ -40,6 +37,9 @@
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
@@ -50,8 +50,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

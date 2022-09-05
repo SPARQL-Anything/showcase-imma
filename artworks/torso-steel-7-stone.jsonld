@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/torso-steel-7-stone",
     "@type" : "schema:CreativeWork",
-    "description" : "Torso/ Steel 7 stone is a 1987 work by Sean Scullion. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Torso/ Steel 7 stone is a 1987 work by Sean Scullion. ",
     "source" : "https://imma.ie/collection/torso-steel-7-stone/",
     "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/torso-steel-7-stone",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

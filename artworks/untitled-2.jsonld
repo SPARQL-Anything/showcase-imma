@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/untitled-2",
     "@type" : "schema:CreativeWork",
-    "description" : "Untitled is a 2010 work by Ferran Garcia Sevilla. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Untitled is a 2010 work by Ferran Garcia Sevilla. ",
     "source" : "https://imma.ie/collection/untitled-2/",
     "creditText" : "IMMA Collection: IMMA Editions, Donated by the artist, 2010",
     "image" : "spice:documentation/untitled-2",
@@ -58,8 +58,8 @@
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

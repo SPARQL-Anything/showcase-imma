@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/everyday-realism",
     "@type" : "schema:CreativeWork",
-    "description" : "Everyday Realism is a 2002 work by David Godbold. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Everyday Realism is a 2002 work by David Godbold. ",
     "source" : "https://imma.ie/collection/everyday-realism/",
     "creditText" : "IMMA Collection: Purchase, 2005",
     "image" : "spice:documentation/everyday-realism",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/place-x-1",
     "@type" : "schema:CreativeWork",
-    "description" : "Place X 1 is a 2001 work by Daphne Wright. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Place X 1 is a 2001 work by Daphne Wright. ",
     "source" : "https://imma.ie/collection/place-x-1/",
     "creditText" : "IMMA Collection: Purchased, Art for Amnesty, 2004",
     "image" : "spice:documentation/place-x-1",
@@ -29,14 +29,14 @@
     "material" : {
       "@id" : "http://schema.org/material"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "creditText" : {
       "@id" : "http://schema.org/creditText"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "size" : {
       "@id" : "http://schema.org/size"
@@ -54,8 +54,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

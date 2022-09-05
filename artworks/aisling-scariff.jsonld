@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/aisling-scariff",
     "@type" : "schema:CreativeWork",
-    "description" : "Aisling, Scariff is a 1964 work by James McKenna. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Aisling, Scariff is a 1964 work by James McKenna. ",
     "source" : "https://imma.ie/collection/aisling-scariff/",
     "creditText" : "IMMA Collection: Donation, Presented in memory of James McKenna by Desmond, Viv, Kate and Bébhinn Egan, 2010",
     "image" : "spice:documentation/aisling-scariff",
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

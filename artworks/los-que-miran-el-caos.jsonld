@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/los-que-miran-el-caos",
     "@type" : "schema:CreativeWork",
-    "description" : "Los que Miran el Caos is a 2010 work by Ana Santos. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Los que Miran el Caos is a 2010 work by Ana Santos. ",
     "source" : "https://imma.ie/collection/los-que-miran-el-caos/",
     "creditText" : "IMMA Collection: Diplomatic gift of the Federal Government of Mexico, 2011",
     "image" : "spice:documentation/los-que-miran-el-caos",
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

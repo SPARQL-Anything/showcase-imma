@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/uno-city",
     "@type" : "schema:CreativeWork",
-    "description" : "UNO City is a 1992 work by LANGLANDS &amp; BELL. It is not currently on display in IMMA. ",
+    "description" : "UNO City is a 1992 work by LANGLANDS &amp; BELL. ",
     "source" : "https://imma.ie/collection/uno-city/",
     "creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1995",
     "image" : "spice:documentation/uno-city",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

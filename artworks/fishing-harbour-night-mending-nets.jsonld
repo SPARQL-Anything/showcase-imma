@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/fishing-harbour-night-mending-nets",
     "@type" : "schema:CreativeWork",
-    "description" : "Fishing Harbour Night, (mending nets) is a 1957 work by George Campbell. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Fishing Harbour Night, (mending nets) is a 1957 work by George Campbell. ",
     "source" : "https://imma.ie/collection/fishing-harbour-night-mending-nets/",
     "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/fishing-harbour-night-mending-nets",
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

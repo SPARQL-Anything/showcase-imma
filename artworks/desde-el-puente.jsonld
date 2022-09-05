@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/desde-el-puente",
     "@type" : "schema:CreativeWork",
-    "description" : "Desde el Puente is a 1982 work by Miguel Conti. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Desde el Puente is a 1982 work by Miguel Conti. ",
     "source" : "https://imma.ie/collection/desde-el-puente/",
     "creditText" : "IMMA Collection: Donation, Smurfit: Cartón y Papel de México, 2000",
     "image" : "spice:documentation/desde-el-puente",
@@ -54,8 +54,8 @@
     "material" : {
       "@id" : "http://schema.org/material"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

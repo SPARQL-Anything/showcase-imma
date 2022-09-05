@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/cliffs-of-moher-1962",
     "@type" : "schema:CreativeWork",
-    "description" : "Cliffs of Moher, 1962 is a 1962 work by Barrie Cooke. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Cliffs of Moher, 1962 is a 1962 work by Barrie Cooke. ",
     "source" : "https://imma.ie/collection/cliffs-of-moher-1962/",
     "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/cliffs-of-moher-1962",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

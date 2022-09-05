@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/brian-in-the-light-of-experience",
     "@type" : "schema:CreativeWork",
-    "description" : "Brian in the Light of Experience is a 1984 work by Patrick Graham. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Brian in the Light of Experience is a 1984 work by Giles Round and Patrick Graham. ",
     "source" : "https://imma.ie/collection/brian-in-the-light-of-experience/",
     "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/brian-in-the-light-of-experience",
@@ -13,18 +13,10 @@
   }, {
     "@id" : "spice:documentation/brian-in-the-light-of-experience",
     "@type" : "schema:ImageObject",
-    "caption" : "Patrick Graham, Brian in the Light of Experience, 1984, Pastel on paper, 81.5 x 58.6 cm, Collection Irish Museum of Modern Art, Gordon Lambert Trust, 1992 ",
-    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2018/11/648.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/648.jpg"
   } ],
   "@context" : {
-    "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice"
-    },
-    "caption" : {
-      "@id" : "http://schema.org/caption"
-    },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
@@ -54,8 +46,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

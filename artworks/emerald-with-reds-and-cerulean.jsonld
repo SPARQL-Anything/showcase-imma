@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/emerald-with-reds-and-cerulean",
     "@type" : "schema:CreativeWork",
-    "description" : "Emerald with Reds and Cerulean is a 1979 work by Patrick Heron. It is not currently on display in IMMA. ",
+    "description" : "Emerald with Reds and Cerulean is a 1979 work by Patrick Heron. ",
     "source" : "https://imma.ie/collection/emerald-with-reds-and-cerulean/",
     "creditText" : "IMMA Collection: Loan, George and Maura McClelland, 2005",
     "image" : "spice:documentation/emerald-with-reds-and-cerulean",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

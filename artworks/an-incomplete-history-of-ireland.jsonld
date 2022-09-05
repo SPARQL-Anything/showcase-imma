@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/an-incomplete-history-of-ireland",
     "@type" : "schema:CreativeWork",
-    "description" : "An Incomplete History of Ireland is a 1980 work by Micheal Farrell. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "An Incomplete History of Ireland is a 1980 work by Micheal Farrell. ",
     "source" : "https://imma.ie/collection/an-incomplete-history-of-ireland/",
     "image" : "spice:documentation/an-incomplete-history-of-ireland",
     "maintainer" : "https://w3id.org/spice/institute/imma",
@@ -50,8 +50,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

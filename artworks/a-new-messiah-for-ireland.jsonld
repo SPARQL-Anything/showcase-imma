@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/a-new-messiah-for-ireland",
     "@type" : "schema:CreativeWork",
-    "description" : "A New Messiah for Ireland is a 1964 work by Ferenc Martyn. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "A New Messiah for Ireland is a 1964 work by Ferenc Martyn. ",
     "source" : "https://imma.ie/collection/a-new-messiah-for-ireland/",
     "creditText" : "IMMA Collection: Donated, 1989",
     "image" : "spice:documentation/a-new-messiah-for-ireland",
@@ -50,8 +50,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

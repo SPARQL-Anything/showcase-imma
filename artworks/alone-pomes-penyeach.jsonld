@@ -2,14 +2,14 @@
   "@graph" : [ {
     "@id" : "spice:artefact/alone-pomes-penyeach",
     "@type" : "schema:CreativeWork",
-    "description" : "Alone – Pomes Penyeach is a 1993 work by Sean Scully. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Alone – Pomes Penyeach is a 1993 work by Sean Scully. ",
     "source" : "https://imma.ie/collection/alone-pomes-penyeach/",
     "creditText" : "IMMA Collection: Purchase, 2004",
     "image" : "spice:documentation/alone-pomes-penyeach",
     "maintainer" : "https://w3id.org/spice/institute/imma",
     "material" : "Etching",
     "size" : "54 x 40 cm (sheet)",
-    "hasInventory" : "IMMA.1643.10"
+    "hasInventory" : "IMMA.1643.010"
   }, {
     "@id" : "spice:documentation/alone-pomes-penyeach",
     "@type" : "schema:ImageObject",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/a-place-of-habitation-iii",
     "@type" : "schema:CreativeWork",
-    "description" : "A Place of Habitation III is a 1985 work by Maria Simonds-Gooding. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "A Place of Habitation III is a 1985 work by Maria Simonds-Gooding. ",
     "source" : "https://imma.ie/collection/a-place-of-habitation-iii/",
     "creditText" : "IMMA Collection: Donation, 2014",
     "image" : "spice:documentation/a-place-of-habitation-iii",
@@ -54,8 +54,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

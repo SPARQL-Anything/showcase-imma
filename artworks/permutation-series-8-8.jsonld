@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/permutation-series-8-8",
     "@type" : "schema:CreativeWork",
-    "description" : "Permutation Series (8/8) is a 1968 work by Victor Vasarely. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Permutation Series (8/8) is a 1968 work by Victor Vasarely. ",
     "source" : "https://imma.ie/collection/permutation-series-8-8/",
     "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/permutation-series-8-8",
@@ -10,7 +10,7 @@
     "material" : "Serigraph",
     "size" : "Framed: 87 x 87 cm Sheet: 68x68 cm Plate: 60x60 cm",
     "version" : "Edition 27/150",
-    "hasInventory" : "IMMA.831.8"
+    "hasInventory" : "IMMA.831.008"
   }, {
     "@id" : "spice:documentation/permutation-series-8-8",
     "@type" : "schema:ImageObject",
@@ -28,6 +28,9 @@
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
@@ -37,9 +40,6 @@
     },
     "material" : {
       "@id" : "http://schema.org/material"
-    },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "size" : {
       "@id" : "http://schema.org/size"
@@ -54,8 +54,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

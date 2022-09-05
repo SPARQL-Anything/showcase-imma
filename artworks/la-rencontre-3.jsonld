@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/la-rencontre-3",
     "@type" : "schema:CreativeWork",
-    "description" : "La Rencontre is a 1991 work by Micheal Farrell. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "La Rencontre is a 1991 work by Micheal Farrell. ",
     "source" : "https://imma.ie/collection/la-rencontre-3/",
     "creditText" : "IMMA Collection: Purchase, 1992",
     "image" : "spice:documentation/la-rencontre-3",
@@ -50,8 +50,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

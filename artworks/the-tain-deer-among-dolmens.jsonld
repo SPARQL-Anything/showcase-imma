@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/the-tain-deer-among-dolmens",
     "@type" : "schema:CreativeWork",
-    "description" : "The Táin. Deer among dolmens is a 1969 work by Louis le Brocquy. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "The Táin. Deer among dolmens is a 1969 work by Louis le Brocquy. ",
     "source" : "https://imma.ie/collection/the-tain-deer-among-dolmens/",
     "creditText" : "IMMA Collection: Heritage Gift by Brian Timmons, 2001",
     "image" : "spice:documentation/the-tain-deer-among-dolmens",
@@ -22,9 +22,6 @@
   "@context" : {
     "creditText" : {
       "@id" : "http://schema.org/creditText"
-    },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
@@ -49,6 +46,9 @@
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "copyrightNotice" : {
       "@id" : "http://schema.org/copyrightNotice"
     },
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

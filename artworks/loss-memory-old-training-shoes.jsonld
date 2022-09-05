@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:artefact/loss-memory-old-training-shoes",
     "@type" : "schema:CreativeWork",
-    "description" : "Loss &amp; Memory – Old Training Shoes is a 2002 work by Amelia Stein. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Loss &amp; Memory – Old Training Shoes is a 2002 work by Amelia Stein. ",
     "source" : "https://imma.ie/collection/loss-memory-old-training-shoes/",
     "creditText" : "IMMA Collection: Donation, in memory of Mona and Mendel Stein, 2004",
     "image" : "spice:documentation/loss-memory-old-training-shoes",
     "maintainer" : "https://w3id.org/spice/institute/imma",
     "material" : "Photograph",
     "size" : "25 x 25 cm",
-    "hasInventory" : "IMMA.1784.9"
+    "hasInventory" : "IMMA.1784.009"
   }, {
     "@id" : "spice:documentation/loss-memory-old-training-shoes",
     "@type" : "schema:ImageObject",
     "caption" : "Amelia Stein, Loss &amp; Memory – Old Training Shoes, 2002, Photograph, 25 x 25 cm, Collection Irish Museum of Modern Art, Donation, in memory of Mona and Mendel Stein, 2004 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2018/11/3709.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/3709.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -54,8 +54,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

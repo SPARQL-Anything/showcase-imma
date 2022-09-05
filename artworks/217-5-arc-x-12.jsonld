@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/217-5-arc-x-12",
     "@type" : "schema:CreativeWork",
-    "description" : "217.5° Arc x 12 is a 2008 work by Bernar Venet. It is not currently on display in IMMA. ",
+    "description" : "217.5° Arc x 12 is a 2008 work by Bernar Venet. ",
     "source" : "https://imma.ie/collection/217-5-arc-x-12/",
     "creditText" : "IMMA Collection: Loan, collection of the artist, 2008",
     "image" : "spice:documentation/217-5-arc-x-12",
@@ -54,8 +54,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

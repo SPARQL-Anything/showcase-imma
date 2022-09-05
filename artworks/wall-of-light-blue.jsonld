@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/wall-of-light-blue",
     "@type" : "schema:CreativeWork",
-    "description" : "Wall of Light, Blue is a 2000 work by Sean Scully. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Wall of Light, Blue is a 2000 work by Sean Scully. ",
     "source" : "https://imma.ie/collection/wall-of-light-blue/",
     "creditText" : "IMMA Collection: Donation, IBRC, 2011",
     "image" : "spice:documentation/wall-of-light-blue",
@@ -29,11 +29,11 @@
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "creditText" : {
       "@id" : "http://schema.org/creditText"
@@ -54,8 +54,8 @@
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

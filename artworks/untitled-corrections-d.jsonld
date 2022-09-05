@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/untitled-corrections-d",
     "@type" : "schema:CreativeWork",
-    "description" : "Untitled / Corrections D is a 2008 work by Iran do Espírito Santo. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Untitled / Corrections D is a 2008 work by Iran do Espírito Santo. ",
     "source" : "https://imma.ie/collection/untitled-corrections-d/",
     "creditText" : "IMMA Collection: Purchase, 2007",
     "image" : "spice:documentation/untitled-corrections-d",
@@ -16,7 +16,7 @@
     "caption" : "Iran do Espírito Santo, Untitled / Corrections D, 2008, Granite, Dimensions variable, Collection Irish Museum of Modern Art, Purchase, 2007 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2021/01/63.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/63.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

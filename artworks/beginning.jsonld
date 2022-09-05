@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/beginning",
     "@type" : "schema:CreativeWork",
-    "description" : "Beginning is a 1975 work by Allan D'Arcangelo. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Beginning is a 1975 work by Allan D'Arcangelo. ",
     "source" : "https://imma.ie/collection/beginning/",
     "creditText" : "IMMA Collection: Donation, Novak/O'Doherty Collection, 2015",
     "image" : "spice:documentation/beginning",
@@ -40,11 +40,11 @@
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
-    "size" : {
-      "@id" : "http://schema.org/size"
-    },
     "description" : {
       "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size"
     },
     "creditText" : {
       "@id" : "http://schema.org/creditText"
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

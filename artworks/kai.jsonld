@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/kai",
     "@type" : "schema:CreativeWork",
-    "description" : "Kai is a 1991 work by Lucian Freud. It is not currently on display in IMMA. ",
+    "description" : "Kai is a 1991 work by Lucian Freud. ",
     "source" : "https://imma.ie/collection/kai/",
     "creditText" : "IMMA Collection: On Loan, Private Collection, ",
     "image" : "spice:documentation/kai",
@@ -54,8 +54,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

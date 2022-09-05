@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/studies-of-a-peach",
     "@type" : "schema:CreativeWork",
-    "description" : "Studies of a Peach is a 1969 work by Derrick Greaves. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Studies of a Peach is a 1969 work by Derrick Greaves. ",
     "source" : "https://imma.ie/collection/studies-of-a-peach/",
     "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/studies-of-a-peach",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

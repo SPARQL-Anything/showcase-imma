@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/t-v-and-child",
     "@type" : "schema:CreativeWork",
-    "description" : "T.V. and Child is a 1985 work by Brian Maguire. It is not currently on display in IMMA. ",
+    "description" : "T.V. and Child is a 1985 work by Brian Maguire. ",
     "source" : "https://imma.ie/collection/t-v-and-child/",
     "creditText" : "IMMA Collection: Permanent Loan, the Contemporary Irish art Society, 1992",
     "image" : "spice:documentation/t-v-and-child",
@@ -20,14 +20,14 @@
     "url" : "https://imma.ie/wp-content/uploads/2020/02/247.jpg"
   } ],
   "@context" : {
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "version" : {
       "@id" : "http://schema.org/version"
     },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "creditText" : {
       "@id" : "http://schema.org/creditText"
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

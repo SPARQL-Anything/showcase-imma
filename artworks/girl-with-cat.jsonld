@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/girl-with-cat",
     "@type" : "schema:CreativeWork",
-    "description" : "Girl with Cat is a 1945 work by Oskar Kokoschka. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Girl with Cat is a 1945 work by Oskar Kokoschka. ",
     "source" : "https://imma.ie/collection/girl-with-cat/",
     "creditText" : "IMMA Collection: Heritage Gift by the Bank of Ireland from the Bank of Ireland collection, 2008",
     "image" : "spice:documentation/girl-with-cat",
@@ -54,8 +54,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

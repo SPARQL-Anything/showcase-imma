@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/cassiope-tetragona",
     "@type" : "schema:CreativeWork",
-    "description" : "Cassiope Tetragona is a 1929 work by Karl Blossfeldt. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Cassiope Tetragona is a 1929 work by Karl Blossfeldt. ",
     "source" : "https://imma.ie/collection/cassiope-tetragona/",
     "creditText" : "IMMA Collection: Donation, David Kronn Collection, 2015",
     "image" : "spice:documentation/cassiope-tetragona",
@@ -17,7 +17,7 @@
     "caption" : "Karl Blossfeldt, Cassiope Tetragona, 1929, Photogravure, 24 x 31 cm, Collection Irish Museum of Modern Art, Donation, David Kronn Collection, 2015 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2018/11/7494.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/7494.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -32,9 +32,6 @@
     },
     "url" : {
       "@id" : "http://schema.org/url"
-    },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "creditText" : {
       "@id" : "http://schema.org/creditText"
@@ -58,8 +55,11 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

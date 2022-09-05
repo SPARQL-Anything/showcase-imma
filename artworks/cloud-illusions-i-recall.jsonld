@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/cloud-illusions-i-recall",
     "@type" : "schema:CreativeWork",
-    "description" : "Cloud Illusions I Recall is a 2013 work by Peter Doig. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Cloud Illusions I Recall is a 2013 work by Peter Doig. ",
     "source" : "https://imma.ie/collection/cloud-illusions-i-recall/",
     "creditText" : "IMMA Collection: IMMA Editions, Donated by the artist, 2013",
     "image" : "spice:documentation/cloud-illusions-i-recall",
@@ -20,9 +20,6 @@
     "url" : "https://imma.ie/wp-content/uploads/2019/10/7189.jpg"
   } ],
   "@context" : {
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
@@ -35,6 +32,9 @@
     },
     "version" : {
       "@id" : "http://schema.org/version"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "material" : {
       "@id" : "http://schema.org/material"
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

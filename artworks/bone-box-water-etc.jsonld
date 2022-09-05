@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/bone-box-water-etc",
     "@type" : "schema:CreativeWork",
-    "description" : "Bone Box (Water etc.) is a 1972 work by Barrie Cooke. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Bone Box (Water etc.) is a 1972 work by Barrie Cooke. ",
     "source" : "https://imma.ie/collection/bone-box-water-etc/",
     "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/bone-box-water-etc",
@@ -50,8 +50,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/couleur-additive",
     "@type" : "schema:CreativeWork",
-    "description" : "Couleur Additive is a 1973 work by Carlos Cruz-Diez. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Couleur Additive is a 1973 work by Carlos Cruz-Diez. ",
     "source" : "https://imma.ie/collection/couleur-additive/",
     "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/couleur-additive",
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

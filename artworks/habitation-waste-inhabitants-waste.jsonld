@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/habitation-waste-inhabitants-waste",
     "@type" : "schema:CreativeWork",
-    "description" : "Habitation Waste/Inhabitants Waste is a 1979 work by Sara Horgan. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Habitation Waste/Inhabitants Waste is a 1979 work by Sara Horgan. ",
     "source" : "https://imma.ie/collection/habitation-waste-inhabitants-waste/",
     "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/habitation-waste-inhabitants-waste",
@@ -50,8 +50,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

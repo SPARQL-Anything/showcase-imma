@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:artefact/david",
     "@type" : "schema:CreativeWork",
-    "description" : "David is a 1985 work by Gene Lambert. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "David is a 1985 work by Gene Lambert. ",
     "source" : "https://imma.ie/collection/david/",
     "creditText" : "IMMA Collection: Purchase, 1991",
     "image" : "spice:documentation/david",
     "maintainer" : "https://w3id.org/spice/institute/imma",
     "material" : "Black and white photographs",
     "size" : "33 x 24 cm",
-    "hasInventory" : "IMMA.15.7"
+    "hasInventory" : "IMMA.15.007"
   }, {
     "@id" : "spice:documentation/david",
     "@type" : "schema:ImageObject",
     "caption" : "Gene Lambert, David, 1985, Black and white photographs, 33 x 24 cm, Collection Irish Museum of Modern Art, Purchase, 1991 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2020/02/725.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/725.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -54,8 +54,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

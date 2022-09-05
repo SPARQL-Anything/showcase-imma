@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/land-score-1-northern",
     "@type" : "schema:CreativeWork",
-    "description" : "Land Score 1 (Northern) is a 1990 work by Felim Egan. It is not currently on display in IMMA. ",
+    "description" : "Land Score 1 (Northern) is a 1990 work by Felim Egan. ",
     "source" : "https://imma.ie/collection/land-score-1-northern/",
     "creditText" : "IMMA Collection: Loan, Anonymous, 1991",
     "image" : "spice:documentation/land-score-1-northern",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

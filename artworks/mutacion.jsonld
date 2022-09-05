@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/mutacion",
     "@type" : "schema:CreativeWork",
-    "description" : "Mutación is a 1977 work by Arnaldo Coen. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Mutación is a 1977 work by Arnaldo Coen. ",
     "source" : "https://imma.ie/collection/mutacion/",
     "creditText" : "IMMA Collection: Donation, Smurfit: Cartón y Papel de México, 2000",
     "image" : "spice:documentation/mutacion",
@@ -29,9 +29,6 @@
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "material" : {
       "@id" : "http://schema.org/material"
     },
@@ -54,8 +51,11 @@
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
-    "schema" : "http://schema.org/",
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

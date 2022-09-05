@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/eine-kleine-nacht-musick",
     "@type" : "schema:CreativeWork",
-    "description" : "Eine Kleine Nacht Musick is a 1965 work by Joseph Cornell and Robert Cornell. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Eine Kleine Nacht Musick is a 1965 work by Joseph Cornell and Robert Cornell. ",
     "source" : "https://imma.ie/collection/eine-kleine-nacht-musick/",
     "creditText" : "IMMA Collection: The Novak/O'Doherty Collection at IMMA Gift, The American Ireland Fund, 2014",
     "image" : "spice:documentation/eine-kleine-nacht-musick",
@@ -46,8 +46,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

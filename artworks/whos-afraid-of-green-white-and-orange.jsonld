@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/whos-afraid-of-green-white-and-orange",
     "@type" : "schema:CreativeWork",
-    "description" : "”Who’s afraid of Green White and Orange” is a 2011 work by Les Levine. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "”Who’s afraid of Green White and Orange” is a 2011 work by Les Levine. ",
     "source" : "https://imma.ie/collection/whos-afraid-of-green-white-and-orange/",
     "creditText" : "IMMA Collection: Donated by Barbara and Donald Seligman, 2014",
     "image" : "spice:documentation/whos-afraid-of-green-white-and-orange",
@@ -52,14 +52,14 @@
     "material" : {
       "@id" : "http://schema.org/material"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
-    "schema" : "http://schema.org/",
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

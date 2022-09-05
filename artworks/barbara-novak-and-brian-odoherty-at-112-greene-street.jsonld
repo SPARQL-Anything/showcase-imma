@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/barbara-novak-and-brian-odoherty-at-112-greene-street",
     "@type" : "schema:CreativeWork",
-    "description" : "Barbara Novak and Brian O’Doherty at 112 Greene Street is a 1973 work by Daniel Budnik. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Barbara Novak and Brian O’Doherty at 112 Greene Street is a 1973 work by Daniel Budnik. ",
     "source" : "https://imma.ie/collection/barbara-novak-and-brian-odoherty-at-112-greene-street/",
     "creditText" : "IMMA Collection: Donation, Novak/O'Doherty Collection, 2015",
     "image" : "spice:documentation/barbara-novak-and-brian-odoherty-at-112-greene-street",
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

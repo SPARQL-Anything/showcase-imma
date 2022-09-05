@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/white-roses",
     "@type" : "schema:CreativeWork",
-    "description" : "White Roses is a 1977 work by Tim Goulding. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "White Roses is a 1977 work by Tim Goulding. ",
     "source" : "https://imma.ie/collection/white-roses/",
     "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/white-roses",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

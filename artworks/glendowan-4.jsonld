@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/glendowan-4",
     "@type" : "schema:CreativeWork",
-    "description" : "Glendowan is a 1959 work by Colin Middleton. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Glendowan is a 1959 work by Colin Middleton. ",
     "source" : "https://imma.ie/collection/glendowan-4/",
     "creditText" : "IMMA Collection: Heritage Gift from the McClelland Collection by Noel and Anne Marie Smyth, 2004",
     "image" : "spice:documentation/glendowan-4",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

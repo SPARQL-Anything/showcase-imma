@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/mitos-y-leyendas-del-olvido-iv",
     "@type" : "schema:CreativeWork",
-    "description" : "Mitos y Leyendas del Olvido IV is a 1976 work by Ana María Mazzei. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Mitos y Leyendas del Olvido IV is a 1976 work by Ana María Mazzei. ",
     "source" : "https://imma.ie/collection/mitos-y-leyendas-del-olvido-iv/",
     "creditText" : "IMMA Collection: Donation, Smurfit: Cartón y Papel de México, 2000",
     "image" : "spice:documentation/mitos-y-leyendas-del-olvido-iv",
@@ -23,9 +23,6 @@
     "material" : {
       "@id" : "http://schema.org/material"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
@@ -41,6 +38,9 @@
     },
     "size" : {
       "@id" : "http://schema.org/size"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "creditText" : {
       "@id" : "http://schema.org/creditText"
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/nevinson",
     "@type" : "schema:CreativeWork",
-    "description" : "Nevinson is a 1930 work by Elizabeth Rivers. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Nevinson is a 1930 work by Elizabeth Rivers. ",
     "source" : "https://imma.ie/collection/nevinson/",
     "creditText" : "IMMA Collection: Donation, George and Maura McClelland, 2005",
     "image" : "spice:documentation/nevinson",
@@ -50,8 +50,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/besuch-von-weit-draussen",
     "@type" : "schema:CreativeWork",
-    "description" : "BESUCH VON WEIT DRAUSSEN is a 2007 work by Nobert Schwontkowski. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "BESUCH VON WEIT DRAUSSEN is a 2007 work by Nobert Schwontkowski. ",
     "source" : "https://imma.ie/collection/besuch-von-weit-draussen/",
     "creditText" : "IMMA Collection: Heritage Gift, Kerlin Gallery Collection, 2018, 2018",
     "image" : "spice:documentation/besuch-von-weit-draussen",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

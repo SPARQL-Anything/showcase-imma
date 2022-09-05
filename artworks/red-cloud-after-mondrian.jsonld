@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/red-cloud-after-mondrian",
     "@type" : "schema:CreativeWork",
-    "description" : "Red Cloud (After Mondrian) is a 2007 work by Patrick Hall. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Red Cloud (After Mondrian) is a 2007 work by Patrick Hall. ",
     "source" : "https://imma.ie/collection/red-cloud-after-mondrian/",
     "creditText" : "IMMA Collection: Donation, 2008",
     "image" : "spice:documentation/red-cloud-after-mondrian",
@@ -17,17 +17,17 @@
     "caption" : "Patrick Hall, Red Cloud (After Mondrian), 2007, Ink and watercolour paper, 18 x 25.5 cm, Collection Irish Museum of Modern Art, Donation, 2008 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2021/03/35.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/35.jpg"
   } ],
   "@context" : {
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
     "size" : {
       "@id" : "http://schema.org/size"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

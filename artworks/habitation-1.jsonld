@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/habitation-1",
     "@type" : "schema:CreativeWork",
-    "description" : "Habitation 1 is a 1970 work by Maria Simonds-Gooding. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Habitation 1 is a 1970 work by Maria Simonds-Gooding. ",
     "source" : "https://imma.ie/collection/habitation-1/",
     "creditText" : "IMMA Collection: Heritage Gift, P.J. Carroll &amp; Co. Ltd. Art Collection, 2005",
     "image" : "spice:documentation/habitation-1",
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

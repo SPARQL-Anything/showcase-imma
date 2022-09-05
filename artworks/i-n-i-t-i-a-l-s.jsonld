@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/i-n-i-t-i-a-l-s",
     "@type" : "schema:CreativeWork",
-    "description" : "I N I T I A L S is a 1993 work by James Coleman. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "I N I T I A L S is a 1993 work by James Coleman. ",
     "source" : "https://imma.ie/collection/i-n-i-t-i-a-l-s/",
     "creditText" : "IMMA Collection: Purchase, Heritage Fund, 2004",
     "image" : "spice:documentation/i-n-i-t-i-a-l-s",
@@ -48,18 +48,18 @@
     "version" : {
       "@id" : "http://schema.org/version"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "size" : {
       "@id" : "http://schema.org/size"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

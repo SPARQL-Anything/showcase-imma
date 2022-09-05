@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/sin-titulo-mapa-mexico",
     "@type" : "schema:CreativeWork",
-    "description" : "Sin Título (Mapa México) is a 2010 work by Pierre Buraglio. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Sin Título (Mapa México) is a 2010 work by Pierre Buraglio. ",
     "source" : "https://imma.ie/collection/sin-titulo-mapa-mexico/",
     "creditText" : "IMMA Collection: Diplomatic gift of the Federal Government of Mexico, 2011",
     "image" : "spice:documentation/sin-titulo-mapa-mexico",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

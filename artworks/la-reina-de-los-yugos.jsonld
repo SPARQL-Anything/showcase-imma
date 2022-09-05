@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/la-reina-de-los-yugos",
     "@type" : "schema:CreativeWork",
-    "description" : "La Reina de Los Yugos is a 1976 work by Alberto Gironella. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "La Reina de Los Yugos is a 1976 work by Alberto Gironella. ",
     "source" : "https://imma.ie/collection/la-reina-de-los-yugos/",
     "creditText" : "IMMA Collection: Donation, Smurfit: Cartón y Papel de México, 2000",
     "image" : "spice:documentation/la-reina-de-los-yugos",
@@ -39,15 +39,15 @@
     "size" : {
       "@id" : "http://schema.org/size"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "version" : {
       "@id" : "http://schema.org/version"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
@@ -58,8 +58,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/landmarks-of-industrial-britain",
     "@type" : "schema:CreativeWork",
-    "description" : "Landmarks of Industrial Britain is a 2007 work by Carl Zimmerman. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Landmarks of Industrial Britain is a 2007 work by Carl Zimmerman. ",
     "source" : "https://imma.ie/collection/landmarks-of-industrial-britain/",
     "creditText" : "IMMA Collection: Donation, 2009",
     "image" : "spice:documentation/landmarks-of-industrial-britain",
@@ -33,9 +33,6 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "material" : {
       "@id" : "http://schema.org/material"
     },
@@ -58,8 +55,11 @@
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
-    "schema" : "http://schema.org/",
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

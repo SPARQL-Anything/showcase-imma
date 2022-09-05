@@ -2,14 +2,14 @@
   "@graph" : [ {
     "@id" : "spice:artefact/still-3",
     "@type" : "schema:CreativeWork",
-    "description" : "Still is a 1973 work by Stanley Hayter. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Still is a 1973 work by Stanley Hayter. ",
     "source" : "https://imma.ie/collection/still-3/",
     "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/still-3",
     "maintainer" : "https://w3id.org/spice/institute/imma",
     "material" : "3 black etchings",
     "size" : "37.5 x 27.5 cm",
-    "hasInventory" : "IMMA.245.2"
+    "hasInventory" : "IMMA.245.002"
   }, {
     "@id" : "spice:documentation/still-3",
     "@type" : "schema:ImageObject",
@@ -50,8 +50,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

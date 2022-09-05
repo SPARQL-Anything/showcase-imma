@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/little-orphan-annie-is-forty",
     "@type" : "schema:CreativeWork",
-    "description" : "Little Orphan Annie is Forty is a 1965 work by Richard Merkin. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Little Orphan Annie is Forty is a 1965 work by Richard Merkin. ",
     "source" : "https://imma.ie/collection/little-orphan-annie-is-forty/",
     "creditText" : "IMMA Collection: Donation, Novak/O'Doherty Collection, 2015",
     "image" : "spice:documentation/little-orphan-annie-is-forty",
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/hors-du-cercle",
     "@type" : "schema:CreativeWork",
-    "description" : "Hors du Cercle is a 1920 work by Joan Miró. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Hors du Cercle is a 1920 work by Joan Miró. ",
     "source" : "https://imma.ie/collection/hors-du-cercle/",
     "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/hors-du-cercle",
@@ -58,8 +58,8 @@
     "material" : {
       "@id" : "http://schema.org/material"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

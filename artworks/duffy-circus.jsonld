@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/duffy-circus",
     "@type" : "schema:CreativeWork",
-    "description" : "Duffy Circus is a 1967 work by Bruce Davidson. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Duffy Circus is a 1967 work by Bruce Davidson. ",
     "source" : "https://imma.ie/collection/duffy-circus/",
     "creditText" : "IMMA Collection: Purchase, 2006",
     "image" : "spice:documentation/duffy-circus",
@@ -50,8 +50,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

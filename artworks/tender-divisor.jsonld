@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/tender-divisor",
     "@type" : "schema:CreativeWork",
-    "description" : "Tender Divisor is a 2016 work by Brian Eno. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Tender Divisor is a 2016 work by Brian Eno. ",
     "source" : "https://imma.ie/collection/tender-divisor/",
     "creditText" : "IMMA Collection: Donation, 2016",
     "image" : "spice:documentation/tender-divisor",
@@ -17,7 +17,7 @@
     "caption" : "Brian Eno, Tender Divisor, 2016, Digital printing on PETG plastic, 40.6 x 40.6 cm Framed: 41 x 41 cm, Collection Irish Museum of Modern Art, Donation, 2016 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2018/11/7809.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/7809.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -48,9 +48,6 @@
     "size" : {
       "@id" : "http://schema.org/size"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
@@ -58,8 +55,11 @@
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
-    "schema" : "http://schema.org/",
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

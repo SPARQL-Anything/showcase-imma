@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/untitled-black-and-white",
     "@type" : "schema:CreativeWork",
-    "description" : "Untitled (black and white) is a 1997 work by Seán Shanahan. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Untitled (black and white) is a 1997 work by Seán Shanahan. ",
     "source" : "https://imma.ie/collection/untitled-black-and-white/",
     "creditText" : "IMMA Collection: Heritage Gift, Kerlin Gallery Collection, 2018, 2018",
     "image" : "spice:documentation/untitled-black-and-white",
@@ -50,8 +50,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

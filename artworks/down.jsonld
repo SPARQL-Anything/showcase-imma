@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/down",
     "@type" : "schema:CreativeWork",
-    "description" : "Down is a 1993 work by Catherine Lee. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Down is a 1993 work by Catherine Lee. ",
     "source" : "https://imma.ie/collection/down/",
     "creditText" : "IMMA Collection: Donation, the artist, 2005",
     "image" : "spice:documentation/down",
@@ -30,11 +30,11 @@
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

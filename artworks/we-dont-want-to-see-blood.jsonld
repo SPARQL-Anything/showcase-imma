@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/we-dont-want-to-see-blood",
     "@type" : "schema:CreativeWork",
-    "description" : "We Don’t Want to See Blood is a 2009 work by Camille Souter. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "We Don’t Want to See Blood is a 2009 work by Camille Souter. ",
     "source" : "https://imma.ie/collection/we-dont-want-to-see-blood/",
     "creditText" : "IMMA Collection: IMMA Editions, Donated by the artist, 2009",
     "image" : "spice:documentation/we-dont-want-to-see-blood",
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

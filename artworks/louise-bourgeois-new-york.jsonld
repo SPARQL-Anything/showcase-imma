@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/louise-bourgeois-new-york",
     "@type" : "schema:CreativeWork",
-    "description" : "Louise Bourgeois, New York is a 1997 work by Annie Leibovitz. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Louise Bourgeois, New York is a 1997 work by Annie Leibovitz. ",
     "source" : "https://imma.ie/collection/louise-bourgeois-new-york/",
     "creditText" : "IMMA Collection: Donated in 2014 by the American Friends of the Arts in Ireland who received this work from David Kronn, 2014",
     "image" : "spice:documentation/louise-bourgeois-new-york",
@@ -39,9 +39,6 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
@@ -58,8 +55,11 @@
     "version" : {
       "@id" : "http://schema.org/version"
     },
-    "schema" : "http://schema.org/",
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

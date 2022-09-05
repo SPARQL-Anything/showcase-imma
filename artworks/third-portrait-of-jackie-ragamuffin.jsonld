@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/third-portrait-of-jackie-ragamuffin",
     "@type" : "schema:CreativeWork",
-    "description" : "Third Portrait of Jackie (Ragamuffin) is a 1939 work by Jacob Epstein. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Third Portrait of Jackie (Ragamuffin) is a 1939 work by Jacob Epstein. ",
     "source" : "https://imma.ie/collection/third-portrait-of-jackie-ragamuffin/",
     "creditText" : "IMMA Collection: Donation, Maire and Maurice Foley, 2000",
     "image" : "spice:documentation/third-portrait-of-jackie-ragamuffin",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

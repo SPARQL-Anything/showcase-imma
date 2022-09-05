@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/dublin-botanic-ave-f46-p5a-2-15lin",
     "@type" : "schema:CreativeWork",
-    "description" : "Dublin Botanic ave. F46 P5A 2/15lin is a 1993 work by Jerome De Perlinghi. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Dublin Botanic ave. F46 P5A 2/15lin is a 1993 work by Jerome De Perlinghi. ",
     "source" : "https://imma.ie/collection/dublin-botanic-ave-f46-p5a-2-15lin/",
     "creditText" : "IMMA Collection: Donated by the artist, 1994",
     "image" : "spice:documentation/dublin-botanic-ave-f46-p5a-2-15lin",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

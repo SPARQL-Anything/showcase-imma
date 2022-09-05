@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/considered-cruelties-iii",
     "@type" : "schema:CreativeWork",
-    "description" : "Considered Cruelties III is a 1992 work by Hughie O'Donoghue. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Considered Cruelties III is a 1992 work by Hughie O'Donoghue. ",
     "source" : "https://imma.ie/collection/considered-cruelties-iii/",
     "creditText" : "IMMA Collection: Gift, The American Ireland Fund, 2010",
     "image" : "spice:documentation/considered-cruelties-iii",
@@ -16,7 +16,7 @@
     "caption" : "Hughie O'Donoghue, Considered Cruelties III, 1992, Charcoal on canvas, 246 x 203 cm, Collection Irish Museum of Modern Art, Gift, The American Ireland Fund, 2010 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2018/11/2240.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/2240.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -54,8 +54,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

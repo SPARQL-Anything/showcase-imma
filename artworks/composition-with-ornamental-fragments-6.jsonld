@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/composition-with-ornamental-fragments-6",
     "@type" : "schema:CreativeWork",
-    "description" : "Composition with Ornamental Fragments 6 is a 2011 work by Philip Taaffe. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Composition with Ornamental Fragments 6 is a 2011 work by Philip Taaffe. ",
     "source" : "https://imma.ie/collection/composition-with-ornamental-fragments-6/",
     "creditText" : "IMMA Collection: IMMA Editions, Donated by the artist, 2011",
     "image" : "spice:documentation/composition-with-ornamental-fragments-6",
@@ -33,15 +33,15 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "creditText" : {
       "@id" : "http://schema.org/creditText"
-    },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "size" : {
       "@id" : "http://schema.org/size"
@@ -58,8 +58,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

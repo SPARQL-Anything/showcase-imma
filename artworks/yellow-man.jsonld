@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/yellow-man",
     "@type" : "schema:CreativeWork",
-    "description" : "Yellow Man is a 2009 work by Hughie O'Donoghue. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Yellow Man is a 2009 work by Hughie O'Donoghue. ",
     "source" : "https://imma.ie/collection/yellow-man/",
     "creditText" : "IMMA Collection: IMMA Editions, Donated by the artist, 2009",
     "image" : "spice:documentation/yellow-man",
@@ -33,14 +33,14 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
     "material" : {
       "@id" : "http://schema.org/material"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -58,8 +58,8 @@
     "size" : {
       "@id" : "http://schema.org/size"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

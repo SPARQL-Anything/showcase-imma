@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/milagro-de-la-mirada",
     "@type" : "schema:CreativeWork",
-    "description" : "Milagro de la Mirada is a 1986 work by Alfonso Monreal. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Milagro de la Mirada is a 1986 work by Alfonso Monreal. ",
     "source" : "https://imma.ie/collection/milagro-de-la-mirada/",
     "creditText" : "IMMA Collection: Purchase, 1996",
     "image" : "spice:documentation/milagro-de-la-mirada",
@@ -23,6 +23,9 @@
     "size" : {
       "@id" : "http://schema.org/size"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
@@ -38,9 +41,6 @@
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
-    },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "creditText" : {
       "@id" : "http://schema.org/creditText"
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

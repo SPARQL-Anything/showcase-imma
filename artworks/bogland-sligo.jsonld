@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/bogland-sligo",
     "@type" : "schema:CreativeWork",
-    "description" : "Bogland, Sligo is a 1988 work by Sean McSweeney. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Bogland, Sligo is a 1988 work by Sean McSweeney. ",
     "source" : "https://imma.ie/collection/bogland-sligo/",
     "creditText" : "IMMA Collection: Donation, Maire and Maurice Foley, 2000",
     "image" : "spice:documentation/bogland-sligo",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/the-tain-ulster-rises-from-its-pangs",
     "@type" : "schema:CreativeWork",
-    "description" : "The Táin. Ulster rises from its pangs is a 1969 work by Louis le Brocquy. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "The Táin. Ulster rises from its pangs is a 1969 work by Louis le Brocquy. ",
     "source" : "https://imma.ie/collection/the-tain-ulster-rises-from-its-pangs/",
     "creditText" : "IMMA Collection: Heritage Gift by Brian Timmons, 2001",
     "image" : "spice:documentation/the-tain-ulster-rises-from-its-pangs",
@@ -17,7 +17,7 @@
     "caption" : "Louis le Brocquy, The Táin. Ulster rises from its pangs, 1969, Aubusson Tapestry, Atelier René Duché, 1999, 129 x 184 cm, Collection Irish Museum of Modern Art, Heritage Gift by Brian Timmons, 2001 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2019/10/144.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/144.jpg"
   } ],
   "@context" : {
     "size" : {
@@ -26,6 +26,9 @@
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "creditText" : {
       "@id" : "http://schema.org/creditText"
@@ -36,9 +39,6 @@
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
-    },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

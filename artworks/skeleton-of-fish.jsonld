@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/skeleton-of-fish",
     "@type" : "schema:CreativeWork",
-    "description" : "Skeleton of Fish is a 1986 work by John Bellany. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Skeleton of Fish is a 1986 work by John Bellany. ",
     "source" : "https://imma.ie/collection/skeleton-of-fish/",
     "creditText" : "IMMA Collection: Donated by the Department of Customs and Excise, 1994 (July)",
     "image" : "spice:documentation/skeleton-of-fish",
@@ -26,9 +26,6 @@
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
@@ -42,6 +39,9 @@
     "material" : {
       "@id" : "http://schema.org/material"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "size" : {
       "@id" : "http://schema.org/size"
     },
@@ -54,8 +54,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

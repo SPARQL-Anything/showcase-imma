@@ -7,16 +7,16 @@
     "creditText" : "IMMA Collection: Purchase, 2020, 2020",
     "image" : "spice:documentation/jig-map-iraq",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "material" : "oil on canvas",
+    "material" : "Oil on canvas",
     "size" : "60 x 150 cm",
     "hasInventory" : "IMMA.4186"
   }, {
     "@id" : "spice:documentation/jig-map-iraq",
     "@type" : "schema:ImageObject",
-    "caption" : "Claire Halpin, Jig Map Iraq, 2015, oil on canvas, 60 x 150 cm, Collection Irish Museum of Modern Art, Purchase, 2020, 2020 ",
+    "caption" : "Claire Halpin, Jig Map Iraq, 2015, Oil on canvas, 60 x 150 cm, Collection Irish Museum of Modern Art, Purchase, 2020, 2020 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2021/04/9480.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/9480.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -54,8 +54,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

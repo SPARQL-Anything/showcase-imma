@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/alegoria-de-la-rosa",
     "@type" : "schema:CreativeWork",
-    "description" : "Alegoría de la Rosa is a 1996 work by Carla Rippey. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Alegoría de la Rosa is a 1996 work by Carla Rippey. ",
     "source" : "https://imma.ie/collection/alegoria-de-la-rosa/",
     "creditText" : "IMMA Collection: Donation, Smurfit: Cartón y Papel de México, 2000",
     "image" : "spice:documentation/alegoria-de-la-rosa",
@@ -34,6 +34,9 @@
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
@@ -42,9 +45,6 @@
     },
     "material" : {
       "@id" : "http://schema.org/material"
-    },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

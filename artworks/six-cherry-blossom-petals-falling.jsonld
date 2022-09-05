@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/six-cherry-blossom-petals-falling",
     "@type" : "schema:CreativeWork",
-    "description" : "Six Cherry Blossom Petals, Falling is a 2001 work by Grace Weir. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Six Cherry Blossom Petals, Falling is a 2001 work by Grace Weir. ",
     "source" : "https://imma.ie/collection/six-cherry-blossom-petals-falling/",
     "creditText" : "IMMA Collection: Purchase, 2004",
     "image" : "spice:documentation/six-cherry-blossom-petals-falling",
@@ -36,11 +36,11 @@
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
-    "material" : {
-      "@id" : "http://schema.org/material"
-    },
     "description" : {
       "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material"
     },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
@@ -54,8 +54,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

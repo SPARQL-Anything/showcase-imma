@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/what-is-left-to-remember",
     "@type" : "schema:CreativeWork",
-    "description" : "What is Left to Remember is a 1975 work by Marc Balakjian. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "What is Left to Remember is a 1975 work by Marc Balakjian. ",
     "source" : "https://imma.ie/collection/what-is-left-to-remember/",
     "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/what-is-left-to-remember",
@@ -42,9 +42,6 @@
     "size" : {
       "@id" : "http://schema.org/size"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "material" : {
       "@id" : "http://schema.org/material"
     },
@@ -54,12 +51,15 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

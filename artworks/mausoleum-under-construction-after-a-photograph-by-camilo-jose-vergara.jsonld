@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/mausoleum-under-construction-after-a-photograph-by-camilo-jose-vergara",
     "@type" : "schema:CreativeWork",
-    "description" : "Mausoleum Under Construction (after a photograph by Camilo José Vergara) is a 1992 work by Rachel Whiteread. It is not currently on display in IMMA. ",
+    "description" : "Mausoleum Under Construction (after a photograph by Camilo José Vergara) is a 1992 work by Rachel Whiteread. ",
     "source" : "https://imma.ie/collection/mausoleum-under-construction-after-a-photograph-by-camilo-jose-vergara/",
     "creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1995",
     "image" : "spice:documentation/mausoleum-under-construction-after-a-photograph-by-camilo-jose-vergara",
@@ -38,9 +38,6 @@
     "size" : {
       "@id" : "http://schema.org/size"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
@@ -48,14 +45,17 @@
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "material" : {
       "@id" : "http://schema.org/material"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

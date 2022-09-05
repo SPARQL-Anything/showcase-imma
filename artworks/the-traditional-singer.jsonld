@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/the-traditional-singer",
     "@type" : "schema:CreativeWork",
-    "description" : "The Traditional Singer is a 1945 work by Jack Butler Yeats. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "The Traditional Singer is a 1945 work by Jack Butler Yeats. ",
     "source" : "https://imma.ie/collection/the-traditional-singer/",
     "creditText" : "IMMA Collection: Heritage Gift from the McClelland Collection by Noel and Anne Marie Smyth, 2004",
     "image" : "spice:documentation/the-traditional-singer",
@@ -16,7 +16,7 @@
     "caption" : "Jack Butler Yeats, The Traditional Singer, 1945, Oil on board, 22.5 x 35.5 cm Framed: 51.5 x 38.5 x 6 cm, Collection Irish Museum of Modern Art, Heritage Gift from the McClelland Collection by Noel and Anne Marie Smyth, 2004 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2019/10/1354.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/1354.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

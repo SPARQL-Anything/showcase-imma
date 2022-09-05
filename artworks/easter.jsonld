@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/easter",
     "@type" : "schema:CreativeWork",
-    "description" : "Easter is a 1974 work by Cecil King. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Easter is a 1974 work by Cecil King. ",
     "source" : "https://imma.ie/collection/easter/",
     "creditText" : "IMMA Collection: Heritage Gift, P.J. Carroll &amp; Co. Ltd. Art Collection, 2005",
     "image" : "spice:documentation/easter",
@@ -16,7 +16,7 @@
     "caption" : "Cecil King, Easter, 1974, Oil on canvas, 228.8 x 142.3 cm, Collection Irish Museum of Modern Art, Heritage Gift, P.J. Carroll &amp; Co. Ltd. Art Collection, 2005 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2018/11/1779.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/1779.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

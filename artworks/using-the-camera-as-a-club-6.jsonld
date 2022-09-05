@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/using-the-camera-as-a-club-6",
     "@type" : "schema:CreativeWork",
-    "description" : "Using the Camera as a Club is a 1979 work by Les Levine. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Using the Camera as a Club is a 1979 work by Les Levine. ",
     "source" : "https://imma.ie/collection/using-the-camera-as-a-club-6/",
     "creditText" : "IMMA Collection: Donated by the artist, 2010",
     "image" : "spice:documentation/using-the-camera-as-a-club-6",
@@ -10,14 +10,14 @@
     "material" : "Etched on zinc; printed in sepia ink on buff German etching paper",
     "size" : "55.88 x 76.2 cm",
     "version" : "Edition AP 4/20 (bottom left corner)",
-    "hasInventory" : "IMMA.3302.5"
+    "hasInventory" : "IMMA.3302.005"
   }, {
     "@id" : "spice:documentation/using-the-camera-as-a-club-6",
     "@type" : "schema:ImageObject",
     "caption" : "Les Levine, Using the Camera as a Club, 1979, Etched on zinc; printed in sepia ink on buff German etching paper, 55.88 x 76.2 cm, Collection Irish Museum of Modern Art, Donated by the artist, 2010 ",
-    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections teamie.ie",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2020/01/5469.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/5469.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -36,6 +36,9 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
+    },
     "size" : {
       "@id" : "http://schema.org/size"
     },
@@ -43,23 +46,20 @@
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "version" : {
       "@id" : "http://schema.org/version"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "material" : {
       "@id" : "http://schema.org/material"
     },
-    "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
-    },
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

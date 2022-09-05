@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/studies-for-webs-backlight-series-ii",
     "@type" : "schema:CreativeWork",
-    "description" : "Studies for Webs (Backlight Series) II is a 1994 work by Avis Newman. It is not currently on display in IMMA. ",
+    "description" : "Studies for Webs (Backlight Series) II is a 1994 work by Avis Newman. ",
     "source" : "https://imma.ie/collection/studies-for-webs-backlight-series-ii/",
     "creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1995",
     "image" : "spice:documentation/studies-for-webs-backlight-series-ii",
@@ -50,8 +50,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

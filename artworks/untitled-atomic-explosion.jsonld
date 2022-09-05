@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/untitled-atomic-explosion",
     "@type" : "schema:CreativeWork",
-    "description" : "Untitled (Atomic explosion) is a 1960 work by United Press International. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Untitled (Atomic explosion) is a 1960 work by United Press International. ",
     "source" : "https://imma.ie/collection/untitled-atomic-explosion/",
     "creditText" : "IMMA Collection: Donation, David Kronn Collection, 2015",
     "image" : "spice:documentation/untitled-atomic-explosion",
@@ -50,8 +50,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

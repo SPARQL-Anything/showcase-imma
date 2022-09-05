@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/cirqueros",
     "@type" : "schema:CreativeWork",
-    "description" : "Cirqueros is a 1981 work by Mary Stuart. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Cirqueros is a 1981 work by Mary Stuart. ",
     "source" : "https://imma.ie/collection/cirqueros/",
     "creditText" : "IMMA Collection: Donation, Smurfit: Cartón y Papel de México, 2000",
     "image" : "spice:documentation/cirqueros",
@@ -23,15 +23,15 @@
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "size" : {
       "@id" : "http://schema.org/size"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "material" : {
       "@id" : "http://schema.org/material"
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

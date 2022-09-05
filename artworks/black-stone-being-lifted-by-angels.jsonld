@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/black-stone-being-lifted-by-angels",
     "@type" : "schema:CreativeWork",
-    "description" : "Black Stone Being Lifted by Angels is a 2004 work by Patrick Hall. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Black Stone Being Lifted by Angels is a 2004 work by Patrick Hall. ",
     "source" : "https://imma.ie/collection/black-stone-being-lifted-by-angels/",
     "creditText" : "IMMA Collection: Donation, 2008",
     "image" : "spice:documentation/black-stone-being-lifted-by-angels",
@@ -29,11 +29,11 @@
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "material" : {
       "@id" : "http://schema.org/material"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

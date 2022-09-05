@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/inis-toirr-aran-dance",
     "@type" : "schema:CreativeWork",
-    "description" : "Inis t’Oirr/Aran Dance is a 1985 work by Pauline Cummins. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Inis t’Oirr/Aran Dance is a 1985 work by Pauline Cummins. ",
     "source" : "https://imma.ie/collection/inis-toirr-aran-dance/",
     "creditText" : "IMMA Collection: Purchase, 2000",
     "image" : "spice:documentation/inis-toirr-aran-dance",
@@ -16,7 +16,7 @@
     "caption" : "Pauline Cummins, Inis t’Oirr/Aran Dance, 1985, Slides, sound, Dimensions variable, Collection Irish Museum of Modern Art, Purchase, 2000 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2019/05/1402.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/1402.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -54,8 +54,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

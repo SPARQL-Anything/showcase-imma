@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/mother-with-monty-and-duke",
     "@type" : "schema:CreativeWork",
-    "description" : "Mother with Monty and Duke is a 1958 work by Henry Robertson Craig. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Mother with Monty and Duke is a 1958 work by Henry Robertson Craig. ",
     "source" : "https://imma.ie/collection/mother-with-monty-and-duke/",
     "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/mother-with-monty-and-duke",
@@ -54,8 +54,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

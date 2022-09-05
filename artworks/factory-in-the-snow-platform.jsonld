@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/factory-in-the-snow-platform",
     "@type" : "schema:CreativeWork",
-    "description" : "Factory in the Snow Platform is a 2006 work by Liam Gillick. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Factory in the Snow Platform is a 2006 work by Liam Gillick. ",
     "source" : "https://imma.ie/collection/factory-in-the-snow-platform/",
     "creditText" : "IMMA Collection: Heritage Gift, Kerlin Gallery Collection, 2018, 2018",
     "image" : "spice:documentation/factory-in-the-snow-platform",
@@ -50,8 +50,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

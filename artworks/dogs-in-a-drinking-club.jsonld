@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/dogs-in-a-drinking-club",
     "@type" : "schema:CreativeWork",
-    "description" : "Dogs in a Drinking Club is a 1985 work by John Kindness. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Dogs in a Drinking Club is a 1985 work by John Kindness. ",
     "source" : "https://imma.ie/collection/dogs-in-a-drinking-club/",
     "creditText" : "IMMA Collection: Donation, Ute Schaefer, 2004",
     "image" : "spice:documentation/dogs-in-a-drinking-club",
@@ -50,8 +50,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

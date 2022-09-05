@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/abstract-no-4",
     "@type" : "schema:CreativeWork",
-    "description" : "Abstract No.4 is a 1912 work by Mainie Jellett. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Abstract No.4 is a 1912 work by Mainie Jellett. ",
     "source" : "https://imma.ie/collection/abstract-no-4/",
     "creditText" : "IMMA Collection: Donation 2010, Bank of Ireland Art Collection, 2010",
     "image" : "spice:documentation/abstract-no-4",
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

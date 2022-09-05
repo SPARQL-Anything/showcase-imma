@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/untitled-33",
     "@type" : "schema:CreativeWork",
-    "description" : "Untitled is a 1996 work by Catherine Lynch. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Untitled is a 1996 work by Catherine Lynch. ",
     "source" : "https://imma.ie/collection/untitled-33/",
     "creditText" : "IMMA Collection: Purchase, 1998",
     "image" : "spice:documentation/untitled-33",
@@ -24,14 +24,14 @@
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "version" : {
       "@id" : "http://schema.org/version"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "material" : {
       "@id" : "http://schema.org/material"
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

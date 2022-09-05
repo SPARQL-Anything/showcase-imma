@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/queen-of-proofs",
     "@type" : "schema:CreativeWork",
-    "description" : "Queen of Proofs is a 1990 work by Edward Allington. It is not currently on display in IMMA. ",
+    "description" : "Queen of Proofs is a 1990 work by Edward Allington. ",
     "source" : "https://imma.ie/collection/queen-of-proofs/",
     "creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1994",
     "image" : "spice:documentation/queen-of-proofs",
@@ -50,8 +50,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

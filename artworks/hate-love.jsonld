@@ -2,22 +2,22 @@
   "@graph" : [ {
     "@id" : "spice:artefact/hate-love",
     "@type" : "schema:CreativeWork",
-    "description" : "Hate/Love is a 2006 work by Isaac Julien. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Hate/Love is a 2006 work by Isaac Julien. ",
     "source" : "https://imma.ie/collection/hate-love/",
     "creditText" : "IMMA Collection: IMMA Editions, Donated by the artist, 2006",
     "image" : "spice:documentation/hate-love",
     "maintainer" : "https://w3id.org/spice/institute/imma",
     "material" : "Pigment print on watercolour paper, coated with UV filtering varnish",
-    "size" : "Framed: 40 x 89 cm 24 x 32.5 cm",
+    "size" : "Framed: 40 x 89 cm24 x 32.5 cm",
     "version" : "Edition 10/100",
     "hasInventory" : "IMMA.2207"
   }, {
     "@id" : "spice:documentation/hate-love",
     "@type" : "schema:ImageObject",
-    "caption" : "Isaac Julien, Hate/Love, 2006, Pigment print on watercolour paper, coated with UV filtering varnish, Framed: 40 x 89 cm 24 x 32.5 cm, Collection Irish Museum of Modern Art, IMMA Editions, Donated by the artist, 2006 ",
+    "caption" : "Isaac Julien, Hate/Love, 2006, Pigment print on watercolour paper, coated with UV filtering varnish, Framed: 40 x 89 cm24 x 32.5 cm, Collection Irish Museum of Modern Art, IMMA Editions, Donated by the artist, 2006 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2021/03/2253-scaled.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/2253.png"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -43,11 +43,11 @@
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
-    "size" : {
-      "@id" : "http://schema.org/size"
-    },
     "version" : {
       "@id" : "http://schema.org/version"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size"
     },
     "creditText" : {
       "@id" : "http://schema.org/creditText"
@@ -58,8 +58,8 @@
     "material" : {
       "@id" : "http://schema.org/material"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

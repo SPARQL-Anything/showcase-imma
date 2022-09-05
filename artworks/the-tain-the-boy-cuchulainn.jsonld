@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/the-tain-the-boy-cuchulainn",
     "@type" : "schema:CreativeWork",
-    "description" : "The Táin. The boy Cúchulainn is a 1969 work by Louis le Brocquy. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "The Táin. The boy Cúchulainn is a 1969 work by Louis le Brocquy. ",
     "source" : "https://imma.ie/collection/the-tain-the-boy-cuchulainn/",
     "creditText" : "IMMA Collection: Heritage Gift by Brian Timmons, 2001",
     "image" : "spice:documentation/the-tain-the-boy-cuchulainn",
@@ -17,7 +17,7 @@
     "caption" : "Louis le Brocquy, The Táin. The boy Cúchulainn, 1969, Aubusson Tapestry, Atelier René Duché, 1998, 184 x 129 cm, Collection Irish Museum of Modern Art, Heritage Gift by Brian Timmons, 2001 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2019/10/135.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/135.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -42,6 +42,9 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "version" : {
       "@id" : "http://schema.org/version"
     },
@@ -55,11 +58,8 @@
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

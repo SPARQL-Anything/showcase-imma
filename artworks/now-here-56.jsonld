@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/now-here-56",
     "@type" : "schema:CreativeWork",
-    "description" : "NOW: HERE 56 is a 2006 work by Garrett Phelan. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "NOW: HERE 56 is a 2006 work by Garrett Phelan. ",
     "source" : "https://imma.ie/collection/now-here-56/",
     "creditText" : "IMMA Collection: Purchase, 2006",
     "image" : "spice:documentation/now-here-56",
@@ -16,7 +16,7 @@
     "caption" : "Garrett Phelan, NOW: HERE 56, 2006, Black marker on paper, Framed: 75 x 105 cm 69 x 99 cm, Collection Irish Museum of Modern Art, Purchase, 2006 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2018/11/98.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/98.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

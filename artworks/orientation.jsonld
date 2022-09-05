@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/orientation",
     "@type" : "schema:CreativeWork",
-    "description" : "Orientation is a 1991 work by Mary Fitzgerald. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Orientation is a 1991 work by Mary Fitzgerald. ",
     "source" : "https://imma.ie/collection/orientation/",
     "creditText" : "IMMA Collection: Purchase, 1992",
     "image" : "spice:documentation/orientation",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

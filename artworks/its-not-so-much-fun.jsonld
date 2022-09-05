@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/its-not-so-much-fun",
     "@type" : "schema:CreativeWork",
-    "description" : "It’s Not So Much Fun is a 1973 work by Mary Farl Powers. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "It’s Not So Much Fun is a 1973 work by Mary Farl Powers. ",
     "source" : "https://imma.ie/collection/its-not-so-much-fun/",
     "creditText" : "IMMA Collection: Donation, Powers Family, 2009",
     "image" : "spice:documentation/its-not-so-much-fun",
@@ -31,11 +31,11 @@
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
-    "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
-    },
     "description" : {
       "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "size" : {
       "@id" : "http://schema.org/size"
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

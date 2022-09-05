@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/pirates-taking-away-children",
     "@type" : "schema:CreativeWork",
-    "description" : "Pirates Taking Away Children is a 1992 work by Paula Rego. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Pirates Taking Away Children is a 1992 work by Paula Rego. ",
     "source" : "https://imma.ie/collection/pirates-taking-away-children/",
     "creditText" : "IMMA Collection: Purchase, 1996",
     "image" : "spice:documentation/pirates-taking-away-children",
@@ -17,12 +17,9 @@
     "caption" : "Paula Rego, Pirates Taking Away Children, 1992, Etching and aquatint on hand-made paper, 28 x 20 cm, Collection Irish Museum of Modern Art, Purchase, 1996 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2020/02/1048.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/1048.jpg"
   } ],
   "@context" : {
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "material" : {
       "@id" : "http://schema.org/material"
     },
@@ -41,6 +38,9 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/horseman",
     "@type" : "schema:CreativeWork",
-    "description" : "Horseman is a 1974 work by Vivian E. Browne. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Horseman is a 1974 work by Vivian E. Browne. ",
     "source" : "https://imma.ie/collection/horseman/",
     "creditText" : "IMMA Collection: Donation, Novak/O'Doherty Collection, 2015",
     "image" : "spice:documentation/horseman",
@@ -36,6 +36,9 @@
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "version" : {
       "@id" : "http://schema.org/version"
     },
@@ -51,15 +54,12 @@
     "size" : {
       "@id" : "http://schema.org/size"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

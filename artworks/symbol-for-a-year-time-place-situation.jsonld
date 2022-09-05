@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/symbol-for-a-year-time-place-situation",
     "@type" : "schema:CreativeWork",
-    "description" : "Symbol for a Year (Time, Place, Situation) is a 1979 work by Graham Gingles. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Symbol for a Year (Time, Place, Situation) is a 1979 work by Graham Gingles. ",
     "source" : "https://imma.ie/collection/symbol-for-a-year-time-place-situation/",
     "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/symbol-for-a-year-time-place-situation",
@@ -50,8 +50,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

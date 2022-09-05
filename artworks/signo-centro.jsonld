@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/signo-centro",
     "@type" : "schema:CreativeWork",
-    "description" : "Signo Centro is a 1978 work by Manuel Hernández. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Signo Centro is a 1978 work by Manuel Hernández. ",
     "source" : "https://imma.ie/collection/signo-centro/",
     "creditText" : "IMMA Collection: Donation, Smurfit: Cartón y Papel de México, 2000",
     "image" : "spice:documentation/signo-centro",
@@ -29,6 +29,9 @@
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
@@ -38,9 +41,6 @@
     },
     "material" : {
       "@id" : "http://schema.org/material"
-    },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "size" : {
       "@id" : "http://schema.org/size"
@@ -54,8 +54,8 @@
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

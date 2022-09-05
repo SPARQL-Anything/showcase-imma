@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/tabernacle",
     "@type" : "schema:CreativeWork",
-    "description" : "Tabernacle is a 2013 work by Dorothy Cross. It has a duration of 270 x 522 x 126 cm. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Tabernacle is a 2013 work by Dorothy Cross. It has a duration of 270 x 522 x 126 cm. ",
     "source" : "https://imma.ie/collection/tabernacle/",
     "creditText" : "IMMA Collection: Donation, 2015",
     "image" : "spice:documentation/tabernacle",
@@ -50,8 +50,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

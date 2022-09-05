@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/john-clancy-rehn-gallery-brian-odoherty-barbara-novakand-lloyd-goodrich-former-director-of-the-whitney-museum",
     "@type" : "schema:CreativeWork",
-    "description" : "John Clancy (Rehn Gallery), Brian O’Doherty, Barbara Novak and Lloyd Goodrich (former Director of the Whitney Museum) is a 1980 work by Lucy Hilmer. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "John Clancy (Rehn Gallery), Brian O’Doherty, Barbara Novak and Lloyd Goodrich (former Director of the Whitney Museum) is a 1980 work by Lucy Hilmer. ",
     "source" : "https://imma.ie/collection/john-clancy-rehn-gallery-brian-odoherty-barbara-novakand-lloyd-goodrich-former-director-of-the-whitney-museum/",
     "creditText" : "IMMA Collection: Donation, Novak/O'Doherty Collection, 2015",
     "image" : "spice:documentation/john-clancy-rehn-gallery-brian-odoherty-barbara-novakand-lloyd-goodrich-former-director-of-the-whitney-museum",
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

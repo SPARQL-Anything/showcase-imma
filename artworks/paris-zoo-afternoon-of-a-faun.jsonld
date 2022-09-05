@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/paris-zoo-afternoon-of-a-faun",
     "@type" : "schema:CreativeWork",
-    "description" : "Paris Zoo Afternoon of a Faun is a 1971 work by Kathleen Cooke. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Paris Zoo Afternoon of a Faun is a 1971 work by Kathleen Cooke. ",
     "source" : "https://imma.ie/collection/paris-zoo-afternoon-of-a-faun/",
     "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/paris-zoo-afternoon-of-a-faun",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

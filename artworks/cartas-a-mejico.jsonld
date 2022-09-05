@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/cartas-a-mejico",
     "@type" : "schema:CreativeWork",
-    "description" : "Cartas a Méjico is a 1977 work by Antonio Saura. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Cartas a Méjico is a 1977 work by Antonio Saura. ",
     "source" : "https://imma.ie/collection/cartas-a-mejico/",
     "creditText" : "IMMA Collection: Donation, Smurfit: Cartón y Papel de México, 2000",
     "image" : "spice:documentation/cartas-a-mejico",
@@ -23,14 +23,14 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "material" : {
       "@id" : "http://schema.org/material"
     },
     "size" : {
       "@id" : "http://schema.org/size"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "version" : {
       "@id" : "http://schema.org/version"
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

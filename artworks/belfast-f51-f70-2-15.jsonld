@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/belfast-f51-f70-2-15",
     "@type" : "schema:CreativeWork",
-    "description" : "Belfast F51 F70 2/15 is a 1993 work by Jerome De Perlinghi. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Belfast F51 F70 2/15 is a 1993 work by Jerome De Perlinghi. ",
     "source" : "https://imma.ie/collection/belfast-f51-f70-2-15/",
     "creditText" : "IMMA Collection: Donated by the artist, 1994",
     "image" : "spice:documentation/belfast-f51-f70-2-15",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

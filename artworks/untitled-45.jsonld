@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/untitled-45",
     "@type" : "schema:CreativeWork",
-    "description" : "Untitled is a 1994 work by Angus Fairhurst. It is not currently on display in IMMA. ",
+    "description" : "Untitled is a 1994 work by Angus Fairhurst. ",
     "source" : "https://imma.ie/collection/untitled-45/",
     "creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1994",
     "image" : "spice:documentation/untitled-45",
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

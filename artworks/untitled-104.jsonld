@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/untitled-104",
     "@type" : "schema:CreativeWork",
-    "description" : "Untitled is a 1974 work by Karel Appel. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Untitled is a 1974 work by Karel Appel. ",
     "source" : "https://imma.ie/collection/untitled-104/",
     "creditText" : "IMMA Collection: Heritage Gift, P.J. Carroll &amp; Co. Ltd. Art Collection, 2005",
     "image" : "spice:documentation/untitled-104",
@@ -42,14 +42,14 @@
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
-    },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "material" : {
       "@id" : "http://schema.org/material"
@@ -58,8 +58,8 @@
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

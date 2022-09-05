@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/desnudo",
     "@type" : "schema:CreativeWork",
-    "description" : "Desnudo is a 1983 work by Dario Morales. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Desnudo is a 1983 work by Dario Morales. ",
     "source" : "https://imma.ie/collection/desnudo/",
     "creditText" : "IMMA Collection: Donation, Smurfit: Cartón y Papel de México, 2000",
     "image" : "spice:documentation/desnudo",
@@ -29,6 +29,9 @@
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
@@ -41,9 +44,6 @@
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
@@ -54,8 +54,8 @@
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

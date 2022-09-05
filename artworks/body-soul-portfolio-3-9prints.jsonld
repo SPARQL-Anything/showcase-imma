@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/body-soul-portfolio-3-9prints",
     "@type" : "schema:CreativeWork",
-    "description" : "Body &amp; Soul Portfolio (3/9prints) is a 1990 work by Antony Gormley. It is not currently on display in IMMA. ",
+    "description" : "Body &amp; Soul Portfolio (3/9prints) is a 1990 work by Antony Gormley. ",
     "source" : "https://imma.ie/collection/body-soul-portfolio-3-9prints/",
     "creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1994",
     "image" : "spice:documentation/body-soul-portfolio-3-9prints",
@@ -27,9 +27,6 @@
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "size" : {
       "@id" : "http://schema.org/size"
     },
@@ -45,6 +42,9 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

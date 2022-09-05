@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/young-serbs-bojan",
     "@type" : "schema:CreativeWork",
-    "description" : "young serbs (bojan) is a 2001 work by Phil Collins. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "young serbs (bojan) is a 2001 work by Phil Collins. ",
     "source" : "https://imma.ie/collection/young-serbs-bojan/",
     "creditText" : "IMMA Collection: Heritage Gift, Kerlin Gallery Collection, 2018, 2018",
     "image" : "spice:documentation/young-serbs-bojan",
@@ -16,7 +16,7 @@
     "caption" : "Phil Collins, young serbs (bojan), 2001, Lightjet print reverse mounted on Diasec, 74 x 92 x 3 cm, Collection Irish Museum of Modern Art, Heritage Gift, Kerlin Gallery Collection, 2018, 2018 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2021/05/9142.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/9142.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -54,8 +54,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

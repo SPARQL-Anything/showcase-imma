@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/filosofia-del-zen",
     "@type" : "schema:CreativeWork",
-    "description" : "Filosofia del Zen is a 1982 work by Antoni Tàpies. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Filosofia del Zen is a 1982 work by Antoni Tàpies. ",
     "source" : "https://imma.ie/collection/filosofia-del-zen/",
     "creditText" : "IMMA Collection: Donation, Smurfit: Cartón y Papel de México, 2000",
     "image" : "spice:documentation/filosofia-del-zen",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

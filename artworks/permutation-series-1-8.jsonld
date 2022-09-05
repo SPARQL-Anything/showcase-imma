@@ -10,16 +10,19 @@
     "material" : "Serigraph",
     "size" : "Framed: 87 x 87 cm Sheet: 68x68 cm Plate: 60x60 cm",
     "version" : "Edition 27/150",
-    "hasInventory" : "IMMA.831.1"
+    "hasInventory" : "IMMA.831.001"
   }, {
     "@id" : "spice:documentation/permutation-series-1-8",
     "@type" : "schema:ImageObject",
     "caption" : "Victor Vasarely, Permutation Series (1/8), 1968, Serigraph, Framed: 87 x 87 cm Sheet: 68x68 cm Plate: 60x60 cm, Collection Irish Museum of Modern Art, Gordon Lambert Trust, 1992 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2020/03/6172.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/6172.jpg"
   } ],
   "@context" : {
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
+    },
     "material" : {
       "@id" : "http://schema.org/material"
     },
@@ -39,9 +42,6 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
-    },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

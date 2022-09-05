@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/4-p-i",
     "@type" : "schema:CreativeWork",
-    "description" : "4 P.I. is a 1975 work by Varujan Boghosian. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "4 P.I. is a 1975 work by Varujan Boghosian. ",
     "source" : "https://imma.ie/collection/4-p-i/",
     "creditText" : "IMMA Collection: Donation, Novak/O'Doherty Collection, 2015",
     "image" : "spice:documentation/4-p-i",
@@ -15,7 +15,7 @@
     "caption" : "Varujan Boghosian, 4 P.I., 1975, Books, four playing cards, metal screw, Collection Irish Museum of Modern Art, Donation, Novak/O'Doherty Collection, 2015 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2018/11/5062.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/5062.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
@@ -50,8 +50,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

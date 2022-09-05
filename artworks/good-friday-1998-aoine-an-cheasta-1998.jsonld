@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/good-friday-1998-aoine-an-cheasta-1998",
     "@type" : "schema:CreativeWork",
-    "description" : "Good Friday 1998 / Aoine an Chéasta 1998 is a 1998 work by Tony O'Malley. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Good Friday 1998 / Aoine an Chéasta 1998 is a 1998 work by Tony O'Malley. ",
     "source" : "https://imma.ie/collection/good-friday-1998-aoine-an-cheasta-1998/",
     "creditText" : "IMMA Collection: Purchase, 1999",
     "image" : "spice:documentation/good-friday-1998-aoine-an-cheasta-1998",
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

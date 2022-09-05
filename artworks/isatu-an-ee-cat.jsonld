@@ -2,13 +2,14 @@
   "@graph" : [ {
     "@id" : "spice:artefact/isatu-an-ee-cat",
     "@type" : "schema:CreativeWork",
-    "description" : "Isatu an Ee cat (2021) is a is digital print created by drawing digitally onto a composite image of existing clay sculpture and a photo of Alice Rekab’s grandmother Isatu, c.1968. The objects in the image take the form of both heirlooms and votive objects and the drawn lines act as layered devotional mappings of their subject and the way the artist feels about their grandmother Isatu. The making of this work emphasises and elevates Isatu – her life and her home. The title is written in Krio, an English-based creole language that is lingua franca and de facto national language spoken throughout the West African nation of Sierra Leone. It translates simply as “Isatu and her cat”. ",
+    "description" : "Isatu an Ee cat (2021) is a is digital print created by drawing digitally onto a composite image of existing clay sculpture and a photo of Alice Rekab’s grandmother Isatu, c.1968. The objects in the image take the form of both heirlooms and votive objects and the drawn lines act as layered devotional mappings of their subject and the way the artist feels about her grandmother Isatu. The making of this work emphasises and elevates Isatu – her life and her home. The title is written in Krio, an English-based creole language that is lingua franca and de facto national language spoken throughout the West African nation of Sierra Leone. It translates simply as “Isatu and her cat”. ",
     "source" : "https://imma.ie/collection/isatu-an-ee-cat/",
     "creditText" : "IMMA Collection: Purchase, 2021, 2021",
     "image" : "spice:documentation/isatu-an-ee-cat",
     "maintainer" : "https://w3id.org/spice/institute/imma",
     "material" : "Digital Print, Drawing on Photography",
     "size" : "84 x 118 cm",
+    "version" : "Edition 1/1",
     "hasInventory" : "IMMA.4226"
   }, {
     "@id" : "spice:documentation/isatu-an-ee-cat",
@@ -16,34 +17,37 @@
     "caption" : "Alice Rekab, Isatu an Ee cat&nbsp;, 2021, Digital Print, Drawing on Photography, 84 x 118 cm, Collection Irish Museum of Modern Art, Purchase, 2021, 2021 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2021/06/9527.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/9527.jpg"
   } ],
   "@context" : {
-    "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
     },
-    "creditText" : {
-      "@id" : "http://schema.org/creditText"
-    },
-    "size" : {
-      "@id" : "http://schema.org/size"
-    },
-    "material" : {
-      "@id" : "http://schema.org/material"
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "description" : {
       "@id" : "http://purl.org/dc/elements/1.1/description"
     },
-    "image" : {
-      "@id" : "http://schema.org/image",
-      "@type" : "@id"
+    "size" : {
+      "@id" : "http://schema.org/size"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
-    "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source"
+    "creditText" : {
+      "@id" : "http://schema.org/creditText"
+    },
+    "version" : {
+      "@id" : "http://schema.org/version"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material"
     },
     "copyrightNotice" : {
       "@id" : "http://schema.org/copyrightNotice"
@@ -54,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

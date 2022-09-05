@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/no-11",
     "@type" : "schema:CreativeWork",
-    "description" : "No. 11 is a 1964 work by Emil Schumacher. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "No. 11 is a 1964 work by Emil Schumacher. ",
     "source" : "https://imma.ie/collection/no-11/",
     "creditText" : "IMMA Collection: Heritage Gift by the Bank of Ireland from the Bank of Ireland collection, 2008",
     "image" : "spice:documentation/no-11",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

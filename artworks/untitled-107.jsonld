@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/untitled-107",
     "@type" : "schema:CreativeWork",
-    "description" : "Untitled is a 1974 work by Jack Coughlin. It is not currently on display in IMMA. It is currently out on loan. It is part of the IMMA Permanent Collection. ",
+    "description" : "Untitled is a 1974 work by Jack Coughlin. ",
     "source" : "https://imma.ie/collection/untitled-107/",
     "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/untitled-107",
@@ -16,7 +16,7 @@
     "caption" : "Jack Coughlin, Untitled, 1974, Pen and pencil on paper, 20.5 x 25.2 cm, Collection Irish Museum of Modern Art, Gordon Lambert Trust, 1992 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2021/09/1898.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/1898.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -54,8 +54,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

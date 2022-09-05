@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/landscape-through-glass-iv",
     "@type" : "schema:CreativeWork",
-    "description" : "Landscape Through Glass IV is a 1959 work by Prunella Clough. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Landscape Through Glass IV is a 1959 work by Prunella Clough. ",
     "source" : "https://imma.ie/collection/landscape-through-glass-iv/",
     "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/landscape-through-glass-iv",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

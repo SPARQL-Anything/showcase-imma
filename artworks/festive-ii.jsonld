@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/festive-ii",
     "@type" : "schema:CreativeWork",
-    "description" : "Festive II is a 2010 work by Patrick Michael Fitzgerald. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Festive II is a 2010 work by Patrick Michael Fitzgerald. ",
     "source" : "https://imma.ie/collection/festive-ii/",
     "creditText" : "IMMA Collection: Donation, 2011",
     "image" : "spice:documentation/festive-ii",
@@ -16,7 +16,7 @@
     "caption" : "Patrick Michael Fitzgerald, Festive II, 2010, Coloured pencil on paper, 32.5 x 25 cm, Collection Irish Museum of Modern Art, Donation, 2011 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2018/11/5793.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/5793.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -54,8 +54,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

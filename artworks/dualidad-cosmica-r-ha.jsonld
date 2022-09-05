@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/dualidad-cosmica-r-ha",
     "@type" : "schema:CreativeWork",
-    "description" : "Dualidad Cósmica R. Ha is a 2010 work by Rubén Maya. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Dualidad Cósmica R. Ha is a 2010 work by Rubén Maya. ",
     "source" : "https://imma.ie/collection/dualidad-cosmica-r-ha/",
     "creditText" : "IMMA Collection: Diplomatic gift of the Federal Government of Mexico, 2011",
     "image" : "spice:documentation/dualidad-cosmica-r-ha",
@@ -50,8 +50,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/incognito-amigdala-anual-melancolica",
     "@type" : "schema:CreativeWork",
-    "description" : "Incógnito Amígdala – Anual Melancólica is a 1977 work by Teodoro Maos. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Incógnito Amígdala – Anual Melancólica is a 1977 work by Teodoro Maos. ",
     "source" : "https://imma.ie/collection/incognito-amigdala-anual-melancolica/",
     "creditText" : "IMMA Collection: Donation, Smurfit: Cartón y Papel de México, 2000",
     "image" : "spice:documentation/incognito-amigdala-anual-melancolica",
@@ -45,17 +45,17 @@
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "material" : {
       "@id" : "http://schema.org/material"
     },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

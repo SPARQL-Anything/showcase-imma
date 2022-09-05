@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/some-myths-of-black-and-white-photography",
     "@type" : "schema:CreativeWork",
-    "description" : "Some Myths of Black and White Photography is a 1974 work by Michael Peel. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Some Myths of Black and White Photography is a 1974 work by Michael Peel. ",
     "source" : "https://imma.ie/collection/some-myths-of-black-and-white-photography/",
     "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/some-myths-of-black-and-white-photography",
@@ -19,9 +19,6 @@
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
@@ -48,14 +45,17 @@
     "material" : {
       "@id" : "http://schema.org/material"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "copyrightNotice" : {
       "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

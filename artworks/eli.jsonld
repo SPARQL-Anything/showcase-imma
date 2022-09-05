@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/eli",
     "@type" : "schema:CreativeWork",
-    "description" : "Eli is a 2002 work by Lucian Freud. It is not currently on display in IMMA. ",
+    "description" : "Eli is a 2002 work by Lucian Freud. ",
     "source" : "https://imma.ie/collection/eli/",
     "creditText" : "IMMA Collection: On Loan, Private Collection, ",
     "image" : "spice:documentation/eli",
@@ -15,14 +15,11 @@
     "@id" : "spice:documentation/eli",
     "@type" : "schema:ImageObject",
     "caption" : "Lucian Freud, Eli, 2002, Etching, Plate: 66 x 85.1 cm Sheet: 77.3 x 95.6 cm Framed: 82 x 100 cm, Collection Irish Museum of Modern Art, On Loan, Private Collection ",
-    "copyrightNotice" : "For copyright information, please contact the IMMA Collections teamma.ie.ma.ie",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
     "url" : "https://imma.ie/wp-content/uploads/2018/11/7551.jpg"
   } ],
   "@context" : {
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "size" : {
       "@id" : "http://schema.org/size"
     },
@@ -42,6 +39,9 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:artefact/sears-tower",
     "@type" : "schema:CreativeWork",
-    "description" : "Sears Tower is a 1976 work by Stephen Antonakos. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Sears Tower is a 1976 work by Stephen Antonakos. ",
     "source" : "https://imma.ie/collection/sears-tower/",
     "creditText" : "IMMA Collection: Donation, Novak/O'Doherty Collection, 2015",
     "image" : "spice:documentation/sears-tower",
     "maintainer" : "https://w3id.org/spice/institute/imma",
     "material" : "Plastichrome",
     "size" : "8.75 x 19.25 cm",
-    "hasInventory" : "IMMA.3891.1"
+    "hasInventory" : "IMMA.3891.001"
   }, {
     "@id" : "spice:documentation/sears-tower",
     "@type" : "schema:ImageObject",
     "caption" : "Stephen Antonakos, Sears Tower, 1976, Plastichrome, 8.75 x 19.25 cm, Collection Irish Museum of Modern Art, Donation, Novak/O'Doherty Collection, 2015 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2018/11/5240.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/5240.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -54,8 +54,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

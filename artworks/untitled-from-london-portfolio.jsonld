@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/untitled-from-london-portfolio",
     "@type" : "schema:CreativeWork",
-    "description" : "Untitled from ‘London Portfolio’ is a 1992 work by Damien Hirst. It is not currently on display in IMMA. It is currently out on loan. ",
+    "description" : "Untitled from ‘London Portfolio’ is a 1992 work by Damien Hirst. ",
     "source" : "https://imma.ie/collection/untitled-from-london-portfolio/",
     "creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1995",
     "image" : "spice:documentation/untitled-from-london-portfolio",
@@ -54,8 +54,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

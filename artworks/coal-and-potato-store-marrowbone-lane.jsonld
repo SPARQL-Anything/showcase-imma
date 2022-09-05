@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/coal-and-potato-store-marrowbone-lane",
     "@type" : "schema:CreativeWork",
-    "description" : "Coal and Potato Store, Marrowbone Lane is a 1952 work by Nevill Johnson. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Coal and Potato Store, Marrowbone Lane is a 1952 work by Nevill Johnson. ",
     "source" : "https://imma.ie/collection/coal-and-potato-store-marrowbone-lane/",
     "creditText" : "IMMA Collection: Acquired with the assistance of the Friends of the National Collections of Ireland, 2010",
     "image" : "spice:documentation/coal-and-potato-store-marrowbone-lane",
@@ -29,9 +29,6 @@
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
@@ -45,6 +42,9 @@
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
@@ -54,8 +54,8 @@
     "version" : {
       "@id" : "http://schema.org/version"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

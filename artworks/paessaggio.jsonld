@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/paessaggio",
     "@type" : "schema:CreativeWork",
-    "description" : "Paessaggio is a 1979 work by Mario Giacomelli. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Paessaggio is a 1979 work by Mario Giacomelli. ",
     "source" : "https://imma.ie/collection/paessaggio/",
     "creditText" : "IMMA Collection: Donated in 2020 by the American Friends of the Arts in Ireland who received this work from David Kronn, 2020",
     "image" : "spice:documentation/paessaggio",
@@ -50,8 +50,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/larios",
     "@type" : "schema:CreativeWork",
-    "description" : "Larios is a 2010 work by William Crozier. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Larios is a 2010 work by William Crozier. ",
     "source" : "https://imma.ie/collection/larios/",
     "creditText" : "IMMA Collection: IMMA Editions, Donated by the artist, 2010",
     "image" : "spice:documentation/larios",
@@ -43,11 +43,11 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "creditText" : {
       "@id" : "http://schema.org/creditText"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "copyrightNotice" : {
       "@id" : "http://schema.org/copyrightNotice"
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

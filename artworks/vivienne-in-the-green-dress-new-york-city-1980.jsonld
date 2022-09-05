@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/vivienne-in-the-green-dress-new-york-city-1980",
     "@type" : "schema:CreativeWork",
-    "description" : "Vivienne in the green dress, New york City, 1980 is a 1980 work by Nan Goldin. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Vivienne in the green dress, New york City, 1980 is a 1980 work by Nan Goldin. ",
     "source" : "https://imma.ie/collection/vivienne-in-the-green-dress-new-york-city-1980/",
     "creditText" : "IMMA Collection: Donated by the aritst, 2017",
     "image" : "spice:documentation/vivienne-in-the-green-dress-new-york-city-1980",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

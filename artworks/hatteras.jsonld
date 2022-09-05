@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/hatteras",
     "@type" : "schema:CreativeWork",
-    "description" : "Hatteras is a 1963 work by Jasper Johns. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Hatteras is a 1963 work by Jasper Johns. ",
     "source" : "https://imma.ie/collection/hatteras/",
     "creditText" : "IMMA Collection: The Novak/O'Doherty Collection at IMMA Donation, The American Ireland Fund, 2011",
     "image" : "spice:documentation/hatteras",
@@ -17,7 +17,7 @@
     "caption" : "Jasper Johns, Hatteras, 1963, Lithograph, 104 x 75 cm Framed: 116.4 x 87.2 cm, Collection Irish Museum of Modern Art, The Novak/O'Doherty Collection at IMMA Donation, The American Ireland Fund, 2011 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2018/11/1842.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/1842.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -58,8 +58,8 @@
     "size" : {
       "@id" : "http://schema.org/size"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

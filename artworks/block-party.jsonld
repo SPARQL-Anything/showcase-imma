@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/block-party",
     "@type" : "schema:CreativeWork",
-    "description" : "Block Party is a 2002 work by Pierre Huyghe. It has a duration of 5min.45 sec.. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Block Party is a 2002 work by Pierre Huyghe. It has a duration of 5min.45 sec.. ",
     "source" : "https://imma.ie/collection/block-party/",
     "creditText" : "IMMA Collection: Purchase, 2005",
     "image" : "spice:documentation/block-party",
@@ -16,7 +16,7 @@
     "caption" : "Pierre Huyghe, Block Party, 2002, Super 16mm film transferred to video, Duration: 5min.45 sec., Collection Irish Museum of Modern Art, Purchase, 2005 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2018/11/793.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/793.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

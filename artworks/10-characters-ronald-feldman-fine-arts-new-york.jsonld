@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/10-characters-ronald-feldman-fine-arts-new-york",
     "@type" : "schema:CreativeWork",
-    "description" : "10 Characters – Ronald Feldman Fine Arts, New York is a 1988 work by Ilya Kabakov. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "10 Characters – Ronald Feldman Fine Arts, New York is a 1988 work by Ilya Kabakov. ",
     "source" : "https://imma.ie/collection/10-characters-ronald-feldman-fine-arts-new-york/",
     "creditText" : "IMMA Collection: Purchase, 1999",
     "image" : "spice:documentation/10-characters-ronald-feldman-fine-arts-new-york",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/out-here-iii",
     "@type" : "schema:CreativeWork",
-    "description" : "Out Here III is a 2003 work by Oliver Comerford. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Out Here III is a 2003 work by Oliver Comerford. ",
     "source" : "https://imma.ie/collection/out-here-iii/",
     "creditText" : "IMMA Collection: Purchase, 2003",
     "image" : "spice:documentation/out-here-iii",
@@ -54,8 +54,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

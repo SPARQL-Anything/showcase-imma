@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/red-one",
     "@type" : "schema:CreativeWork",
-    "description" : "Red One is a 1988 work by Lennon. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Red One is a 1988 work by Lennon. ",
     "source" : "https://imma.ie/collection/red-one/",
     "creditText" : "IMMA Collection: Donation, Maire and Maurice Foley, 2000",
     "image" : "spice:documentation/red-one",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

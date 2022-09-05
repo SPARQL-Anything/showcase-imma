@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/study-for-floor-ceiling-piece-2",
     "@type" : "schema:CreativeWork",
-    "description" : "Study for Floor Ceiling Piece is a 1993 work by Rachel Whiteread. It is not currently on display in IMMA. ",
+    "description" : "Study for Floor Ceiling Piece is a 1993 work by Rachel Whiteread. ",
     "source" : "https://imma.ie/collection/study-for-floor-ceiling-piece-2/",
     "creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1994",
     "image" : "spice:documentation/study-for-floor-ceiling-piece-2",
@@ -50,8 +50,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

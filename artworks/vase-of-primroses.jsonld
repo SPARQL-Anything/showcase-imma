@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/vase-of-primroses",
     "@type" : "schema:CreativeWork",
-    "description" : "Vase of Primroses is a 2006 work by Patrick Hall. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Vase of Primroses is a 2006 work by Patrick Hall. ",
     "source" : "https://imma.ie/collection/vase-of-primroses/",
     "creditText" : "IMMA Collection: Donation, 2008",
     "image" : "spice:documentation/vase-of-primroses",
@@ -17,7 +17,7 @@
     "caption" : "Patrick Hall, Vase of Primroses, 2006, Ink, watercolour and pastel on paper, 15 x 16.5 cm, Collection Irish Museum of Modern Art, Donation, 2008 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2021/03/31.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/31.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -58,8 +58,8 @@
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

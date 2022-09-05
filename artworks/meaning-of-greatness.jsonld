@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/meaning-of-greatness",
     "@type" : "schema:CreativeWork",
-    "description" : "Meaning of Greatness is a 2006 work by Sarah Pierce. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Meaning of Greatness is a 2006 work by Sarah Pierce. ",
     "source" : "https://imma.ie/collection/meaning-of-greatness/",
     "creditText" : "IMMA Collection: Purchase supported by IMMA 1000, 2017",
     "image" : "spice:documentation/meaning-of-greatness",
@@ -15,7 +15,7 @@
     "caption" : "Sarah Pierce, Meaning of Greatness, 2006, 3 large curtains, 1 rope piece, 8 framed drawings, 8 plaster tubes, latex piece, plaster pieces, 6969 cast, photographs, letters, Collection Irish Museum of Modern Art, Purchase supported by IMMA 1000, 2017 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2021/03/8920.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/8920.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
@@ -50,8 +50,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

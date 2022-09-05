@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/jodenstraat-series-3",
     "@type" : "schema:CreativeWork",
-    "description" : "Jodenstraat Series 3 is a 1982 work by Pat Harris. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Jodenstraat Series 3 is a 1982 work by Pat Harris. ",
     "source" : "https://imma.ie/collection/jodenstraat-series-3/",
     "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/jodenstraat-series-3",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/helix-virginius-from-the-snail-chronicles",
     "@type" : "schema:CreativeWork",
-    "description" : "Helix Virginius, from The Snail Chronicles is a 2004 work by Alice Maher. It is not currently on display in IMMA. ",
+    "description" : "Helix Virginius, from The Snail Chronicles is a 2004 work by Alice Maher. ",
     "source" : "https://imma.ie/collection/helix-virginius-from-the-snail-chronicles/",
     "creditText" : "IMMA Collection: Permanent Loan, the Contemporary Irish art Society, 2005",
     "image" : "spice:documentation/helix-virginius-from-the-snail-chronicles",
@@ -16,7 +16,8 @@
     "@type" : "schema:ImageObject",
     "caption" : "Alice Maher, Helix Virginius, from The Snail Chronicles, 2004, Etching, 47 x 43 cm (sheet), Collection Irish Museum of Modern Art, Permanent Loan, the Contemporary Irish art Society, 2005 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
-    "maintainer" : "https://w3id.org/spice/institute/imma"
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "url" : "https://imma.ie/wp-content/uploads/2022/03/1764-scaled.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -28,6 +29,9 @@
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -48,14 +52,14 @@
     "version" : {
       "@id" : "http://schema.org/version"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

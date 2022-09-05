@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/342-polka-dots",
     "@type" : "schema:CreativeWork",
-    "description" : "342 Polka Dots is a 1989 work by Elizabeth Magill. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "342 Polka Dots is a 1989 work by Elizabeth Magill. ",
     "source" : "https://imma.ie/collection/342-polka-dots/",
     "creditText" : "IMMA Collection: Heritage Gift, Kerlin Gallery Collection, 2018, 2018",
     "image" : "spice:documentation/342-polka-dots",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

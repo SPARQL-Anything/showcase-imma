@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/leaf-hawaii",
     "@type" : "schema:CreativeWork",
-    "description" : "Leaf, Hawaii is a 1992 work by Brett Weston. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Leaf, Hawaii is a 1992 work by Brett Weston. ",
     "source" : "https://imma.ie/collection/leaf-hawaii/",
     "creditText" : "IMMA Collection: Donation, David Kronn Collection, 2015",
     "image" : "spice:documentation/leaf-hawaii",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

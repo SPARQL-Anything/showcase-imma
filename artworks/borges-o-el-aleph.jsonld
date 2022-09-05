@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/borges-o-el-aleph",
     "@type" : "schema:CreativeWork",
-    "description" : "Borges o El Aleph is a 1982 work by Francisco Rondon. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Borges o El Aleph is a 1982 work by Francisco Rondon. ",
     "source" : "https://imma.ie/collection/borges-o-el-aleph/",
     "creditText" : "IMMA Collection: Donation, Smurfit: Cartón y Papel de México, 2000",
     "image" : "spice:documentation/borges-o-el-aleph",
@@ -33,15 +33,15 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
-    },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "version" : {
       "@id" : "http://schema.org/version"
@@ -58,8 +58,8 @@
     "material" : {
       "@id" : "http://schema.org/material"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

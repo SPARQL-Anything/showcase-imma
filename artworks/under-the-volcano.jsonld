@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/under-the-volcano",
     "@type" : "schema:CreativeWork",
-    "description" : "Under the Volcano is a 1977 work by Pierre Alechinsky. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Under the Volcano is a 1977 work by Pierre Alechinsky. ",
     "source" : "https://imma.ie/collection/under-the-volcano/",
     "creditText" : "IMMA Collection: Donation, Smurfit: Cartón y Papel de México, 2000",
     "image" : "spice:documentation/under-the-volcano",
@@ -54,8 +54,8 @@
     "size" : {
       "@id" : "http://schema.org/size"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

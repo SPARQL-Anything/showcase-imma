@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/abstract",
     "@type" : "schema:CreativeWork",
-    "description" : "Abstract is a 1988 work by Albert Irvin. It is not currently on display in IMMA. ",
+    "description" : "Abstract is a 1988 work by Albert Irvin. ",
     "source" : "https://imma.ie/collection/abstract/",
     "creditText" : "IMMA Collection: Loan, George and Maura McClelland, 2005",
     "image" : "spice:documentation/abstract",
@@ -50,8 +50,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/windward",
     "@type" : "schema:CreativeWork",
-    "description" : "Windward is a 1968 work by Tim Robinson. It is not currently on display in IMMA. ",
+    "description" : "Windward is a 1968 work by Tim Robinson. ",
     "source" : "https://imma.ie/collection/windward/",
     "creditText" : "IMMA Collection: Collection Irish Museum of Modern Art, Gift of the Artist, 2019",
     "image" : "spice:documentation/windward",
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

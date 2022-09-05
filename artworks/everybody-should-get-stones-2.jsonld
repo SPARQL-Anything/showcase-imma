@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/everybody-should-get-stones-2",
     "@type" : "schema:CreativeWork",
-    "description" : "Everybody Should Get Stones is a 2001 work by Noel Sheridan. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Everybody Should Get Stones is a 2001 work by Noel Sheridan. ",
     "source" : "https://imma.ie/collection/everybody-should-get-stones-2/",
     "creditText" : "IMMA Collection: Heritage Gift, 2002",
     "image" : "spice:documentation/everybody-should-get-stones-2",
@@ -50,8 +50,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

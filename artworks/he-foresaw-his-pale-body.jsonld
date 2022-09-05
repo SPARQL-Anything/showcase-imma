@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/he-foresaw-his-pale-body",
     "@type" : "schema:CreativeWork",
-    "description" : "He Foresaw his Pale Body is a 1990 work by Richard Hamilton. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "He Foresaw his Pale Body is a 1990 work by Richard Hamilton. ",
     "source" : "https://imma.ie/collection/he-foresaw-his-pale-body/",
     "creditText" : "IMMA Collection: Purchase, 2003",
     "image" : "spice:documentation/he-foresaw-his-pale-body",
@@ -40,11 +40,11 @@
     "material" : {
       "@id" : "http://schema.org/material"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "creditText" : {
       "@id" : "http://schema.org/creditText"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "size" : {
       "@id" : "http://schema.org/size"
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

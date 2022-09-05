@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/untitled-black-in-america",
     "@type" : "schema:CreativeWork",
-    "description" : "Untitled (Black in America) is a 1974 work by Romare Bearden. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Untitled (Black in America) is a 1974 work by Romare Bearden. ",
     "source" : "https://imma.ie/collection/untitled-black-in-america/",
     "creditText" : "IMMA Collection: The Novak/O'Doherty Collection at IMMA Gift, The American Ireland Fund, 2014",
     "image" : "spice:documentation/untitled-black-in-america",
@@ -15,9 +15,9 @@
     "@id" : "spice:documentation/untitled-black-in-america",
     "@type" : "schema:ImageObject",
     "caption" : "Romare Bearden, Untitled (Black in America), 1974, Lithograph, 90 x 64 cm Framed: 102 x 74.5 cm, Collection Irish Museum of Modern Art, The Novak/O'Doherty Collection at IMMA Gift, The American Ireland Fund, 2014 ",
-    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections teamma.ie.ma.ie",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2018/11/5059.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/5059.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -39,9 +39,6 @@
     "version" : {
       "@id" : "http://schema.org/version"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
@@ -58,8 +55,11 @@
     "size" : {
       "@id" : "http://schema.org/size"
     },
-    "schema" : "http://schema.org/",
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

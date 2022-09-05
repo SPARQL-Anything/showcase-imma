@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/booterstown-marsh",
     "@type" : "schema:CreativeWork",
-    "description" : "Booterstown Marsh is a 1985 work by Elinor Wiltshire. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Booterstown Marsh is a 1985 work by Elinor Wiltshire. ",
     "source" : "https://imma.ie/collection/booterstown-marsh/",
     "creditText" : "IMMA Collection: Donation, Elinor Vere O’Brien Wiltshire, 2013",
     "image" : "spice:documentation/booterstown-marsh",
@@ -16,7 +16,7 @@
     "caption" : "Elinor Wiltshire, Booterstown Marsh, 1985, Wool, Framed: 37 x 30.1 cm, Collection Irish Museum of Modern Art, Donation, Elinor Vere O’Brien Wiltshire, 2013 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2018/11/7120.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/7120.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -54,8 +54,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

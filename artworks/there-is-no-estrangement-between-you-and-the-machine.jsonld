@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/there-is-no-estrangement-between-you-and-the-machine",
     "@type" : "schema:CreativeWork",
-    "description" : "There is No Estrangement Between You and The Machine is a 2003 work by David Timmons. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "There is No Estrangement Between You and The Machine is a 2003 work by David Timmons. ",
     "source" : "https://imma.ie/collection/there-is-no-estrangement-between-you-and-the-machine/",
     "creditText" : "IMMA Collection: Purchase, 2003",
     "image" : "spice:documentation/there-is-no-estrangement-between-you-and-the-machine",
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:artefact/world-trade-center",
     "@type" : "schema:CreativeWork",
-    "description" : "World Trade Center is a 1976 work by Stephen Antonakos. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "World Trade Center is a 1976 work by Stephen Antonakos. ",
     "source" : "https://imma.ie/collection/world-trade-center/",
     "creditText" : "IMMA Collection: Donation, Novak/O'Doherty Collection, 2015",
     "image" : "spice:documentation/world-trade-center",
     "maintainer" : "https://w3id.org/spice/institute/imma",
     "material" : "Plastichrome",
     "size" : "8.8 x 13.8 cm",
-    "hasInventory" : "IMMA.3891.3"
+    "hasInventory" : "IMMA.3891.003"
   }, {
     "@id" : "spice:documentation/world-trade-center",
     "@type" : "schema:ImageObject",
     "caption" : "Stephen Antonakos, World Trade Center, 1976, Plastichrome, 8.8 x 13.8 cm, Collection Irish Museum of Modern Art, Donation, Novak/O'Doherty Collection, 2015 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2018/11/5242.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/5242.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -54,8 +54,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

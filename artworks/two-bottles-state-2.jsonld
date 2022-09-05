@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/two-bottles-state-2",
     "@type" : "schema:CreativeWork",
-    "description" : "Two Bottles, State 2 is a 1988 work by Tony Cragg. It is not currently on display in IMMA. ",
+    "description" : "Two Bottles, State 2 is a 1988 work by Tony Cragg. ",
     "source" : "https://imma.ie/collection/two-bottles-state-2/",
     "creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1994",
     "image" : "spice:documentation/two-bottles-state-2",
@@ -32,15 +32,15 @@
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
-    },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
@@ -54,8 +54,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/art-comics-and-satires-reinhardts-needle",
     "@type" : "schema:CreativeWork",
-    "description" : "Art Comics and Satires. Reinhardt’s Needle is a 1976 work by Ad Reinhardt. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Art Comics and Satires. Reinhardt’s Needle is a 1976 work by Ad Reinhardt. ",
     "source" : "https://imma.ie/collection/art-comics-and-satires-reinhardts-needle/",
     "creditText" : "IMMA Collection: Donation, Novak/O'Doherty Collection, 2015",
     "image" : "spice:documentation/art-comics-and-satires-reinhardts-needle",
@@ -54,8 +54,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

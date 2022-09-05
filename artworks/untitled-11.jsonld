@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/untitled-11",
     "@type" : "schema:CreativeWork",
-    "description" : "Untitled is a 2009 work by Perry Ogden. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Untitled is a 2009 work by Perry Ogden. ",
     "source" : "https://imma.ie/collection/untitled-11/",
     "creditText" : "IMMA Collection: Purchase, assisted by funding from Maire and Maurice Foley, 2010",
     "image" : "spice:documentation/untitled-11",
@@ -17,7 +17,7 @@
     "caption" : "Perry Ogden, Untitled, 2009, Chromogenic print from digital file, mounted on aluminium, 106.68 x 157.48 cm, Collection Irish Museum of Modern Art, Purchase, assisted by funding from Maire and Maurice Foley, 2010 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2018/11/5573.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/5573.jpg"
   } ],
   "@context" : {
     "material" : {
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

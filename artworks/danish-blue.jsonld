@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/danish-blue",
     "@type" : "schema:CreativeWork",
-    "description" : "Danish Blue is a 1978 work by Tim Mara. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Danish Blue is a 1978 work by Tim Mara. ",
     "source" : "https://imma.ie/collection/danish-blue/",
     "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/danish-blue",
@@ -17,9 +17,12 @@
     "caption" : "Tim Mara, Danish Blue, 1978, Etching and embossing with photographic print and copper wire, 54.6 x 72.4 cm Framed: 56.6 x 74.3 cm, Collection Irish Museum of Modern Art, Gordon Lambert Trust, 1992 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2018/11/1975.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/1975.jpg"
   } ],
   "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
@@ -40,9 +43,6 @@
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/woman-carnmoon",
     "@type" : "schema:CreativeWork",
-    "description" : "Woman: Carnmoon is a 1958 work by Colin Middleton. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Woman: Carnmoon is a 1958 work by Colin Middleton. ",
     "source" : "https://imma.ie/collection/woman-carnmoon/",
     "creditText" : "IMMA Collection: Heritage Gift from the McClelland Collection by Noel and Anne Marie Smyth, 2003",
     "image" : "spice:documentation/woman-carnmoon",
@@ -54,8 +54,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

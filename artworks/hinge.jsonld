@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/hinge",
     "@type" : "schema:CreativeWork",
-    "description" : "Hinge is a 1981 work by Mary Farl Powers. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Hinge is a 1981 work by Mary Farl Powers. ",
     "source" : "https://imma.ie/collection/hinge/",
     "creditText" : "IMMA Collection: Donation, Powers Family, 2009",
     "image" : "spice:documentation/hinge",
@@ -29,9 +29,6 @@
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
@@ -48,14 +45,17 @@
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "size" : {
       "@id" : "http://schema.org/size"
     },
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:artefact/orla-and-john",
     "@type" : "schema:CreativeWork",
-    "description" : "Orla and John is a 1985 work by Gene Lambert. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Orla and John is a 1985 work by Gene Lambert. ",
     "source" : "https://imma.ie/collection/orla-and-john/",
     "creditText" : "IMMA Collection: Purchase, 1991",
     "image" : "spice:documentation/orla-and-john",
     "maintainer" : "https://w3id.org/spice/institute/imma",
     "material" : "Black and white photograph",
     "size" : "33 x 24 cm",
-    "hasInventory" : "IMMA.15.17"
+    "hasInventory" : "IMMA.15.017"
   }, {
     "@id" : "spice:documentation/orla-and-john",
     "@type" : "schema:ImageObject",
     "caption" : "Gene Lambert, Orla and John, 1985, Black and white photograph, 33 x 24 cm, Collection Irish Museum of Modern Art, Purchase, 1991 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2020/02/735.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/735.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

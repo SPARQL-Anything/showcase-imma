@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/the-sepic-river-as-the-sun-goes-sleeping",
     "@type" : "schema:CreativeWork",
-    "description" : "The Sepic River as the Sun Goes Sleeping is a 1989 work by Michael Mulcahy. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "The Sepic River as the Sun Goes Sleeping is a 1989 work by Michael Mulcahy. ",
     "source" : "https://imma.ie/collection/the-sepic-river-as-the-sun-goes-sleeping/",
     "creditText" : "IMMA Collection: Donated by the artist, 1992",
     "image" : "spice:documentation/the-sepic-river-as-the-sun-goes-sleeping",
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

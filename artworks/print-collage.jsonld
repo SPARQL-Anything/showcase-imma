@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/print-collage",
     "@type" : "schema:CreativeWork",
-    "description" : "Print Collage is a 1966 work by Charles Hinman. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Print Collage is a 1966 work by Charles Hinman. ",
     "source" : "https://imma.ie/collection/print-collage/",
     "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/print-collage",
@@ -17,7 +17,7 @@
     "caption" : "Charles Hinman, Print Collage, 1966, Mixed Media, 56 x 43.2 cm Framed: 71.5 x 57.5 cm, Collection Irish Museum of Modern Art, Gordon Lambert Trust, 1992 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2018/11/1936.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/1936.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -58,8 +58,8 @@
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

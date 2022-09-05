@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/achilles-and-the-turtle-from-the-childrens-hospital",
     "@type" : "schema:CreativeWork",
-    "description" : "Achilles and the Turtle From the Children’s Hospital is a 1998 work by Ilya and Emilia Kabakov. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Achilles and the Turtle From the Children’s Hospital is a 1998 work by Ilya and Emilia Kabakov. ",
     "source" : "https://imma.ie/collection/achilles-and-the-turtle-from-the-childrens-hospital/",
     "creditText" : "IMMA Collection: Purchase, 1999",
     "image" : "spice:documentation/achilles-and-the-turtle-from-the-childrens-hospital",
@@ -50,8 +50,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

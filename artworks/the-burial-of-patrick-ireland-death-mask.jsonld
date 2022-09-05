@@ -2,18 +2,18 @@
   "@graph" : [ {
     "@id" : "spice:artefact/the-burial-of-patrick-ireland-death-mask",
     "@type" : "schema:CreativeWork",
-    "description" : "The Burial of Patrick Ireland, Death Mask is a 2008 work by Brian O'Doherty, Charles Simonds and Patrick Ireland. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "The Burial of Patrick Ireland, Death Mask is a 2008 work by Brian O'Doherty, Charles Simonds and Patrick Ireland. ",
     "source" : "https://imma.ie/collection/the-burial-of-patrick-ireland-death-mask/",
     "creditText" : "IMMA Collection: Donation, 2008",
     "image" : "spice:documentation/the-burial-of-patrick-ireland-death-mask",
     "maintainer" : "https://w3id.org/spice/institute/imma",
     "material" : "Plaster cast and paint",
-    "hasInventory" : "IMMA.2863.1"
+    "hasInventory" : "IMMA.2863.001"
   }, {
     "@id" : "spice:documentation/the-burial-of-patrick-ireland-death-mask",
     "@type" : "schema:ImageObject",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2018/11/4002.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/4002.jpg"
   } ],
   "@context" : {
     "maintainer" : {
@@ -42,8 +42,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

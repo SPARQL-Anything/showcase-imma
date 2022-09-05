@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/the-white-road-to-the-sea",
     "@type" : "schema:CreativeWork",
-    "description" : "The White Road to the Sea is a 1965 work by Sean McSweeney. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "The White Road to the Sea is a 1965 work by Sean McSweeney. ",
     "source" : "https://imma.ie/collection/the-white-road-to-the-sea/",
     "creditText" : "IMMA Collection: Heritage Gift by the Bank of Ireland from the Bank of Ireland collection, 2008",
     "image" : "spice:documentation/the-white-road-to-the-sea",
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

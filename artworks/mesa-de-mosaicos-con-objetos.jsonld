@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/mesa-de-mosaicos-con-objetos",
     "@type" : "schema:CreativeWork",
-    "description" : "Mesa de Mosaicos con Objetos is a 1997 work by Elena Climent. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Mesa de Mosaicos con Objetos is a 1997 work by Elena Climent. ",
     "source" : "https://imma.ie/collection/mesa-de-mosaicos-con-objetos/",
     "creditText" : "IMMA Collection: Donation, Smurfit: Cartón y Papel de México, 2000",
     "image" : "spice:documentation/mesa-de-mosaicos-con-objetos",
@@ -31,12 +31,12 @@
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
-    },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -54,8 +54,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

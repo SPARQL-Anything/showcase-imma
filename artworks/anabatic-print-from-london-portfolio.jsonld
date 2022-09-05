@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/anabatic-print-from-london-portfolio",
     "@type" : "schema:CreativeWork",
-    "description" : "Anabatic Print from ‘London Portfolio’ is a 1992 work by Nicholas May. It is not currently on display in IMMA. ",
+    "description" : "Anabatic Print from ‘London Portfolio’ is a 1992 work by Nicholas May. ",
     "source" : "https://imma.ie/collection/anabatic-print-from-london-portfolio/",
     "creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1995",
     "image" : "spice:documentation/anabatic-print-from-london-portfolio",
@@ -54,8 +54,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

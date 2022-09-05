@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/le-soutien-de-famille",
     "@type" : "schema:CreativeWork",
-    "description" : "Le Soutien de Famille is a 1978 work by Roland Topor. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Le Soutien de Famille is a 1978 work by Roland Topor. ",
     "source" : "https://imma.ie/collection/le-soutien-de-famille/",
     "creditText" : "IMMA Collection: Donation, Smurfit: Cartón y Papel de México, 2000",
     "image" : "spice:documentation/le-soutien-de-famille",
@@ -36,9 +36,6 @@
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
@@ -54,12 +51,15 @@
     "version" : {
       "@id" : "http://schema.org/version"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

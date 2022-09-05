@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/cross-on-a-distant-hill",
     "@type" : "schema:CreativeWork",
-    "description" : "Cross on a Distant Hill is a 2005 work by Patrick Hall. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Cross on a Distant Hill is a 2005 work by Patrick Hall. ",
     "source" : "https://imma.ie/collection/cross-on-a-distant-hill/",
     "creditText" : "IMMA Collection: Donation, 2008",
     "image" : "spice:documentation/cross-on-a-distant-hill",
@@ -32,14 +32,14 @@
     "version" : {
       "@id" : "http://schema.org/version"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

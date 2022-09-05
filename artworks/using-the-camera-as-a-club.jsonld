@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/using-the-camera-as-a-club",
     "@type" : "schema:CreativeWork",
-    "description" : "Using the Camera as a Club is a 1979 work by Les Levine. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Using the Camera as a Club is a 1979 work by Les Levine. ",
     "source" : "https://imma.ie/collection/using-the-camera-as-a-club/",
     "creditText" : "IMMA Collection: Donated by the artist, 2010",
     "image" : "spice:documentation/using-the-camera-as-a-club",
@@ -10,14 +10,14 @@
     "material" : "Etched on zinc; printed in sepia ink on buff German etching paper",
     "size" : "55.88 x 76.2 cm",
     "version" : "Edition AP 4/20 (bottom left corner)",
-    "hasInventory" : "IMMA.3302.1"
+    "hasInventory" : "IMMA.3302.001"
   }, {
     "@id" : "spice:documentation/using-the-camera-as-a-club",
     "@type" : "schema:ImageObject",
     "caption" : "Les Levine, Using the Camera as a Club, 1979, Etched on zinc; printed in sepia ink on buff German etching paper, 55.88 x 76.2 cm, Collection Irish Museum of Modern Art, Donated by the artist, 2010 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2020/01/5464.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/5464.jpg"
   } ],
   "@context" : {
     "size" : {
@@ -36,9 +36,6 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
@@ -49,6 +46,9 @@
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "copyrightNotice" : {
       "@id" : "http://schema.org/copyrightNotice"
     },
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

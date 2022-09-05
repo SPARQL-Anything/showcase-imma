@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/woman-of-the-burren-woman-in-burren",
     "@type" : "schema:CreativeWork",
-    "description" : "Woman of the Burren/ Woman in Burren is a 1996 work by Barrie Cooke. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Woman of the Burren/ Woman in Burren is a 1996 work by Barrie Cooke. ",
     "source" : "https://imma.ie/collection/woman-of-the-burren-woman-in-burren/",
     "creditText" : "IMMA Collection: Donation, Vincent &amp; Noeleen Ferguson, 1996",
     "image" : "spice:documentation/woman-of-the-burren-woman-in-burren",
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

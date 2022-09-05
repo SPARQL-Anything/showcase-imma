@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/resurrection-could-this-be-the-end-of-the-line",
     "@type" : "schema:CreativeWork",
-    "description" : "Resurrection. Could This be the End of the Line? is a 1972 work by Les Levine. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Resurrection. Could This be the End of the Line? is a 1972 work by Les Levine. ",
     "source" : "https://imma.ie/collection/resurrection-could-this-be-the-end-of-the-line/",
     "creditText" : "IMMA Collection: Donated by Amy Plumb Oppenheim in honor of Dennis Oppenheim, 2018",
     "image" : "spice:documentation/resurrection-could-this-be-the-end-of-the-line",
@@ -10,7 +10,7 @@
     "material" : "Photograph (Fuji Crystal)",
     "size" : "25 x 33 in",
     "version" : "Edition 2/3",
-    "hasInventory" : "IMMA.4132.13"
+    "hasInventory" : "IMMA.4132.013"
   }, {
     "@id" : "spice:documentation/resurrection-could-this-be-the-end-of-the-line",
     "@type" : "schema:ImageObject",
@@ -29,6 +29,9 @@
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
+    },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
@@ -36,14 +39,11 @@
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
-    "size" : {
-      "@id" : "http://schema.org/size"
-    },
     "description" : {
       "@id" : "http://purl.org/dc/elements/1.1/description"
     },
-    "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
+    "size" : {
+      "@id" : "http://schema.org/size"
     },
     "creditText" : {
       "@id" : "http://schema.org/creditText"
@@ -54,8 +54,8 @@
     "material" : {
       "@id" : "http://schema.org/material"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

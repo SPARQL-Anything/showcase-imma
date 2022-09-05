@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/untitled-no-7",
     "@type" : "schema:CreativeWork",
-    "description" : "Untitled (No.7) is a 1988 work by Anish Kapoor. It is not currently on display in IMMA. ",
+    "description" : "Untitled (No.7) is a 1988 work by Anish Kapoor. ",
     "source" : "https://imma.ie/collection/untitled-no-7/",
     "creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1994",
     "image" : "spice:documentation/untitled-no-7",
@@ -43,9 +43,6 @@
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
@@ -58,8 +55,11 @@
     "version" : {
       "@id" : "http://schema.org/version"
     },
-    "schema" : "http://schema.org/",
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

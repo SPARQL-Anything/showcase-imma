@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/untitled-large-stone-at-newgrange",
     "@type" : "schema:CreativeWork",
-    "description" : "Untitled (large stone at Newgrange) is a 1983 work by Brian O'Doherty and Patrick Ireland. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Untitled (large stone at Newgrange) is a 1983 work by Brian O'Doherty and Patrick Ireland. ",
     "source" : "https://imma.ie/collection/untitled-large-stone-at-newgrange/",
     "creditText" : "IMMA Collection: Donated by the aritst in memory of Robin Walker, 1992",
     "image" : "spice:documentation/untitled-large-stone-at-newgrange",
@@ -46,8 +46,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

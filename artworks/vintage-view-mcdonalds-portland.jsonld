@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/vintage-view-mcdonalds-portland",
     "@type" : "schema:CreativeWork",
-    "description" : "Vintage View McDonald’s Portland is a 1976 work by Todd Webb. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Vintage View McDonald’s Portland is a 1976 work by Todd Webb. ",
     "source" : "https://imma.ie/collection/vintage-view-mcdonalds-portland/",
     "creditText" : "IMMA Collection: Donation, David Kronn Collection, 2015",
     "image" : "spice:documentation/vintage-view-mcdonalds-portland",
@@ -50,8 +50,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

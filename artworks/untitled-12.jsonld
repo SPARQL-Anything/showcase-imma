@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/untitled-12",
     "@type" : "schema:CreativeWork",
-    "description" : "Untitled is a 2008 work by Jack Pierson. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Untitled is a 2008 work by Jack Pierson. ",
     "source" : "https://imma.ie/collection/untitled-12/",
     "creditText" : "IMMA Collection: IMMA Editions, Donated by the artist, 2008",
     "image" : "spice:documentation/untitled-12",
@@ -17,7 +17,7 @@
     "caption" : "Jack Pierson, Untitled, 2008, Colour photograph, 40.6 x 50.8 cm, Collection Irish Museum of Modern Art, IMMA Editions, Donated by the artist, 2008 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2021/03/2259.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/2259.jpg"
   } ],
   "@context" : {
     "version" : {
@@ -29,9 +29,6 @@
     },
     "material" : {
       "@id" : "http://schema.org/material"
-    },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -46,6 +43,9 @@
     "size" : {
       "@id" : "http://schema.org/size"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

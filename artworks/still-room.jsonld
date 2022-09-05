@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/still-room",
     "@type" : "schema:CreativeWork",
-    "description" : "Still Room is a 2000 work by Dorothy Cross. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Still Room is a 2000 work by Dorothy Cross. ",
     "source" : "https://imma.ie/collection/still-room/",
     "creditText" : "IMMA Collection: Heritage Gift, Kerlin Gallery Collection, 2018, 2018",
     "image" : "spice:documentation/still-room",
@@ -17,7 +17,7 @@
     "caption" : "Dorothy Cross, Still Room, 2000, duratrans on laminated glass, 154 x 119 cm, Collection Irish Museum of Modern Art, Heritage Gift, Kerlin Gallery Collection, 2018, 2018 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2021/05/9071.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/9071.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -32,9 +32,6 @@
     },
     "url" : {
       "@id" : "http://schema.org/url"
-    },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
@@ -58,8 +55,11 @@
     "version" : {
       "@id" : "http://schema.org/version"
     },
-    "schema" : "http://schema.org/",
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

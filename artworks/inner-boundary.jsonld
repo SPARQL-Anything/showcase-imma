@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/inner-boundary",
     "@type" : "schema:CreativeWork",
-    "description" : "Inner Boundary is a 1980 work by Maria Simonds-Gooding. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Inner Boundary is a 1980 work by Maria Simonds-Gooding. ",
     "source" : "https://imma.ie/collection/inner-boundary/",
     "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/inner-boundary",
@@ -33,9 +33,6 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
@@ -51,6 +48,9 @@
     "size" : {
       "@id" : "http://schema.org/size"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
@@ -58,8 +58,8 @@
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

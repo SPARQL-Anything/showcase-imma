@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/untitled-41",
     "@type" : "schema:CreativeWork",
-    "description" : "Untitled is a 1994 work by Terry Frost. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Untitled is a 1994 work by Terry Frost. ",
     "source" : "https://imma.ie/collection/untitled-41/",
     "creditText" : "IMMA Collection: Gordon Lambert Trust, 1995",
     "image" : "spice:documentation/untitled-41",
@@ -17,7 +17,7 @@
     "caption" : "Terry Frost, Untitled, 1994, Print with crayon, Framed: 51.8 x 49.3 cm, Collection Irish Museum of Modern Art, Gordon Lambert Trust, 1995 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2020/01/22.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/22.jpg"
   } ],
   "@context" : {
     "maintainer" : {
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

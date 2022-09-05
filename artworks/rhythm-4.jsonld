@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/rhythm-4",
     "@type" : "schema:CreativeWork",
-    "description" : "Rhythm 4 is a 1974 work by Marina Abramović. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Rhythm 4 is a 1974 work by Marina Abramović. ",
     "source" : "https://imma.ie/collection/rhythm-4/",
     "creditText" : "IMMA Collection: Purchase, 1995",
     "image" : "spice:documentation/rhythm-4",
@@ -35,9 +35,6 @@
     "material" : {
       "@id" : "http://schema.org/material"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
@@ -48,14 +45,17 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "size" : {
       "@id" : "http://schema.org/size"
     },
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/elizabeth",
     "@type" : "schema:CreativeWork",
-    "description" : "Elizabeth is a 2003 work by Brian Maguire. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Elizabeth is a 2003 work by Brian Maguire. ",
     "source" : "https://imma.ie/collection/elizabeth/",
     "creditText" : "IMMA Collection: Heritage Gift, Kerlin Gallery Collection, 2018, 2018",
     "image" : "spice:documentation/elizabeth",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

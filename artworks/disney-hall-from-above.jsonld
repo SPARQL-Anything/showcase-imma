@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/disney-hall-from-above",
     "@type" : "schema:CreativeWork",
-    "description" : "Disney Hall From Above is a 2005 work by Helen K. Garber. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Disney Hall From Above is a 2005 work by Helen K. Garber. ",
     "source" : "https://imma.ie/collection/disney-hall-from-above/",
     "creditText" : "IMMA Collection: Donation, David Kronn Collection, 2015",
     "image" : "spice:documentation/disney-hall-from-above",
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

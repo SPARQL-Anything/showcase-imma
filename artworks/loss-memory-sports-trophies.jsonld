@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:artefact/loss-memory-sports-trophies",
     "@type" : "schema:CreativeWork",
-    "description" : "Loss &amp; Memory – Sports Trophies is a 2002 work by Amelia Stein. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Loss &amp; Memory – Sports Trophies is a 2002 work by Amelia Stein. ",
     "source" : "https://imma.ie/collection/loss-memory-sports-trophies/",
     "creditText" : "IMMA Collection: Donation, in memory of Mona and Mendel Stein, 2004",
     "image" : "spice:documentation/loss-memory-sports-trophies",
     "maintainer" : "https://w3id.org/spice/institute/imma",
     "material" : "Photograph",
     "size" : "25 x 25 cm",
-    "hasInventory" : "IMMA.1784.10"
+    "hasInventory" : "IMMA.1784.010"
   }, {
     "@id" : "spice:documentation/loss-memory-sports-trophies",
     "@type" : "schema:ImageObject",
     "caption" : "Amelia Stein, Loss &amp; Memory – Sports Trophies, 2002, Photograph, 25 x 25 cm, Collection Irish Museum of Modern Art, Donation, in memory of Mona and Mendel Stein, 2004 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2019/03/3710.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/3710.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

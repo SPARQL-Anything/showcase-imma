@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/aran-landscape",
     "@type" : "schema:CreativeWork",
-    "description" : "Aran Landscape is a 1945 work by Elizabeth Rivers. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Aran Landscape is a 1945 work by Elizabeth Rivers. ",
     "source" : "https://imma.ie/collection/aran-landscape/",
     "creditText" : "IMMA Collection: Heritage Gift by Mr. Noel Smyth, 2003",
     "image" : "spice:documentation/aran-landscape",
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

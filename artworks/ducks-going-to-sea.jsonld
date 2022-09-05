@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/ducks-going-to-sea",
     "@type" : "schema:CreativeWork",
-    "description" : "Ducks Going to Sea is a 1944 work by Patrick Scott. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Ducks Going to Sea is a 1944 work by Patrick Scott. ",
     "source" : "https://imma.ie/collection/ducks-going-to-sea/",
     "creditText" : "IMMA Collection: Presented by Trevor Dannatt, Architect, London, 2015",
     "image" : "spice:documentation/ducks-going-to-sea",
@@ -54,8 +54,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

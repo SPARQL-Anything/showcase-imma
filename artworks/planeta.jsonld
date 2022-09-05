@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/planeta",
     "@type" : "schema:CreativeWork",
-    "description" : "Planeta is a 1976 work by Victor Valera. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Planeta is a 1976 work by Victor Valera. ",
     "source" : "https://imma.ie/collection/planeta/",
     "creditText" : "IMMA Collection: Donation, Smurfit: Cartón y Papel de México, 2000",
     "image" : "spice:documentation/planeta",
@@ -26,14 +26,14 @@
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "material" : {
       "@id" : "http://schema.org/material"
     },
     "version" : {
       "@id" : "http://schema.org/version"
-    },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "size" : {
       "@id" : "http://schema.org/size"
@@ -54,8 +54,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

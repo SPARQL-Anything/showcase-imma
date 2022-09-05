@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/northern-ireland-the-1500th-victim",
     "@type" : "schema:CreativeWork",
-    "description" : "Northern Ireland, the 1,500th Victim is a 1976 work by Robert Ballagh. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Northern Ireland, the 1,500th Victim is a 1976 work by Robert Ballagh. ",
     "source" : "https://imma.ie/collection/northern-ireland-the-1500th-victim/",
     "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/northern-ireland-the-1500th-victim",
@@ -17,7 +17,7 @@
     "caption" : "Robert Ballagh, Northern Ireland, the 1,500th Victim, 1976, Print with incised, sanded surface with wax, Framed: 46 x 64.4 cm 27.5 x 50 cm, Collection Irish Museum of Modern Art, Gordon Lambert Trust, 1992 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2018/11/825.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/825.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -52,14 +52,14 @@
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
-    "schema" : "http://schema.org/",
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/sketch-for-tanglewood-press",
     "@type" : "schema:CreativeWork",
-    "description" : "Sketch for Tanglewood Press is a 1966 work by Mary Bauermeister. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Sketch for Tanglewood Press is a 1966 work by Mary Bauermeister. ",
     "source" : "https://imma.ie/collection/sketch-for-tanglewood-press/",
     "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/sketch-for-tanglewood-press",
@@ -27,11 +27,11 @@
     "material" : {
       "@id" : "http://schema.org/material"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "creditText" : {
       "@id" : "http://schema.org/creditText"
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

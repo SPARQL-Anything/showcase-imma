@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/teapot",
     "@type" : "schema:CreativeWork",
-    "description" : "Teapot is a 2007 work by Amelia Stein. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Teapot is a 2007 work by Amelia Stein. ",
     "source" : "https://imma.ie/collection/teapot/",
     "creditText" : "IMMA Collection: Donation, David Kronn Collection, 2015",
     "image" : "spice:documentation/teapot",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/chaco-settlement",
     "@type" : "schema:CreativeWork",
-    "description" : "Chaco Settlement is a 1985 work by Maria Simonds-Gooding. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Chaco Settlement is a 1985 work by Maria Simonds-Gooding. ",
     "source" : "https://imma.ie/collection/chaco-settlement/",
     "creditText" : "IMMA Collection: Purchase, 2011",
     "image" : "spice:documentation/chaco-settlement",
@@ -16,7 +16,7 @@
     "caption" : "Maria Simonds-Gooding, Chaco Settlement, 1985, Fresco pigment on plaster, 91.4 x 137.2 cm, Collection Irish Museum of Modern Art, Purchase, 2011 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2018/11/2174.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/2174.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

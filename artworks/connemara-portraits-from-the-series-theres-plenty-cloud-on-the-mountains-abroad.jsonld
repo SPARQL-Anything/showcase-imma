@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/connemara-portraits-from-the-series-theres-plenty-cloud-on-the-mountains-abroad",
     "@type" : "schema:CreativeWork",
-    "description" : "Connemara portraits from the series ‘There’s Plenty Cloud on the Mountains Abroad’ is a 1992 work by Perry Ogden. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Connemara portraits from the series ‘There’s Plenty Cloud on the Mountains Abroad’ is a 1992 work by Perry Ogden. ",
     "source" : "https://imma.ie/collection/connemara-portraits-from-the-series-theres-plenty-cloud-on-the-mountains-abroad/",
     "creditText" : "IMMA Collection: Purchase, assisted by funding from Maire and Maurice Foley, 2010",
     "image" : "spice:documentation/connemara-portraits-from-the-series-theres-plenty-cloud-on-the-mountains-abroad",
@@ -20,9 +20,6 @@
     "url" : "https://imma.ie/wp-content/uploads/2018/11/5574.jpg"
   } ],
   "@context" : {
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
@@ -39,6 +36,9 @@
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "material" : {
       "@id" : "http://schema.org/material"
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

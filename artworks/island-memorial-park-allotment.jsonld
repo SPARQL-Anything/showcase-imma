@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/island-memorial-park-allotment",
     "@type" : "schema:CreativeWork",
-    "description" : "Island Memorial Park Allotment is a 1952 work by Nevill Johnson. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Island Memorial Park Allotment is a 1952 work by Nevill Johnson. ",
     "source" : "https://imma.ie/collection/island-memorial-park-allotment/",
     "creditText" : "IMMA Collection: Acquired with the assistance of the Friends of the National Collections of Ireland, 2010",
     "image" : "spice:documentation/island-memorial-park-allotment",
@@ -54,8 +54,8 @@
     "description" : {
       "@id" : "http://purl.org/dc/elements/1.1/description"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

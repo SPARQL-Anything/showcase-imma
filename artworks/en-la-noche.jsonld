@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/en-la-noche",
     "@type" : "schema:CreativeWork",
-    "description" : "En la Noche is a 1984 work by Nemesio Antúnez. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "En la Noche is a 1984 work by Nemesio Antúnez. ",
     "source" : "https://imma.ie/collection/en-la-noche/",
     "creditText" : "IMMA Collection: Donation, Smurfit: Cartón y Papel de México, 2000",
     "image" : "spice:documentation/en-la-noche",
@@ -34,11 +34,11 @@
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "material" : {
       "@id" : "http://schema.org/material"
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

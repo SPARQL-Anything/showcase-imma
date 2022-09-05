@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/homage-a-braque-2",
     "@type" : "schema:CreativeWork",
-    "description" : "Homage a Braque is a 1962 work by Raoul Ubac. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Homage a Braque is a 1962 work by Raoul Ubac. ",
     "source" : "https://imma.ie/collection/homage-a-braque-2/",
     "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/homage-a-braque-2",
@@ -50,8 +50,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

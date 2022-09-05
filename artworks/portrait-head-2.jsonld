@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/portrait-head-2",
     "@type" : "schema:CreativeWork",
-    "description" : "Portrait Head is a 2001 work by Lucian Freud. It is not currently on display in IMMA. ",
+    "description" : "Portrait Head is a 2001 work by Lucian Freud. ",
     "source" : "https://imma.ie/collection/portrait-head-2/",
     "creditText" : "IMMA Collection: On Loan, Private Collection, ",
     "image" : "spice:documentation/portrait-head-2",
@@ -42,14 +42,14 @@
     "version" : {
       "@id" : "http://schema.org/version"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
     "size" : {
       "@id" : "http://schema.org/size"
-    },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -58,8 +58,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

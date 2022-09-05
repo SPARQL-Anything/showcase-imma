@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/cornus-nuttallii",
     "@type" : "schema:CreativeWork",
-    "description" : "Cornus Nuttallii is a 1929 work by Karl Blossfeldt. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Cornus Nuttallii is a 1929 work by Karl Blossfeldt. ",
     "source" : "https://imma.ie/collection/cornus-nuttallii/",
     "creditText" : "IMMA Collection: Donation, David Kronn Collection, 2015",
     "image" : "spice:documentation/cornus-nuttallii",
@@ -17,7 +17,7 @@
     "caption" : "Karl Blossfeldt, Cornus Nuttallii, 1929, Photogravure, 24 x 31 cm, Collection Irish Museum of Modern Art, Donation, David Kronn Collection, 2015 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2018/11/7495.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/7495.jpg"
   } ],
   "@context" : {
     "version" : {
@@ -25,6 +25,9 @@
     },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "material" : {
       "@id" : "http://schema.org/material"
@@ -42,9 +45,6 @@
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

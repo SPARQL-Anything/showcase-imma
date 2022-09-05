@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/medium-corporate-entities-version-iii",
     "@type" : "schema:CreativeWork",
-    "description" : "Medium (Corporate Entities) version III is a 2008 work by Ronan McCrea. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Medium (Corporate Entities) version III is a 2008 work by Ronan McCrea. ",
     "source" : "https://imma.ie/collection/medium-corporate-entities-version-iii/",
     "creditText" : "IMMA Collection: Purchase, 2013",
     "image" : "spice:documentation/medium-corporate-entities-version-iii",
@@ -16,7 +16,7 @@
     "caption" : "Ronan McCrea, Medium (Corporate Entities) version III, 2008, 80 35mm slides, synchronised sound, plywood, photocopies, Duration: 28min.30 sec., Collection Irish Museum of Modern Art, Purchase, 2013 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2018/11/7188.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/7188.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

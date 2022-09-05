@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/pink-store-front-project",
     "@type" : "schema:CreativeWork",
-    "description" : "Pink Store Front (project) is a 1980 work by Christo. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Pink Store Front (project) is a 1980 work by Christo. ",
     "source" : "https://imma.ie/collection/pink-store-front-project/",
     "creditText" : "IMMA Collection: The Novak/O'Doherty Collection at IMMA Gift, The American Ireland Fund, 2014",
     "image" : "spice:documentation/pink-store-front-project",
@@ -39,15 +39,15 @@
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "material" : {
       "@id" : "http://schema.org/material"
-    },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "copyrightNotice" : {
       "@id" : "http://schema.org/copyrightNotice"
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

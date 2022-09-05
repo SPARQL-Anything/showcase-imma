@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/dart-throwers",
     "@type" : "schema:CreativeWork",
-    "description" : "Dart Throwers is a 1986 work by John Bellany. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Dart Throwers is a 1986 work by John Bellany. ",
     "source" : "https://imma.ie/collection/dart-throwers/",
     "creditText" : "IMMA Collection: Donated by the Department of Customs and Excise, 1994 (July)",
     "image" : "spice:documentation/dart-throwers",
@@ -28,6 +28,9 @@
     "material" : {
       "@id" : "http://schema.org/material"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
@@ -41,9 +44,6 @@
     "version" : {
       "@id" : "http://schema.org/version"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
@@ -54,8 +54,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/yagul-light-of-the-leaves-12",
     "@type" : "schema:CreativeWork",
-    "description" : "Yagul – Light of the Leaves is a 1999 work by Jan Hendrix. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Yagul – Light of the Leaves is a 1999 work by Jan Hendrix. ",
     "source" : "https://imma.ie/collection/yagul-light-of-the-leaves-12/",
     "creditText" : "IMMA Collection: Purchase, 1999",
     "image" : "spice:documentation/yagul-light-of-the-leaves-12",
@@ -10,14 +10,14 @@
     "material" : "Screenprint",
     "size" : "37.1 x 25.4 cm",
     "version" : "Edition 1/15",
-    "hasInventory" : "IMMA.1111.12"
+    "hasInventory" : "IMMA.1111.012"
   }, {
     "@id" : "spice:documentation/yagul-light-of-the-leaves-12",
     "@type" : "schema:ImageObject",
     "caption" : "Jan Hendrix, Yagul – Light of the Leaves, 1999, Screenprint, 37.1 x 25.4 cm, Collection Irish Museum of Modern Art, Purchase, 1999 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2018/11/765.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/765.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -33,8 +33,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -42,6 +42,9 @@
     },
     "version" : {
       "@id" : "http://schema.org/version"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
@@ -55,11 +58,8 @@
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
-    "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
-    },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

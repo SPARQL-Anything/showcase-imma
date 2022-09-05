@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/la-forma-deforme",
     "@type" : "schema:CreativeWork",
-    "description" : "La Forma Deforme is a 2010 work by Luis López Loza. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "La Forma Deforme is a 2010 work by Luis López Loza. ",
     "source" : "https://imma.ie/collection/la-forma-deforme/",
     "creditText" : "IMMA Collection: Diplomatic gift of the Federal Government of Mexico, 2011",
     "image" : "spice:documentation/la-forma-deforme",
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/end-morraine",
     "@type" : "schema:CreativeWork",
-    "description" : "End Morraine is a 1992 work by Cecily Brennan. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "End Morraine is a 1992 work by Cecily Brennan. ",
     "source" : "https://imma.ie/collection/end-morraine/",
     "creditText" : "IMMA Collection: Donation, Maire and Maurice Foley, 2017",
     "image" : "spice:documentation/end-morraine",
@@ -50,8 +50,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

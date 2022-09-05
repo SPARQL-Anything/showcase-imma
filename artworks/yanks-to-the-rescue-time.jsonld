@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/yanks-to-the-rescue-time",
     "@type" : "schema:CreativeWork",
-    "description" : "Yanks to the Rescue/Time is a 1996 work by Tom Molloy. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Yanks to the Rescue/Time is a 1996 work by Tom Molloy. ",
     "source" : "https://imma.ie/collection/yanks-to-the-rescue-time/",
     "creditText" : "IMMA Collection: Donation, Maire and Maurice Foley, 2000",
     "image" : "spice:documentation/yanks-to-the-rescue-time",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

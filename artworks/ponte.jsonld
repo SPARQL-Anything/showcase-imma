@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/ponte",
     "@type" : "schema:CreativeWork",
-    "description" : "Ponte is a 1977 work by Solange Araujo. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Ponte is a 1977 work by Solange Araujo. ",
     "source" : "https://imma.ie/collection/ponte/",
     "creditText" : "IMMA Collection: Donation, Smurfit: Cartón y Papel de México, 2000",
     "image" : "spice:documentation/ponte",
@@ -36,14 +36,14 @@
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "material" : {
       "@id" : "http://schema.org/material"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "version" : {
       "@id" : "http://schema.org/version"
@@ -54,8 +54,8 @@
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

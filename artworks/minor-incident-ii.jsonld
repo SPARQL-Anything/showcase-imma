@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/minor-incident-ii",
     "@type" : "schema:CreativeWork",
-    "description" : "Minor Incident II is a 1994 work by Willie Doherty. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Minor Incident II is a 1994 work by Willie Doherty. ",
     "source" : "https://imma.ie/collection/minor-incident-ii/",
     "creditText" : "IMMA Collection: Heritage Gift, Kerlin Gallery Collection, 2018, 2018",
     "image" : "spice:documentation/minor-incident-ii",
@@ -17,7 +17,7 @@
     "caption" : "Willie Doherty, Minor Incident II, 1994, cibachrome mounted on aluminium, 76 x 102 cm, Collection Irish Museum of Modern Art, Heritage Gift, Kerlin Gallery Collection, 2018, 2018 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2021/05/9068.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/9068.jpg"
   } ],
   "@context" : {
     "description" : {
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

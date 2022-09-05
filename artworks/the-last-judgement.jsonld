@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/the-last-judgement",
     "@type" : "schema:CreativeWork",
-    "description" : "The Last Judgement is a 1991 work by Marie Foley. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "The Last Judgement is a 1991 work by Marie Foley. ",
     "source" : "https://imma.ie/collection/the-last-judgement/",
     "creditText" : "IMMA Collection: Purchase, 1992",
     "image" : "spice:documentation/the-last-judgement",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/new-faith-love-song-st-patricks-cathedral-torsos-diptych-1-2",
     "@type" : "schema:CreativeWork",
-    "description" : "NEW FAITH LOVE SONG – St. Patrick’s Cathedral, Torsos Diptych 1-2 is a 2012 work by Garrett Phelan. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "NEW FAITH LOVE SONG – St. Patrick’s Cathedral, Torsos Diptych 1-2 is a 2012 work by Garrett Phelan. ",
     "source" : "https://imma.ie/collection/new-faith-love-song-st-patricks-cathedral-torsos-diptych-1-2/",
     "creditText" : "IMMA Collection: Donation, 2013",
     "image" : "spice:documentation/new-faith-love-song-st-patricks-cathedral-torsos-diptych-1-2",
@@ -32,9 +32,6 @@
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "version" : {
       "@id" : "http://schema.org/version"
     },
@@ -54,8 +51,11 @@
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
-    "schema" : "http://schema.org/",
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

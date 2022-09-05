@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/head-of-the-big-man",
     "@type" : "schema:CreativeWork",
-    "description" : "Head of the Big Man is a 1975 work by Lucian Freud. It is not currently on display in IMMA. ",
+    "description" : "Head of the Big Man is a 1975 work by Lucian Freud. ",
     "source" : "https://imma.ie/collection/head-of-the-big-man/",
     "creditText" : "IMMA Collection: On Loan, Private Collection, ",
     "image" : "spice:documentation/head-of-the-big-man",
@@ -54,8 +54,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

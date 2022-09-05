@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/maternity-sweep-i",
     "@type" : "schema:CreativeWork",
-    "description" : "Maternity Sweep I is a 1996 work by Edward Allington. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Maternity Sweep I is a 1996 work by Edward Allington. ",
     "source" : "https://imma.ie/collection/maternity-sweep-i/",
     "creditText" : "IMMA Collection: Donated by the Artist, 1996",
     "image" : "spice:documentation/maternity-sweep-i",
@@ -54,8 +54,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

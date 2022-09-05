@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/head-with-red-eye",
     "@type" : "schema:CreativeWork",
-    "description" : "Head with Red Eye is a 1930 work by Kenneth Hall. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Head with Red Eye is a 1930 work by Kenneth Hall. ",
     "source" : "https://imma.ie/collection/head-with-red-eye/",
     "creditText" : "IMMA Collection: Donation, the Friends of the National Collections of Ireland, 2013",
     "image" : "spice:documentation/head-with-red-eye",
@@ -54,8 +54,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

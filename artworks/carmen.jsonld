@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/carmen",
     "@type" : "schema:CreativeWork",
-    "description" : "Carmen is a 2011 work by Susana Solano. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Carmen is a 2011 work by Susana Solano. ",
     "source" : "https://imma.ie/collection/carmen/",
     "creditText" : "IMMA Collection: Purchase, 2015",
     "image" : "spice:documentation/carmen",
@@ -15,7 +15,7 @@
     "caption" : "Susana Solano, Carmen, 2011, Stainless Steel, Collection Irish Museum of Modern Art, Purchase, 2015 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2018/11/6168.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/6168.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -50,8 +50,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

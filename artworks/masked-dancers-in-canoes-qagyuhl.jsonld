@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/masked-dancers-in-canoes-qagyuhl",
     "@type" : "schema:CreativeWork",
-    "description" : "Masked Dancers in Canoes – Qagyuhl is a 1914 work by Edward S. Curtis. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Masked Dancers in Canoes – Qagyuhl is a 1914 work by Edward S. Curtis. ",
     "source" : "https://imma.ie/collection/masked-dancers-in-canoes-qagyuhl/",
     "creditText" : "IMMA Collection: Donation, David Kronn Collection, 2015",
     "image" : "spice:documentation/masked-dancers-in-canoes-qagyuhl",
@@ -23,15 +23,15 @@
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
     "material" : {
       "@id" : "http://schema.org/material"
-    },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

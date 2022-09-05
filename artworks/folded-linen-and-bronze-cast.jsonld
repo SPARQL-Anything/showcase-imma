@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/folded-linen-and-bronze-cast",
     "@type" : "schema:CreativeWork",
-    "description" : "Folded Linen and Bronze Cast is a 1970 work by Lennon. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Folded Linen and Bronze Cast is a 1970 work by Lennon. ",
     "source" : "https://imma.ie/collection/folded-linen-and-bronze-cast/",
     "creditText" : "IMMA Collection: Donated by the artist, 2018",
     "image" : "spice:documentation/folded-linen-and-bronze-cast",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

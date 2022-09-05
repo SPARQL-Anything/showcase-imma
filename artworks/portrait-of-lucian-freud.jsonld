@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/portrait-of-lucian-freud",
     "@type" : "schema:CreativeWork",
-    "description" : "Portrait of Lucian Freud is a 1947 work by Jacob Epstein. It is not currently on display in IMMA. ",
+    "description" : "Portrait of Lucian Freud is a 1947 work by Jacob Epstein. ",
     "source" : "https://imma.ie/collection/portrait-of-lucian-freud/",
     "creditText" : "IMMA Collection: On Loan, Private Collection, ",
     "image" : "spice:documentation/portrait-of-lucian-freud",
@@ -54,8 +54,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

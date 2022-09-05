@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/cream-border-trees",
     "@type" : "schema:CreativeWork",
-    "description" : "Cream Border Trees is a 2005 work by Nick Miller. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Cream Border Trees is a 2005 work by Nick Miller. ",
     "source" : "https://imma.ie/collection/cream-border-trees/",
     "creditText" : "IMMA Collection: Donation, Graphic Studio Dublin, 2011",
     "image" : "spice:documentation/cream-border-trees",
@@ -58,8 +58,8 @@
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

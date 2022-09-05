@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/isla-de-graciosa-light-caleta-del-sebo",
     "@type" : "schema:CreativeWork",
-    "description" : "Isla de Graciosa-Light-Caleta del Sebo is a 1988 work by Tony O'Malley. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Isla de Graciosa-Light-Caleta del Sebo is a 1988 work by Tony O'Malley. ",
     "source" : "https://imma.ie/collection/isla-de-graciosa-light-caleta-del-sebo/",
     "creditText" : "IMMA Collection: Purchase, 1991",
     "image" : "spice:documentation/isla-de-graciosa-light-caleta-del-sebo",
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

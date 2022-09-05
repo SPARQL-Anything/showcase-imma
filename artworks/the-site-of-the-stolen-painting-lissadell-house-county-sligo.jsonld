@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/the-site-of-the-stolen-painting-lissadell-house-county-sligo",
     "@type" : "schema:CreativeWork",
-    "description" : "The Site of the Stolen Painting, Lissadell House, County Sligo is a 1996 work by Martin Parr. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "The Site of the Stolen Painting, Lissadell House, County Sligo is a 1996 work by Martin Parr. ",
     "source" : "https://imma.ie/collection/the-site-of-the-stolen-painting-lissadell-house-county-sligo/",
     "creditText" : "IMMA Collection: Purchase, 2006",
     "image" : "spice:documentation/the-site-of-the-stolen-painting-lissadell-house-county-sligo",
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

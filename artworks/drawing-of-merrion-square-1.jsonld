@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/drawing-of-merrion-square-1",
     "@type" : "schema:CreativeWork",
-    "description" : "Drawing of Merrion Square, 1 is a 1967 work by Michael Scott. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Drawing of Merrion Square, 1 is a 1967 work by Michael Scott. ",
     "source" : "https://imma.ie/collection/drawing-of-merrion-square-1/",
     "creditText" : "IMMA Collection: Donated by Dorothy Walker in Memory of Michael Scott, 2000",
     "image" : "spice:documentation/drawing-of-merrion-square-1",
@@ -50,8 +50,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

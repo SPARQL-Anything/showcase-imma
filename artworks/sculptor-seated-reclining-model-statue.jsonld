@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/sculptor-seated-reclining-model-statue",
     "@type" : "schema:CreativeWork",
-    "description" : "Sculptor Seated, Reclining Model &amp; Statue is a 1933 work by Pablo Picasso. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Sculptor Seated, Reclining Model &amp; Statue is a 1933 work by Pablo Picasso. ",
     "source" : "https://imma.ie/collection/sculptor-seated-reclining-model-statue/",
     "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/sculptor-seated-reclining-model-statue",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/untitled-a-series-of-etchings-pub-paragon-press",
     "@type" : "schema:CreativeWork",
-    "description" : "Untitled (a series of etchings pub. Paragon Press) is a 1994 work by Anish Kapoor. It is not currently on display in IMMA. ",
+    "description" : "Untitled (a series of etchings pub. Paragon Press) is a 1994 work by Anish Kapoor. ",
     "source" : "https://imma.ie/collection/untitled-a-series-of-etchings-pub-paragon-press/",
     "creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1995",
     "image" : "spice:documentation/untitled-a-series-of-etchings-pub-paragon-press",
@@ -37,14 +37,14 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "size" : {
       "@id" : "http://schema.org/size"
     },
     "material" : {
       "@id" : "http://schema.org/material"
-    },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "creditText" : {
       "@id" : "http://schema.org/creditText"
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

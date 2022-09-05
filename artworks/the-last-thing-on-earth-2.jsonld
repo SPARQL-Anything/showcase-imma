@@ -2,14 +2,14 @@
   "@graph" : [ {
     "@id" : "spice:artefact/the-last-thing-on-earth-2",
     "@type" : "schema:CreativeWork",
-    "description" : "The Last Thing on Earth is a 2016 work by Barbara Knezevic. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "The Last Thing on Earth is a 2016 work by Barbara Knezevic. ",
     "source" : "https://imma.ie/collection/the-last-thing-on-earth-2/",
     "creditText" : "IMMA Collection: Purchase, Hennessy Art Fund for IMMA Collection, 2018",
     "image" : "spice:documentation/the-last-thing-on-earth-2",
     "maintainer" : "https://w3id.org/spice/institute/imma",
     "material" : "marble",
     "size" : "19 x 21 x 25 cm",
-    "hasInventory" : "IMMA.4043.1"
+    "hasInventory" : "IMMA.4043.001"
   }, {
     "@id" : "spice:documentation/the-last-thing-on-earth-2",
     "@type" : "schema:ImageObject",
@@ -50,8 +50,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

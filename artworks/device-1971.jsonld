@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/device-1971",
     "@type" : "schema:CreativeWork",
-    "description" : "Device (1971) is a 2013 work by Patrick Scott. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Device (1971) is a 2013 work by Patrick Scott. ",
     "source" : "https://imma.ie/collection/device-1971/",
     "creditText" : "IMMA Collection: IMMA Editions, Donated by the artist, 2013",
     "image" : "spice:documentation/device-1971",
@@ -32,9 +32,6 @@
     "size" : {
       "@id" : "http://schema.org/size"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
@@ -49,6 +46,9 @@
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "copyrightNotice" : {
       "@id" : "http://schema.org/copyrightNotice"
     },
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

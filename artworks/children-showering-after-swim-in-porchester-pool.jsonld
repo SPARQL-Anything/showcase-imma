@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/children-showering-after-swim-in-porchester-pool",
     "@type" : "schema:CreativeWork",
-    "description" : "Children Showering after Swim in Porchester Pool is a 1989 work by Elinor Wiltshire. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Children Showering after Swim in Porchester Pool is a 1989 work by Elinor Wiltshire. ",
     "source" : "https://imma.ie/collection/children-showering-after-swim-in-porchester-pool/",
     "creditText" : "IMMA Collection: Donation, Elinor Vere O’Brien Wiltshire, 2013",
     "image" : "spice:documentation/children-showering-after-swim-in-porchester-pool",
@@ -16,7 +16,7 @@
     "caption" : "Elinor Wiltshire, Children Showering after Swim in Porchester Pool, 1989, Wool, Framed: 33.3 x 46.2 cm, Collection Irish Museum of Modern Art, Donation, Elinor Vere O’Brien Wiltshire, 2013 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2021/03/7129.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/7129.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

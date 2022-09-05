@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/generous-barmin-iii",
     "@type" : "schema:CreativeWork",
-    "description" : "Generous Barmin, III is a 1972 work by Ilya Kabakov. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Generous Barmin, III is a 1972 work by Ilya Kabakov. ",
     "source" : "https://imma.ie/collection/generous-barmin-iii/",
     "creditText" : "IMMA Collection: Purchase, 1999",
     "image" : "spice:documentation/generous-barmin-iii",
@@ -28,6 +28,9 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "size" : {
       "@id" : "http://schema.org/size"
     },
@@ -45,17 +48,14 @@
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "copyrightNotice" : {
       "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

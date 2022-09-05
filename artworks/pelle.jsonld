@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/pelle",
     "@type" : "schema:CreativeWork",
-    "description" : "Pelle is a 1974 work by Concetto Pozzati. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Pelle is a 1974 work by Concetto Pozzati. ",
     "source" : "https://imma.ie/collection/pelle/",
     "creditText" : "IMMA Collection: Donation, Smurfit: Cartón y Papel de México, 2000",
     "image" : "spice:documentation/pelle",
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

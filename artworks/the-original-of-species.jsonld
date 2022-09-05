@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/the-original-of-species",
     "@type" : "schema:CreativeWork",
-    "description" : "The Original of Species is a 2007 work by Diana Copperwhite. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "The Original of Species is a 2007 work by Diana Copperwhite. ",
     "source" : "https://imma.ie/collection/the-original-of-species/",
     "creditText" : "IMMA Collection: Donation, 2009",
     "image" : "spice:documentation/the-original-of-species",
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

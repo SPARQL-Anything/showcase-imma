@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/burning-tree",
     "@type" : "schema:CreativeWork",
-    "description" : "Burning Tree is a 2006 work by Patrick Hall. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Burning Tree is a 2006 work by Patrick Hall. ",
     "source" : "https://imma.ie/collection/burning-tree/",
     "creditText" : "IMMA Collection: Donation, 2008",
     "image" : "spice:documentation/burning-tree",
@@ -17,7 +17,7 @@
     "caption" : "Patrick Hall, Burning Tree, 2006, Ink and pastel on paper, 12 x 14 cm, Collection Irish Museum of Modern Art, Donation, 2008 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2021/03/33.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/33.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -40,14 +40,14 @@
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "size" : {
       "@id" : "http://schema.org/size"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
@@ -58,8 +58,8 @@
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

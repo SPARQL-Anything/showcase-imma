@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/the-long-note",
     "@type" : "schema:CreativeWork",
-    "description" : "The Long Note is a 2018 work by Helen Cammock. It has a duration of 1hr.39 min. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "The Long Note is a 2018 work by Helen Cammock. It has a duration of 1hr.39 min. ",
     "source" : "https://imma.ie/collection/the-long-note/",
     "creditText" : "IMMA Collection: Purchase, 2020, 2019",
     "image" : "spice:documentation/the-long-note",
@@ -15,7 +15,8 @@
     "@type" : "schema:ImageObject",
     "caption" : "Helen Cammock, The Long Note, 2018, HD video, Duration: 1hr.39 min, Collection Irish Museum of Modern Art, Purchase, 2020, 2019 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
-    "maintainer" : "https://w3id.org/spice/institute/imma"
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "url" : "https://imma.ie/wp-content/uploads/2022/03/9451-scaled.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -27,6 +28,9 @@
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
     },
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
@@ -40,18 +44,18 @@
     "material" : {
       "@id" : "http://schema.org/material"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

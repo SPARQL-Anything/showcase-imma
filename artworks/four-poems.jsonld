@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/four-poems",
     "@type" : "schema:CreativeWork",
-    "description" : "Four Poems is a 1984 work by Cecil King and Michael O'Siadhail. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Four Poems is a 1984 work by Cecil King and Michael O'Siadhail. ",
     "source" : "https://imma.ie/collection/four-poems/",
     "creditText" : "IMMA Collection: Donated by Oliver Dowling, 2006",
     "image" : "spice:documentation/four-poems",
@@ -28,9 +28,6 @@
     "version" : {
       "@id" : "http://schema.org/version"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
@@ -41,6 +38,9 @@
     "size" : {
       "@id" : "http://schema.org/size"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
@@ -50,8 +50,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/appearances",
     "@type" : "schema:CreativeWork",
-    "description" : "Appearances is a 2003 work by Eun-Mo Chung. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Appearances is a 2003 work by Eun-Mo Chung. ",
     "source" : "https://imma.ie/collection/appearances/",
     "creditText" : "IMMA Collection: Donation, IBRC, 2011",
     "image" : "spice:documentation/appearances",
@@ -14,7 +14,7 @@
     "@id" : "spice:documentation/appearances",
     "@type" : "schema:ImageObject",
     "caption" : "Eun-Mo Chung, Appearances, 2003, Oil on canvas, 95 x 95 cm, Collection Irish Museum of Modern Art, Donation, IBRC, 2011 ",
-    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team: i. i",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

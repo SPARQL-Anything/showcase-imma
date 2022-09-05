@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/neil",
     "@type" : "schema:CreativeWork",
-    "description" : "Neil is a 1994 work by John Ahearn. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Neil is a 1994 work by John Ahearn. ",
     "source" : "https://imma.ie/collection/neil/",
     "creditText" : "IMMA Collection: Donated by the Artist, 1994",
     "image" : "spice:documentation/neil",
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

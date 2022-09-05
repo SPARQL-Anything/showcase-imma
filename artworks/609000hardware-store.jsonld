@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/609000hardware-store",
     "@type" : "schema:CreativeWork",
-    "description" : "609000Hardware Store is a 1938 work by Berenice Abbott. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "609000Hardware Store is a 1938 work by Berenice Abbott. ",
     "source" : "https://imma.ie/collection/609000hardware-store/",
     "creditText" : "IMMA Collection: Donation, David Kronn Collection, 2015",
     "image" : "spice:documentation/609000hardware-store",
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

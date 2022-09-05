@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/moment",
     "@type" : "schema:CreativeWork",
-    "description" : "Moment is a 1991 work by Antony Gormley. It is not currently on display in IMMA. ",
+    "description" : "Moment is a 1991 work by Antony Gormley. ",
     "source" : "https://imma.ie/collection/moment/",
     "creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1995",
     "image" : "spice:documentation/moment",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

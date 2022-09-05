@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/zandunga",
     "@type" : "schema:CreativeWork",
-    "description" : "Zandunga is a 1981 work by Virginia Tentindo. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Zandunga is a 1981 work by Virginia Tentindo. ",
     "source" : "https://imma.ie/collection/zandunga/",
     "creditText" : "IMMA Collection: Donation, Smurfit: Cartón y Papel de México, 2000",
     "image" : "spice:documentation/zandunga",
@@ -48,18 +48,18 @@
     "size" : {
       "@id" : "http://schema.org/size"
     },
-    "creditText" : {
-      "@id" : "http://schema.org/creditText"
-    },
     "description" : {
       "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText"
     },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

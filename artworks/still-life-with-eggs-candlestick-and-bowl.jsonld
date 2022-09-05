@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/still-life-with-eggs-candlestick-and-bowl",
     "@type" : "schema:CreativeWork",
-    "description" : "Still Life with Eggs, Candlestick and Bowl is a 1975 work by William Bailey. It is not currently on display in IMMA. ",
+    "description" : "Still Life with Eggs, Candlestick and Bowl is a 1975 work by William Bailey. ",
     "source" : "https://imma.ie/collection/still-life-with-eggs-candlestick-and-bowl/",
     "creditText" : "IMMA Collection: Donation, Novak/O'Doherty Collection, 2015",
     "image" : "spice:documentation/still-life-with-eggs-candlestick-and-bowl",
@@ -39,12 +39,12 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "version" : {
-      "@id" : "http://schema.org/version"
-    },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
+    },
+    "version" : {
+      "@id" : "http://schema.org/version"
     },
     "material" : {
       "@id" : "http://schema.org/material"
@@ -58,8 +58,8 @@
     "description" : {
       "@id" : "http://purl.org/dc/elements/1.1/description"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/the-new-yorker",
     "@type" : "schema:CreativeWork",
-    "description" : "The New Yorker is a 2006 work by Lucian Freud. It is not currently on display in IMMA. ",
+    "description" : "The New Yorker is a 2006 work by Lucian Freud. ",
     "source" : "https://imma.ie/collection/the-new-yorker/",
     "creditText" : "IMMA Collection: On Loan, Private Collection, ",
     "image" : "spice:documentation/the-new-yorker",
@@ -27,9 +27,6 @@
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
@@ -46,6 +43,9 @@
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

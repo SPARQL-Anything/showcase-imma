@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/yumbo-o-la-nube-gris",
     "@type" : "schema:CreativeWork",
-    "description" : "Yumbo o la Nube Gris is a 1976 work by Augusto Rendón. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Yumbo o la Nube Gris is a 1976 work by Augusto Rendón. ",
     "source" : "https://imma.ie/collection/yumbo-o-la-nube-gris/",
     "creditText" : "IMMA Collection: Donation, Smurfit: Cartón y Papel de México, 2000",
     "image" : "spice:documentation/yumbo-o-la-nube-gris",
@@ -19,6 +19,9 @@
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
@@ -42,9 +45,6 @@
     "size" : {
       "@id" : "http://schema.org/size"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
@@ -54,8 +54,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/retrato-de-viaje-de-mi-tia-consuelo",
     "@type" : "schema:CreativeWork",
-    "description" : "Retrato de Viaje de mi Tía Consuelo is a 1974 work by Antonio Martorell. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Retrato de Viaje de mi Tía Consuelo is a 1974 work by Antonio Martorell. ",
     "source" : "https://imma.ie/collection/retrato-de-viaje-de-mi-tia-consuelo/",
     "creditText" : "IMMA Collection: Donation, Smurfit: Cartón y Papel de México, 2000",
     "image" : "spice:documentation/retrato-de-viaje-de-mi-tia-consuelo",
@@ -42,6 +42,9 @@
     "material" : {
       "@id" : "http://schema.org/material"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "size" : {
       "@id" : "http://schema.org/size"
     },
@@ -55,11 +58,8 @@
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

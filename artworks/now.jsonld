@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/now",
     "@type" : "schema:CreativeWork",
-    "description" : "Now is a 1977 work by Gordon Woods. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Now is a 1977 work by Gordon Woods. ",
     "source" : "https://imma.ie/collection/now/",
     "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/now",
@@ -14,7 +14,7 @@
     "@id" : "spice:documentation/now",
     "@type" : "schema:ImageObject",
     "caption" : "Gordon Woods, Now, 1977, Oil on paper, 54.7 x 74.7 cm, Collection Irish Museum of Modern Art, Gordon Lambert Trust, 1992 ",
-    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections teamimma.ie.imma.ie",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

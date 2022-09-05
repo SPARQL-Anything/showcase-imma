@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/dunghuang-1986",
     "@type" : "schema:CreativeWork",
-    "description" : "Dunghuang, 1986 is a 1986 work by Steve T. Barraclough. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Dunghuang, 1986 is a 1986 work by Steve T. Barraclough. ",
     "source" : "https://imma.ie/collection/dunghuang-1986/",
     "creditText" : "IMMA Collection: Donation, Maire and Maurice Foley, 2000",
     "image" : "spice:documentation/dunghuang-1986",
@@ -54,8 +54,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

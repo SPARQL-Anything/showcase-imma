@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/before-the-fourth",
     "@type" : "schema:CreativeWork",
-    "description" : "Before the Fourth is a 2004 work by Lucian Freud. It is not currently on display in IMMA. ",
+    "description" : "Before the Fourth is a 2004 work by Lucian Freud. ",
     "source" : "https://imma.ie/collection/before-the-fourth/",
     "creditText" : "IMMA Collection: On Loan, Private Collection, ",
     "image" : "spice:documentation/before-the-fourth",
@@ -40,9 +40,6 @@
     "material" : {
       "@id" : "http://schema.org/material"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "version" : {
       "@id" : "http://schema.org/version"
     },
@@ -58,8 +55,11 @@
     "size" : {
       "@id" : "http://schema.org/size"
     },
-    "schema" : "http://schema.org/",
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

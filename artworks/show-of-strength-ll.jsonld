@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/show-of-strength-ll",
     "@type" : "schema:CreativeWork",
-    "description" : "Show of Strength ll is a 2006 work by Willie Doherty. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Show of Strength ll is a 2006 work by Willie Doherty. ",
     "source" : "https://imma.ie/collection/show-of-strength-ll/",
     "creditText" : "IMMA Collection: Heritage Gift, Kerlin Gallery Collection, 2018, 2018",
     "image" : "spice:documentation/show-of-strength-ll",
@@ -17,7 +17,7 @@
     "caption" : "Willie Doherty, Show of Strength ll, 2006, c-print on aluminum with Plexiglas, 121.9 x 152.4 cm, Collection Irish Museum of Modern Art, Heritage Gift, Kerlin Gallery Collection, 2018, 2018 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2021/05/9091.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/9091.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -58,8 +58,8 @@
     "material" : {
       "@id" : "http://schema.org/material"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

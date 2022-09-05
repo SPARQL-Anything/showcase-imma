@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/gedser",
     "@type" : "schema:CreativeWork",
-    "description" : "Gedser is a 2004 work by Wolfgang Tillmans. It is not currently on display in IMMA. It is currently out on loan. It is part of the IMMA Permanent Collection. ",
+    "description" : "Gedser is a 2004 work by Wolfgang Tillmans. ",
     "source" : "https://imma.ie/collection/gedser/",
     "creditText" : "IMMA Collection: Purchase, 2019, 2019",
     "image" : "spice:documentation/gedser",
@@ -58,8 +58,8 @@
     "version" : {
       "@id" : "http://schema.org/version"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

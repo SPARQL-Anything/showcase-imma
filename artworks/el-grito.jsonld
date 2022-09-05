@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/el-grito",
     "@type" : "schema:CreativeWork",
-    "description" : "El Grito is a 1978 work by Oswaldo Guayasamín. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "El Grito is a 1978 work by Oswaldo Guayasamín. ",
     "source" : "https://imma.ie/collection/el-grito/",
     "creditText" : "IMMA Collection: Donation, Smurfit: Cartón y Papel de México, 2000",
     "image" : "spice:documentation/el-grito",
@@ -51,15 +51,15 @@
     "material" : {
       "@id" : "http://schema.org/material"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
-    "schema" : "http://schema.org/",
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

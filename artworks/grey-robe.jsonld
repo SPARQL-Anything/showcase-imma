@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/grey-robe",
     "@type" : "schema:CreativeWork",
-    "description" : "Grey Robe is a 2008 work by Sean Scully. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Grey Robe is a 2008 work by Sean Scully. ",
     "source" : "https://imma.ie/collection/grey-robe/",
     "creditText" : "IMMA Collection: IMMA Editions, Donated by the artist, 2008",
     "image" : "spice:documentation/grey-robe",
@@ -31,14 +31,14 @@
     "version" : {
       "@id" : "http://schema.org/version"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "material" : {
       "@id" : "http://schema.org/material"
     },
     "creditText" : {
       "@id" : "http://schema.org/creditText"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

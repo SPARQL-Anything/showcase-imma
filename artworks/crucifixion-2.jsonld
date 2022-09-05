@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/crucifixion-2",
     "@type" : "schema:CreativeWork",
-    "description" : "Crucifixion is a 1993 work by Hughie O'Donoghue. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Crucifixion is a 1993 work by Hughie O'Donoghue. ",
     "source" : "https://imma.ie/collection/crucifixion-2/",
     "creditText" : "IMMA Collection: Gift, The American Ireland Fund, 2010",
     "image" : "spice:documentation/crucifixion-2",
@@ -14,9 +14,9 @@
     "@id" : "spice:documentation/crucifixion-2",
     "@type" : "schema:ImageObject",
     "caption" : "Hughie O'Donoghue, Crucifixion, 1993, Oil on linen canvas, 374 x 282 cm, Collection Irish Museum of Modern Art, Gift, The American Ireland Fund, 2010 ",
-    "copyrightNotice" : "For copyright information, please contact the IMMA Collections teamma.ie.ma.ie",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2018/11/2193.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/2193.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -54,8 +54,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

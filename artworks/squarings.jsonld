@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/squarings",
     "@type" : "schema:CreativeWork",
-    "description" : "Squarings is a 1991 work by Felim Egan. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Squarings is a 1991 work by Felim Egan. ",
     "source" : "https://imma.ie/collection/squarings/",
     "creditText" : "IMMA Collection: Donation, 'Friends of the National Collections of Ireland, in memory of Patrick Brennan.', 2009",
     "image" : "spice:documentation/squarings",
@@ -25,6 +25,9 @@
     "size" : {
       "@id" : "http://schema.org/size"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
@@ -45,17 +48,14 @@
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "copyrightNotice" : {
       "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

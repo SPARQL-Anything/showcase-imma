@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/the-welfare-of-tomas-o-hallissy",
     "@type" : "schema:CreativeWork",
-    "description" : "The Welfare of Tomás Ó Hallissy is a 2016 work by Duncan Campbell. It has a duration of 31min.37 min. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "The Welfare of Tomás Ó Hallissy is a 2016 work by Duncan Campbell. It has a duration of 31min.37 min. ",
     "source" : "https://imma.ie/collection/the-welfare-of-tomas-o-hallissy/",
     "creditText" : "IMMA Collection: Commissioned by IMMA with co-commissioners Van Abbemuseum, Eindhoven and Western Front, Vancouver., 2016",
     "image" : "spice:documentation/the-welfare-of-tomas-o-hallissy",
@@ -15,7 +15,8 @@
     "@type" : "schema:ImageObject",
     "caption" : "Duncan Campbell, The Welfare of Tomás Ó Hallissy, 2016, video, Duration: 31min.37 min, Collection Irish Museum of Modern Art, Commissioned by IMMA with co-commissioners Van Abbemuseum, Eindhoven and Western Front, Vancouver., 2016 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
-    "maintainer" : "https://w3id.org/spice/institute/imma"
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/8862.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -27,6 +28,9 @@
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
     },
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
@@ -40,18 +44,18 @@
     "material" : {
       "@id" : "http://schema.org/material"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/old-sub",
     "@type" : "schema:CreativeWork",
-    "description" : "Old Sub is a 1996 work by Siobhán Hapaska. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Old Sub is a 1996 work by Siobhán Hapaska. ",
     "source" : "https://imma.ie/collection/old-sub/",
     "creditText" : "IMMA Collection: Heritage Gift, Kerlin Gallery Collection, 2018, 2018",
     "image" : "spice:documentation/old-sub",
@@ -16,7 +16,7 @@
     "caption" : "Siobhán Hapaska, Old Sub, 1996, fiberglass, two-pack lacquer paint, 70 x 165 x 100 cm, Collection Irish Museum of Modern Art, Heritage Gift, Kerlin Gallery Collection, 2018, 2018 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2021/05/9081.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/9081.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

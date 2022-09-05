@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/pei-architecture",
     "@type" : "schema:CreativeWork",
-    "description" : "Pei Architecture is a 1980 work by Robert Ballagh. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Pei Architecture is a 1980 work by Robert Ballagh. ",
     "source" : "https://imma.ie/collection/pei-architecture/",
     "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/pei-architecture",
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

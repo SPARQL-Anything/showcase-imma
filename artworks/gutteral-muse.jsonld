@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/gutteral-muse",
     "@type" : "schema:CreativeWork",
-    "description" : "Gutteral Muse is a 2009 work by Barrie Cooke and Seamus Heaney. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Gutteral Muse is a 2009 work by Barrie Cooke and Seamus Heaney. ",
     "source" : "https://imma.ie/collection/gutteral-muse/",
     "creditText" : "IMMA Collection: IMMA Editions, Donated by the artist, 2009",
     "image" : "spice:documentation/gutteral-muse",
@@ -25,17 +25,20 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "material" : {
       "@id" : "http://schema.org/material"
     },
-    "size" : {
-      "@id" : "http://schema.org/size"
-    },
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size"
     },
     "creditText" : {
       "@id" : "http://schema.org/creditText"
@@ -47,11 +50,8 @@
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

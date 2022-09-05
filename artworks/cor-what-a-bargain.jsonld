@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/cor-what-a-bargain",
     "@type" : "schema:CreativeWork",
-    "description" : "Cor! What a Bargain is a 1992 work by Michael Landy. It is not currently on display in IMMA. ",
+    "description" : "Cor! What a Bargain is a 1992 work by Michael Landy. ",
     "source" : "https://imma.ie/collection/cor-what-a-bargain/",
     "creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1995",
     "image" : "spice:documentation/cor-what-a-bargain",
@@ -54,8 +54,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

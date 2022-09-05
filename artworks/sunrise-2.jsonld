@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/sunrise-2",
     "@type" : "schema:CreativeWork",
-    "description" : "Sunrise is a 2018 work by Monir Shahroudy Farmanfarmaian. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Sunrise is a 2018 work by Monir Shahroudy Farmanfarmaian. ",
     "source" : "https://imma.ie/collection/sunrise-2/",
     "creditText" : "IMMA Collection: IMMA Editions, Donated by the artist, 2020",
     "image" : "spice:documentation/sunrise-2",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

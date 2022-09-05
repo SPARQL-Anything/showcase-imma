@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/homage-to-boucher",
     "@type" : "schema:CreativeWork",
-    "description" : "Homage to Boucher is a 1978 work by Jack Coughlin. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Homage to Boucher is a 1978 work by Jack Coughlin. ",
     "source" : "https://imma.ie/collection/homage-to-boucher/",
     "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/homage-to-boucher",
@@ -50,8 +50,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/the-home-my-daddy-built",
     "@type" : "schema:CreativeWork",
-    "description" : "The Home My Daddy Built is a 1975 work by Velox Ward. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "The Home My Daddy Built is a 1975 work by Velox Ward. ",
     "source" : "https://imma.ie/collection/the-home-my-daddy-built/",
     "creditText" : "IMMA Collection: Donation, Novak/O'Doherty Collection, 2015",
     "image" : "spice:documentation/the-home-my-daddy-built",
@@ -43,9 +43,6 @@
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "material" : {
       "@id" : "http://schema.org/material"
     },
@@ -58,8 +55,11 @@
     "size" : {
       "@id" : "http://schema.org/size"
     },
-    "schema" : "http://schema.org/",
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

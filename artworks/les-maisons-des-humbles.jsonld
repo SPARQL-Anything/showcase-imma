@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/les-maisons-des-humbles",
     "@type" : "schema:CreativeWork",
-    "description" : "Les Maisons des Humbles is a 1930 work by Grace Henry. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Les Maisons des Humbles is a 1930 work by Grace Henry. ",
     "source" : "https://imma.ie/collection/les-maisons-des-humbles/",
     "creditText" : "IMMA Collection: Heritage Gift from the McClelland Collection by Noel and Anne Marie Smyth, 2004",
     "image" : "spice:documentation/les-maisons-des-humbles",
@@ -16,7 +16,7 @@
     "caption" : "Grace Henry, Les Maisons des Humbles, 1930, Oil on board, 29.5 x 39.5 cm, Collection Irish Museum of Modern Art, Heritage Gift from the McClelland Collection by Noel and Anne Marie Smyth, 2004 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2019/10/1358.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/1358.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

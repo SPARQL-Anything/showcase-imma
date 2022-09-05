@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/figure-with-owls",
     "@type" : "schema:CreativeWork",
-    "description" : "Figure with Owls is a 1970 work by Colin Middleton. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Figure with Owls is a 1970 work by Colin Middleton. ",
     "source" : "https://imma.ie/collection/figure-with-owls/",
     "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/figure-with-owls",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

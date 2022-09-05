@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/house-in-clare",
     "@type" : "schema:CreativeWork",
-    "description" : "House in Clare is a 2010 work by Fergus Martin. It is not currently on display in IMMA. It is currently out on loan. It is part of the IMMA Permanent Collection. ",
+    "description" : "House in Clare is a 2010 work by Fergus Martin. ",
     "source" : "https://imma.ie/collection/house-in-clare/",
     "creditText" : "IMMA Collection: Donation, the artist, 2011",
     "image" : "spice:documentation/house-in-clare",
@@ -17,7 +17,7 @@
     "caption" : "Fergus Martin, House in Clare, 2010, Pigment print on photorag, 152 x 112 cm, Collection Irish Museum of Modern Art, Donation, the artist, 2011 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2021/07/6136.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/6136.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -35,6 +35,9 @@
     },
     "size" : {
       "@id" : "http://schema.org/size"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "version" : {
       "@id" : "http://schema.org/version"
@@ -55,11 +58,8 @@
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

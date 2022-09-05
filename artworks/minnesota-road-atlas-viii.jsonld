@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/minnesota-road-atlas-viii",
     "@type" : "schema:CreativeWork",
-    "description" : "Minnesota Road Atlas VIII is a 2005 work by Kathy Prendergast. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Minnesota Road Atlas VIII is a 2005 work by Kathy Prendergast. ",
     "source" : "https://imma.ie/collection/minnesota-road-atlas-viii/",
     "creditText" : "IMMA Collection: Heritage Gift, Kerlin Gallery Collection, 2018, 2018",
     "image" : "spice:documentation/minnesota-road-atlas-viii",
@@ -14,7 +14,7 @@
     "@id" : "spice:documentation/minnesota-road-atlas-viii",
     "@type" : "schema:ImageObject",
     "caption" : "Kathy Prendergast, Minnesota Road Atlas VIII, 2005, ink on printed paper, Framed: 43.5 x 59.5 cm, Collection Irish Museum of Modern Art, Heritage Gift, Kerlin Gallery Collection, 2018, 2018 ",
-    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections teamimma.ie.imma.ie",
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
@@ -50,8 +50,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

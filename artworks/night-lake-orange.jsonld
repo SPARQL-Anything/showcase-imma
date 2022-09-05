@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/night-lake-orange",
     "@type" : "schema:CreativeWork",
-    "description" : "Night Lake Orange is a 1984 work by Barrie Cooke. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Night Lake Orange is a 1984 work by Barrie Cooke. ",
     "source" : "https://imma.ie/collection/night-lake-orange/",
     "creditText" : "IMMA Collection: Donation, Vincent &amp; Noeleen Ferguson, 1996",
     "image" : "spice:documentation/night-lake-orange",
@@ -16,7 +16,7 @@
     "caption" : "Barrie Cooke, Night Lake Orange, 1984, Oil on canvas, 120 x 120 cm, Collection Irish Museum of Modern Art, Donation, Vincent &amp; Noeleen Ferguson, 1996 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2018/11/1058.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/1058.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -54,8 +54,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

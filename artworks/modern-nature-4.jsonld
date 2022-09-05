@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/modern-nature-4",
     "@type" : "schema:CreativeWork",
-    "description" : "Modern Nature # 4 is a 1993 work by Fionnuala Ní Chiosain. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Modern Nature # 4 is a 1993 work by Fionnuala Ní Chiosain. ",
     "source" : "https://imma.ie/collection/modern-nature-4/",
     "creditText" : "IMMA Collection: Purchase, 1994",
     "image" : "spice:documentation/modern-nature-4",
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

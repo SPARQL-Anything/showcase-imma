@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/denier-7-for-mm",
     "@type" : "schema:CreativeWork",
-    "description" : "Denier 7, for MM is a 2014 work by Lennon. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Denier 7, for MM is a 2014 work by Lennon. ",
     "source" : "https://imma.ie/collection/denier-7-for-mm/",
     "creditText" : "IMMA Collection: Donated by the artist, 2018",
     "image" : "spice:documentation/denier-7-for-mm",
@@ -46,8 +46,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

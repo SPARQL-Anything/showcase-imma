@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/pass-by-in-silence",
     "@type" : "schema:CreativeWork",
-    "description" : "Pass by in silence is a 2006 work by Isabel Nolan. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Pass by in silence is a 2006 work by Isabel Nolan. ",
     "source" : "https://imma.ie/collection/pass-by-in-silence/",
     "creditText" : "IMMA Collection: Heritage Gift, Kerlin Gallery Collection, 2018, 2018",
     "image" : "spice:documentation/pass-by-in-silence",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

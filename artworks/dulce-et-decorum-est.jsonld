@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/dulce-et-decorum-est",
     "@type" : "schema:CreativeWork",
-    "description" : "Dulce et Decorum est… is a 1990 work by John Kindness. It is not currently on display in IMMA. It is currently out on loan. It is part of the IMMA Permanent Collection. ",
+    "description" : "Dulce et Decorum est… is a 1990 work by John Kindness. ",
     "source" : "https://imma.ie/collection/dulce-et-decorum-est/",
     "creditText" : "IMMA Collection: Purchase, 1991",
     "image" : "spice:documentation/dulce-et-decorum-est",
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/texturas-en-el-area",
     "@type" : "schema:CreativeWork",
-    "description" : "Texturas en el Area is a 1984 work by Baruj Salinas. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Texturas en el Area is a 1984 work by Baruj Salinas. ",
     "source" : "https://imma.ie/collection/texturas-en-el-area/",
     "creditText" : "IMMA Collection: Donation, Smurfit: Cartón y Papel de México, 2000",
     "image" : "spice:documentation/texturas-en-el-area",
@@ -45,17 +45,17 @@
     "version" : {
       "@id" : "http://schema.org/version"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "material" : {
       "@id" : "http://schema.org/material"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/yellow-ribbon",
     "@type" : "schema:CreativeWork",
-    "description" : "Yellow Ribbon is a 1951 work by Patrick Hennessy. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Yellow Ribbon is a 1951 work by Patrick Hennessy. ",
     "source" : "https://imma.ie/collection/yellow-ribbon/",
     "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/yellow-ribbon",
@@ -16,7 +16,7 @@
     "caption" : "Patrick Hennessy, Yellow Ribbon, 1951, Oil on canvas, 49.4 x 67.6 cm, Collection Irish Museum of Modern Art, Gordon Lambert Trust, 1992 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2018/11/1935.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/1935.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -54,8 +54,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/ireland-2",
     "@type" : "schema:CreativeWork",
-    "description" : "Ireland is a 1979 work by Harry Callahan. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Ireland is a 1979 work by Harry Callahan. ",
     "source" : "https://imma.ie/collection/ireland-2/",
     "creditText" : "IMMA Collection: Donated in 2019 by the American Friends of the Arts in Ireland who received this work from David Kronn, 2019",
     "image" : "spice:documentation/ireland-2",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

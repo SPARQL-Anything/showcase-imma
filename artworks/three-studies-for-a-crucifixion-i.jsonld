@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/three-studies-for-a-crucifixion-i",
     "@type" : "schema:CreativeWork",
-    "description" : "Three Studies for a Crucifixion I is a 1996 work by Hughie O'Donoghue. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Three Studies for a Crucifixion I is a 1996 work by Hughie O'Donoghue. ",
     "source" : "https://imma.ie/collection/three-studies-for-a-crucifixion-i/",
     "creditText" : "IMMA Collection: Gift, The American Ireland Fund, 2010",
     "image" : "spice:documentation/three-studies-for-a-crucifixion-i",
@@ -17,7 +17,7 @@
     "caption" : "Hughie O'Donoghue, Three Studies for a Crucifixion I, 1996, Three carborundum etchings, 245 x 488 cm, Collection Irish Museum of Modern Art, Gift, The American Ireland Fund, 2010 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2018/11/2194.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/2194.jpg"
   } ],
   "@context" : {
     "material" : {
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

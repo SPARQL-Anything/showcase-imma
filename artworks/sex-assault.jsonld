@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/sex-assault",
     "@type" : "schema:CreativeWork",
-    "description" : "Sex Assault is a 2004 work by Tom Hunter. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Sex Assault is a 2004 work by Tom Hunter. ",
     "source" : "https://imma.ie/collection/sex-assault/",
     "creditText" : "IMMA Collection: Purchase, 2006",
     "image" : "spice:documentation/sex-assault",
@@ -23,9 +23,6 @@
     "material" : {
       "@id" : "http://schema.org/material"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
@@ -36,6 +33,9 @@
     },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "version" : {
       "@id" : "http://schema.org/version"
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

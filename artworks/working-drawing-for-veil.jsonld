@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/working-drawing-for-veil",
     "@type" : "schema:CreativeWork",
-    "description" : "Working Drawing for VEIL is a 1979 work by Lennon. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Working Drawing for VEIL is a 1979 work by Lennon. ",
     "source" : "https://imma.ie/collection/working-drawing-for-veil/",
     "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/working-drawing-for-veil",
@@ -16,7 +16,7 @@
     "caption" : "Lennon, Working Drawing for VEIL, 1979, Matt emulsion, pencil, gauze, photographic prints, B &amp; W illustrations on board, 122.6 x 122.3 cm, Collection Irish Museum of Modern Art, Gordon Lambert Trust, 1992 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2018/11/14.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/14.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

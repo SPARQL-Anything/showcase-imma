@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/an-anatomy-of-melancholy-i",
     "@type" : "schema:CreativeWork",
-    "description" : "An Anatomy of Melancholy I is a 1987 work by Hughie O'Donoghue. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "An Anatomy of Melancholy I is a 1987 work by Hughie O'Donoghue. ",
     "source" : "https://imma.ie/collection/an-anatomy-of-melancholy-i/",
     "creditText" : "IMMA Collection: Gift, The American Ireland Fund, 2010",
     "image" : "spice:documentation/an-anatomy-of-melancholy-i",
@@ -16,7 +16,7 @@
     "caption" : "Hughie O'Donoghue, An Anatomy of Melancholy I, 1987, Oil on linen canvas, in 3 panels, 224 x 587 cm, Collection Irish Museum of Modern Art, Gift, The American Ireland Fund, 2010 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2018/11/2195.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/2195.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

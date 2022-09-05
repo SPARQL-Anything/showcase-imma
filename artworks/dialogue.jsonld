@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/dialogue",
     "@type" : "schema:CreativeWork",
-    "description" : "Dialogue is a 1973 work by John Wilson. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Dialogue is a 1973 work by John Wilson. ",
     "source" : "https://imma.ie/collection/dialogue/",
     "creditText" : "IMMA Collection: Donation, Novak/O'Doherty Collection, 2015",
     "image" : "spice:documentation/dialogue",
@@ -17,7 +17,7 @@
     "caption" : "John Wilson, Dialogue, 1973, Etching, aquatint, 56.2 x 75.6 cm, Collection Irish Museum of Modern Art, Donation, Novak/O'Doherty Collection, 2015 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2018/11/5218.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/5218.jpg"
   } ],
   "@context" : {
     "material" : {
@@ -25,6 +25,9 @@
     },
     "size" : {
       "@id" : "http://schema.org/size"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
@@ -43,9 +46,6 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/angels-of-sarajevo",
     "@type" : "schema:CreativeWork",
-    "description" : "Angels of Sarajevo is a 1993 work by Louis Jammes. It is not currently on display in IMMA. ",
+    "description" : "Angels of Sarajevo is a 1993 work by Louis Jammes. ",
     "source" : "https://imma.ie/collection/angels-of-sarajevo/",
     "creditText" : "IMMA Collection: Donation, 2015",
     "image" : "spice:documentation/angels-of-sarajevo",
@@ -50,8 +50,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

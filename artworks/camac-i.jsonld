@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/camac-i",
     "@type" : "schema:CreativeWork",
-    "description" : "Camac I is a 2002 work by Lennon. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Camac I is a 2002 work by Lennon. ",
     "source" : "https://imma.ie/collection/camac-i/",
     "creditText" : "IMMA Collection: Donation, Graphic Studio Dublin, 2011",
     "image" : "spice:documentation/camac-i",
@@ -26,6 +26,9 @@
     "size" : {
       "@id" : "http://schema.org/size"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
@@ -36,9 +39,6 @@
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
-    },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "version" : {
       "@id" : "http://schema.org/version"
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

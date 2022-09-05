@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/moon-and-hill",
     "@type" : "schema:CreativeWork",
-    "description" : "Moon and Hill is a 1971 work by Gerda Frömel. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Moon and Hill is a 1971 work by Gerda Frömel. ",
     "source" : "https://imma.ie/collection/moon-and-hill/",
     "creditText" : "IMMA Collection: Heritage Gift, P.J. Carroll &amp; Co. Ltd. Art Collection, 2005",
     "image" : "spice:documentation/moon-and-hill",
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

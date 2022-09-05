@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/en-sobre-entre-dos-irrealidades",
     "@type" : "schema:CreativeWork",
-    "description" : "En, Sobre, Entre dos Irrealidades is a 1974 work by Gladys Meneses. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "En, Sobre, Entre dos Irrealidades is a 1974 work by Gladys Meneses. ",
     "source" : "https://imma.ie/collection/en-sobre-entre-dos-irrealidades/",
     "creditText" : "IMMA Collection: Donation, Smurfit: Cartón y Papel de México, 2000",
     "image" : "spice:documentation/en-sobre-entre-dos-irrealidades",
@@ -38,9 +38,6 @@
     "size" : {
       "@id" : "http://schema.org/size"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
@@ -51,11 +48,14 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

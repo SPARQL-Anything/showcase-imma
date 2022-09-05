@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/zabriskie-point-death-valley-ca",
     "@type" : "schema:CreativeWork",
-    "description" : "Zabriskie Point, Death Valley, CA is a 1995 work by Jonathan Krotinger. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Zabriskie Point, Death Valley, CA is a 1995 work by Jonathan Krotinger. ",
     "source" : "https://imma.ie/collection/zabriskie-point-death-valley-ca/",
     "creditText" : "IMMA Collection: Donation, David Kronn Collection, 2015",
     "image" : "spice:documentation/zabriskie-point-death-valley-ca",
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/steps-prague",
     "@type" : "schema:CreativeWork",
-    "description" : "Steps Prague is a 1997 work by Tuig. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Steps Prague is a 1997 work by Tuig. ",
     "source" : "https://imma.ie/collection/steps-prague/",
     "creditText" : "IMMA Collection: Donation, David Kronn Collection, 2015",
     "image" : "spice:documentation/steps-prague",
@@ -54,8 +54,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

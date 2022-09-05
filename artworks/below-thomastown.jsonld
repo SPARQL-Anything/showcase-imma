@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/below-thomastown",
     "@type" : "schema:CreativeWork",
-    "description" : "Below Thomastown is a 1965 work by Barrie Cooke. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Below Thomastown is a 1965 work by Barrie Cooke. ",
     "source" : "https://imma.ie/collection/below-thomastown/",
     "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/below-thomastown",
@@ -50,8 +50,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

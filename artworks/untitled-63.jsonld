@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/untitled-63",
     "@type" : "schema:CreativeWork",
-    "description" : "Untitled is a 1990 work by Alison Wilding. It is not currently on display in IMMA. ",
+    "description" : "Untitled is a 1990 work by Alison Wilding. ",
     "source" : "https://imma.ie/collection/untitled-63/",
     "creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1996",
     "image" : "spice:documentation/untitled-63",
@@ -42,8 +42,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

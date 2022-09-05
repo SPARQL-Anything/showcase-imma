@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/icy-tree-monroe-ct",
     "@type" : "schema:CreativeWork",
-    "description" : "Icy Tree, Monroe, CT is a 2001 work by Maureen Gallace. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Icy Tree, Monroe, CT is a 2001 work by Maureen Gallace. ",
     "source" : "https://imma.ie/collection/icy-tree-monroe-ct/",
     "creditText" : "IMMA Collection: Heritage Gift, Kerlin Gallery Collection, 2018, 2018",
     "image" : "spice:documentation/icy-tree-monroe-ct",
@@ -16,7 +16,7 @@
     "caption" : "Maureen Gallace, Icy Tree, Monroe, CT, 2001, Oil on canvas, 25.4 x 25.4 cm, Collection Irish Museum of Modern Art, Heritage Gift, Kerlin Gallery Collection, 2018, 2018 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2021/05/9125.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/9125.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -54,8 +54,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

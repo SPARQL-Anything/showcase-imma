@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/exposed-painting-white",
     "@type" : "schema:CreativeWork",
-    "description" : "Exposed Painting White is a 2000 work by Callum Innes. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Exposed Painting White is a 2000 work by Callum Innes. ",
     "source" : "https://imma.ie/collection/exposed-painting-white/",
     "creditText" : "IMMA Collection: Heritage Gift, Kerlin Gallery Collection, 2018, 2018",
     "image" : "spice:documentation/exposed-painting-white",
@@ -16,7 +16,7 @@
     "caption" : "Callum Innes, Exposed Painting White, 2000, Oil on canvas, 176.5 x 170.5 x 3.8 cm, Collection Irish Museum of Modern Art, Heritage Gift, Kerlin Gallery Collection, 2018, 2018 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2021/05/9070.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/9070.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -54,8 +54,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

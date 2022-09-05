@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/untitled-115",
     "@type" : "schema:CreativeWork",
-    "description" : "Untitled is a 1967 work by Tim Robinson. It is not currently on display in IMMA. ",
+    "description" : "Untitled is a 1967 work by Tim Robinson. ",
     "source" : "https://imma.ie/collection/untitled-115/",
     "creditText" : "IMMA Collection: Collection Irish Museum of Modern Art, Gift of the Artist, 2019",
     "image" : "spice:documentation/untitled-115",
@@ -54,8 +54,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

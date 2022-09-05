@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/lover-snakes",
     "@type" : "schema:CreativeWork",
-    "description" : "Lover Snakes is a 1995 work by Dorothy Cross. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Lover Snakes is a 1995 work by Dorothy Cross. ",
     "source" : "https://imma.ie/collection/lover-snakes/",
     "creditText" : "IMMA Collection: Heritage Gift, Kerlin Gallery Collection, 2018, 2018",
     "image" : "spice:documentation/lover-snakes",
@@ -16,7 +16,7 @@
     "caption" : "Dorothy Cross, Lover Snakes, 1995, Stuffed snakes and cast silver reliquaries containing snake hearts, 37 x 14 cm, Collection Irish Museum of Modern Art, Heritage Gift, Kerlin Gallery Collection, 2018, 2018 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2021/05/9114.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/9114.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/rasee-l-h-o-o-q",
     "@type" : "schema:CreativeWork",
-    "description" : "Rasée L.H.O.O.Q. is a 1965 work by Marcel Duchamp. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Rasée L.H.O.O.Q. is a 1965 work by Marcel Duchamp. ",
     "source" : "https://imma.ie/collection/rasee-l-h-o-o-q/",
     "creditText" : "IMMA Collection: The Novak/O'Doherty Collection at IMMA Gift, The American Ireland Fund, 2014",
     "image" : "spice:documentation/rasee-l-h-o-o-q",
@@ -54,8 +54,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

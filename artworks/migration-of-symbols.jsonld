@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/migration-of-symbols",
     "@type" : "schema:CreativeWork",
-    "description" : "Migration of Symbols is a 2014 work by Linder Sterling. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Migration of Symbols is a 2014 work by Linder Sterling. ",
     "source" : "https://imma.ie/collection/migration-of-symbols/",
     "creditText" : "IMMA Collection: IMMA Editions, Donated by the artist, 2014",
     "image" : "spice:documentation/migration-of-symbols",
@@ -17,12 +17,9 @@
     "caption" : "Linder Sterling, Migration of Symbols, 2014, Giclee printed onto Somerset 300gdm paper Colllaged rose printed onto 160gsm gloss paper and mounted onto surface, 26 x 21 cm, Collection Irish Museum of Modern Art, IMMA Editions, Donated by the artist, 2014 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2020/04/7398.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/7398.jpg"
   } ],
   "@context" : {
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "material" : {
       "@id" : "http://schema.org/material"
     },
@@ -38,6 +35,9 @@
     },
     "version" : {
       "@id" : "http://schema.org/version"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

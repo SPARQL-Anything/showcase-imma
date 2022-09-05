@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/head-of-a-naked-girl",
     "@type" : "schema:CreativeWork",
-    "description" : "Head of a Naked Girl is a 2000 work by Lucian Freud. It is not currently on display in IMMA. ",
+    "description" : "Head of a Naked Girl is a 2000 work by Lucian Freud. ",
     "source" : "https://imma.ie/collection/head-of-a-naked-girl/",
     "creditText" : "IMMA Collection: On Loan, Private Collection, ",
     "image" : "spice:documentation/head-of-a-naked-girl",
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

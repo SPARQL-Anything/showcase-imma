@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/trinity-ii",
     "@type" : "schema:CreativeWork",
-    "description" : "Trinity II is a 1995 work by Albert Irvin. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Trinity II is a 1995 work by Albert Irvin. ",
     "source" : "https://imma.ie/collection/trinity-ii/",
     "creditText" : "IMMA Collection: Donated by the artist, 1996",
     "image" : "spice:documentation/trinity-ii",
@@ -58,8 +58,8 @@
     "size" : {
       "@id" : "http://schema.org/size"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

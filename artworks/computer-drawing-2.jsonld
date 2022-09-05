@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/computer-drawing-2",
     "@type" : "schema:CreativeWork",
-    "description" : "Computer Drawing is a 1983 work by Harold Cohen. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Computer Drawing is a 1983 work by Harold Cohen. ",
     "source" : "https://imma.ie/collection/computer-drawing-2/",
     "creditText" : "IMMA Collection: Donation, Novak/O'Doherty Collection, 2015",
     "image" : "spice:documentation/computer-drawing-2",
@@ -16,7 +16,7 @@
     "caption" : "Harold Cohen, Computer Drawing, 1983, Ink on paper, 56.7 x 76.5 cm, Collection Irish Museum of Modern Art, Donation, Novak/O'Doherty Collection, 2015 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2018/11/5071.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/5071.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -54,8 +54,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

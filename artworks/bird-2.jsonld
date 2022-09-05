@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/bird-2",
     "@type" : "schema:CreativeWork",
-    "description" : "Bird is a 1945 work by Kenneth Hall. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Bird is a 1945 work by Kenneth Hall. ",
     "source" : "https://imma.ie/collection/bird-2/",
     "creditText" : "IMMA Collection: Donation, Patrick Scott, 2013",
     "image" : "spice:documentation/bird-2",
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

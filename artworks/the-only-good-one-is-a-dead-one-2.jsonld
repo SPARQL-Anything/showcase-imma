@@ -1,0 +1,63 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/the-only-good-one-is-a-dead-one-2",
+    "@type" : "schema:CreativeWork",
+    "description" : "‘The Only Good One is a Dead One’ is a double screen video projection installed in such a way that two constantly repeated sequences cannot be seen simultaneously. One is a shot from the driver’s perspective of a journey down a winding country road on the edge of the city; the other is from inside a stationary car observing the pedestrian and traffic movements at a street corner. These are accompanied by a male voice-over narrating on interior monologue that switches between the speculation of a man stalking a target whose life he has intimately observed, and those of one who fears himself to be the same object of another’s scrutiny. According to Doherty, ‘one of the most important things that I could contribute with this work to the whole discussion about sectarian violence, the nature of sectarian violence and how it victimises the population, was to propose that it was possible to imagine oneself in both the role of victim and the role of perpetrator and, I suppose, to look at their mutual dependency. The physical set up of the piece is crucial in that it directly mirrors that relationship and forces the viewer in the space to bridge that gap and move around and move between those polarities (of victim and perpetrator)’.",
+    "source" : "https://imma.ie/collection/the-only-good-one-is-a-dead-one-2/",
+    "creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1995",
+    "image" : "spice:documentation/the-only-good-one-is-a-dead-one-2",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "material" : "Video projection",
+    "hasInventory" : "L.593 LW"
+  }, {
+    "@id" : "spice:documentation/the-only-good-one-is-a-dead-one-2",
+    "@type" : "schema:ImageObject",
+    "caption" : "Willie Doherty, The Only Good One is a Dead One, 1993, Video projection, Collection Irish Museum of Modern Art, Loan, Weltkunst Foundation, 1995 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma"
+  } ],
+  "@context" : {
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

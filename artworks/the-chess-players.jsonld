@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/the-chess-players",
     "@type" : "schema:CreativeWork",
-    "description" : "The Chess Players is a 1965 work by Marcel Duchamp. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "The Chess Players is a 1965 work by Marcel Duchamp. ",
     "source" : "https://imma.ie/collection/the-chess-players/",
     "creditText" : "IMMA Collection: The Novak/O'Doherty Collection at IMMA Donation, The American Ireland Fund, 2011",
     "image" : "spice:documentation/the-chess-players",
@@ -58,8 +58,8 @@
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

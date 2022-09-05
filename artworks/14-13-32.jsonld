@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/14-13-32",
     "@type" : "schema:CreativeWork",
-    "description" : "14.13.32 is a 1991 work by Elizabeth Magill. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "14.13.32 is a 1991 work by Elizabeth Magill. ",
     "source" : "https://imma.ie/collection/14-13-32/",
     "creditText" : "IMMA Collection: Heritage Gift, Kerlin Gallery Collection, 2018, 2018",
     "image" : "spice:documentation/14-13-32",
@@ -50,8 +50,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

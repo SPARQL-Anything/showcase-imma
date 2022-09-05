@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/six-pieces-for-veronica",
     "@type" : "schema:CreativeWork",
-    "description" : "Six Pieces for Veronica is a 1990 work by Martin Mullin. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Six Pieces for Veronica is a 1990 work by Martin Mullin. ",
     "source" : "https://imma.ie/collection/six-pieces-for-veronica/",
     "creditText" : "IMMA Collection: Donated by the artist, 1991",
     "image" : "spice:documentation/six-pieces-for-veronica",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

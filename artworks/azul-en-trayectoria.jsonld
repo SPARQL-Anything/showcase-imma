@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/azul-en-trayectoria",
     "@type" : "schema:CreativeWork",
-    "description" : "Azul en Trayectoria is a 1972 work by Roberto Donís. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Azul en Trayectoria is a 1972 work by Roberto Donís. ",
     "source" : "https://imma.ie/collection/azul-en-trayectoria/",
     "creditText" : "IMMA Collection: Donation, Smurfit: Cartón y Papel de México, 2000",
     "image" : "spice:documentation/azul-en-trayectoria",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

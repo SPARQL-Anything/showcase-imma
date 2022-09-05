@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/dinner-for-one-in-babylon",
     "@type" : "schema:CreativeWork",
-    "description" : "Dinner for One in Babylon is a 1995 work by Stephen Walsh. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Dinner for One in Babylon is a 1995 work by Stephen Walsh. ",
     "source" : "https://imma.ie/collection/dinner-for-one-in-babylon/",
     "creditText" : "IMMA Collection: Purchase, 1998",
     "image" : "spice:documentation/dinner-for-one-in-babylon",
@@ -50,8 +50,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

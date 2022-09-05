@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/summertime-in-italy",
     "@type" : "schema:CreativeWork",
-    "description" : "Summertime in Italy is a 1966 work by Robert Motherwell. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Summertime in Italy is a 1966 work by Robert Motherwell. ",
     "source" : "https://imma.ie/collection/summertime-in-italy/",
     "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/summertime-in-italy",
@@ -26,14 +26,14 @@
     "version" : {
       "@id" : "http://schema.org/version"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "size" : {
       "@id" : "http://schema.org/size"
     },
     "creditText" : {
       "@id" : "http://schema.org/creditText"
-    },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

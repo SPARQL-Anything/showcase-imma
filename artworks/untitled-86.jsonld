@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/untitled-86",
     "@type" : "schema:CreativeWork",
-    "description" : "Untitled is a 1979 work by Felim Egan. It is not currently on display in IMMA. ",
+    "description" : "Untitled is a 1979 work by Felim Egan. ",
     "source" : "https://imma.ie/collection/untitled-86/",
     "creditText" : "IMMA Collection: Loan, Maire and Maurice Foley, 1999",
     "image" : "spice:documentation/untitled-86",
@@ -50,8 +50,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

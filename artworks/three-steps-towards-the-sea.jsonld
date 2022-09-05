@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/three-steps-towards-the-sea",
     "@type" : "schema:CreativeWork",
-    "description" : "Three Steps Towards the Sea is a 1985 work by Edward Allington. It is not currently on display in IMMA. ",
+    "description" : "Three Steps Towards the Sea is a 1985 work by Edward Allington. ",
     "source" : "https://imma.ie/collection/three-steps-towards-the-sea/",
     "creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1994",
     "image" : "spice:documentation/three-steps-towards-the-sea",
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

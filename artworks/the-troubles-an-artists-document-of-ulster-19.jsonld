@@ -10,14 +10,14 @@
     "material" : "Archival cibachrome",
     "size" : "27.9 x 35.6 cm",
     "version" : "Edition 1/1",
-    "hasInventory" : "IMMA.3305.19"
+    "hasInventory" : "IMMA.3305.019"
   }, {
     "@id" : "spice:documentation/the-troubles-an-artists-document-of-ulster-19",
     "@type" : "schema:ImageObject",
     "caption" : "Les Levine, The Troubles: an Artist’s Document of Ulster, 1972, Archival cibachrome, 27.9 x 35.6 cm, Collection Irish Museum of Modern Art, Donated by the artist in memory of his parents Muriel McMahon and Charles Levine, 2010 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2018/11/5663.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/5663.jpg"
   } ],
   "@context" : {
     "version" : {
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

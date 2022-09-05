@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/double-drawing-from-the-snail-chronicles",
     "@type" : "schema:CreativeWork",
-    "description" : "Double Drawing, from The Snail Chronicles is a 2004 work by Alice Maher. It is not currently on display in IMMA. ",
+    "description" : "Double Drawing, from The Snail Chronicles is a 2004 work by Alice Maher. ",
     "source" : "https://imma.ie/collection/double-drawing-from-the-snail-chronicles/",
     "creditText" : "IMMA Collection: Permanent Loan, the Contemporary Irish art Society, 2005",
     "image" : "spice:documentation/double-drawing-from-the-snail-chronicles",
@@ -17,7 +17,7 @@
     "caption" : "Alice Maher, Double Drawing, from The Snail Chronicles, 2004, Etching, 47 x 43 cm (sheet), Collection Irish Museum of Modern Art, Permanent Loan, the Contemporary Irish art Society, 2005 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2018/11/1766.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/03/1766-scaled.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -33,9 +33,6 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "material" : {
       "@id" : "http://schema.org/material"
     },
@@ -49,6 +46,9 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
@@ -58,8 +58,8 @@
     "size" : {
       "@id" : "http://schema.org/size"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

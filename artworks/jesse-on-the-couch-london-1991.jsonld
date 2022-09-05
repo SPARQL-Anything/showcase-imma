@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/jesse-on-the-couch-london-1991",
     "@type" : "schema:CreativeWork",
-    "description" : "Jesse on the couch, London, 1991 is a 1991 work by Nan Goldin. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Jesse on the couch, London, 1991 is a 1991 work by Nan Goldin. ",
     "source" : "https://imma.ie/collection/jesse-on-the-couch-london-1991/",
     "creditText" : "IMMA Collection: Donated by the aritst, 2017",
     "image" : "spice:documentation/jesse-on-the-couch-london-1991",
@@ -50,8 +50,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

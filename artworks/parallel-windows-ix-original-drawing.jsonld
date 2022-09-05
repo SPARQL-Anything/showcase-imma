@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/parallel-windows-ix-original-drawing",
     "@type" : "schema:CreativeWork",
-    "description" : "Parallel Windows IX – original drawing is a 1993 work by Eun-Mo Chung. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Parallel Windows IX – original drawing is a 1993 work by Eun-Mo Chung. ",
     "source" : "https://imma.ie/collection/parallel-windows-ix-original-drawing/",
     "creditText" : "IMMA Collection: Purchase, 1994",
     "image" : "spice:documentation/parallel-windows-ix-original-drawing",
@@ -46,8 +46,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

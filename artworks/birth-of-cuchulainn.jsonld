@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/birth-of-cuchulainn",
     "@type" : "schema:CreativeWork",
-    "description" : "Birth of Cuchulainn is a 1967 work by Edward Delaney. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Birth of Cuchulainn is a 1967 work by Edward Delaney. ",
     "source" : "https://imma.ie/collection/birth-of-cuchulainn/",
     "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/birth-of-cuchulainn",
@@ -54,8 +54,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

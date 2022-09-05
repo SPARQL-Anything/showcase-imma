@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/when-i-woke-up-in-the-morning-the-feeling-was-still-there",
     "@type" : "schema:CreativeWork",
-    "description" : "When I Woke Up in the Morning, the Feeling Was Still There is a 1992 work by Angus Fairhurst. It is not currently on display in IMMA. ",
+    "description" : "When I Woke Up in the Morning, the Feeling Was Still There is a 1992 work by Angus Fairhurst. ",
     "source" : "https://imma.ie/collection/when-i-woke-up-in-the-morning-the-feeling-was-still-there/",
     "creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1995",
     "image" : "spice:documentation/when-i-woke-up-in-the-morning-the-feeling-was-still-there",
@@ -54,8 +54,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

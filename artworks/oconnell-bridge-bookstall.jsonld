@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/oconnell-bridge-bookstall",
     "@type" : "schema:CreativeWork",
-    "description" : "O’Connell Bridge Bookstall is a 1952 work by Nevill Johnson. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "O’Connell Bridge Bookstall is a 1952 work by Nevill Johnson. ",
     "source" : "https://imma.ie/collection/oconnell-bridge-bookstall/",
     "creditText" : "IMMA Collection: Acquired with the assistance of the Friends of the National Collections of Ireland, 2010",
     "image" : "spice:documentation/oconnell-bridge-bookstall",
@@ -17,7 +17,7 @@
     "caption" : "Nevill Johnson, O’Connell Bridge Bookstall, 1952, Selenium toned gelatin silver prints, 27 x 34 cm, Collection Irish Museum of Modern Art, Acquired with the assistance of the Friends of the National Collections of Ireland, 2010 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2018/11/5356.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/5356-scaled.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -36,9 +36,6 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "size" : {
       "@id" : "http://schema.org/size"
     },
@@ -55,11 +52,14 @@
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "material" : {
       "@id" : "http://schema.org/material"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

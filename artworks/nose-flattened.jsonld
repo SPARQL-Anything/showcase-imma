@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/nose-flattened",
     "@type" : "schema:CreativeWork",
-    "description" : "Nose Flattened… is a 1993 work by Barry Flanagan. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Nose Flattened… is a 1993 work by Barry Flanagan. ",
     "source" : "https://imma.ie/collection/nose-flattened/",
     "creditText" : "IMMA Collection: Donation, Graphic Studio Dublin, 2011",
     "image" : "spice:documentation/nose-flattened",
@@ -32,9 +32,6 @@
     "material" : {
       "@id" : "http://schema.org/material"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
@@ -51,11 +48,14 @@
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "size" : {
       "@id" : "http://schema.org/size"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

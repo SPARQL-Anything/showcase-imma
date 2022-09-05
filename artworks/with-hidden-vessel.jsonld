@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/with-hidden-vessel",
     "@type" : "schema:CreativeWork",
-    "description" : "With Hidden Vessel is a 1986 work by Edward Allington. It is not currently on display in IMMA. ",
+    "description" : "With Hidden Vessel is a 1986 work by Edward Allington. ",
     "source" : "https://imma.ie/collection/with-hidden-vessel/",
     "creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1994",
     "image" : "spice:documentation/with-hidden-vessel",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

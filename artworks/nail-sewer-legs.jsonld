@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/nail-sewer-legs",
     "@type" : "schema:CreativeWork",
-    "description" : "Nail Sewer Legs is a 2006 work by Liam Gillick and Philippe Parreno. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Nail Sewer Legs is a 2006 work by Liam Gillick and Philippe Parreno. ",
     "source" : "https://imma.ie/collection/nail-sewer-legs/",
     "creditText" : "IMMA Collection: IMMA Editions, Donated by the artist, 2006",
     "image" : "spice:documentation/nail-sewer-legs",
@@ -46,8 +46,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

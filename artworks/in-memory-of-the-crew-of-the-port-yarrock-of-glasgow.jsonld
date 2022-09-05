@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/in-memory-of-the-crew-of-the-port-yarrock-of-glasgow",
     "@type" : "schema:CreativeWork",
-    "description" : "In Memory of the Crew of the Port Yarrock of Glasgow is a 1925 work by Jack Butler Yeats. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "In Memory of the Crew of the Port Yarrock of Glasgow is a 1925 work by Jack Butler Yeats. ",
     "source" : "https://imma.ie/collection/in-memory-of-the-crew-of-the-port-yarrock-of-glasgow/",
     "creditText" : "IMMA Collection: Heritage Gift from the McClelland Collection by Noel and Anne Marie Smyth, 2003",
     "image" : "spice:documentation/in-memory-of-the-crew-of-the-port-yarrock-of-glasgow",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

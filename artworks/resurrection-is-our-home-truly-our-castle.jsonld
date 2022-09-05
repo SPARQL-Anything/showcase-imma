@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/resurrection-is-our-home-truly-our-castle",
     "@type" : "schema:CreativeWork",
-    "description" : "Resurrection. Is Our Home Truly Our Castle? is a 1972 work by Les Levine. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Resurrection. Is Our Home Truly Our Castle? is a 1972 work by Les Levine. ",
     "source" : "https://imma.ie/collection/resurrection-is-our-home-truly-our-castle/",
     "creditText" : "IMMA Collection: Donated by Amy Plumb Oppenheim in honor of Dennis Oppenheim, 2018",
     "image" : "spice:documentation/resurrection-is-our-home-truly-our-castle",
@@ -10,7 +10,7 @@
     "material" : "Photograph (Fuji Crystal)",
     "size" : "25 x 33 in",
     "version" : "Edition 2/3",
-    "hasInventory" : "IMMA.4132.3"
+    "hasInventory" : "IMMA.4132.003"
   }, {
     "@id" : "spice:documentation/resurrection-is-our-home-truly-our-castle",
     "@type" : "schema:ImageObject",
@@ -29,14 +29,8 @@
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
-    "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
-    },
     "version" : {
       "@id" : "http://schema.org/version"
-    },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "material" : {
       "@id" : "http://schema.org/material"
@@ -48,14 +42,20 @@
     "size" : {
       "@id" : "http://schema.org/size"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
+    },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

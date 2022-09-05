@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/if-the-ground-should-open",
     "@type" : "schema:CreativeWork",
-    "description" : "If The Ground Should Open is a 2016 work by Jaki Irvine. It has a duration of 48 min. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "If The Ground Should Open is a 2016 work by Jaki Irvine. It has a duration of 48 min. ",
     "source" : "https://imma.ie/collection/if-the-ground-should-open/",
     "creditText" : "IMMA Collection: Purchase, 2016 - Commissioned by IMMA as part of the 1916 programme, December 2016",
     "image" : "spice:documentation/if-the-ground-should-open",
@@ -46,8 +46,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

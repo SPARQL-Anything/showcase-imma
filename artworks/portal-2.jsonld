@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/portal-2",
     "@type" : "schema:CreativeWork",
-    "description" : "Portal is a 1999 work by Ann Hamilton. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Portal is a 1999 work by Ann Hamilton. ",
     "source" : "https://imma.ie/collection/portal-2/",
     "creditText" : "IMMA Collection: Purchase, 2002",
     "image" : "spice:documentation/portal-2",
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

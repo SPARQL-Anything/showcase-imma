@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/sunset-in-the-storm-galway-ireland-2002",
     "@type" : "schema:CreativeWork",
-    "description" : "Sunset in the storm, Galway, Ireland, 2002 is a 2002 work by Nan Goldin. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Sunset in the storm, Galway, Ireland, 2002 is a 2002 work by Nan Goldin. ",
     "source" : "https://imma.ie/collection/sunset-in-the-storm-galway-ireland-2002/",
     "creditText" : "IMMA Collection: Donated by the aritst, 2017",
     "image" : "spice:documentation/sunset-in-the-storm-galway-ireland-2002",
@@ -50,8 +50,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

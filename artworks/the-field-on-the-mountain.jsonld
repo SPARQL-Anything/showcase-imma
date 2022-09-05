@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/the-field-on-the-mountain",
     "@type" : "schema:CreativeWork",
-    "description" : "The Field on the Mountain is a 1999 work by Maria Simonds-Gooding. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "The Field on the Mountain is a 1999 work by Maria Simonds-Gooding. ",
     "source" : "https://imma.ie/collection/the-field-on-the-mountain/",
     "creditText" : "IMMA Collection: Donation, Graphic Studio Dublin, 2011",
     "image" : "spice:documentation/the-field-on-the-mountain",
@@ -33,14 +33,14 @@
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "creditText" : {
       "@id" : "http://schema.org/creditText"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "material" : {
       "@id" : "http://schema.org/material"
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

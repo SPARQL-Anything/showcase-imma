@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/melt",
     "@type" : "schema:CreativeWork",
-    "description" : "Melt is a 2002 work by Kathy Prendergast. It is not currently on display in IMMA. ",
+    "description" : "Melt is a 2002 work by Kathy Prendergast. ",
     "source" : "https://imma.ie/collection/melt/",
     "creditText" : "IMMA Collection: Permanent Loan, the Contemporary Irish art Society, 2002",
     "image" : "spice:documentation/melt",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/the-ghosts-in-the-morning",
     "@type" : "schema:CreativeWork",
-    "description" : "The Ghosts in the Morning is a 2010 work by Emilia Kabakov and Ilya Kabakov. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "The Ghosts in the Morning is a 2010 work by Emilia Kabakov and Ilya Kabakov. ",
     "source" : "https://imma.ie/collection/the-ghosts-in-the-morning/",
     "creditText" : "IMMA Collection: IMMA Editions, Donated by the artist, 2009",
     "image" : "spice:documentation/the-ghosts-in-the-morning",
@@ -38,20 +38,20 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "version" : {
       "@id" : "http://schema.org/version"
     },
     "size" : {
       "@id" : "http://schema.org/size"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "material" : {
       "@id" : "http://schema.org/material"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/garden-painting",
     "@type" : "schema:CreativeWork",
-    "description" : "Garden Painting is a 1980 work by Cecily Brennan. It is not currently on display in IMMA. ",
+    "description" : "Garden Painting is a 1980 work by Cecily Brennan. ",
     "source" : "https://imma.ie/collection/garden-painting/",
     "creditText" : "IMMA Collection: Loan, Maire and Maurice Foley, 1999",
     "image" : "spice:documentation/garden-painting",
@@ -50,8 +50,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

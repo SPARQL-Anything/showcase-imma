@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/guanajuato-1810",
     "@type" : "schema:CreativeWork",
-    "description" : "Guanajuato 1810 is a 1981 work by Angel Mora Suarez. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Guanajuato 1810 is a 1981 work by Angel Mora Suarez. ",
     "source" : "https://imma.ie/collection/guanajuato-1810/",
     "creditText" : "IMMA Collection: Donation, Smurfit: Cartón y Papel de México, 2000",
     "image" : "spice:documentation/guanajuato-1810",
@@ -58,8 +58,8 @@
     "size" : {
       "@id" : "http://schema.org/size"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

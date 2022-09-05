@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/laboratory-still-life-2-state-2",
     "@type" : "schema:CreativeWork",
-    "description" : "Laboratory Still Life 2, State 2 is a 1988 work by Tony Cragg. It is not currently on display in IMMA. ",
+    "description" : "Laboratory Still Life 2, State 2 is a 1988 work by Tony Cragg. ",
     "source" : "https://imma.ie/collection/laboratory-still-life-2-state-2/",
     "creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1994",
     "image" : "spice:documentation/laboratory-still-life-2-state-2",
@@ -58,8 +58,8 @@
     "material" : {
       "@id" : "http://schema.org/material"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

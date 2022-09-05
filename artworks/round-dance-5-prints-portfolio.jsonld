@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/round-dance-5-prints-portfolio",
     "@type" : "schema:CreativeWork",
-    "description" : "Round dance (5 prints) portfolio is a 1992 work by Shirazeh Houshiary. It is not currently on display in IMMA. ",
+    "description" : "Round dance (5 prints) portfolio is a 1992 work by Shirazeh Houshiary. ",
     "source" : "https://imma.ie/collection/round-dance-5-prints-portfolio/",
     "creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1994",
     "image" : "spice:documentation/round-dance-5-prints-portfolio",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

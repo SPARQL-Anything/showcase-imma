@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/earth-shelters-i",
     "@type" : "schema:CreativeWork",
-    "description" : "Earth Shelters I is a 2007 work by Maria Simonds-Gooding. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Earth Shelters I is a 2007 work by Maria Simonds-Gooding. ",
     "source" : "https://imma.ie/collection/earth-shelters-i/",
     "creditText" : "IMMA Collection: Donation, 2014",
     "image" : "spice:documentation/earth-shelters-i",
@@ -26,6 +26,9 @@
     "size" : {
       "@id" : "http://schema.org/size"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "version" : {
       "@id" : "http://schema.org/version"
     },
@@ -46,9 +49,6 @@
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "copyrightNotice" : {
       "@id" : "http://schema.org/copyrightNotice"
     },
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/resurrection-what-should-we-believe",
     "@type" : "schema:CreativeWork",
-    "description" : "Resurrection. What Should We Believe? is a 1972 work by Les Levine. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Resurrection. What Should We Believe? is a 1972 work by Les Levine. ",
     "source" : "https://imma.ie/collection/resurrection-what-should-we-believe/",
     "creditText" : "IMMA Collection: Donated by Amy Plumb Oppenheim in honor of Dennis Oppenheim, 2018",
     "image" : "spice:documentation/resurrection-what-should-we-believe",
@@ -10,7 +10,7 @@
     "material" : "Photograph (Fuji Crystal)",
     "size" : "33 x 25 in",
     "version" : "Edition 2/3",
-    "hasInventory" : "IMMA.4132.8"
+    "hasInventory" : "IMMA.4132.008"
   }, {
     "@id" : "spice:documentation/resurrection-what-should-we-believe",
     "@type" : "schema:ImageObject",
@@ -19,12 +19,6 @@
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
-    "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
-    },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
@@ -32,8 +26,14 @@
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
+    },
     "creditText" : {
       "@id" : "http://schema.org/creditText"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
@@ -54,8 +54,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

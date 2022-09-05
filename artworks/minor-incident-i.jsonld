@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/minor-incident-i",
     "@type" : "schema:CreativeWork",
-    "description" : "Minor Incident I is a 1994 work by Willie Doherty. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Minor Incident I is a 1994 work by Willie Doherty. ",
     "source" : "https://imma.ie/collection/minor-incident-i/",
     "creditText" : "IMMA Collection: Heritage Gift, Kerlin Gallery Collection, 2018, 2018",
     "image" : "spice:documentation/minor-incident-i",
@@ -17,7 +17,7 @@
     "caption" : "Willie Doherty, Minor Incident I, 1994, cibachrome mounted on aluminium, 76 x 102 cm, Collection Irish Museum of Modern Art, Heritage Gift, Kerlin Gallery Collection, 2018, 2018 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2021/05/9067.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/9067.jpg"
   } ],
   "@context" : {
     "maintainer" : {
@@ -37,11 +37,11 @@
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "material" : {
       "@id" : "http://schema.org/material"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "creditText" : {
       "@id" : "http://schema.org/creditText"
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

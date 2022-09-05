@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/los-barqueros",
     "@type" : "schema:CreativeWork",
-    "description" : "Los Barqueros is a 1996 work by Alvaro Santiago. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Los Barqueros is a 1996 work by Alvaro Santiago. ",
     "source" : "https://imma.ie/collection/los-barqueros/",
     "creditText" : "IMMA Collection: Donation, Smurfit: Cartón y Papel de México, 2000",
     "image" : "spice:documentation/los-barqueros",
@@ -48,6 +48,9 @@
     "size" : {
       "@id" : "http://schema.org/size"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "version" : {
       "@id" : "http://schema.org/version"
     },
@@ -55,11 +58,8 @@
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

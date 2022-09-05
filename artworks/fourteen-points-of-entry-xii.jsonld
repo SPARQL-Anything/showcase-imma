@@ -2,14 +2,14 @@
   "@graph" : [ {
     "@id" : "spice:artefact/fourteen-points-of-entry-xii",
     "@type" : "schema:CreativeWork",
-    "description" : "Fourteen Points of Entry xii is a 1990 work by Samuel Walsh. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Fourteen Points of Entry xii is a 1990 work by Samuel Walsh. ",
     "source" : "https://imma.ie/collection/fourteen-points-of-entry-xii/",
     "creditText" : "IMMA Collection: Purchase, 1991",
     "image" : "spice:documentation/fourteen-points-of-entry-xii",
     "maintainer" : "https://w3id.org/spice/institute/imma",
     "material" : "Acrylic and oil on paper",
     "size" : "76 x 56 cm",
-    "hasInventory" : "IMMA.37.12"
+    "hasInventory" : "IMMA.37.012"
   }, {
     "@id" : "spice:documentation/fourteen-points-of-entry-xii",
     "@type" : "schema:ImageObject",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

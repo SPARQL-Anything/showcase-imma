@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/dog-with-altarpiece",
     "@type" : "schema:CreativeWork",
-    "description" : "Dog with Altarpiece is a 1985 work by John Kindness. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Dog with Altarpiece is a 1985 work by John Kindness. ",
     "source" : "https://imma.ie/collection/dog-with-altarpiece/",
     "creditText" : "IMMA Collection: Donated by the Artist, 1991",
     "image" : "spice:documentation/dog-with-altarpiece",
@@ -14,7 +14,7 @@
     "@id" : "spice:documentation/dog-with-altarpiece",
     "@type" : "schema:ImageObject",
     "caption" : "John Kindness, Dog with Altarpiece, 1985, Chalk on sandpaper, 64 x 64 cm, Collection Irish Museum of Modern Art, Donated by the Artist, 1991 ",
-    "copyrightNotice" : "For copyright information, please contact the IMMA Collections teamma.ie.ma.ie",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
     "url" : "https://imma.ie/wp-content/uploads/2018/11/246.jpg"
   } ],
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

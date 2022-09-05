@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/yagul-light-of-the-leaves-6",
     "@type" : "schema:CreativeWork",
-    "description" : "Yagul – Light of the Leaves is a 1999 work by Jan Hendrix. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Yagul – Light of the Leaves is a 1999 work by Jan Hendrix. ",
     "source" : "https://imma.ie/collection/yagul-light-of-the-leaves-6/",
     "creditText" : "IMMA Collection: Purchase, 1999",
     "image" : "spice:documentation/yagul-light-of-the-leaves-6",
@@ -10,14 +10,14 @@
     "material" : "Screenprint",
     "size" : "37.1 x 25.4 cm",
     "version" : "Edition 1/15",
-    "hasInventory" : "IMMA.1111.6"
+    "hasInventory" : "IMMA.1111.006"
   }, {
     "@id" : "spice:documentation/yagul-light-of-the-leaves-6",
     "@type" : "schema:ImageObject",
     "caption" : "Jan Hendrix, Yagul – Light of the Leaves, 1999, Screenprint, 37.1 x 25.4 cm, Collection Irish Museum of Modern Art, Purchase, 1999 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2018/11/759.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/759.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -32,6 +32,12 @@
     },
     "url" : {
       "@id" : "http://schema.org/url"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -49,17 +55,11 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "hasInventory" : {
-      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
-    },
     "material" : {
       "@id" : "http://schema.org/material"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

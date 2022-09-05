@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/maquette-for-dockside",
     "@type" : "schema:CreativeWork",
-    "description" : "Maquette for “Dockside” is a 1976 work by Wendy Taylor. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Maquette for “Dockside” is a 1976 work by Wendy Taylor. ",
     "source" : "https://imma.ie/collection/maquette-for-dockside/",
     "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/maquette-for-dockside",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

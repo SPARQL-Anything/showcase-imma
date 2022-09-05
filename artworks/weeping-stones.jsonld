@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/weeping-stones",
     "@type" : "schema:CreativeWork",
-    "description" : "Weeping Stones is a 2007 work by Patrick Hall. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Weeping Stones is a 2007 work by Patrick Hall. ",
     "source" : "https://imma.ie/collection/weeping-stones/",
     "creditText" : "IMMA Collection: Donation, 2008",
     "image" : "spice:documentation/weeping-stones",
@@ -17,7 +17,7 @@
     "caption" : "Patrick Hall, Weeping Stones, 2007, Pastel on paper, 13 x 14 cm, Collection Irish Museum of Modern Art, Donation, 2008 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2021/03/30.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/30.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
@@ -27,11 +27,11 @@
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
-    "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source"
-    },
     "description" : {
       "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "creditText" : {
       "@id" : "http://schema.org/creditText"
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

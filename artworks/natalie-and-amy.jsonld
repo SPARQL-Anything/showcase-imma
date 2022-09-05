@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:artefact/natalie-and-amy",
     "@type" : "schema:CreativeWork",
-    "description" : "Natalie and Amy is a 1985 work by Gene Lambert. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Natalie and Amy is a 1985 work by Gene Lambert. ",
     "source" : "https://imma.ie/collection/natalie-and-amy/",
     "creditText" : "IMMA Collection: Purchase, 1991",
     "image" : "spice:documentation/natalie-and-amy",
     "maintainer" : "https://w3id.org/spice/institute/imma",
     "material" : "Black and white photographs",
     "size" : "33 x 24 cm",
-    "hasInventory" : "IMMA.15.3"
+    "hasInventory" : "IMMA.15.003"
   }, {
     "@id" : "spice:documentation/natalie-and-amy",
     "@type" : "schema:ImageObject",
     "caption" : "Gene Lambert, Natalie and Amy, 1985, Black and white photographs, 33 x 24 cm, Collection Irish Museum of Modern Art, Purchase, 1991 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2020/02/721.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/721.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

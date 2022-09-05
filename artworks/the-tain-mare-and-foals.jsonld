@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/the-tain-mare-and-foals",
     "@type" : "schema:CreativeWork",
-    "description" : "The Táin. Mare and foals is a 1969 work by Louis le Brocquy. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "The Táin. Mare and foals is a 1969 work by Louis le Brocquy. ",
     "source" : "https://imma.ie/collection/the-tain-mare-and-foals/",
     "creditText" : "IMMA Collection: Heritage Gift by Brian Timmons, 2001",
     "image" : "spice:documentation/the-tain-mare-and-foals",
@@ -17,7 +17,7 @@
     "caption" : "Louis le Brocquy, The Táin. Mare and foals, 1969, Aubusson Tapestry, Atelier René Duché, 2000, 129 x 184 cm (each), Collection Irish Museum of Modern Art, Heritage Gift by Brian Timmons, 2001 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2019/10/152.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/152.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -39,11 +39,11 @@
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
-    "size" : {
-      "@id" : "http://schema.org/size"
-    },
     "description" : {
       "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size"
     },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
@@ -58,8 +58,8 @@
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

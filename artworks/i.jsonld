@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/i",
     "@type" : "schema:CreativeWork",
-    "description" : "I is a 1989 work by Mary Farl Powers. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "I is a 1989 work by Mary Farl Powers. ",
     "source" : "https://imma.ie/collection/i/",
     "creditText" : "IMMA Collection: Donation, Powers Family, 2009",
     "image" : "spice:documentation/i",
@@ -19,6 +19,9 @@
     "maintainer" : "https://w3id.org/spice/institute/imma"
   } ],
   "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "size" : {
       "@id" : "http://schema.org/size"
     },
@@ -31,9 +34,6 @@
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
-    },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "material" : {
       "@id" : "http://schema.org/material"
@@ -54,8 +54,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

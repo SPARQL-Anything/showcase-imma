@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/three-figures",
     "@type" : "schema:CreativeWork",
-    "description" : "Three Figures is a 1964 work by Ferenc Martyn. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Three Figures is a 1964 work by Ferenc Martyn. ",
     "source" : "https://imma.ie/collection/three-figures/",
     "creditText" : "IMMA Collection: Donated, 1989",
     "image" : "spice:documentation/three-figures",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

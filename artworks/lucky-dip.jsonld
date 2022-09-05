@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/lucky-dip",
     "@type" : "schema:CreativeWork",
-    "description" : "Lucky Dip is a 1986 work by Bill Woodrow. It is not currently on display in IMMA. ",
+    "description" : "Lucky Dip is a 1986 work by Bill Woodrow. ",
     "source" : "https://imma.ie/collection/lucky-dip/",
     "creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1994",
     "image" : "spice:documentation/lucky-dip",
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

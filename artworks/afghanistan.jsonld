@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/afghanistan",
     "@type" : "schema:CreativeWork",
-    "description" : "Afghanistan is a 2001 work by Simon Norfolk. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Afghanistan is a 2001 work by Simon Norfolk. ",
     "source" : "https://imma.ie/collection/afghanistan/",
     "creditText" : "IMMA Collection: Donation, David Kronn Collection, 2015",
     "image" : "spice:documentation/afghanistan",
@@ -16,7 +16,7 @@
     "caption" : "Simon Norfolk, Afghanistan, 2001, Chromogenic print from digital file, Sheet: 26.6 x 35.4 cm, Collection Irish Museum of Modern Art, Donation, David Kronn Collection, 2015 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2018/11/7517.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/7517.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

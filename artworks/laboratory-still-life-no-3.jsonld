@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/laboratory-still-life-no-3",
     "@type" : "schema:CreativeWork",
-    "description" : "Laboratory Still Life, No. 3 is a 1988 work by Tony Cragg. It is not currently on display in IMMA. ",
+    "description" : "Laboratory Still Life, No. 3 is a 1988 work by Tony Cragg. ",
     "source" : "https://imma.ie/collection/laboratory-still-life-no-3/",
     "creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1994",
     "image" : "spice:documentation/laboratory-still-life-no-3",
@@ -23,9 +23,6 @@
     "size" : {
       "@id" : "http://schema.org/size"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "material" : {
       "@id" : "http://schema.org/material"
     },
@@ -38,6 +35,9 @@
     },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

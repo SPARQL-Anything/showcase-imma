@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/scarp",
     "@type" : "schema:CreativeWork",
-    "description" : "Scarp is a 1981 work by Mary Farl Powers. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Scarp is a 1981 work by Mary Farl Powers. ",
     "source" : "https://imma.ie/collection/scarp/",
     "creditText" : "IMMA Collection: Donation, Powers Family, 2009",
     "image" : "spice:documentation/scarp",
@@ -54,8 +54,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

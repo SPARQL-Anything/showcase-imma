@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/portrait-of-larissa",
     "@type" : "schema:CreativeWork",
-    "description" : "Portrait of Larissa is a 1981 work by Humberto Aquino. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Portrait of Larissa is a 1981 work by Humberto Aquino. ",
     "source" : "https://imma.ie/collection/portrait-of-larissa/",
     "creditText" : "IMMA Collection: Donation, Smurfit: Cartón y Papel de México, 2000",
     "image" : "spice:documentation/portrait-of-larissa",
@@ -22,9 +22,6 @@
   "@context" : {
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
-    },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
@@ -49,6 +46,9 @@
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "copyrightNotice" : {
       "@id" : "http://schema.org/copyrightNotice"
     },
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

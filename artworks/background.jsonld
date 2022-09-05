@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/background",
     "@type" : "schema:CreativeWork",
-    "description" : "Background is a 1991 work by James Coleman. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Background is a 1991 work by James Coleman. ",
     "source" : "https://imma.ie/collection/background/",
     "creditText" : "IMMA Collection: Purchase, Heritage Fund, 2004",
     "image" : "spice:documentation/background",
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

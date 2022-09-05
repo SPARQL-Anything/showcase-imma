@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/master-nanyos-evening-shadow",
     "@type" : "schema:CreativeWork",
-    "description" : "Master Nanyo’s Evening Shadow is a 2006 work by João Penalva. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Master Nanyo’s Evening Shadow is a 2006 work by João Penalva. ",
     "source" : "https://imma.ie/collection/master-nanyos-evening-shadow/",
     "creditText" : "IMMA Collection: IMMA Editions, Donated by the artist, 2006",
     "image" : "spice:documentation/master-nanyos-evening-shadow",
@@ -20,11 +20,11 @@
     "url" : "https://imma.ie/wp-content/uploads/2018/11/2248.jpg"
   } ],
   "@context" : {
-    "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source"
-    },
     "description" : {
       "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "creditText" : {
       "@id" : "http://schema.org/creditText"
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/rock-drawings-2",
     "@type" : "schema:CreativeWork",
-    "description" : "Rock Drawings is a 1994 work by Richard Long. It is not currently on display in IMMA. ",
+    "description" : "Rock Drawings is a 1994 work by Richard Long. ",
     "source" : "https://imma.ie/collection/rock-drawings-2/",
     "creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1994",
     "image" : "spice:documentation/rock-drawings-2",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

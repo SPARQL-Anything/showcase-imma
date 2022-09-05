@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/la-danse-de-la-fleur",
     "@type" : "schema:CreativeWork",
-    "description" : "La Danse de la Fleur is a 1977 work by Gesner Armand. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "La Danse de la Fleur is a 1977 work by Gesner Armand. ",
     "source" : "https://imma.ie/collection/la-danse-de-la-fleur/",
     "creditText" : "IMMA Collection: Donation, Smurfit: Cartón y Papel de México, 2000",
     "image" : "spice:documentation/la-danse-de-la-fleur",
@@ -54,8 +54,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,14 +2,14 @@
   "@graph" : [ {
     "@id" : "spice:artefact/loss-memory-wooden-spoon-and-spatula",
     "@type" : "schema:CreativeWork",
-    "description" : "Loss &amp; Memory – Wooden Spoon And Spatula is a 2002 work by Amelia Stein. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Loss &amp; Memory – Wooden Spoon And Spatula is a 2002 work by Amelia Stein. ",
     "source" : "https://imma.ie/collection/loss-memory-wooden-spoon-and-spatula/",
     "creditText" : "IMMA Collection: Donation, in memory of Mona and Mendel Stein, 2004",
     "image" : "spice:documentation/loss-memory-wooden-spoon-and-spatula",
     "maintainer" : "https://w3id.org/spice/institute/imma",
     "material" : "Photograph",
     "size" : "25 x 25 cm",
-    "hasInventory" : "IMMA.1784.6"
+    "hasInventory" : "IMMA.1784.006"
   }, {
     "@id" : "spice:documentation/loss-memory-wooden-spoon-and-spatula",
     "@type" : "schema:ImageObject",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

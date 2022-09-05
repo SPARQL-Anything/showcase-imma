@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/all-hawaii-entrees-lunar-reggae",
     "@type" : "schema:CreativeWork",
-    "description" : "All Hawaii Entrees / Lunar Reggae is a 2006 work by Philippe Parreno. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "All Hawaii Entrees / Lunar Reggae is a 2006 work by Philippe Parreno. ",
     "source" : "https://imma.ie/collection/all-hawaii-entrees-lunar-reggae/",
     "creditText" : "IMMA Collection: Donation, 2007",
     "image" : "spice:documentation/all-hawaii-entrees-lunar-reggae",
@@ -50,8 +50,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

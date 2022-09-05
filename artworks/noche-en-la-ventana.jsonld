@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/noche-en-la-ventana",
     "@type" : "schema:CreativeWork",
-    "description" : "Noche en la Ventana is a 1978 work by Miquel Vilá. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Noche en la Ventana is a 1978 work by Miquel Vilá. ",
     "source" : "https://imma.ie/collection/noche-en-la-ventana/",
     "creditText" : "IMMA Collection: Donation, Smurfit: Cartón y Papel de México, 2000",
     "image" : "spice:documentation/noche-en-la-ventana",
@@ -33,9 +33,6 @@
     "version" : {
       "@id" : "http://schema.org/version"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "material" : {
       "@id" : "http://schema.org/material"
     },
@@ -48,14 +45,17 @@
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "copyrightNotice" : {
       "@id" : "http://schema.org/copyrightNotice"
     },
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

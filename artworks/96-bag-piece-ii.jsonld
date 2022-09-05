@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/96-bag-piece-ii",
     "@type" : "schema:CreativeWork",
-    "description" : "96 Bag Piece II is a 1980 work by Helen Comerford. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "96 Bag Piece II is a 1980 work by Helen Comerford. ",
     "source" : "https://imma.ie/collection/96-bag-piece-ii/",
     "creditText" : "IMMA Collection: Heritage Gift by Bank of Ireland, 1999",
     "image" : "spice:documentation/96-bag-piece-ii",
@@ -46,8 +46,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

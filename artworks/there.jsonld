@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/there",
     "@type" : "schema:CreativeWork",
-    "description" : "There is a 2010 work by Anne Tallentire. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "There is a 2010 work by Anne Tallentire. ",
     "source" : "https://imma.ie/collection/there/",
     "creditText" : "IMMA Collection: IMMA Editions, Donated by the artist, 2010",
     "image" : "spice:documentation/there",
@@ -36,11 +36,11 @@
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
-    "size" : {
-      "@id" : "http://schema.org/size"
-    },
     "description" : {
       "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size"
     },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/monochrome-ribbon",
     "@type" : "schema:CreativeWork",
-    "description" : "Monochrome Ribbon is a 1977 work by Mary Farl Powers. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Monochrome Ribbon is a 1977 work by Mary Farl Powers. ",
     "source" : "https://imma.ie/collection/monochrome-ribbon/",
     "creditText" : "IMMA Collection: Donation, Powers Family, 2009",
     "image" : "spice:documentation/monochrome-ribbon",
@@ -32,6 +32,9 @@
     "size" : {
       "@id" : "http://schema.org/size"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
@@ -45,17 +48,14 @@
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "material" : {
       "@id" : "http://schema.org/material"
     },
     "version" : {
       "@id" : "http://schema.org/version"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

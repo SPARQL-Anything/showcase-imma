@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/the-testament-of-cresseid",
     "@type" : "schema:CreativeWork",
-    "description" : "The Testament of Cresseid is a 2004 work by Hughie O'Donoghue and Seamus Heaney. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "The Testament of Cresseid is a 2004 work by Hughie O'Donoghue and Seamus Heaney. ",
     "source" : "https://imma.ie/collection/the-testament-of-cresseid/",
     "creditText" : "IMMA Collection: Donation, Hughie O' Donoghue, 2005",
     "image" : "spice:documentation/the-testament-of-cresseid",
@@ -40,14 +40,14 @@
     "size" : {
       "@id" : "http://schema.org/size"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
-    "schema" : "http://schema.org/",
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/untitled-25",
     "@type" : "schema:CreativeWork",
-    "description" : "Untitled is a 1999 work by John Graham. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Untitled is a 1999 work by John Graham. ",
     "source" : "https://imma.ie/collection/untitled-25/",
     "creditText" : "IMMA Collection: Purchase, 2002",
     "image" : "spice:documentation/untitled-25",
@@ -17,7 +17,7 @@
     "caption" : "John Graham, Untitled, 1999, Carborundum print, 67.5 x 67.5 cm, Collection Irish Museum of Modern Art, Purchase, 2002 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2018/11/1507.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/1507.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -46,11 +46,11 @@
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
-    "version" : {
-      "@id" : "http://schema.org/version"
-    },
     "description" : {
       "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "version" : {
+      "@id" : "http://schema.org/version"
     },
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
@@ -58,8 +58,8 @@
     "size" : {
       "@id" : "http://schema.org/size"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

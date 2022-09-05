@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/stephens-green",
     "@type" : "schema:CreativeWork",
-    "description" : "Stephen’s Green is a 1935 work by Nick Nicholls. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Stephen’s Green is a 1935 work by Nick Nicholls. ",
     "source" : "https://imma.ie/collection/stephens-green/",
     "creditText" : "IMMA Collection: Donation, Patrick Scott, 2013",
     "image" : "spice:documentation/stephens-green",
@@ -50,8 +50,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

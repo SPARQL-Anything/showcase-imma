@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:artefact/unknown-3",
     "@type" : "schema:CreativeWork",
-    "description" : "Unknown 3 is a 1985 work by Gene Lambert. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Unknown 3 is a 1985 work by Gene Lambert. ",
     "source" : "https://imma.ie/collection/unknown-3/",
     "creditText" : "IMMA Collection: Purchase, 1991",
     "image" : "spice:documentation/unknown-3",
     "maintainer" : "https://w3id.org/spice/institute/imma",
     "material" : "Black and white photographs",
     "size" : "33 x 24 cm",
-    "hasInventory" : "IMMA.15.23"
+    "hasInventory" : "IMMA.15.023"
   }, {
     "@id" : "spice:documentation/unknown-3",
     "@type" : "schema:ImageObject",
     "caption" : "Gene Lambert, Unknown 3, 1985, Black and white photographs, 33 x 24 cm, Collection Irish Museum of Modern Art, Purchase, 1991 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2020/02/741.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/741.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

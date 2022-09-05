@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/stills-explosion",
     "@type" : "schema:CreativeWork",
-    "description" : "Stills. . . Explosion is a 1983 work by Boyd &amp; Evans. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Stills. . . Explosion is a 1983 work by Boyd &amp; Evans. ",
     "source" : "https://imma.ie/collection/stills-explosion/",
     "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/stills-explosion",
@@ -16,7 +16,7 @@
     "caption" : "Boyd &amp; Evans, Stills. . . Explosion, 1983, Oil on canvas, 17.3 x 23 cm, Collection Irish Museum of Modern Art, Gordon Lambert Trust, 1992 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2021/03/814.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/814.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

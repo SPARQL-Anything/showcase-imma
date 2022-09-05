@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/reflection-with-painting",
     "@type" : "schema:CreativeWork",
-    "description" : "Reflection with Painting is a 1994 work by Nick Miller. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Reflection with Painting is a 1994 work by Nick Miller. ",
     "source" : "https://imma.ie/collection/reflection-with-painting/",
     "creditText" : "IMMA Collection: Donation, Maire and Maurice Foley, 2000",
     "image" : "spice:documentation/reflection-with-painting",
@@ -16,7 +16,7 @@
     "caption" : "Nick Miller, Reflection with Painting, 1994, Oil on linen, 122 x 137 cm, Collection Irish Museum of Modern Art, Donation, Maire and Maurice Foley, 2000 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2018/11/489.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/489.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

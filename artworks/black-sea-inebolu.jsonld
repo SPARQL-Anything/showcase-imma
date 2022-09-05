@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/black-sea-inebolu",
     "@type" : "schema:CreativeWork",
-    "description" : "Black Sea, Inebolu is a 1991 work by Hiroshi Sugimoto. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Black Sea, Inebolu is a 1991 work by Hiroshi Sugimoto. ",
     "source" : "https://imma.ie/collection/black-sea-inebolu/",
     "creditText" : "IMMA Collection: Heritage Gift, Kerlin Gallery Collection, 2018, 2018",
     "image" : "spice:documentation/black-sea-inebolu",
@@ -17,7 +17,7 @@
     "caption" : "Hiroshi Sugimoto, Black Sea, Inebolu, 1991, black and white photograph, Framed: 65.7 x 83.5 x 3.4 cm, Collection Irish Museum of Modern Art, Heritage Gift, Kerlin Gallery Collection, 2018, 2018 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2021/05/9099.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/9099.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
@@ -33,14 +33,14 @@
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "version" : {
       "@id" : "http://schema.org/version"
-    },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

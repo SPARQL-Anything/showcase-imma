@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/a-languid-floating-flower",
     "@type" : "schema:CreativeWork",
-    "description" : "A Languid Floating Flower is a 2004 work by Charles Cullen. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "A Languid Floating Flower is a 2004 work by Charles Cullen. ",
     "source" : "https://imma.ie/collection/a-languid-floating-flower/",
     "creditText" : "IMMA Collection: Donation, Graphic Studio Dublin, 2011",
     "image" : "spice:documentation/a-languid-floating-flower",
@@ -29,6 +29,9 @@
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "material" : {
       "@id" : "http://schema.org/material"
     },
@@ -48,14 +51,11 @@
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "size" : {
       "@id" : "http://schema.org/size"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

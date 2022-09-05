@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/magnificent-seven",
     "@type" : "schema:CreativeWork",
-    "description" : "Magnificent Seven is a 1997 work by Ellen Gallagher. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Magnificent Seven is a 1997 work by Ellen Gallagher. ",
     "source" : "https://imma.ie/collection/magnificent-seven/",
     "creditText" : "IMMA Collection: Purchase, 1997",
     "image" : "spice:documentation/magnificent-seven",
@@ -16,7 +16,7 @@
     "caption" : "Ellen Gallagher, Magnificent Seven, 1997, Ink and paper on canvas, 213 x 183 cm, Collection Irish Museum of Modern Art, Purchase, 1997 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2018/11/686.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/686.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -54,8 +54,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

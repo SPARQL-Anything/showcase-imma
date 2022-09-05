@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/terrain",
     "@type" : "schema:CreativeWork",
-    "description" : "Terrain is a 1989 work by Michael Coleman. It is not currently on display in IMMA. ",
+    "description" : "Terrain is a 1989 work by Michael Coleman. ",
     "source" : "https://imma.ie/collection/terrain/",
     "creditText" : "IMMA Collection: Loan, Maire and Maurice Foley, 1999",
     "image" : "spice:documentation/terrain",
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

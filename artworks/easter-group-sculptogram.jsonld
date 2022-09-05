@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/easter-group-sculptogram",
     "@type" : "schema:CreativeWork",
-    "description" : "Easter Group (Sculptogram) is a 1976 work by Adrian Hall. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Easter Group (Sculptogram) is a 1976 work by Adrian Hall. ",
     "source" : "https://imma.ie/collection/easter-group-sculptogram/",
     "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/easter-group-sculptogram",
@@ -54,8 +54,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

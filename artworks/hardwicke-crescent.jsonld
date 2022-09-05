@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/hardwicke-crescent",
     "@type" : "schema:CreativeWork",
-    "description" : "Hardwicke Crescent is a 1952 work by Nevill Johnson. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Hardwicke Crescent is a 1952 work by Nevill Johnson. ",
     "source" : "https://imma.ie/collection/hardwicke-crescent/",
     "creditText" : "IMMA Collection: Acquired with the assistance of the Friends of the National Collections of Ireland, 2010",
     "image" : "spice:documentation/hardwicke-crescent",
@@ -17,7 +17,7 @@
     "caption" : "Nevill Johnson, Hardwicke Crescent, 1952, Selenium toned gelatin silver prints, 27 x 34 cm, Collection Irish Museum of Modern Art, Acquired with the assistance of the Friends of the National Collections of Ireland, 2010 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2018/11/5352.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/5352-scaled.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -42,9 +42,6 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "version" : {
       "@id" : "http://schema.org/version"
     },
@@ -58,8 +55,11 @@
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
-    "schema" : "http://schema.org/",
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

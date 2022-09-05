@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/chronicle",
     "@type" : "schema:CreativeWork",
-    "description" : "Chronicle is a 1995 work by Fionnuala Ní Chiosain. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Chronicle is a 1995 work by Fionnuala Ní Chiosain. ",
     "source" : "https://imma.ie/collection/chronicle/",
     "creditText" : "IMMA Collection: Donation, Maire and Maurice Foley, 2000",
     "image" : "spice:documentation/chronicle",
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/head-of-an-irishman-2",
     "@type" : "schema:CreativeWork",
-    "description" : "Head of an Irishman is a 1999 work by Lucian Freud. It is not currently on display in IMMA. ",
+    "description" : "Head of an Irishman is a 1999 work by Lucian Freud. ",
     "source" : "https://imma.ie/collection/head-of-an-irishman-2/",
     "creditText" : "IMMA Collection: On Loan, Private Collection, ",
     "image" : "spice:documentation/head-of-an-irishman-2",
@@ -20,6 +20,9 @@
     "url" : "https://imma.ie/wp-content/uploads/2020/08/7594.jpg"
   } ],
   "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
@@ -43,9 +46,6 @@
     "size" : {
       "@id" : "http://schema.org/size"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

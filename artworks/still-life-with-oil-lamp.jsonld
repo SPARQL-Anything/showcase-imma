@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/still-life-with-oil-lamp",
     "@type" : "schema:CreativeWork",
-    "description" : "Still Life with Oil Lamp is a 1969 work by George Campbell. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Still Life with Oil Lamp is a 1969 work by George Campbell. ",
     "source" : "https://imma.ie/collection/still-life-with-oil-lamp/",
     "creditText" : "IMMA Collection: Heritage Gift by the Bank of Ireland from the Bank of Ireland Collection, 2008",
     "image" : "spice:documentation/still-life-with-oil-lamp",
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

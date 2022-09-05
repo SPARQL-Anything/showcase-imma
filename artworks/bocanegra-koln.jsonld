@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/bocanegra-koln",
     "@type" : "schema:CreativeWork",
-    "description" : "Bocanegra Köln is a 2004 work by Juan Uslé. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Bocanegra Köln is a 2004 work by Juan Uslé. ",
     "source" : "https://imma.ie/collection/bocanegra-koln/",
     "creditText" : "IMMA Collection: IMMA Editions, Donated by the artist, 2004",
     "image" : "spice:documentation/bocanegra-koln",
@@ -39,12 +39,12 @@
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "size" : {
       "@id" : "http://schema.org/size"
@@ -58,8 +58,8 @@
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

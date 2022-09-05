@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/undoing-of-the-knot",
     "@type" : "schema:CreativeWork",
-    "description" : "Undoing of the Knot is a 1994 work by Shirazeh Houshiary. It is not currently on display in IMMA. ",
+    "description" : "Undoing of the Knot is a 1994 work by Shirazeh Houshiary. ",
     "source" : "https://imma.ie/collection/undoing-of-the-knot/",
     "creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1996",
     "image" : "spice:documentation/undoing-of-the-knot",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

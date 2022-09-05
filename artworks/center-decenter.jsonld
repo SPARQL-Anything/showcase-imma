@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/center-decenter",
     "@type" : "schema:CreativeWork",
-    "description" : "Center Decenter is a 2016 work by Brian Eno. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Center Decenter is a 2016 work by Brian Eno. ",
     "source" : "https://imma.ie/collection/center-decenter/",
     "creditText" : "IMMA Collection: Donation, 2016",
     "image" : "spice:documentation/center-decenter",
@@ -36,6 +36,9 @@
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "size" : {
       "@id" : "http://schema.org/size"
     },
@@ -49,17 +52,14 @@
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "version" : {
       "@id" : "http://schema.org/version"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

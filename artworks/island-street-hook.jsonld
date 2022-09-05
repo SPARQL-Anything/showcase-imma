@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/island-street-hook",
     "@type" : "schema:CreativeWork",
-    "description" : "Island Street, Hook is a 1952 work by Nevill Johnson. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Island Street, Hook is a 1952 work by Nevill Johnson. ",
     "source" : "https://imma.ie/collection/island-street-hook/",
     "creditText" : "IMMA Collection: Acquired with the assistance of the Friends of the National Collections of Ireland, 2010",
     "image" : "spice:documentation/island-street-hook",
@@ -17,7 +17,7 @@
     "caption" : "Nevill Johnson, Island Street, Hook, 1952, Selenium toned gelatin silver prints, 34 x 27 cm, Collection Irish Museum of Modern Art, Acquired with the assistance of the Friends of the National Collections of Ireland, 2010 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2018/11/4580.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/4580-scaled.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -33,6 +33,9 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "version" : {
       "@id" : "http://schema.org/version"
     },
@@ -41,9 +44,6 @@
     },
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
-    },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "material" : {
       "@id" : "http://schema.org/material"
@@ -58,8 +58,8 @@
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

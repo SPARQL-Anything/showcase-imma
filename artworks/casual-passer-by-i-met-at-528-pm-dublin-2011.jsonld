@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/casual-passer-by-i-met-at-528-pm-dublin-2011",
     "@type" : "schema:CreativeWork",
-    "description" : "Casual Passer-by I met at 5:28 PM, Dublin 2011 is a 2011 work by Braco Dimitrijevic. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Casual Passer-by I met at 5:28 PM, Dublin 2011 is a 2011 work by Braco Dimitrijevic. ",
     "source" : "https://imma.ie/collection/casual-passer-by-i-met-at-528-pm-dublin-2011/",
     "creditText" : "IMMA Collection: Donation, In memory of Barry Flanagan, 2011",
     "image" : "spice:documentation/casual-passer-by-i-met-at-528-pm-dublin-2011",
@@ -46,8 +46,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

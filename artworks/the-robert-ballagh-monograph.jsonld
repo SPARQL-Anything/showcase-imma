@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:artefact/the-robert-ballagh-monograph",
     "@type" : "schema:CreativeWork",
-    "description" : "The Robert Ballagh Monograph is a 2010 work by Robert Ballagh. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "The Robert Ballagh Monograph is a 2010 work by Robert Ballagh. ",
     "source" : "https://imma.ie/collection/the-robert-ballagh-monograph/",
     "creditText" : "IMMA Collection: Gift, 2010",
     "image" : "spice:documentation/the-robert-ballagh-monograph",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "material" : "Limited Edition Monograph with 24 original Giclee prints, archival inks on acid free museum quality paper with each print individually embossed with the artist's own monogram. Hand made solander case. It is protected in a custom made canvas slip which is embroidered with the artist monogram",
+    "material" : "Limited Edition Monograph with 24 original Giclee prints, archival inks on acid free museum quality paper with each print individually embossed with the artist's own monogram. Hand made solander case. It is protected in a custom made canvas slip which is",
     "version" : "Edition 179/350",
     "hasInventory" : "IMMA.3294"
   }, {
     "@id" : "spice:documentation/the-robert-ballagh-monograph",
     "@type" : "schema:ImageObject",
-    "caption" : "Robert Ballagh, The Robert Ballagh Monograph, 2010, Limited Edition Monograph with 24 original Giclee prints, archival inks on acid free museum quality paper with each print individually embossed with the artist's own monogram. Hand made solander case. It is protected in a custom made canvas slip which is embroidered with the artist monogram, Collection Irish Museum of Modern Art, Gift, 2010 ",
+    "caption" : "Robert Ballagh, The Robert Ballagh Monograph, 2010, Limited Edition Monograph with 24 original Giclee prints, archival inks on acid free museum quality paper with each print individually embossed with the artist's own monogram. Hand made solander case. It is protected in a custom made canvas slip which is, Collection Irish Museum of Modern Art, Gift, 2010 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2018/11/5101.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/5101.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -54,8 +54,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

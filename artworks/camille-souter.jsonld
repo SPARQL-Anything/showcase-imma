@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/camille-souter",
     "@type" : "schema:CreativeWork",
-    "description" : "Camille Souter is a 1990 work by Muiris Moynihan. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Camille Souter is a 1990 work by Muiris Moynihan. ",
     "source" : "https://imma.ie/collection/camille-souter/",
     "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/camille-souter",
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

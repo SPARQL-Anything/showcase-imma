@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/ten-toes-towards-the-rainbow-portfolio-containing-9-works",
     "@type" : "schema:CreativeWork",
-    "description" : "Ten Toes Towards the Rainbow (Portfolio containing 9 works) is a 1993 work by Hamish Fulton. It is not currently on display in IMMA. ",
+    "description" : "Ten Toes Towards the Rainbow (Portfolio containing 9 works) is a 1993 work by Hamish Fulton. ",
     "source" : "https://imma.ie/collection/ten-toes-towards-the-rainbow-portfolio-containing-9-works/",
     "creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1994",
     "image" : "spice:documentation/ten-toes-towards-the-rainbow-portfolio-containing-9-works",
@@ -50,8 +50,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

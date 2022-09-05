@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/sunday-morning-burnley-lancashire-england",
     "@type" : "schema:CreativeWork",
-    "description" : "Sunday Morning, Burnley, Lancashire, England is a 1984 work by Michael Kenna. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Sunday Morning, Burnley, Lancashire, England is a 1984 work by Michael Kenna. ",
     "source" : "https://imma.ie/collection/sunday-morning-burnley-lancashire-england/",
     "creditText" : "IMMA Collection: Donation, David Kronn Collection, 2015",
     "image" : "spice:documentation/sunday-morning-burnley-lancashire-england",
@@ -58,8 +58,8 @@
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

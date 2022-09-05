@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/botanical-gardens",
     "@type" : "schema:CreativeWork",
-    "description" : "Botanical Gardens is a 1994 work by Peter Hutchinson. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Botanical Gardens is a 1994 work by Peter Hutchinson. ",
     "source" : "https://imma.ie/collection/botanical-gardens/",
     "creditText" : "IMMA Collection: Donation Novak/O'Doherty Collection, via American Ireland Fund, 2014, 2014",
     "image" : "spice:documentation/botanical-gardens",
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

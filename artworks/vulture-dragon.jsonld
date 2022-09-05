@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/vulture-dragon",
     "@type" : "schema:CreativeWork",
-    "description" : "Vulture (Dragon) is a 2010 work by Leonora Carrington. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Vulture (Dragon) is a 2010 work by Leonora Carrington. ",
     "source" : "https://imma.ie/collection/vulture-dragon/",
     "creditText" : "IMMA Collection: Diplomatic gift of the Federal Government of Mexico, 2011",
     "image" : "spice:documentation/vulture-dragon",
@@ -39,6 +39,9 @@
     "version" : {
       "@id" : "http://schema.org/version"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
@@ -49,17 +52,14 @@
     "size" : {
       "@id" : "http://schema.org/size"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "material" : {
       "@id" : "http://schema.org/material"
     },
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

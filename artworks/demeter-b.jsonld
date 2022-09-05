@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/demeter-b",
     "@type" : "schema:CreativeWork",
-    "description" : "Demeter B is a 2001 work by Noel Sheridan. It is not currently on display in IMMA. It is currently out on loan. It is part of the IMMA Permanent Collection. ",
+    "description" : "Demeter B is a 2001 work by Noel Sheridan. ",
     "source" : "https://imma.ie/collection/demeter-b/",
     "creditText" : "IMMA Collection: Heritage Gift, 2002",
     "image" : "spice:documentation/demeter-b",
@@ -16,7 +16,7 @@
     "caption" : "Noel Sheridan, Demeter B, 2001, Photo on canvas, 38.1 x 53.3 cm, Collection Irish Museum of Modern Art, Heritage Gift, 2002 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2021/09/3618.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/3618.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

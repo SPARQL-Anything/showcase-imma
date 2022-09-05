@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/robert-towne",
     "@type" : "schema:CreativeWork",
-    "description" : "Robert Towne is a 2006 work by Sarah Morris. It has a duration of 34min.26 sec.. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Robert Towne is a 2006 work by Sarah Morris. It has a duration of 34min.26 sec.. ",
     "source" : "https://imma.ie/collection/robert-towne/",
     "creditText" : "IMMA Collection: Purchase, 2007",
     "image" : "spice:documentation/robert-towne",
@@ -15,7 +15,7 @@
     "caption" : "Sarah Morris, Robert Towne, 2006, 35mm film transferred to video, Duration: 34min.26 sec., Collection Irish Museum of Modern Art, Purchase, 2007 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2018/11/75.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/75.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -50,8 +50,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

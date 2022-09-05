@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/arvores",
     "@type" : "schema:CreativeWork",
-    "description" : "Arvores is a 1977 work by Roberto De Lamonica. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Arvores is a 1977 work by Roberto De Lamonica. ",
     "source" : "https://imma.ie/collection/arvores/",
     "creditText" : "IMMA Collection: Donation, Smurfit: Cartón y Papel de México, 2000",
     "image" : "spice:documentation/arvores",
@@ -39,14 +39,14 @@
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "creditText" : {
       "@id" : "http://schema.org/creditText"
-    },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "copyrightNotice" : {
       "@id" : "http://schema.org/copyrightNotice"
@@ -54,8 +54,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

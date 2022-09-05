@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/untitled-no-stomach-for-the-battle-of-love-hate",
     "@type" : "schema:CreativeWork",
-    "description" : "Untitled No Stomach for the Battle of Love &amp; Hate is a 1986 work by Clifford Rainey. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Untitled No Stomach for the Battle of Love &amp; Hate is a 1986 work by Clifford Rainey. ",
     "source" : "https://imma.ie/collection/untitled-no-stomach-for-the-battle-of-love-hate/",
     "creditText" : "IMMA Collection: Donated by the Friends of The National Collections of Ireland, 1991",
     "image" : "spice:documentation/untitled-no-stomach-for-the-battle-of-love-hate",
@@ -39,6 +39,9 @@
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "version" : {
       "@id" : "http://schema.org/version"
     },
@@ -55,11 +58,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

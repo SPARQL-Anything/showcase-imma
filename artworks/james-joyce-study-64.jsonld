@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/james-joyce-study-64",
     "@type" : "schema:CreativeWork",
-    "description" : "James Joyce, Study 64 is a 1977 work by Louis le Brocquy. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "James Joyce, Study 64 is a 1977 work by Louis le Brocquy. ",
     "source" : "https://imma.ie/collection/james-joyce-study-64/",
     "creditText" : "IMMA Collection: Heritage Gift, P.J. Carroll &amp; Co. Ltd. Art Collection, 2005",
     "image" : "spice:documentation/james-joyce-study-64",
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

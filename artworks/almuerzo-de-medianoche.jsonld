@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/almuerzo-de-medianoche",
     "@type" : "schema:CreativeWork",
-    "description" : "Almuerzo de Medianoche is a 1976 work by Juan Manuel Lugo. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Almuerzo de Medianoche is a 1976 work by Juan Manuel Lugo. ",
     "source" : "https://imma.ie/collection/almuerzo-de-medianoche/",
     "creditText" : "IMMA Collection: Donation, Smurfit: Cartón y Papel de México, 2000",
     "image" : "spice:documentation/almuerzo-de-medianoche",
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

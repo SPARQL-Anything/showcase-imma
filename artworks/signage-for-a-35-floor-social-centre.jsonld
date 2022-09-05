@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/signage-for-a-35-floor-social-centre",
     "@type" : "schema:CreativeWork",
-    "description" : "Signage for a 35 Floor Social Centre is a 2006 work by Liam Gillick. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Signage for a 35 Floor Social Centre is a 2006 work by Liam Gillick. ",
     "source" : "https://imma.ie/collection/signage-for-a-35-floor-social-centre/",
     "creditText" : "IMMA Collection: Donation, by the artist, 2007",
     "image" : "spice:documentation/signage-for-a-35-floor-social-centre",
@@ -15,7 +15,7 @@
     "caption" : "Liam Gillick, Signage for a 35 Floor Social Centre, 2006, Aluminium, foam ex, stainless steel, Collection Irish Museum of Modern Art, Donation, by the artist, 2007 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2021/01/343.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/343.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -50,8 +50,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

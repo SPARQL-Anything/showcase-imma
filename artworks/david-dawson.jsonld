@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/david-dawson",
     "@type" : "schema:CreativeWork",
-    "description" : "David Dawson is a 1998 work by Lucian Freud. It is not currently on display in IMMA. ",
+    "description" : "David Dawson is a 1998 work by Lucian Freud. ",
     "source" : "https://imma.ie/collection/david-dawson/",
     "creditText" : "IMMA Collection: On Loan, Private Collection, ",
     "image" : "spice:documentation/david-dawson",
@@ -33,11 +33,11 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "source" : {
-      "@id" : "http://purl.org/dc/elements/1.1/source"
-    },
     "description" : {
       "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -58,8 +58,8 @@
     "size" : {
       "@id" : "http://schema.org/size"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

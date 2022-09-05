@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/monte-cassino-1944-monastery",
     "@type" : "schema:CreativeWork",
-    "description" : "Monte Cassino 1944 Monastery is a 2004 work by Bart Michiels. It is not currently on display in IMMA. It is currently out on loan. It is part of the IMMA Permanent Collection. ",
+    "description" : "Monte Cassino 1944 Monastery is a 2004 work by Bart Michiels. ",
     "source" : "https://imma.ie/collection/monte-cassino-1944-monastery/",
     "creditText" : "IMMA Collection: Donation, David Kronn Collection, 2015",
     "image" : "spice:documentation/monte-cassino-1944-monastery",
@@ -54,8 +54,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

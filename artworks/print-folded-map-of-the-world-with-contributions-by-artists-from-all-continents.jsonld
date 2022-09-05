@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/print-folded-map-of-the-world-with-contributions-by-artists-from-all-continents",
     "@type" : "schema:CreativeWork",
-    "description" : "Print (folded map of the world with Contributions by artists from all continents) is a 1965 work by Mieko Shiomi. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Print (folded map of the world with Contributions by artists from all continents) is a 1965 work by Mieko Shiomi. ",
     "source" : "https://imma.ie/collection/print-folded-map-of-the-world-with-contributions-by-artists-from-all-continents/",
     "creditText" : "IMMA Collection: Donation, Novak/O'Doherty Collection, 2015",
     "image" : "spice:documentation/print-folded-map-of-the-world-with-contributions-by-artists-from-all-continents",
@@ -16,7 +16,7 @@
     "caption" : "Mieko Shiomi, Print (folded map of the world with Contributions by artists from all continents), 1965, Print, 38 x 82.8 cm, Collection Irish Museum of Modern Art, Donation, Novak/O'Doherty Collection, 2015 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2018/11/5119.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/5119.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

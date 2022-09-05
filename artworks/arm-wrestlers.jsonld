@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/arm-wrestlers",
     "@type" : "schema:CreativeWork",
-    "description" : "Arm Wrestlers is a 1986 work by John Bellany. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Arm Wrestlers is a 1986 work by John Bellany. ",
     "source" : "https://imma.ie/collection/arm-wrestlers/",
     "creditText" : "IMMA Collection: Donated by the Department of Customs and Excise, 1994 (July)",
     "image" : "spice:documentation/arm-wrestlers",
@@ -20,6 +20,9 @@
     "url" : "https://imma.ie/wp-content/uploads/2020/02/866.jpg"
   } ],
   "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
@@ -29,9 +32,6 @@
     },
     "creditText" : {
       "@id" : "http://schema.org/creditText"
-    },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

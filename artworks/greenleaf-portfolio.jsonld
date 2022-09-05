@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/greenleaf-portfolio",
     "@type" : "schema:CreativeWork",
-    "description" : "Greenleaf portfolio is a 1992 work by Bill Woodrow. It is not currently on display in IMMA. ",
+    "description" : "Greenleaf portfolio is a 1992 work by Bill Woodrow. ",
     "source" : "https://imma.ie/collection/greenleaf-portfolio/",
     "creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1995",
     "image" : "spice:documentation/greenleaf-portfolio",
@@ -22,9 +22,6 @@
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
@@ -42,6 +39,9 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "size" : {
       "@id" : "http://schema.org/size"
     },
@@ -54,8 +54,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

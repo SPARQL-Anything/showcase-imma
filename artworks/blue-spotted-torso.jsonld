@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/blue-spotted-torso",
     "@type" : "schema:CreativeWork",
-    "description" : "Blue Spotted Torso is a 1977 work by Mary Farl Powers. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Blue Spotted Torso is a 1977 work by Mary Farl Powers. ",
     "source" : "https://imma.ie/collection/blue-spotted-torso/",
     "creditText" : "IMMA Collection: Donation, Powers Family, 2009",
     "image" : "spice:documentation/blue-spotted-torso",
@@ -44,9 +44,6 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "version" : {
       "@id" : "http://schema.org/version"
     },
@@ -54,8 +51,11 @@
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
-    "schema" : "http://schema.org/",
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/political-presse",
     "@type" : "schema:CreativeWork",
-    "description" : "Political Presse is a 1975 work by Micheal Farrell. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Political Presse is a 1975 work by Micheal Farrell. ",
     "source" : "https://imma.ie/collection/political-presse/",
     "creditText" : "IMMA Collection: Purchased, 1998",
     "image" : "spice:documentation/political-presse",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

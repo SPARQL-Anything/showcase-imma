@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/as-above-so-below",
     "@type" : "schema:CreativeWork",
-    "description" : "As Above, So Below is a 2017 work by Stephen Dunne. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "As Above, So Below is a 2017 work by Stephen Dunne. ",
     "source" : "https://imma.ie/collection/as-above-so-below/",
     "creditText" : "IMMA Collection: Donation, by the artist, 2017",
     "image" : "spice:documentation/as-above-so-below",
@@ -50,8 +50,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/mary-you-forgot-your-present",
     "@type" : "schema:CreativeWork",
-    "description" : "‘Mary you forgot your present’ is a 1984 work by Michael Mulcahy. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "‘Mary you forgot your present’ is a 1984 work by Michael Mulcahy. ",
     "source" : "https://imma.ie/collection/mary-you-forgot-your-present/",
     "creditText" : "IMMA Collection: Donation, Joe Donnelly, 1991",
     "image" : "spice:documentation/mary-you-forgot-your-present",
@@ -50,8 +50,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

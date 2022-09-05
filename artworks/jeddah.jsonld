@@ -2,14 +2,14 @@
   "@graph" : [ {
     "@id" : "spice:artefact/jeddah",
     "@type" : "schema:CreativeWork",
-    "description" : "Jeddah is a 2008 work by Seán Shanahan. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Jeddah is a 2008 work by Seán Shanahan. ",
     "source" : "https://imma.ie/collection/jeddah/",
     "creditText" : "IMMA Collection: Donation, 2011",
     "image" : "spice:documentation/jeddah",
     "maintainer" : "https://w3id.org/spice/institute/imma",
     "material" : "Oil on MDF",
     "size" : "30 x 40 x 4 cm",
-    "hasInventory" : "IMMA.3417.3"
+    "hasInventory" : "IMMA.3417.003"
   }, {
     "@id" : "spice:documentation/jeddah",
     "@type" : "schema:ImageObject",
@@ -50,8 +50,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

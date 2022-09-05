@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/en-el-ser-no-11",
     "@type" : "schema:CreativeWork",
-    "description" : "En El Ser No. 11. is a 1982 work by Carlos Garcia Estrada. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "En El Ser No. 11. is a 1982 work by Carlos Garcia Estrada. ",
     "source" : "https://imma.ie/collection/en-el-ser-no-11/",
     "creditText" : "IMMA Collection: Donation, Smurfit: Cartón y Papel de México, 2000",
     "image" : "spice:documentation/en-el-ser-no-11",
@@ -29,9 +29,6 @@
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
@@ -48,14 +45,17 @@
     "material" : {
       "@id" : "http://schema.org/material"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

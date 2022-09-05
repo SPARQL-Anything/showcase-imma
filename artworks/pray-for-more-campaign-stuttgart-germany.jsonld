@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/pray-for-more-campaign-stuttgart-germany",
     "@type" : "schema:CreativeWork",
-    "description" : "‘Pray For More” campaign, Stuttgart, Germany is a 1988 work by Les Levine. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "‘Pray For More” campaign, Stuttgart, Germany is a 1988 work by Les Levine. ",
     "source" : "https://imma.ie/collection/pray-for-more-campaign-stuttgart-germany/",
     "creditText" : "IMMA Collection: Donated by Barbara and Donald Seligman, 2014",
     "image" : "spice:documentation/pray-for-more-campaign-stuttgart-germany",
@@ -50,8 +50,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

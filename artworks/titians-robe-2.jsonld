@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/titians-robe-2",
     "@type" : "schema:CreativeWork",
-    "description" : "Titian’s Robe is a 2008 work by Sean Scully. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Titian’s Robe is a 2008 work by Sean Scully. ",
     "source" : "https://imma.ie/collection/titians-robe-2/",
     "creditText" : "IMMA Collection: Purchase, funded by a grant to the American Ireland Fund by Kevin Burke and his family, 2008",
     "image" : "spice:documentation/titians-robe-2",
@@ -54,8 +54,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

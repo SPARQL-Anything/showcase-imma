@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/9-29-05",
     "@type" : "schema:CreativeWork",
-    "description" : "9.29.05 is a 2005 work by Sean Scully. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "9.29.05 is a 2005 work by Sean Scully. ",
     "source" : "https://imma.ie/collection/9-29-05/",
     "creditText" : "IMMA Collection: Gift, the artist in memory of Dorothy Walker, 2005",
     "image" : "spice:documentation/9-29-05",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

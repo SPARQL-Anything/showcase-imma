@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:artefact/bahnhofstrasse-pomes-penyeach",
     "@type" : "schema:CreativeWork",
-    "description" : "Bahnhofstrasse – Pomes Penyeach is a 1993 work by Sean Scully. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Bahnhofstrasse – Pomes Penyeach is a 1993 work by Sean Scully. ",
     "source" : "https://imma.ie/collection/bahnhofstrasse-pomes-penyeach/",
     "creditText" : "IMMA Collection: Purchase, 2004",
     "image" : "spice:documentation/bahnhofstrasse-pomes-penyeach",
     "maintainer" : "https://w3id.org/spice/institute/imma",
     "material" : "Etching",
     "size" : "54 x 40 cm (sheet)",
-    "hasInventory" : "IMMA.1643.4"
+    "hasInventory" : "IMMA.1643.004"
   }, {
     "@id" : "spice:documentation/bahnhofstrasse-pomes-penyeach",
     "@type" : "schema:ImageObject",
     "caption" : "Sean Scully, Bahnhofstrasse – Pomes Penyeach, 1993, Etching, 54 x 40 cm (sheet), Collection Irish Museum of Modern Art, Purchase, 2004 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2018/11/3955.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/3955.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

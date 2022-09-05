@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/eddie-sylvies-brother-in-the-desert-ny",
     "@type" : "schema:CreativeWork",
-    "description" : "Eddie (Sylvie’s brother) in the Desert NY is a 1966 work by Öyvind Fahlström. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Eddie (Sylvie’s brother) in the Desert NY is a 1966 work by Öyvind Fahlström. ",
     "source" : "https://imma.ie/collection/eddie-sylvies-brother-in-the-desert-ny/",
     "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/eddie-sylvies-brother-in-the-desert-ny",
@@ -20,6 +20,9 @@
     "url" : "https://imma.ie/wp-content/uploads/2018/11/1912.jpg"
   } ],
   "@context" : {
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
@@ -29,9 +32,6 @@
     },
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
-    },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "material" : {
       "@id" : "http://schema.org/material"
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

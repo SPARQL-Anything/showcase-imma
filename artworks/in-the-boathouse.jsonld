@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/in-the-boathouse",
     "@type" : "schema:CreativeWork",
-    "description" : "In the Boathouse is a 2009 work by Barrie Cooke and Seamus Heaney. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "In the Boathouse is a 2009 work by Barrie Cooke and Seamus Heaney. ",
     "source" : "https://imma.ie/collection/in-the-boathouse/",
     "creditText" : "IMMA Collection: IMMA Editions, Donated by the artist, 2009",
     "image" : "spice:documentation/in-the-boathouse",
@@ -50,8 +50,8 @@
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

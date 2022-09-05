@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/susanna",
     "@type" : "schema:CreativeWork",
-    "description" : "Susanna is a 1996 work by Lucian Freud. It is not currently on display in IMMA. ",
+    "description" : "Susanna is a 1996 work by Lucian Freud. ",
     "source" : "https://imma.ie/collection/susanna/",
     "creditText" : "IMMA Collection: On Loan, Private Collection, ",
     "image" : "spice:documentation/susanna",
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

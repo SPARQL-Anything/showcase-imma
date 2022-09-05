@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/suspended-forms-triptych",
     "@type" : "schema:CreativeWork",
-    "description" : "Suspended Forms (triptych) is a 1982 work by Terry Frost. It is not currently on display in IMMA. ",
+    "description" : "Suspended Forms (triptych) is a 1982 work by Terry Frost. ",
     "source" : "https://imma.ie/collection/suspended-forms-triptych/",
     "creditText" : "IMMA Collection: Loan, George and Maura McClelland, 2005",
     "image" : "spice:documentation/suspended-forms-triptych",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

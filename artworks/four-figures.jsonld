@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/four-figures",
     "@type" : "schema:CreativeWork",
-    "description" : "Four Figures is a 1991 work by Lucian Freud. It is not currently on display in IMMA. ",
+    "description" : "Four Figures is a 1991 work by Lucian Freud. ",
     "source" : "https://imma.ie/collection/four-figures/",
     "creditText" : "IMMA Collection: On Loan, Private Collection, ",
     "image" : "spice:documentation/four-figures",
@@ -37,6 +37,9 @@
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
@@ -45,9 +48,6 @@
     },
     "size" : {
       "@id" : "http://schema.org/size"
-    },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "creditText" : {
       "@id" : "http://schema.org/creditText"
@@ -58,8 +58,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

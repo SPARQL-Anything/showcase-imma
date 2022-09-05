@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/little-wanganui-river-viii",
     "@type" : "schema:CreativeWork",
-    "description" : "Little Wanganui River VIII is a 1998 work by Barrie Cooke. It is not currently on display in IMMA. ",
+    "description" : "Little Wanganui River VIII is a 1998 work by Barrie Cooke. ",
     "source" : "https://imma.ie/collection/little-wanganui-river-viii/",
     "creditText" : "IMMA Collection: Loan, Maire and Maurice Foley, 2004",
     "image" : "spice:documentation/little-wanganui-river-viii",
@@ -54,8 +54,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/criss-cross-no-2",
     "@type" : "schema:CreativeWork",
-    "description" : "Criss Cross, No 2 is a 1969 work by Anne Madden. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Criss Cross, No 2 is a 1969 work by Anne Madden. ",
     "source" : "https://imma.ie/collection/criss-cross-no-2/",
     "creditText" : "IMMA Collection: Heritage Gift, P.J. Carroll &amp; Co. Ltd. Art Collection, 2005",
     "image" : "spice:documentation/criss-cross-no-2",
@@ -22,14 +22,14 @@
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
     "material" : {
       "@id" : "http://schema.org/material"
-    },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
@@ -54,8 +54,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

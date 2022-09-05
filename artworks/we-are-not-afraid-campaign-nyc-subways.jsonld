@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/we-are-not-afraid-campaign-nyc-subways",
     "@type" : "schema:CreativeWork",
-    "description" : "”We Are Not Afraid” campaign, NYC subways is a 1981 work by Les Levine. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "”We Are Not Afraid” campaign, NYC subways is a 1981 work by Les Levine. ",
     "source" : "https://imma.ie/collection/we-are-not-afraid-campaign-nyc-subways/",
     "creditText" : "IMMA Collection: Donated by Barbara and Donald Seligman, 2014",
     "image" : "spice:documentation/we-are-not-afraid-campaign-nyc-subways",
@@ -16,7 +16,7 @@
     "caption" : "Les Levine, ”We Are Not Afraid” campaign, NYC subways, 1981, Unique cibachrome, 50.8 x 60.96 cm, Collection Irish Museum of Modern Art, Donated by Barbara and Donald Seligman, 2014 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2021/03/7221.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/7221.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -54,8 +54,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/the-field",
     "@type" : "schema:CreativeWork",
-    "description" : "The Field is a 2009 work by Apichatpong Weerasethakul. It is not currently on display in IMMA. It is currently out on loan. It is part of the IMMA Permanent Collection. ",
+    "description" : "The Field is a 2009 work by Apichatpong Weerasethakul. ",
     "source" : "https://imma.ie/collection/the-field/",
     "creditText" : "IMMA Collection: Donation, 2011",
     "image" : "spice:documentation/the-field",
@@ -17,15 +17,12 @@
     "caption" : "Apichatpong Weerasethakul, The Field, 2009, Inkjet print mounted on diabond, 147 x 222 cm Framed: 152.2 x 227 x 5 cm, Collection Irish Museum of Modern Art, Donation, 2011 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2021/07/6148.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/6148.jpg"
   } ],
   "@context" : {
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
-    },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
@@ -43,6 +40,9 @@
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "size" : {
       "@id" : "http://schema.org/size"
     },
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

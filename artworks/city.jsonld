@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/city",
     "@type" : "schema:CreativeWork",
-    "description" : "City is a 1975 work by Constantino Nivola. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "City is a 1975 work by Constantino Nivola. ",
     "source" : "https://imma.ie/collection/city/",
     "creditText" : "IMMA Collection: Donation, Novak/O'Doherty Collection, 2015",
     "image" : "spice:documentation/city",
@@ -27,14 +27,14 @@
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
-    },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

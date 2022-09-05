@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/camac",
     "@type" : "schema:CreativeWork",
-    "description" : "Camac is a 2001 work by Lennon. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Camac is a 2001 work by Lennon. ",
     "source" : "https://imma.ie/collection/camac/",
     "creditText" : "IMMA Collection: Purchase, 2003",
     "image" : "spice:documentation/camac",
@@ -46,8 +46,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

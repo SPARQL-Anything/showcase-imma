@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/3-dias-crepusculares",
     "@type" : "schema:CreativeWork",
-    "description" : "3 Dias Crepusculares is a 1983 work by Raymundo Sesma. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "3 Dias Crepusculares is a 1983 work by Raymundo Sesma. ",
     "source" : "https://imma.ie/collection/3-dias-crepusculares/",
     "creditText" : "IMMA Collection: Donation, Smurfit: Cartón y Papel de México, 2000",
     "image" : "spice:documentation/3-dias-crepusculares",
@@ -33,11 +33,11 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "version" : {
-      "@id" : "http://schema.org/version"
-    },
     "description" : {
       "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "version" : {
+      "@id" : "http://schema.org/version"
     },
     "creditText" : {
       "@id" : "http://schema.org/creditText"
@@ -58,8 +58,8 @@
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

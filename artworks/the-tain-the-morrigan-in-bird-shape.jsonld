@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/the-tain-the-morrigan-in-bird-shape",
     "@type" : "schema:CreativeWork",
-    "description" : "The Táin. The Morrígan in bird shape is a 1969 work by Louis le Brocquy. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "The Táin. The Morrígan in bird shape is a 1969 work by Louis le Brocquy. ",
     "source" : "https://imma.ie/collection/the-tain-the-morrigan-in-bird-shape/",
     "creditText" : "IMMA Collection: Heritage Gift by Brian Timmons, 2001",
     "image" : "spice:documentation/the-tain-the-morrigan-in-bird-shape",
@@ -17,7 +17,7 @@
     "caption" : "Louis le Brocquy, The Táin. The Morrígan in bird shape, 1969, Aubusson Tapestry, Atelier René Duché, 1999, 184 x 129 cm, Collection Irish Museum of Modern Art, Heritage Gift by Brian Timmons, 2001 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2018/12/148.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/148.jpg"
   } ],
   "@context" : {
     "material" : {
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

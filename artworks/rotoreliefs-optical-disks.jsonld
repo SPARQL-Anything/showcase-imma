@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/rotoreliefs-optical-disks",
     "@type" : "schema:CreativeWork",
-    "description" : "Rotoreliefs (Optical Disks) is a 1935 work by Marcel Duchamp. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Rotoreliefs (Optical Disks) is a 1935 work by Marcel Duchamp. ",
     "source" : "https://imma.ie/collection/rotoreliefs-optical-disks/",
     "creditText" : "IMMA Collection: The Novak/O'Doherty Collection at IMMA Gift, The American Ireland Fund, 2014",
     "image" : "spice:documentation/rotoreliefs-optical-disks",
@@ -16,7 +16,7 @@
     "caption" : "Marcel Duchamp, Rotoreliefs (Optical Disks), 1935, Set of 12 offset lithograph in colors, on both sides of six cardboard disks, contained in original plastic holder, Collection Irish Museum of Modern Art, The Novak/O'Doherty Collection at IMMA Gift, The American Ireland Fund, 2014 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2018/11/5076.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/5076.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -54,8 +54,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

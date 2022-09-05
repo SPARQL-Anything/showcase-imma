@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/the-great-inagua",
     "@type" : "schema:CreativeWork",
-    "description" : "The Great Inagua is a 1986 work by Tony O'Malley. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "The Great Inagua is a 1986 work by Tony O'Malley. ",
     "source" : "https://imma.ie/collection/the-great-inagua/",
     "creditText" : "IMMA Collection: Donation, Maire and Maurice Foley, 2000",
     "image" : "spice:documentation/the-great-inagua",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

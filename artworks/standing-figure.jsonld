@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/standing-figure",
     "@type" : "schema:CreativeWork",
-    "description" : "Standing Figure is a 1945 work by Hilary Heron. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Standing Figure is a 1945 work by Hilary Heron. ",
     "source" : "https://imma.ie/collection/standing-figure/",
     "creditText" : "IMMA Collection: Heritage Gift by Mr. Noel Smyth, 2003",
     "image" : "spice:documentation/standing-figure",
@@ -50,8 +50,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

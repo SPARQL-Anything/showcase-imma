@@ -2,21 +2,21 @@
   "@graph" : [ {
     "@id" : "spice:artefact/a-prayer-pomes-penyeach",
     "@type" : "schema:CreativeWork",
-    "description" : "A Prayer – Pomes Penyeach is a 1993 work by Sean Scully. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "A Prayer – Pomes Penyeach is a 1993 work by Sean Scully. ",
     "source" : "https://imma.ie/collection/a-prayer-pomes-penyeach/",
     "creditText" : "IMMA Collection: Purchase, 2004",
     "image" : "spice:documentation/a-prayer-pomes-penyeach",
     "maintainer" : "https://w3id.org/spice/institute/imma",
     "material" : "Etching",
     "size" : "54 x 40 cm (sheet)",
-    "hasInventory" : "IMMA.1643.12"
+    "hasInventory" : "IMMA.1643.012"
   }, {
     "@id" : "spice:documentation/a-prayer-pomes-penyeach",
     "@type" : "schema:ImageObject",
     "caption" : "Sean Scully, A Prayer – Pomes Penyeach, 1993, Etching, 54 x 40 cm (sheet), Collection Irish Museum of Modern Art, Purchase, 2004 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2020/02/3963.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/3963.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -54,8 +54,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/raval-7",
     "@type" : "schema:CreativeWork",
-    "description" : "Raval 7 is a 1996 work by Sean Scully. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Raval 7 is a 1996 work by Sean Scully. ",
     "source" : "https://imma.ie/collection/raval-7/",
     "creditText" : "IMMA Collection: Donation, IBRC, 2011",
     "image" : "spice:documentation/raval-7",
@@ -31,12 +31,12 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
       "@type" : "@id"
-    },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -54,8 +54,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

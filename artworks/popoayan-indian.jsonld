@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/popoayan-indian",
     "@type" : "schema:CreativeWork",
-    "description" : "Popoayan Indian is a 1982 work by Gregorio Cuartas. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Popoayan Indian is a 1982 work by Gregorio Cuartas. ",
     "source" : "https://imma.ie/collection/popoayan-indian/",
     "creditText" : "IMMA Collection: Donation, Smurfit: Cartón y Papel de México, 2000",
     "image" : "spice:documentation/popoayan-indian",
@@ -38,11 +38,11 @@
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "material" : {
       "@id" : "http://schema.org/material"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "size" : {
       "@id" : "http://schema.org/size"
@@ -54,8 +54,8 @@
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

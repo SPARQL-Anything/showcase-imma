@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/poet",
     "@type" : "schema:CreativeWork",
-    "description" : "Poet is a 1985 work by Chris Doris. It is not currently on display in IMMA. ",
+    "description" : "Poet is a 1985 work by Chris Doris. ",
     "source" : "https://imma.ie/collection/poet/",
     "creditText" : "IMMA Collection: Permanent Loan, the Contemporary Irish art Society, 1992",
     "image" : "spice:documentation/poet",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

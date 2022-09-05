@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/volume-iii-buschbuch",
     "@type" : "schema:CreativeWork",
-    "description" : "Volume III – Buschbuch is a 2006 work by Thomas Schütte. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Volume III – Buschbuch is a 2006 work by Thomas Schütte. ",
     "source" : "https://imma.ie/collection/volume-iii-buschbuch/",
     "creditText" : "IMMA Collection: Purchase, 2006",
     "image" : "spice:documentation/volume-iii-buschbuch",
@@ -35,15 +35,15 @@
     "material" : {
       "@id" : "http://schema.org/material"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
-    },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "version" : {
       "@id" : "http://schema.org/version"
@@ -54,8 +54,8 @@
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/habitation-extended-enclosure",
     "@type" : "schema:CreativeWork",
-    "description" : "Habitation &amp; Extended Enclosure is a 1995 work by Maria Simonds-Gooding. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Habitation &amp; Extended Enclosure is a 1995 work by Maria Simonds-Gooding. ",
     "source" : "https://imma.ie/collection/habitation-extended-enclosure/",
     "creditText" : "IMMA Collection: Purchase, 1995",
     "image" : "spice:documentation/habitation-extended-enclosure",
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/salt-marsh-suite",
     "@type" : "schema:CreativeWork",
-    "description" : "Salt Marsh Suite is a 2003 work by Suzanne Caporael. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Salt Marsh Suite is a 2003 work by Suzanne Caporael. ",
     "source" : "https://imma.ie/collection/salt-marsh-suite/",
     "creditText" : "IMMA Collection: Gordon Lambert Trust, 2001",
     "image" : "spice:documentation/salt-marsh-suite",
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

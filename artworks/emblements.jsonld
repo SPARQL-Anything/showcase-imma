@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/emblements",
     "@type" : "schema:CreativeWork",
-    "description" : "Emblements is a 1981 work by Mary Farl Powers. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Emblements is a 1981 work by Mary Farl Powers. ",
     "source" : "https://imma.ie/collection/emblements/",
     "creditText" : "IMMA Collection: Donation, Powers Family, 2009",
     "image" : "spice:documentation/emblements",
@@ -17,7 +17,7 @@
     "caption" : "Mary Farl Powers, Emblements, 1981, Colour etching on paper, 39 x 48 cm, Collection Irish Museum of Modern Art, Donation, Powers Family, 2009 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2020/02/1012.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/1012.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -36,9 +36,6 @@
     "size" : {
       "@id" : "http://schema.org/size"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
@@ -52,14 +49,17 @@
     "version" : {
       "@id" : "http://schema.org/version"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "material" : {
       "@id" : "http://schema.org/material"
     },
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/eric",
     "@type" : "schema:CreativeWork",
-    "description" : "Eric is a 2005 work by Paul Mpagi Sepuya. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Eric is a 2005 work by Paul Mpagi Sepuya. ",
     "source" : "https://imma.ie/collection/eric/",
     "creditText" : "IMMA Collection: Donation, David Kronn Collection, 2015",
     "image" : "spice:documentation/eric",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

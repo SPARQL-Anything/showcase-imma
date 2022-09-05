@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/untitled-q-96",
     "@type" : "schema:CreativeWork",
-    "description" : "Untitled (Q-96) is a 2006 work by Thomas Nozkowski. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Untitled (Q-96) is a 2006 work by Thomas Nozkowski. ",
     "source" : "https://imma.ie/collection/untitled-q-96/",
     "creditText" : "IMMA Collection: Purchase, 2006",
     "image" : "spice:documentation/untitled-q-96",
@@ -58,8 +58,8 @@
     "size" : {
       "@id" : "http://schema.org/size"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

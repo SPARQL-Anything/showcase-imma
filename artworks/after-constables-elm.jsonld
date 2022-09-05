@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/after-constables-elm",
     "@type" : "schema:CreativeWork",
-    "description" : "After Constable’s Elm is a 2003 work by Lucian Freud. It is not currently on display in IMMA. ",
+    "description" : "After Constable’s Elm is a 2003 work by Lucian Freud. ",
     "source" : "https://imma.ie/collection/after-constables-elm/",
     "creditText" : "IMMA Collection: On Loan, Private Collection, ",
     "image" : "spice:documentation/after-constables-elm",
@@ -33,6 +33,9 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "version" : {
       "@id" : "http://schema.org/version"
     },
@@ -42,9 +45,6 @@
     "image" : {
       "@id" : "http://schema.org/image",
       "@type" : "@id"
-    },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "material" : {
       "@id" : "http://schema.org/material"
@@ -58,8 +58,8 @@
     "size" : {
       "@id" : "http://schema.org/size"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

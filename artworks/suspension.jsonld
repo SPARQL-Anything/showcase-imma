@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/suspension",
     "@type" : "schema:CreativeWork",
-    "description" : "Suspension is a 1988 work by Antony Gormley. It is not currently on display in IMMA. ",
+    "description" : "Suspension is a 1988 work by Antony Gormley. ",
     "source" : "https://imma.ie/collection/suspension/",
     "creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1995",
     "image" : "spice:documentation/suspension",
@@ -54,8 +54,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

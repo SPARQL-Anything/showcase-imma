@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/pearse-street",
     "@type" : "schema:CreativeWork",
-    "description" : "Pearse Street is a 1952 work by Nevill Johnson. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Pearse Street is a 1952 work by Nevill Johnson. ",
     "source" : "https://imma.ie/collection/pearse-street/",
     "creditText" : "IMMA Collection: Acquired with the assistance of the Friends of the National Collections of Ireland, 2010",
     "image" : "spice:documentation/pearse-street",
@@ -17,7 +17,7 @@
     "caption" : "Nevill Johnson, Pearse Street, 1952, Selenium toned gelatin silver prints, 34 x 27 cm, Collection Irish Museum of Modern Art, Acquired with the assistance of the Friends of the National Collections of Ireland, 2010 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2020/02/5358.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/5358.jpg"
   } ],
   "@context" : {
     "material" : {
@@ -58,8 +58,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

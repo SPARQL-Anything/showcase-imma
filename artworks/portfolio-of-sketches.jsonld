@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/portfolio-of-sketches",
     "@type" : "schema:CreativeWork",
-    "description" : "Portfolio of Sketches is a 1940 work by Hilary Heron. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Portfolio of Sketches is a 1940 work by Hilary Heron. ",
     "source" : "https://imma.ie/collection/portfolio-of-sketches/",
     "creditText" : "IMMA Collection: Donated by Brian O'Kennedy, 1994",
     "image" : "spice:documentation/portfolio-of-sketches",
@@ -50,8 +50,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/a-day-like-any-other",
     "@type" : "schema:CreativeWork",
-    "description" : "A Day Like Any Other is a 2011 work by Rivane Neuenschwander. It is not currently on display in IMMA. It is currently out on loan. It is part of the IMMA Permanent Collection. ",
+    "description" : "A Day Like Any Other is a 2011 work by Giles Round and Rivane Neuenschwander. ",
     "source" : "https://imma.ie/collection/a-day-like-any-other/",
     "creditText" : "IMMA Collection: IMMA Editions, Donated by the artist, 2011",
     "image" : "spice:documentation/a-day-like-any-other",
@@ -14,10 +14,8 @@
   }, {
     "@id" : "spice:documentation/a-day-like-any-other",
     "@type" : "schema:ImageObject",
-    "caption" : "Rivane Neuenschwander, A Day Like Any Other, 2011, Modified flip clock, variable clock 14.5 x 28.5 x 11 cm base 2.5 x 15.2 x 6.8 cm, Collection Irish Museum of Modern Art, IMMA Editions, Donated by the artist, 2011 ",
-    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2021/09/7155.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/7155.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
@@ -25,6 +23,9 @@
     },
     "size" : {
       "@id" : "http://schema.org/size"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "maintainer" : {
       "@id" : "http://schema.org/maintainer",
@@ -43,23 +44,14 @@
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "version" : {
       "@id" : "http://schema.org/version"
-    },
-    "copyrightNotice" : {
-      "@id" : "http://schema.org/copyrightNotice"
-    },
-    "caption" : {
-      "@id" : "http://schema.org/caption"
     },
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/bird-table-st-martins",
     "@type" : "schema:CreativeWork",
-    "description" : "Bird Table St Martins is a 1974 work by Tony O'Malley. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Bird Table St Martins is a 1974 work by Tony O'Malley. ",
     "source" : "https://imma.ie/collection/bird-table-st-martins/",
     "creditText" : "IMMA Collection: Heritage Gift from the McClelland Collection by Noel and Anne Marie Smyth, 2004",
     "image" : "spice:documentation/bird-table-st-martins",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

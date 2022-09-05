@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/documentation-for-an-artwork-light-piece-proposal-for-an-installation-hendricks-gallery",
     "@type" : "schema:CreativeWork",
-    "description" : "Documentation for an artwork, Light Piece – Proposal for an installation, Hendricks Gallery is a 1973 work by James Coleman. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Documentation for an artwork, Light Piece – Proposal for an installation, Hendricks Gallery is a 1973 work by James Coleman. ",
     "source" : "https://imma.ie/collection/documentation-for-an-artwork-light-piece-proposal-for-an-installation-hendricks-gallery/",
     "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/documentation-for-an-artwork-light-piece-proposal-for-an-installation-hendricks-gallery",
@@ -54,8 +54,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

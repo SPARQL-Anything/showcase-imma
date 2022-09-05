@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/portrait-of-j-with-basque-hat",
     "@type" : "schema:CreativeWork",
-    "description" : "Portrait of J with Basque hat is a 1982 work by Brian Bourke. It is not currently on display in IMMA. ",
+    "description" : "Portrait of J with Basque hat is a 1982 work by Brian Bourke. ",
     "source" : "https://imma.ie/collection/portrait-of-j-with-basque-hat/",
     "creditText" : "IMMA Collection: Loan, Maire and Maurice Foley, 2004",
     "image" : "spice:documentation/portrait-of-j-with-basque-hat",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

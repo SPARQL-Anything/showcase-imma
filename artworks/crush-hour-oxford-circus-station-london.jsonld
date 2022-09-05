@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/crush-hour-oxford-circus-station-london",
     "@type" : "schema:CreativeWork",
-    "description" : "Crush Hour, Oxford Circus Station, London is a 1988 work by Elinor Wiltshire. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Crush Hour, Oxford Circus Station, London is a 1988 work by Elinor Wiltshire. ",
     "source" : "https://imma.ie/collection/crush-hour-oxford-circus-station-london/",
     "creditText" : "IMMA Collection: Donation, Elinor Vere O’Brien Wiltshire, 2013",
     "image" : "spice:documentation/crush-hour-oxford-circus-station-london",
@@ -16,7 +16,7 @@
     "caption" : "Elinor Wiltshire, Crush Hour, Oxford Circus Station, London, 1988, Wool, Framed: 33.5 x 40.6 cm, Collection Irish Museum of Modern Art, Donation, Elinor Vere O’Brien Wiltshire, 2013 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2021/03/7124.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/7124.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

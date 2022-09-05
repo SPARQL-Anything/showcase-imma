@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/three-studies-for-a-crucifixion",
     "@type" : "schema:CreativeWork",
-    "description" : "Three Studies for A Crucifixion is a 1996 work by Hughie O'Donoghue. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Three Studies for A Crucifixion is a 1996 work by Hughie O'Donoghue. ",
     "source" : "https://imma.ie/collection/three-studies-for-a-crucifixion/",
     "creditText" : "IMMA Collection: Gift, The American Ireland Fund, 2010",
     "image" : "spice:documentation/three-studies-for-a-crucifixion",
@@ -32,6 +32,9 @@
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "size" : {
       "@id" : "http://schema.org/size"
     },
@@ -40,9 +43,6 @@
     },
     "version" : {
       "@id" : "http://schema.org/version"
-    },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
@@ -54,8 +54,8 @@
       "@id" : "http://schema.org/image",
       "@type" : "@id"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

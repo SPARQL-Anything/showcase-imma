@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/field-of-old-stones",
     "@type" : "schema:CreativeWork",
-    "description" : "Field of Old Stones is a 1978 work by Patrick Collins. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Field of Old Stones is a 1978 work by Patrick Collins. ",
     "source" : "https://imma.ie/collection/field-of-old-stones/",
     "creditText" : "IMMA Collection: Heritage Gift, P.J. Carroll &amp; Co. Ltd. Art Collection, 2005",
     "image" : "spice:documentation/field-of-old-stones",
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

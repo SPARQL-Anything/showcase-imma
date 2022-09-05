@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/skull-drawing-self-portrait",
     "@type" : "schema:CreativeWork",
-    "description" : "Skull drawing – Self portrait is a 2002 work by Tom Molloy. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Skull drawing – Self portrait is a 2002 work by Tom Molloy. ",
     "source" : "https://imma.ie/collection/skull-drawing-self-portrait/",
     "creditText" : "IMMA Collection: Purchase, 2002",
     "image" : "spice:documentation/skull-drawing-self-portrait",
@@ -50,8 +50,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

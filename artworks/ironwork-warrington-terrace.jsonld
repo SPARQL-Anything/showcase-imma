@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/ironwork-warrington-terrace",
     "@type" : "schema:CreativeWork",
-    "description" : "Ironwork, Warrington Terrace is a 1952 work by Nevill Johnson. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Ironwork, Warrington Terrace is a 1952 work by Nevill Johnson. ",
     "source" : "https://imma.ie/collection/ironwork-warrington-terrace/",
     "creditText" : "IMMA Collection: Acquired with the assistance of the Friends of the National Collections of Ireland, 2010",
     "image" : "spice:documentation/ironwork-warrington-terrace",
@@ -17,7 +17,7 @@
     "caption" : "Nevill Johnson, Ironwork, Warrington Terrace, 1952, Selenium toned gelatin silver prints, 34 x 27 cm, Collection Irish Museum of Modern Art, Acquired with the assistance of the Friends of the National Collections of Ireland, 2010 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2018/11/5354.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/5354-scaled.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -32,6 +32,9 @@
     },
     "url" : {
       "@id" : "http://schema.org/url"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
     },
     "image" : {
       "@id" : "http://schema.org/image",
@@ -49,17 +52,14 @@
     "material" : {
       "@id" : "http://schema.org/material"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "version" : {
       "@id" : "http://schema.org/version"
     },
     "hasInventory" : {
       "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

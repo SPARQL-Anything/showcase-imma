@@ -1,0 +1,75 @@
+{
+  "@graph" : [ {
+    "@id" : "spice:artefact/the-history-of-tears-2",
+    "@type" : "schema:CreativeWork",
+    "description" : "This specially commissioned cloth handkerchief by Alice Maher was produced on the occasion of her 2012 – 2013 solo exhibition in IMMA.",
+    "source" : "https://imma.ie/collection/the-history-of-tears-2/",
+    "creditText" : "IMMA Collection: IMMA Editions, Donated by the artist, 2013",
+    "image" : "spice:documentation/the-history-of-tears-2",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "material" : "Silk handkerchief. Printed by Glasgow School of Art, Centre for Advanced Textiles. Sewn by Fashion Hothouse, Dublin",
+    "size" : "28 x 28 cm",
+    "version" : "Edition of 200",
+    "hasInventory" : "IMMA.3810"
+  }, {
+    "@id" : "spice:documentation/the-history-of-tears-2",
+    "@type" : "schema:ImageObject",
+    "caption" : "Alice Maher, The History of Tears, 2013, Silk handkerchief. Printed by Glasgow School of Art, Centre for Advanced Textiles. Sewn by Fashion Hothouse, Dublin, 28 x 28 cm, Collection Irish Museum of Modern Art, IMMA Editions, Donated by the artist, 2013 ",
+    "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
+    "maintainer" : "https://w3id.org/spice/institute/imma",
+    "url" : "https://imma.ie/wp-content/uploads/2022/02/7165-1.jpg"
+  } ],
+  "@context" : {
+    "copyrightNotice" : {
+      "@id" : "http://schema.org/copyrightNotice"
+    },
+    "caption" : {
+      "@id" : "http://schema.org/caption"
+    },
+    "maintainer" : {
+      "@id" : "http://schema.org/maintainer",
+      "@type" : "@id"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material"
+    },
+    "version" : {
+      "@id" : "http://schema.org/version"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "hasInventory" : {
+      "@id" : "https://w3id.org/arco/ontology/context-description/hasInventory"
+    },
+    "size" : {
+      "@id" : "http://schema.org/size"
+    },
+    "creditText" : {
+      "@id" : "http://schema.org/creditText"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image",
+      "@type" : "@id"
+    },
+    "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
+    "dom" : "https://html.spec.whatwg.org/#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "spice" : "https://w3id.org/spice/imma/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "xhtml" : "http://www.w3.org/1999/xhtml#",
+    "arco" : "https://w3id.org/arco/ontology/arco/",
+    "fx" : "http://sparql.xyz/facade-x/ns/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "arco-cd" : "https://w3id.org/arco/ontology/context-description/",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

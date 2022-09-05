@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/there-were-so-many-doors-too",
     "@type" : "schema:CreativeWork",
-    "description" : "There were so many doors too, . . . is a 1973 work by Jochen Gerz. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "There were so many doors too, . . . is a 1973 work by Jochen Gerz. ",
     "source" : "https://imma.ie/collection/there-were-so-many-doors-too/",
     "creditText" : "IMMA Collection: Gordon Lambert Trust, 1992",
     "image" : "spice:documentation/there-were-so-many-doors-too",
@@ -54,8 +54,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

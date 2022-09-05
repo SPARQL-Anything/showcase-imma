@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/floating-world",
     "@type" : "schema:CreativeWork",
-    "description" : "Floating World is a 2008 work by Tim Goulding. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Floating World is a 2008 work by Tim Goulding. ",
     "source" : "https://imma.ie/collection/floating-world/",
     "creditText" : "IMMA Collection: Donation, Graphic Studio Dublin, 2011",
     "image" : "spice:documentation/floating-world",
@@ -43,9 +43,6 @@
     "version" : {
       "@id" : "http://schema.org/version"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
     "material" : {
       "@id" : "http://schema.org/material"
     },
@@ -58,8 +55,11 @@
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
-    "schema" : "http://schema.org/",
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

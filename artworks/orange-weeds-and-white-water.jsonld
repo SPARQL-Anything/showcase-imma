@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/orange-weeds-and-white-water",
     "@type" : "schema:CreativeWork",
-    "description" : "Orange Weeds and White Water is a 1972 work by Norah McGuinness. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Orange Weeds and White Water is a 1972 work by Norah McGuinness. ",
     "source" : "https://imma.ie/collection/orange-weeds-and-white-water/",
     "creditText" : "IMMA Collection: Heritage Gift by Bank of Ireland, 1999",
     "image" : "spice:documentation/orange-weeds-and-white-water",
@@ -50,8 +50,8 @@
     "caption" : {
       "@id" : "http://schema.org/caption"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

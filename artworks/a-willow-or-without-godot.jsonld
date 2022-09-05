@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/a-willow-or-without-godot",
     "@type" : "schema:CreativeWork",
-    "description" : "A Willow (Or Without Godot) is a 2006 work by Alexandra do Carmo. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "A Willow (Or Without Godot) is a 2006 work by Alexandra do Carmo. ",
     "source" : "https://imma.ie/collection/a-willow-or-without-godot/",
     "creditText" : "IMMA Collection: Purchase, 2006",
     "image" : "spice:documentation/a-willow-or-without-godot",
@@ -50,8 +50,8 @@
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

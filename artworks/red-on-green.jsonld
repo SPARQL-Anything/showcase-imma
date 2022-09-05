@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/red-on-green",
     "@type" : "schema:CreativeWork",
-    "description" : "Red on Green is a 1975 work by Mary Farl Powers. It is not currently on display in IMMA. It is part of the IMMA Permanent Collection. ",
+    "description" : "Red on Green is a 1975 work by Mary Farl Powers. ",
     "source" : "https://imma.ie/collection/red-on-green/",
     "creditText" : "IMMA Collection: Donation, Powers Family, 2009",
     "image" : "spice:documentation/red-on-green",
@@ -17,7 +17,7 @@
     "caption" : "Mary Farl Powers, Red on Green, 1975, Colour etching, 43 x 30 cm, Collection Irish Museum of Modern Art, Donation, Powers Family, 2009 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2019/10/994.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/08/994.jpg"
   } ],
   "@context" : {
     "copyrightNotice" : {
@@ -39,6 +39,9 @@
     "material" : {
       "@id" : "http://schema.org/material"
     },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
     "source" : {
       "@id" : "http://purl.org/dc/elements/1.1/source"
     },
@@ -55,11 +58,8 @@
     "creditText" : {
       "@id" : "http://schema.org/creditText"
     },
-    "description" : {
-      "@id" : "http://purl.org/dc/elements/1.1/description"
-    },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",

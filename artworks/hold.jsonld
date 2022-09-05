@@ -2,7 +2,7 @@
   "@graph" : [ {
     "@id" : "spice:artefact/hold",
     "@type" : "schema:CreativeWork",
-    "description" : "Hold is a 1988 work by Antony Gormley. It is not currently on display in IMMA. ",
+    "description" : "Hold is a 1988 work by Antony Gormley. ",
     "source" : "https://imma.ie/collection/hold/",
     "creditText" : "IMMA Collection: Loan, Weltkunst Foundation, 1995",
     "image" : "spice:documentation/hold",
@@ -16,7 +16,7 @@
     "caption" : "Antony Gormley, Hold, 1988, Oil and pigment on paper, 137 x 101.5 cm, Collection Irish Museum of Modern Art, Loan, Weltkunst Foundation, 1995 ",
     "copyrightNotice" : "For copyright information, please contact the IMMA Collections team.",
     "maintainer" : "https://w3id.org/spice/institute/imma",
-    "url" : "https://imma.ie/wp-content/uploads/2018/11/895.jpg"
+    "url" : "https://imma.ie/wp-content/uploads/2022/03/895.jpg"
   } ],
   "@context" : {
     "hasInventory" : {
@@ -54,8 +54,8 @@
     "url" : {
       "@id" : "http://schema.org/url"
     },
-    "schema" : "http://schema.org/",
     "arco-core" : "https://w3id.org/arco/ontology/core/",
+    "schema" : "http://schema.org/",
     "dom" : "https://html.spec.whatwg.org/#",
     "owl" : "http://www.w3.org/2002/07/owl#",
     "spice" : "https://w3id.org/spice/imma/",
